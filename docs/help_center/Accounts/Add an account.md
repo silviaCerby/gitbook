@@ -1,8 +1,8 @@
+---
+description: This article describes how to add an account to your Cerby workspa
+---
+
 # Add an account
-
-## Add an account
-
-**Description:** This article describes how to add an account to your Cerby workspace.
 
 {% hint style="info" %}
 **Who can use this feature?**
