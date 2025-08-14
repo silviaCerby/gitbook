@@ -1,2 +1,0 @@
-# Monitoring workspace events
-
