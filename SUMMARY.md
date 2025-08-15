@@ -2,6 +2,12 @@
 
 * [Help Center](README.md)
 
+
+## What's new
+
+* [Boost your account security with passkeys in Cerby](what's_new?/boost_your_account_security_with_passkeys_in_cerby.md)
+* [Release Notes - July 21, 2025](what's_new?/release_notes_july_21,_2025.md)
+
 ## Accounts
 
 * [Explore Accounts](accounts/Explore_Accounts.md)
@@ -12,3 +18,5 @@
 ### Protecting your accounts
 
 * [Explore the Cerby-managed verification methods for your accounts](accounts/protecting_your_accounts/explore_the_cerby_managed_verification_methods_for_your_accounts.md)
+
+
