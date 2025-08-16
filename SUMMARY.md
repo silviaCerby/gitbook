@@ -2,7 +2,6 @@
 
 * [Help Center](README.md)
 
-
 ## What's new
 
 * [Boost your account security with passkeys in Cerby](what's_new?/boost_your_account_security_with_passkeys_in_cerby.md)
@@ -15,8 +14,6 @@
 * [Add an account](accounts/Add_an_account.md)
 * [Add and manage custom fields for your accounts](accounts/Add_and_manage_custom_fields_for_your_accounts.md)
 
-### Protecting your accounts
+## Protecting your accounts
 
 * [Explore the Cerby-managed verification methods for your accounts](accounts/protecting_your_accounts/explore_the_cerby_managed_verification_methods_for_your_accounts.md)
-
-
