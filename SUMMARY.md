@@ -17,7 +17,7 @@
 ## Protecting your accounts
 
 * [Explore the Cerby-managed verification methods for your accounts](accounts/protecting_your_accounts/explore_the_cerby_managed_verification_methods_for_your_accounts.md)
-* [Best practices for your accounts](accounts/best_practices_for_your_accounts/README.md)
-  * [Best practices when onboarding social media accounts to Cerby](ccounts/best_practices_for_your_accounts/best_practices_when_onboarding_social_media_accounts_to_cerby.md)
+* [Best practices for your account](accounts/best_practices_for_your_accounts/README.md)
+  * [Best practices when onboarding social media accounts to Cerby](accounts/best_practices_for_your_accounts/best_practices_when_onboarding_social_media_accounts_to_cerby.md)
   * [Cerby secure automation: Non-human identity best practices](accounts/best_practices_for_your_accounts/cerby_secure_automation_non_human_identity_best_practices.md)
   * [Configure your accounts with the highest security level](accounts/best_practices_for_your_accounts/configure_your_accounts_with_the_highest_security_level.md)
