@@ -2,7 +2,20 @@
 description: >-
   This article describes the benefits of using passkeys with Cerby to boost your
   account security.
-hidden: true
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Boost your account security with passkeys in Cerby
