@@ -1,0 +1,1354 @@
+---
+openapi: 3.0.0
+info:
+  title: Public API
+  description: >
+    The Cerby API enables you to retrieve information about your accounts,
+    secrets, collections, members, teams, jobs, and integrations stored in your
+    Cerby workspace.
+  version: 0.1.0
+tags:
+  - name: Collections
+    description: |
+      In Cerby, collections are groups of accounts, secrets, and subcollections created to organize and categorize saved items. A `collection` object contains information about the collection label, the number of accounts and secrets within it, the dates when the collection was created and last updated, and the user who created and last updated the collection and their role.
+
+      A `collection` object is created in Cerby when you perform any of the following actions:
+
+      - Add a collection manually through the Cerby web app.
+      - Import vaults or folders from your password manager.
+      With the Cerby API, you can retrieve all collections or specific collections by providing their ID. To learn more about collections, refer to the Collections article collection on the Cerby Help Center.
+servers:
+  - url: "https://{workspaceName}.cerby.com/api/v1"
+    variables:
+      workspaceName:
+        default: my-workspace
+        description: Workspace name
+security:
+  - ApiKeyAuth: []
+paths:
+  /accounts:
+    get:
+      operationId: listAccounts
+      tags:
+        - Accounts
+      summary: List accounts
+      description: |
+        List all your accounts in your Cerby workspace.
+        > **Required scope in the API key (one of):** `Read items`
+        or `Read accounts`
+      parameters:
+        - $ref: "#/components/parameters/PageNumber"
+        - $ref: "#/components/parameters/PageSize"
+        - name: "filter[application]"
+          in: query
+          schema:
+            type: string
+            example: "mailchimp,asana"
+          description: The comma-separated list of applications.
+        - name: "filter[status]"
+          in: query
+          schema:
+            type: string
+            example: "enabled,disabled"
+          description: The comma-separated status of the accounts to be retrieved.
+      responses:
+        "200":
+          description: >
+            The JSON array with the account objects requested on the specified
+            page.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AccountsResponse"
+              examples:
+                accountListingExample:
+                  $ref: "#/components/examples/accountListingExample"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+  /accounts/{id}:
+    get:
+      operationId: getAccountById
+      tags:
+        - Accounts
+      summary: Get account by ID
+      description: |
+        Retrieve an account by its ID.
+        > **Required scope in the API key (one of):** `Read items` or `Read accounts`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      responses:
+        "200":
+          description: The requested account JSON object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AccountResponse"
+              examples:
+                accountExample:
+                  $ref: "#/components/examples/accountExample"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /accounts/{id}/secrets:
+    get:
+      operationId: listAccountSecrets
+      tags:
+        - Accounts
+      summary: List secrets by account ID
+      description: |
+        Retrieve secrets associated with an account by its ID.
+        Only secrets with type `password` are currently supported.
+
+        > **Required scopes in the API key:**
+        > - `Read accounts`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - name: "filter[type]"
+          in: query
+          schema:
+            type: string
+            example: "password"
+          required: true
+          description: Comma-separated list of secret bundle types. Only `password` is currently supported.
+        - $ref: "#/components/parameters/PageNumber"
+        - $ref: "#/components/parameters/PageSize"
+      responses:
+        "200":
+          description: The list of secrets associated with the account.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AccountSecretsResponse"
+        "400":
+          $ref: "components/responses/BadRequest.yaml"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "403":
+          $ref: "components/responses/Forbidden.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /secrets:
+    get:
+      operationId: listSecrets
+      tags:
+        - Secrets
+      summary: List secrets
+      description: |
+        List all your secrets in your Cerby workspace.
+        > **Required scope in the API key (one of):** `Read items` or `Read secrets`
+      parameters:
+        - $ref: "#/components/parameters/PageNumber"
+        - $ref: "#/components/parameters/PageSize"
+      responses:
+        "200":
+          description: The JSON array with the account objects requested on the specified page.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SecretsResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /secrets/{id}:
+    get:
+      operationId: getSecretById
+      tags:
+        - Secrets
+      summary: Get secret by ID
+      description: |
+        Retrieve a secret by its ID.
+        > **Required scope in the API key (one of):** `Read items` or `Read secrets`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      responses:
+        "200":
+          description: The requested secret JSON object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SecretResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /secrets/{id}/members/{memberType}:
+    get:
+      operationId: listSecretMembersByType
+      tags:
+        - Secrets
+      summary: List Secret members
+      description: |
+        Retrieve members associated with a Secret by their type.
+        > **Required scope in the API key (one of):** `Read secrets`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - name: "memberType"
+          in: path
+          required: true
+          description: The type of members to retrieve. Can be either `users` or `teams`.
+          schema:
+            type: string
+            enum:
+              - users
+              - teams
+        - $ref: "#/components/parameters/PageNumber"
+        - $ref: "#/components/parameters/PageSize"
+      responses:
+        "200":
+          description: The JSON array with the member objects requested on the specified page.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SecretsMembersResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+    post:
+      operationId: addSecretMembersByType
+      tags:
+        - Secrets
+      summary: Add Secret members (share)
+      description: |
+        Add members to a Secret, granting them access to it.
+        > **Required scope in the API key :** `Write secrets`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - name: "memberType"
+          in: path
+          required: true
+          description: The type of members to add. Can be either `users` or `teams`.
+          schema:
+            type: string
+            enum:
+            - users
+            - teams
+      requestBody:
+        description: "The information about the new member"
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  required:
+                    - attributes
+                    - id
+                  properties:
+                    id:
+                      type: string
+                      description: The ID of the Member to be granted access to the Secret.
+                    attributes:
+                      type: object
+                      required:
+                        - role
+                      properties:
+                        role:
+                          type: string
+                          description: The role of the member in the Secret.
+                          enum:
+                            - secure_secret_owner
+                            - secure_secret_collaborator
+                        message:
+                          type: string
+                          description: The message to be sent to the member.
+            example:
+              data:
+                type: "users"
+                id: "a4393f7e-1144-42e0-b23b-fca770912345"
+                attributes:
+                  role: "secure_secret_collaborator"
+                  message: "Welcome to Cerby!"
+      responses:
+        "200":
+          description: The JSON array with the member objects requested on the specified page.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/SecretMember"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+  /users:
+    get:
+      operationId: listUsers
+      tags:
+        - Users
+      summary: List users
+      description: |
+        List all users in your Cerby workspace.
+        > **Required scope in the API key:** `User data`
+      parameters:
+        - $ref: "#/components/parameters/PageNumber"
+        - $ref: "#/components/parameters/PageSize"
+      responses:
+        "200":
+          description: >
+            The JSON array with the user objects requested on the specified
+            page.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UsersResponse"
+              examples:
+                userListingExample:
+                  $ref: "#/components/examples/userListingExample"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+  /users/{id}:
+    get:
+      operationId: getUserById
+      tags:
+        - Users
+      summary: Get user by ID
+      description: |
+        Retrieve a user by their ID.
+        > **Required scope in the API key:** `Read users`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      responses:
+        "200":
+          description: The requested user JSON object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserResponse"
+              examples:
+                userExample:
+                  $ref: "#/components/examples/userExample"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /teams:
+    get:
+      operationId: listTeams
+      tags:
+        - Teams
+      summary: List all teams
+      description: |
+        List all teams in your Cerby workspace.
+        > **Required scope in the API key:** `Read users`
+      parameters:
+        - $ref: "#/components/parameters/PageNumber"
+        - $ref: "#/components/parameters/PageSize"
+      responses:
+        "200":
+          description: The JSON array with the team objects requested on the specified page.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TeamsResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /teams/{id}:
+    get:
+      operationId: getTeamById
+      tags:
+        - Teams
+      summary: Get team by ID
+      description: |
+        Retrieve a team by its ID.
+        > **Required scope in the API key:** `Read users`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      responses:
+        "200":
+          description: The requested team JSON object.
+          content:
+            application/vnd.api+json:
+              schema:
+                $ref: "#/components/schemas/TeamResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /integrations:
+    get:
+      operationId: listIntegrations
+      tags:
+        - Integrations
+      summary: List integrations
+      description: |
+        List all integrations in your Cerby workspace.
+        > **Required scope in the API key:** `Read integrations`
+      security:
+        - ApiKeyAuth: [ "read:integrations" ]
+      parameters:
+        - $ref: "#/components/parameters/PageNumber"
+        - $ref: "#/components/parameters/PageSize"
+      responses:
+        "200":
+          description: The JSON array with the integration objects requested on the specified page.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IntegrationsResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+  /integrations/{id}:
+    get:
+      operationId: getIntegrationById
+      tags:
+        - Integrations
+      summary: Get integration by ID
+      description: |
+        Retrieve an integration by its ID.
+        > **Required scope in the API key:** `Read integrations`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      responses:
+        "200":
+          description: The requested integration JSON object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AccountResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /integrations/{id}/users:
+    get:
+      operationId: getUsersFromIntegration
+      tags:
+        - Integrations
+      summary: List users that are part of an integration.
+      description: |
+        List all users that are part of an integration.
+        > **Required scope in the API key:** `Read integrations` and `Read users`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/PageNumber"
+        - $ref: "#/components/parameters/PageSize"
+      responses:
+        "200":
+          description: The JSON array with the user objects requested on the specified page.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IntegrationUsersResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+    post:
+      operationId: inviteUserToIntegration
+      tags:
+        - Integrations
+      summary: Invite a user to an integration.
+      description: |
+        Invite a user to an integration.
+        > **Required scope in the API key:** `Write integrations` and `Read users`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      requestBody:
+        description: "The information about the new user"
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  required:
+                    - attributes
+                    - type
+                  properties:
+                    attributes:
+                      type: object
+                      properties:
+                        role:
+                          type: string
+                        entitlements:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                        userIds:
+                          type: array
+                          items:
+                            type: string
+                    type:
+                      type: string
+            example:
+              data:
+                attributes:
+                  role: "admin"
+                  entitlements:
+                    - id: "MEMBER"
+                  userIds:
+                    - "a4393f7e-1144-42e0-b23b-fca770912345"
+                type: "invite_tenant_users"
+      responses:
+        "200":
+          description: OK.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IntegrationJobResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  "/integrations/{id}/users/{userId}":
+    delete:
+      operationId: removeUserFromIntegration
+      tags:
+        - Integrations
+      summary: Remove a user from an integration.
+      description: |
+        Remove a user from an integration.
+        > **Required scope in the API key:** `Write integrations`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/UserId"
+      responses:
+        "200":
+          description: OK.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IntegrationJobResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+    get:
+      operationId: getUserFromIntegration
+      tags:
+        - Integrations
+      summary: Get a user from an integration
+      description: |
+        Get a user from an integration.
+        > **Required scope in the API key:** `Read integrations` and `Read users`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/UserId"
+      responses:
+        "200":
+          description: A JSON object with the details of the entitlements.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IntegrationUserResponse"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+    patch:
+      operationId: updateIntegrationUser
+      tags:
+        - Integrations
+      summary: Update Integration User
+      description: |
+        Assign entitlements to users
+        > **Required scope in the API key:** `Write integrations` and `Read users`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/UserId"
+      requestBody:
+        description: "Request body to assign entitlements to a user"
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  required:
+                    - attributes
+                    - type
+                  properties:
+                    type:
+                      type: string
+                      example: "update_user_entitlement"
+                    attributes:
+                      type: object
+                      properties:
+                        entitlements:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                                example: "EMPLOYEE"
+            example:
+              data:
+                type: "update_user_entitlement"
+                attributes:
+                  entitlements:
+                    - id: "EMPLOYEE"
+      responses:
+        "200":
+          description: A JSON object with the details of the update to the User.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IntegrationUserUpdate"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /integrations/{id}/entitlements:
+    get:
+      operationId: getIntegrationEntitlements
+      tags:
+        - Integrations
+      summary: Get a integration's entitlements
+      description: >
+        Retrieve the potential roles that are available for assignment in the
+        integration.
+
+        > **Required scope in the API key:** `Read integrations`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      responses:
+        "200":
+          description: A JSON object with the details of the entitlements.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IntegrationEntitlementsResponse"
+              examples:
+                example-1:
+                  value:
+                    data:
+                      - attributes:
+                          group: primary
+                          key: MEMBER
+                          label: ""
+                          value: MEMBER
+                        id: MEMBER
+                        type: entitlement
+                      - attributes:
+                          group: primary
+                          key: MANAGER
+                          label: ""
+                          value: MANAGER
+                        id: MANAGER
+                        type: entitlement
+                      - attributes:
+                          group: primary
+                          key: OWNER
+                          label: ""
+                          value: OWNER
+                        id: OWNER
+                        type: entitlement
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /jobs/{id}:
+    get:
+      operationId: getJobById
+      tags:
+        - Jobs
+      summary: Get job by ID
+      description: |
+        Retrieve a job by its ID.
+        > **Required scope in the API key:** `Read automated jobs`
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      responses:
+        "200":
+          description: The requested job JSON object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/JobResponse"
+              examples:
+                jobExample:
+                  $ref: "#/components/examples/jobExample"
+        "401":
+          $ref: "components/responses/Unauthorized.yaml"
+        "404":
+          $ref: "components/responses/NotFound.yaml"
+  /collections:
+    $ref: paths/collections.yaml
+  /collections/{id}:
+    $ref: paths/collections_{id}.yaml
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-KEY
+      description: |
+        API keys require specific scopes to access resources.
+        When making a request, include the API key in the `X-API-KEY` header.
+        > Available scopes for the API key:
+          - **Read activities** (`read:activities`): Enables reading activity data.
+          - **Read items** (`read:items`): Enables reading account, secret, and collection data.
+          - **Read accounts** (`read:items:accounts`): Enables reading account data.
+          - **Read secrets** (`read:items:secrets`): Enables reading secret data.
+          - **Read users** (`read:users`): Enables reading user and team data.
+          - **Read integrations** (`read:integrations`): Enables reading integration and entitlement data.
+          - **Read automated jobs** (`read:automations`): Enables reading automated job data.
+          - **Write integrations** (`write:integrations`): Enables writing integration and entitlement data.
+          - **Write automated jobs** (`write:automations`): Enables writing automated job data.
+  parameters:
+    PageNumber:
+      in: query
+      name: "page[number]"
+      schema:
+        type: integer
+        minimum: 1
+        default: 1
+      description: The page number to retrieve in the paginated result set.
+    PageSize:
+      in: query
+      name: "page[size]"
+      schema:
+        type: integer
+        minimum: 1
+        maximum: 100
+        default: 25
+      description: The number of items to return per page.
+    ResourceId:
+      name: id
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+      description: The unique identifier of the resource.
+    UserId:
+      name: userId
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+      description: The unique identifier of the resource.
+  schemas:
+    Links:
+      type: object
+      properties:
+        self:
+          type: string
+        next:
+          type: string
+      description: The related URLs that can be useful for navigation.
+    Meta:
+      type: object
+      properties:
+        page:
+          type: object
+          properties:
+            maxSize:
+              type: integer
+            total:
+              type: integer
+      description: The metadata about the response with additional context or information about the data object.
+    Account:
+      type: object
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+        attributes:
+          type: object
+          properties:
+            label:
+              type: string
+            application:
+              type: string
+            createdAt:
+              type: string
+            createdBy:
+              type: string
+            updatedAt:
+              type: string
+            updatedBy:
+              type: string
+    AccountsResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Account"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    AccountResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/Account"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    ErrorResponse:
+      type: object
+      properties:
+        code:
+          type: string
+        detail:
+          type: string
+        meta:
+          type: object
+          nullable: true
+        status:
+          type: number
+        title:
+          type: string
+    ErrorsResponse:
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            $ref: "#/components/schemas/ErrorResponse"
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        type:
+          type: string
+        attributes:
+          type: object
+          properties:
+            firstName:
+              type: string
+            lastName:
+              type: string
+            email:
+              type: string
+            status:
+              type: string
+            role:
+              type: string
+            isGuest:
+              type: boolean
+            createdAt:
+              type: string
+              format: date-time
+            updatedAt:
+              type: string
+              format: date-time
+            lastActivity:
+              type: string
+              format: date-time
+    UsersResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/User"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    UserResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/User"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    Job:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        type:
+          type: string
+        attributes:
+          type: object
+          properties:
+            account:
+              type: object
+              properties:
+                entity:
+                  type: string
+                id:
+                  type: string
+                name:
+                  type: string
+                provider:
+                  type: string
+            canRetry:
+              type: boolean
+            createdAt:
+              type: string
+              format: date-time
+            createdBy:
+              type: object
+              properties:
+                id:
+                  type: string
+                name:
+                  type: string
+            errorDetails:
+              type: object
+              properties:
+                errorType:
+                  type: string
+                screenshotUrl:
+                  type: string
+                userRequired:
+                  type: boolean
+            hasMoreDetails:
+              type: boolean
+            payload:
+              type: object
+            response:
+              type: object
+            status:
+              type: string
+            trigger:
+              type: string
+            updatedAt:
+              type: string
+              format: date-time
+            workflowType:
+              type: string
+            workspacePolicyEnforcementId:
+              type: string
+    JobResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/Job"
+    VaultSecret:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        type:
+          type: string
+          example: "account_secret"
+        attributes:
+          type: object
+          properties:
+            createdAt:
+              type: string
+              format: date-time
+            updatedAt:
+              type: string
+              format: date-time
+            vault_id:
+              type: string
+              format: uuid
+            body:
+              type: object
+              properties:
+                type:
+                  type: string
+                  enum: [ PLAINTEXT ]
+                  example: PLAINTEXT
+                value:
+                  type: string
+                  example: "CerbyPassword123"
+            secretType:
+              type: string
+              example: "password"
+    AccountSecretsResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/VaultSecret"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    SecretsResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Secret"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    Secret:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        type:
+          type: string
+        attributes:
+          type: object
+          properties:
+            title:
+              type: string
+            bodySecretId:
+              type: string
+              format: uuid
+            requiresIdentityChallenge:
+              type: boolean
+            workspaceId:
+              type: string
+              format: uuid
+            workspaceName:
+              type: string
+            createdBy:
+              type: string
+              format: uuid
+            updatedAt:
+              type: string
+              format: date-time
+            updatedBy:
+              type: string
+              format: uuid
+            versionId:
+              type: string
+              format: uuid
+            version:
+              type: integer
+            eventName:
+              type: string
+            createdAt:
+              type: string
+              format: date-time
+            status:
+              type: string
+            category:
+              type: string
+    SecretResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/Secret"
+    SecretMember:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: The ID of the member.
+        type:
+          type: string
+          description: The type of the member.
+          enum:
+            - user
+            - team
+        attributes:
+          type: object
+          properties:
+            role:
+              type: string
+              description: The role of the member in the Secret.
+              enum:
+                - secure_secret_owner
+                - secure_secret_collaborator
+    SecretsMembersResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/SecretMember"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    IntegrationJob:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        type:
+          type: string
+        attributes:
+          type: object
+          properties:
+            status:
+              type: string
+    IntegrationJobResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/IntegrationJob"
+    IntegrationsResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Account"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    IntegrationEntitlementsResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/IntegrationEntitlement"
+    IntegrationEntitlement:
+      type: object
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+          default: entitlement
+        attributes:
+          $ref: "#/components/schemas/IntegrationEntitlementAttributes"
+    IntegrationEntitlementAttributes:
+      type: object
+      properties:
+        key:
+          type: string
+        value:
+          type: string
+        label:
+          type: string
+        group:
+          type: string
+    IntegrationUserUpdate:
+      type: object
+      properties:
+        type:
+          type: string
+          enum:
+            - update_user_entitlement
+        attributes:
+          type: object
+          properties:
+            entitlements:
+              type: array
+              items:
+                type: string
+              default: []
+    IntegrationUsersResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/IntegrationUser"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+    IntegrationUserResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/IntegrationUser"
+    IntegrationUser:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        type:
+          type: string
+        attributes:
+          type: object
+          properties:
+            firstName:
+              type: string
+            lastName:
+              type: string
+            email:
+              type: string
+            status:
+              type: string
+            role:
+              type: string
+            isGuest:
+              type: boolean
+            createdAt:
+              type: string
+              format: date-time
+            updatedAt:
+              type: string
+              format: date-time
+            entitlements:
+              type: array
+              items:
+                type: string
+              default: []
+    Team:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        type:
+          type: string
+        attributes:
+          type: object
+          properties:
+            name:
+              type: string
+            workspaceId:
+              type: string
+            type:
+              type: string
+              enum:
+                - user_managed
+                - scim_managed
+                - undefined
+            vaultId:
+              type: string
+              format: uuid
+              nullable: true
+    TeamResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/Team"
+    TeamsResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Team"
+        links:
+          $ref: "#/components/schemas/Links"
+        meta:
+          $ref: "#/components/schemas/Meta"
+  examples:
+    accountListingExample:
+      value:
+        data:
+          - id: 40f74dba-31e7-41db-9035-9f3a35b884c8
+            type: account
+            attributes:
+              label: my awesome account
+              application: instagram
+              createdAt: 2007-01-09T15:41:27.000Z
+              createdBy: 91c14c1e-fdb1-4859-b0b1-e9f12f45cdfc
+              updatedAt: 2007-01-09T15:41:27.000Z
+        links:
+          next: "/api/v1/accounts?page[number]=2&page[size]=1"
+          self: "/api/v1/accounts?page[number]=3&page[size]=1"
+        meta:
+          page:
+            maxSize: 100
+            total: 4
+      summary: An example listing accounts
+    accountExample:
+      value:
+        data:
+          id: 40f74dba-31e7-41db-9035-9f3a35b884c8
+          type: account
+          attributes:
+            label: my awesome account
+            application: instagram
+            createdAt: 2007-01-09T15:41:27.000Z
+            createdBy: 91c14c1e-fdb1-4859-b0b1-e9f12f45cdfc
+            updatedAt: 2007-01-09T15:41:27.000Z
+      summary: An account example
+    userListingExample:
+      value:
+        data:
+          - id: 6d23c85b-d3f9-46c7-bb34-7c88680087c5
+            type: user
+            attributes:
+              firstName: Alberto
+              lastName: Copado
+              email: alberto@cerby.com
+              status: live
+              role: workspace_super_admin
+              isGuest: false
+              createdAt: "2024-01-04T15:36:54"
+              updatedAt: "2024-07-08T19:30:56"
+              lastActivity: "2024-09-05T20:46:14.357000"
+        links:
+          next: "/api/v1/users?page[number]=2&page[size]=1"
+          self: "/api/v1/users?page[number]=3&page[size]=1"
+        meta:
+          page:
+            maxSize: 100
+            total: 4
+      summary: An example listing users
+    userExample:
+      value:
+        data:
+          id: 6d23c85b-d3f9-46c7-bb34-7c88680087c5
+          type: user
+          attributes:
+            firstName: Alberto
+            lastName: Copado
+            email: alberto@cerby.com
+            status: live
+            role: workspace_super_admin
+            isGuest: false
+            createdAt: "2024-01-04T15:36:54"
+            updatedAt: "2024-07-08T19:30:56"
+            lastActivity: "2024-09-05T20:46:14.357000"
+      summary: An example of a single user
+    jobExample:
+      value:
+        data:
+          id: de927006-5c01-41ba-9a20-2d64151eb53d
+          type: job
+          attributes:
+            account:
+              entity: account
+              id: ab49ed36-b8ff-4582-a408-fe7ca49e5eb4
+              name: My automation account
+              provider: twitter
+            canRetry: false
+            createdAt: "2024-09-08T22:56:37"
+            createdBy:
+              id: 56e075b7-a81e-4ce7-a2a3-a3b5e594648a
+              name: Liam G
+            errorDetails:
+              errorType: null
+              screenshotUrl: null
+              userRequired: null
+            hasMoreDetails: false
+            payload: null
+            response: {}
+            status: created
+            trigger: manual
+            updatedAt: "2024-09-09T22:56:36"
+            workflowType: setup_mfa
+            workspacePolicyEnforcementId: null
+      summary: An example of a single job
+    jobListingExample:
+      value:
+        data:
+          - id: a1b2c3d4-e5f6-7890-1234-567890abcdef
+            type: job
+            attributes: null
+          - id: f0e9d8c7-b6a5-4321-9876-543210fedcba
+            type: job
+            attributes: null
+        links:
+          self: "/api/v1/jobs?page[number]=1&page[size]=2"
+          next: "/api/v1/jobs?page[number]=2&page[size]=2"
+        meta:
+          page:
+            maxSize: 100
+            total: 50
+      summary: An example listing of jobs.
