@@ -1,6 +1,10 @@
-# Install the Cerby browser extension
+---
+description: >-
+  This document describes how to install the Cerby browser extension on your
+  computer.
+---
 
-**Description:** This document describes how to install the Cerby browser extension on your computer.
+# Install the Cerby browser extension
 
 {% hint style="info" %}
 **Who can use this feature?**
