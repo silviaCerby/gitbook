@@ -1,15 +1,14 @@
-# Table of contents
+# Summary
 
-* [\[Video Guide\] Getting started with Cerby](README.md)
-* [\[Video\] How to log in to your Cerby workspace](<\[Video] How to log in to your Cerby workspace.md>)
-* [Getting Started Guide for Account Owners and Collaborators](<Getting Started Guide for Account Owners and Collaborators.md>)
-* [Getting Started Guide for Admins](<Getting Started Guide for Admins.md>)
-* [Getting started with IdLCM integrations connected to Okta](<Getting started with IdLCM integrations connected to Okta.md>)
-* [Glossary](Glossary.md)
-* Cerby Browser Extension
-  * [Install the Cerby browser extension](<cerby_browser_extension/Install the Cerby browser extension.md>)
-  * [\[Video\] How to install the Cerby browser extension](<cerby_browser_extension/\[Video] How to install the Cerby browser extension.md>)
-* Cerby Mobile App
-  * [Install and configure the Cerby mobile app on Android](<cerby_mobile_app/Install and configure the Cerby mobile app on Android.md>)
-  * [Install and configure the Cerby mobile app on iOS](<cerby_mobile_app/Install and configure the Cerby mobile app on iOS.md>)
-  * [\[Video\] How to install and set up the Cerby mobile app](<cerby_mobile_app/\[Video] How to install and set up the Cerby mobile app.md>)
+* [Getting Started Guide for Account Owners and Collaborators](getting-started-guide-for-account-owners-and-collaborators.md)
+* [Getting Started Guide for Admins](getting-started-guide-for-admins.md)
+* [Getting started with IdLCM integrations connected to Okta](getting-started-with-idlcm-integrations-connected-to-okta.md)
+* [Glossary](glossary.md)
+* [[Video] How to log in to your Cerby workspace](video-how-to-log-in-to-your-cerby-workspace.md)
+* Cerby browser extension
+    * [Install the Cerby browser extension](cerby_browser_extension/install-the-cerby-browser-extension.md)
+    * [[Video] How to install the Cerby browser extension](cerby_browser_extension/video-how-to-install-the-cerby-browser-extension.md)
+* Cerby mobile app
+    * [Install and configure the Cerby mobile app on Android](cerby_mobile_app/install-and-configure-the-cerby-mobile-app-on-android.md)
+    * [Install and configure the Cerby mobile app on iOS](cerby_mobile_app/install-and-configure-the-cerby-mobile-app-on-ios.md)
+    * [[Video] How to install and set up the Cerby mobile app](cerby_mobile_app/video-how-to-install-and-set-up-the-cerby-mobile-app.md)
