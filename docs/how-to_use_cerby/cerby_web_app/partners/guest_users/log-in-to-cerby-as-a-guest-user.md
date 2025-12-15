@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log in as a guest user to any of the Cerby client apps: web app, browser extension, and mobile app.
+description: "This article describes how to log in as a guest user to any of the Cerby client apps: web app, browser extension, and mobile app."
 ---
 
 # Log in to Cerby as a guest user
