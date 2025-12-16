@@ -1,6 +1,8 @@
 ---
-description: This article describes the benefits of managing the users and assets of your paid social apps through Cerby.
 intercom_id: 6442093
+description: >-
+  This article describes the benefits of managing the users and assets of your
+  paid social apps through Cerby.
 ---
 
 # Why managing your paid social apps through Cerby
@@ -32,7 +34,7 @@ The Cerby dashboard, as shown in **Figure 1** , enables you to perform the follo
 * Assign or modify the account role within Cerby and the native business center role of members.
 * Share the business center account and assets with members of your corporate directory when your corporate single sign-on (SSO) system is configured with Cerby.
 
-<figure><img src="../../../../.gitbook/assets/-okhXf9qS4gw3OS639GugG5qFWauOksBxLB8_24uw12YH6wgyr7I_RibY2Bfrx7i1SnI5oUr6B4hWQyeM9YIRSHyUWd2Skmpth8XKDWFkt8hScgrk3YnpoFmPDlOcDm0eoUyIk6HZyYt_31tGo3u2w.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/-okhXf9qS4gw3OS639GugG5qFWauOksBxLB8_24uw12YH6wgyr7I_RibY2Bfrx7i1SnI5oUr6B4hWQyeM9YIRSHyUWd2Skmpth8XKDWFkt8hScgrk3YnpoFmPDlOcDm0eoUyIk6HZyYt_31tGo3u2w.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1.** Homepage of the Cerby dashboard
 
