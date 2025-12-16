@@ -1,5 +1,6 @@
 ---
 description: This article describes how the Cerby CLI outputs the results of your commands and how to customize this output.
+intercom_id: 9136341
 ---
 
 # Interpret and customize the Cerby CLI output data
@@ -8,28 +9,28 @@ When retrieving your accounts and secrets, the Cerby CLI outputs data in JSON fo
 
 This article contains the following aspects of the Cerby CLI output data:
 
-  * Default output
-  * Output customization
-  * Output parsing and processing
-  * Output error codes
-  * Output help commands
+* Default output
+* Output customization
+* Output parsing and processing
+* Output error codes
+* Output help commands
 
 The following sections describe each aspect of the output.
 
 * * *
 
-# Default output
+## Default output
 
 By default, when retrieving information about accounts or secrets, the output reflects the first 20 items per page in the response. The specific structure of the JSON response varies depending on the invoked command and any additional parameters used.
 
 * * *
 
-# Output customization
+## Output customization
 
 You can customize the output of some of the Cerby CLI commands by adding the following flags to the secrets and accounts list commands:
 
-  * **\--page-size** (number): Specifies the number of items displayed per page. 20 items are shown by default per page, but you can limit the results to a desired number.
-  * **\--start-index** (number): Selects the starting index within the response array from which results are displayed. This is useful for paginating through large datasets.
+* **\--page-size** (number): Specifies the number of items displayed per page. 20 items are shown by default per page, but you can limit the results to a desired number.
+* **\--start-index** (number): Selects the starting index within the response array from which results are displayed. This is useful for paginating through large datasets.
 
 For example, when you execute the following command:
 
@@ -39,28 +40,28 @@ The previous command retrieves a list of accounts, displaying only 10 entries st
 
 * * *
 
-# Output parsing and processing
+## Output parsing and processing
 
 After receiving the JSON output, you can use any tool or library to parse and process the output.
 
 * * *
 
-# Output error codes
+## Output error codes
 
 The following are the error codes per command you might encounter while using the Ceby CLI:
 
-  * `register`
+* `register`
     * **`Unauthorized`:** Run the login command or provide a valid token using the --bearer-token option
     * **`Error`:** The device already exists
-  * `sync`
+* `sync`
     * **`Unauthorized`:** Run the login command or provide a valid token using the --bearer-token option
     * **`RemoteDeviceNotFoundError`** : Run the register command to re-onboard your device
-  * `secrets`
+* `secrets`
     * **`Unauthorized`:** Run the login command or provide a valid token using the --bearer-token option
     * **`RemoteDeviceNotFoundError`:** Run the register command to re-onboard your device
     * **`VaultNotFoundInDeviceError`:** The vault was not found
     * **`Forbidden`: **You don't have permission to access this resource
-  * `accounts`
+* `accounts`
     * **`Unauthorized`:** Run the login command or provide a valid token using the --bearer-token option
     * **`Not found`:** Verify the --id of the resource you're trying to access.
     * **`VaultNotFoundInDeviceError`:** The vault was not found
@@ -68,32 +69,32 @@ The following are the error codes per command you might encounter while using th
 
 * * *
 
-# Output help commands
+## Output help commands
 
 The Cerby CLI offers the following guidelines that can help you understand how to use the commands effectively:
 
-  * Summarize the available command options
-  * Get help with a command
-  * Get the version of the Cerby CLI
-  * Enable the debugging mode
+* Summarize the available command options
+* Get help with a command
+* Get the version of the Cerby CLI
+* Enable the debugging mode
 
 The following sections explain each command in detail.
 
-## Summarize the available command options
+### Summarize the available command options
 
 To get a summary of the available command options and the basic usage guidelines, you can type the command name without any arguments. You can use this option as a quick way to remember the command's core functionality.
 
-## Get help with a command
+### Get help with a command
 
 To get the information on the arguments and flags for a particular command, you can append the `--help` flag to the commands.
 
-## Get the version of the Cerby CLI
+### Get the version of the Cerby CLI
 
 To get the number version of the Cerby CLI you have installed in your Operating System, run the `--version` flag.
 
-## Enable the debugging mode
+### Enable the debugging mode
 
 To deeply understand the underlying process behind executing a command, such as for debugging purposes, you can use the `--verbose` flag. Appending `--verbose` to a command instructs the CLI to generate more detailed output, often including:
 
-  * Additional logs and messages detailing the command's execution steps.
-  * Debugging information that can help troubleshoot unexpected behavior.
+* Additional logs and messages detailing the command's execution steps.
+* Debugging information that can help troubleshoot unexpected behavior.

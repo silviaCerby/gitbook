@@ -1,5 +1,6 @@
 ---
 description: This article describes how automation works for your accounts in local vaults while ensuring zero-knowledge principles.
+intercom_id: 11682746
 ---
 
 # Explore automation for accounts in local vaults
@@ -10,11 +11,11 @@ Automation was previously exclusive to workspaces with cloud vaults, leveraging 
 
 The following are the automated tasks supported for accounts in local vaults:
 
-  * Rotate passwords
-  * Turn on multi-factor authentication (MFA)
+* Rotate passwords
+* Turn on multi-factor authentication (MFA)
 * * *
 
-# Learn how automation works for accounts in local vaults
+## Learn how automation works for accounts in local vaults
 
 With Cerby, you can create additional local vaults to leverage a Zero-Knowledge architecture. The automated tasks supported in local vaults enhance security and ensure that exposure is limited and managed effectively, even during an attack.
 
@@ -29,14 +30,14 @@ The automated tasks for accounts in local vaults are executed as follows:
 
 With the previous flow, Cerby guarantees the following:
 
-  * Your account information is temporarily shared with the cloud vault only for the duration of the automated task.
-  * Your key is not exposed to Cerby because we follow the Zero Knowledge principles at all times. Your information is encrypted, and we can’t access your encryption keys. The Cerby bot handles the entire process automatically and securely.
-  * After completing the automated task, the cloud vault is cleaned up, and your information remains safe in your local vault.
+* Your account information is temporarily shared with the cloud vault only for the duration of the automated task.
+* Your key is not exposed to Cerby because we follow the Zero Knowledge principles at all times. Your information is encrypted, and we can’t access your encryption keys. The Cerby bot handles the entire process automatically and securely.
+* After completing the automated task, the cloud vault is cleaned up, and your information remains safe in your local vault.
 * * *
 
-# Related articles
+## Related articles
 
 The following articles contain more information about automation for accounts in local vaults:
 
-  * [Manage local vault assignments for an account](https://help.cerby.com/en/articles/11682768-manage-local-vault-assignments-for-an-account)
-  * [Run automated tasks for accounts in local vaults](https://help.cerby.com/en/articles/11682782-run-automated-tasks-for-accounts-in-local-vaults)
+* [Manage local vault assignments for an account](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/local-vaults/manage-local-vault-assignments-for-an-account)
+* [Run automated tasks for accounts in local vaults](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/local-vaults/run-automated-tasks-for-accounts-in-local-vaults)

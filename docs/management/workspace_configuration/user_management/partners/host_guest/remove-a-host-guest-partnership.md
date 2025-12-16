@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a host-guest partnership established with a guest workspace.
+intercom_id: 9044790
 ---
 
 # Remove a host-guest partnership
@@ -9,9 +10,9 @@ description: This article describes how to remove a host-guest partnership estab
 
 **Who can use this feature?**
 
-  * **Workspace Admins and Partnership Owners**
-  * Available to Cerby Automate
-  * Only supported using the Cerby web app
+* **Workspace Admins and Partnership Owners**
+* Available to Cerby Automate
+* Only supported using the Cerby web app
 
 
 {% endhint %}

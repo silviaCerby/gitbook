@@ -1,5 +1,6 @@
 ---
 description: This article describes how to turn on multi-factor authentication (MFA) with a Cerby-managed phone number for your account.
+intercom_id: 11889236
 ---
 
 # Turn on MFA with a Cerby-managed phone number for your account
@@ -9,11 +10,11 @@ description: This article describes how to turn on multi-factor authentication (
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * **Account Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* **Account Owners**
+* Only supported using the Cerby web app
 
-**IMPORTANT:** If you use local vaults, you must have already set up at least one [trusted session](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices) on your devices.
+**IMPORTANT:** If you use local vaults, you must have already set up at least one [trusted session](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices) on your devices.
 
 
 {% endhint %}
@@ -28,18 +29,18 @@ While Cerby recommends using its authenticator app feature for MFA when supporte
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to turn on MFA with a Cerby-managed phone number:
 
-  * A Cerby workspace
-  * A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
-  * An account in an app or service provider
-  * An account added to Cerby to which you have the **Owner** role
-  * A Cerby-managed phone number already associated with your account. For instructions, read the article [Set up and associate a Cerby-managed phone number for your account](https://help.cerby.com/en/articles/11889035-set-up-and-associate-a-cerby-managed-phone-number-for-your-account)
+* A Cerby workspace
+* A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
+* An account in an app or service provider
+* An account added to Cerby to which you have the **Owner** role
+* A Cerby-managed phone number already associated with your account. For instructions, read the article [Set up and associate a Cerby-managed phone number for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/set-up-and-associate-a-cerby-managed-phone-number-for-your-account)
 * * *
 
-# Turn on MFA with a Cerby-managed phone number for your account
+## Turn on MFA with a Cerby-managed phone number for your account
 
 To turn on MFA with a Cerby-managed phone number for your account, you must complete the following steps:
 
@@ -49,7 +50,6 @@ To turn on MFA with a Cerby-managed phone number for your account, you must comp
   4. Select phone number or SMS as the MFA verification method.
   5. Enter the Cerby-managed phone number.
   6. Verify the phone number when prompted.
-
-**IMPORTANT:** You must enter a verification code to complete the configuration process. To retrieve the code, look for the SMS received in the Shared Inbox or account inbox. For instructions, read the article [View the messages sent to a Cerby-managed email address or phone number](https://help.cerby.com/en/articles/11889348-view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number).
+**IMPORTANT:** You must enter a verification code to complete the configuration process. To retrieve the code, look for the SMS received in the Shared Inbox or account inbox. For instructions, read the article [View the messages sent to a Cerby-managed email address or phone number](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number).
 
 Now you are done.

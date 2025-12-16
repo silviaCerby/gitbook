@@ -1,5 +1,6 @@
 ---
 description: This article describes how to manage local vaults within your accounts.
+intercom_id: 11682768
 ---
 
 # Manage local vault assignments for an account
@@ -9,9 +10,9 @@ description: This article describes how to manage local vaults within your accou
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins,** and **Users**
-  * Account **Owners**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , **Admins,** and **Users**
+* Account **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -20,11 +21,11 @@ Account**Owners** can manage the vault strategy for their accounts, whether choo
 
 This article contains the steps on how to perform the following actions in locally vaulted accounts:
 
-  * Assign your account to a local vault
-  * Remove a local vault from an account
+* Assign your account to a local vault
+* Remove a local vault from an account
 * * *
 
-# Assign your account to a local vault
+## Assign your account to a local vault
 
 To assign a local vault to your account, you must complete the following steps:
 
@@ -35,9 +36,7 @@ To assign a local vault to your account, you must complete the following steps:
   5. Click the **Assign to vault** button. The **Confirm Vault Assignment** dialog box is displayed.
   6. Click the **Select a vault** field to display a drop-down list of the existing vaults in the workspace.
   7. Select the local vault you want to assign from the **Select a vault** field.
-
-**NOTE:** The local vault must previously exist in the workspace. You can create a new vault only if you are a workspace**Owner** , **Super Admin** , or **Admin**. For more information, read the [Create and manage a vault ](https://help.cerby.com/en/articles/8376564-create-and-manage-a-vault)document.
-
+**NOTE:** The local vault must previously exist in the workspace. You can create a new vault only if you are a workspace**Owner** , **Super Admin** , or **Admin**. For more information, read the [Create and manage a vault ](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/create-a-vault)document.
 **TIP:** You can see if a vault is cloud or local next to its name.
 
   8. Click the **Next** button. The **Assign a vault** dialog box is displayed with information about what occurs when you assign your account to a local vault.
@@ -47,7 +46,7 @@ To assign a local vault to your account, you must complete the following steps:
 
 * * *
 
-# Remove a local vault assigned to an account
+## Remove a local vault assigned to an account
 
 To remove a local account assigned to an account, you must complete the following steps:
 
@@ -56,7 +55,6 @@ To remove a local account assigned to an account, you must complete the followin
   3. Click the **Settings** icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated.
   4. Expand the **Vault Settings** section. The list of vaults to which the account belongs is displayed.
   5. Hover the vault you want to remove. The **Remove** () button is displayed.
-
 **IMPORTANT:** All accounts must have at least one vault assigned, either local or cloud. If you only have one vault in the account, the **Remove** button is not displayed.
 
   6. Click the **Remove** button. The **Remove account from vault?** dialog box is displayed.

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to delete a passkey from an account in the Cerby mobile app.
+intercom_id: 11134187
 ---
 
 # Delete a passkey from an account in the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to delete a passkey from an account in t
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
-  * Account **Owners**
-  * Only supported using the Cerby mobile app
+* Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
+* Account **Owners**
+* Only supported using the Cerby mobile app
 
 
 {% endhint %}
@@ -23,8 +24,8 @@ To delete a passkey from an account in the Cerby mobile app, you must complete t
 
 **IMPORTANT:** Consider the following important notes:
 
-  * If you remove a passkey directly in the app, Cerby does not automatically detect this action or delete it from your account information. To manage your passkeys in Cerby, you must delete them directly within the Cerby mobile app.
-  * Before deleting a passkey from Cerby, ensure to first delete it directly in the app. Cerby does not automatically remove the passkey in the app. To properly delete the passkey, ensure it is removed from the app first. For more information, refer to the article [Remove a passkey from an account](https://help.cerby.com/en/articles/10875631-remove-a-passkey-from-an-account).
+* If you remove a passkey directly in the app, Cerby does not automatically detect this action or delete it from your account information. To manage your passkeys in Cerby, you must delete them directly within the Cerby mobile app.
+* Before deleting a passkey from Cerby, ensure to first delete it directly in the app. Cerby does not automatically remove the passkey in the app. To properly delete the passkey, ensure it is removed from the app first. For more information, refer to the article [Remove a passkey from an account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/accounts/passkeys/remove-a-passkey-from-an-account-in-an-app).
 
 
 {% endhint %}

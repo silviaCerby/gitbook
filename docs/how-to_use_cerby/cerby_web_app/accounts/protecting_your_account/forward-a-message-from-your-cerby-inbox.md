@@ -1,5 +1,6 @@
 ---
 description: This article describes how to forward a message sent to the Cerby-managed email address created and set up for your accounts.
+intercom_id: 6119548
 ---
 
 # Forward a message from your Cerby inbox
@@ -20,14 +21,14 @@ However, in some cases, you or your colleagues may need to take action on the me
 
 This article describes how to forward a message from your Cerby inbox.
 
-# Requirements
+## Requirements
 
 The following are the requirements to forward a message from your Cerby inbox:
 
-  * An account added to Cerby
-  * A Cerby-managed email address created and set up for your account
+* An account added to Cerby
+* A Cerby-managed email address created and set up for your account
 
-# Forward a message
+## Forward a message
 
 To forward a message from your Cerby inbox, you must complete the following steps:
 
@@ -52,9 +53,8 @@ To forward a message from your Cerby inbox, you must complete the following step
      * **All account collaborators:** It sends the message to all users in Cerby with the **Account Collaborator** role on the app account.
      * **All account owners:** It sends the message to all users in Cerby with the **Account Owner** role on the app account.
      * **Selected distribution list:** It sends the message to a distribution list already created.
-     * **Selected users:** It sends the message to one or multiple users you select.
-
-**NOTE:** For the **Selected distribution list** and **Selected users** options, a search bar is displayed to look for distribution lists and users, respectively.
+     * **Selected users:** It sends the message to one or multiple users you select.\
+       **NOTE:** For the **Selected distribution list** and **Selected users** options, a search bar is displayed to look for distribution lists and users, respectively.
 
   4. Click the **Forward Message** button. The dialog box closes, a success message box is displayed, and the message is sent to the email address of the selected recipient.
 

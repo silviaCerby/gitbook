@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add a business hub to an existing collection.
+intercom_id: 11102018
 ---
 
 # Add a business hub to a collection
@@ -9,9 +10,9 @@ description: This article describes how to add a business hub to an existing col
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Collection and business hub **Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Collection and business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -22,7 +23,7 @@ To add a business hub to a collection, you must complete the following steps usi
 
   1. Log in to your [Cerby](https://app.cerby.com/) workspace.
   2. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  3. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1481797165/477eb760df4d4276da1264802d2f/AD_4nXfq928eH6lW___VJhn6YkSzlvsBLWHdSZFfnaW1cPAOfvWfj__ce8kcI0ndYDqcrNKTdaYv47jSGGH_CLWU_vh8aELD-qdGfyXMWMp-gSlQ6XlSnmTdKYR4bVeTAZ4mXXEfUaodDURWwzLeDEp4Xg3i1QIk?expires=1759320000&signature=c520af22a3b5f84e24568550be1d0f02906adda90b0cb00392d23853a3f8aa9e&req=dSQvF853moBZXPMW3Hu4gVzLdJHHyv4L5gB5fQiAN7%2BCVX3YD2%2FXhvhjEZ6b%0AgA%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. A drop-down menu is displayed.
+  3. Click the **More options** (<figure><img src="../../../../.gitbook/assets/AD_4nXfq928eH6lW___VJhn6YkSzlvsBLWHdSZFfnaW1cPAOfvWfj__ce8kcI0ndYDqcrNKTdaYv47jSGGH_CLWU_vh8aELD-qdGfyXMWMp-gSlQ6XlSnmTdKYR4bVeTAZ4mXXEfUaodDURWwzLeDEp4Xg3i1QIk.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. A drop-down menu is displayed.
   4. Select the **Add to Collection** option from the menu. A wizard is displayed on the **Add to collection** page.
   5. Select the corresponding collection from the list or look it up using the search bar.
   6. Click the **Next** button. The **Define App Role** page of the wizard is displayed.
@@ -44,7 +45,7 @@ To add a business hub to a collection, you must complete the following steps usi
 {% hint style="info" %}
 
 
-**NOTE:** For existing members and teams in the collection, Cerby sends emails for them to claim access to the integration. After they claim access, Cerby triggers the automation jobs to add these users to the external apps. For more information, read the article [Manage access to business hubs and assets with collections](https://help.cerby.com/en/articles/11102692-manage-access-to-business-hubs-and-assets-with-collections).
+**NOTE:** For existing members and teams in the collection, Cerby sends emails for users to claim access to the business hub. After they claim access, Cerby adds these users to the external apps. For more information, read the article [Manage access to business hubs and assets with collections](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/manage-access-to-business-hubs-and-assets-with-collections).
 
 
 {% endhint %}

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to download the attachments of your or your shared secrets as an Owner in the Cerby mobile app.
+intercom_id: 9757873
 ---
 
 # Download the attachments of a secret and secret item in the Cerby mobile app
@@ -9,12 +10,12 @@ description: This article describes how to download the attachments of your or y
 
 Who can use this feature?
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
-  * Secret and secret item **Owners**
-  * You must have set up your[ trusted devices](https://help.cerby.com/en/articles/8142370-how-to-set-up-and-manage-your-trusted-devices)
-  * Available in the Cerby web app, browser extension, and mobile app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
+* Secret and secret item **Owners**
+* You must have set up your[ trusted devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices)
+* Available in the Cerby web app, browser extension, and mobile app
 
-**NOTE:** For the Cerby web app and browser extension, read the article [Manage the attachments of a secret and secret item](https://help.cerby.com/en/articles/8705439-manage-the-attachments-of-a-secret-and-secret-item).
+**NOTE:** For the Cerby web app and browser extension, read the article [Manage the attachments of a secret and secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/manage-the-attachments-of-a-secret-and-secret-item).
 
 
 {% endhint %}

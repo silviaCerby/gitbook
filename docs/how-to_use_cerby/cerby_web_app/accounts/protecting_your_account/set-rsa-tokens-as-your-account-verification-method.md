@@ -1,5 +1,6 @@
 ---
 description: This article describes how to set up RSA tokens as your account verification method.
+intercom_id: 10858212
 ---
 
 # Set RSA tokens as your account verification method
@@ -9,9 +10,9 @@ description: This article describes how to set up RSA tokens as your account ver
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
-  * **Account Owners**
-  * Only supported using the Cerby web and mobile apps
+* Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
+* **Account Owners**
+* Only supported using the Cerby web and mobile apps
 
 
 {% endhint %}
@@ -21,7 +22,7 @@ As an account **Owner** , you can set RSA tokens as a verification method for yo
 {% hint style="info" %}
 
 
-**NOTE:** For more information about Cerby's verification methods, refer to [Explore the Cerby-managed verification methods for your accounts](https://help.cerby.com/en/articles/5457562-explore-the-cerby-managed-verification-methods-for-your-accounts).
+**NOTE:** For more information about Cerby's verification methods, refer to [Explore the Cerby-managed verification methods for your accounts](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-the-cerby-managed-verification-methods-for-your-accounts).
 
 
 {% endhint %}
@@ -37,37 +38,37 @@ This article explains how to manage the RSA token integration in Cerby to enhanc
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up RSA tokens as your account verification method:
 
-  * Your RSA token configured within an RSA token app provider
-  * An activation link to complete the RSA token setup in Cerby. This link is emailed after completing the RSA token configuration in your app provider. The link must have the following format:
+* Your RSA token configured within an RSA token app provider
+* An activation link to complete the RSA token setup in Cerby. This link is emailed after completing the RSA token configuration in your app provider. The link must have the following format:
 
         com.rsa.securid://ctkip?url={URL-address}?activationCode={activation-code}
 
 * * *
 
-# Manage the RSA verification method in your accounts
+## Manage the RSA verification method in your accounts
 
 The following are the actions that enable you to manage RSA as your account's verification method:
 
-  * Set up RSA as your account's verification method
-  * Log in to an account using RSA codes
-  * Turn off RSA as your account's verification method
+* Set up RSA as your account's verification method
+* Log in to an account using RSA codes
+* Turn off RSA as your account's verification method
 
 The instructions to perform each action are described in the following sections.
 
-## Set up RSA as your account's verification method
+### Set up RSA as your account's verification method
 
 The following are the clients that enable you to set up RSA codes as your account's verification method:
 
-  * Cerby web app
-  * Cerby mobile app
+* Cerby web app
+* Cerby mobile app
 
 The next subsections explain the steps for each client.
 
-### Cerby web app
+#### Cerby web app
 
 To set up RSA as your account's verification method, you must complete the following steps:
 
@@ -76,31 +77,30 @@ To set up RSA as your account's verification method, you must complete the follo
   3. Expand the **Multi-factor authentication (MFA) settings** section.
   4. Click the **Set as MFA** button in the **RSA codes** section. The **Set up MFA with RSA codes** dialog box is displayed.
   5. Enter the RSA token activation link in the **Activation link** field.
-
 **NOTE:** See the Requirements section to learn how to obtain the activation link.
 
   6. Click the **Set up** button. The **You’re all set!** dialog box is displayed.
 
 Now you are done. You can view and copy the account RSA codes from the RSA code field in the **Account details** section, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/image7_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image7_1.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1. RSA codes** included in the account details page
 
-### Cerby mobile app
+#### Cerby mobile app
 
-For more information about how to turn on multi-factor authentication (MFA) with RSA codes for your account using the Cerby mobile app, read the article [Turn on MFA with RSA codes for your account using the Cerby mobile app](https://help.cerby.com/en/articles/11429260-turn-on-mfa-with-rsa-codes-for-your-account-using-the-cerby-mobile-app).
+For more information about how to turn on multi-factor authentication (MFA) with RSA codes for your account using the Cerby mobile app, read the article [Turn on MFA with RSA codes for your account using the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/accounts/protecting-your-account/turn-on-the-rsa-codes-for-your-account-using-the-cerby-mobile-app).
 
-## Log in to an account using RSA codes
+### Log in to an account using RSA codes
 
 The following are the clients that support the account login process using RSA codes:
 
-  * Cerby web app
-  * Cerby mobile app
+* Cerby web app
+* Cerby mobile app
 
 The next subsections explain the steps for each client.
 
-### Cerby web app
+#### Cerby web app
 
 To log in to an account using RSA codes as your verification method in the Cerby web app, click the **Log in** button for that account, and let Cerby handle the login process and RSA code submission via automation.
 
@@ -113,11 +113,11 @@ If you need to retrieve the RSA code manually during the automated login process
 
 Now you are done.
 
-### Cerby mobile app
+#### Cerby mobile app
 
-To log in to an account using an RSA code as MFA on your mobile phone, you can directly copy and paste it from the RSA code field in the account details screen within the Cerby mobile app. For more information, refer to the article [Log in to your accounts with the Cerby mobile app](https://help.cerby.com/en/articles/11139221-log-in-to-your-accounts-with-the-cerby-mobile-app#h_c1fde017bf).
+To log in to an account using an RSA code as MFA on your mobile phone, you can directly copy and paste it from the RSA code field in the account details screen within the Cerby mobile app. For more information, refer to the article [Log in to your accounts with the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/accounts/log-in-to-an-account-using-the-cerby-mobile-app).
 
-## Turn off RSA as your account's verification method
+### Turn off RSA as your account's verification method
 
 To turn off RSA as your account's verification method, you must complete the following steps:
 

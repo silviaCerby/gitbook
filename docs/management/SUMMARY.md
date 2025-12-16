@@ -67,6 +67,8 @@
     * Business hubs
         * [Why managing your paid social apps through Cerby](identity_lifecycle/business_hubs/why-managing-your-paid-social-apps-through-cerby.md)
         * Apps
+            * DFIN Active Disclosure
+                * [Connect a business hub for DFIN Active Disclosure](identity_lifecycle/business_hubs/apps/ DFIN Active Disclosure/connect-a-business-hub-for-dfin-active-disclosure.md)
             * 10bis
                 * [Connect a business hub for 10bis](identity_lifecycle/business_hubs/apps/10bis/connect-a-business-hub-for-10bis.md)
             * 1Password
@@ -144,6 +146,8 @@
             * Chili Piper
                 * [Connect a business hub for Chili Piper New Dashboards](identity_lifecycle/business_hubs/apps/Chili Piper/connect-a-business-hub-for-chili-piper-new-dashboards.md)
                 * [Connect a business hub for Chili Piper](identity_lifecycle/business_hubs/apps/Chili Piper/connect-a-business-hub-for-chili-piper.md)
+            * Clay
+                * [Connect a business hub for Clay](identity_lifecycle/business_hubs/apps/Clay/connect-a-business-hub-for-clay.md)
             * Clockwise
                 * [Connect a business hub for Clockwise](identity_lifecycle/business_hubs/apps/Clockwise/connect-a-business-hub-for-clockwise.md)
             * CloudAlly
@@ -166,6 +170,8 @@
                 * [Connect a business hub for CyberGRX](identity_lifecycle/business_hubs/apps/CyberGRX/connect-a-business-hub-for-cybergrx.md)
             * Cypress
                 * [Connect a business hub for Cypress](identity_lifecycle/business_hubs/apps/Cypress/connect-a-business-hub-for-cypress.md)
+            * Datorama
+                * [Connect a business hub for Datorama](identity_lifecycle/business_hubs/apps/Datorama/connect-a-business-hub-for-datorama.md)
             * Decagon
                 * [Connect a business hub for Decagon](identity_lifecycle/business_hubs/apps/Decagon/connect-a-business-hub-for-decagon.md)
             * DeepL
@@ -184,6 +190,8 @@
                 * [Connect a business hub for Eight](identity_lifecycle/business_hubs/apps/Eight/connect-a-business-hub-for-eight.md)
             * Embedly
                 * [Connect a business hub for Embedly](identity_lifecycle/business_hubs/apps/Embedly/connect-a-business-hub-for-embedly.md)
+            * Employment Hero
+                * [Connect a business hub for Employment Hero (KeyPay)](identity_lifecycle/business_hubs/apps/Employment_Hero/connect-a-business-hub-for-employment-hero-keypay.md)
             * Enterpret
                 * [Connect a business hub for Enterpret](identity_lifecycle/business_hubs/apps/Enterpret/connect-a-business-hub-for-enterpret.md)
             * Everest
@@ -218,6 +226,7 @@
                 * [Connect a business hub for Google Analytics](identity_lifecycle/business_hubs/apps/Google Apps/connect-a-business-hub-for-google-analytics.md)
                 * [Connect a business hub for Google Marketing Platform](identity_lifecycle/business_hubs/apps/Google Apps/connect-a-business-hub-for-google-marketing-platform.md)
                 * [Connect a business hub for Google Play](identity_lifecycle/business_hubs/apps/Google Apps/connect-a-business-hub-for-google-play.md)
+                * [Connect a business hub for Google Tag Manager](identity_lifecycle/business_hubs/apps/Google Apps/connect-a-business-hub-for-google-tag-manager.md)
                 * [Connect a business hub for YouTube Studio](identity_lifecycle/business_hubs/apps/Google Apps/connect-a-business-hub-for-youtube-studio.md)
                 * [[Video] Connect your YouTube Studio app integration](identity_lifecycle/business_hubs/apps/Google Apps/video-connect-your-youtube-studio-app-integration.md)
                 * [[Video] How to connect a business hub for a Google Ads Manager account](identity_lifecycle/business_hubs/apps/Google Apps/video-how-to-connect-a-business-hub-for-a-google-ads-manager-account.md)
@@ -241,11 +250,16 @@
                 * [Connect a business hub for Humata](identity_lifecycle/business_hubs/apps/Humata/connect-a-business-hub-for-humata.md)
             * Hyperwallet
                 * [Connect a business hub for Hyperwallet](identity_lifecycle/business_hubs/apps/Hyperwallet/connect-a-business-hub-for-hyperwallet.md)
+            * Insided
+                * Gainsight
+                    * [Connect a business hub for Insided/Gainsight](identity_lifecycle/business_hubs/apps/Insided/Gainsight/connect-a-business-hub-for-insided-gainsight.md)
             * JetBrains
                 * [Connect a business hub for JetBrains](identity_lifecycle/business_hubs/apps/JetBrains/connect-a-business-hub-for-jetbrains.md)
                 * [Troubleshooting: JetBrains license assignment issues when using Okta push groups](identity_lifecycle/business_hubs/apps/JetBrains/troubleshooting-jetbrains-license-assignment-issues-when-using-okta-push-groups.md)
             * Josys
                 * [Connect a business hub for Josys](identity_lifecycle/business_hubs/apps/Josys/connect-a-business-hub-for-josys.md)
+            * JP Morgan PaymentNet
+                * [Connect a business hub for JP Morgan PaymentNet](identity_lifecycle/business_hubs/apps/JP_Morgan_PaymentNet/connect-a-business-hub-for-jp-morgan-paymentnet.md)
             * JustJoin.it
                 * [Connect a business hub for JustJoin.It](identity_lifecycle/business_hubs/apps/JustJoin.it/connect-a-business-hub-for-justjoin-it.md)
             * Kahoot
@@ -298,8 +312,12 @@
                 * [Connect a business hub for Prezi](identity_lifecycle/business_hubs/apps/Prezi/connect-a-business-hub-for-prezi.md)
             * Prism HR
                 * [Connect a business hub for Prism HR](identity_lifecycle/business_hubs/apps/Prism HR/connect-a-business-hub-for-prism-hr.md)
+            * Process Pay
+                * [Connect a business hub for Process Pay](identity_lifecycle/business_hubs/apps/Process_Pay/connect-a-business-hub-for-process-pay.md)
             * Productboard
                 * [Connect a business hub for Productboard](identity_lifecycle/business_hubs/apps/Productboard/connect-a-business-hub-for-productboard.md)
+            * Qgiv
+                * [Connect a business hub for Qgiv](identity_lifecycle/business_hubs/apps/Qgiv/connect-a-business-hub-for-qgiv.md)
             * Readme
                 * [Connect a business hub for Readme Enterprise](identity_lifecycle/business_hubs/apps/Readme/connect-a-business-hub-for-readme-enterprise.md)
                 * [Connect a business hub for Readme Projects](identity_lifecycle/business_hubs/apps/Readme/connect-a-business-hub-for-readme-projects.md)
@@ -321,6 +339,8 @@
                 * [Connect a business hub for Similarweb](identity_lifecycle/business_hubs/apps/Similarweb/connect-a-business-hub-for-similarweb.md)
             * Smartling
                 * [Connect a business hub for Smartling](identity_lifecycle/business_hubs/apps/Smartling/connect-a-business-hub-for-smartling.md)
+            * Sohar
+                * [Connect a business hub for Sohar](identity_lifecycle/business_hubs/apps/Sohar/connect-a-business-hub-for-sohar.md)
             * Stack Exchange
                 * [Connect a business hub for Stack Exchange](identity_lifecycle/business_hubs/apps/Stack Exchange/connect-a-business-hub-for-stack-exchange.md)
             * Stark
@@ -371,6 +391,10 @@
                 * [Connect a business hub for Webflow](identity_lifecycle/business_hubs/apps/Webflow/connect-a-business-hub-for-webflow.md)
             * Whistic
                 * [[UNPUBLISHED] Connect a business hub for Whistic](identity_lifecycle/business_hubs/apps/Whistic/unpublished-connect-a-business-hub-for-whistic.md)
+            * Wise
+                * [Connect a business hub for Wise](identity_lifecycle/business_hubs/apps/Wise/connect-a-business-hub-for-wise.md)
+            * Wisestamp
+                * [Connect a business hub for Wisestamp](identity_lifecycle/business_hubs/apps/Wisestamp/connect-a-business-hub-for-wisestamp.md)
             * Wix
                 * [Connect a business hub for Wix](identity_lifecycle/business_hubs/apps/Wix/connect-a-business-hub-for-wix.md)
             * Wizer

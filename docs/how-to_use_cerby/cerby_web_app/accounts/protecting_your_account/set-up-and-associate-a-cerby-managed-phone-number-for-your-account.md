@@ -1,5 +1,6 @@
 ---
 description: This article describes how to set up and associate a Cerby-managed phone number for your account.
+intercom_id: 11889035
 ---
 
 # Set up and associate a Cerby-managed phone number for your account
@@ -9,11 +10,11 @@ description: This article describes how to set up and associate a Cerby-managed 
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * **Account Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* **Account Owners**
+* Only supported using the Cerby web app
 
-**IMPORTANT:** If you use local vaults, you must have already set up at least one [trusted session](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices) on your devices.
+**IMPORTANT:** If you use local vaults, you must have already set up at least one [trusted session](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices) on your devices.
 
 
 {% endhint %}
@@ -22,24 +23,24 @@ As an account **Owner** , you can set up and associate a Cerby-managed phone num
 
 With a Cerby-managed phone number, all SMS messages are routed to your dedicated in-platform Shared Inbox, providing a centralized and private channel for all digital communications related to your account.
 
-When used as a multi-factor authentication (MFA) verification method, Cerby retrieves the verification codes sent via SMS to the Cerby-managed phone number and enters the codes to perform automated logins for you. These codes are shared with all users who have access to your account, enabling automated logins for them as well. For more information, read the article [Turn on MFA with a Cerby-managed phone number for your account](https://help.cerby.com/en/articles/11889236-turn-on-mfa-with-a-cerby-managed-phone-number-for-your-account).
+When used as a multi-factor authentication (MFA) verification method, Cerby retrieves the verification codes sent via SMS to the Cerby-managed phone number and enters the codes to perform automated logins for you. These codes are shared with all users who have access to your account, enabling automated logins for them as well. For more information, read the article [Turn on MFA with a Cerby-managed phone number for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-a-cerby-managed-phone-number-for-your-account).
 
 **IMPORTANT:** Depending on what the app supports, Cerby provides VoIP or non-VoIP phone numbers based in the US (using the +1 country code) for your accounts. Additionally, some apps may not support Cerby-managed email addresses.
 ---
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up and associate a Cerby-managed phone number for your account:
 
-  * A Cerby workspace
-  * A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
-  * An account in an app or service provider
-  * An account added to Cerby to which you have the **Owner** role
+* A Cerby workspace
+* A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
+* An account in an app or service provider
+* An account added to Cerby to which you have the **Owner** role
 * * *
 
-# Set up and associate a Cerby-managed phone number for your account
+## Set up and associate a Cerby-managed phone number for your account
 
 To set up and associate a Cerby-managed phone number for your account, you must complete the following main steps:
 
@@ -48,7 +49,7 @@ To set up and associate a Cerby-managed phone number for your account, you must 
 
 The following sections describe each main step.
 
-## 1\. Create the Cerby-managed phone number
+### 1\. Create the Cerby-managed phone number
 
 To create the Cerby-managed phone number, you must complete the following steps using the Cerby web app:
 
@@ -63,7 +64,7 @@ To create the Cerby-managed phone number, you must complete the following steps 
 
 The next step is 2\. Associate the Cerby-managed phone number with your account.
 
-## 2\. Associate the Cerby-managed phone number with your account
+### 2\. Associate the Cerby-managed phone number with your account
 
 To associate the Cerby-managed phone number with your account, you must complete the following steps in your app:
 
@@ -71,7 +72,6 @@ To associate the Cerby-managed phone number with your account, you must complete
   2. Navigate to the account settings.
   3. Associate the Cerby-managed phone number with your account by pasting the number you copied previously and saving the changes.
   4. Verify the new phone number, if prompted.
-
 **NOTE:** Usually, you must enter a verification code to complete the association process. To retrieve the code, look for the SMS received in the Shared Inbox or account inbox. For instructions, read the article [View the messages sent to a Cerby-managed email address or phone number](https://View%20the%20messages%20sent%20to%20a%20Cerby-managed%20email%20address%20or%20phone%20number).
 
 **IMPORTANT:** Make sure you associate the Cerby-managed phone number with your account. If you don’t do it, Cerby cannot retrieve verification codes and streamline your login.

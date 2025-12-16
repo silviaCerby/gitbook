@@ -1,5 +1,6 @@
 ---
 description: This article describes how to install the Scout browser extension in your web browser.
+intercom_id: 10046805
 ---
 
 # Install Scout
@@ -9,13 +10,13 @@ description: This article describes how to install the Scout browser extension i
 
 **Who can use this feature?**
 
-  * Cerby workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Scout browser extension
+* Cerby workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Scout browser extension
 
 
 {% endhint %}
 
-As a workspace **Owner** , **Super Admin** , or **Admin** , you can install the [Scout browser extension](https://help.cerby.com/en/articles/9774431-explore-scout) to perform workflow scouting on your apps and help accelerate the process of building the automated tasks you use in Cerby. As a workspace **user** , you must request authorization to install Scout from a Cerby Admin.
+As a workspace **Owner** , **Super Admin** , or **Admin** , you can install the [Scout browser extension](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-scout) to perform workflow scouting on your apps and help accelerate the process of building the automated tasks you use in Cerby. As a workspace **user** , you must request authorization to install Scout from a Cerby Admin.
 
 {% hint style="danger" %}
 
@@ -27,13 +28,13 @@ As a workspace **Owner** , **Super Admin** , or **Admin** , you can install the 
 
 * * *
 
-# Supported browsers
+## Supported browsers
 
 The Scout browser extension is only supported in Google Chrome.
 
 * * *
 
-# Install Scout
+## Install Scout
 
 To install Scout, you must complete the next steps:
 

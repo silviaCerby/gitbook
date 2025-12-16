@@ -1,5 +1,6 @@
 ---
 description: This article describes how to connect a business hub to centrally manage the users of Massive.io from Cerby.
+intercom_id: 10315402
 ---
 
 # Connect a business hub for Massive.io
@@ -9,8 +10,8 @@ description: This article describes how to connect a business hub to centrally m
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -19,15 +20,15 @@ As a user with any workspace role in Cerby, except **Guest User** and **Login-On
 
 When you connect the business hub, you become its **Owner** , and you can perform the following user and access management tasks through automated tasks executed by the Cerby agent:
 
-  * Check for updates
-  * Invite app members
-  * Update app members’ roles
-  * Remove app members
+* Check for updates
+* Invite app members
+* Update app members’ roles
+* Remove app members
 
 {% hint style="success" %}
 
 
-**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Apps](https://help.cerby.com/en/articles/6831152-explore-apps).
+**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs).
 
 
 {% endhint %}
@@ -36,31 +37,31 @@ This article provides instructions on how to connect a business hub for Massive.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to connect a business hub:
 
-  * A Cerby workspace
-  * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
-  * A team in Massive.io
-  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * An automation account, meaning an active user account with an **Admin** role in Massive.io to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://help.cerby.com/en/articles/9830816-create-an-automation-or-service-account-for-your-business-hub)
-  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps](https://help.cerby.com/en/articles/6831152-explore-apps)
-  * A business ID. You can find the name in the address bar after logging in to Massive.io. It’s the first subdirectory after the domain. For example, **`01ab2cD3eF45GH6Ij7KL8mn90`** in **`https://app.massive.io/01ab2cD3eF45GH6Ij7KL8mn90/send?tab=local`**. Just copy the value and paste it when requested while connecting the business hub.
+* A Cerby workspace
+* A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
+* A team in Massive.io
+* Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+* An automation account, meaning an active user account with an **Admin** role in Massive.io to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+* The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
+* A business ID. You can find the name in the address bar after logging in to Massive.io. It’s the first subdirectory after the domain. For example, **`01ab2cD3eF45GH6Ij7KL8mn90`** in **`https://app.massive.io/01ab2cD3eF45GH6Ij7KL8mn90/send?tab=local`**. Just copy the value and paste it when requested while connecting the business hub.
 * * *
 
-# Connect a business hub for Massive.io
+## Connect a business hub for Massive.io
 
 To connect a business hub for Massive.io, you must complete the following main steps from the Cerby web app dashboard:
 
-  1. Add a business hub and connect it to Massive.io[ ](https://help.cerby.com/en/articles/9046120-connect-an-app#h_039a665169)
+  1. Add a business hub and connect it to Massive.io[ ](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
   2. Check for updates to import users and roles to Cerby
   3. Connect your Massive.io user account to the business hub
   4. Manage unmatched users
 
 The following sections describe each main step.
 
-## 1\. Add a business hub and connect it to Massive.io
+### 1\. Add a business hub and connect it to Massive.io
 
 To add a business hub and connect it to Massive.io, you must complete the following steps:
 
@@ -81,14 +82,14 @@ To add a business hub and connect it to Massive.io, you must complete the follow
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Massive.io accounts.
   8. Select the automation account you have previously added to Cerby, as described in the Requirements section.
-​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://help.cerby.com/en/articles/9830816-create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
+​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
 The corresponding business hub is also displayed on the **Business Hubs** view.
 
 The next step is 2\. Check for updates to import users and roles to Cerby.
 
-## 2\. Check for updates to import users and roles to Cerby
+### 2\. Check for updates to import users and roles to Cerby
 
 To check for updates in your app to identify and import users, roles, and assets to Cerby, you must complete the following steps:
 
@@ -105,14 +106,14 @@ To check for updates in your app to identify and import users, roles, and assets
 {% hint style="info" %}
 
 
-**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described in this section. When a user is deprovisioned from an IdP and a check for updates is performed, Cerby generates a report and sends business hub **Owners** an email to confirm their removal from the app. For more instructions, read the article [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report).
+**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described in this section. When a user is deprovisioned from an IdP and a check for updates is performed, Cerby generates a report and sends business hub **Owners** an email to confirm their removal from the app. For more instructions, read the article [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).
 
 
 {% endhint %}
 
 The next step is 3\. Connect your Massive.io user account to the business hub.
 
-## 3\. Connect your Massive.io user account to the business hub
+### 3\. Connect your Massive.io user account to the business hub
 
 To connect your Massive.io user account to the business hub so Cerby can manage and protect it, you must complete the following steps:
 
@@ -123,9 +124,9 @@ To connect your Massive.io user account to the business hub so Cerby can manage 
 
 The next step is 4\. Manage unmatched users.
 
-## 4\. Manage unmatched users
+### 4\. Manage unmatched users
 
-During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://help.cerby.com/en/articles/8392946-explore-guest-users) and [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
+During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) and [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
 
 To view the status of the imported app members, you must complete the following steps:
 
@@ -140,13 +141,13 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * Match users
-  * Remove unmatched users
-  * Exempt unmatched users
+* Match users
+* Remove unmatched users
+* Exempt unmatched users
 
 The following sections describe each action.
 
-### Match users
+#### Match users
 
 To match users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -161,7 +162,7 @@ To match users, you must complete the following steps from the **Unmatched users
 
   6. Click the **Match user** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Onboarded** **users** tab.
 
-### Remove unmatched users
+#### Remove unmatched users
 
 To remove unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -177,7 +178,7 @@ To remove unmatched users, you must complete the following steps from the **Unma
   2. Select the **Remove user** option from the list. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the app via an automated task.
 
-### Exempt unmatched users
+#### Exempt unmatched users
 
 Exempted users keep their user accounts or seats active in your app, but you cannot manage them through Cerby.
 
@@ -190,18 +191,18 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 * * *
 
-# Use your business hub
+## Use your business hub
 
 The following are the supported features of business hubs you can use:
 
-  * [Join the App and connect it to Cerby](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby)
-  * [Invite new app members](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Remove app members](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * [Update the app members’ roles](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
-  * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track activity on app members’ user accounts](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove an App](https://help.cerby.com/en/articles/9046230-remove-an-app)
+* [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+* [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+* [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+* [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+* [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+* [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+* [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
+* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+* [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+* [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+* [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

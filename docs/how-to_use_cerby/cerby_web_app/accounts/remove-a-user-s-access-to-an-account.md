@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a user’s access to an account granted through an account, team, collection, or business hub.
+intercom_id: 11565773
 ---
 
 # Remove a user’s access to an account
@@ -9,9 +10,9 @@ description: This article describes how to remove a user’s access to an accoun
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest Users**
-  * Account **Owners**
-  * Supported using the Cerby web app and mobile app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest Users**
+* Account **Owners**
+* Supported using the Cerby web app and mobile app
 
 
 {% endhint %}
@@ -40,4 +41,4 @@ To remove a user’s access to an account, you must follow the next steps:
 
 Now you are done.
 
-<figure><img src="../.gitbook/assets/AD_4nXfYQQcBG4Wj_bYtBJoBe8Vg0x4Xc5KZt8Y_gqUaIIYXoMevHpc5k94x0Lo7RlihDb2fQ8BbieRV7hM35se-4ITS4VH8Ss2-ALMoJthKI3EpPo49OzlXxpOFSINywpiTsMmSS-dVFg.png" alt="A blue light on a black backgroundDescription automatically generated"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/AD_4nXfYQQcBG4Wj_bYtBJoBe8Vg0x4Xc5KZt8Y_gqUaIIYXoMevHpc5k94x0Lo7RlihDb2fQ8BbieRV7hM35se-4ITS4VH8Ss2-ALMoJthKI3EpPo49OzlXxpOFSINywpiTsMmSS-dVFg.png" alt="A blue light on a black backgroundDescription automatically generated"><figcaption></figcaption></figure>

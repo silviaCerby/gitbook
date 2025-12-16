@@ -1,5 +1,6 @@
 ---
 description: This article describes how to turn on and manage the Enforced autosave setting at the workspace level, applicable to all workspace users.
+intercom_id: 11635871
 ---
 
 # Turn on and manage enforced account autosave in the workspace
@@ -9,8 +10,8 @@ description: This article describes how to turn on and manage the Enforced autos
 
 **Who can use this feature?**
 
-  * Workspace **Super** **Admins** and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Super** **Admins** and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -21,21 +22,21 @@ With the **Enforced autosave** setting, Cerby automatically detects login and si
 
 The following are the enforced account autosave settings you can manage:
 
-  * Turn on Enforced autosave in the workspace
-  * Add a domain to Enforced autosave
-  * Remove domains from Enforced autosave
+* Turn on Enforced autosave in the workspace
+* Add a domain to Enforced autosave
+* Remove domains from Enforced autosave
 
 {% hint style="danger" %}
 
 
-**IMPORTANT:** To learn how Cerby manages roles with the account autosave feature, refer to the article [Explore Account Autosave](https://help.cerby.com/en/articles/9500455-explore-account-autosave#h_da5abb0156).
+**IMPORTANT:** To learn how Cerby manages roles with the account autosave feature, refer to the article [Explore Account Autosave](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-account-autosave).
 
 
 {% endhint %}
 
 * * *
 
-# Turn on Enforced autosave in the workspace
+## Turn on Enforced autosave in the workspace
 
 To turn on the **Enforced autosave** setting in the workspace, you must complete the following steps:
 
@@ -53,7 +54,7 @@ To turn on the **Enforced autosave** setting in the workspace, you must complete
      * Depending on whether you have added domains for enforced account autosave, these domains are listed below.
 * * *
 
-# Add a domain to Enforced autosave
+## Add a domain to Enforced autosave
 
 To add a domain to the **Enforced account autosave** setting, you must complete the following steps:
 
@@ -70,7 +71,7 @@ Now you are done. Cerby will automatically add a new account to your workspace t
 
 * * *
 
-# Remove domains from Enforced autosave
+## Remove domains from Enforced autosave
 
 To remove one or multiple domains from the **Enforced autosave** setting, you must complete the following steps:
 
@@ -92,8 +93,7 @@ To remove one or multiple domains from the **Enforced autosave** setting, you mu
      * **Multiple domains**
 
        1. Select the domains you want to remove from the list. A menu is displayed at the bottom of the page indicating the number of domains you have selected.
-
-**TIP:** To deselect all domains, you have two alternatives in the menu at the bottom: the **Deselect all** button and the **Close selection** (<figure><img src="../.gitbook/assets/AD_4nXfmYlyJH5hoymGxAgNMtuZN17IyS81uXHuExwviaDkbR_TQIZOgt2cDx0Ulc0vNgfd0Og9LaT4RY5Kd1m2EqNn9oE5pPBhcU7Dqk3mqObGLPuaDl7Dl33lJpntwDd-KHuvWTW6h.png" alt=""><figcaption></figcaption></figure>) button, which also closes the menu.
+**TIP:** To deselect all domains, you have two alternatives in the menu at the bottom: the **Deselect all** button and the **Close selection** (<figure><img src="../../../../../.gitbook/assets/AD_4nXfmYlyJH5hoymGxAgNMtuZN17IyS81uXHuExwviaDkbR_TQIZOgt2cDx0Ulc0vNgfd0Og9LaT4RY5Kd1m2EqNn9oE5pPBhcU7Dqk3mqObGLPuaDl7Dl33lJpntwDd-KHuvWTW6h.png" alt=""><figcaption></figcaption></figure>) button, which also closes the menu.
 
        2. Click the **Remove from list** option in the menu at the bottom. A success message appears, and the selected domains are removed from the list.
 

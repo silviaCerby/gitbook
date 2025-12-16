@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a trusted device using the Cerby mobile app.
+intercom_id: 11662017
 ---
 
 # Remove a trusted device using the Cerby mobile app
@@ -9,8 +10,8 @@ description: This article describes how to remove a trusted device using the Cer
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
-  * Available in the Cerby mobile app
+* Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
+* Available in the Cerby mobile app
 
 
 {% endhint %}

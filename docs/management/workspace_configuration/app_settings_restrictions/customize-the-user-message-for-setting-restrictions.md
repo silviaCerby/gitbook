@@ -1,5 +1,6 @@
 ---
 description: This article describes how to customize the user message displayed when an app’s password or user settings restrictions are applied.
+intercom_id: 10276389
 ---
 
 # Customize the user message for setting restrictions
@@ -9,9 +10,9 @@ description: This article describes how to customize the user message displayed 
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
-  * Workspace users must have the Cerby browser extension installed and logged in
+* Workspace **Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
+* Workspace users must have the Cerby browser extension installed and logged in
 
 
 {% endhint %}

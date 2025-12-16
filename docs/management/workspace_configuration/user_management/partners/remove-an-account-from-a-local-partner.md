@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove an account from a local partner.
+intercom_id: 11944642
 ---
 
 # Remove an account from a local partner
@@ -9,13 +10,13 @@ description: This article describes how to remove an account from a local partne
 
 **Who can use this feature?**
 
-  * **Host Admins** of a local partner
-  * Only supported using the Cerby web app
+* **Host Admins** of a local partner
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a **Host Admin** of an existing [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can remove an account from a local partner that you had shared previously. With this removal, all **Guest Admins** and **Guest Users** with shared access to the account lose access.
+As a **Host Admin** of an existing [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can remove an account from a local partner that you had shared previously. With this removal, all **Guest Admins** and **Guest Users** with shared access to the account lose access.
 
 To remove an account from a local partner, you must complete the following steps:
 

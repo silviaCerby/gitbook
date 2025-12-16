@@ -1,13 +1,14 @@
 ---
 description: This article describes how to export the entitlement assignments of your IdLCM integration to a CSV file.
+intercom_id: 12454975
 ---
 
 # Export the entitlement assignments of your IdLCM integration
 
 **Who can use this feature?**
 
-  * Workspace**Owners, Super Admins,** and**Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners, Super Admins,** and**Admins**
+* Only supported using the Cerby web app
 
 ---
 

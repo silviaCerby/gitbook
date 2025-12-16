@@ -1,5 +1,6 @@
 ---
 description: This article describes how to retrieve the SCIM API authentication token to configure automatic provisioning with your IdP tenant.
+intercom_id: 5683294
 ---
 
 # Retrieve the SCIM API authentication token from Cerby
@@ -9,8 +10,8 @@ description: This article describes how to retrieve the SCIM API authentication 
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -33,19 +34,18 @@ To retrieve the SCIM API authentication token, complete the following steps:
   2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed.
   3. Activate the **IDP Settings** tab. The details of your IDP and the **Directory Sync** section are displayed, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/wYKYXI-5PC3k5vuKXMzolKGy6aI8m6H0DZ_FPcJobn7n_UxFOK-AXCF2TEvS9greX2eTMk-fsysA0J-YMRe1bg_6lL9vbMg8A3brva46_uaXsYB2M14DR5Nfffur6L3T8imunHY7KKqFLx-_mitDX38.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1. Directory Sync** section in the **IDP Settings** tab
 
-  4. Click the **View Token** button located in the **Directory Sync** section. The **Confirm your identity to continue** dialog box is displayed, and a push notification is sent to your Cerby mobile app.
-  5. Confirm your identity by using one of [Cerby's multi-factor authentication methods](https://help.cerby.com/en/articles/9462605-verify-your-identity-with-cerby-s-mfa-methods). The **Confirm your identity to continue** dialog box closes in the Cerby web app, and the **Show Token** dialog box is displayed, as shown in **Figure 2**.
+<figure><img src="../../../../.gitbook/assets/wYKYXI-5PC3k5vuKXMzolKGy6aI8m6H0DZ_FPcJobn7n_UxFOK-AXCF2TEvS9greX2eTMk-fsysA0J-YMRe1bg_6lL9vbMg8A3brva46_uaXsYB2M14DR5Nfffur6L3T8imunHY7KKqFLx-_mitDX38.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/iHcagYfTMbx6ZzSg-CSqke7MiO_U7QqlxVH7yM1sHEMdMJ4IJoMhiQkJHITAlkerCtO05shjlIvFnmrxG2CzD9gjXYbXvSGo4_EIzOb_3cgbEcsCVEzWsZHAWXLGVy3U-_OEvpjyCbp2wdYcLeX_VKg.png" alt=""><figcaption></figcaption></figure>
+  4. Click the **View Token** button located in the **Directory Sync** section. The **Confirm your identity to continue** dialog box is displayed, and a push notification is sent to your Cerby mobile app.
+  5. Confirm your identity by using one of [Cerby's multi-factor authentication methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods). The **Confirm your identity to continue** dialog box closes in the Cerby web app, and the **Show Token** dialog box is displayed, as shown in **Figure 2**.
 
 **Figure 2. Show Token** dialog box
 
-  6. Click the **Copy** button to copy the SCIM API authentication token to the clipboard.
+<figure><img src="../../../../.gitbook/assets/iHcagYfTMbx6ZzSg-CSqke7MiO_U7QqlxVH7yM1sHEMdMJ4IJoMhiQkJHITAlkerCtO05shjlIvFnmrxG2CzD9gjXYbXvSGo4_EIzOb_3cgbEcsCVEzWsZHAWXLGVy3U-_OEvpjyCbp2wdYcLeX_VKg.png" alt=""><figcaption></figcaption></figure>
 
+  6. Click the **Copy** button to copy the SCIM API authentication token to the clipboard.
 **TIP:** Keep the **Show Token** dialog box open, as shown in **Figure 2** , to copy the token at any time. You need the token to configure automatic provisioning with your IdP tenant.
 
 Now you’re done.

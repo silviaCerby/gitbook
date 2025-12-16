@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add your business hub for YouTube Studio to centrally manage access to it and its assets from Cerby.
+intercom_id: 9141289
 ---
 
 # Connect a business hub for YouTube Studio
@@ -10,25 +11,24 @@ YouTube Studio manages members’ roles and permissions for YouTube channels. Wi
 
 Matched users are prompted in the Cerby dashboard to connect their IdP and YouTube Studio profiles to Cerby. After connecting them, you can manage and secure their access to your YouTube Studio and its assets and update their role, all from one single interface. External collaborators without a Cerby account are displayed as unmatched users. For these users, you can perform the following actions:
 
-  * Match and invite users to join your channel through YouTube Studio through Cerby
-  * Remove unmatched users
-  * Exempt unmatched users to keep their user account active in YouTube Studio; however, you cannot manage them through Cerby
+* Match and invite users to join your channel through YouTube Studio through Cerby
+* Remove unmatched users
+* Exempt unmatched users to keep their user account active in YouTube Studio; however, you cannot manage them through Cerby
 
 This article describes how to add a YouTube Studio integration and import its users to Cerby.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to add your YouTube Studio integration to Cerby:
 
-  * A Cerby workspace
-  * A Cerby account
-  * A collaboration space in your YouTube Studio
-
+* A Cerby workspace
+* A Cerby account
+* A collaboration space in your YouTube Studio
 **IMPORTANT:** If you have a Brand account, you must migrate to YouTube Studio. Read the instructions in the Migrate members’ permissions to YouTube Studio section to learn how to perform the migration
 
-  * A service account with the following characteristics:
+* A service account with the following characteristics:
     * It must belong to your IdP, such as Okta, Entra ID, or JumpCloud
     * It must use single sign-on (SSO) to log in to the Google Workspace account
     * It must have the Google Suite apps assigned; thus, having access to the Gmail Inbox
@@ -36,10 +36,10 @@ The following are the requirements to add your YouTube Studio integration to Cer
     * It must have the **Owner** or **Manager** role in YouTube Studio
     * It must have the multi-factor authentication (MFA) method enabled, thus accepting authenticator apps, such as Google Authenticator or Phone MFA. Then, it must be configured to use Cerby as the authentication app by following the instructions in the [[Video] How to turn on MFA manually for your accounts](https://help.cerby.com/en/articles/6393776-video-how-to-turn-on-2fa-manually-for-your-accounts) article
     * It must be an account dedicated to connecting the integration, not associated with a specific user
-  * The [Channel ID](https://www.youtube.com/account_advanced) of your YouTube channel
+* The [Channel ID](https://www.youtube.com/account_advanced) of your YouTube channel
 * * *
 
-# Migrate members’ permissions to YouTube Studio
+## Migrate members’ permissions to YouTube Studio
 
 **IMPORTANT:** Complete the steps in this section only if you have a YouTube Brand account. For instructions on verifying your account type, read the official documentation [Check if you have a Brand Account](https://support.google.com/youtube/answer/7286468?hl=en&ref_topic=9267586&sjid=9713402243757791435-NC). If you already use YouTube Studio's permission system, continue to the Connect a business hub for YouTube Studio section.
 ---
@@ -53,31 +53,31 @@ To migrate the members’ permissions to YouTube Studio, you must follow the nex
 
 The following sections describe each main step.
 
-## 1\. Prepare for the member migration to YouTube Studio
+### 1\. Prepare for the member migration to YouTube Studio
 
 To prepare for the member migration from YouTube Brand account to YouTube Studio, Cerby recommends you review the following considerations:
 
-  * Members must create a YouTube personal channel
-  * Each channel must have a permanent owner
-  * Your content might be temporarily unavailable
+* Members must create a YouTube personal channel
+* Each channel must have a permanent owner
+* Your content might be temporarily unavailable
 
 The following sections describe each consideration.
 
-### Members must create a YouTube personal channel
+#### Members must create a YouTube personal channel
 
 When you manage a Brand account, members access it by logging in with their personal YouTube account. However, to access YouTube Studio, each member must have a **personal channel** linked to their account. This consideration is important because channel permissions are managed exclusively through YouTube Studio. For more information and instructions, read the official documentation [Add or remove access to your YouTube channel with channel permissions](https://support.google.com/youtube/answer/9481328?sjid=16518201040371443454-NC).
 
 During the migration, each member and channel associated with your Brand account must accept an invitation to join YouTube Studio and confirm their assigned role. As part of this process, YouTube prompts members without personal channels to create one before they accept the invitation. To create a new YouTube channel, read the official documentation [Create a YouTube channel](https://support.google.com/youtube/answer/1646861?hl=en&sjid=16518201040371443454-NC).
 
-### Each channel must have a permanent owner
+#### Each channel must have a permanent owner
 
 Unlike Brand accounts, YouTube Studio only permits **one permanent Owner per channel**. When designated, this **Owner** cannot be changed or removed. Ensure that the member completing the onboarding process for YouTube Studio is the individual who will remain the permanent **Owner**. For more information, read the official documentation [Change channel owners & managers with a Brand Account](https://support.google.com/youtube/answer/4628007?hl=en&co=GENIE.Platform%3DAndroid).
 
-### Your content might be temporarily unavailable
+#### Your content might be temporarily unavailable
 
 The content in your channels might be temporarily disconnected during the migration. Schedule**** a time with minimal account activity to complete the transition because all members and channels must reauthorize their access.
 
-## 2\. Migrate from YouTube Brand account to YouTube Studio
+### 2\. Migrate from YouTube Brand account to YouTube Studio
 
 To migrate from YouTube Brand account to YouTube Studio, you must complete the following steps:
 
@@ -98,7 +98,7 @@ To migrate from YouTube Brand account to YouTube Studio, you must complete the f
 
 * * *
 
-# Connect a business hub for YouTube Studio
+## Connect a business hub for YouTube Studio
 
 To connect a business hub for YouTube Studio and import your members to Cerby, you must complete the following main steps:
 
@@ -108,7 +108,7 @@ To connect a business hub for YouTube Studio and import your members to Cerby, y
 
 The following sections describe each main step.
 
-## 1\. Add a business hub and connect it to your YouTube Studio
+### 1\. Add a business hub and connect it to your YouTube Studio
 
 To add a business hub in Cerby and connect it to your YouTube Studio, you must complete the following steps:
 
@@ -131,19 +131,17 @@ To add a business hub in Cerby and connect it to your YouTube Studio, you must c
   7. Click the **Next** button. The **Select automation account** page is displayed. One of the following scenarios occurs:
 
      * If you already have an automation account for the business hub to your IdP, a list of accounts is displayed, as shown in the example of **Figure 1** for Okta.
-
-<figure><img src="../.gitbook/assets/qudaeJJ6hCet5Du5--f-jqbvvLWNzNhizAvulKePYKKgNBW75acgeWGV7L5QdqzmsItU-hp3M0Id7cWgmAwZIEJB3sDLMPpsV8IUxo6yiCUzs7MIRyv1TqogPV7CiBAAvYB8GU0DVpjLfDumSmErj7E.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1.** IdP automation account
+
+<figure><img src="../../../../../../.gitbook/assets/qudaeJJ6hCet5Du5--f-jqbvvLWNzNhizAvulKePYKKgNBW75acgeWGV7L5QdqzmsItU-hp3M0Id7cWgmAwZIEJB3sDLMPpsV8IUxo6yiCUzs7MIRyv1TqogPV7CiBAAvYB8GU0DVpjLfDumSmErj7E.png" alt=""><figcaption></figcaption></figure>
 
        1. Select the corresponding automation account to your IdP provider.
        2. Click the **Connect app** button.
 
      * If you don’t have an automation account, you are prompted to add it, as shown in **Figure 2** :
-
-<figure><img src="../.gitbook/assets/lj5D8SIIGSh28fk1SUMlGeEtsb9eFAdHXld1RSSQb1DkbGIRdUSqJbA8ePi33lFcfkdrZPQyIl-7U29IBZV6roFX6zBmoOZ7At7_j5JxHmCUNdQMMO3O5EvYyw5ftvQ9AoWqOpq222s6Kej5iTjTVmg.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 2.** Add an automation account for YouTube
+
+<figure><img src="../../../../../../.gitbook/assets/lj5D8SIIGSh28fk1SUMlGeEtsb9eFAdHXld1RSSQb1DkbGIRdUSqJbA8ePi33lFcfkdrZPQyIl-7U29IBZV6roFX6zBmoOZ7At7_j5JxHmCUNdQMMO3O5EvYyw5ftvQ9AoWqOpq222s6Kej5iTjTVmg.png" alt=""><figcaption></figcaption></figure>
 
        1. Enter your account information in the corresponding fields:
 
@@ -163,14 +161,14 @@ To add a business hub in Cerby and connect it to your YouTube Studio, you must c
 {% hint style="danger" %}
 
 
-**IMPORTANT:** If your IdP requires the two-factor authentication method enabled, you must use Cerby as your authentication app. Follow the instructions in the [How to turn on MFA managed by Cerby](https://help.cerby.com/en/articles/8429534-how-to-turn-on-2fa-managed-by-cerby) article to learn how to use Cerby as your authenticator app.
+**IMPORTANT:** If your IdP requires the two-factor authentication method enabled, you must use Cerby as your authentication app. Follow the instructions in the [How to turn on MFA managed by Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app) article to learn how to use Cerby as your authenticator app.
 
 
 {% endhint %}
 
 The next step is 2\. Check for updates and import users and roles to Cerby.
 
-## 2\. Check for updates and import users and roles to Cerby
+### 2\. Check for updates and import users and roles to Cerby
 
 To check for updates in YouTube Studio to identify and import users and roles to Cerby, you must complete the following steps:
 
@@ -187,27 +185,27 @@ To check for updates in YouTube Studio to identify and import users and roles to
 {% hint style="info" %}
 
 
-**NOTE:** After adding the YouTube Studio integration, Cerby automatically performs daily checks for updates, but you can do it manually. When a user is deprovisioned from the IdP, and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from Cerby. Follow the instructions in the article[ Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report) to apply the report, and remove deprovisioned users.
+**NOTE:** After adding the YouTube Studio integration, Cerby automatically performs daily checks for updates, but you can do it manually. When a user is deprovisioned from the IdP, and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from Cerby. Follow the instructions in the article[ Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app) to apply the report, and remove deprovisioned users.
 
 
 {% endhint %}
 
 The next step is 3\. Manage unmatched users, which you must complete from the Cerby dashboard.
 
-## 3\. Manage unmatched users
+### 3\. Manage unmatched users
 
 After a check for updates, Cerby automatically matches users to their corresponding Cerby accounts. Users who couldn’t be identified during the check or who are not in the corporate directory are categorized as unmatched. For these users, you can perform one of the following three actions:
 
-  * Match and invite users
-  * Remove unmatched users
-  * Exempt unmatched users
+* Match and invite users
+* Remove unmatched users
+* Exempt unmatched users
 
 These actions are performed from the **Unmatched Users** tab of the **User Overview** section inside the app details page.
 
 **IMPORTANT:** The actions you perform for unmatched users propagate to the corresponding roles and permissions on assets.
 ---
 
-## Match and invite users
+### Match and invite users
 
 To match and invite users to join your YouTube Studio through Cerby, you must perform the following steps:
 
@@ -235,7 +233,7 @@ The YouTube account and app cards are displayed in the **All accounts** and **Ap
 
 {% endhint %}
 
-## Remove unmatched users
+### Remove unmatched users
 
 To remove unmatched users, you must perform the following steps:
 
@@ -247,7 +245,7 @@ To remove unmatched users, you must perform the following steps:
   6. Select the **Remove user** option from the list. The **Remove user?** dialog box is displayed.
   7. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from YouTube Studio.
 
-## Exempt unmatched users
+### Exempt unmatched users
 
 Exempted users keep their user accounts active for your YouTube Studio, but you cannot manage them through Cerby. To exempt unmatched users, you must perform the following steps:
 
@@ -264,42 +262,42 @@ Now you are done. You can start managing and securing access to your YouTube Stu
 
 * * *
 
-# Troubleshooting the YouTube Studio integration
+## Troubleshooting the YouTube Studio integration
 
 This section contains some of the common errors you might encounter while integrating YouTube Studio with Cerby.
 
-## “Oops, you don't have permission to view this page” error
+### “Oops, you don't have permission to view this page” error
 
 If you encounter the "Oops, you don't have permission to view this page" error message, as shown in **Figure 3**.
 
-<figure><img src="../.gitbook/assets/AD_4nXcv5yMMc2iZThDArIF3oJDogEtiPrAhQLdJW_WV-iwZIzU-3KqLDYZJRaUGsxow2uQMCw6kbnTaUYvbgXTkHpxWySA1ger-RfuHB2EeBkLzyzqMhDIyGLLvCHgoIQxbYgyzRLcj.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/AD_4nXcv5yMMc2iZThDArIF3oJDogEtiPrAhQLdJW_WV-iwZIzU-3KqLDYZJRaUGsxow2uQMCw6kbnTaUYvbgXTkHpxWySA1ger-RfuHB2EeBkLzyzqMhDIyGLLvCHgoIQxbYgyzRLcj.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 3. “Oops, you don't have permission to view this page”** error message
 
 The following are the possible causes and solutions:
 
-  * Ensure the YouTube user permissions have been migrated from Brand account to YouTube Studio. For instructions, read the Migrate members’ permissions to YouTube Studio section.
-  * Verify that the service account has been invited to the YouTube Studio account with a **Manager** role. This role is essential because it has permission to access the account. You must check the invitation status and ensure it has been accepted by the service account.
-  * Confirm that the service account has accepted the invitation to join YouTube Studio with the **Manager** role. Without acceptance, access to YouTube Studio is restricted.
-  * Confirm that the YouTube Studio Business ID is correct. Review the Requirements section to learn how to correctly find this ID.
+* Ensure the YouTube user permissions have been migrated from Brand account to YouTube Studio. For instructions, read the Migrate members’ permissions to YouTube Studio section.
+* Verify that the service account has been invited to the YouTube Studio account with a **Manager** role. This role is essential because it has permission to access the account. You must check the invitation status and ensure it has been accepted by the service account.
+* Confirm that the service account has accepted the invitation to join YouTube Studio with the **Manager** role. Without acceptance, access to YouTube Studio is restricted.
+* Confirm that the YouTube Studio Business ID is correct. Review the Requirements section to learn how to correctly find this ID.
 
-## “Only Google accounts can be invited” error while adding a member to YouTube Studio
+### “Only Google accounts can be invited” error while adding a member to YouTube Studio
 
 If you encounter the “Only email addresses with Google accounts can be invited” error message while adding members to the YouTube Studio account, it is because YouTube Studio only allows email addresses associated with Google accounts to be invited. Thus, you must ensure that users have a Google account to join YouTube Studio.
 
 * * *
 
-# Related articles
+## Related articles
 
 The following are the supported features of the YouTube Studio app integration you can use:
 
-  * [Invite new app members](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Remove app members](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * [Update the app members’ roles](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
-  * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track activity on app members’ user accounts](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove an App](https://help.cerby.com/en/articles/9046230-remove-an-app)
+* [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+* [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+* [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+* [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+* [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+* [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
+* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+* [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+* [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+* [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

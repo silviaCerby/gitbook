@@ -1,5 +1,6 @@
 ---
 description: This article describes how to edit a secret or secret item using the Cerby mobile app.
+intercom_id: 11429620
 ---
 
 # Edit a secret or secret item to Cerby using the mobile app
@@ -9,9 +10,9 @@ description: This article describes how to edit a secret or secret item using th
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , and **Admins**
-  * **Secret Owners**
-  * Supported using the Cerby web and mobile apps
+* Workspace **Owners** , **Super** **Admins** , and **Admins**
+* **Secret Owners**
+* Supported using the Cerby web and mobile apps
 
 
 {% endhint %}

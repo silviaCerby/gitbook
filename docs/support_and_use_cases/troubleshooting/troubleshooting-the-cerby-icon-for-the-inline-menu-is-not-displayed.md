@@ -1,5 +1,6 @@
 ---
 description: This article describes how to open the inline menu of the Cerby browser extension when the input fields of a login page are not identified.
+intercom_id: 8350190
 ---
 
 # Troubleshooting: The Cerby icon for the inline menu is not displayed
@@ -11,14 +12,13 @@ To solve this issue, first, ensure you have the Cerby browser extension installe
   1. Look for the Cerby logo where your web browser displays the installed extensions. Depending on the outcome, perform any of the following actions:
 
      * Install the browser extension if the Cerby logo is missing. Navigate to the corresponding link depending on your web browser:
+After installing the Cerby browser extension, continue to step 2.
+
        * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
        * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
        * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
-       * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
-
-**NOTE:** If your company uses a mobile device management (MDM) solution to install the applications in all of the corporate computers, contact your IT or Security department.
-
-After installing the Cerby browser extension, continue to step 2.
+       * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)\
+         **NOTE:** If your company uses a mobile device management (MDM) solution to install the applications in all of the corporate computers, contact your IT or Security department.
 
      * Continue to step 2 if the Cerby logo is displayed.
 
@@ -34,9 +34,9 @@ After reloading the page, the Cerby logo should be displayed inside the input fi
   1. Click inside any of the input fields to activate it.
   2. Right-click inside the input field. The context menu is displayed, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/-gHJ6xQBiTfUZ3wV9WogJhFciz-L0vf74MZ5yCEj-gQ1X-GtR_dXsmILNakTjs8ZBu1_sS2S0_hfba-HW7QTnw5if6Tw1J6Fmr6JEbvgY6DYxU4gm1jqEeOMagKR_DtKglWQWJjbpe38go5QyJy5cxo.png" alt="Screenshot of the context menu over an input field of Twitter's login page. The "><figcaption></figcaption></figure>
-
 **Figure 1**. Context menu of the web browser
+
+<figure><img src="../../../.gitbook/assets/-gHJ6xQBiTfUZ3wV9WogJhFciz-L0vf74MZ5yCEj-gQ1X-GtR_dXsmILNakTjs8ZBu1_sS2S0_hfba-HW7QTnw5if6Tw1J6Fmr6JEbvgY6DYxU4gm1jqEeOMagKR_DtKglWQWJjbpe38go5QyJy5cxo.png" alt="Screenshot of the context menu over an input field of Twitter's login page. The "><figcaption></figcaption></figure>
 
   3. Select the **Open Cerby** option. The Cerby logo is displayed inside the input field.
 

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to create a password policy for all the accounts belonging to one or multiple managed apps.
+intercom_id: 11466694
 ---
 
 # Create a password policy
@@ -9,13 +10,13 @@ description: This article describes how to create a password policy for all the 
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a workspace **Admin** , you can create a [password policy](https://help.cerby.com/en/articles/11465716-explore-password-policies) to enforce automated password rotations for all the accounts saved in your workspace belonging to one or multiple managed apps. As part of the setup, you can specify the event that triggers the rotations.
+As a workspace **Admin** , you can create a [password policy](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-password-policies) to enforce automated password rotations for all the accounts saved in your workspace belonging to one or multiple managed apps. As part of the setup, you can specify the event that triggers the rotations.
 
 {% hint style="info" %}
 
@@ -48,22 +49,19 @@ To create a password policy for one or multiple apps, you must complete the foll
 
        1. Select a date to start the password policy from the **Starting date** calendar.
        2. Specify the frequency of the password rotations by entering a number and selecting the corresponding option in the **Frequency** section:
+For example, if you enter **1** and select **week** , the automated password rotations will be executed every week starting on the date you have selected in step a.
+**IMPORTANT:** The frequency can only be an interval between one day and one year.
 
           * **days**
           * **weeks**
           * **months**
           * **years**
 
-For example, if you enter **1** and select **week** , the automated password rotations will be executed every week starting on the date you have selected in step a.
-
-**IMPORTANT:** The frequency can only be an interval between one day and one year.
-
        3. Specify a time window to execute the automated password rotations in the **Time window execution** section.
 ​**IMPORTANT:** The time window consists of a start and an end time, and must be at least 8 hours.
 
   6. Click the **Next** button. The **Add a Policy** page of the wizard is displayed.
   7. Select the apps for which you want to implement the password policy.
-
 **TIP:** You can use the search bar to look for specific apps, the drop-down filter to show all apps or only apps with business hubs, or the **Select all** option to select all apps in the list.
 
   8. Click the **Next** button. The **Review data** dialog box is displayed for you to review and confirm the policy.

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add a vault to an account manually.
+intercom_id: 9370625
 ---
 
 # Assign additional vaults to an account
@@ -8,29 +9,29 @@ To enhance security and usability for **Account Owners** , **Admins** , and **Su
 
 By assigning an account to a local vault, the following occurs:
 
-  * You get increased account security by keeping data securely encrypted on the local device.
-  * Your accounts adhere to the zero-knowledge principles because only the user has access to the encryption keys on their devices, ensuring that no one else, including Cerby, can access the data.
-  * Automation tasks might be limited because of availability and accessibility to the LEKs.
+* You get increased account security by keeping data securely encrypted on the local device.
+* Your accounts adhere to the zero-knowledge principles because only the user has access to the encryption keys on their devices, ensuring that no one else, including Cerby, can access the data.
+* Automation tasks might be limited because of availability and accessibility to the LEKs.
 
 By assigning an account to a cloud vault, the following occurs:
 
-  * You get enhanced automation actions through seamless automated actions such as automatic multi-factor authentication (MFA) and password rotation.
-  * Cerby gets faster access to encryption keys, allowing it to manage and execute automation tasks efficiently.
+* You get enhanced automation actions through seamless automated actions such as automatic multi-factor authentication (MFA) and password rotation.
+* Cerby gets faster access to encryption keys, allowing it to manage and execute automation tasks efficiently.
 
 This article describes how to add a user vault to an account.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to create a vault:
 
-  * A Cerby account with the **Workspace Owner** or **Workspace Admin** role.
-  * A trusted session previously set up for the device. For instructions, read the article [Set up trusted sessions on your devices](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices).
-  * At least one vault assigned to the account.
+* A Cerby account with the **Workspace Owner** or **Workspace Admin** role.
+* A trusted session previously set up for the device. For instructions, read the article [Set up trusted sessions on your devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices).
+* At least one vault assigned to the account.
 * * *
 
-# Assign an additional vault to an account
+## Assign an additional vault to an account
 
 To add a user vault to an account, you must complete the following steps:
 
@@ -51,7 +52,7 @@ To add a user vault to an account, you must complete the following steps:
 
 * * *
 
-# Remove a vault from an account
+## Remove a vault from an account
 
 To remove a user vault from an account, you must complete the following steps:
 

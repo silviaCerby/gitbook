@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update the role of the team members in your external seat-based and paid social apps via a business hub.
+intercom_id: 11139474
 ---
 
 # Update team member roles in your app via a business hub
@@ -9,8 +10,8 @@ description: This article describes how to update the role of the team members i
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

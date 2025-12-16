@@ -1,5 +1,6 @@
 ---
 description: This article describes how to turn on the biometrics login feature on your Cerby mobile app.
+intercom_id: 10355971
 ---
 
 # Turn on the Biometrics Login feature
@@ -9,8 +10,8 @@ description: This article describes how to turn on the biometrics login feature 
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
-  * Available in the Cerby mobile app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
+* Available in the Cerby mobile app
 
 
 {% endhint %}
@@ -24,13 +25,13 @@ This feature provides convenience and added protection, making it easier to acce
 
 **IMPORTANT:**
 
-  * The **Biometrics Login** feature does _not_ replace the app login process. When your session expires, you must log in again using your Identity Provider (IdP) login credentials, such as Okta or Entra ID (formerly Azure AD).
-  * For the feature to work correctly, the phone’s biometric authentication system on Android and iOS must be enabled. Before using this feature, ensure your device's biometric settings are configured. Check the following resources to learn more about your options:
+* The **Biometrics Login** feature does _not_ replace the app login process. When your session expires, you must log in again using your Identity Provider (IdP) login credentials, such as Okta or Entra ID (formerly Azure AD).
+* For the feature to work correctly, the phone’s biometric authentication system on Android and iOS must be enabled. Before using this feature, ensure your device's biometric settings are configured. Check the following resources to learn more about your options:
     * iOS
       * [Use Face ID on your iPhone or iPad Pro](https://support.apple.com/en-us/108411)
       * [Set up Touch ID on iPhone](https://support.apple.com/guide/iphone/set-up-touch-id-iph672384a0b/ios)
     * Android (depends on your device manufacturer)
-  * The Cerby mobile app uses the biometric information you have enabled by default on your phone: Face ID or Touch ID on iOS or Face Lock or Fingerprint recognition on Android. If you have both options enabled on your phone, the Cerby mobile app uses Face ID on iOS and Fingerprint on Android by default.
+* The Cerby mobile app uses the biometric information you have enabled by default on your phone: Face ID or Touch ID on iOS or Face Lock or Fingerprint recognition on Android. If you have both options enabled on your phone, the Cerby mobile app uses Face ID on iOS and Fingerprint on Android by default.
 
 
 {% endhint %}

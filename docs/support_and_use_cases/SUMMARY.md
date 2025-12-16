@@ -38,6 +38,7 @@
 * Troubleshooting
     * [Password Manager Importer troubleshooting and FAQs](troubleshooting/password-manager-importer-troubleshooting-and-faqs.md)
     * [Perform a hard refresh on a web page](troubleshooting/perform-a-hard-refresh-on-a-web-page.md)
+    * [Troubleshooting business hubs](troubleshooting/troubleshooting-business-hubs.md)
     * [Troubleshooting: Common issues with X (Twitter)](troubleshooting/troubleshooting-common-issues-with-x-twitter.md)
     * [Troubleshooting Extended account access](troubleshooting/troubleshooting-extended-account-access.md)
     * [Troubleshooting: Manually Removing Users from Business Center Accounts](troubleshooting/troubleshooting-manually-removing-users-from-business-center-accounts.md)

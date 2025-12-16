@@ -1,5 +1,6 @@
 ---
 description: This article describes the steps to filter the events you see in the Activity view using the Cerby web app.
+intercom_id: 10128410
 ---
 
 # Filter events in the Activity view
@@ -9,9 +10,9 @@ description: This article describes the steps to filter the events you see in th
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
-  * Item **Owners**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
+* Item **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

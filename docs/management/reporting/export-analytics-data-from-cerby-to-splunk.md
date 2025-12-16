@@ -1,5 +1,6 @@
 ---
 description: This article describes how to set up the integration to export analytics data from Cerby to Splunk.
+intercom_id: 9663721
 ---
 
 # Export analytics data from Cerby to Splunk
@@ -9,8 +10,8 @@ description: This article describes how to set up the integration to export anal
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * This is a beta feature currently available to a limited number of workspaces
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* This is a beta feature currently available to a limited number of workspaces
 
 
 {% endhint %}
@@ -31,7 +32,7 @@ This article describes how to set up the analytics data export to Splunk.
 
 * * *
 
-# Set up the analytics data export to Splunk
+## Set up the analytics data export to Splunk
 
 To set up the export of the analytics data that Cerby registers and stores for a workspace, you must complete the following main steps:
 
@@ -40,23 +41,20 @@ To set up the export of the analytics data that Cerby registers and stores for a
 
 The following sections describe each main step.
 
-## 1\. Create and set up an HTTP Event Collector in Splunk
+### 1\. Create and set up an HTTP Event Collector in Splunk
 
 To create and configure an HTTP Event Collector in Spunk, complete the following steps:
 
   1. Create a Splunk HTTP Event Collector for receiving events by following the instructions in the [Getting Data In](https://docs.splunk.com/Documentation/SplunkCloud/9.0.2209/Data/UsetheHTTPEventCollector?ref=hk) official documentation.
-
 **IMPORTANT:** When creating the Event Collector token, disable the Enable indexer acknowledgement checkbox.
 
   2. Share the HTTP Event Collector token and URI with the Cerby Customer Support team. The following is an example of the URI: `https://demouri.splunkcloud.com:8088/services/collector/event`.
-
 The Splunk system provides the URI and may contain a port. If applicable, ensure you share the port to prevent issues receiving the events.
-
-**IMPORTANT:** Use a Cerby secure secret instead of sending sensitive details directly. For more information, refer to the articles [Share items with external users via a link](https://help.cerby.com/en/articles/8308908-share-items-with-external-users-via-a-link) and [[Video] How to share a secret with external users via a public link](https://help.cerby.com/en/articles/8384438-video-how-to-share-a-secret-with-external-users-via-a-public-link) to learn how to share the values securely.
+**IMPORTANT:** Use a Cerby secure secret instead of sending sensitive details directly. For more information, refer to the articles [Share items with external users via a link](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/share-items-with-external-users-via-a-link) and [[Video] How to share a secret with external users via a public link](https://help.cerby.com/en/articles/8384438-video-how-to-share-a-secret-with-external-users-via-a-public-link) to learn how to share the values securely.
 
 The next step is 2\. Search for Cerby events via the Splunk Search app.
 
-## 2\. Search for Cerby analytic events via the Splunk Search app
+### 2\. Search for Cerby analytic events via the Splunk Search app
 
 To search for Cerby analytic events using the Splunk Search app, follow the instructions in the [Search Tutorial](https://docs.splunk.com/Documentation/SplunkCloud/9.0.2209/SearchTutorial/Aboutthesearchapp) official documentation.
 
@@ -64,7 +62,7 @@ Now you’re done with the setup.
 
 * * *
 
-# Appendix: Analytic events format
+## Appendix: Analytic events format
 
 The following is an example of the JSON object with the analytic events that Cerby sends to Splunk. The object contains a description of each key-value pair.
 

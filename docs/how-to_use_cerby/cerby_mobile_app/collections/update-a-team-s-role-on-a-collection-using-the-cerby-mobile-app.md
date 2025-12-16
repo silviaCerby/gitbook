@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update a team’s role on a collection using the Cerby mobile app.
+intercom_id: 9742326
 ---
 
 # Update a team’s role on a collection using the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to update a team’s role on a collectio
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Collection **Owners**
-  * Supported using the Cerby web app and mobile app.
+* Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Collection **Owners**
+* Supported using the Cerby web app and mobile app.
 
 
 {% endhint %}

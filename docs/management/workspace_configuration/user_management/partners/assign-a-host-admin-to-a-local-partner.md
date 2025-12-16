@@ -1,5 +1,6 @@
 ---
 description: This article describes how to assign a Host Admin to an existing local partner.
+intercom_id: 11944400
 ---
 
 # Assign a Host Admin to a local partner
@@ -9,13 +10,13 @@ description: This article describes how to assign a Host Admin to an existing lo
 
 **Who can use this feature?**
 
-  * **Host Admins** of a local partner
-  * Only supported using the Cerby web app
+* **Host Admins** of a local partner
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a **Host Admin** of a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can assign one or multiple **Host Admins** to your existing local partner. **Host Admins** can manage the local partner and its guest users, and share accounts with the local partner.
+As a **Host Admin** of a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can assign one or multiple **Host Admins** to your existing local partner. **Host Admins** can manage the local partner and its guest users, and share accounts with the local partner.
 
 To assign a **Host Admin** to a local partner, you must complete the following steps:
 

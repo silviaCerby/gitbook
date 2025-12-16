@@ -1,5 +1,6 @@
 ---
 description: This article describes how to edit the vault backup details.
+intercom_id: 12431376
 ---
 
 # Edit the vault backup details
@@ -9,8 +10,8 @@ description: This article describes how to edit the vault backup details.
 
 **Who can use this capability?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app.
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app.
 
 
 {% endhint %}
@@ -26,7 +27,6 @@ To edit the vault backup details, you must complete the following steps:
   5. Click the **More options** () button of the vault backup. A drop-down menu is displayed.
   6. Select the **Edit** () option. The **Connect to CyberArk** section is displayed with the current values.
   7. Update the CyberArk–Cerby connection values as needed.
-
 **IMPORTANT:** The **CyberArk auth URL** or **CyberArk base URL** values cannot be edited in the **Connect to CyberArk** section.
 
   8. Click the **Validate targets** button. Cerby validates the safe, and the Connect button is enabled after a successful validation.

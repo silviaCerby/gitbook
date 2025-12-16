@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update a user’s role on an account using the Cerby mobile app.
+intercom_id: 9742167
 ---
 
 # Update a user’s role on an account using the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to update a user’s role on an account 
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Account **Owners**
-  * Supported using the Cerby web app and mobile app. For the web app instructions, read the article [Update a user's role on an account](https://help.cerby.com/en/articles/9479436-update-a-user-s-role-on-an-account)
+* Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Account **Owners**
+* Supported using the Cerby web app and mobile app. For the web app instructions, read the article [Update a user's role on an account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/update-a-user-s-role-on-an-account)
 
 
 {% endhint %}

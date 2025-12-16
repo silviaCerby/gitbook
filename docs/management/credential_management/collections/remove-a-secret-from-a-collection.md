@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a secret from a collection.
+intercom_id: 11102087
 ---
 
 # Remove a secret from a collection
@@ -9,9 +10,9 @@ description: This article describes how to remove a secret from a collection.
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Collection **Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Collection **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

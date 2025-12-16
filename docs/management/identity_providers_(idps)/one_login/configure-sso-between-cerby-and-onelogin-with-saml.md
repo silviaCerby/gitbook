@@ -1,5 +1,6 @@
 ---
 description: This article describes how to configure OneLogin to enable SSO with Cerby using a custom SAML application.
+intercom_id: 11814820
 ---
 
 # Configure SSO between Cerby and OneLogin with SAML
@@ -12,26 +13,26 @@ This article describes how to configure OneLogin as the primary IdP to enable SS
 
 * * *
 
-# Supported features
+## Supported features
 
 The following are the supported features of configuring SSO in Cerby with OneLogin:
 
-  * Control who has access to Cerby from OneLogin.
-  * **Service provider-initiated authentication flow.** This authentication flow occurs when users attempt to log in to the application from Cerby.
-  * **Automatic user account creation in Cerby.** This provisioning flow in Cerby occurs automatically on the initial SSO.
+* Control who has access to Cerby from OneLogin.
+* **Service provider-initiated authentication flow.** This authentication flow occurs when users attempt to log in to the application from Cerby.
+* **Automatic user account creation in Cerby.** This provisioning flow in Cerby occurs automatically on the initial SSO.
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to configure SSO in Cerby with OneLogin:
 
-  * A user account in OneLogin with admin privileges to configure an application
-  * You must have received an invitation from Cerby Support via email to create a workspace.
+* A user account in OneLogin with admin privileges to configure an application
+* You must have received an invitation from Cerby Support via email to create a workspace.
 ​**IMPORTANT:** If you have not received an invitation, send an email to [support@cerby.com](mailto:support@cerby.com) with your request
 
 * * *
 
-# Configure SSO in Cerby with OneLogin
+## Configure SSO in Cerby with OneLogin
 
 To configure SSO in Cerby with OneLogin, you must complete the following main steps:
 
@@ -43,22 +44,22 @@ To configure SSO in Cerby with OneLogin, you must complete the following main st
 
 The following sections describe each main step.
 
-## 1\. Set up a workspace in Cerby
+### 1\. Set up a workspace in Cerby
 
 To set up a workspace in Cerby, complete the following steps:
 
   1. Click the**Create your Workspace** button from the invitation email. The**Welcome to Cerby** page is displayed, as shown in **Figure 1.**
 ​
 
-<figure><img src="../.gitbook/assets/AD_4nXcBsyxmo-u6hTF58tS7AyYUrKlpoQKuNoLp1XUHV9g6dbtHXz7V_7Ymtjy7DOsPCkP0ARfENlB06bDyMtoOIgMpWy75m-pYJpFvPG0m9Gkb0MsyjQ5zaVvlF8OP4QydiXVHFz-JQg.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1. Welcome to Cerby** page
+
+<figure><img src="../../../../.gitbook/assets/AD_4nXcBsyxmo-u6hTF58tS7AyYUrKlpoQKuNoLp1XUHV9g6dbtHXz7V_7Ymtjy7DOsPCkP0ARfENlB06bDyMtoOIgMpWy75m-pYJpFvPG0m9Gkb0MsyjQ5zaVvlF8OP4QydiXVHFz-JQg.png" alt=""><figcaption></figcaption></figure>
 
   2. Click the **Continue with Generic SAML** button. The **Create your workspace** page is displayed, as shown in **Figure 2**.
 
-<figure><img src="../.gitbook/assets/AD_4nXfOWNjW_3gLYkONdLnkISOjwu3XLGStQUwxhSQJ1698MR5al6JUtAoU4U9X0gnPd6_ghVT2dVqKo3J7plMYN5FHELoHi1CX0mkOsHDpUf9FvAJ40kzOpCg00Rc6v1crjfkS3yUR.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 2.** **Create your Workspace** page
+
+<figure><img src="../../../../.gitbook/assets/AD_4nXfOWNjW_3gLYkONdLnkISOjwu3XLGStQUwxhSQJ1698MR5al6JUtAoU4U9X0gnPd6_ghVT2dVqKo3J7plMYN5FHELoHi1CX0mkOsHDpUf9FvAJ40kzOpCg00Rc6v1crjfkS3yUR.png" alt=""><figcaption></figcaption></figure>
 
   3. Enter the name of your workspace in the **Workspace name** field.
 ​**NOTE:** Remember the workspace name that you have entered. You need it later.
@@ -66,49 +67,47 @@ To set up a workspace in Cerby, complete the following steps:
   4. Click the **Create workspace** button. The **Configure SSO through Your Generic SAML App** page is displayed, as shown in **Figure 3**. This page contains information to configure the Cerby application in your OneLogin tenant.
 ​
 
-<figure><img src="../.gitbook/assets/AD_4nXeABTPrsoMY8MvXg3z1cgiV0yAj8_2wTygULf3xCOOydadLiFkCYERZZJxG0jp2M1EVufWsPNxFMlXR37MQ81EY478cChhf7BtAvYRz_UQigZvhSV8vzclKkPlDXTis4TRN5vNUYQ.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 3. Configure SSO through Your Generic SAML App** page
 ​
-
 **IMPORTANT:** Keep the **Configure SSO through Your Generic SAML App** page open because it contains the required values that you must provide to OneLogin and Cerby to complete the configuration.
+
+<figure><img src="../../../../.gitbook/assets/AD_4nXeABTPrsoMY8MvXg3z1cgiV0yAj8_2wTygULf3xCOOydadLiFkCYERZZJxG0jp2M1EVufWsPNxFMlXR37MQ81EY478cChhf7BtAvYRz_UQigZvhSV8vzclKkPlDXTis4TRN5vNUYQ.png" alt=""><figcaption></figcaption></figure>
 
 The next step is 2\. Add a SAML-based application to OneLogin, which you must complete from OneLogin.
 
-## 2\. Add a SAML-based application to OneLogin
+### 2\. Add a SAML-based application to OneLogin
 
 To add a SAML-based application to OneLogin, complete the following steps:
 
   1. Log in to [OneLogin](https://cerby-test.onelogin.com/admin2) as an administrator.
   2. Select the Applications options that appear when hovering over the Applications tab. The **Applications** page is displayed, as shown in **Figure 4.**
 ​
-
-<figure><img src="../.gitbook/assets/image_11.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 4. Applications** page in OneLogin
+
+<figure><img src="../../../../.gitbook/assets/image_11.png" alt=""><figcaption></figcaption></figure>
 
   3. Click the **Add App** button located at the top right. The **Find Application** page is displayed.
   4. Enter **SCIM** in the search bar. A list of applications is displayed.
   5. Select the **SCIM Provisioner with SAML (SCIM v2 Core)** option. The **Add SCIM Provisioner with SAML (SCIM v2 Core)** page is displayed, as shown in**Figure 5.**
 
-<figure><img src="../.gitbook/assets/image_12.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 5. Add SCIM Provisioner with SAML (SCIM v2 Core)** page in OneLogin
+
+<figure><img src="../../../../.gitbook/assets/image_12.png" alt=""><figcaption></figcaption></figure>
 
   6. (Optional) Update the name for your OneLogin SAML application in the **Display Name** field.
   7. Click the **Save** button. A success message is displayed.
 
 The next step is 3\. Configure SAML for Cerby in OneLogin, which you must complete from OneLogin.
 
-## 3\. Configure SAML for Cerby in OneLogin
+### 3\. Configure SAML for Cerby in OneLogin
 
 To configure OneLogin to provide SSO for Cerby using SAML, complete the following steps:
 
   1. Select the **Configuration** option from the left menu. The configuration details page is displayed, as shown in **Figure 6.**
 
-<figure><img src="../.gitbook/assets/image_13.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 6**. Configuration details page in OneLogin
+
+<figure><img src="../../../../.gitbook/assets/image_13.png" alt=""><figcaption></figcaption></figure>
 
   2. Enter the following information in the **Application details** section using the values from the browser tab you left open when completing step 1\. Set up a workspace in Cerby:
 
@@ -119,16 +118,16 @@ To configure OneLogin to provide SSO for Cerby using SAML, complete the followin
   4. Click the **Save** button. A success message is displayed, and the **Info** details page activates.
   5. Select the **Parameters** option from the left menu. The parameters details page is displayed, as shown in **Figure 7**.
 
-<figure><img src="../.gitbook/assets/image_14.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 7**. The parameters details page in OneLogin
+
+<figure><img src="../../../../.gitbook/assets/image_14.png" alt=""><figcaption></figcaption></figure>
 
   6. Map the user identity SAML attributes by completing the following steps using the values listed in **Table 1** :
      1. Click the plus (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1631579343/00dc25ec5bb5e7fd9a3ffc5eb825/AD_4nXc2g5-woHfwF-6l-y3Vg4mXdkvozEU-1hvbCE78CziYYhJLfg2BbqgmvV1ryNjUlPGgQQV84onK57rvGd8-FveZgO8xOtjXVFFRCQKX1-33OJh_TVujMCeA0Gddybw_Ne16KrJAOA?expires=1753272000&signature=f96d1d92730eeaf0a9408c89373061d062fa2fe212bf531e8d3753580965ca8d&req=dSYkF8x5lIJbWvMW3Hu4gXInkFbyGFjBBLJ%2BBfvHmdwMbTnpyVKPbclVWSIz%0A8A%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon. The **New Field** dialog box is displayed, as shown in **Figure 8.**
 
-<figure><img src="../.gitbook/assets/AD_4nXfvbIsM06IQxHy5PrTwOsmUjJezM9MPa0-exR2OGfe8vbqy7lYwoXVike0OR9XZUTSELGr5pIiKTayScfXz-c2vEKBet5CYRalIVxM9XyrvQmBoLRIXid_WADY8Czu9CjB6-Abb7w.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 8. New Field** dialog box in OneLogin
+
+<figure><img src="../../../../.gitbook/assets/AD_4nXfvbIsM06IQxHy5PrTwOsmUjJezM9MPa0-exR2OGfe8vbqy7lYwoXVike0OR9XZUTSELGr5pIiKTayScfXz-c2vEKBet5CYRalIVxM9XyrvQmBoLRIXid_WADY8Czu9CjB6-Abb7w.png" alt=""><figcaption></figcaption></figure>
 
      2. Copy and paste the URI from **Table 1** into the **Field name** field. For example, **`http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name`**
      3. Select the**Include in SAML assertion** option.
@@ -139,9 +138,9 @@ To configure OneLogin to provide SSO for Cerby using SAML, complete the followin
   7. Update the attribute assigned to the **scimusername** field by completing the following steps:
      1. Click the **scimusername** field. The **Edit Field scimusername** dialog box is displayed, as shown in **Figure 9**.
 
-<figure><img src="../.gitbook/assets/AD_4nXegtPqzBQ0UnR_UOIX9DwLytG7DMMwFm6rN-BxztdfzjoGko7zXZ1vbktDHtkAOLRigCXVWXf27TZ_u9VP3YgCsb2cdN3KFAiTrhf0w9ZimT3CA2-slbHIxObFFZ4NjxWAb4bQF9g.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 9. Edit Field scimusername** dialog box in OneLogin
+
+<figure><img src="../../../../.gitbook/assets/AD_4nXegtPqzBQ0UnR_UOIX9DwLytG7DMMwFm6rN-BxztdfzjoGko7zXZ1vbktDHtkAOLRigCXVWXf27TZ_u9VP3YgCsb2cdN3KFAiTrhf0w9ZimT3CA2-slbHIxObFFZ4NjxWAb4bQF9g.png" alt=""><figcaption></figcaption></figure>
 
      2. Select the **Email** option from the **Value** drop-down menu**.**
      3. Click the **Save** button. The dialog box closes.
@@ -151,16 +150,16 @@ To configure OneLogin to provide SSO for Cerby using SAML, complete the followin
 
 The next step is 4\. Assign users to the application, which you must complete from OneLogin.
 
-## 4\. Assign users to the application
+### 4\. Assign users to the application
 
 You can assign users to the newly created application in the following ways:
 
-  * **Manually assigning apps to individual users**. For instructions, read the official OneLogin documentation [Manually Assigning Apps to Users](https://onelogin.service-now.com/support?id=kb_article&sys_id=e5e35e0047ccbd509d8dfd1f536d43c2&kb_category=e9866930db185340d5505eea4b9619b7).
-  * **Assigning apps to users in batches**. The most efficient way to assign apps to users is to batch-apply them in collections, using roles and mappings. For instructions, read the official OneLogin documentation [Roles](https://onelogin.service-now.com/support?id=kb_article&sys_id=cc2e602a973b2150c90c3b0e6253af3c&kb_category=566ffd6887332910695f0f66cebb3556).
+* **Manually assigning apps to individual users**. For instructions, read the official OneLogin documentation [Manually Assigning Apps to Users](https://onelogin.service-now.com/support?id=kb_article&sys_id=e5e35e0047ccbd509d8dfd1f536d43c2&kb_category=e9866930db185340d5505eea4b9619b7).
+* **Assigning apps to users in batches**. The most efficient way to assign apps to users is to batch-apply them in collections, using roles and mappings. For instructions, read the official OneLogin documentation [Roles](https://onelogin.service-now.com/support?id=kb_article&sys_id=cc2e602a973b2150c90c3b0e6253af3c&kb_category=566ffd6887332910695f0f66cebb3556).
 
 The next step is 5\. Finish the workspace creation in Cerby, which you must complete in Cerb
 
-## 5\. Finish the workspace creation in Cerby
+### 5\. Finish the workspace creation in Cerby
 
 To finish the workspace creation in Cerby, complete the following steps from the**Configure SSO through Your Generic SAML App** page that you left open:
 
@@ -178,14 +177,14 @@ Now you are done.
 
 **NOTE:** After completing the SSO setup in this guide, you can also configure automatic user provisioning via SCIM between OneLogin and Cerby.
 
-To enable automatic creation, updates, and deactivation of user accounts in Cerby based on user assignments in OneLogin, see the article [Configure automatic user provisioning with OneLogin via SCIM.](https://help.cerby.com/en/articles/11820873-configure-automatic-user-provisioning-with-onelogin-via-scim)
+To enable automatic creation, updates, and deactivation of user accounts in Cerby based on user assignments in OneLogin, see the article [Configure automatic user provisioning with OneLogin via SCIM.](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/one-login/configure-automatic-user-provisioning-with-onelogin-via-scim)
 
 
 {% endhint %}
 
 * * *
 
-# Table 1. User identity SAML attributes
+## Table 1. User identity SAML attributes
 
 The following table shows the user identity SAML attributes you must configure in OneLogin as part of step 3\. Configure SAML for Cerby in OneLogin:
 

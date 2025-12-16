@@ -1,5 +1,6 @@
 ---
 description: This article describes how you can log in to the Cerby platform with the Cerby CLI to start using its available commands.
+intercom_id: 9132804
 ---
 
 # Authenticate with the Cerby CLI
@@ -10,34 +11,33 @@ This article describes how to log in to the Cerby platform with the Cerby CLI vi
 
 Cerby has the following authentication processes to enable you to log in even in unusual situations where you can't access a web browser:
 
-  * Log in via a web browser
-  * Log in via a bearer token
+* Log in via a web browser
+* Log in via a bearer token
 
 ​​The following sections describe each process.
 
 * * *
 
-# Log in via a web browser
+## Log in via a web browser
 
 To log in via a web browser and start using the CLI commands, you must complete the following steps:
 
   1. Access the location where the Cerby CLI is installed using your command line interface, depending on your OS.
   2. Execute the following command in your OS command line interface:
+You are redirected to your identity provider's login page on a browser page.
 
      * **Windows:** `.\cerby-win.exe login`
      * **Linux:** `./cerby-linux login`
      * **MacOS:** `./cerby-macos login`
 
-You are redirected to your identity provider's login page on a browser page.
-
   3. Enter your credentials to authenticate via single sign-on (SSO). The **All set!** page is displayed, meaning that the authentication has been successful.
   4. Start using the Cerby commands in your command line.
 
-To learn more about the available commands in the Cerby CLI, refer to the [Use the Cerby CLI ](https://help.cerby.com/en/articles/9136331-use-the-cerby-cli)article.
+To learn more about the available commands in the Cerby CLI, refer to the [Use the Cerby CLI ](https://cerby-test.gitbook.io/cerby-test/extending-cerby/cerby-cli/use-the-cerby-cli)article.
 
 * * *
 
-# Log in via a bearer token
+## Log in via a bearer token
 
 In cases where opening a browser window is not an option, for example, using a remote server, you can use the `--bearer-token` flag in the login command as an alternate way of authentication.
 
@@ -61,7 +61,7 @@ To obtain your Cerby bearer token and use it to log in to the Cerby platform, yo
 
          login --bearer-token={your-bearer-token}
 
-  8. Start using the Cerby commands, explained in the [Use the Cerby CLI](https://help.cerby.com/en/articles/9136331-use-the-cerby-cli) article, as needed.
+  8. Start using the Cerby commands, explained in the [Use the Cerby CLI](https://cerby-test.gitbook.io/cerby-test/extending-cerby/cerby-cli/use-the-cerby-cli) article, as needed.
 
 {% hint style="info" %}
 

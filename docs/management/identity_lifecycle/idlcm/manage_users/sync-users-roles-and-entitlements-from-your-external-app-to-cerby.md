@@ -1,5 +1,6 @@
 ---
 description: This article describes how to sync the users, roles, and entitlements from your external app to Cerby.
+intercom_id: 11648869
 ---
 
 # Sync users, roles, and entitlements from your external app to Cerby
@@ -9,8 +10,8 @@ description: This article describes how to sync the users, roles, and entitlemen
 
 **Who can use this feature?**
 
-  * Workspace**Owners, Super Admins,** and**Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners, Super Admins,** and**Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

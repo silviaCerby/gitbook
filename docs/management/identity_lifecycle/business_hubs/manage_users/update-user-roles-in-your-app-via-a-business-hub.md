@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update user roles in your external seat-based and paid social apps via a business hub.
+intercom_id: 9046201
 ---
 
 # Update user roles in your app via a business hub
@@ -9,8 +10,8 @@ description: This article describes how to update user roles in your external se
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -22,10 +23,10 @@ As a business hub **Owner** , you can update user roles in your external seat-ba
 
 **IMPORTANT:** You cannot update user roles individually if they have shared access to a business hub integration through a team. In this case, you must update the role of the corresponding team. The instructions are different depending on how the teams were created in Cerby:
 
-  * Self-managed teams
-    * [Update team roles in your app via a business hub](https://help.cerby.com/en/articles/11139474-update-team-member-roles-in-your-app-via-a-business-hub)
-  * IdP-managed teams
-    * [Update user roles in your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040590-update-user-roles-in-your-apps-via-an-idp-and-business-hub)
+* Self-managed teams
+    * [Update team roles in your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-team-member-roles-in-your-app-via-a-business-hub)
+* IdP-managed teams
+    * [Update user roles in your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-apps-via-an-idp-and-business-hub)
 
 
 {% endhint %}
@@ -38,7 +39,6 @@ To update the role of a user in your external app, you must complete the followi
   4. Select the **Settings** option from the menu. The business hub details page is displayed with the **Settings** tab activated.
   5. Activate the **Users** tab. The **User Overview** section is displayed with tables of users who have shared access to the business hub.
   6. Navigate to the table that lists the users whose role you want to change in your external app.
-
 **NOTE:** You can only update user roles after they have accepted the invitation to the external app.
 
   7. Click the down arrow icon (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1492691508/fce05e2bdb11f137e589613bce86/AD_4nXcV6jb3GgdUDrD4KUE7yRRgS4ZZiHOWQu6qiEpwcYXwu81JK1IlN3kBUyShxV4eOm0K3CeFqVHm5w717w-4ZeDLOd4b0DHW3uvLjeOrY-sLah1RSkVOpGDtytCMjgijjelYOKiRnA?expires=1764234000&signature=7e0c5dc4220b6d022424c80e3d72b77c6042820a0330602897707a6a65231e31&req=dSQuFM93nIRfUfMW3Hu4gTdKLeVuuatvVfba11eucb3c%2BSrB150mcwZxsQbQ%0AiA%3D%3D%0A" alt=""><figcaption></figcaption></figure>) in the **App Access** column of the corresponding user. A drop-down menu is displayed with the available roles in the app.

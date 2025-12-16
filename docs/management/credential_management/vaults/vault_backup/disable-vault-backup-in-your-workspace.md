@@ -1,5 +1,6 @@
 ---
 description: This article describes how to disable vault backup in your workspace.
+intercom_id: 12455148
 ---
 
 # Disable vault backup in your workspace
@@ -9,8 +10,8 @@ description: This article describes how to disable vault backup in your workspac
 
 **Who can use this capability?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app.
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app.
 
 
 {% endhint %}

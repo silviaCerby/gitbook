@@ -1,5 +1,6 @@
 ---
 description: This article describes how to trigger Okta Universal Logout from the Okta Dashboard and extend it to Cerby.
+intercom_id: 10495624
 ---
 
 # Trigger Okta Universal Logout and extend it to Cerby
@@ -9,8 +10,8 @@ description: This article describes how to trigger Okta Universal Logout from th
 
 **Who can use this feature?**
 
-  * Okta **Admins**
-  * Available from your organization’s Okta Admin Dashboard
+* Okta **Admins**
+* Available from your organization’s Okta Admin Dashboard
 
 
 {% endhint %}
@@ -35,11 +36,10 @@ To trigger Cerby’s Universal Logout from Cerby, you must complete the followin
   6. Select the **Also include logout enabled apps and Okta API tokens** checkbox, as shown in **Figure 1**.
 ​
 
-<figure><img src="../.gitbook/assets/Screenshot_2025-01-31_at_4.19.13_3Fp.m..png" alt=""><figcaption></figcaption></figure>
-
 ​**Figure 1.** **Clear sessions and revoke access** dialog box
-
 **IMPORTANT:** You must select this option to extend Okta’s Universal Logout to Cerby.
+
+<figure><img src="../../../../.gitbook/assets/Screenshot_2025-01-31_at_4.19.13_3Fp.m..png" alt=""><figcaption></figcaption></figure>
 
   7. Click the **Clear and revoke** button to trigger Okta’s Universal Logout and extend it to Cerby. The user’s sessions and tokens are revoked not only for their assigned apps in Okta but also for their Cerby client apps.
 

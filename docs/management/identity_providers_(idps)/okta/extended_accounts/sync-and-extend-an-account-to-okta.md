@@ -1,5 +1,6 @@
 ---
 description: This article describes how to extend an account to start logging in to it from Okta with Cerby’s automated login.
+intercom_id: 9759106
 ---
 
 # Sync and extend an account to Okta
@@ -9,9 +10,9 @@ description: This article describes how to extend an account to start logging in
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Account**Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Account**Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -21,7 +22,7 @@ As a user with any workspace role in Cerby, except the **Login-only** role, you 
 {% hint style="danger" %}
 
 
-**IMPORTANT:** The **[Extended account access](https://help.cerby.com/en/articles/9616265-explore-extended-account-access)** feature must be turned on for your workspace, and you must have the **Owner** role on the account you want to sync and extend.
+**IMPORTANT:** The **[Extended account access](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-extended-account-access)** feature must be turned on for your workspace, and you must have the **Owner** role on the account you want to sync and extend.
 
 
 {% endhint %}
@@ -32,10 +33,10 @@ Other users with the **Owner** or **Collaborator** role on your Cerby accounts c
 
 After the first sync, any change in Cerby accounts is automatically updated in Okta. The following are the changes that propagate from Cerby to Okta:
 
-  * User and team access permission updates in Cerby accounts, including assigning or unassigning users to Okta groups, which propagates to teams in Cerby with shared access to accounts.
-  * Account removals.
-  * Account label updates.
-  * User deprovisioning or deactivation in Okta, which causes the user to be removed from the Cerby workspace and lose access to Cerby accounts.
+* User and team access permission updates in Cerby accounts, including assigning or unassigning users to Okta groups, which propagates to teams in Cerby with shared access to accounts.
+* Account removals.
+* Account label updates.
+* User deprovisioning or deactivation in Okta, which causes the user to be removed from the Cerby workspace and lose access to Cerby accounts.
 
 {% hint style="info" %}
 

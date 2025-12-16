@@ -1,5 +1,6 @@
 ---
 description: This article describes how to set up an Azure Key Vault integration to use your existing environment to manage your keys and encryption.
+intercom_id: 9189942
 ---
 
 # Set up an Azure Key Vault integration
@@ -9,8 +10,8 @@ description: This article describes how to set up an Azure Key Vault integration
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * If you are interested in this feature but don't see it available in your workspace, email our Sales team at [sales@cerby.com](mailto:sales@cerby.com).
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* If you are interested in this feature but don't see it available in your workspace, email our Sales team at [sales@cerby.com](mailto:sales@cerby.com).
 
 
 {% endhint %}
@@ -29,11 +30,11 @@ With a service principal, which is your app’s identity in the Microsoft Entra 
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up an Azure Key Vault integration:
 
-  * **Entra**
+* **Entra**
     * An Entra ID tenant
     * An active Entra ID account with permissions to create a service principal and on the resource groups, such as **User Access Administrator** or **Role-Based Access Control Administrator**. For more information, read the [Create a Microsoft Entra application and service principal that can access resources](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal) official documentation
     * A registered Azure subscription. For more information, read the [Associate or add an Azure subscription to your Microsoft Entra tenant](https://learn.microsoft.com/en-us/entra/fundamentals/how-subscriptions-associated-directory#associate-a-subscription-to-a-directory) official documentation
@@ -45,12 +46,12 @@ The following are the requirements to set up an Azure Key Vault integration:
       * Key Vault
         * Vault URI
         * Key vault name
-  * **Cerby**
+* **Cerby**
     * A Cerby workspace
     * A Cerby account with the **Workspace Super Admin** or **Workspace Admin** role
 * * *
 
-# Set up an Azure Key Vault integration
+## Set up an Azure Key Vault integration
 
 To set up an Azure Key Vault integration, you must complete the following main steps:
 
@@ -62,7 +63,7 @@ To set up an Azure Key Vault integration, you must complete the following main s
 
 The following sections describe each main step.
 
-## 1\. Create a service principal in Entra ID
+### 1\. Create a service principal in Entra ID
 
 To create a service principal in Entra ID, you must complete the following steps:
 
@@ -89,7 +90,7 @@ To create a service principal in Entra ID, you must complete the following steps
 
 The next step is 2\. Create a key vault in Entra ID.
 
-## 2\. Create a key vault in Entra ID
+### 2\. Create a key vault in Entra ID
 
 To create a key vault in Entra ID, you must complete the following steps:
 
@@ -102,7 +103,6 @@ To create a key vault in Entra ID, you must complete the following steps:
 
      * **Subscription**
      * **Resource group**
-
 **IMPORTANT:** If you don’t have a resource group, click the **Create new** button located below the field to open a popup window and create the resource group.
 
      * **Key vault name**
@@ -114,10 +114,9 @@ To create a key vault in Entra ID, you must complete the following steps:
 
   7. Click the **Next** button. The **Access configuration** tab activates.
   8. Select the **Azure role-based access control (recommended)** option in the **Permission model** section, as shown in **Figure 1**.
-
-<figure><img src="../.gitbook/assets/image2_1.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1. Permission model** section in the **Access configuration** tab, with the **Azure role-based access control** option selected
+
+<figure><img src="../../../../.gitbook/assets/image2_1.png" alt=""><figcaption></figcaption></figure>
 
   9. Click the **Review + create** button. The page closes, and a success message box and the new key vault are displayed on the **Key vaults** page.
   10. Click the new key vault. The **Overview** page of the key vault is displayed.
@@ -125,7 +124,7 @@ To create a key vault in Entra ID, you must complete the following steps:
 
 The next step is 3\. Generate a key in Entra ID.
 
-## 3\. Generate a key in Entra ID
+### 3\. Generate a key in Entra ID
 
 To generate a key in Entra ID, you must complete the following steps:
 
@@ -133,7 +132,6 @@ To generate a key in Entra ID, you must complete the following steps:
   2. Click the **Generate/Import** button. The **Create a key** page is displayed.
   3. Enter a name for the key in the **Name** field.
   4. Select the **RSA** and **4096** options from the **Key type** and **RSA key size** fields, respectively.
-
 **IMPORTANT:** Make sure those options are selected; otherwise, the integration will not work.
 
   5. Copy the value of the key name because you need it later in the 5\. Set up the Azure Key Vault integration in Cerby main step.
@@ -141,14 +139,13 @@ To generate a key in Entra ID, you must complete the following steps:
 
 The next step is 4\. Grant access to the key vault for the service principal in Entra ID.
 
-## 4\. Grant access to the key vault for the service principal in Entra ID
+### 4\. Grant access to the key vault for the service principal in Entra ID
 
 To grant permissions to the service principal for the key vault in Entra ID, you must complete the following steps:
 
   1. Select the**Access control (IAM)** option from the left navigation drawer on the details page of your new key vault. The Access control (IAM) page is displayed.
   2. Click the **Add role assignment** button from the **Grant access to this resource** section. The **Add role assignment** page is displayed with a list of roles.
   3. Select the corresponding role from the list.
-
 **IMPORTANT:** The role with the least access privileges is Key Vault Crypto User, and the role with the highest access is **Key Vault Administrator**.
 
   4. Click the **Next** button. The **Members** tab is activated.
@@ -156,27 +153,24 @@ To grant permissions to the service principal for the key vault in Entra ID, you
   6. Enter the name of the service principal in the search box.
   7. Select the service principal.
   8. Click the **Select** button. The page closes, and a success message box is displayed.
-
 **NOTE:** You can confirm the successful role assignment by activating the **Role assignments** tab. The role you selected is displayed on a list, linked to the service principal.
 
 The next step is 5\. Set up the Azure Key Vault integration in Cerby.
 
-## 5\. Set up the Azure Key Vault integration in Cerby
+### 5\. Set up the Azure Key Vault integration in Cerby
 
 To set up the Azure Key Vault integration in Cerby, you must complete the following steps:
 
   1. Log in to your [workspace](https://app.cerby.com/) using the Cerby web app. The Cerby dashboard is displayed.
   2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed.
   3. Activate the **Privacy and Security** tab. A table with a list of vaults is displayed on the **Vault management** section, as shown in **Figure 2**.
-
-<figure><img src="../.gitbook/assets/image1.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 2.** Table with the list of vaults in the **Vault management** section of the **Privacy and Security** tab
+
+<figure><img src="../../../../.gitbook/assets/image1.png" alt=""><figcaption></figcaption></figure>
 
   4. Click the **Create new vault** button. The **Create new vault** dialog box is displayed.
   5. Enter the vault name in the **Vault name** field.
   6. Select the **Azure External Keys** option from the **Strategy** drop-down list.
-
 **NOTE:** Select the **Set as default vault** option if you want to set the new vault as the default when adding an item to Cerby.
 
   7. Click the **Next** button. The **Configure the Azure vault** dialog box is displayed.

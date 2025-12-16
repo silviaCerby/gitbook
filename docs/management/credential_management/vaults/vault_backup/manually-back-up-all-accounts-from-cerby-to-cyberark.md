@@ -1,13 +1,14 @@
 ---
 description: This article describes how to manually back up all your accounts from a Cerby vault to CyberArk.
+intercom_id: 12597970
 ---
 
 # Manually back up all accounts from Cerby to CyberArk
 
 **Who can use this capability?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app.
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app.
 
 ---
 

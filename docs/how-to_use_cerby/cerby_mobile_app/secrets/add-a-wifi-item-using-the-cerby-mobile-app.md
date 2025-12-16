@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add a WiFi item to your Cerby workspace using the Cerby mobile app.
+intercom_id: 11429496
 ---
 
 # Add a WiFi item using the Cerby mobile app
@@ -9,8 +10,8 @@ description: This article describes how to add a WiFi item to your Cerby workspa
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Supported using the Cerby web and mobile apps
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Supported using the Cerby web and mobile apps
 
 
 {% endhint %}
@@ -38,11 +39,10 @@ To add a WiFi item using the Cerby mobile app, you must complete the following s
      * **Notes:** It is a space for additional information or personalized notes related to the WiFi network.
 
   6. (Optional) Select the **Ask users to confirm their identity to view the secret** option if you want an identity challenge to be issued when users want to view it.
-​**NOTE:** You can add an identity challenge later via the Cerby web app. For more information, read the article [Edit a secret or secret item using the Cerby mobile app](https://help.cerby.com/en/articles/11429620-edit-a-secret-or-secret-items-to-cerby-using-the-mobile-app).
+​**NOTE:** You can add an identity challenge later via the Cerby web app. For more information, read the article [Edit a secret or secret item using the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/secrets/edit-a-secret-or-secret-item-to-cerby-using-the-mobile-app).
 
   7. (Optional) Enter the name of a collection to which you want to add the secret in the **Collection** name.
   8. Select a vault where you want to save the secret from the **Vault** drop-down list.
-
 **NOTE:** If you only have one vault, the **Vault** drop-down list is not displayed.
 
   9. Tap the **Save** button in iOS or **Save item** in Android. A success message box is displayed.

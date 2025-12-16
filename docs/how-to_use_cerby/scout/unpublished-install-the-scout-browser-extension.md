@@ -1,5 +1,6 @@
 ---
 description: This article describes how to install the Scout browser extension in your web browser.
+intercom_id: 12706457
 ---
 
 # [UNPUBLISHED] Install the Scout browser extension
@@ -9,8 +10,8 @@ description: This article describes how to install the Scout browser extension i
 
 **Who can use this feature?**
 
-  * Cerby workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Scout browser extension
+* Cerby workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Scout browser extension
 
 
 {% endhint %}
@@ -22,13 +23,13 @@ As a workspace **Owner** , **Super Admin** , or **Admin** , you can install the 
 
 * * *
 
-# Supported browsers
+## Supported browsers
 
 The Scout browser extension is supported only on the Chrome browser.
 
 * * *
 
-# Install Scout
+## Install Scout
 
 To install Scout, you must complete the next steps:
 

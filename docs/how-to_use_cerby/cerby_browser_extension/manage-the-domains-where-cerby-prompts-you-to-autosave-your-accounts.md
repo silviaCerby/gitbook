@@ -1,5 +1,6 @@
 ---
 description: This article describes how to manage in your profile the domains where Cerby prompts you to autosave your accounts.
+intercom_id: 9500525
 ---
 
 # Manage the domains where Cerby prompts you to autosave your accounts
@@ -9,8 +10,8 @@ description: This article describes how to manage in your profile the domains wh
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
-  * Supported using the Cerby web app and browser extension
+* Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
+* Supported using the Cerby web app and browser extension
 
 
 {% endhint %}
@@ -31,15 +32,15 @@ The domains for which you select this option are added to your profile's **Do no
 
 The following are the actions you can perform to manage the account autosave settings:
 
-  * Disable the **Add a new account to Cerby** dialog box
-  * View the **Do not save** list
-  * Remove domains from the **Do not save** list
+* Disable the **Add a new account to Cerby** dialog box
+* View the **Do not save** list
+* Remove domains from the **Do not save** list
 
 The following sections describe each action.
 
 * * *
 
-# Disable the Add a new account to Cerby dialog box
+## Disable the Add a new account to Cerby dialog box
 
 When you log in or sign up for an account on a specific website, the Cerby browser extension displays the **Add a new account to Cerby** dialog box with your pre-filled login information, including the website name, username, and password. You can fill in the rest of the fields and save that information into Cerby as an account.
 
@@ -50,29 +51,29 @@ To disable that dialog box each time you log in or sign up for a website, you mu
   3. Click the login or signup button on the page. The Cerby browser extension displays the **Add a new account to Cerby** dialog box.
   4. Click the **Don’t ask to save for this website again** option, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/Screenshot_2025-06-17_at_6.30.06_3Fp.m..png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2025-06-17_at_6.30.06_3Fp.m..png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1. Don’t ask to save for this website again** option in the **Add a new account to Cerby** dialog box
 
 The following occurs:
 
-  * A success message appears, indicating that Cerby will not ask you to save your credentials for the domain.
-  * The **Add a new account to Cerby** dialog box no longer appears when you log in or sign up for an account on that website.
-  * The domain is added to the **Do not save** list in your profile.
+* A success message appears, indicating that Cerby will not ask you to save your credentials for the domain.
+* The **Add a new account to Cerby** dialog box no longer appears when you log in or sign up for an account on that website.
+* The domain is added to the **Do not save** list in your profile.
 * * *
 
-# View the Do not save list
+## View the Do not save list
 
 The **Do not save** list includes the domains where you have selected to prevent the **Add a new account to Cerby** dialog box from being displayed each time you log in or sign up.
 
 You can view the **Do not save** list using the following client apps:
 
-  * Cerby web app
-  * Cerby browser extension
+* Cerby web app
+* Cerby browser extension
 
 The following sections contain the instructions for each client app.
 
-## Cerby web app
+### Cerby web app
 
 To access the **Do not save** list using the Cerby web app, you must complete the following steps:
 
@@ -83,7 +84,7 @@ To access the **Do not save** list using the Cerby web app, you must complete th
 
 Now you are done.
 
-## Cerby browser extension
+### Cerby browser extension
 
 To access the **Do not save** list using the Cerby browser extension, you must complete the following steps:
 
@@ -96,7 +97,7 @@ Now you are done.
 
 * * *
 
-# Remove domains from the Do not save list
+## Remove domains from the Do not save list
 
 After you have disabled the **Add a new account to Cerby** dialog box for specific domains, you can re-enable it by removing domains from the **Do not save** list. Therefore, the prompt dialog box will be displayed again when you log in or sign up for an account in these domains.
 
@@ -120,7 +121,6 @@ To remove domains from the **Do not save** list, you must complete the following
      * **Multiple domains**
 
        1. Select the domains you want to remove from the list. A menu indicating the number of domains you have selected appears at the bottom of the page.
-
 **NOTE:**
 
           * You can select all the domains in the list by clicking the **Select all** option from the menu at the bottom. All the domains appear as selected.

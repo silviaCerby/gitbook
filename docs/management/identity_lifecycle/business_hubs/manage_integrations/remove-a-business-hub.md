@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a business hub from Cerby.
+intercom_id: 9046230
 ---
 
 # Remove a business hub
@@ -9,8 +10,8 @@ description: This article describes how to remove a business hub from Cerby.
 
 **Who can use this feature?**
 
-  * Business hubs **Owners**
-  * Only supported using the Cerby web app
+* Business hubs **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

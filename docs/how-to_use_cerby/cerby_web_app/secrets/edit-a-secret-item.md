@@ -1,5 +1,6 @@
 ---
 description: This article describes how to edit the secret items you have added or that you were granted shared access as Owner in Cerby.
+intercom_id: 8705410
 ---
 
 # Edit a secret item
@@ -9,9 +10,9 @@ description: This article describes how to edit the secret items you have added 
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Secret item **Owners**
-  * Available to the Cerby Automate and Cerby Protect products. Cerby Protect users must have already set up their [trusted devices](https://help.cerby.com/en/articles/8142370-how-to-set-up-and-manage-your-trusted-devices)
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Secret item **Owners**
+* Available to the Cerby Automate and Cerby Protect products. Cerby Protect users must have already set up their [trusted devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices)
 
 
 {% endhint %}

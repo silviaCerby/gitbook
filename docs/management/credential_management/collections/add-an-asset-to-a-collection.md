@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add an asset to an existing collection.
+intercom_id: 11102036
 ---
 
 # Add an asset to a collection
@@ -9,9 +10,9 @@ description: This article describes how to add an asset to an existing collectio
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Collection, business hub, and asset **Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Collection, business hub, and asset **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -20,23 +21,23 @@ As a collection, business hub integration, and asset **Owner** , you can add an 
 
 The process of adding an asset to a collection is different, depending on whether a business hub already exists in the collection or not:
 
-  * Add an individual asset to a collection
-  * Add an asset for an existing business hub in a collection
+* Add an individual asset to a collection
+* Add an asset for an existing business hub in a collection
 
 The following sections describe each process.
 
 * * *
 
-# Add an individual asset to a collection
+## Add an individual asset to a collection
 
 To add an individual asset to a collection, you must complete the following steps using the Cerby web app:
 
   1. Log in to your [Cerby](https://app.cerby.com/) workspace.
   2. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  3. Click the **More options** () icon of the corresponding business hub card. A drop-down menu is displayed.
+  3. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1886091855/8b7ced32d08ce41afdfef6f47b66/08ce38a8-b30a-495c-8749-3298bfe0ca0f?expires=1765827600&signature=2aed7f80204e4689943c0b9aaca91d66cdc41f32be5be352dc78d3646c854c00&req=dSgvEMl3nIlaXPMU3HP0gNbv0CM5TceHjkSqev7BnY2ns6j2Luw%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. A drop-down menu is displayed.
   4. Select the **Settings** option from the menu. The business hub details page is displayed with the **Settings** tab activated.
   5. Activate the **Assets** tab.
-  6. Click the **More options** () icon of the corresponding asset card. A drop-down menu is displayed.
+  6. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1886091855/8b7ced32d08ce41afdfef6f47b66/08ce38a8-b30a-495c-8749-3298bfe0ca0f?expires=1765827600&signature=2aed7f80204e4689943c0b9aaca91d66cdc41f32be5be352dc78d3646c854c00&req=dSgvEMl3nIlaXPMU3HP0gNbv0CM5TceHjkSqev7BnY2ns6j2Luw%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding asset card. A drop-down menu is displayed.
   7. Select the **Add to Collection** option from the menu. The **Add to collection** dialog box is displayed with a list of collections and subcollections.
   8. Select the corresponding collection from the list or look it up using the search bar.
   9. Click the **Next** button. The **Define App Role** of the wizard is displayed with a list of roles.
@@ -46,7 +47,7 @@ To add an individual asset to a collection, you must complete the following step
 {% hint style="info" %}
 
 
-**NOTE:** For existing members and teams in the collection, Cerby sends them emails to claim access to the business hub and assets. After they claim access, Cerby triggers the automation jobs to add these users to the external apps and the assets because that’s the typical hierarchical structure. If members and teams already have direct access to the business hub, they must only claim access to the assets. For more information, read the article [Manage access to business hubs and assets with collections](https://help.cerby.com/en/articles/11102692-manage-access-to-business-hubs-and-assets-with-collections).
+**NOTE:** For existing members and teams in the collection, Cerby sends them emails to claim access to the business hub and assets. After they claim access, Cerby adds these users to the external apps and the assets. If members and teams already have direct access to the business hub, they must only claim access to the assets. For more information, read the article [Manage access to business hubs and assets with collections](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/manage-access-to-business-hubs-and-assets-with-collections).
 
 
 {% endhint %}
@@ -55,13 +56,13 @@ Now you are done.
 
 * * *
 
-# Add an asset for an existing business hub in a collection
+## Add an asset for an existing business hub in a collection
 
 To add an asset for an existing business hub in a collection, you must complete the following steps using the Cerby web app:
 
   1. Log in to your [Cerby](https://app.cerby.com/) workspace.
   2. Select the **Collections** option from the left menu. The **Collections** page is displayed.
-  3. Click the **Settings** () icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
+  3. Click the **Settings** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1886093410/5fd1af49b9c169ad71225f5507b5/f7e64c67-62eb-42f9-9372-da61fe27fd69?expires=1765827750&signature=a23405b6f99a5a916c8302152f3c7d0705f654d8ab594666f274d710dd37482e&req=dSgvEMl3noVeWfMU3HP0gC2Rus%2Btgitci0Au2lbl%2B%2FCFMpjAfhc%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
   4. Activate the **Assets** tab.
   5. Click the **Add assets** button located at the top right of the **Assets in the collection** section. A wizard is displayed with the **Select business hubs** page.
   6. Select the corresponding business hub from the list. The **Assign assets** page of the wizard is displayed with tabs for each asset type and a list of assets.
@@ -74,7 +75,7 @@ To add an asset for an existing business hub in a collection, you must complete 
 {% hint style="info" %}
 
 
-**NOTE:** For existing members and teams in the collection, Cerby sends emails for users to claim access to the assets. After they claim access, Cerby triggers the automation jobs to add these users to the assets. For more information, read the article [Manage access to business hubs and assets with collections](https://help.cerby.com/en/articles/11102692-manage-access-to-business-hubs-and-assets-with-collections).
+**NOTE:** For existing members and teams in the collection, Cerby sends emails for users to claim access to the assets. After they claim access, Cerby adds these users to the assets. For more information, read the article [Manage access to business hubs and assets with collections](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/manage-access-to-business-hubs-and-assets-with-collections).
 
 
 {% endhint %}

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to turn on and manage the Prompted autosave setting at the workspace level, applicable to all workspace users.
+intercom_id: 9500502
 ---
 
 # Turn on and manage prompted account autosave in the workspace
@@ -9,8 +10,8 @@ description: This article describes how to turn on and manage the Prompted autos
 
 **Who can use this feature?**
 
-  * Workspace **Super** **Admins** and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Super** **Admins** and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -21,22 +22,22 @@ With the **Prompted autosave** setting, Cerby detects login and signup attempts 
 
 The following are the prompted account autosave settings you can manage:
 
-  * Turn on Prompted autosave in the workspace
-  * Manage the domains for Prompted autosave
-  * Add a domain to Prompted autosave
-  * Remove domains from Prompted autosave
+* Turn on Prompted autosave in the workspace
+* Manage the domains for Prompted autosave
+* Add a domain to Prompted autosave
+* Remove domains from Prompted autosave
 
 {% hint style="danger" %}
 
 
-**IMPORTANT:** To learn how Cerby manages roles with the account autosave feature, refer to the article [Explore Account Autosave](https://help.cerby.com/en/articles/9500455-explore-account-autosave#h_da5abb0156).
+**IMPORTANT:** To learn how Cerby manages roles with the account autosave feature, refer to the article [Explore Account Autosave](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-account-autosave).
 
 
 {% endhint %}
 
 * * *
 
-# Turn on Prompted autosave in the workspace
+## Turn on Prompted autosave in the workspace
 
 To turn on the **Prompted autosave** setting in the workspace, you must complete the following steps:
 
@@ -48,12 +49,11 @@ To turn on the **Prompted autosave** setting in the workspace, you must complete
      * A success message is displayed.
      * The information about the user who modified the setting, the date, and time is updated.
      * The **Select your domain preferences for the prompted account autosave** drop-down menu is displayed. This menu contains the options to configure the domains for which the Cerby browser extension displays the **Add a new account to Cerby** dialog box:
+For more information, read the Manage the domains for Prompted autosave section.
+
        * Autosave accounts for all domains
        * Autosave accounts only for allowed domains
        * Exclude domains from account autosave
-
-For more information, read the Manage the domains for Prompted autosave section.
-
      * Depending on the option selected in the **Select your domain preferences for the prompted account autosave** drop-down menu, a field is displayed to search or enter the name of the apps to add to a list of allowed or excluded domains.
      * Depending on whether you have added allowed or excluded domains, these domains are listed below.
 
@@ -61,19 +61,19 @@ Now you are done.
 
 * * *
 
-# Manage the domains for Prompted autosave
+## Manage the domains for Prompted autosave
 
 If the **Prompted autosave** setting is turned on in the workspace, you can configure which domains Cerby will display the **Add a new account to Cerby** dialog box. Therefore, users can choose to save their credentials as a new account.
 
 The following are the available options for managing this setting:
 
-  * **Autosave accounts for all domains**
+* **Autosave accounts for all domains**
     * The Cerby browser extension will display the **Add a new account to Cerby** dialog box for all domains where any workspace user enters their login or signup credentials.
-  * **Autosave accounts only for allowed domains**
+* **Autosave accounts only for allowed domains**
     * The Cerby browser extension will display the **Add a new account to Cerby** dialog box only for the domains added to the list of allowed domains. To configure this list, read the following sections:
       * Add a domain to Prompted autosave
       * Remove domains from Prompted autosave
-  * **Exclude domains from account autosave**
+* **Exclude domains from account autosave**
     * The Cerby browser extension will not display the **Add a new account to Cerby** dialog box for the domains added to the list of excluded domains. To configure this list, read the following sections:
       * Add a domain to Prompted autosave
       * Remove domains from Prompted autosave
@@ -83,7 +83,7 @@ The following are the available options for managing this setting:
 
 * * *
 
-# Add a domain for Prompted autosave
+## Add a domain for Prompted autosave
 
 After turning on the **Prompted autosave** setting and selecting the option to allow or exclude domains, as described in the Manage the domains for Prompted autosave section, you can start adding domains to their corresponding lists.
 
@@ -101,7 +101,7 @@ Now you are done. If you added an allowed domain, Cerby will display the **Add a
 
 * * *
 
-# Remove domains from Prompted autosave
+## Remove domains from Prompted autosave
 
 When you already have a list of allowed or excluded domains for the **Prompted autosave** setting, you can remove them according to your organization's needs.
 
@@ -124,7 +124,6 @@ To remove one or multiple domains from **Prompted autosave** , you must complete
      * **Multiple domains**
 
        1. Select the domains you want to remove from the list. A menu is displayed at the bottom of the page indicating the number of domains you have selected.
-
 **TIP:** To deselect all domains, you have two alternatives in the menu at the bottom: the **Deselect all** button and the **Close selection** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1581084592/a1353a4e2e3124e1a749df7c69a9/AD_4nXcuUaDNGYU635FW5TAOTDGFJ0x_UH_MYFaSO8i7IcAG84WKYrsQ4bWTjIU7My3cyPXdszBfIf0lvUQMYMh8ebLcpxSKFzYp2PPBqQDinqdTeJtmf_XfPRLBtWJ2-fM_kuTds9CY?expires=1750734000&signature=d95ede45e0b4053150a6e1b478cadcc92e6622b8f39a06c45b76d8b74a93ab30&req=dSUvF8l2mYRWW%2FMW3Hu4gSb0Engn68WgBY%2F5XnDccOlycTwY3iFdOMWpCDNO%0AIg%3D%3D%0A" alt=""><figcaption></figcaption></figure><figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1583075713/a32b9542d646c483b25830ee6d27/AD_4nXfpcGdEFFgd5WkK8MloflB0rFAdY4BvxZo_o90gBBCJ1Fz5BfC42M4jKvQo1CMAL22mNVQT-qecuFxV-TIIo3yFms_klj0xX0vGaebFy8nycGwnavJnWSvCJ2Gn8IR_GgckpiOA?expires=1750734000&signature=e3703f8b9e4cb43311d7f1a857a14739b4574cc17083f38def4bd5ad7c5f47fb&req=dSUvFcl5mIZeWvMW3Hu4gbvOo8anXem0K9HEkd5RudnEDaJs%2BT24NACIP1aZ%0ALg%3D%3D%0A" alt=""><figcaption></figcaption></figure>) button, which also closes the menu.
 
        2. Click the **Remove from list** option in the menu at the bottom. A success message appears, and the selected domains are removed from the list.

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to configure the sync safeguard threshold of your business hub to prevent unintended user removals.
+intercom_id: 12773569
 ---
 
 # Configure the sync safeguard threshold of your business hub
@@ -9,8 +10,8 @@ description: This article describes how to configure the sync safeguard threshol
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

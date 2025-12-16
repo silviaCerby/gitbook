@@ -1,5 +1,6 @@
 ---
 description: This article describes how to invite a Guest User to an existing local partner.
+intercom_id: 11944412
 ---
 
 # Invite a Guest User to a local partner
@@ -9,21 +10,21 @@ description: This article describes how to invite a Guest User to an existing lo
 
 **Who can use this feature?**
 
-  * **Host Admins** and **Guest Admins** of a local partner
-  * Only supported using the Cerby web app
+* **Host Admins** and **Guest Admins** of a local partner
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a **Host Admin** or **Guest Admin** of a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can invite one or multiple external collaborators as **Guest Users** of your workspace. After they join Cerby, you can start granting them access to the necessary accounts for collaboration through the local partner.
+As a **Host Admin** or **Guest Admin** of a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can invite one or multiple external collaborators as **Guest Users** of your workspace. After they join Cerby, you can start granting them access to the necessary accounts for collaboration through the local partner.
 
 {% hint style="info" %}
 
 
 **IMPORTANT:**
 
-  * **Guest Users** can only view and receive access to items shared with them by account **Owners** and **Managers**.
-  * Users already added as guest users in the workspace can’t be added again through a partnership connected to the same workspace.
+* **Guest Users** can only view and receive access to items shared with them by account **Owners** and **Managers**.
+* Users already added as guest users in the workspace can’t be added again through a partnership connected to the same workspace.
 
 
 {% endhint %}

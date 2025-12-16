@@ -1,5 +1,6 @@
 ---
 description: This article describes how to trigger Cerby’s native Universal Logout.
+intercom_id: 10496392
 ---
 
 # Trigger Cerby Universal Logout
@@ -9,8 +10,8 @@ description: This article describes how to trigger Cerby’s native Universal Lo
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

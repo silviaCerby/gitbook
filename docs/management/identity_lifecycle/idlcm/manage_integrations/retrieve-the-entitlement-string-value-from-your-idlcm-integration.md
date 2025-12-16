@@ -1,5 +1,6 @@
 ---
 description: This article describes how to retrieve the entitlement string value from your IdLCM integration.
+intercom_id: 12454992
 ---
 
 # Retrieve the entitlement string value from your IdLCM integration
@@ -9,8 +10,8 @@ description: This article describes how to retrieve the entitlement string value
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

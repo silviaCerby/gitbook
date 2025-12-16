@@ -1,5 +1,6 @@
 ---
 description: This article describes how to connect a business hub to centrally manage the users and assets of Meta Business Manager from Cerby.
+intercom_id: 5528269
 ---
 
 # Connect a business hub for Meta Business Manager
@@ -9,8 +10,8 @@ description: This article describes how to connect a business hub to centrally m
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -19,44 +20,44 @@ As a user with any workspace role in Cerby, except **Guest User** and **Login-On
 
 When you connect the business hub, you become its **Owner** , and you can perform the following user and access management tasks through automated tasks and API calls executed by the Cerby agent:
 
-  * Check for updates
-  * Add users
-  * Update user roles
-  * Remove users
+* Check for updates
+* Add users
+* Update user roles
+* Remove users
 
 {% hint style="success" %}
 
 
-**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Business Hubs](https://help.cerby.com/en/articles/6831152-explore-apps).
+**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Business Hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs).
 
 
 {% endhint %}
 
 Additionally, you can perform the following actions to manage access to your Meta Business Manager for external collaborators:
 
-  * Invite users to your workspace as [guest users](https://help.cerby.com/en/articles/8392946-how-to-invite-a-guest-user-to-your-workspace) or [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), with secure credentials provided and managed by Cerby.
-  * Connect a [native partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_e7fa9c355c) to your workspace to gain visibility on the partner’s users with shared access to the assets of your Meta Business Manager. For more information, read the article [Connect a Meta Business Manager native partner to Cerby](https://help.cerby.com/en/articles/8986246-connect-a-meta-business-manager-native-partner-to-cerby).
+* Invite users to your workspace as [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) or [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), with secure credentials provided and managed by Cerby.
+* Connect a [native partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) to your workspace to gain visibility on the partner’s users with shared access to the assets of your Meta Business Manager. For more information, read the article [Connect a Meta Business Manager native partner to Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/meta-business-manager/connect-a-meta-business-manager-native-partner-to-cerby).
 
 This article provides instructions on how to connect a business hub for ChatGPT. For other app-specific articles and videos, review the [Connecting business hubs for your apps](https://help.cerby.com/en/collections/10289415-connecting-your-apps) and [Connecting business hubs for your paid social apps](https://help.cerby.com/en/collections/12330234-connecting-business-hubs-for-your-paid-social-apps) collections in the Cerby Help Center.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to connect the business hub:
 
-  * Meta Business Manager
+* Meta Business Manager
     * A user account with the **Full control** role on your Meta Business Manager
     * An existing primary page associated with your Meta Business Manager. For instructions, read the article [Change your primary Page in Meta Business Suite or Business Manager](https://www.facebook.com/business/help/1809771339071540?id=180505742745347)
-    * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Business Hubs](https://help.cerby.com/en/articles/6831152-explore-apps)
+    * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Business Hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
     * The Business Manager ID of your Meta Business Manager. To find it, complete the instructions in the article [Find your business ID in Meta Business Manager](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
-  * Cerby
+* Cerby
     * A Cerby workspace
     * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
     * Groups configured in your identity provider (IdP) If you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the articles available in the [Managing users via an IdP and business hub](https://help.cerby.com/en/collections/12330182-managing-users-via-an-idp-and-business-hub) collection in the Cerby Help Center
 * * *
 
-# Connect a business hub for Meta Business Manager
+## Connect a business hub for Meta Business Manager
 
 To connect a business hub for Meta Business Manager, you must complete the following main steps in Meta and the Cerby web app dashboard:
 
@@ -71,7 +72,7 @@ To connect a business hub for Meta Business Manager, you must complete the follo
 
 The following sections describe each main step.
 
-## 1\. Connect your Meta Business Manager to the Cerby Assets Manager app
+### 1\. Connect your Meta Business Manager to the Cerby Assets Manager app
 
 To connect your Meta Business Manager to the Cerby Assets Manager app, you must complete the following steps:
 
@@ -91,7 +92,7 @@ To connect your Meta Business Manager to the Cerby Assets Manager app, you must 
 
 The next step is 2\. Create a system user in Meta Business Manager.
 
-## 2\. Create a system user in Meta Business Manager
+### 2\. Create a system user in Meta Business Manager
 
 To create a system user with an **Admin** role in Meta Business Manager, you must complete the following steps in your Meta Business Manager:
 
@@ -104,7 +105,6 @@ To create a system user with an **Admin** role in Meta Business Manager, you mus
 {% endhint %}
 
   1. Select the **System users** option from the **Users** drop-down menu in the left pane. The **System users** page is displayed.
-
 **NOTE:** If you have already created a system user with an **Admin** role, continue to step 6.
 
   2. Click the **Add** button. The **Create system user** dialog box is displayed.
@@ -112,9 +112,9 @@ To create a system user with an **Admin** role in Meta Business Manager, you mus
   4. Select the **Admin** option from the **System user role** drop-down menu.
   5. Click the **Create system user** button. The dialog box closes, and the **Cerby** system user is displayed on the **System users** page, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/AD_4nXfOxtp_tx3Qa6qXKLTNjmt0-MTrU6Gy6b2034a-1IqeaXFhaXEb5TibbbH23tX1nizu4O4CYH8uw58qOE7POt7mNTdSriqgz6RfaIOc4pdCcn3Ziee3AoCPBJbkMugbaUVxxt7dfw.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1.** **System Users** page
+
+<figure><img src="../../../../../../.gitbook/assets/AD_4nXfOxtp_tx3Qa6qXKLTNjmt0-MTrU6Gy6b2034a-1IqeaXFhaXEb5TibbbH23tX1nizu4O4CYH8uw58qOE7POt7mNTdSriqgz6RfaIOc4pdCcn3Ziee3AoCPBJbkMugbaUVxxt7dfw.png" alt=""><figcaption></figcaption></figure>
 
   6. Note down the **ID** of the system user.
   7. Contact the Cerby Support team via email at [support@cerby.com](mailto:support@cerby.com) or through the help chat to let them know that you have requested access to the Cerby Assets Manager app. Also, you must share the system user **ID** with them.
@@ -124,15 +124,15 @@ To create a system user with an **Admin** role in Meta Business Manager, you mus
 
 **IMPORTANT:** Take the following into consideration:
 
-  * Meta may restrict user management actions from Cerby (add, update, and remove users) for at least seven days after creating a system user. Therefore, Cerby recommends waiting seven days to start managing access to Meta Business Manager through your business hub.
-  * You must wait until the Cerby Support team grants you access to the Cerby Assets Manager app to continue. On the **Apps** page, the Cerby Assets Manager app must change its status from “Request sent” to active with the “Cerby, Inc. owns this” message.
+* Meta may restrict user management actions from Cerby (add, update, and remove users) for at least seven days after creating a system user. Therefore, Cerby recommends waiting seven days to start managing access to Meta Business Manager through your business hub.
+* You must wait until the Cerby Support team grants you access to the Cerby Assets Manager app to continue. On the **Apps** page, the Cerby Assets Manager app must change its status from “Request sent” to active with the “Cerby, Inc. owns this” message.
 
 
 {% endhint %}
 
 The next step is 3\. Generate a token for the Meta Business Manager system user.
 
-## 3\. Generate a token for the Meta Business Manager system user
+### 3\. Generate a token for the Meta Business Manager system user
 
 To generate a token for the Meta Business Manager system user, you must complete the following steps in your Meta Business Manager:
 
@@ -140,9 +140,9 @@ To generate a token for the Meta Business Manager system user, you must complete
   2. Select the system user with the **Admin** role. A collapsible pane is displayed to the right with the details of the system user.
   3. Click the **Generate token** button. The **Generate token** wizard is displayed on the **Select app** page, as shown in **Figure 2**.
 
-<figure><img src="../.gitbook/assets/AD_4nXc2RyJPo2_-crNzOV38LP1-aTgEf6ILd-xfKy_cV4vYAELtE8xWVsFKLDxAoUIl5fmBCnyK_O-4udUdo76hlIlbyK2fc63kjSl3-bRjMRgYDLneSQklTdkANiwmuCw50DJU9bMG.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 2.** **Select app** page of the **Generate token** wizard
+
+<figure><img src="../../../../../../.gitbook/assets/AD_4nXc2RyJPo2_-crNzOV38LP1-aTgEf6ILd-xfKy_cV4vYAELtE8xWVsFKLDxAoUIl5fmBCnyK_O-4udUdo76hlIlbyK2fc63kjSl3-bRjMRgYDLneSQklTdkANiwmuCw50DJU9bMG.png" alt=""><figcaption></figcaption></figure>
 
   4. Select the **Cerby Assets Manager** option from the **Select app** drop-down menu.
   5. Click the **Next** button. The **Set expiration** page of the wizard is displayed.
@@ -163,7 +163,7 @@ To generate a token for the Meta Business Manager system user, you must complete
 
 The next step is 4\. Add a business hub and connect it to Meta Business Manager.
 
-## 4\. Add a business hub and connect it to Meta Business Manager
+### 4\. Add a business hub and connect it to Meta Business Manager
 
 To add a business hub and connect it to Meta Business Manager, you must complete the following steps in the Cerby platform:
 
@@ -189,12 +189,12 @@ The corresponding business hub is also displayed on the **Business Hubs** page.
 
 The next step is 5\. Check for updates to import users, roles, and assets to Cerby.
 
-## 5\. Check for updates to import users, roles, and assets to Cerby
+### 5\. Check for updates to import users, roles, and assets to Cerby
 
 To check for updates in your app to identify and import users, roles, and assets to Cerby, you must complete the following steps in the Cerby platform:
 
   1. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  2. Click the **More options** (<figure><img src="../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_488.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. A drop-down menu is displayed.
+  2. Click the **More options** (<figure><img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_508.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. A drop-down menu is displayed.
   3. Select the **Settings** option from the menu. The business hub details page is displayed with the **Settings** tab activated.
   4. Click the **Sync** button located at the top right of the page. A message box is displayed with information about the process.
 ​**NOTE:** The check and import process may take a few minutes depending on the number of users, and because Cerby automatically matches users to their corresponding Cerby user account.
@@ -207,14 +207,14 @@ To check for updates in your app to identify and import users, roles, and assets
 {% hint style="info" %}
 
 
-**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described in this section. For more instructions, read the article [Sync your app users with your business hub](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report).
+**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described in this section. For more instructions, read the article [Sync your app users with your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).
 
 
 {% endhint %}
 
 The next step is 6\. Connect your Meta Business Manager user account to the business hub.
 
-## 6\. Connect your Meta Business Manager user account to the business hub
+### 6\. Connect your Meta Business Manager user account to the business hub
 
 To connect your Meta Business Manager user account to the business hub so Cerby can manage and protect it, you must complete the following steps:
 
@@ -225,7 +225,7 @@ To connect your Meta Business Manager user account to the business hub so Cerby 
 
 The next step is 7\. Auto-claim the Owner role in Cerby.
 
-## 7\. Auto-claim the Owner role in Cerby
+### 7\. Auto-claim the Owner role in Cerby
 
 When your Cerby account has a different email than your Facebook profile, the integration does not automatically match the **Owner** role in Cerby with the **Admin** role in your Meta Business Manager. Therefore, you must manually claim ownership.
 
@@ -253,9 +253,9 @@ To claim the **Owner** role for your business hub, you complete the following st
 
 The next step is 8\. Manage unmatched users.
 
-## 8\. Manage unmatched users
+### 8\. Manage unmatched users
 
-During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://help.cerby.com/en/articles/8392946-explore-guest-users), [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), and [native partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_e7fa9c355c). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
+During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users), [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), and [native partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
 
 To view the status of the imported app members, you must complete the following steps:
 
@@ -270,13 +270,13 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * Match users
-  * Remove unmatched users
-  * Exempt unmatched users
+* Match users
+* Remove unmatched users
+* Exempt unmatched users
 
 The following sections describe each action.
 
-### Match users
+#### Match users
 
 To match users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -291,7 +291,7 @@ To match users, you must complete the following steps from the **Unmatched users
 
   6. Click the **Match user** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Onboarded** **users** tab.
 
-### Remove unmatched users
+#### Remove unmatched users
 
 To remove unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -307,7 +307,7 @@ To remove unmatched users, you must complete the following steps from the **Unma
   2. Select the **Remove user** option from the menu. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the app via an automated task.
 
-### Exempt unmatched users
+#### Exempt unmatched users
 
 Exempted users keep their user accounts or seats active in your app, but you cannot manage them through Cerby.
 
@@ -320,20 +320,20 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 * * *
 
-# Use your business hub
+## Use your business hub
 
 The following are the supported features of business hubs you can use:
 
-  * [Join Meta Business Manager and connect your profile and account to Cerby](https://help.cerby.com/en/articles/9082571-join-meta-business-manager-and-connect-your-profile-and-account-to-cerby)
-  * [Add users to your app via a business hub](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Provision users to your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040540-provision-users-to-your-apps-via-an-idp-and-business-hub)
-  * [Remove users from your app via a business hub](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Remove teams from your app via a business hub](https://help.cerby.com/en/articles/11038640-remove-teams-from-your-app-via-a-business-hub)
-  * [Deprovision users from your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040570-deprovision-users-from-your-apps-via-an-idp-and-business-hub)
-  * [Update user roles in your app via a business hub](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Update user roles in your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040590-update-user-roles-in-your-apps-via-an-idp-and-business-hub)
-  * [Sync your app users with your business hub](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
-  * [Protect your app user accounts via a business hub](https://help.cerby.com/en/articles/9046212-protect-your-app-user-accounts-via-a-business-hub)
-  * [Log in to your app via a business hub](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track the activity of business hub users](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove a business hub](https://help.cerby.com/en/articles/9046230-remove-an-app)
+* [Join Meta Business Manager and connect your profile and account to Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/meta-business-manager/join-meta-business-manager-and-connect-your-profile-and-account-to-cerby)
+* [Add users to your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+* [Provision users to your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/provision-users-to-your-apps-via-an-idp-and-business-hub)
+* [Remove users from your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+* [Remove teams from your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-teams-from-your-app-via-a-business-hub)
+* [Deprovision users from your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/deprovision-users-from-your-apps-via-an-idp-and-business-hub)
+* [Update user roles in your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+* [Update user roles in your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-apps-via-an-idp-and-business-hub)
+* [Sync your app users with your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+* [Protect your app user accounts via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+* [Log in to your app via a business hub](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+* [Track the activity of business hub users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+* [Remove a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

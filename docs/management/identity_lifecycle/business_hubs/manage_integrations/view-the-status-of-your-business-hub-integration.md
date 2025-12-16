@@ -1,5 +1,6 @@
 ---
 description: This article describes how to view the status of your business hub integration in Cerby.
+intercom_id: 12599528
 ---
 
 # View the status of your business hub integration
@@ -9,8 +10,8 @@ description: This article describes how to view the status of your business hub 
 
 **Who can use this feature?**
 
-  * Business hub **Owners** and **Managers**
-  * Only supported using the Cerby web app
+* Business hub **Owners** and **Managers**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -26,11 +27,13 @@ To view the status of your business hub integration, you must complete the follo
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
   2. Select the**Business Hubs** option from the left menu. The **Business Hubs** page is displayed with a table of integrations and a column indicating their status, as shown in **Figure 1.**
 
-<figure><img src="../.gitbook/assets/b6552736-502e-4f0d-868c-cf94745226b9.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1.** The**Business Hubs** page in the Cerby web app dashboard
 
 You can see your integration status under the **Status** column. The following are the possible statuses:
+
+Now you are done.
+
+<figure><img src="../../../../../.gitbook/assets/b6552736-502e-4f0d-868c-cf94745226b9.png" alt=""><figcaption></figcaption></figure>
 
      * **Under validation:** The business hub has been successfully connected to an external app, and Cerby is currently validating if the integration works correctly in your environment.
 ​**NOTE:** This status appears while Cerby completes the validation for a business hub. After validation is completed, subsequent business hubs for the same application will not enter this status.
@@ -42,5 +45,3 @@ You can see your integration status under the **Status** column. The following a
        * Cerby-managed MFA is not turned on for the account.
      * **Requires sync:** Cerby has detected that the data for this business hub is outdated. The integration **Owner** must perform a manual data sync.
      * **Healthy:** The business hub integration is working correctly, and the data for this business hub is up to date.
-
-Now you are done.

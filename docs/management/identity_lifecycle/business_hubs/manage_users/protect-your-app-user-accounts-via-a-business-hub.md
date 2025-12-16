@@ -1,5 +1,6 @@
 ---
 description: This article describes how to protect your app user accounts via a business hub with security tasks such as turning on MFA and rotating passwords.
+intercom_id: 9046212
 ---
 
 # Protect your app user accounts via a business hub
@@ -9,22 +10,22 @@ description: This article describes how to protect your app user accounts via a 
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
 As a business hub **Owner** , you can perform the following security tasks over user accounts managed in Cerby via a business hub:
 
-  * Turn on MFA for user accounts
-  * Rotate passwords for user accounts
+* Turn on MFA for user accounts
+* Rotate passwords for user accounts
 
 The following sections describe each task.
 
 * * *
 
-# Turn on MFA for user accounts
+## Turn on MFA for user accounts
 
 When you turn on multi-factor authentication (MFA) for a user account via a business hub, verification codes are filled automatically when users log in through the Cerby web app or Cerby browser extension. When logging in on a mobile device, you must use the operating system’s autofill capability to fill in verification codes through the Cerby mobile app on iOS and Android.
 
@@ -44,7 +45,7 @@ Now you are done.
 
 * * *
 
-# Rotate passwords for user accounts
+## Rotate passwords for user accounts
 
 When you rotate a password for a user account via a business hub, Cerby updates the password to a secure password compliant with your app's strength rules.
 
