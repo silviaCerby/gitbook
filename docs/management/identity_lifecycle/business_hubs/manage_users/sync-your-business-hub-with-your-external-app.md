@@ -1,5 +1,6 @@
 ---
 description: This article describes how to sync your business hub with your seat-based and paid social apps.
+intercom_id: 9046205
 ---
 
 # Sync your business hub with your external app
@@ -9,8 +10,8 @@ description: This article describes how to sync your business hub with your seat
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -34,10 +35,10 @@ To sync your business hub with your external app, you must complete the followin
      * **Unmatched users:** This tab displays the users who were not automatically matched.
      * **Guest users:** This tab displays the users matched to a Cerby guest user.
 
-  7. Perform one of the following actions described in the [Connect a business hub for your app](https://help.cerby.com/en/articles/9046120-connect-a-business-hub-for-your-app) article for unmatched users:
+  7. Perform one of the following actions described in the [Connect a business hub for your app](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app) article for unmatched users:
 
-     * [Match users](https://help.cerby.com/en/articles/9046120-connect-a-business-hub-for-your-app#h_75069acc45)
-     * [Remove unmatched users](https://help.cerby.com/en/articles/9046120-connect-a-business-hub-for-your-app#h_96653ca200)
-     * [Exempt unmatched users](https://help.cerby.com/en/articles/9046120-connect-a-business-hub-for-your-app#h_390b405c6c)
+     * [Match users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
+     * [Remove unmatched users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
+     * [Exempt unmatched users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
 
 Now you are done.

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to share a subcollection with other users or teams, granting access to the secrets and accounts inside it.
+intercom_id: 8982944
 ---
 
 # Share a subcollection
@@ -21,10 +22,9 @@ To share a subcollection, you must complete the following steps:
      * Alternatively, you can search for the subcollection in the search bar.
 
   4. Hover the mouse over the subcollection you want to share. A menu of icons is displayed.
-  5. Click the **Share** (<figure><img src="../.gitbook/assets/unnamed_62.png" alt=""><figcaption></figcaption></figure>) icon. The Share Access dialog box is displayed.
+  5. Click the **Share** (<figure><img src="../../../../../.gitbook/assets/unnamed_62.png" alt=""><figcaption></figcaption></figure>) icon. The Share Access dialog box is displayed.
   6. Enter the member’s or team’s name in the search bar. The members or teams that match the name are displayed on a list below the search bar.
   7. Select the corresponding member or team from the list. The member or team is displayed in the **Members and Teams** section.
-
 **TIP:** Repeat steps 5 and 6 to select multiple members or teams.
 
   8. Select the corresponding role on the subcollection and its items from the **Role** drop-down list:

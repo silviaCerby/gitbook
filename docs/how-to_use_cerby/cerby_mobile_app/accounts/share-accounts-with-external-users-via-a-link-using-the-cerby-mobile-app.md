@@ -1,5 +1,6 @@
 ---
 description: This article describes how to share accounts with external users via a public link and manage access to these items.
+intercom_id: 11826981
 ---
 
 # Share accounts with external users via a link using the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to share accounts with external users vi
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Account **Owners**
-  * Supported using the Cerby mobile app
+* Workspace **Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Account **Owners**
+* Supported using the Cerby mobile app
 
 
 {% endhint %}
@@ -20,17 +21,17 @@ With the Cerby mobile app, you can share and grant temporary access to your acco
 
 For security, you can set the following controls on the link:
 
-  * Expiration
-  * View once only
+* Expiration
+* View once only
 
 Only users with the account **Owner** role can use this feature through the Cerby mobile app. You can share accounts with or without attachments.
 
-**IMPORTANT:** Before using this feature, make sure you read the[ Security Considerations](https://help.cerby.com/en/articles/8308908-share-items-with-external-users-via-a-link#h_7960d29107) section in the article [Share items with external users via a link](https://help.cerby.com/en/articles/8308908-share-items-with-external-users-via-a-link), which describes how this feature works, the security considerations, and usage recommendations.
+**IMPORTANT:** Before using this feature, make sure you read the[ Security Considerations](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/share-items-with-external-users-via-a-link) section in the article [Share items with external users via a link](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/share-items-with-external-users-via-a-link), which describes how this feature works, the security considerations, and usage recommendations.
 ---
 
 * * *
 
-# Share accounts via a public link using the Cerby mobile app
+## Share accounts via a public link using the Cerby mobile app
 
 To share accounts with external users via a public link, you must complete the following steps:
 
@@ -42,6 +43,7 @@ To share accounts with external users via a public link, you must complete the f
   6. Set one of the following controls on the link:
 
      * **Expiration time**
+**IMPORTANT:** The maximum number of days an external link or QR code can last is 30 days.
 
        1. Tap the **This link expires** in drop-down list to expand it.
        2. Select the option that corresponds with the link expiration time you want:
@@ -51,9 +53,6 @@ To share accounts with external users via a public link, you must complete the f
           * 1 day
           * 5 days
           * 30 days
-
-**IMPORTANT:** The maximum number of days an external link or QR code can last is 30 days.
-
      * **View once only**
 
        1. Select the **View once only** option if you want the link to be inaccessible after anyone with the link views the item.
@@ -64,7 +63,7 @@ Now you are done.
 
 * * *
 
-# View the account shared with you via a public link
+## View the account shared with you via a public link
 
 To view the details of the account shared with you via a public link, you must complete the following steps:
 

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to grant access to Cerby to use your business email domain via an Amazon SES integration.
+intercom_id: 5855181
 ---
 
 # Set up your business email domain to use it in Cerby
@@ -10,24 +11,23 @@ This article describes how to set up the Amazon SES integration and your Cerby w
 
 * * *
 
-# Supported features
+## Supported features
 
 The following are the supported features of setting up your business email domain to use it in Cerby:
 
-  * **Email account creation:** Cerby enables users to create a Cerby-managed email address for an account already saved in their workspace
-  * **Message management in Cerby:** All messages sent to the Cerby-managed email address are centralized in the [Shared Inbox](https://help.cerby.com/en/articles/6465559-glossary#h_787d0136cd). These messages can be forwarded to workspace members, and Cerby can access them for authentication purposes, such as retrieving verification codes
+* **Email account creation:** Cerby enables users to create a Cerby-managed email address for an account already saved in their workspace
+* **Message management in Cerby:** All messages sent to the Cerby-managed email address are centralized in the [Shared Inbox](https://cerby-test.gitbook.io/cerby-test/getting-started/glossary). These messages can be forwarded to workspace members, and Cerby can access them for authentication purposes, such as retrieving verification codes
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up your business email domain to use it in Cerby:
 
-  * A Cerby workspace
-  * A Cerby user account with the workspace **Owner** role
-  * An AWS account and access to a business email domain registered in the Domain Name System (DNS), or an already implemented Amazon SES integration
-  * Permission for accessing AWS CloudShell and adding Identity and Access Management (IAM) roles in AWS.
-
-**NOTE:** Cerby recommends using AWS CloudShell because it contains the tools and libraries needed to configure Amazon SES.
+* A Cerby workspace
+* A Cerby user account with the workspace **Owner** role
+* An AWS account and access to a business email domain registered in the Domain Name System (DNS), or an already implemented Amazon SES integration
+* Permission for accessing AWS CloudShell and adding Identity and Access Management (IAM) roles in AWS.\
+  **NOTE:** Cerby recommends using AWS CloudShell because it contains the tools and libraries needed to configure Amazon SES.
 
 {% hint style="danger" %}
 
@@ -39,7 +39,7 @@ The following are the requirements to set up your business email domain to use i
 
 * * *
 
-# Set up your business email domain to use it in Cerby
+## Set up your business email domain to use it in Cerby
 
 To set up your business email domain to use it in Cerby, you must complete the following main steps:
 
@@ -48,8 +48,8 @@ To set up your business email domain to use it in Cerby, you must complete the f
 
 **IMPORTANT:** Consider the following before completing the main steps:
 
-  * If you already have an Amazon SES integration implemented, meaning you can send and receive emails through your existing configuration, you must complete only steps 2 and 3.
-  * If and only if you have an AWS account and access to a business email domain, which might be managed by Amazon Route 53, you must complete all three steps.
+* If you already have an Amazon SES integration implemented, meaning you can send and receive emails through your existing configuration, you must complete only steps 2 and 3.
+* If and only if you have an AWS account and access to a business email domain, which might be managed by Amazon Route 53, you must complete all three steps.
 
 
 {% endhint %}
@@ -60,13 +60,12 @@ To set up your business email domain to use it in Cerby, you must complete the f
 
 The following sections describe each main step.
 
-## 1\. Configure Amazon SES to send and receive emails
+### 1\. Configure Amazon SES to send and receive emails
 
 To configure Amazon SES to send and receive emails, complete the following steps:
 
   1. Log in to the [AWS Console](https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin).
   2. Open an AWS CloudShell terminal.
-
 **IMPORTANT:** AWS CloudShell is not supported in all of AWS regions. For a list of the supported regions and associated service endpoints, see [AWS CloudShell endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/cloudshell.html).
 
   3. Run the following command to clone the repository:
@@ -75,12 +74,10 @@ To configure Amazon SES to send and receive emails, complete the following steps
 
   4. Navigate to the `cerby-aws-ses-integration` cloned directory.
   5. Run the following command to execute the Cerby AWS SES Configuration tool:
+**IMPORTANT:** Make sure you replace the `<your_business_email_domain>` value with your business email domain.
+One of the following two scenarios occurs:
 
          $ python3 main.py <your_business_email_domain>
-
-**IMPORTANT:** Make sure you replace the `<your_business_email_domain>` value with your business email domain.
-
-One of the following two scenarios occurs:
 
      * If your domain is managed by Amazon Route 53, the Cerby AWS SES Configuration tool attempts to add DNS records to this service.
      * If your domain is not managed by Amazon Route 53, the tool displays the DNS records you need to configure your DNS server manually. For more information, read the [Troubleshooting: Configure your DNS server manually when not using Amazon Route 53](https://docs.google.com/document/d/1Iz6iKFgZkZLbNWRGfqcDL4CWp_hvhf0u9a3Pr8wpSww/edit?tab=t.0#heading=h.ooqafun1cun5) section.
@@ -90,50 +87,45 @@ One of the following two scenarios occurs:
      2. Click the **Identities** button from the **Configuration** list in the left navigation drawer. The **Identities** page is displayed.
      3. Click the domain identity that you have previously set up as part of the Cerby AWS SES Configuration tool execution; its name is your business email domain. The identity details page is displayed.
      4. Scroll down to the **Custom MAIL FROM domain** section. A “Successful” status must be displayed.
-
 **IMPORTANT:** AWS may take several minutes to up to 48 hours to verify your domain and the DKIM configuration.
 
   7. Request AWS for production access to Amazon SES by following the instructions from the [Moving out of the Amazon SES sandbox](https://docs.aws.amazon.com/ses/latest/dg/request-production-access.html) article.
-
 **IMPORTANT:** Amazon SES is configured by default in the sandbox. If you omit to request production access, you will not be able to send emails to any recipient.
 
 Now you can send and receive emails via Amazon SES with your business email domain. The next step is 2\. Grant access to Cerby to your Amazon SES integration.
 
-## 2\. Grant access to Cerby to your Amazon SES integration
+### 2\. Grant access to Cerby to your Amazon SES integration
 
 To grant access to Cerby to use your Amazon SES integration on your behalf, you have two options:
 
-  * CloudFormation template
-  * Manual configuration
+* CloudFormation template
+* Manual configuration
 
 The following subsections describe the steps of each option.
 
-### CloudFormation template
+#### CloudFormation template
 
 To leverage a CloudFormation template for granting access to Cerby to use your Amazon SES integration, complete the following steps:
 
   1. Log in to the [AWS Console](https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin).
   2. Access the following URL in the address bar of your browser:
+The **Quick create stack** page is displayed with values prefilled.
 
          https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?stackName=cerby-aws-ses-integration&templateURL=https://cerby-public-assets.s3.us-east-2.amazonaws.com/cerby-aws-ses.yaml&param_RoleName=cerby-aws-ses-integration-role&param_EmailAddress=change@me.com&param_ExternalId=changeme
 
-The **Quick create stack** page is displayed with values prefilled.
-
   3. Enter the corresponding values in the following fields:
+**NOTE:** You can modify the values of the **Stack name** and **RoleName** fields to the stack name and role name of your choice, respectively.
 
      * **EmailAddress:** This email address is used by Cerby to forward messages. For example, **[hello@cer.dev](mailto:hello@cer.dev)**.
      * **ExternalId:** This ID is used along with the role. For example, **CerbyID**.
-
 **IMPORTANT:** Make sure to enter the external ID without spaces.
-
-**NOTE:** You can modify the values of the **Stack name** and **RoleName** fields to the stack name and role name of your choice, respectively.
 
   4. Select the “I acknowledge that AWS CloudFormation might create IAM resources” option in the **Capabilities** section located at the bottom of the page.
   5. Click the **Create stack** button. A page with the details of the new stack is displayed.
 
 Now you have granted access to Cerby to use your Amazon SES integration. The next step is 3\. Configure your Cerby workspace to use your business email domain.
 
-### Manual configuration
+#### Manual configuration
 
 To manually configure granting access to Cerby to use your Amazon SES integration, complete the following steps:
 
@@ -143,7 +135,7 @@ To manually configure granting access to Cerby to use your Amazon SES integratio
 
 The following subsections describe each main step.
 
-#### 1\. Create a policy
+##### 1\. Create a policy
 
 To create a policy for the new role, complete the following steps:
 
@@ -153,6 +145,7 @@ To create a policy for the new role, complete the following steps:
   4. Click the **Create policy** button located at the top right of the page. A wizard is displayed with the **Specify permissions** page.
   5. Activate the **JSON** tab in the **Policy editor** section to display a code block.
   6. Enter the following information in the code block:
+**IMPORTANT:** Enter the email address you want Cerby to use to forward messages as the `<your_email_address>` value. For example, **[hello@cer.dev](mailto:hello@cer.dev)**.
 
          {
              "Version": "2012-10-17",
@@ -183,18 +176,15 @@ To create a policy for the new role, complete the following steps:
              ]
          }
 
-**IMPORTANT:** Enter the email address you want Cerby to use to forward messages as the `<your_email_address>` value. For example, **[hello@cer.dev](mailto:hello@cer.dev)**.
-
   7. Click the **Next** button. The **Review and create** page of the wizard is displayed.
   8. Enter a policy name in the **Policy name** field. For example, **CerbyPolicy**.
-
 **NOTE:** Adding a policy description and tags is optional, so you can continue to the next step.
 
   9. Click the **Create policy** button. The **Policies** page is displayed with a successful message.
 
 The next step is 2\. Create a role, which you must complete from the IAM dashboard.
 
-#### 2\. Create a role
+##### 2\. Create a role
 
 To create a role, complete the following steps from the IAM dashboard:
 
@@ -206,7 +196,6 @@ To create a role, complete the following steps from the IAM dashboard:
      2. Enter **749452252575** in the **Account ID** field.
      3. Select the “Require external ID (Best practice when a third party will assume this role)” option.
      4. Enter an identifier in the **External ID** field. For example, **CerbyID**.
-
 **IMPORTANT:** Make sure to enter the external ID without spaces.
 
   5. Click the **Next** button located at the bottom right of the page. The **Add permissions** page of the wizard is displayed.
@@ -214,14 +203,13 @@ To create a role, complete the following steps from the IAM dashboard:
   7. Select the policy.
   8. Click the **Next** button. The **Name, review, and create** page of the wizard is displayed.
   9. Enter a role name in the **Role name** field. For example, **cerby-aws-ses-integration**.
-
 **NOTE:** Adding a role description and tags is optional, so you can continue to the next step.
 
   10. Click the **Create role** button. The wizard closes, and the new role and a success message are displayed.
 
 The next step is 3\. Edit the trust relationship, which you must complete from the IAM dashboard.
 
-#### 3\. Edit the trust relationship
+##### 3\. Edit the trust relationship
 
 To edit the trust relationship of the new role, complete the following steps from the IAM dashboard.
 
@@ -229,6 +217,7 @@ To edit the trust relationship of the new role, complete the following steps fro
   2. Activate the **Trust relationships** tab.
   3. Click the **Edit trust relationship** button in the **Trusted entities** section. The **Edit Trust policy** page is displayed with a code block.
   4. Edit the policy document so it looks like the following code block:
+**NOTE:** The `<external ID>` value is prefilled with the external ID you previously assigned. In this case, **CerbyID**.
 
          {
            "Version": "2012-10-17",
@@ -248,8 +237,6 @@ To edit the trust relationship of the new role, complete the following steps fro
            ]
          }
 
-**NOTE:** The `<external ID>` value is prefilled with the external ID you previously assigned. In this case, **CerbyID**.
-
   5. Click the **Update policy** button. The page closes, and the role details page and a success message are displayed.
 
 {% hint style="success" %}
@@ -262,7 +249,7 @@ To edit the trust relationship of the new role, complete the following steps fro
 
 Now you have granted access to Cerby to use your Amazon SES integration. The next step is 3\. Configure your Cerby workspace to use your business email domain.
 
-## 3\. Configure your Cerby workspace to use your business email domain
+### 3\. Configure your Cerby workspace to use your business email domain
 
 To configure your Cerby workspace to use your business email domain, complete the following steps:
 
@@ -271,18 +258,15 @@ To configure your Cerby workspace to use your business email domain, complete th
   3. Click the **Configure Email** button in the **Workspace Email Configuration** section. The **Configure workspace email** dialog box is displayed.
   4. Enter and select the following details to configure the workspace email:
 
-     * Select the corresponding AWS region option from the **Region** drop-down list.
-
-**NOTE:** Currently, the available options for receiving emails are **us-east-1** , **us-west-2** , and **eu-east-1**.
+     * Select the corresponding AWS region option from the **Region** drop-down list.\
+       **NOTE:** Currently, the available options for receiving emails are **us-east-1** , **us-west-2** , and **eu-east-1**.
 
      * Enter your AWS Account ID in the **Account ID** field. For example, **123456789123**.
      * Enter the external ID you assigned for the role in the **External ID** field. In this case, **CerbyID**.
      * Enter the ARN of the role in the **Role’s ARN** field.
-
 **TIP:** Copy the ARN of the role from the role details page that you left open.
 
      * Enter the email address in the **Email Address** field. In this case, **[hello@cer.dev](mailto:hello@cer.dev)**.
-
 **IMPORTANT:** The email address must be the same you assigned when granting access to Cerby to your Amazon SES integration.
 
      * Enter the business email domain in the **Domain** field. Cerby uses this domain to generate email addresses.
@@ -291,7 +275,7 @@ To configure your Cerby workspace to use your business email domain, complete th
 
 Now you are done. Now you are done. You can optionally complete step 4\. Set up a custom bounce domain.
 
-## 4\. Set up a custom bounce domain (optional)
+### 4\. Set up a custom bounce domain (optional)
 
 After setting up your business email domain to use in Cerby, you can optionally set up a custom bounce domain for undeliverable email messages. By default, Amazon SES handles bounce messages internally; however, you can improve your organization’s email deliverability score by having a custom bounce domain.
 
@@ -322,7 +306,7 @@ Now you are done.
 
 * * *
 
-# Troubleshooting: Configure your DNS server manually when not using Amazon Route 53
+## Troubleshooting: Configure your DNS server manually when not using Amazon Route 53
 
 When you configure Amazon SES to send and receive emails with your business email domain in Cerby, but you don’t use Amazon Route 53 as your DNS service provider, you must configure your DNS server manually.
 
@@ -363,19 +347,17 @@ For more information on how to configure a DKIM record, read the official docume
         * **DKIM signatures** enabled
 
      3. Verify the DKIM domain identity with your DNS provider.
-
 For more information on how to create and verify a domain identity, read the [Creating and verifying identities in Amazon SES](https://docs.aws.amazon.com/ses/latest/dg/creating-identities.html) official documentation from AWS.
 
   4. Email receipt rule
      1. Configure the **`PROXY-MAIL`** rule in the AWS SES dashboard with an action to deliver the received emails to the **`cerby-store-ses-email-production`** Amazon S3 bucket.
-
 For more information on how to configure an email receipt rule, read the [Creating receipt rules console walkthrough](https://docs.aws.amazon.com/ses/latest/dg/receiving-email-receipt-rules-console-walkthrough.html) official documentation from AWS.
 
 Now you are done.
 
 * * *
 
-# Troubleshooting: I have already created Cerby-managed email addresses
+## Troubleshooting: I have already created Cerby-managed email addresses
 
 When you have already created email addresses with a default domain provided by Cerby but want to start using your business domain, you must remove all of the existing email addresses from your accounts before the setup.
 

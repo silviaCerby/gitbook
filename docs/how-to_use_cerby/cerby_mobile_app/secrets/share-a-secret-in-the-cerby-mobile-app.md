@@ -1,5 +1,6 @@
 ---
 description: This article describes how to share a secret or secret item with other workspace members and teams through the Cerby mobile app.
+intercom_id: 9715499
 ---
 
 # Share a secret in the Cerby mobile app
@@ -9,11 +10,11 @@ description: This article describes how to share a secret or secret item with ot
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Secret and secret item **Owners**
-  * Supported using the Cerby web app and mobile app
+* Workspace **Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Secret and secret item **Owners**
+* Supported using the Cerby web app and mobile app
 
-**IMPORTANT:** If you use local vaults, you must have already set up at least one[ trusted session](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices) on your devices.
+**IMPORTANT:** If you use local vaults, you must have already set up at least one[ trusted session](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices) on your devices.
 
 
 {% endhint %}
@@ -26,7 +27,7 @@ To share a secret or secret item, you must complete the following steps using th
   4. Tap the corresponding secret card. The secret details screen is displayed.
 ​**NOTE:** If you have an identity challenge configured, the Cerby mobile app confirms your identity automatically.
 
-  5. Tap the **Share** (<figure><img src="../.gitbook/assets/unnamed_29.png" alt=""><figcaption></figcaption></figure>) icon on Android or the **Share** (<figure><img src="../.gitbook/assets/unnamed_30.png" alt=""><figcaption></figcaption></figure>) icon on iOS located at the top right of the screen.
+  5. Tap the **Share** (<figure><img src="../../../../.gitbook/assets/unnamed_29.png" alt=""><figcaption></figcaption></figure>) icon on Android or the **Share** (<figure><img src="../../../../.gitbook/assets/unnamed_30.png" alt=""><figcaption></figcaption></figure>) icon on iOS located at the top right of the screen.
 
      * The **Share item** screen is displayed on Android.
      * The **Share secret** screen is displayed on iOS.

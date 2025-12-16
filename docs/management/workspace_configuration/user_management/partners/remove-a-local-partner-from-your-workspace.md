@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a local partner from your Cerby workspace.
+intercom_id: 9039318
 ---
 
 # Remove a local partner from your workspace
@@ -9,16 +10,16 @@ description: This article describes how to remove a local partner from your Cerb
 
 **Who can use this feature?**
 
-  * **Host Admins** of a local partner
-  * Only supported using the Cerby web app
+* **Host Admins** of a local partner
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a **Host Admin** of an existing [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can remove it from your workspace when you no longer need to share accounts with external collaborators. The following occurs when you remove a local partner:
+As a **Host Admin** of an existing [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can remove it from your workspace when you no longer need to share accounts with external collaborators. The following occurs when you remove a local partner:
 
-  * All**Guest Admins** and **Guest Users** of the local partner are removed from the workspace, leaving their Cerby user accounts deactivated. Therefore, they also lose access to the accounts shared via the local partner.
-  * All **Host Admins** lose their local partner role; their account roles are not affected.
+* All**Guest Admins** and **Guest Users** of the local partner are removed from the workspace, leaving their Cerby user accounts deactivated. Therefore, they also lose access to the accounts shared via the local partner.
+* All **Host Admins** lose their local partner role; their account roles are not affected.
 
 To remove a local partner from your workspace, you must complete the following steps:
 

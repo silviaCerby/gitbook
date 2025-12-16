@@ -1,5 +1,6 @@
 ---
 description: This article describes how to create and set up an app integration in Okta connected to IdLCM for user provisioning in your external apps.
+intercom_id: 11643251
 ---
 
 # Create and set up an app integration in Okta connected to IdLCM
@@ -12,17 +13,17 @@ This article describes the process of creating and setting up an app integration
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up an app integration in Okta connected to IdLCM:
 
-  * An Okta tenant
-  * A user account in Okta with privileges to manage an app integration in your Okta tenant
-  * A user account in Cerby with the workspace **Owner** , **Super** **Admins** , or **Admins** role
-  * A Cerby IdLCM integration successfully created for an app. For instructions on creating the integration, read the article [Create an IdLCM integration for your app](https://help.cerby.com/en/articles/11650659-create-an-idlcm-integration-for-your-app).
-  * A SCIM gateway token. For instructions on how to retrieve the SCIM gateway token, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://help.cerby.com/en/articles/11642821-retrieve-the-scim-gateway-token-and-url-for-an-idlcm-integration).
-  * A SCIM gateway URL. For instructions on how to retrieve the SCIM gateway URL, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://help.cerby.com/en/articles/11642821-retrieve-the-scim-gateway-token-and-url-for-an-idlcm-integration).
-  * The app's login page URL. You can find the URL by completing the following steps:
+* An Okta tenant
+* A user account in Okta with privileges to manage an app integration in your Okta tenant
+* A user account in Cerby with the workspace **Owner** , **Super** **Admins** , or **Admins** role
+* A Cerby IdLCM integration successfully created for an app. For instructions on creating the integration, read the article [Create an IdLCM integration for your app](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/create-an-idlcm-integration-for-your-app).
+* A SCIM gateway token. For instructions on how to retrieve the SCIM gateway token, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-scim-gateway-details-for-an-idlcm-integration).
+* A SCIM gateway URL. For instructions on how to retrieve the SCIM gateway URL, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-scim-gateway-details-for-an-idlcm-integration).
+* The app's login page URL. You can find the URL by completing the following steps:
 
     1. Log in to your [Cerby](https://app.cerby.com/) workspace.
     2. Select the **Integrations** option from the left menu. The **Integrations** page is displayed.
@@ -32,7 +33,7 @@ The following are the requirements to set up an app integration in Okta connecte
 
 * * *
 
-# Create and set up an app integration in Okta connected to IdLCM
+## Create and set up an app integration in Okta connected to IdLCM
 
 To create and set up an app integration in Okta connected to IdLCM, you must complete the following steps:
 
@@ -43,7 +44,7 @@ To create and set up an app integration in Okta connected to IdLCM, you must com
 
 The following sections describe each step.
 
-## 1\. Create an app integration in Okta
+### 1\. Create an app integration in Okta
 
 To create an integration in Okta for your Cerby-integrated app, complete the following steps:
 
@@ -62,7 +63,7 @@ To create an integration in Okta for your Cerby-integrated app, complete the fol
 
 The next step is 2\. Configure your Okta app integration.
 
-## 2\. Configure your Okta app integration
+### 2\. Configure your Okta app integration
 
 With your Okta app integration created, you must enable the SCIM option and configure the settings for your SCIM app integration. These settings enable Okta to manage user provisioning between your connected SCIM app and Okta user profiles.
 
@@ -78,14 +79,14 @@ To configure SCIM provisioning for your app integration, you must complete the f
      3. Click the **Edit** button.
      4. Configure the following SCIM connection details:
 
-        * Enter the SCIM gateway URL you have copied previously from Cerby in the **SCIM connector base URL**. For instructions on how to retrieve it, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://help.cerby.com/en/articles/11642821-retrieve-the-scim-gateway-token-and-url-for-an-idlcm-integration).
+        * Enter the SCIM gateway URL you have copied previously from Cerby in the **SCIM connector base URL**. For instructions on how to retrieve it, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-scim-gateway-details-for-an-idlcm-integration).
         * Enter **email** in the **Unique identifier field for users** field.
         * Select the following options in the Supported provisioning actions section:
           * **Import New Users and Profile Updates**
           * **Push New Users**
           * **Push Profile Updates**
         * Select the **HTTP Header** option from the **Authentication Mode** drop-down menu.
-        * Enter the SCIM gateway token you have previously generated and copied from Cerby in the **Authorization** field. For instructions on how to retrieve the SCIM gateway token, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://help.cerby.com/en/articles/11642821-retrieve-the-scim-gateway-token-and-url-for-an-idlcm-integration).
+        * Enter the SCIM gateway token you have previously generated and copied from Cerby in the **Authorization** field. For instructions on how to retrieve the SCIM gateway token, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-scim-gateway-details-for-an-idlcm-integration).
 
      5. Click the **Test Connector Configuration** button. The **Test Connector Configuration** dialog box is displayed, and you must wait until a success message is displayed.
      6. Click the **Close** button. The dialog box closes.
@@ -104,7 +105,7 @@ To configure SCIM provisioning for your app integration, you must complete the f
 
 The next step is 3\. Add required custom attributes in Okta.
 
-## 3\. Add required custom attributes in Okta
+### 3\. Add required custom attributes in Okta
 
 To ensure your Okta app integration sends the correct user data during provisioning, you must extend the default Okta user profile with additional attributes. These custom attributes allow you to provision extra details, such as user roles and entitlement assignments, that the external app requires.
 
@@ -135,7 +136,7 @@ To add custom attributes for your external app, you must complete the following 
 
 The next step is 4\. (Optional) Map custom attributes to your app.
 
-## 4\. (Optional) Map custom attributes to your app
+### 4\. (Optional) Map custom attributes to your app
 
 After defining a custom attribute for your roles, you must map it to your Cerby-integrated app. The goal is to ensure that user details, including roles, are accurately sent during provisioning, so your app can assign the right roles to each user.
 

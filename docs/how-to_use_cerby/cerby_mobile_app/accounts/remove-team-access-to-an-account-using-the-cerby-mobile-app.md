@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove team access to an account in the Cerby mobile app.
+intercom_id: 9715456
 ---
 
 # Remove team access to an account using the Cerby mobile app
@@ -9,10 +10,10 @@ description: This article describes how to remove team access to an account in t
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
-  * Account **Owners**
-  * Supported using the Cerby web app and mobile app
-  * **NOTE:** For the Cerby mobile app, read the article [Remove team access to an account](https://help.cerby.com/en/articles/9479456-remove-team-access-to-an-account#h_0484615ef2)
+* Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
+* Account **Owners**
+* Supported using the Cerby web app and mobile app
+* **NOTE:** For the Cerby mobile app, read the article [Remove team access to an account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/remove-team-access-to-an-account)
 
 
 {% endhint %}

@@ -1,13 +1,14 @@
 ---
 description: This article describes how to disable the registered trusted sessions and devices in your workspace.
+intercom_id: 9354501
 ---
 
 # Disable trusted sessions and devices in your workspace
 
 This article contains the steps you must follow to perform the following actions related to disabling trusted sessions in your workspace:
 
-  * Disable the trusted sessions on your devices
-  * Disable other members' trusted sessions in the workspace
+* Disable the trusted sessions on your devices
+* Disable other members' trusted sessions in the workspace
 
 The following sections detail the steps for each action.
 
@@ -21,19 +22,19 @@ The following sections detail the steps for each action.
 
 * * *
 
-# Disable the trusted sessions on your devices
+## Disable the trusted sessions on your devices
 
 As a **Workspace User** , you can disable the trusted session on the devices you have registered within your workspace.
 
 To disable your trusted sessions, you must complete the steps corresponding to the Cerby client app you are using:
 
-  * Cerby web app
-  * Cerby mobile app
-  * Cerby browser extension
+* Cerby web app
+* Cerby mobile app
+* Cerby browser extension
 
 The following sections contain the steps for each Cerby client app.
 
-## Cerby web app
+### Cerby web app
 
 To disable a trusted session on a device using the Cerby web app, you must complete the following steps:
 
@@ -44,12 +45,12 @@ To disable a trusted session on a device using the Cerby web app, you must compl
   5. Click the **Remove** icon of the corresponding device. The **Remove device?** dialog box is displayed.
   6. Click the **Remove device** button. The dialog box closes, a success message box is displayed, and the device is displayed in the table with the **Removed** status.
 
-## Cerby mobile app
+### Cerby mobile app
 
 **IMPORTANT:** Currently, it is not possible to disable trusted sessions on the Cerby mobile phone app. To disable a trusted session, you must use the Cerby web app.
 ---
 
-## Cerby browser extension
+### Cerby browser extension
 
 To disable a trusted session on a device using the Cerby browser extension, you must complete the following steps:
 
@@ -61,7 +62,7 @@ To disable a trusted session on a device using the Cerby browser extension, you 
 
 * * *
 
-# Disable other members' trusted sessions in the workspace
+## Disable other members' trusted sessions in the workspace
 
 As a **Workspace Owner** , **Super Admin** , or **Admin** , you can disable the trusted devices that all users in your workspace have set up.
 

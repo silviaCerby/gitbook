@@ -1,10 +1,11 @@
 ---
 description: This article describes all the events in the platform that you can monitor in the Activity page.
+intercom_id: 10128426
 ---
 
 # Monitor events in the Activity page
 
-In Cerby, the **[Activity](https://help.cerby.com/en/articles/10128402-explore-activity)** page is your centralized dashboard for tracking workspace events, changes, and interactions. It enables you to monitor various components across your workspace closely, making it easier to detect unusual patterns, analyze user behavior, and ensure compliance with security protocols.
+In Cerby, the **[Activity](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-activity)** page is your centralized dashboard for tracking workspace events, changes, and interactions. It enables you to monitor various components across your workspace closely, making it easier to detect unusual patterns, analyze user behavior, and ensure compliance with security protocols.
 
 The following table contains the list of events you can see in the **Activity** page and their description.
 

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to log in to the Scout browser extension to start scouting your workflows.
+intercom_id: 10046820
 ---
 
 # Log in to Scout
@@ -9,30 +10,29 @@ description: This article describes how to log in to the Scout browser extension
 
 **Who can use this feature?**
 
-  * Cerby workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Scout browser extension
+* Cerby workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Scout browser extension
 
 
 {% endhint %}
 
-As a workspace **Owner** , **Super Admin** , **Admin,** or**user** , you can log in to the [Scout browser extension](https://help.cerby.com/en/articles/9774431-explore-scout) to perform workflow scouting on your apps and help accelerate the process of building the automated tasks you use in Cerby.
+As a workspace **Owner** , **Super Admin** , **Admin,** or**user** , you can log in to the [Scout browser extension](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-scout) to perform workflow scouting on your apps and help accelerate the process of building the automated tasks you use in Cerby.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to log in to Scout:
 
-  * The Scout browser extension must be installed in your web browser. For instructions, read the article [Install the Scout browser extension](https://help.cerby.com/en/articles/10046805-install-the-scout-browser-extension).
-  * An individual Cerby API key with the following scopes:
+* The Scout browser extension must be installed in your web browser. For instructions, read the article [Install the Scout browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/install-scout).
+* An individual Cerby API key with the following scopes:
     * **Read automated jobs:** Enables reading automated job data.
     * **Write automated jobs:** Enables writing automated job data.
-
-For instructions on how to generate the Cerby API key, read the article [Generate an API key](https://help.cerby.com/en/articles/9450943-generate-an-api-token)
+For instructions on how to generate the Cerby API key, read the article [Generate an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/generate-an-api-key)
 
 * * *
 
-# Log in to Scout
+## Log in to Scout
 
 To log in to Scout, you must complete the next steps:
 
@@ -49,4 +49,4 @@ To log in to Scout, you must complete the next steps:
 
 {% endhint %}
 
-Now you are done. You can start [scouting your workflows](https://help.cerby.com/en/articles/10046916-scout-a-workflow).
+Now you are done. You can start [scouting your workflows](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/scout-a-workflow).

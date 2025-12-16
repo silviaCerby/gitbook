@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add a local partner to your Cerby workspace.
+intercom_id: 9039109
 ---
 
 # Add a local partner to your workspace
@@ -9,13 +10,13 @@ description: This article describes how to add a local partner to your Cerby wor
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a workspace**Owner** , **Super Admin** , or **Admin** , you can add a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2) to your Cerby workspace to streamline collaboration with external parties, such as contractors, agencies, vendors, and clients.
+As a workspace**Owner** , **Super Admin** , or **Admin** , you can add a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) to your Cerby workspace to streamline collaboration with external parties, such as contractors, agencies, vendors, and clients.
 
 A local partner is a subgroup or organization of guest users within your workspace to which you can grant access to the necessary accounts for collaboration. Additionally, you can delegate the work of inviting guest users to an external collaborator by assigning them the **Guest Admin** role.
 
@@ -23,12 +24,12 @@ This article describes how to add a local partner to your Cerby workspace.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to add a local partner to your workspace:
 
-  * The email address of the user from your partner’s side to be assigned as the **Guest Admin**.
-  * The email address of the user in your workspace who will be the **Host Admin** for managing the local partner.
+* The email address of the user from your partner’s side to be assigned as the **Guest Admin**.
+* The email address of the user in your workspace who will be the **Host Admin** for managing the local partner.
 
 {% hint style="danger" %}
 
@@ -40,7 +41,7 @@ The following are the requirements to add a local partner to your workspace:
 
 * * *
 
-# Add a local partner to your workspace
+## Add a local partner to your workspace
 
 To add a local partner to your Cerby workspace, you must complete the following steps:
 

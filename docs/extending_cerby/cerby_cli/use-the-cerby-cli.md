@@ -1,38 +1,39 @@
 ---
 description: This article describes the Cerby CLI commands, explaining their purpose and usage.
+intercom_id: 9136331
 ---
 
 # Use the Cerby CLI
 
 This article is a reference guide for starting to interact with the Cerby CLI features from your command line. Here, you can discover all of Cerby CLI commands available for the following actions:
 
-  * Secrets
-  * Accounts
-  * Sync your data
+* Secrets
+* Accounts
+* Sync your data
 
 ​​The following sections describe each action.
 
 * * *
 
-# Secrets
+## Secrets
 
 Cerby CLI enables you to perform the following actions with your secrets in Cerby:
 
-  * Get all secrets
-  * Get the value of a secret by ID
+* Get all secrets
+* Get the value of a secret by ID
 
-## Get all secrets
+### Get all secrets
 
 Execute the following command to get the list of all your secrets in Cerby:
 
     cerby-{os} secrets list
 
-By default, the result array contains the first 20 secrets in your Cerby workspace. You can add the pagination flags `--page-size` and `--start-index` to get the list of a specific page or to set the starting index of the array. Refer to the [Interpret and customize the Cerby CLI output](https://help.cerby.com/en/articles/9136341-interpret-and-customize-the-cerby-cli-output-data) article to learn more about the output.
+By default, the result array contains the first 20 secrets in your Cerby workspace. You can add the pagination flags `--page-size` and `--start-index` to get the list of a specific page or to set the starting index of the array. Refer to the [Interpret and customize the Cerby CLI output](https://cerby-test.gitbook.io/cerby-test/extending-cerby/cerby-cli/interpret-and-customize-the-cerby-cli-output-data) article to learn more about the output.
 
 The resulting JSON has the following main keys:
 
-  * `itemsPerPage` (Number): The number of secret objects returned in the secureSecrets array
-  * `secureSecrets` (array): The secret object with information about each shared or owned secret in the Cerby workspace
+* `itemsPerPage` (Number): The number of secret objects returned in the secureSecrets array
+* `secureSecrets` (array): The secret object with information about each shared or owned secret in the Cerby workspace
     * `body` (Object)
     * `category` (String): The secret category, which might be any of the following: text, server, ssh_key, database, wifi_password, software_license, or custom
     * `createdAt` (String): The date when the secret was created
@@ -55,8 +56,8 @@ The resulting JSON has the following main keys:
     * `version` (Number)
     * `versionId` (String)
     * `workspace` (String): The name of the Cerby workspace to which the secret belongs
-  * `startIndex` (Number): Indicates the starting index within the response array from which results are displayed
-  * `totalResults` (Number): Indicates the total number of secrets returned in the results, which must be the same number of secrets you see in your workspace
+* `startIndex` (Number): Indicates the starting index within the response array from which results are displayed
+* `totalResults` (Number): Indicates the total number of secrets returned in the results, which must be the same number of secrets you see in your workspace
 
 The following is an example of the result the command returns:
 
@@ -97,7 +98,7 @@ The following is an example of the result the command returns:
       "totalResults": 20
     }
 
-## Get the value of a secret by ID
+### Get the value of a secret by ID
 
 Execute the following command to get the information of a particular secret:
 
@@ -107,28 +108,28 @@ You must replace the secret-id parameter with the corresponding secret ID. You c
 
 The resulting output is the value of the secret.
 
-# Accounts
+## Accounts
 
 The Cerby CLI enables you to perform the following actions with your accounts in Cerby:
 
-  * Get all accounts
-  * Get the information of an account by ID
-  * Include the password in the information of an account
+* Get all accounts
+* Get the information of an account by ID
+* Include the password in the information of an account
 
-## Get all accounts
+### Get all accounts
 
 Execute the following command to get the list of all the accounts you created or someone shared with you in Cerby:
 
     cerby-{os} accounts list
 
-By default, the result array contains the first 20 accounts in your Cerby workspace. You can add the pagination flags `--page-size` and `--start-index` to get the list of a specific page or to set the starting index of the array. Refer to the [Interpret and customize the Cerby CLI output](https://help.cerby.com/en/articles/9136341-interpret-and-customize-the-cerby-cli-output-data) article to learn more about the output.
+By default, the result array contains the first 20 accounts in your Cerby workspace. You can add the pagination flags `--page-size` and `--start-index` to get the list of a specific page or to set the starting index of the array. Refer to the [Interpret and customize the Cerby CLI output](https://cerby-test.gitbook.io/cerby-test/extending-cerby/cerby-cli/interpret-and-customize-the-cerby-cli-output-data) article to learn more about the output.
 
 The resulting JSON has the following main keys:
 
-  * `startIndex` (Number): Indicates the starting index within the response array from which results are displayed.
-  * `limit` (Number): Indicates the number of account objects returned in the accounts array.
-  * `totalResults` (Number): Indicates the total number of accounts the CLI found, which must be the same number of secrets you see in your workspace.
-  * `accounts`
+* `startIndex` (Number): Indicates the starting index within the response array from which results are displayed.
+* `limit` (Number): Indicates the number of account objects returned in the accounts array.
+* `totalResults` (Number): Indicates the total number of accounts the CLI found, which must be the same number of secrets you see in your workspace.
+* `accounts`
     * `id` (String): The ID of the account
     * `name` (String): The name of the account
     * `username` (String): The username used to log in to the account
@@ -241,7 +242,7 @@ The following is an example of the result the command returns:
       …
     }
 
-## Get the information of an account by ID
+### Get the information of an account by ID
 
 Execute the following command to get the information of a particular account:
 
@@ -251,7 +252,7 @@ You must replace the `account-id` parameter with the corresponding account ID. Y
 
 The resulting JSON is an object with information about the account.
 
-## Include the password in the information of an account
+### Include the password in the information of an account
 
 Execute the following command to get the information of a particular account, including the account password:
 
@@ -261,7 +262,7 @@ You must replace the `account-id` parameter with the corresponding account ID. Y
 
 The resulting JSON is an object with information about the account, which includes the password key.
 
-# Sync your data
+## Sync your data
 
 Most sensitive data, such as passwords and secrets, are encrypted within designated vaults in Cerby for security considerations. Synchronization within the Cerby platform and the CLI is crucial in maintaining consistency between your local environment and the platform.
 
@@ -269,7 +270,7 @@ When syncing your information locally, the Cerby CLI storage mechanism relies on
 
 With this information stored locally, you can use local bots to retrieve the password of an account or the secret value associated with it. However, to access this information, you must complete two crucial steps:
 
-  1. [Set up a trusted device](https://help.cerby.com/en/articles/9132805-set-up-the-cerby-cli-as-a-trusted-device): To establish a secure connection between your device and Cerby, allowing it to synchronize.
+  1. [Set up a trusted device](https://cerby-test.gitbook.io/cerby-test/extending-cerby/cerby-cli/set-up-the-cerby-cli-as-a-trusted-device): To establish a secure connection between your device and Cerby, allowing it to synchronize.
   2. **Sync the data:** To retrieve and store the relevant information by executing the following command:
 
          cerby-{os} sync

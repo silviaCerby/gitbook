@@ -1,5 +1,6 @@
 ---
 description: This article describes how to exclude an account from a password policy.
+intercom_id: 11466979
 ---
 
 # Exclude an account from a password policy
@@ -9,13 +10,13 @@ description: This article describes how to exclude an account from a password po
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a workspace **Admin** , you can exclude an account from an existing [password policy](https://help.cerby.com/en/articles/11465716-explore-password-policies) so that automated password rotations are not executed for it.
+As a workspace **Admin** , you can exclude an account from an existing [password policy](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-password-policies) so that automated password rotations are not executed for it.
 
 {% hint style="info" %}
 

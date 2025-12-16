@@ -1,5 +1,6 @@
 ---
 description: This article describes how to configure the sync safeguard threshold for your IdLCM integration to prevent accidental mass deprovisioning.
+intercom_id: 12313222
 ---
 
 # Configure the sync safeguard threshold of your IdLCM Integration
@@ -9,8 +10,8 @@ description: This article describes how to configure the sync safeguard threshol
 
 **Who can use this feature?**
 
-  * Workspace**Owners, Super Admins,** and**Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners, Super Admins,** and**Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

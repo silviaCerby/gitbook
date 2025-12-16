@@ -1,5 +1,6 @@
 ---
 description: This article describes how to enable Okta Universal Logout for Cerby.
+intercom_id: 10495618
 ---
 
 # Enable Okta Universal Logout for Cerby
@@ -9,9 +10,9 @@ description: This article describes how to enable Okta Universal Logout for Cerb
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Okta **Admins**
-  * Only supported using the Cerby web app and the Okta Admin dashboard
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Okta **Admins**
+* Only supported using the Cerby web app and the Okta Admin dashboard
 
 
 {% endhint %}
@@ -30,15 +31,15 @@ As a Cerby workspace**Admin** , **Super Admin** , or **Owner** , you can enable 
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up the Universal Logout feature:
 
-  * A Cerby workspace
-  * A user account in Cerby with the workspace**Owner** , **Super Admin** , or **Admin** role
-  * An Okta tenant
-  * A user account in Okta with **Admin** privileges
-  * The Okta instance ID for Cerby. To retrieve this ID, you must complete the following steps:
+* A Cerby workspace
+* A user account in Cerby with the workspace**Owner** , **Super Admin** , or **Admin** role
+* An Okta tenant
+* A user account in Okta with **Admin** privileges
+* The Okta instance ID for Cerby. To retrieve this ID, you must complete the following steps:
 
     1. Log in to your organization's[ Okta Admin Console](https://developer.okta.com/login/).
     2. Select the **Applications** option from the **Applications** drop-down list in the left navigation drawer. The **Applications** page is displayed.
@@ -48,16 +49,16 @@ The following are the requirements to set up the Universal Logout feature:
 
 * * *
 
-# Configure Okta Universal Logout for Cerby
+## Configure Okta Universal Logout for Cerby
 
 To configure Okta Universal Logout for Cerby, you must complete the following main steps:
 
-  * Enable Okta Universal Logout for Cerby
-  * Extend Okta’s Universal Logout to Cerby
+* Enable Okta Universal Logout for Cerby
+* Extend Okta’s Universal Logout to Cerby
 
 The following sections describe each main step.
 
-## Enable Okta Universal Logout for Cerby
+### Enable Okta Universal Logout for Cerby
 
 To enable Universal Logout in Cerby, you must complete the following steps:
 
@@ -65,17 +66,16 @@ To enable Universal Logout in Cerby, you must complete the following steps:
   2. Select the **Settings** option in the left navigation drawer. The **Workspace Configuration** view is displayed.
   3. Activate the **IDP Settings** tab.
   4. Activate the **Enable Okta Universal Logout** switch in the **Universal Logout** section. The **Universal Logout Config** dialog box is displayed, as shown in **Figure 1**.
-
-<figure><img src="../.gitbook/assets/Screenshot_2025-01-31_at_4.12.05_3Fp.m..png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1.** **Universal Logout Config** dialog box
+
+<figure><img src="../../../../.gitbook/assets/Screenshot_2025-01-31_at_4.12.05_3Fp.m..png" alt=""><figcaption></figcaption></figure>
 
   5. Enter the Okta instance ID for Cerby in the **App instance Id** field. You retrieved this value as part of the Requirements section.
   6. Click the **Enable Universal Logout** button. The dialog box closes, and the **IDP** **Settings** tab in the **Workspace Configuration** view is displayed.
 
 Now you are done.
 
-## Extend Okta Universal Logout to Cerby
+### Extend Okta Universal Logout to Cerby
 
 To extend Okta Universal Logout to Cerby, you must complete the following steps:
 

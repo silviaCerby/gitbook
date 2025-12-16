@@ -1,5 +1,6 @@
 ---
 description: This article describes the recertification process for L'Oréal.
+intercom_id: 10228345
 ---
 
 # Recertification criteria for L'Oréal
@@ -8,26 +9,26 @@ Cerby’s recertification process is based on L'Oréal’s security review proce
 
 As an account **Owner** , must complete the recertification process for the following account types:
 
-  * Social media accounts
-  * Business hubs
+* Social media accounts
+* Business hubs
 
 The following sections explain the recertification process for each account type.
 
-## Social media accounts
+### Social media accounts
 
 The following are the social media accounts you must recertify:
 
-  * Meta (Instagram and Facebook)
-  * TikTok
-  * Pinterest
-  * X (Twitter)
-  * Snapchat
-  * YouTube
+* Meta (Instagram and Facebook)
+* TikTok
+* Pinterest
+* X (Twitter)
+* Snapchat
+* YouTube
 
 The following approaches are considered for the social media accounts:
 
-  * **Automatic checks:** Cerby handles checks automatically, using built-in tools to verify compliance without requiring user intervention.
-  * **Manual checks:** You must manually confirm certain details, ensuring nothing is overlooked.
+* **Automatic checks:** Cerby handles checks automatically, using built-in tools to verify compliance without requiring user intervention.
+* **Manual checks:** You must manually confirm certain details, ensuring nothing is overlooked.
 
 **Table 1** details the approach for each criterion in the recertification process of your social media accounts in Cerby.
 
@@ -57,14 +58,14 @@ The following approaches are considered for the social media accounts:
 
 {% endhint %}
 
-## Business hubs
+### Business hubs
 
 The following are the business hubs for which you must complete the certification process:
 
-  * Meta Business
-  * TikTok for Business
-  * Pinterest Business
-  * Snapchat Business
+* Meta Business
+* TikTok for Business
+* Pinterest Business
+* Snapchat Business
 
 **Table 2** details the approach for each criterion in the recertification process of your business hubs in Cerby.
 
@@ -82,19 +83,18 @@ The following are the business hubs for which you must complete the certificatio
 
 * * *
 
-# The Account recertification page
+## The Account recertification page
 
 The **Account recertification** page centralizes all the steps required for an account **Owner** to complete the recertification process. This page provides the following information about your account recertification process:
 
-  * **Last saved date and time:** The date and time when the most recent changes were made and saved are displayed at the top right of the page.
-
+* **Last saved date and time:** The date and time when the most recent changes were made and saved are displayed at the top right of the page.
 **IMPORTANT:** All changes to the criteria on the page are automatically saved.
 
-  * **Last recertified date and time:** The account description card at the top of the page displays the last time the account was successfully recertified.
-  * **Recertification progress bar:** Displayed in the account description card, this bar visually tracks your progress in completing the recertification. It provides a color-coded representation of your completion status and displays the number of completed steps:
+* **Last recertified date and time:** The account description card at the top of the page displays the last time the account was successfully recertified.
+* **Recertification progress bar:** Displayed in the account description card, this bar visually tracks your progress in completing the recertification. It provides a color-coded representation of your completion status and displays the number of completed steps:
     * **Gray:** Recertification has not yet been completed.
     * **Green:** Recertification is fully completed.
-  * **Criterion completion icons: Positioned to the left of each criterion title, these icons visually represent the completion status of each criterion:**
+* **Criterion completion icons: Positioned to the left of each criterion title, these icons visually represent the completion status of each criterion:**
     * **Completed** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1301485007/c250a770b92ffe1a20e8c04a6a45/AD_4nXdJXM_fg8MGxn_BLLcmNWiESOCwwKb-Ap6ATObaGvrIK6hval3X2k0dobMh6UacYXh9mPx4mAe0Barr-W_c3lcuKTigMQRhwTKlUPEIHrZduUvuf3geDknKv7lQg1dtr-2NDu1J?expires=1748574000&signature=e9b791cf6e10d31412775c592f8b9714ff34edd3846f9db80c06aadb3a72114e&req=dSMnF812mIFfXvMW3Hu4gRxJ0fnsDOzL%2BV7TyCAeIthCgKKn0nEUAaIOdXB%2F%0AFg%3D%3D%0A" alt=""><figcaption></figcaption></figure>): The criterion has been completed and complies with the account policy.
     * **Pending user validation** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1301485444/0b4bb62075eb67680aeb3b06815a/AD_4nXckI9jKZqiMYbVFLzJ_jDWxtTibTIlS0_sna-uvZLVUWY1ylgIldaDPagXhBkJ1BykIW5pvyut7TP34aJ2XcsMVmsfjTJ13QvuWjJIPtFkBNgojvL0Y2EPIfZOKcUMz_oCJm0aN?expires=1748574000&signature=1b17279ac4e6c1a1d0eafdff2b7e0e9a1394ab03f2b4fc1ce8b8c77cf383945d&req=dSMnF812mIVbXfMW3Hu4gQhxlc8beaTlH1TZQmkYRAiGDhx0BmajwB6Z5e2M%0AHQ%3D%3D%0A" alt=""><figcaption></figcaption></figure>): The criterion has been completed within Cerby, but you must confirm it is also implemented on the app provider's side.
     * **Not completed** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1301485834/227bc7042d61b1e1f9f22d5bd57c/AD_4nXcop0uxZhVzgNfmx7s5BZ1FQN2l4dwB8CT8nAVEy3AkK8r7p0cFhg582wqgzFlsK7XE6kWex_-gwPZXXDDBbHau_fBsPmxEFHXSXi01sDfC-uzpqOsWpiVG0NYZrZMY6VdXF-tSfA?expires=1748574000&signature=3146cbab14a53b1c845e444a9e7a9c66d67986f7edf06852f879702728d1c80e&req=dSMnF812mIlcXfMW3Hu4geN2%2BmoMriZpTZtsNSf6pmoY3A5ZMTaFkZjPmhem%0AhA%3D%3D%0A" alt=""><figcaption></figcaption></figure>): The criterion has not yet been verified or completed.
@@ -107,7 +107,7 @@ To see the recertification progress on your accounts, you must complete the foll
 
 * * *
 
-# Recertify an account
+## Recertify an account
 
 To recertify an account in Cerby, you must complete the following steps:
 
@@ -126,8 +126,8 @@ To recertify an account in Cerby, you must complete the following steps:
 
 **IMPORTANT:**
 
-  * You must comply with the recertification process every six months.
-  * An account is officially recertified when 100% of the criteria is met and compliant with L'Oréal’s security review process. The progress can be visualized inside the account details and certification pages. For more information about the visual cues on the The account recertification page section.
+* You must comply with the recertification process every six months.
+* An account is officially recertified when 100% of the criteria is met and compliant with L'Oréal’s security review process. The progress can be visualized inside the account details and certification pages. For more information about the visual cues on the The account recertification page section.
 
 
 {% endhint %}

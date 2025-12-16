@@ -1,5 +1,6 @@
 ---
 description: This article describes how to turn on MFA with Cerby as an authenticator app for your account to distribute TOTPs.
+intercom_id: 8429534
 ---
 
 # Turn on MFA with Cerby as an authenticator app for your account using the web app
@@ -9,9 +10,9 @@ description: This article describes how to turn on MFA with Cerby as an authenti
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * **Account Owners**
-  * Supported using the Cerby web app and mobile app. For the mobile app instructions, read the article [Turn on MFA with Cerby as an authenticator app for your account using the mobile app](https://help.cerby.com/en/articles/12002648-turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-mobile-app)
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* **Account Owners**
+* Supported using the Cerby web app and mobile app. For the mobile app instructions, read the article [Turn on MFA with Cerby as an authenticator app for your account using the mobile app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-mobile-app)
 
 
 {% endhint %}
@@ -24,26 +25,26 @@ When MFA is turned on with this verification method, Cerby fills in the six-digi
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up and associate Cerby as your authenticator app for your account:
 
-  * A Cerby workspace
-  * A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
-  * An account in an app or service provider
-  * An account added to Cerby to which you have the **Owner** role
+* A Cerby workspace
+* A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
+* An account in an app or service provider
+* An account added to Cerby to which you have the **Owner** role
 * * *
 
-# Turn on MFA with Cerby as an authenticator app for your account
+## Turn on MFA with Cerby as an authenticator app for your account
 
 You can turn on MFA with Cerby as your authenticator app using the following methods:
 
-  * **Automatic setup:** For supported managed apps, Cerby can automatically turn on MFA without requiring manual input. With one click, Cerby handles the entire setup process for you in the background, including saving the account backup or recovery codes when supported.
-  * **Manual setup:** For apps that don’t support automation to turn on MFA, you can manually turn it on by retrieving a secret key from the app’s settings page and entering it in Cerby to complete the setup. Cerby recommends saving the account backup or recovery codes when supported.
+* **Automatic setup:** For supported managed apps, Cerby can automatically turn on MFA without requiring manual input. With one click, Cerby handles the entire setup process for you in the background, including saving the account backup or recovery codes when supported.
+* **Manual setup:** For apps that don’t support automation to turn on MFA, you can manually turn it on by retrieving a secret key from the app’s settings page and entering it in Cerby to complete the setup. Cerby recommends saving the account backup or recovery codes when supported.
 
 The following sections describe the instructions for each option.
 
-## Automatic setup
+### Automatic setup
 
 For supported apps, you can turn on MFA automatically with a single click by completing the following steps in the Cerby web app:
 
@@ -57,14 +58,14 @@ For supported apps, you can turn on MFA automatically with a single click by com
 {% hint style="info" %}
 
 
-**NOTE:** You can see the status of the automation job to turn on MFA in the [Automation Log](https://help.cerby.com/en/articles/11642287-explore-the-automation-log). When completed and supported, the account backup or recovery codes are saved in Cerby, and you can see them in the **Emergency controls** section of the account details page.
+**NOTE:** You can see the status of the automation job to turn on MFA in the [Automation Log](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-the-automation-log). When completed and supported, the account backup or recovery codes are saved in Cerby, and you can see them in the **Emergency controls** section of the account details page.
 
 
 {% endhint %}
 
 Now you are done.
 
-## Manual setup
+### Manual setup
 
 For self-managed apps and managed apps that don’t support automation to turn on MFA, you can turn it on manually by completing the following steps using the Cerby web app:
 
@@ -98,6 +99,6 @@ For self-managed apps and managed apps that don’t support automation to turn o
      3. Save the configuration.
      4. Switch to the browser tab with the Cerby web app or take your mobile phone.
      5. Click the **Done** button. The dialog box or the screen closes, and a success message box is displayed.
-  6. Save the account backup or recovery codes in Cerby, if supported by the app, by following the instructions in the article [Save the backup or recovery codes of your account](https://help.cerby.com/en/articles/12748253-save-the-backup-or-recovery-codes-of-your-account).
+  6. Save the account backup or recovery codes in Cerby, if supported by the app, by following the instructions in the article [Save the backup or recovery codes of your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/save-the-backup-or-recovery-codes-of-your-account).
 
 Now you are done.

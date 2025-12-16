@@ -1,5 +1,6 @@
 ---
 description: This article describes how to troubleshoot the most common issues with accessing and managing your TikTok account through Cerby.
+intercom_id: 6817408
 ---
 
 # Troubleshooting: Common issues with TikTok
@@ -8,31 +9,30 @@ This article helps you fix the most common issues with accessing and managing yo
 
 The following are the most common issues:
 
-  * Too many login attempts
-  * Not receiving codes in the Shared Inbox
-  * Manual MFA enrollment
-  * Cerby mobile app behavior
-  * Email swap
+* Too many login attempts
+* Not receiving codes in the Shared Inbox
+* Manual MFA enrollment
+* Cerby mobile app behavior
+* Email swap
 
 The following sections describe common scenarios that can confuse and, if applicable, a proposed solution.
 
 * * *
 
-# Too many login attempts
+## Too many login attempts
 
 TikTok may display the "Too many attempts. Try again later" message and temporarily restrict access to your account in the following scenarios:
 
-  * When you log in multiple times to your TikTok account from Cerby using the same web browser on your computer and mobile phone.
-  * When you log out of one account and try to log in to another TikTok account using the web browser.
-  * When you try to rotate the password automatically from Cerby for an account with an active session but without user activity for multiple weeks.
+* When you log in multiple times to your TikTok account from Cerby using the same web browser on your computer and mobile phone.
+* When you log out of one account and try to log in to another TikTok account using the web browser.
+* When you try to rotate the password automatically from Cerby for an account with an active session but without user activity for multiple weeks.
 
-## Solution
+### Solution
 
 To solve the too many login attempts issue, you can perform the following actions depending on the device you use:
 
-  * Web browser on your computer
+* Web browser on your computer
     * Use an alternative browser to log in to the account
-
 **IMPORTANT:** Make sure to have installed the corresponding Cerby browser extension:
 
       * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
@@ -40,32 +40,32 @@ To solve the too many login attempts issue, you can perform the following action
       * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
       * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
     * Wait a couple of hours before retrying to log in
-  * TikTok mobile app on your mobile phone
+* TikTok mobile app on your mobile phone
     * Wait one or more days before retrying to log in
 * * *
 
-# Not receiving codes in the Shared Inbox
+## Not receiving codes in the Shared Inbox
 
 When you have configured a Cerby-managed email address or phone number in your TikTok account, whether you have MFA turned on or not, TikTok may take some time to send a verification code when logging in or rotating the password automatically. Therefore, no message is sent and stored in your **Shared Inbox** in Cerby.
 
-## Solution
+### Solution
 
 To solve the issue with not receiving verification codes, Cerby recommends waiting the 60 seconds suggested by TikTok before retrying to send a code. Sometimes, TikTok queues multiple messages and sends them all at once.
 
 * * *
 
-# Manual MFA enrollment
+## Manual MFA enrollment
 
 TikTok is one of the apps supported by Cerby, with an automation workflow to turn on multi-factor authentication (MFA) by simply activating a switch in the **Settings** tab of the account details page.
 
 When you have turned on MFA with a verification method managed by Cerby, your logging-in experience improves. Verification codes are automatically distributed to all account members and auto-filled when they log in to TikTok from Cerby as follows:
 
-  * **Logging in through the Cerby web app:** The verification code is entered automatically as part of the workflow.
-  * **Logging in through the TikTok mobile app:** You can copy the verification code from the Cerby mobile app. For more information, see the Cerby mobile app behavior section.
+* **Logging in through the Cerby web app:** The verification code is entered automatically as part of the workflow.
+* **Logging in through the TikTok mobile app:** You can copy the verification code from the Cerby mobile app. For more information, see the Cerby mobile app behavior section.
 
 To execute the automation workflow successfully, you must have created and configured a Cerby-managed email address in your TikTok account to receive verification codes. If your business needs prevent you from using a Cerby-managed email address or phone number, you can enroll MFA manually.
 
-To turn on MFA manually, follow the instructions in the How to turn on MFA in TikTok manually [video](https://help.cerby.com/en/articles/6489438-video-how-to-turn-on-2fa-in-tiktok-manually) or [article](https://help.cerby.com/en/articles/5955049-how-to-turn-on-2fa-in-tiktok-manually).
+To turn on MFA manually, follow the instructions in the How to turn on MFA in TikTok manually [video](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/video-how-to-turn-on-mfa-in-tiktok-manually) or [article](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/how-to-turn-on-mfa-in-tiktok-manually).
 
 {% hint style="danger" %}
 
@@ -77,7 +77,7 @@ To turn on MFA manually, follow the instructions in the How to turn on MFA in Ti
 
 * * *
 
-# Cerby mobile app behavior
+## Cerby mobile app behavior
 
 The Cerby mobile app helps you easily log in to your apps by auto-filling the credentials of the TikTok account you added to Cerby. To log in, complete the following steps:
 
@@ -85,7 +85,7 @@ The Cerby mobile app helps you easily log in to your apps by auto-filling the cr
   2. Auto-fill your credentials on every input field using Cerby.
   3. Enter the verification code if TikTok prompts you to do so. Perform one of the following actions to retrieve the code for a Cerby-managed email address or phone number configured as MFA verification method:
 
-     * Open the **Shared Inbox** view in the Cerby web app to access the message sent via email or SMS. For more information on the **Shared Inbox** , see the corresponding section in the article [View the messages sent to a Cerby-managed email address or phone number](https://help.cerby.com/en/articles/11889348-view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number).
+     * Open the **Shared Inbox** view in the Cerby web app to access the message sent via email or SMS. For more information on the **Shared Inbox** , see the corresponding section in the article [View the messages sent to a Cerby-managed email address or phone number](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number).
      * Open the TikTok account details in the Cerby mobile app to copy the verification code from the **MFA Code** section.
 
 {% hint style="info" %}
@@ -98,7 +98,7 @@ The Cerby mobile app helps you easily log in to your apps by auto-filling the cr
 
 * * *
 
-# Email swap
+## Email swap
 
 When you manually swap the email address of your TikTok account for a Cerby-managed email address, make sure to first remove the email address configured in TikTok.
 
@@ -107,7 +107,7 @@ Leaving this account information blank prevents the process from getting interru
 {% hint style="danger" %}
 
 
-**IMPORTANT:** If you have turned on MFA in TikTok, turn it off before removing the email address. For instructions, see the [Turn off MFA](https://help.cerby.com/en/articles/5955049-how-to-turn-on-2fa-in-tiktok-manually#h_3af5a48c5d) section in the article [Turn on MFA in TikTok manually](https://help.cerby.com/en/articles/5955049-how-to-turn-on-2fa-in-tiktok-manually).
+**IMPORTANT:** If you have turned on MFA in TikTok, turn it off before removing the email address. For instructions, see the [Turn off MFA](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/how-to-turn-on-mfa-in-tiktok-manually) section in the article [Turn on MFA in TikTok manually](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/how-to-turn-on-mfa-in-tiktok-manually).
 
 
 {% endhint %}

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to connect a business hub to centrally manage the users of a Google Ads Manager account from Cerb
+intercom_id: 9312229
 ---
 
 # Connect a business hub for a Google Ads Manager account
@@ -9,8 +10,8 @@ description: This article describes how to connect a business hub to centrally m
 
 Who can use this feature?
 
-  * Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -21,12 +22,12 @@ Google Ads is a platform that enables companies and agencies to tailor their onl
 
 Google Ads is comprised of the following elements under a hierarchical tree structure:
 
-  * **Manager Accounts (MCC):** Each top-level manager account can branch out to manage individual accounts or other manager accounts. Those manager accounts can then branch out to manage more individual accounts or other manager accounts, and so on. It enables agencies or professionals to manage multiple Google Ads MCCs from a single dashboard.
-  * **Campaigns:** Within each MCC, advertisers can create one or more campaigns. A campaign is a set of ad groups, ads, keywords, and targeting settings that share a common advertising goal, budget, and targeting criteria. Campaigns are organized based on specific objectives, such as promoting products, generating leads, or increasing website traffic.
+* **Manager Accounts (MCC):** Each top-level manager account can branch out to manage individual accounts or other manager accounts. Those manager accounts can then branch out to manage more individual accounts or other manager accounts, and so on. It enables agencies or professionals to manage multiple Google Ads MCCs from a single dashboard.
+* **Campaigns:** Within each MCC, advertisers can create one or more campaigns. A campaign is a set of ad groups, ads, keywords, and targeting settings that share a common advertising goal, budget, and targeting criteria. Campaigns are organized based on specific objectives, such as promoting products, generating leads, or increasing website traffic.
 
 This structure enables advertisers to navigate and manage their campaigns with ease, as shown in**Figure 1.**
 
-<figure><img src="../.gitbook/assets/uBpIyM0f8P0UN36vkA5HSsHrMQ0dvOOB3JQsZqQ-1u3RDBoc6gWq8d45KfIzFesK7cKHg2W51FloY0XIqD7AsUyMh_zdaW09iZ1G8ebk4rmsk5vBk4g0JZYIgeIIiHT2coV5LQ9KIril3fgJAGEsc60.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/uBpIyM0f8P0UN36vkA5HSsHrMQ0dvOOB3JQsZqQ-1u3RDBoc6gWq8d45KfIzFesK7cKHg2W51FloY0XIqD7AsUyMh_zdaW09iZ1G8ebk4rmsk5vBk4g0JZYIgeIIiHT2coV5LQ9KIril3fgJAGEsc60.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1.** Google Ads element structure
 
@@ -42,15 +43,15 @@ Permissions in Google Ads cascade downwards. Taking **Figure 1** as an example, 
 
 When you connect the business hub, you become its **Owner** , and you can perform the following user and access management tasks through API calls executed by the Cerby agent:
 
-  * Check for updates
-  * Add users
-  * Update user roles
-  * Remove users
+* Check for updates
+* Add users
+* Update user roles
+* Remove users
 
 {% hint style="success" %}
 
 
-**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Business Hubs](https://help.cerby.com/en/articles/6831152-explore-apps).
+**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Business Hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs).
 
 
 {% endhint %}
@@ -59,29 +60,28 @@ This article provides instructions on how to connect a business hub for a Google
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to connect a business hub:
 
-  * A Cerby workspace
-  * A Cerby user account with the workspace **Owner** , **Super Admin** , **Admin** , or **User** role
-  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the articles available in the [Managing users via an IdP and business hub](https://help.cerby.com/en/collections/12330182-managing-users-via-an-idp-and-business-hub) collection in the Cerby Help Center
-  * An active user account with an **Admin** role in the Google Ads Manager account
-  * An MCC ID. You can find the ID in the business information or settings by completing the following steps:
+* A Cerby workspace
+* A Cerby user account with the workspace **Owner** , **Super Admin** , **Admin** , or **User** role
+* Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the articles available in the [Managing users via an IdP and business hub](https://help.cerby.com/en/collections/12330182-managing-users-via-an-idp-and-business-hub) collection in the Cerby Help Center
+* An active user account with an **Admin** role in the Google Ads Manager account
+* An MCC ID. You can find the ID in the business information or settings by completing the following steps:
 
     1. Log in to [Google Ads Manager](https://ads.google.com/nav/selectaccount)
     2. The ID is the 10-digit number displayed at the top-right corner of the page next to your profile picture, as shown in **Figure 2**
 ​
-
-<figure><img src="../.gitbook/assets/b4o0rMWcNxz6IQKxVpz5x1AKJCV90lHfCqWc3flMj8EZPfwE5Tjg2lFg67IvmpezhO-fi53Wuza-qwVPdzC4NWxn_tNdGw8qrY6O1EhPtnqRSbG5TBG_Naq7j6uzYMtusUaxTGV3rJ483vOH-Q94PN0.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 2.** Location of the MCC ID on Google Ads
+
+<figure><img src="../../../../../../.gitbook/assets/b4o0rMWcNxz6IQKxVpz5x1AKJCV90lHfCqWc3flMj8EZPfwE5Tjg2lFg67IvmpezhO-fi53Wuza-qwVPdzC4NWxn_tNdGw8qrY6O1EhPtnqRSbG5TBG_Naq7j6uzYMtusUaxTGV3rJ483vOH-Q94PN0.png" alt=""><figcaption></figcaption></figure>
 
     3. Remove the dashes between the numbers to get only the numerical value of your ID. For example, if the MCC ID is **733-123-4567** , the number you need for the integration is **7331234567**
 
 * * *
 
-# Connect a business hub for a Google Ads Manager account
+## Connect a business hub for a Google Ads Manager account
 
 To connect a business hub for a Google Ads Manager account, you must complete the following main steps from the Cerby web app dashboard:
 
@@ -92,7 +92,7 @@ To connect a business hub for a Google Ads Manager account, you must complete th
 
 The following sections describe each main step.
 
-## 1\. Add a business hub and connect it to a Google Ads Manager account
+### 1\. Add a business hub and connect it to a Google Ads Manager account
 
 To add a business hub and connect it to a Google Ads Manager account, you must complete the following steps:
 
@@ -104,29 +104,27 @@ To add a business hub and connect it to a Google Ads Manager account, you must c
   4. Click the **Get started** button. A wizard is displayed on the **Select app** page.
   5. Select **Google Ads Manager** from the catalog. The **Grant access to Cerby** page is displayed on the wizard.
   6. Click the**Login with Google** button. The following occurs:
+The **Sign in to {your corporate account} manager** window opens. In this window, you can see the information Google can share for the integration, such as your name, email, language preference, and profile picture.
 
      * If you are logged in to at least one Google account, the**Choose an account** window opens with the list of Google accounts.
 ​**IMPORTANT:** Ensure to log in to the Google account that has the **Admin** role in the manager account.
 
      * If you are not logged in to a Google account, the**Google login** window opens. You must log in to the Google account you use for Google Ads.
 
-The **Sign in to {your corporate account} manager** window opens. In this window, you can see the information Google can share for the integration, such as your name, email, language preference, and profile picture.
-
   7. Click the **Continue** button. The Google browser window closes, and you return to the Cerby wizard.
   8. Click the **Next** button. The **Enter app details** page is displayed on the wizard.
   9. Enter and select your app information in the corresponding fields:
+**IMPORTANT:** Leave the rest of the fields blank.
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
      * **MCC ID:** It is your manager account ID in Google Ads Manager. For instructions on how to find it, read the Requirements section.
-
-**IMPORTANT:** Leave the rest of the fields blank.
 
   10. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
 The corresponding business hub is also displayed on the **Business Hubs** page.
 
 The next step is 2\. Check for updates to import users, roles, and assets to Cerby.
 
-## 2\. Check for updates to import users, roles, and assets to Cerby
+### 2\. Check for updates to import users, roles, and assets to Cerby
 
 To check for updates in your app to identify and import users, roles, and assets to Cerby, you must complete the following steps:
 
@@ -141,12 +139,12 @@ To check for updates in your app to identify and import users, roles, and assets
      * Click the **More details** button in the message box.
      * Select the **Automation** option from the left menu to open the **Automation** page with a list of automated tasks and their status.
 
-**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described in this section. For more information, read the article [Sync your app users with your business hub](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report).
+**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described in this section. For more information, read the article [Sync your app users with your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).
 ---
 
 The next step is 3\. Connect your Google Ads Manager user account to the business hub.
 
-## 3\. Connect your Google Ads account to the business hub
+### 3\. Connect your Google Ads account to the business hub
 
 To connect your Google Ads account to the business hub so Cerby can manage and protect it, you must complete the following steps:
 
@@ -157,9 +155,9 @@ To connect your Google Ads account to the business hub so Cerby can manage and p
 
 The next step is 4\. Manage unmatched users.
 
-## 4\. Manage unmatched users
+### 4\. Manage unmatched users
 
-During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://help.cerby.com/en/articles/8392946-explore-guest-users) and [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
+During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) and [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
 
 To view the status of the imported app members, you must complete the following steps:
 
@@ -174,13 +172,13 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * Match users
-  * Remove unmatched users
-  * Exempt unmatched users
+* Match users
+* Remove unmatched users
+* Exempt unmatched users
 
 The following sections describe each action.
 
-### Match users
+#### Match users
 
 To match users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -193,7 +191,7 @@ To match users, you must complete the following steps from the **Unmatched users
      2. **Collaborator:** This role enables only logging in to the app from Cerby.
   6. Click the **Match user** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Onboarded** **users** tab.
 
-### Remove unmatched users
+#### Remove unmatched users
 
 To remove unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -209,7 +207,7 @@ To remove unmatched users, you must complete the following steps from the **Unma
   2. Select the **Remove user** option from the menu. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the app via an automated task.
 
-### Exempt unmatched users
+#### Exempt unmatched users
 
 Exempted users keep their user accounts or seats active in your app, but you cannot manage them through Cerby.
 
@@ -222,20 +220,20 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 * * *
 
-# Use your business hub
+## Use your business hub
 
 The following are the supported features of business hubs you can use:
 
-  * [Join the external app and set up your business hub access](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby)
-  * [Add users to your app via a business hub](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Provision users to your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040540-provision-users-to-your-apps-via-an-idp-and-business-hub)
-  * [Remove users from your app via a business hub](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Remove teams from your app via a business hub](https://help.cerby.com/en/articles/11038640-remove-teams-from-your-app-via-a-business-hub)
-  * [Deprovision users from your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040570-deprovision-users-from-your-apps-via-an-idp-and-business-hub)
-  * [Update user roles in your app via a business hub](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Update user roles in your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040590-update-user-roles-in-your-apps-via-an-idp-and-business-hub)
-  * [Sync your app users with your business hub](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
-  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app via a business hub](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track the activity of business hub users](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove a business hub](https://help.cerby.com/en/articles/9046230-remove-an-app)
+* [Join the external app and set up your business hub access](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+* [Add users to your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+* [Provision users to your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/provision-users-to-your-apps-via-an-idp-and-business-hub)
+* [Remove users from your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+* [Remove teams from your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-teams-from-your-app-via-a-business-hub)
+* [Deprovision users from your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/deprovision-users-from-your-apps-via-an-idp-and-business-hub)
+* [Update user roles in your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+* [Update user roles in your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-apps-via-an-idp-and-business-hub)
+* [Sync your app users with your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+* [Log in to your app via a business hub](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+* [Track the activity of business hub users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+* [Remove a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

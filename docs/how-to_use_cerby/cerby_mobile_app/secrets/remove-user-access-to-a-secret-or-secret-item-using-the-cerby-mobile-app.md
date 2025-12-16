@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove user access to a secret or secret item in the Cerby mobile app.
+intercom_id: 9716263
 ---
 
 # Remove user access to a secret or secret item using the Cerby mobile app
@@ -9,10 +10,10 @@ description: This article describes how to remove user access to a secret or sec
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
-  * Secret and secret item **Owners**
-  * Supported using the Cerby web app and mobile app
-  * **NOTE:** For the Cerby mobile app, read the article [Remove user access to a secret or secret item](https://help.cerby.com/en/articles/9483805-remove-user-access-to-a-secret-or-secret-item)
+* Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
+* Secret and secret item **Owners**
+* Supported using the Cerby web app and mobile app
+* **NOTE:** For the Cerby mobile app, read the article [Remove user access to a secret or secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/remove-user-access-to-a-secret-or-secret-item)
 
 
 {% endhint %}

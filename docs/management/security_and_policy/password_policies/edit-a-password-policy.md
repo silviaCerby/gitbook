@@ -1,5 +1,6 @@
 ---
 description: This article describes how to edit the settings of an existing password policy.
+intercom_id: 11466959
 ---
 
 # Edit a password policy
@@ -9,19 +10,19 @@ description: This article describes how to edit the settings of an existing pass
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a workspace **Admin** , you can edit the settings of an existing [password policy](https://help.cerby.com/en/articles/11465716-explore-password-policies) to change the execution of automated password rotations.
+As a workspace **Admin** , you can edit the settings of an existing [password policy](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-password-policies) to change the execution of automated password rotations.
 
 Due to the current implementation of the Password Policies feature, the following rules have been established:
 
-  * You cannot change the event type from **User login** to **Schedule** and vice versa. You must delete the policy first and then create a new one with a different event type.
-  * For scheduled-based policies, you cannot edit the starting date; this setting is only available when creating the policy. You must delete the policy first and then create a new one with a different starting date.
-  * The updated password policy takes precedence over the old policy. However, if the old policy has started, the automated password rotations are rescheduled as follows:
+* You cannot change the event type from **User login** to **Schedule** and vice versa. You must delete the policy first and then create a new one with a different event type.
+* For scheduled-based policies, you cannot edit the starting date; this setting is only available when creating the policy. You must delete the policy first and then create a new one with a different starting date.
+* The updated password policy takes precedence over the old policy. However, if the old policy has started, the automated password rotations are rescheduled as follows:
     * **User login-based policies:** the queued rotations of the old policy are executed as planned and then, the new policy is implemented. The new policy will only start after the next user login event.
     * **Schedule-based policies:** the new policy is implemented after the current scheduled password rotations are executed according to the frequency. For example, if you change the frequency from 2 weeks to 1 month, you must wait until the 2-week rotation is executed, and then, the new policy is implemented.
 
@@ -57,13 +58,12 @@ To edit a password policy, you must complete the following steps:
      * Schedule
 
        1. Specify the new frequency of the automated password rotations by entering a number and selecting the corresponding option in the **Frequency** section:
+For example, if you enter **1** and select **week** , the password rotations will be executed every week starting after the rotations of the old policy are executed.
 
           * **days**
           * **weeks**
           * **months**
           * **years**
-
-For example, if you enter **1** and select **week** , the password rotations will be executed every week starting after the rotations of the old policy are executed.
 
        2. Specify a new time window to execute the automated password rotations in the **Time window execution** section.
 **IMPORTANT:** The time window consists of a start and an end time, and must be at least 8 hours.

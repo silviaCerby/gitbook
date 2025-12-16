@@ -1,5 +1,6 @@
 ---
 description: This article describes the tools and the basic management actions that admins can perform in the Meta Business Manager.
+intercom_id: 8958797
 ---
 
 # Meta for Work tools for admins
@@ -10,11 +11,11 @@ With [Meta Work Accounts](https://developers.facebook.com/docs/work-accounts/), 
 
 This article describes how you can best use Meta Work Accounts and Meta Business Manager to perform the following management actions:
 
-  * Manage the Meta for Work interfaces
-  * Invite external users to your Meta Business Manager
-  * Configure Meta Work Accounts for SSO and automatic user provisioning with Okta
-  * Deprovision users
-  * Troubleshooting and support
+* Manage the Meta for Work interfaces
+* Invite external users to your Meta Business Manager
+* Configure Meta Work Accounts for SSO and automatic user provisioning with Okta
+* Deprovision users
+* Troubleshooting and support
 
 {% hint style="danger" %}
 
@@ -30,45 +31,45 @@ The following sections describe each management action.
 
 * * *
 
-# Manage the Meta for Work interfaces
+## Manage the Meta for Work interfaces
 
 Admins of Meta Work Accounts can manage the following three main components of the Meta for Work interfaces:
 
-  * Admin Center
-  * Business Manager
-  * Migration Center
+* Admin Center
+* Business Manager
+* Migration Center
 
 The following sections describe each component.
 
-## Admin Center
+### Admin Center
 
 The [Admin Center console](https://work.meta.com/) of the Meta Work Accounts is the central hub for admins, enabling them to manage the organization, including adding or removing members, verifying domains, and managing IdP integration settings.
 
 **Figure 1** shows the home page of the Admin Center console.
 
-<figure><img src="../.gitbook/assets/1kztcc87BU7LBsm82DM8heH3Ja_Fc7WifmqhPLgFn-LTpgoS-p-KajZCSHYJ1XqqR0cKgUGZbpdVZKAuorOSr7snFPCUKS_1zjNodCuPAvQA-eBzAX3Ehp1PhjSvFYfbGcj5FgqeUtfdMTkYnhZY3lw.png" alt="The figure shows the home page of the Admin Center console of Meta Work Account"><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/1kztcc87BU7LBsm82DM8heH3Ja_Fc7WifmqhPLgFn-LTpgoS-p-KajZCSHYJ1XqqR0cKgUGZbpdVZKAuorOSr7snFPCUKS_1zjNodCuPAvQA-eBzAX3Ehp1PhjSvFYfbGcj5FgqeUtfdMTkYnhZY3lw.png" alt="The figure shows the home page of the Admin Center console of Meta Work Account"><figcaption></figcaption></figure>
 
 **Figure 1.** Home page of the **Admin Center console** for Meta Work Accounts
 
 You can find more information about the Admin Center and how to use it in the following official documentation:
 
-  * [About Admin center](https://work.meta.com/help/302615495083233/?helpref=related_articles)
-  * [Creating and managing accounts](https://work.meta.com/help/316550897730268/?helpref=hc_fnav)
-  * [Give access to Meta products connected in Admin Center to specific people or groups](https://work.meta.com/help/834021611131492?helpref=faq_content)
-  * [Keep your managed Meta account secure](https://work.meta.com/help/6500157926724783/?helpref=hc_fnav)
-  * [Different admin roles and permissions for managed Meta accounts in Admin Center](https://work.meta.com/help/1045408149576739)
+* [About Admin center](https://work.meta.com/help/302615495083233/?helpref=related_articles)
+* [Creating and managing accounts](https://work.meta.com/help/316550897730268/?helpref=hc_fnav)
+* [Give access to Meta products connected in Admin Center to specific people or groups](https://work.meta.com/help/834021611131492?helpref=faq_content)
+* [Keep your managed Meta account secure](https://work.meta.com/help/6500157926724783/?helpref=hc_fnav)
+* [Different admin roles and permissions for managed Meta accounts in Admin Center](https://work.meta.com/help/1045408149576739)
 
-## Business Manager
+### Business Manager
 
 [Business Manager](https://business.facebook.com/) is the standard settings console used by Meta Business Manager owners. With Meta Work Accounts, you can assign assets to users through their work credentials instead of a personal Facebook profile.
 
-## Migration Center
+### Migration Center
 
 The [Migration Center](https://business.facebook.com/meta_business_admin_center/migration/) is essential for tracking the transition to Meta Work Accounts. It provides admins with the tools to monitor and manage the migration progress.
 
 **Figure 2** shows the migration status report of the people in the portfolio.
 
-<figure><img src="../.gitbook/assets/Q8ArH3o4kPTCaN3xHplTHvD-1QkBvYz2TIPYN_nCQmcB_oqzvVET4Hs67x9U3ESTBPocUAuLCtmVcv3_CJwLnry-QIha0oS_xiXRFkGby3_mC8D7yc3h6IeN_jyzt_HACoZUB0OpV_ADF3p64TDz-4I.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Q8ArH3o4kPTCaN3xHplTHvD-1QkBvYz2TIPYN_nCQmcB_oqzvVET4Hs67x9U3ESTBPocUAuLCtmVcv3_CJwLnry-QIha0oS_xiXRFkGby3_mC8D7yc3h6IeN_jyzt_HACoZUB0OpV_ADF3p64TDz-4I.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 2.** Migration status report in Meta Migration Center
 
@@ -90,7 +91,7 @@ For more information about how to plan and migrate your portfolio, read the [Ove
 
 * * *
 
-# Invite external users to your Meta Business Manager
+## Invite external users to your Meta Business Manager
 
 To invite external users to your Meta Business Manager, complete the following steps:
 
@@ -114,44 +115,44 @@ After inviting and assigning the user assets and permissions, the end user must 
 
 * * *
 
-# Configure Meta Work Accounts for SSO and automatic user provisioning with Okta
+## Configure Meta Work Accounts for SSO and automatic user provisioning with Okta
 
 While the Cerby platform can be configured directly with Okta for SSO and automatic user provisioning via SCIM, with Meta Work Accounts, the configuration is now between Meta and Okta.
 
-For instructions on how to perform the configuration, read the [Configure SSO and user provisioning between Meta and Okta via Meta Work Accounts](https://help.cerby.com/en/articles/8958775-configure-sso-and-user-provisioning-between-meta-and-okta-via-meta-work-accounts) article.
+For instructions on how to perform the configuration, read the [Configure SSO and user provisioning between Meta and Okta via Meta Work Accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/meta-for-work/configure-sso-and-user-provisioning-between-meta-and-okta-via-meta-work-accounts) article.
 
 * * *
 
-# Deprovision users
+## Deprovision users
 
 When you deprovision a user from the IdP, either by entirely removing them or unassigning the app, the status of the deprovisioned user is different depending on the tool:
 
-  * Admin Console
-  * Business Manager
+* Admin Console
+* Business Manager
 
 Regardless of how the status is displayed, Meta will stop redirecting users to the SSO authentication page when they are deprovisioned.
 
 The following sections explain the different statuses of deprovisioned users.
 
-## Admin Console
+### Admin Console
 
 When you access the **People** section in the [Admin Console](http://work.meta.com/), the deprovisioned user’s status is **Deactivated** , as shown in **Figure 3**.
 
-<figure><img src="../.gitbook/assets/puOlX5JeN97Q4sbwGSOwZyA3Dqkt4ArRBCP0dmSSOwhIR4yeOed7bdt27Gg724O-Ap_DheVXVaNcrYzf5Stkxuh2uPsoZnywU9xHBtXdrzIrxresUBz9_qTSH_HLpY3Ci55_FSG7bhT1ijKB6NWt344.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/puOlX5JeN97Q4sbwGSOwZyA3Dqkt4ArRBCP0dmSSOwhIR4yeOed7bdt27Gg724O-Ap_DheVXVaNcrYzf5Stkxuh2uPsoZnywU9xHBtXdrzIrxresUBz9_qTSH_HLpY3Ci55_FSG7bhT1ijKB6NWt344.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 3.** View of a deprovisioned user in the Meta Admin console
 
-## Business Manager
+### Business Manager
 
 When you access the **People** option from the **Users** drop-down list of the [Business Manager](http://business.meta.com/) main page, the deprovisioned user’s information is displayed with asterisks, as shown in **Figure 4**.
 
-<figure><img src="../.gitbook/assets/meta-to-blur.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/meta-to-blur.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 4.** View of a deprovisioned user on the **Meta Business Manager** page
 
 * * *
 
-# Troubleshooting: Facebook refused to connect error when activating your work account
+## Troubleshooting: Facebook refused to connect error when activating your work account
 
 When following the next steps to activate a Meta Work Account, you may encounter the error message “business.facebook.com refused to connect”:
 
@@ -163,13 +164,13 @@ When following the next steps to activate a Meta Work Account, you may encounter
 
      * If the “business.facebook.com refused to connect” error message is displayed, as shown in **Figure 5** , share another item within the platform.
 
-<figure><img src="../.gitbook/assets/0O6h1GEl1_7riKBjra277JHl7wOYTn1QpDm6qwF75C074L8wJBR8okCWWSb4K7u0gBY2j2hIoU152tOfk798oSeSIRoFU7qEBq6DlzO7QxQfctrzT6u_sKozC9_1zlUl3p9NrFJXFuHrGfMMfbPzaJk.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/0O6h1GEl1_7riKBjra277JHl7wOYTn1QpDm6qwF75C074L8wJBR8okCWWSb4K7u0gBY2j2hIoU152tOfk798oSeSIRoFU7qEBq6DlzO7QxQfctrzT6u_sKozC9_1zlUl3p9NrFJXFuHrGfMMfbPzaJk.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 5.** “business.facebook.com refused to connect” error message in the **Settings** view of your Meta Business Manager
 
 * * *
 
-# Troubleshooting: “Some people couldn’t be added” error when adding a user from an unknown domain
+## Troubleshooting: “Some people couldn’t be added” error when adding a user from an unknown domain
 
 Meta enables users to be created at the organization level, but these users cannot be added to portfolios (Meta Business Managers) until domains get verified.
 

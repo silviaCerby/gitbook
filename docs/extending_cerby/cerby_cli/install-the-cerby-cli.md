@@ -1,5 +1,6 @@
 ---
 description: This article describes how you can obtain the executable files for Windows, MacOS, and Linux to install the Cerby CLI.
+intercom_id: 9118688
 ---
 
 # Install the Cerby CLI
@@ -28,6 +29,7 @@ To install the Cerby CLI executable, you must complete the following steps:
      * **MacOS:** cerby-macos
 
   7. Install the Cerby CLI following the instructions below corresponding to your OS:
+The response must be the Cerby CLI version number.
 
      * Windows
 
@@ -40,12 +42,12 @@ To install the Cerby CLI executable, you must complete the following steps:
               cd ‘C:\Program Files (x86)\Cerby\Cli\’
 
        6. Verify that Cerby CLI is running correctly by executing the following command:
+The response must be the Cerby CLI version number.
 
               .\cerby-win.exe --version
 
-The response must be the Cerby CLI version number.
-
      * Linux
+The response must be the Cerby CLI version number.
 
        1. Open your terminal.
        2. Access the folder where the Cerby CLI installation file was downloaded.
@@ -56,8 +58,6 @@ The response must be the Cerby CLI version number.
        4. Access the Cerby CLI prompt by executing the following command:
 
               ./cerby-linux --version
-
-The response must be the Cerby CLI version number.
 
      * MacOS
 
@@ -70,7 +70,5 @@ The response must be the Cerby CLI version number.
        4. Access the Cerby CLI prompt by executing the following command:
 
               ./cerby-macos --version
-
-The response must be the Cerby CLI version number.
 
   8. (Optional) Adjust your environment path to enable direct execution from the command line. Refer to your OS documentation for specific instructions.

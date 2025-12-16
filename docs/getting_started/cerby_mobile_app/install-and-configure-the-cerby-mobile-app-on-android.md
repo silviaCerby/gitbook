@@ -1,5 +1,6 @@
 ---
 description: This article describes the key steps to install and configure the Cerby mobile app on Android.
+intercom_id: 10008726
 ---
 
 # Install and configure the Cerby mobile app on Android
@@ -10,16 +11,16 @@ This article describes the steps to install and appropriately configure the requ
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to install, configure, and use the Cerby mobile app on Android:
 
-  * **Android 11** is the minimum supported operating system (OS) version due to security updates and performance improvements. If your mobile phone has an older OS, refer to the article [Troubleshooting: Older operating systems are no longer supported by the Cerby mobile app](https://help.cerby.com/en/articles/6681521-troubleshooting-older-operating-systems-no-longer-supported-by-the-cerby-mobile-app)
-  * From **v1.0.216** , the Cerby mobile app also supports tablet installation (minimum supported OS: Android 11)
-  * Access to a Cerby workspace
+* **Android 11** is the minimum supported operating system (OS) version due to security updates and performance improvements. If your mobile phone has an older OS, refer to the article [Troubleshooting: Older operating systems are no longer supported by the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/troubleshooting/troubleshooting-older-operating-systems-no-longer-supported-by-the-cerby-mobile-app)
+* From **v1.0.216** , the Cerby mobile app also supports tablet installation (minimum supported OS: Android 11)
+* Access to a Cerby workspace
 * * *
 
-# Install and configure the Cerby mobile app on Android
+## Install and configure the Cerby mobile app on Android
 
 To install and configure the Cerby mobile app on your Android mobile phone, you must complete the following main steps:
 
@@ -32,7 +33,7 @@ To install and configure the Cerby mobile app on your Android mobile phone, you 
 
 The following sections describe each main step.
 
-## 1\. Install from the Play Store
+### 1\. Install from the Play Store
 
 To install the Cerby mobile app on your mobile phone from the Play Store, you must complete the following steps:
 
@@ -41,7 +42,7 @@ To install the Cerby mobile app on your mobile phone from the Play Store, you mu
 
 The next step is 2\. Turn on the Autofill Service on your mobile phone.
 
-## 2\. Turn on the Autofill Service on your mobile phone
+### 2\. Turn on the Autofill Service on your mobile phone
 
 The **Autofill Service** feature enables Cerby to securely and efficiently manage and fill in usernames and passwords within apps and login pages, saving you the hassle of manually entering your login credentials every time you log in to your corporate account.
 
@@ -56,7 +57,7 @@ To continue the configuration of the Cerby mobile app and turn on the **Autofill
 
 The next step is 3\. Turn on the Allow Notifications feature on your mobile phone.
 
-## 3\. Turn on the Allow Notifications feature on your mobile phone
+### 3\. Turn on the Allow Notifications feature on your mobile phone
 
 The **Allow Notifications** feature enables you to receive real-time alerts and updates from the Cerby mobile app, such as verifying your identity to reveal a secret or other actions.
 
@@ -69,7 +70,7 @@ To continue the configuration and turn on the **Allow Notifications** feature, y
 
 The next step is 4\. Log in to your Cerby workspace.
 
-## 4\. Log in to your Cerby workspace
+### 4\. Log in to your Cerby workspace
 
 To log in to your Cerby workspace with the Cerby mobile app, you must complete the following steps:
 
@@ -80,9 +81,9 @@ To log in to your Cerby workspace with the Cerby mobile app, you must complete t
 
 The next step is 5\. Turn on the Biometrics Login on your mobile phone.
 
-## 5\. Turn on the Biometrics Login on your mobile phone
+### 5\. Turn on the Biometrics Login on your mobile phone
 
-The Cerby mobile app enables you to use your biometric information, such as your face ID or fingerprint, to unlock the app and add an extra layer of security to your app. To learn more about this feature, refer to the article [Turn on the Biometrics Login feature](https://help.cerby.com/en/articles/10355971-turn-on-the-biometrics-login-feature).
+The Cerby mobile app enables you to use your biometric information, such as your face ID or fingerprint, to unlock the app and add an extra layer of security to your app. To learn more about this feature, refer to the article [Turn on the Biometrics Login feature](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/app-configuration/turn-on-the-biometrics-login-feature).
 
 To continue the configuration and turn on the **Biometrics Login** feature, you must complete the following steps:
 
@@ -95,15 +96,14 @@ To continue the configuration and turn on the **Biometrics Login** feature, you 
 
 The next step is 6\. Set up the Cerby mobile app as a trusted session.
 
-## 6\. Set up the Cerby mobile app as a trusted device
+### 6\. Set up the Cerby mobile app as a trusted device
 
-Trusted sessions and devices provide users with an additional layer of protection by ensuring that all interactions with Cerby come from authorized devices that meet corporate security standards. To learn more about trusted sessions, refer to the article [Set up trusted sessions on your devices](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices).
+Trusted sessions and devices provide users with an additional layer of protection by ensuring that all interactions with Cerby come from authorized devices that meet corporate security standards. To learn more about trusted sessions, refer to the article [Set up trusted sessions on your devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices).
 
 To continue the configuration and set up your Cerby mobile app as a trusted device, you must complete the following steps:
 
   1. Tap the **Set up device** button in the **Let’s set up your mobile device as a trusted device** screen. The **Name your device** screen is displayed.
   2. Enter a name for your device in the **Device name** field.
-
 **NOTE:** Cerby creates a name by default for you using the format: `[username] - [operating system]`. If you want to change it, Cerby recommends using a device name you can easily recognize and including the name of your mobile OS. Device names must be unique.
 
   3. Tap the **Next** button. The **Verify your identity** screen is displayed with the following options to approve the device from a trusted session:
@@ -120,7 +120,6 @@ To continue the configuration and set up your Cerby mobile app as a trusted devi
 
        1. Tap the **I don’t have access to my trusted device** option. The **Verify your device** screen is displayed, and a message with a verification code is sent to your email.
        2. Copy the verification code from the email Cerby sent you.
-
 **IMPORTANT:** The verification code expires in 5 minutes.
 
        3. Enter the code in the **Verification code** field in your mobile app.

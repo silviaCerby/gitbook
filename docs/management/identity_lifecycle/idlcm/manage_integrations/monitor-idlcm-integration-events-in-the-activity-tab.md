@@ -1,5 +1,6 @@
 ---
 description: This article describes how to monitor the IdLCM integration events in the Activity tab
+intercom_id: 11649369
 ---
 
 # Monitor IdLCM integration events in the Activity tab
@@ -9,8 +10,8 @@ description: This article describes how to monitor the IdLCM integration events 
 
 **Who can use this feature?**
 
-  * Workspace**Owners, Super Admins,** and**Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners, Super Admins,** and**Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -19,19 +20,19 @@ As a workspace**Owner, Super Admin,** or**Admin,** you**** can access a comprehe
 
 The **Activity** tab, as shown in **Figure 1** , is a read-only log that tracks all changes within an integration. It displays events related to user and group management, SCIM gateway operations, and setup tasks to simplify auditing, tracing, and troubleshooting.
 
-<figure><img src="../.gitbook/assets/image_17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image_17.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1.** **Activity** tab in the integration details page
 
 The**Activity** tab provides information about integration events in the following columns:
 
-  * **Date:** It is the date and time at which the event was triggered.
-  * **Actor:** It is the entity that triggered the event.
-  * **Event:** It is the name of the event that was triggered. For the complete list of events and their description, read the Integration events section.
-  * **Target:** It is the entity affected by the event.
+* **Date:** It is the date and time at which the event was triggered.
+* **Actor:** It is the entity that triggered the event.
+* **Event:** It is the name of the event that was triggered. For the complete list of events and their description, read the Integration events section.
+* **Target:** It is the entity affected by the event.
 * * *
 
-# Integration events
+## Integration events
 
 The following table lists the events you can view in the **Activity** tab, along with their descriptions
 

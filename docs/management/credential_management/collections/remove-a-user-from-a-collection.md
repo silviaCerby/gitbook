@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a user from a collection.
+intercom_id: 8432313
 ---
 
 # Remove a user from a collection
@@ -9,9 +10,9 @@ description: This article describes how to remove a user from a collection.
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Collection **Owners**
-  * Supported using the Cerby web app and mobile app. For the mobile app instructions, read the article [Remove user from a collection using the Cerby mobile app](https://help.cerby.com/en/articles/9718660-remove-user-access-to-a-collection-using-the-cerby-mobile-app)
+* Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Collection **Owners**
+* Supported using the Cerby web app and mobile app. For the mobile app instructions, read the article [Remove user from a collection using the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/collections/remove-a-user-from-a-collection-using-the-cerby-mobile-app)
 
 
 {% endhint %}
@@ -22,9 +23,9 @@ To remove a user from a collection, you must complete the following steps using 
 
   1. Log in to your [Cerby](https://app.cerby.com/) workspace.
   2. Select the **Collections** option from the left menu. The **Collections** page is displayed.
-  3. Click the **Settings** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1481536120/1eca4a12b24fde121832c095aa0a/AD_4nXcTuUI32R24x3fW2XHHCAqAf0iw1Oe8x8zklBLUvC8GU-I7ziw0SQ-NCNV6Zku1ndLJeFrYUWm4e60nAcrQ5DRPsax2h7cVAFkKFMv_aIdKojLr1vecWtl14NYRwA9ouyfyBU4oxQ?expires=1759320000&signature=b1c173c2b65e2de5079a55a8925a6da077b2ea39650caf96a60e9bd46122f785&req=dSQvF8x9m4BdWfMW3Hu4gflDvMsbbH%2BUukXtoZUPK5J3UI51s8B1z2sRJORN%0AUw%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
+  3. Click the **Settings** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1481536120/1eca4a12b24fde121832c095aa0a/AD_4nXcTuUI32R24x3fW2XHHCAqAf0iw1Oe8x8zklBLUvC8GU-I7ziw0SQ-NCNV6Zku1ndLJeFrYUWm4e60nAcrQ5DRPsax2h7cVAFkKFMv_aIdKojLr1vecWtl14NYRwA9ouyfyBU4oxQ?expires=1765908000&signature=a64046f3444f46773fec3b92ecffcb21ae3e0f491e8612d130444516e5af95fa&req=dSQvF8x9m4BdWfMW3Hu4gflDvMsYYHWWskXtoZUPK5LCBa33zJ7WPpgAjOs0%0AHg%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
   4. Activate the **Members** tab. The **Members** table is displayed with a list of users who have shared access to the collection.
-  5. Click the **More options** (<figure><img src="../.gitbook/assets/unnamed_71.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding user. A drop-down menu is displayed.
+  5. Click the **More options** (<figure><img src="../../../../.gitbook/assets/unnamed_71.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding user. A drop-down menu is displayed.
   6. Select the **Remove from collection** option. A confirmation dialog box is displayed.
   7. Choose what to do with user access to the accounts, secrets, business hub integrations, and assets within the collection:
 
@@ -37,7 +38,7 @@ To remove a user from a collection, you must complete the following steps using 
 {% hint style="info" %}
 
 
-**NOTE:** When you remove a user from a collection containing business hubs and assets, Cerby triggers the automation jobs to remove this user from the external apps. For more information, read the article [Manage access to business hubs and assets with collections](https://help.cerby.com/en/articles/11102692-manage-access-to-business-hubs-and-assets-with-collections).
+**NOTE:** When you remove a user from a collection containing business hubs and assets, Cerby also removes this user from the external apps. For more information, read the article [Manage access to business hubs and assets with collections](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/manage-access-to-business-hubs-and-assets-with-collections).
 
 
 {% endhint %}

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to access and view your accounts using the Cerby mobile app.
+intercom_id: 9724952
 ---
 
 # View your accounts using the Cerby mobile app
@@ -9,18 +10,18 @@ description: This article describes how to access and view your accounts using t
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
-  * Account **Owners** and **Collaborators**
-  * Supported using the Cerby web app, browser extension, and mobile app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
+* Account **Owners** and **Collaborators**
+* Supported using the Cerby web app, browser extension, and mobile app
 
-**NOTE:** Read more about Accounts in Cerby in the article [Explore Accounts](https://help.cerby.com/en/articles/8708338-explore-accounts)
+**NOTE:** Read more about Accounts in Cerby in the article [Explore Accounts](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-accounts)
 
 
 {% endhint %}
 
 As an account **Owner** or **Collaborator** , you can view your accounts using the Cerby mobile app, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/unnamed_21.png" alt=""><figcaption></figcaption></figure><figure><img src="../.gitbook/assets/unnamed_22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/unnamed_21.png" alt=""><figcaption></figcaption></figure><figure><img src="../../../../.gitbook/assets/unnamed_22.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1. Accounts** screens in the Cerby mobile app for iOS (left) and Android (right)
 

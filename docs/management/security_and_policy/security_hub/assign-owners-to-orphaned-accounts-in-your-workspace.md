@@ -1,5 +1,6 @@
 ---
 description: This article describes how to assign Owners to orphaned accounts in your workspace through the Security Hub.
+intercom_id: 10580392
 ---
 
 # Assign Owners to orphaned accounts in your workspace
@@ -9,8 +10,8 @@ description: This article describes how to assign Owners to orphaned accounts in
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -21,10 +22,10 @@ Orphaned accounts can pose a significant security risk if overlooked, as they co
 
 As a workspace **Owner** , **Super Admin** , or **Admin** , you can quickly identify all orphaned accounts through the Security Hub and proactively assign one or more **Owners**. Additionally, by not having owners, the following account management capabilities are lost in Cerby:
 
-  * Sharing or removing access from the account.
-  * Updating the account settings.
-  * Managing account security, including multi-factor authentication (MFA) and password rotation.
-  * Monitoring user events through the **Activity** view.
+* Sharing or removing access from the account.
+* Updating the account settings.
+* Managing account security, including multi-factor authentication (MFA) and password rotation.
+* Monitoring user events through the **Activity** view.
 
 {% hint style="danger" %}
 
@@ -36,7 +37,7 @@ As a workspace **Owner** , **Super Admin** , or **Admin** , you can quickly iden
 
 * * *
 
-# Assign Owners to orphaned accounts in your workspace
+## Assign Owners to orphaned accounts in your workspace
 
 To assign one or more **Owners** to orphaned accounts in your workspace, you must complete the following steps:
 
@@ -58,7 +59,6 @@ To assign one or more **Owners** to orphaned accounts in your workspace, you mus
      1. Enter the name of the member in the search bar. The members that match the name are displayed on a list automatically.
      2. Select the corresponding member from the list. The member is listed in the field.
      3. Repeat steps a and b as necessary to select multiple members.
-
 **IMPORTANT:** Only 20 workspace members can be assigned as **Owners** at a time.
 
      4. Click the **Next** button. The **Assign account Owners** dialog box is displayed.
@@ -69,29 +69,29 @@ Now you are done.
 
 * * *
 
-# Understand the temperature widget for the orphaned accounts
+## Understand the temperature widget for the orphaned accounts
 
 The temperature widget is placed at the top right corner of the **Orphaned accounts** page. It provides a quick, visual gauge of the number of orphaned accounts and the relative risk they pose to your workspace. If the number of orphaned accounts exceeds a defined safe limit, the widget shifts to a higher temperature, signaling the need for attention.
 
 **Figure 1** shows an example of the temperature widget.
 
-<figure><img src="../.gitbook/assets/AD_4nXesvYUowBGu9XBevH4ImtSm9lsWCBxEupHS9NpTRmWDYUv2bFoguAZUQXKnfE7lHkKV-pXGOXSU_KUq7DMeduf2g0Sj_T16QPZKkuadO2JqZcFLEyR4IaNkolDD5Wihhs3A0uQ_.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/AD_4nXesvYUowBGu9XBevH4ImtSm9lsWCBxEupHS9NpTRmWDYUv2bFoguAZUQXKnfE7lHkKV-pXGOXSU_KUq7DMeduf2g0Sj_T16QPZKkuadO2JqZcFLEyR4IaNkolDD5Wihhs3A0uQ_.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1**. The **Temperature widget** is located at the top right corner of the **Orphaned accounts** page
 
 The widget displays various colors representing the volume and severity of orphaned accounts. The colors represent the following:
 
-  * Green means zero accounts are orphaned
-  * Yellow means fewer than five accounts are orphaned
-  * Orange means fewer than 10 accounts are orphaned
-  * Red means more than or equal to 10 accounts are orphaned
+* Green means zero accounts are orphaned
+* Yellow means fewer than five accounts are orphaned
+* Orange means fewer than 10 accounts are orphaned
+* Red means more than or equal to 10 accounts are orphaned
 * * *
 
-# View the owner assignations for orphaned accounts in the Activity view
+## View the owner assignations for orphaned accounts in the Activity view
 
-As a workspace **Owner** , **Super Admin** , or **Admin,** you can track when orphaned accounts have been assigned to an **Owner** through the **[Activity](https://help.cerby.com/en/articles/10128402-explore-activity)** page in Cerby using the Account **Owner Assigned** filter in the **Event** field.
+As a workspace **Owner** , **Super Admin** , or **Admin,** you can track when orphaned accounts have been assigned to an **Owner** through the **[Activity](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-activity)** page in Cerby using the Account **Owner Assigned** filter in the **Event** field.
 
 To learn more about the events in the **Activity** view and how to filter them, refer to the following articles:
 
-  * [Filter events in the Activity view](https://help.cerby.com/en/articles/10128410-filter-events-in-the-activity-view)
-  * [Monitor events in the Activity view](https://help.cerby.com/en/articles/10128426-monitor-events-in-the-activity-view)
+* [Filter events in the Activity view](https://cerby-test.gitbook.io/cerby-test/management/monitoring/filter-events-in-the-activity-view)
+* [Monitor events in the Activity view](https://cerby-test.gitbook.io/cerby-test/management/monitoring/monitor-events-in-the-activity-page)

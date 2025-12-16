@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add a custom item to your Cerby workspace.
+intercom_id: 8860242
 ---
 
 # Add a custom item
@@ -9,23 +10,23 @@ description: This article describes how to add a custom item to your Cerby works
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Available to the Cerby Automate and Cerby Protect products. Cerby Protect users must have already set up their [trusted devices](https://help.cerby.com/en/articles/8142370-how-to-set-up-and-manage-your-trusted-devices)
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Available to the Cerby Automate and Cerby Protect products. Cerby Protect users must have already set up their [trusted devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices)
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
 You can add a custom item and attachments to Cerby in the following two ways:
 
-  * Add a custom item manually
-  * Import custom items from LastPass
+* Add a custom item manually
+* Import custom items from LastPass
 
 The following sections describe each way.
 
 * * *
 
-# Add a custom item manually
+## Add a custom item manually
 
 To add a custom item and, optionally, a file attachment, you must complete the following steps using the Cerby web app:
 
@@ -53,11 +54,10 @@ To add a custom item and, optionally, a file attachment, you must complete the f
 
   6. Add an attachment optionally by performing the following actions:
      1. Click the **Add attachment** button. A file dialog box is displayed.
-     2. Select the file you want to add as an attachment to the secret. For more information on the size limits and supported file formats, read the [Specifications](https://help.cerby.com/en/articles/7216784-explore-secrets#h_4d6ff4fb5e) section.
+     2. Select the file you want to add as an attachment to the secret. For more information on the size limits and supported file formats, read the [Specifications](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-secrets) section.
      3. Click the **Open** button. The file dialog box closes, and the file is displayed on the **Attachments** section.
      4. Repeat steps a to c as necessary.
   7. Select a vault where you want to save the secret from the **Vault** drop-down list.
-
 **NOTE:** If you only have one vault, the **Vault** drop-down list is not displayed.
 
   8. Click the **Add Secret** button. The dialog box closes, and the secret details page is displayed.
@@ -66,8 +66,8 @@ Now you are done. You can start sharing your server items securely.
 
 * * *
 
-# Import custom items from LastPass
+## Import custom items from LastPass
 
-To import custom items from your password manager, including their file attachments, follow the instructions in the article [How to use the Password Manager Importer](https://help.cerby.com/en/articles/7175132-how-to-use-the-password-manager-importer).
+To import custom items from your password manager, including their file attachments, follow the instructions in the article [How to use the Password Manager Importer](https://cerby-test.gitbook.io/cerby-test/management/credential-management/item-importer/migrate-from-lastpass-to-cerby).
 
 After importing your custom items, you can start managing access to them securely.

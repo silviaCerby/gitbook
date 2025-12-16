@@ -1,5 +1,6 @@
 ---
 description: This article describes how to retrieve the SCIM gateway details required to connect your disconnected apps to your IdP through IdLCM.
+intercom_id: 11642821
 ---
 
 # Retrieve the SCIM gateway details for an IdLCM integration
@@ -9,8 +10,8 @@ description: This article describes how to retrieve the SCIM gateway details req
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -19,16 +20,16 @@ Cerby uses unique SCIM gateway tokens for secure identity provider (IdP) integra
 
 When you set up an app integration in your IdP to connect it to your Ceby-integrated app, you must provide the SCIM gateway URL, a SCIM gateway token, and the Bookmark URL. You can retrieve these elements in the following ways:
 
-  * Retrieve the SCIM gateway URL
-  * Generate a SCIM gateway token
-  * Regenerate a SCIM gateway token
-  * Retrieve the Bookmark URL
+* Retrieve the SCIM gateway URL
+* Generate a SCIM gateway token
+* Regenerate a SCIM gateway token
+* Retrieve the Bookmark URL
 
 The following sections describe each way.
 
 * * *
 
-# Retrieve the SCIM gateway URL
+## Retrieve the SCIM gateway URL
 
 To retrieve the SCIM gateway URL of an IdLCM integration, you must complete the following steps:
 
@@ -42,7 +43,7 @@ Now you are done. You can paste the SCIM gateway URL when required by your IdP.
 
 * * *
 
-# Generate a SCIM gateway token
+## Generate a SCIM gateway token
 
 To generate the SCIM gateway token for the first time for a new IdLCM integration, you must complete the following steps:
 
@@ -52,10 +53,9 @@ To generate the SCIM gateway token for the first time for a new IdLCM integratio
   4. Activate the **Connected services** left**** tab.
   5. Click the **Generate token** button in the **SCIM Gateway** section. The **Generate token** dialog box is displayed, as shown in **Figure 1**.
 ​
-
-<figure><img src="../.gitbook/assets/AD_4nXc-GwvMAonKXdcTwsqAzdpaj5gGei337HZ9FVIFYlQ2l5-ELbiAUcY84B0C0ggAb42I1hSEzwctR3cNj3riiSM1ner5dZ7DzqtH7ce7g0wRej9nB2weDOw19pmyFfTpHzHCDoUw.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1.** **Generate token** dialog box
+
+<figure><img src="../../../../../.gitbook/assets/AD_4nXc-GwvMAonKXdcTwsqAzdpaj5gGei337HZ9FVIFYlQ2l5-ELbiAUcY84B0C0ggAb42I1hSEzwctR3cNj3riiSM1ner5dZ7DzqtH7ce7g0wRej9nB2weDOw19pmyFfTpHzHCDoUw.png" alt=""><figcaption></figcaption></figure>
 
   6. Click the **Copy** icon (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1588180442/4ce97d6cd5978f65cbc07f7b9543/AD_4nXd_XKaMX07-MLc2p41ZsnNZEz1uoWBvjdhXtTD5jc-hG-fIBaIgDSgPivddZFiEzqr6oB11iZL08RAwNm_pXXS-6kqgxCvIGuCNZzUrDaVefR-eJWv8N7oRyp94nKdg3tf51yukIw?expires=1764126000&signature=3001622c203e1cacb875ddd0a5e9a346c03d7df6cef8e96cdfcfaab3420a9546&req=dSUvHsh2nYVbW%2FMW3Hu4gfwHxEX53%2B5XQLWYCRaZARcYUTUExEX2qHi8S%2Fdh%0ATw%3D%3D%0A" alt=""><figcaption></figcaption></figure><figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1584660574/c38bf035fafcd3eec82700fe8f18/AD_4nXdC8FzycgYlwfvcVwFQMXImb5XYFdhIo3nGHLM8hi1KBzlSfub9XXSlsDyrfGMiOFjy15n-0sQGFWQbE-X6X-XEVwFM8gClRM1PO1kfbR-FniCu9k2R9HkbegoY3FadqKF9LG6DlQ?expires=1764126000&signature=b69349a9e1db96a0507c43f0968275fb6106c832c55ff28877d4af9038a6c053&req=dSUvEs94nYRYXfMW3Hu4gbC0nWjf6fQWCzyYlw3aobW1Tu91KN4uPjeU010V%0AHA%3D%3D%0A" alt=""><figcaption></figcaption></figure>) to copy the authentication token to the clipboard.
 ​**TIP:** Keep the **Generate token** dialog box open as the generated token is only displayed once. If you lose the token, you must generate a new one.
@@ -64,7 +64,7 @@ Now you are done. You can paste the SCIM gateway token when required by your IdP
 
 * * *
 
-# Regenerate a SCIM gateway token
+## Regenerate a SCIM gateway token
 
 To regenerate the SCIM gateway token of your IdLCM integration when you need to replace an existing token, you must complete the following steps:
 
@@ -82,7 +82,7 @@ Now you are done. You can paste the SCIM gateway token when required by your IdP
 
 * * *
 
-# Retrieve the Bookmark URL
+## Retrieve the Bookmark URL
 
 To retrieve the Bookmark URL of an IdLCM integration, you must complete the following steps:
 

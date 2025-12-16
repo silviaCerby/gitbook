@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove user access to an account using the Cerby mobile app.
+intercom_id: 9715382
 ---
 
 # Remove user access to an account using the Cerby mobile app
@@ -9,10 +10,10 @@ description: This article describes how to remove user access to an account usin
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
-  * Account **Owners**
-  * Supported using the Cerby web app and mobile app
-  * **NOTE:** For the web app version, read the article [Remove user access to an account](https://help.cerby.com/en/articles/9479442-remove-user-access-to-an-account#h_acc396b41b)
+* Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
+* Account **Owners**
+* Supported using the Cerby web app and mobile app
+* **NOTE:** For the web app version, read the article [Remove user access to an account](https://help.cerby.com/en/articles/9479442-remove-user-access-to-an-account#h_acc396b41b)
 
 
 {% endhint %}

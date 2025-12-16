@@ -1,5 +1,6 @@
 ---
 description: This article describes how to use Meta Work Accounts as an end user to access your organization’s Meta for Work tools.
+intercom_id: 8958936
 ---
 
 # Meta for Work tools for end users
@@ -24,21 +25,21 @@ Note that this feature is currently available to **selected customers only**. Fo
 
 * * *
 
-# Access the Meta Work Accounts login page
+## Access the Meta Work Accounts login page
 
 Log in to **Meta Work Accounts** using the [main](https://work.meta.com/) page, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/V-6Jrx2IQZiaMXCrRGNadlwveMQYhkFwCY2T3Go-9JkjjxGIZJxnx448PYJzOQlOOHj7EUYNp7YFlJrJdGdLx8Sfrwd4yhxuRRMB_iRxyJakUFNZv9q80GVkM82XTUeOJPX4OctKp_cGC5qi0Gd3bco.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/V-6Jrx2IQZiaMXCrRGNadlwveMQYhkFwCY2T3Go-9JkjjxGIZJxnx448PYJzOQlOOHj7EUYNp7YFlJrJdGdLx8Sfrwd4yhxuRRMB_iRxyJakUFNZv9q80GVkM82XTUeOJPX4OctKp_cGC5qi0Gd3bco.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1.** Meta Work Accounts login page
 
 * * *
 
-# Access the Meta Business Manager login page
+## Access the Meta Business Manager login page
 
 Log in to **Meta Business Manager** using the [main](https://business.facebook.com/) page, as shown in **Figure 2**.
 
-<figure><img src="../.gitbook/assets/QnGT0Hv_kgqCK3JA3vXbCIqHegfBqo65GynIcXKgTkac3mJol8qXB3b-nYXt1DHF6JOBrYQPiGSvh_uhd1HJX-s-kH5pvlmLInVUVo7YcPu-z5liTGFq3Vs7UEwLZHjNX1NVCJ7GtnjEVQ0GvVT-f6k.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/QnGT0Hv_kgqCK3JA3vXbCIqHegfBqo65GynIcXKgTkac3mJol8qXB3b-nYXt1DHF6JOBrYQPiGSvh_uhd1HJX-s-kH5pvlmLInVUVo7YcPu-z5liTGFq3Vs7UEwLZHjNX1NVCJ7GtnjEVQ0GvVT-f6k.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 2.** **Meta Business Manager** login page
 
@@ -46,7 +47,7 @@ The **Meta Business Manager** login page provides different options for logging 
 
 If you use a managed Meta account or **Meta Work Accounts** , click the **Other login options** button to display another page with the option to **Log in with managed Meta account** , as shown in **Figure 3**. With this option, you are redirected to the single sign-on (SSO) authentication page of your identity provider (IdP).
 
-<figure><img src="../.gitbook/assets/1jMFWRDc6h0bmikWjFZ6DlPRCO_AE4u7OKA4zwxlCTNsQ_-7h7wvb7PMYKe19CA4RNRZFjCOvvhPEOgaCAmQ_WhEkY0nrWm21gY4tjxxnXxD4Cs-86OZctEEEb5tv-JlbxVlYQ4PAdjeDRKnBaOEFeU.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/1jMFWRDc6h0bmikWjFZ6DlPRCO_AE4u7OKA4zwxlCTNsQ_-7h7wvb7PMYKe19CA4RNRZFjCOvvhPEOgaCAmQ_WhEkY0nrWm21gY4tjxxnXxD4Cs-86OZctEEEb5tv-JlbxVlYQ4PAdjeDRKnBaOEFeU.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 3.** Meta Business Manager login options
 

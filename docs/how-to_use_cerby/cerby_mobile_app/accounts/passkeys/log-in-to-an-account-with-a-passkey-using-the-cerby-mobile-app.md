@@ -1,5 +1,6 @@
 ---
 description: This article describes how to log in to an account with a passkey on your web browser or mobile device using the Cerby mobile app.
+intercom_id: 10875427
 ---
 
 # Log in to an account with a passkey using the Cerby mobile app
@@ -9,17 +10,17 @@ description: This article describes how to log in to an account with a passkey o
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
-  * **Account Owners**
-  * Only supported using the Cerby mobile app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
+* **Account Owners**
+* Only supported using the Cerby mobile app
 
 
 {% endhint %}
 
 As an account **Owner** , you can log in to your accounts with passkeys using the Cerby mobile app. The following are the supported devices:
 
-  * Web browser (using the Cerby mobile app)
-  * Mobile phone
+* Web browser (using the Cerby mobile app)
+* Mobile phone
 
 The following sections explain how to log in with passkeys for each device.
 
@@ -28,16 +29,16 @@ The following sections explain how to log in with passkeys for each device.
 
 **IMPORTANT:** Take into consideration the following when logging in with passkeys:
 
-  * You must have already created a passkey for the account you want to log in. For more information, read the article [Add a passkey to an account using the Cerby mobile app](https://help.cerby.com/en/articles/10875236-add-a-passkey-to-an-account-using-the-cerby-mobile-app).
-  * The login steps for a web browser might vary slightly depending on the app. However, the steps for iOS and Android mobile devices are similar.
-  * Currently, the Cerby mobile app does not support login with passkeys for the following apps:
+* You must have already created a passkey for the account you want to log in. For more information, read the article [Add a passkey to an account using the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/accounts/passkeys/create-a-passkey-for-an-account-using-the-cerby-mobile-app).
+* The login steps for a web browser might vary slightly depending on the app. However, the steps for iOS and Android mobile devices are similar.
+* Currently, the Cerby mobile app does not support login with passkeys for the following apps:
     * **Android:** X (Twitter)
     * **iOS:** TikTok
 
 
 {% endhint %}
 
-# Web browser
+## Web browser
 
 To log in to an account between a web browser and the Cerby mobile app, you must complete the following steps:
 
@@ -53,7 +54,6 @@ To log in to an account between a web browser and the Cerby mobile app, you must
   2. Enter your username information. The **Passkeys** screen is displayed with a QR code.
   3. Open the camera of the mobile phone where you have the Cerby mobile app installed.
   4. Scan the QR code with your mobile phone.
-
 **NOTE:** For Android, you might need to tap the QR icon on the camera screen.
 
   5. Complete the steps of your corresponding operating system:
@@ -71,7 +71,7 @@ To log in to an account between a web browser and the Cerby mobile app, you must
 
 Now you are done.
 
-# Mobile phone
+## Mobile phone
 
 To log in to an account with a passkey using your mobile device, you must complete the following steps:
 

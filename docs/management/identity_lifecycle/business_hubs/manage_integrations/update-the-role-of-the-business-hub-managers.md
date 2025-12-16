@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update the role of the business hub managers in Cerby.
+intercom_id: 10971704
 ---
 
 # Update the role of the business hub managers
@@ -9,22 +10,22 @@ description: This article describes how to update the role of the business hub m
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
 As a business hub **Owner** , you can perform the following management tasks to update the roles of the users and teams that manage your business hub integration and your seat-based and paid social apps from Cerby:
 
-  * Update the management role of a user
-  * Update the management role of a team
+* Update the management role of a user
+* Update the management role of a team
 
 The following sections describe each task.
 
 * * *
 
-# Update the management role of a user
+## Update the management role of a user
 
 To update the management role of the business hub user, you must complete the following steps:
 
@@ -33,8 +34,8 @@ To update the management role of the business hub user, you must complete the fo
 
 **IMPORTANT** : You cannot individually update the role of a user who was granted the **Owner** or **Manager** role on a business hub via a team. To update their role, you can perform one of the following actions:
 
-  * Update the management role of the team
-  * Reassign the user to another team and then remove it from the current team.
+* Update the management role of the team
+* Reassign the user to another team and then remove it from the current team.
 
 
 {% endhint %}
@@ -57,7 +58,7 @@ Now you are done.
 
 * * *
 
-# Update the management role of a team
+## Update the management role of a team
 
 To update the management role of the business hub team, you must complete the following steps:
 

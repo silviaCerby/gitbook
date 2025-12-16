@@ -1,5 +1,6 @@
 ---
 description: This article describes how to perform a hard refresh of a web page, depending on the browser you are using.
+intercom_id: 11128043
 ---
 
 # Perform a hard refresh on a web page
@@ -8,17 +9,17 @@ When updating or troubleshooting Cerby‑related content, a web page refresh is 
 
 The following is the difference between a regular and hard refresh in a browser:
 
-  * **Regular refresh:** Reloads the page but might use cached resources.
-  * **Hard refresh:** Forces the browser to clear the cache for that page and reload everything from scratch.
+* **Regular refresh:** Reloads the page but might use cached resources.
+* **Hard refresh:** Forces the browser to clear the cache for that page and reload everything from scratch.
 
 The following are the cases for which you can use a hard refresh on a web page:
 
-  * You’re not seeing recent updates to Cerby.
-  * Layouts or styles seem broken after changes.
-  * Changes have been applied to your workspace, and they are not shown on your browser.
+* You’re not seeing recent updates to Cerby.
+* Layouts or styles seem broken after changes.
+* Changes have been applied to your workspace, and they are not shown on your browser.
 * * *
 
-# Shortcuts to perform a hard refresh of a web page in your browser
+## Shortcuts to perform a hard refresh of a web page in your browser
 
 Table 1 contains the keyboard shortcuts to perform a hard refresh of a web page in your browser.
 
@@ -32,7 +33,7 @@ Table 1 contains the keyboard shortcuts to perform a hard refresh of a web page 
 
 * * *
 
-# Perform a hard refresh for the Cerby web app
+## Perform a hard refresh for the Cerby web app
 
 To perform a hard refresh for the Cerby web app, you must complete the following steps:
 

@@ -1,12 +1,13 @@
 ---
 description: This article describes how to troubleshoot the disconnection between social media apps and management platforms after a password rotation.
+intercom_id: 6843921
 ---
 
 # [UNPUBLISHED] Troubleshooting: Reconnect social media management platforms after a password rotation
 
 This document guides you on how to reconnect your social media management platforms and social media apps after a password rotation in Cerby.
 
-# Cause of the problem
+## Cause of the problem
 
 When you automatically rotate the password of a social media app account from Cerby, and the automation workflow does not detect the account is linked to a management platform, the accounts will be disconnected because a password change often invalidates all active sessions.
 
@@ -24,16 +25,16 @@ Emplifi| Yes| Yes
 
 **Table 1. Social Media Apps and Management Platforms Supported with Automatic Reconnection**
 
-# Solution
+## Solution
 
 To solve the disconnection issue, you have two options:
 
-  * Automatic reconnection for supported apps
-  * Manual reconnection
+* Automatic reconnection for supported apps
+* Manual reconnection
 
 The following sections describe the steps to complete for each option.
 
-## Automatic reconnection for supported apps
+### Automatic reconnection for supported apps
 
 For supported apps, as shown in **Table 1** , the Cerby Support team can help you configure your accounts to automatically reconnect your management platforms and social media apps after a password rotation. For us to do so, you must complete the following steps:
 
@@ -45,7 +46,7 @@ For supported apps, as shown in **Table 1** , the Cerby Support team can help yo
 
 We will contact you when we complete the configuration.
 
-## Manual reconnection
+### Manual reconnection
 
 For apps not supported with automatic reconnection, you must perform this task manually.
 

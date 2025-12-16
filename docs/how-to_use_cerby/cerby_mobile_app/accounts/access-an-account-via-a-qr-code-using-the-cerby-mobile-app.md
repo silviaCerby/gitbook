@@ -1,16 +1,17 @@
 ---
 description: This article describes how to access an account via a QR code using the Cerby mobile app.
+intercom_id: 10063312
 ---
 
 # Access an account via a QR code using the Cerby mobile app
 
 With Cerby, you can manage account access for users sharing company phones and devices by enabling access to the account login credentials through a QR code using the Cerby mobile app.
 
-The **Access via QR code** feature works by simply generating a QR code in the Cerby web app, scanning the QR code in the Cerby mobile app without needing to have an active session, and logging in to the account using the [phone’s autofill feature](https://help.cerby.com/en/articles/10008706-turn-on-the-allow-autofill-feature).
+The **Access via QR code** feature works by simply generating a QR code in the Cerby web app, scanning the QR code in the Cerby mobile app without needing to have an active session, and logging in to the account using the [phone’s autofill feature](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/app-configuration/turn-on-the-allow-autofill-feature).
 
 This article describes how to access an account via a QR code using the Cerby mobile app.
 
-# Access an account via a QR code
+## Access an account via a QR code
 
 To access an account via QR code, you must complete the following steps:
 
@@ -22,7 +23,7 @@ The following sections contain the instructions for each step.
 
 * * *
 
-## 1\. Generate the QR code in the Cerby web app
+### 1\. Generate the QR code in the Cerby web app
 
 As an account **Owner** or **Manager** with permission to share an account, you can generate the QR code for other users to log in to the account via the Cerby mobile app.
 
@@ -34,13 +35,12 @@ To generate the QR code in Cerbe using the web app, you must complete the follow
   4. Click the **Confirm identity** button. The **Confirm your identity to continue** dialog box is displayed.
   5. Click the **Send Email** button. An email is sent to the email address associated with your Cerby account.
   6. Click the **Confirm my identity** button in the email you received to verify your identity. A page with your identity confirmation is displayed, and the **Scan QR code** dialog box with the generated QR code appears in the Cerby web app.
-
 **IMPORTANT:** Take into account the following:
 
      * The generated QR code is valid for two minutes.
      * If the QR code expires, click the **Refresh** button in the **Scan QR code** dialog box.
 
-## **2.** Access the account details on your phone using a QR code
+### **2.** Access the account details on your phone using a QR code
 
 To access the account details on your phone using a QR, you must complete the following steps:
 

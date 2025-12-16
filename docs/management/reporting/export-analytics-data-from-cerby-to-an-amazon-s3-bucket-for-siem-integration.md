@@ -1,5 +1,6 @@
 ---
 description: This article describes how to set up analytics data export from Cerby to an Amazon S3 bucket for SIEM integration.
+intercom_id: 11713898
 ---
 
 # Export analytics data from Cerby to an Amazon S3 bucket for SIEM integration
@@ -9,8 +10,8 @@ description: This article describes how to set up analytics data export from Cer
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , and **Admins**
-  * This is a beta feature currently available to a limited number of workspaces
+* Workspace **Owners** , **Super Admins** , and **Admins**
+* This is a beta feature currently available to a limited number of workspaces
 
 
 {% endhint %}
@@ -25,12 +26,12 @@ This article describes the instructions to set up the analytics data export for 
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to configure the integration to export analytics data from Cerby via an Amazon S3 bucket:
 
-  * A Cerby account in AWS.
-  * A Cerby role in AWS.
+* A Cerby account in AWS.
+* A Cerby role in AWS.
 
 {% hint style="danger" %}
 
@@ -42,7 +43,7 @@ The following are the requirements to configure the integration to export analyt
 
 * * *
 
-# Set up the analytics data export to a SIEM integration via an Amazon S3 bucket
+## Set up the analytics data export to a SIEM integration via an Amazon S3 bucket
 
 To set up the analytics data export to a SIEM integration via an Amazon S3 bucket, you must complete the following main steps:
 
@@ -51,7 +52,7 @@ To set up the analytics data export to a SIEM integration via an Amazon S3 bucke
 
 The following sections describe each main step.
 
-## 1\. Create and configure an Amazon S3 bucket
+### 1\. Create and configure an Amazon S3 bucket
 
 To create and configure an Amazon S3 bucket, you must complete the following steps:
 
@@ -60,6 +61,8 @@ To create and configure an Amazon S3 bucket, you must complete the following ste
 
   2. Add a bucket policy to grant Cerby writing permissions on the bucket by following the instructions in the [Adding a bucket policy by using the Amazon S3 console](https://docs.aws.amazon.com/AmazonS3/latest/userguide/add-bucket-policy.html) official documentation. Use the following policy:
 ​
+
+**IMPORTANT:** Make sure you add the name of your bucket in the **`Resource`** parameters and replace **`cerby_account`** and**`cerby_role`** with the values provided by our Support team.
 
          {
              "Version": "2012-10-17",
@@ -94,14 +97,12 @@ To create and configure an Amazon S3 bucket, you must complete the following ste
              ]
          }
 
-**IMPORTANT:** Make sure you add the name of your bucket in the **`Resource`** parameters and replace **`cerby_account`** and**`cerby_role`** with the values provided by our Support team.
-
   3. Share the **bucket name** and its **path** with our Support team.
 
 The next step is 2. Configure your SIEM solution to ingest data from the S3 bucket
 ​
 
-## 2\. Configure your SIEM solution to ingest data from the Amazon S3 bucket
+### 2\. Configure your SIEM solution to ingest data from the Amazon S3 bucket
 
 To start consuming Cerby analytics data, you must configure your SIEM solution to ingest logs directly from the Amazon S3 bucket. While the exact steps vary depending on the tool, most SIEM solutions offer support for reading from S3, so refer to the official documentation for instructions.
 
@@ -121,7 +122,7 @@ Typically, you must complete the following steps:
      * Timestamp parsing
 * * *
 
-# Appendix: Analytic events format
+## Appendix: Analytic events format
 
 The following is an example of a JSON object with the analytic events that Cerby sends to the S3 bucket:
 

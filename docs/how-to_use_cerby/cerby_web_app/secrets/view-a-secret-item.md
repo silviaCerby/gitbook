@@ -1,5 +1,6 @@
 ---
 description: This article describes how to view the secret items you have added or that you were granted shared access in Cerby.
+intercom_id: 8705400
 ---
 
 # View a secret item
@@ -9,24 +10,24 @@ description: This article describes how to view the secret items you have added 
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Secret item **Owners** and **Collaborators**
-  * Available in the Cerby web app, mobile app, and web extension
-  * **NOTE:** For the Cerby mobile app, read the article [View the secret item content in the Cerby mobile app](https://help.cerby.com/en/articles/9715518-view-the-secret-item-content-in-the-cerby-mobile-app)
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Secret item **Owners** and **Collaborators**
+* Available in the Cerby web app, mobile app, and web extension
+* **NOTE:** For the Cerby mobile app, read the article [View the secret item content in the Cerby mobile app](https://help.cerby.com/en/articles/9715518-view-the-secret-item-content-in-the-cerby-mobile-app)
 
 
 {% endhint %}
 
 You can view your secret items (WiFi, SSH keys, database, server, and custom item) using all of the Cerby client apps:
 
-  * View a secret item using the Cerby web app
-  * View a secret item using the Cerby browser extension
+* View a secret item using the Cerby web app
+* View a secret item using the Cerby browser extension
 
 The following sections describe how to view a secret using each Cerby client app.
 
 * * *
 
-# View a secret item using the Cerby web app
+## View a secret item using the Cerby web app
 
 To view a secret item using the Cerby web app, you must complete the following steps:
 
@@ -36,7 +37,7 @@ To view a secret item using the Cerby web app, you must complete the following s
 
 * * *
 
-# View a secret item using the Cerby browser extension
+## View a secret item using the Cerby browser extension
 
 To view a secret item using the Cerby browser extension, you must complete the following steps:
 

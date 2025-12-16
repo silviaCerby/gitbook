@@ -1,5 +1,6 @@
 ---
 description: This document describes how to install the Cerby browser extension on your computer.
+intercom_id: 10755388
 ---
 
 # Install the Cerby browser extension
@@ -9,14 +10,14 @@ description: This document describes how to install the Cerby browser extension 
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , **Admins** , **Users** , **Guest Users** , and **Login-Only** users
+* Workspace **Owners** , **Super Admins** , **Admins** , **Users** , **Guest Users** , and **Login-Only** users
 
 
 {% endhint %}
 
 As a user with any workspace role, you can install the Cerby browser extension in your web browser to log in to your workspace and start managing your items.
 
-The extension is an add-on for web browsers that complements your user experience. For example, you can log in automatically to your accounts or autosave your accounts in Cerby. For more information about how the extension works and the supported features, read the article [Explore the Cerby browser extension](https://help.cerby.com/en/articles/5467963-how-the-cerby-browser-extensions-work).
+The extension is an add-on for web browsers that complements your user experience. For example, you can log in automatically to your accounts or autosave your accounts in Cerby. For more information about how the extension works and the supported features, read the article [Explore the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-the-cerby-browser-extension).
 
 {% hint style="info" %}
 

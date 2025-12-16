@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove users and teams as managers of your business hub.
+intercom_id: 10971668
 ---
 
 # Remove managers from your business hub
@@ -9,22 +10,22 @@ description: This article describes how to remove users and teams as managers of
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
 As a business hub **Owner** , you perform the following management tasks to remove users or teams as managers from your business hub integration:
 
-  * Remove a user as a business hub manager
-  * Remove a team as business hub managers
+* Remove a user as a business hub manager
+* Remove a team as business hub managers
 
 The following sections describe each task.
 
 * * *
 
-# Remove a user as a business hub manager
+## Remove a user as a business hub manager
 
 To remove a user as a manager from your business hub, you must complete the following steps:
 
@@ -52,7 +53,7 @@ Now you are done.
 
 * * *
 
-# Remove a team as business hub managers
+## Remove a team as business hub managers
 
 To remove a team as managers from your business hub, you must complete the following steps:
 

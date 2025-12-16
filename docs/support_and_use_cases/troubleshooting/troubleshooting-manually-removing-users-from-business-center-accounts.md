@@ -1,40 +1,41 @@
 ---
 description: This article describes how to manually remove users from business center accounts to deprovision them successfully.
+intercom_id: 6479766
 ---
 
 # Troubleshooting: Manually Removing Users from Business Center Accounts
 
 This article helps you fix the unsuccessful removal of users in business center accounts when deprovisioned from the corporate directory of your Identity Provider (IdP) or removed from Cerby.
 
-# Cause of the Problem
+## Cause of the Problem
 
 The unsuccessful removal of users in business center accounts may be due to one of the following scenarios:
 
-  * When you remove users from the corporate directory synchronized between Cerby and your IdP, sometimes the deprovisioning of users from your business center accounts fails.
-  * Currently, Cerby doesn't support deprovisioning for all business centers.
-  * When you remove users in Cerby and don't have a corporate directory synchronized, the deprovisioning doesn't occur.
+* When you remove users from the corporate directory synchronized between Cerby and your IdP, sometimes the deprovisioning of users from your business center accounts fails.
+* Currently, Cerby doesn't support deprovisioning for all business centers.
+* When you remove users in Cerby and don't have a corporate directory synchronized, the deprovisioning doesn't occur.
 
 If Cerby detects that some users are not removed from business center accounts, we notify the Account Owner and Workspace Admin via email. We also flag the accounts and users that require action, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/sxG0B07_Mu5_RfEMsjSLPPRgiy4kOceyIpDjhZx_lGH6BmWJkzDJMaKqrJohgP6vq4NgYL4OES8HYAlu3aKTcGiPMMOv1FtOLhtCS0XSHBKiFreZqgvXhOw_exsmAhQHZ9Ds4-EHyix82K3t0qL3WQ.png" alt="Figure 1. Flagged Accounts in the Members Tab"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sxG0B07_Mu5_RfEMsjSLPPRgiy4kOceyIpDjhZx_lGH6BmWJkzDJMaKqrJohgP6vq4NgYL4OES8HYAlu3aKTcGiPMMOv1FtOLhtCS0XSHBKiFreZqgvXhOw_exsmAhQHZ9Ds4-EHyix82K3t0qL3WQ.png" alt="Figure 1. Flagged Accounts in the Members Tab"><figcaption></figcaption></figure>
 
 **Figure 1. Flagged Accounts in the Members Tab**
 
-# Solution
+## Solution
 
 You must manually remove users from your business center accounts to solve this problem. We will guide you to remove the corresponding users from each business center account in Cerby. When you complete the process, sync the account data for each business center account in Cerby.
 
 The removal process is different depending on the business center. In this article, we cover the following business centers:
 
-  * Facebook Business Manager
-  * Google Ads Manager
-  * Pinterest Business
-  * Snapchat Business Manager
-  * TikTok Business Center
+* Facebook Business Manager
+* Google Ads Manager
+* Pinterest Business
+* Snapchat Business Manager
+* TikTok Business Center
 
 The following sections describe the instructions for each business center.
 
-## Facebook Business Manager
+### Facebook Business Manager
 
 To manually remove users from your Facebook Business Manager account, you must complete the following steps:
 
@@ -47,7 +48,7 @@ To manually remove users from your Facebook Business Manager account, you must c
   7. Click the **Remove** button to confirm you want to remove access.
   8. Go back to Cerby to sync the data of your account.
 
-## Google Ads Manager
+### Google Ads Manager
 
 To manually remove users from your Google Ads Manager, you must complete the following steps:
 
@@ -58,7 +59,7 @@ To manually remove users from your Google Ads Manager, you must complete the fol
   5. Click the **Remove access** button to confirm you want to remove access.
   6. Go back to Cerby to sync the data of your account.
 
-## Pinterest Business
+### Pinterest Business
 
 To manually remove users from your Pinterest Business account, you must complete the following steps:
 
@@ -71,7 +72,7 @@ To manually remove users from your Pinterest Business account, you must complete
   7. Click the **Remove** button to confirm you want to remove access.
   8. Go back to Cerby to sync the data of your account.
 
-## Snapchat Business Manager
+### Snapchat Business Manager
 
 To manually remove users from your Snapchat Business Manager account, you must complete the following steps:
 
@@ -82,7 +83,7 @@ To manually remove users from your Snapchat Business Manager account, you must c
   5. Click the **OK** button to confirm you want to remove access.
   6. Go back to Cerby to sync the data of your account.
 
-## TikTok Business Center
+### TikTok Business Center
 
 To manually remove users from your TikTok Business Center account, you must complete the following steps:
 

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to view the secrets you have added or that you were granted shared access to in the Cerby mobile app.
+intercom_id: 9715512
 ---
 
 # View a secret using the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to view the secrets you have added or th
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
-  * Secret **Owners** and **Collaborators**
-  * For the Cerby web app and extension, read the article [View a secret](https://help.cerby.com/en/articles/8705383-view-a-secret)
+* Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
+* Secret **Owners** and **Collaborators**
+* For the Cerby web app and extension, read the article [View a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-a-secret)
 
 
 {% endhint %}
@@ -24,10 +25,9 @@ To view a secret using the Cerby mobile app, you must complete the following ste
   2. Log in to your corresponding workspace using the Cerby mobile app.
   3. Activate the **Secrets** tab located at the top of the screen. All your saved and shared secrets are displayed.
   4. Tap the corresponding secret card. The secret details screen displays the content of the secret and its attachments.
-
 **NOTE:** If an identity challenge is configured, the following occurs:
 
-     * If the **[Set as primary MFA device](https://help.cerby.com/en/articles/11661989-turn-on-the-set-as-primary-mfa-device-feature)** setting is turned on, the biometric verification is activated, and you can access the secret.
+     * If the **[Set as primary MFA device](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/app-configuration/turn-on-the-set-as-primary-mfa-device-feature)** setting is turned on, the biometric verification is activated, and you can access the secret.
      * If you don’t have the **Set as primary MFA device** setting turned on or the biometric verification fails, the **Confirm your identity** screen is displayed. To confirm your identity:
 
        1. Click the **Send email** button. You receive an email.

@@ -1,5 +1,6 @@
 ---
 description: This article describes the Meta for Work tools available to manage user access and your business assets and how they relate to Cerby.
+intercom_id: 8958757
 ---
 
 # Explore the Meta for Work tools for user and asset management
@@ -14,12 +15,12 @@ Cerby customers can leverage both of these tools to improve collaboration and ce
 
 Using an **API** and **agent-based integration** , you can connect your **Meta Business Manager** to your Cerby workspace to import your user data (assets, roles and permissions, and members) and perform the following user management tasks from Cerby:
 
-  * Identify, sync, and import all users of a Meta Business Manager, including partners, and their roles to Cerby.
-  * Change the roles of your Meta Business Manager users from Cerby.
-  * Invite new users to join Meta Business Manager through Cerby.
-  * Remove Meta Business Manager users from Cerby.
+* Identify, sync, and import all users of a Meta Business Manager, including partners, and their roles to Cerby.
+* Change the roles of your Meta Business Manager users from Cerby.
+* Invite new users to join Meta Business Manager through Cerby.
+* Remove Meta Business Manager users from Cerby.
 
-For more information about this integration, read the article [How to add a Meta Business Center integration](https://help.cerby.com/en/articles/5528269-how-to-add-a-meta-business-center-integration).
+For more information about this integration, read the article [How to add a Meta Business Center integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/meta-business-manager/connect-a-business-hub-for-meta-business-manager).
 
 When you use **Meta Work Accounts** , you can independently provision and deprovision users from your Meta ecosystem and Cerby because these access management actions are triggered directly from the corporate directory managed by your IdP, such as Oka or Entra ID (formerly Azure AD).
 
@@ -37,22 +38,22 @@ Note that this feature is currently available to **selected customers only**. Fo
 
 The following scenarios apply depending on your decision to transition to Meta Work Accounts or not:
 
-  * **Existing customers transitioning to** **Meta Work Accounts**
+* **Existing customers transitioning to** **Meta Work Accounts**
     * When you complete the transition, the old personal Facebook profiles will be replaced with Meta Work Accounts, meaning users will now use their work credentials to log in to Meta Business Manager.
     * Whenever you perform a check for updates manually or via a policy check, the Meta Work Accounts will be matched automatically to their corresponding Cerby account.
     * Automatic user provisioning and deprovisioning will happen between the IdP and Meta, decentralized from Cerby. The rest of the user management tasks supported by Cerby’s Meta Business Center integration will remain the same.
-  * **Existing customers not transitioning to Meta Work Accounts**
+* **Existing customers not transitioning to Meta Work Accounts**
     * Meta Business Manager users will continue logging in with their personal Facebook profiles.
     * The user management tasks supported by Cerby’s Meta Business Center integration will remain the same.
     * Automatic user provisioning and deprovisioning will happen between the IdP and Cerby, and these actions will propagate to Meta.
-  * **New customers with Meta Work Accounts already implemented:**
+* **New customers with Meta Work Accounts already implemented:**
     * When connecting your Meta Business Manager to Cerby and checking for updates, Cerby will sync and import your user data and automatically match the users’ work credentials with their corresponding Cerby account.
     * Automatic user provisioning and deprovisioning will happen between the IdP and Meta, decentralized from Cerby. The rest of the user management tasks supported by Cerby’s Meta Business Center integration will be supported.
 * * *
 
-# Related articles
+## Related articles
 
 The following articles contain more information about how to use the Meta for Work tools as an admin or end user:
 
-  * [Meta for Work tools for admins](https://help.cerby.com/en/articles/8958797-meta-for-work-tools-for-admins)
-  * [Meta for Work tools for end users](https://help.cerby.com/en/articles/8958936-meta-for-work-tools-for-end-users)
+* [Meta for Work tools for admins](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/meta-for-work/meta-for-work-tools-for-admins)
+* [Meta for Work tools for end users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/meta-for-work/meta-for-work-tools-for-end-users)

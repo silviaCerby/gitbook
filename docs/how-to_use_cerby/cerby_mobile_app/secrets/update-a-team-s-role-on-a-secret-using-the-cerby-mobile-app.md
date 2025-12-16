@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update a team’s role on a secret using the Cerby mobile app.
+intercom_id: 9742217
 ---
 
 # Update a team’s role on a secret using the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to update a team’s role on a secret us
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Secret and secret item **Owners**
-  * Supported using the Cerby web app and mobile app. For the web app instructions, read the article [Update a team's role on a secret or secret item](https://help.cerby.com/en/articles/9483764-update-a-team-s-role-on-a-secret-or-secret-item)
+* Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Secret and secret item **Owners**
+* Supported using the Cerby web app and mobile app. For the web app instructions, read the article [Update a team's role on a secret or secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/update-a-team-s-role-on-a-secret-or-secret-item)
 
 
 {% endhint %}

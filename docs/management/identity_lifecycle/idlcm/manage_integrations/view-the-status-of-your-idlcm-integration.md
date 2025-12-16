@@ -1,5 +1,6 @@
 ---
 description: This article describes how to view the status of your IdLCM integration in Cerby.
+intercom_id: 12875217
 ---
 
 # View the status of your IdLCM integration
@@ -9,8 +10,8 @@ description: This article describes how to view the status of your IdLCM integra
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -26,12 +27,11 @@ To view the status of your IdLCM integration, you must complete the following st
   1. Log in to your [Cerby](https://app.cerby.com/) workspace.
   2. Select the**Integrations** option from the left menu. The **Integrations** page is displayed with a table of integrations and a column indicating their status, as shown in **Figure 1.**
 ​
-
-<figure><img src="../.gitbook/assets/2450d35c-a899-4fff-842c-c82cecb68ed8.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1.** The**Integrations** page in the Cerby web app dashboard
 
 You can see your integration status under the **Status** column. The following are the possible statuses:
+
+<figure><img src="../../../../../.gitbook/assets/2450d35c-a899-4fff-842c-c82cecb68ed8.png" alt=""><figcaption></figcaption></figure>
 
      * **Under validation:** The integration has been successfully connected to an external app, and Cerby is currently validating if it works correctly in your environment.
 ​**NOTE:** This status is set for all integrations in your workspace connected to the same external app until the validation process is complete. After validation is completed, subsequent integrations for the same app will not enter this status.

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update a guest member’s role in an account shared via a local partner.
+intercom_id: 11944620
 ---
 
 # Update a guest member’s role in an account shared via a local partner
@@ -9,13 +10,13 @@ description: This article describes how to update a guest member’s role in an 
 
 **Who can use this feature?**
 
-  * **Host Admins** of a local partner
-  * Only supported using the Cerby web app
+* **Host Admins** of a local partner
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a **Host Admin** of an existing [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can update a guest member’s role in an account you shared with a local partner. This update doesn’t affect the role of **Guest Admins** and **Guest Users** at the local partner level.
+As a **Host Admin** of an existing [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can update a guest member’s role in an account you shared with a local partner. This update doesn’t affect the role of **Guest Admins** and **Guest Users** at the local partner level.
 
 To update a guest member’s role in an account shared via a local partner, you must complete the following steps:
 

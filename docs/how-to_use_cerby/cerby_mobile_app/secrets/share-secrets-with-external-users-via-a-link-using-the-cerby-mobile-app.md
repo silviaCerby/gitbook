@@ -1,5 +1,6 @@
 ---
 description: This article describes how to share secrets with external users via a public link and manage access to these items.
+intercom_id: 11662089
 ---
 
 # Share secrets with external users via a link using the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to share secrets with external users via
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Secrets **Owners**
-  * Supported using the Cerby mobile app
+* Workspace **Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Secrets **Owners**
+* Supported using the Cerby mobile app
 
 
 {% endhint %}
@@ -20,22 +21,22 @@ With the Cerby mobile app, you can share and grant temporary access to your secr
 
 For security, you can set the following controls on the link:
 
-  * Expiration
-  * One-time access
+* Expiration
+* One-time access
 
 Only users with the secret **Owner** role can use this feature through the Cerby mobile app. You can share secrets with or without attachments.
 
 {% hint style="danger" %}
 
 
-**IMPORTANT:** Before using this feature, make sure you read the[ Security Considerations](https://help.cerby.com/en/articles/8308908-share-items-with-external-users-via-a-link#h_7960d29107) section in the article [Share items with external users via a link](https://help.cerby.com/en/articles/8308908-share-items-with-external-users-via-a-link), which describes how this feature works, the security considerations, and usage recommendations.
+**IMPORTANT:** Before using this feature, make sure you read the[ Security Considerations](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/share-items-with-external-users-via-a-link) section in the article [Share items with external users via a link](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/share-items-with-external-users-via-a-link), which describes how this feature works, the security considerations, and usage recommendations.
 
 
 {% endhint %}
 
 * * *
 
-# Share secrets via a public link using the Cerby mobile app
+## Share secrets via a public link using the Cerby mobile app
 
 To share secrets with external users via a public link, you must complete the following steps:
 
@@ -57,7 +58,6 @@ To share secrets with external users via a public link, you must complete the fo
           * 1 day
           * 5 days
           * 30 days
-
 **IMPORTANT:** The maximum number of days an external link or QR code can last is 30 days.
 
      * **One-time access**
@@ -72,7 +72,7 @@ Now you are done.
 
 * * *
 
-# View the secret shared with you via a public link
+## View the secret shared with you via a public link
 
 To view the details of the secret shared with you via a public link, you must complete the following steps:
 

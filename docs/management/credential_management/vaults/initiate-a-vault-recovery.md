@@ -1,5 +1,6 @@
 ---
 description: This article describes how to initiate a vault recovery.
+intercom_id: 10113682
 ---
 
 # Initiate a vault recovery
@@ -9,10 +10,10 @@ description: This article describes how to initiate a vault recovery.
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
-**IMPORTANT:** If you use local vaults, you must have already set up at least one trusted session on your devices. For instructions, read the article [Set up trusted sessions on your devices](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices)
+**IMPORTANT:** If you use local vaults, you must have already set up at least one trusted session on your devices. For instructions, read the article [Set up trusted sessions on your devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices)
 
 
 {% endhint %}

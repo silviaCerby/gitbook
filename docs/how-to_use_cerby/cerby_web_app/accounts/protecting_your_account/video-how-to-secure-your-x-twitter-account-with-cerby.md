@@ -1,14 +1,15 @@
 ---
 description: This video shows how to secure access to your X (Twitter) account with authentication and verification methods managed by Cerby.
+intercom_id: 8841822
 ---
 
 # [Video] How to secure your X (Twitter) account with Cerby
 
-# Key concepts
+## Key concepts
 
-  * Cerby will be set up as an authenticator app for multi-factor authentication (MFA) to provide verification codes each time you or your coworkers with shared access log in to your X (Twitter) account.
-  * A Cerby-managed email address and phone number will be associated with your X account to streamline login and automation tasks.
-  * Make sure you have turned off MFA.
+* Cerby will be set up as an authenticator app for multi-factor authentication (MFA) to provide verification codes each time you or your coworkers with shared access log in to your X (Twitter) account.
+* A Cerby-managed email address and phone number will be associated with your X account to streamline login and automation tasks.
+* Make sure you have turned off MFA.
 
 {% hint style="danger" %}
 

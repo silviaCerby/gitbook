@@ -1,12 +1,13 @@
 ---
 description: This article describes how to add a Snapchat Business Center app integration to centrally manage access to it and its assets from Cerby.
+intercom_id: 6273393
 ---
 
 # Connect a Snapchat Business Center app integration
 
 Cerby leverages agent-based integration to connect your Snapchat Business Manager to your Cerby workspace. With this connection, you can import your user data, such as assets, roles and permissions, and members, to centrally and securely manage access from Cerby.
 
-For the connection to happen, you must add to Cerby a user account with the **Organization Admin** role on your Snapchat Business Manager and connect it to an [app integration](https://help.cerby.com/en/articles/6831152-how-to-use-tenants). Cerby will use this account as a service account for automation to access your Snapchat Business Manager, import the user data, and perform access management tasks.
+For the connection to happen, you must add to Cerby a user account with the **Organization Admin** role on your Snapchat Business Manager and connect it to an [app integration](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs). Cerby will use this account as a service account for automation to access your Snapchat Business Manager, import the user data, and perform access management tasks.
 
 {% hint style="info" %}
 
@@ -18,35 +19,35 @@ For the connection to happen, you must add to Cerby a user account with the **Or
 
 After importing your users and assets, you gain visibility on who accesses your business center, including partners, and their role level. Users with a Cerby account are automatically matched to their corresponding identity in your corporate directory, which may be managed by an identity provider (IdP), such as Okta or Entra ID (formerly Azure AD).
 
-Matched users are prompted in the Cerby dashboard to connect their Snapchat Business user accounts to Cerby. After connecting their account, by following the instructions in the article [Join Snapchat Business Manager and connect user account to Cerby](https://help.cerby.com/en/articles/9082757-join-snapchat-business-and-connect-user-account-to-cerby), you can manage and secure their access to your Snapchat Business Manager and its assets and update their role, all from one single interface.
+Matched users are prompted in the Cerby dashboard to connect their Snapchat Business user accounts to Cerby. After connecting their account, by following the instructions in the article [Join Snapchat Business Manager and connect user account to Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/snapchat-business-manager/join-snapchat-business-and-connect-user-account-to-cerby), you can manage and secure their access to your Snapchat Business Manager and its assets and update their role, all from one single interface.
 
 External collaborators without a Cerby account are displayed as unmatched users. For these users, you can perform the following actions:
 
-  * Match and invite users to join the app through Cerby
-  * Invite users to your workspace as [guest users](https://help.cerby.com/en/articles/8392946-how-to-invite-a-guest-user-to-your-workspace) or [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), with secure credentials provided and managed by Cerby
-  * Remove unmatched users
-  * Exempt unmatched users to keep their user account active in Snapchat for Business; however, you cannot manage them through Cerby
+* Match and invite users to join the app through Cerby
+* Invite users to your workspace as [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) or [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), with secure credentials provided and managed by Cerby
+* Remove unmatched users
+* Exempt unmatched users to keep their user account active in Snapchat for Business; however, you cannot manage them through Cerby
 
 This article describes how to add a Snapchat Business Center app integration and import its users and assets to Cerby.
 
-For more information about the management tasks you can perform, read the [Use Apps](https://help.cerby.com/en/articles/9046120-connect-an-app#h_24b4a346b5) section from the article [Connect an App](https://help.cerby.com/en/articles/9046120-connect-an-app).
+For more information about the management tasks you can perform, read the [Use Apps](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app) section from the article [Connect an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app).
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to connect your Snapchat Business Center app integration to Cerby:
 
-  * An Cerby account
-  * An active Snapchat Business Manager account with the **Organization Admin** role
-  * The Business Manager ID of your Snapchat Business Manager. To find it, perform the following actions after logging in to your Snapchat Business account:
+* An Cerby account
+* An active Snapchat Business Manager account with the **Organization Admin** role
+* The Business Manager ID of your Snapchat Business Manager. To find it, perform the following actions after logging in to your Snapchat Business account:
 
     1. Select the **Business Details** option from the left navigation drawer. The **Business Details** page is displayed.
     2. Copy the value from the **Organization ID** field in the **Organization Name** section.
 
 * * *
 
-# Connect a Snapchat Business Center app integration
+## Connect a Snapchat Business Center app integration
 
 To connect a Snapchat Business Center app integration and import its users and assets to Cerby, you must complete the following main steps:
 
@@ -57,14 +58,13 @@ To connect a Snapchat Business Center app integration and import its users and a
 
 The following sections describe each main step.
 
-## 1\. Add an app integration and connect it to your Snapchat Business Manager
+### 1\. Add an app integration and connect it to your Snapchat Business Manager
 
 To add a Snapchat Business Center app integration to Cerby and connect it to your Snapchat Business Manager, you must complete the following steps:
 
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
   2. Select the **Apps** option from the left navigation drawer. The **Apps** view is displayed.
   3. Click the **Connect app** button located at the top-right corner of the page. The **Connect your apps to Cerby** dialog box is displayed.
-
 **TIP:** You can select the **Don’t show this again** option to skip this step the next time you connect a new App.
 
   4. Click the **Get started** button. A wizard is displayed on the **Select app** page.
@@ -82,6 +82,7 @@ To add a Snapchat Business Center app integration to Cerby and connect it to you
        * **Username and password:** Account security and access are managed from Ceby, and users log in with their credentials after saving them in Cerby.
 
   7. Click the **Next** button. One of the following scenarios occurs depending on whether you have added or not the automation account to Cerby:
+The Snapchat Business Tenant app card is displayed on the **Apps** view and an account card is displayed in the **All accounts** view with the “Connect your account” status.
 
      * If you have added the automation account, the **Select automation account** page is displayed on the wizard:
 
@@ -99,38 +100,34 @@ To add a Snapchat Business Center app integration to Cerby and connect it to you
 
        2. Click the **Add account** button.
 
-The Snapchat Business Tenant app card is displayed on the **Apps** view and an account card is displayed in the **All accounts** view with the “Connect your account” status.
-
 The next step is 2\. Check for updates and import users and roles to Cerby, which you must complete from the Cerby dashboard.
 
-## 2\. Check for updates and import users and roles to Cerby
+### 2\. Check for updates and import users and roles to Cerby
 
 To check for updates and import your user data to Cerby, which includes members, ad accounts, and roles of your Snapchat Business Manager, you must complete the following steps:
 
   1. Select the **Apps** option from the left navigation drawer. The **Apps** view is displayed.
   2. Click the **More options** icon of the Snapchat Business Tenant app card that you added. A drop-down list is displayed.
   3. Select the **Check for updates** option from the list. A message box is displayed with information about the user sync process.
-
 **NOTE:** The check for updates and import process may take a few minutes depending on the number of assets and users and because Cerby automatically matches them to their corresponding Cerby account.
 
   4. Confirm that the **Check for updates** automation task has the “Completed” status by performing any of the following actions:
+The Snapchat Business Tenant account and app cards are displayed on the **All accounts** and **Apps** views, respectively, of each matched user. To connect their user account to Cerby, matched users must follow the instructions in the 3\. Connect your Snapchat Business account to Cerby step.
 
      * Click the **More details** button from the message box.
      * Select the **Automation** option from the left navigation drawer to open the **Automation** view.
 
-The Snapchat Business Tenant account and app cards are displayed on the **All accounts** and **Apps** views, respectively, of each matched user. To connect their user account to Cerby, matched users must follow the instructions in the 3\. Connect your Snapchat Business account to Cerby step.
-
 {% hint style="info" %}
 
 
-**NOTE:** After adding the Snapchat Business Center app integration, Cerby automatically performs daily checks for updates, but you can do them manually. When a user is deprovisioned from your IdP and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from Cerby. Follow the instructions in the article [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report) to apply the report and remove deprovisioned users.
+**NOTE:** After adding the Snapchat Business Center app integration, Cerby automatically performs daily checks for updates, but you can do them manually. When a user is deprovisioned from your IdP and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from Cerby. Follow the instructions in the article [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app) to apply the report and remove deprovisioned users.
 
 
 {% endhint %}
 
 The next step is 3\. Connect your Snapchat Business account to Cerby, which you must complete from your Cerby dashboard.
 
-## 3\. Connect your Snapchat Business account to Cerby
+### 3\. Connect your Snapchat Business account to Cerby
 
 To connect your Snapchat Business account to Cerby, you must complete the following steps:
 
@@ -149,13 +146,13 @@ To connect your Snapchat Business account to Cerby, you must complete the follow
 
 The next step is 4\. Manage unmatched users, which you must complete from your Cerby dashboard.
 
-## 4\. Manage unmatched users
+### 4\. Manage unmatched users
 
 After a check for updates, Cerby automatically matches users to their corresponding Cerby accounts. Users who couldn’t be identified during the check or who are not in the corporate directory are categorized as unmatched. For these users, you can perform one of the following three actions:
 
-  * Match and invite users
-  * Remove unmatched users
-  * Exempt unmatched users
+* Match and invite users
+* Remove unmatched users
+* Exempt unmatched users
 
 All of these actions are performed from the **Unmatched users** tab of the **User Overview** section inside the app details page.
 
@@ -167,7 +164,7 @@ All of these actions are performed from the **Unmatched users** tab of the **Use
 
 {% endhint %}
 
-### Match and invite users
+#### Match and invite users
 
 To match and invite users to join your Snapchat Business Manager through Cerby, you must perform the following steps:
 
@@ -185,10 +182,9 @@ To match and invite users to join your Snapchat Business Manager through Cerby, 
      * **Collaborator:** This role enables only logging in to the account.
 
   10. Click the **Match user** button. The dialog box closes, a success message box is displayed, and the user is moved to the **Onboarded** **users** tab.
-
 The Snapchat Business Tenant account and app cards are displayed in the **All accounts** and **Apps** views, respectively, of each matched user. To connect their user account to Cerby, matched users must follow the instructions in the 3\. Connect your Snapchat Business account to Cerby step.
 
-### Remove unmatched users
+#### Remove unmatched users
 
 To remove unmatched users, you must perform the following steps:
 
@@ -200,7 +196,7 @@ To remove unmatched users, you must perform the following steps:
   6. Select the **Remove user** option from the list. The **Remove user?** dialog box is displayed.
   7. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from your Snapchat Business Manager.
 
-### Exempt unmatched users
+#### Exempt unmatched users
 
 Exempted users keep their user accounts active for your Snapchat Business Manager, but you cannot manage them through Cerby. To exempt unmatched users, you must perform the following steps:
 
@@ -219,14 +215,14 @@ Now you are done. You can start managing and securing access to your Snapchat Bu
 
 The following are the supported features of the Snapchat Business Center app integration you can use:
 
-  * [Join Snapchat Business and connect user account to Cerby](https://help.cerby.com/en/articles/9082757-join-snapchat-business-and-connect-user-account-to-cerby)
-  * [Invite new app members](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Remove app members](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * [Update the app members’ roles](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
-  * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track activity on app members’ user accounts](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove an App](https://help.cerby.com/en/articles/9046230-remove-an-app)
+* [Join Snapchat Business and connect user account to Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/snapchat-business-manager/join-snapchat-business-and-connect-user-account-to-cerby)
+* [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+* [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+* [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+* [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+* [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+* [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
+* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+* [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+* [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+* [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

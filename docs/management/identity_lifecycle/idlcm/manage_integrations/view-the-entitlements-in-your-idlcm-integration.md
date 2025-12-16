@@ -1,5 +1,6 @@
 ---
 description: This article describes how to view the entitlements in your IdLCM integration and the users assigned to them.
+intercom_id: 12454982
 ---
 
 # View the entitlements in your IdLCM integration
@@ -9,8 +10,8 @@ description: This article describes how to view the entitlements in your IdLCM i
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -21,12 +22,12 @@ Entitlements are specific permissions granted to a user or role to perform actio
 
 The following are the actions you can perform when working with entitlements:
 
-  * View the entitlements available in your integration
-  * View the users assigned to an entitlement
+* View the entitlements available in your integration
+* View the users assigned to an entitlement
 
 The following sections describe each action.
 
-# View the entitlements available in your integration
+## View the entitlements available in your integration
 
 To view the entitlements available in your IdLCM integration, you must complete the following steps:
 
@@ -43,7 +44,7 @@ The available entitlements are listed in a table with the following columns:
 
 Now you are done.
 
-# View the users assigned to an entitlement
+## View the users assigned to an entitlement
 
 To view the users assigned to a specific entitlement in your IdLCM integration, you must complete the following steps:
 

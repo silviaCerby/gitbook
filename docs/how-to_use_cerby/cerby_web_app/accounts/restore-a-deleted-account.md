@@ -1,14 +1,15 @@
 ---
 description: This article describes how to restore an account you have deleted from your Cerby workspace.
+intercom_id: 11385391
 ---
 
 # Restore a deleted account
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest Users**
-  * **Account Owners**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest Users**
+* **Account Owners**
+* Only supported using the Cerby web app
 
 ---
 
@@ -28,10 +29,10 @@ Now you are done.
 
 * * *
 
-# Important considerations
+## Important considerations
 
 The following are important considerations about this feature:
 
-  * Any account **Owner** can restore a deleted account.
-  * When you restore a deleted account, all the teams and users who had shared access to the account recover their access.
-  * Teams and users who had shared access to the account via a collection don’t recover their access.
+* Any account **Owner** can restore a deleted account.
+* When you restore a deleted account, all the teams and users who had shared access to the account recover their access.
+* Teams and users who had shared access to the account via a collection don’t recover their access.

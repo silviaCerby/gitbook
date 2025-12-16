@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a guest member from an existing local partner.
+intercom_id: 11944452
 ---
 
 # Remove a guest member from a local partner
@@ -9,19 +10,19 @@ description: This article describes how to remove a guest member from an existin
 
 **Who can use this feature?**
 
-  * **Host Admins** and**Guest Admins** of a local partner
-  * Only supported using the Cerby web app
+* **Host Admins** and**Guest Admins** of a local partner
+* Only supported using the Cerby web app
 
 
 {% endhint %}
 
-As a **Host Admin** or **Guest Admin** of a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can remove a **Guest Admin** or **Guest User** from an existing local partner, which also causes them to be removed from the Cerby workspace.
+As a **Host Admin** or **Guest Admin** of a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can remove a **Guest Admin** or **Guest User** from an existing local partner, which also causes them to be removed from the Cerby workspace.
 
 The following rules apply when removing a guest member:
 
-  * **Host Admins** can remove **Guest Users** and **Guest Admins**.
-  * **Guest Admins** can only remove **Guest Users** , and they cannot remove themselves.
-  * Accounts shared through the local partner are not affected.
+* **Host Admins** can remove **Guest Users** and **Guest Admins**.
+* **Guest Admins** can only remove **Guest Users** , and they cannot remove themselves.
+* Accounts shared through the local partner are not affected.
 
 To remove a guest member from a local partner, you must complete the following steps:
 

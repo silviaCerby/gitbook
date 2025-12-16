@@ -1,5 +1,6 @@
 ---
 description: This article describes how to generate an API key to use in your requests to the Cerby API.
+intercom_id: 9450943
 ---
 
 # Generate an API key
@@ -9,8 +10,8 @@ description: This article describes how to generate an API key to use in your re
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -46,13 +47,10 @@ To generate an API key, you must complete the following steps:
      * **Write automated jobs:** Enables writing automated job data.
 
   8. Click the **Next** button. The **Store your API key** page of the wizard is displayed with the API key masked.
-
 **IMPORTANT:** This is the only time you can view and copy the API key before it is hashed and stored in the Cerby platform. Make sure you store it in a safe place or save it as a secret in Cerby to use it in your API requests.
-
 To save your API key as a secret in Cerby, complete the following steps:
 
      1. Select a vault where you want to save the API key from the **Select vault** drop-down list.
-
 **NOTE:** If you only have one vault, the **Select vault** drop-down list is not displayed.
 
      2. Click the **Save in Cerby** button. The **Save your API key in Cerby?** page of the wizard is displayed.

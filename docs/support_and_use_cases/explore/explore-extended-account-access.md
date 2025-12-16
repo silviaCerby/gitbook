@@ -1,5 +1,6 @@
 ---
 description: This article describes the benefits of the Extended account access feature to access your apps from your IdP with Cerby's automated login.
+intercom_id: 9616265
 ---
 
 # Explore Extended account access
@@ -12,16 +13,16 @@ Additionally, to keep consistency, updates in user and team access to Cerby acco
 
 Cerby's role-based access control (RBAC) system is the source of truth for determining who sees an account in the UI of their IdP (whether it’s a dashboard, login portal, or app launcher) and if the Cerby browser extension can retrieve the user’s credentials. The following are the actions users can perform with this feature based on their workspace and item role in Cerby:
 
-  * Workspace **Admins** , **Super Admins** , and **Owners** can turn on and off this feature.
-  * Account and collection **Owners** can start syncing accounts and collections with their IdP.
-  * Account **Owners** and **Collaborators** can see the corresponding accounts in their IdP’s UI for logging-in purposes.
-  * Users with the **Login-only** workspace role cannot use this feature because they are unable to access an account’s credentials.
+* Workspace **Admins** , **Super Admins** , and **Owners** can turn on and off this feature.
+* Account and collection **Owners** can start syncing accounts and collections with their IdP.
+* Account **Owners** and **Collaborators** can see the corresponding accounts in their IdP’s UI for logging-in purposes.
+* Users with the **Login-only** workspace role cannot use this feature because they are unable to access an account’s credentials.
 
 Currently, Cerby supports this feature for Okta. Therefore, Cerby accounts become applications in Okta with their corresponding chiclet on the main page of the dashboard, and user and team grants to the account become individual assignments in Okta.
 
 According to the roles mentioned above, the chiclets are created in the Okta dashboard only for users with the **Owner** or **Collaborator** role on an account, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/AD_4nXdBtvflMJPrj6X7dnEESWVEot1ZAn5StW6bxnqXKq9PLaY07bHQOHmXuR-YudWNdTxhUMkoEjxQeVt7kPxJUHB9xMiGa07WQ_eIdqL4vmVu2ev7vU9larWvcz6Y4zqTjVPrYg5rqdgOhLCjUZztS7h4L_eC.png" alt="Screenshot of the My Apps page in the Okta dashboard. Multiple chiclets are displayed for logging-in purposes; they all correspond to Cerby accounts"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/AD_4nXdBtvflMJPrj6X7dnEESWVEot1ZAn5StW6bxnqXKq9PLaY07bHQOHmXuR-YudWNdTxhUMkoEjxQeVt7kPxJUHB9xMiGa07WQ_eIdqL4vmVu2ev7vU9larWvcz6Y4zqTjVPrYg5rqdgOhLCjUZztS7h4L_eC.png" alt="Screenshot of the My Apps page in the Okta dashboard. Multiple chiclets are displayed for logging-in purposes; they all correspond to Cerby accounts"><figcaption></figcaption></figure>
 
 **Figure 1.** Chiclets in the Okta dashboard synced from accounts in Cerby
 
@@ -33,7 +34,7 @@ According to the roles mentioned above, the chiclets are created in the Okta das
 
 {% endhint %}
 
-# Learn how the Extended account access feature works
+## Learn how the Extended account access feature works
 
 When a workspace **Admin** , **Super Admin** , or **Owner** turns on the Extended account access feature and the Cerby Customer Support team enables it, all workspace members can start syncing and extending to Okta the accounts they own.
 
@@ -43,13 +44,13 @@ Because Cerby’s RBAC is the source of truth, IT admins cannot update user and 
 
 The following are the actions synced with Okta as soon as they happen in Cerby:
 
-  * Share and remove access from an account to users or teams. This action includes assigning or unassigning users to Okta groups, which propagates to teams in Cerby with shared access to accounts.
-  * Updates to account labels.
+* Share and remove access from an account to users or teams. This action includes assigning or unassigning users to Okta groups, which propagates to teams in Cerby with shared access to accounts.
+* Updates to account labels.
 
 User provisioning and deprovisioning events and account deactivation in Okta via SCIM can impact user access in Okta and Cerby as follows:
 
-  * When access to an account is shared via a team in Cerby, and that team is provisioned from an Okta group, new users assigned to the Okta group will see the corresponding Okta chiclet right after the data sync.
-  * Deprovisioned or deactivated users in Okta lose all access both to the Okta tenant and Cerby workspace; therefore, they lose access to all items. Additionally, Cerby performs automated password rotations for the security of the managed accounts.
+* When access to an account is shared via a team in Cerby, and that team is provisioned from an Okta group, new users assigned to the Okta group will see the corresponding Okta chiclet right after the data sync.
+* Deprovisioned or deactivated users in Okta lose all access both to the Okta tenant and Cerby workspace; therefore, they lose access to all items. Additionally, Cerby performs automated password rotations for the security of the managed accounts.
 
 {% hint style="danger" %}
 
@@ -82,15 +83,15 @@ Each Okta chiclet serves as a bookmark that enables users to trigger an automate
 
 {% endhint %}
 
-# Related articles
+## Related articles
 
 The following articles contain more information about the Extended account access feature:
 
-  * [Turn on Extended account access for Okta](https://help.cerby.com/en/articles/9758222-turn-on-extended-account-access-for-okta)
-  * [Turn off Extended account access for Okta](https://help.cerby.com/en/articles/9758233-turn-off-extended-account-access-for-okta)
-  * [Update the Extended account access settings for Okta](https://help.cerby.com/en/articles/9758241-update-the-extended-account-access-settings-for-okta)
-  * [Log in to your extended accounts from Okta chiclets](https://help.cerby.com/en/articles/9758273-log-in-to-your-extended-accounts-from-an-okta-chiclet)
-  * [Sync and extend an account to Okta](https://help.cerby.com/en/articles/9759106-sync-and-extend-an-account-to-okta)
-  * [View the status of an extended account](https://help.cerby.com/en/articles/9759124-view-the-status-of-an-extended-account)
-  * [Remove an account extended to Okta](https://help.cerby.com/en/articles/9759128-remove-an-account-extended-to-okta)
-  * [Troubleshooting Extended account access](https://help.cerby.com/en/articles/9759116-troubleshooting-extended-account-access)
+* [Turn on Extended account access for Okta](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/turn-on-extended-account-access-for-okta)
+* [Turn off Extended account access for Okta](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/turn-off-extended-account-access-for-okta)
+* [Update the Extended account access settings for Okta](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/update-the-extended-account-access-settings-for-okta)
+* [Log in to your extended accounts from Okta chiclets](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/extended-accounts/log-in-to-your-extended-accounts-from-an-okta-chiclet)
+* [Sync and extend an account to Okta](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/extended-accounts/sync-and-extend-an-account-to-okta)
+* [View the status of an extended account](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/extended-accounts/view-the-status-of-an-extended-account)
+* [Remove an account extended to Okta](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/extended-accounts/remove-an-account-extended-to-okta)
+* [Troubleshooting Extended account access](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/troubleshooting/troubleshooting-extended-account-access)

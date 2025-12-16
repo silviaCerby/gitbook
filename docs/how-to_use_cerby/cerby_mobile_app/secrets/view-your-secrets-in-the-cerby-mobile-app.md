@@ -1,5 +1,6 @@
 ---
 description: This article describes how to access and view your secrets in the Cerby mobile app.
+intercom_id: 9724933
 ---
 
 # View your secrets in the Cerby mobile app
@@ -9,18 +10,18 @@ description: This article describes how to access and view your secrets in the C
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
-  * Secret **Owners** and **Collaborators**
-  * Supported using the Cerby web app, browser extension, and mobile app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
+* Secret **Owners** and **Collaborators**
+* Supported using the Cerby web app, browser extension, and mobile app
 
-**NOTE:** Read more about Secrets in Cerby in the article [Explore Secrets](https://help.cerby.com/en/articles/7216784-explore-secrets)
+**NOTE:** Read more about Secrets in Cerby in the article [Explore Secrets](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-secrets)
 
 
 {% endhint %}
 
 As a secret **Owner** or **Collaborator** , you can view your secrets using the Cerby mobile app, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/unnamed_23.png" alt=""><figcaption></figcaption></figure><figure><img src="../.gitbook/assets/unnamed_24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/unnamed_23.png" alt=""><figcaption></figcaption></figure><figure><img src="../../../../.gitbook/assets/unnamed_24.png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1. Secrets** screens in the Cerby mobile app for iOS (left) and Android (right)
 

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update a user’s role on a collection using the Cerby mobile app.
+intercom_id: 9742192
 ---
 
 # Update a user’s role on a collection using the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to update a user’s role on a collectio
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * collection **Owners**
-  * Supported using the Cerby web app and mobile app.
+* Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* collection **Owners**
+* Supported using the Cerby web app and mobile app.
 
 
 {% endhint %}
@@ -30,9 +31,8 @@ To update a user’s role on a collection, you must complete the following steps
   8. Select the user’s new role in the collection:
 
      * **Owner:** Users can share access and manage the collection configuration.
-     * **Collaborator:** Users can only log in to the accounts, view the secrets, and download the secret attachments.
-
-**NOTE:** When you select a member with the **Login-only** role, you can only select the **Collaborator** role for them.
+     * **Collaborator:** Users can only log in to the accounts, view the secrets, and download the secret attachments.\
+       **NOTE:** When you select a member with the **Login-only** role, you can only select the **Collaborator** role for them.
 
   9. Tap the **Save** button.
 

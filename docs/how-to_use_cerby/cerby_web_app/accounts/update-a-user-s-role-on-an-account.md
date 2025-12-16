@@ -1,5 +1,6 @@
 ---
 description: This article describes how to update the role of other workspace users on your accounts.
+intercom_id: 9479436
 ---
 
 # Update a user's role on an account
@@ -9,9 +10,9 @@ description: This article describes how to update the role of other workspace us
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Account **Owners**
-  * Only supported using the Cerby web app and the Cerby mobile app
+* Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Account **Owners**
+* Only supported using the Cerby web app and the Cerby mobile app
 
 
 {% endhint %}
@@ -31,7 +32,6 @@ To update a user’s role on an account, you must complete the following steps:
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
   2. Click the corresponding account card. The account details page is displayed with the **General** tab activated.
   3. Activate the **Users** tab. The **User Overview** section is displayed with a table of users with shared access to the account.
-
 **IMPORTANT:** Users who have received shared access to the account multiple times appear with the **Information** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1568598931/78d8783617720b4314875db37364/AD_4nXeuP1teM6GCnjnCNi1_58UDlDQJmMUcZMXVnIz3pNHHlRyeDZsKkeGUtVEYHUI3cOWyt2JJiJJlx4axsBl-m0S3oSVXZb2kqv_maYqKXl1deJY6-IGLfD2cpWk1bnAfDwiwz4RpTg?expires=1757592000&signature=1976e5087af5a4eef8dccc48f7fdf2fc6c68cf8d00c6cbab466429334567a409&req=dSUhHsx3lYhcWPMW3Hu4gSjP3TAMrrqGckPZ1QPBhFe8xh%2FucQurGWMzU2GD%0ArQ%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon next to their Cerby role.
 
   4. Click the user’s current role under the **Cerby role** column. A side drawer is displayed with the current role of the user and a list of the different role assignments they have been granted on the account.

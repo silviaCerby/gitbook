@@ -1,14 +1,15 @@
 ---
 description: This video shows how to secure access to your TikTok account with authentication and verification methods managed by Cerby.
+intercom_id: 8789533
 ---
 
 # [Video] How to secure your TikTok account with Cerby
 
-# Key concepts
+## Key concepts
 
-  * Cerby will be set up as an authenticator app for multi-factor authentication (MFA) to provide verification codes each time you or your coworkers with shared access log in to your TikTok account.
-  * A Cerby-managed email address and phone number will be associated with your TikTok account to streamline login and automation tasks.
-  * Make sure you have turned off MFA.
+* Cerby will be set up as an authenticator app for multi-factor authentication (MFA) to provide verification codes each time you or your coworkers with shared access log in to your TikTok account.
+* A Cerby-managed email address and phone number will be associated with your TikTok account to streamline login and automation tasks.
+* Make sure you have turned off MFA.
 
 {% hint style="danger" %}
 

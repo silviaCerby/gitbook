@@ -1,5 +1,6 @@
 ---
 description: This article describes how to join Snapchat Business from an invite sent by Cerby, and connect your user account.
+intercom_id: 9082757
 ---
 
 # Join Snapchat Business and connect user account to Cerby
@@ -19,6 +20,6 @@ To join Snapchat Business Manager and connect your user account to Cerby, you mu
   1. Create or set up your user account in Snapchat Business by performing the following steps:
      1. Open Snapchat Business by clicking the link in the invite email you received.
      2. Follow the instructions from Snapchat Business to create or set up your user account.
-  2. Connect your user account to Cerby by performing the actions in the [3\. Connect your Snapchat Business account to Cerby](https://help.cerby.com/en/articles/6273393-connect-a-snapchat-business-center-app-integration#h_bf46134716) step of the article [Connect a Snapchat Business Center app integration](https://help.cerby.com/en/articles/6273393-connect-a-snapchat-business-center-app-integration).
+  2. Connect your user account to Cerby by performing the actions in the [3\. Connect your Snapchat Business account to Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/snapchat-business-manager/connect-a-snapchat-business-center-app-integration) step of the article [Connect a Snapchat Business Center app integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/snapchat-business-manager/connect-a-snapchat-business-center-app-integration).
 
 Now you are done. You can start accessing your Snapchat Business Manager and its assets from Cerby.

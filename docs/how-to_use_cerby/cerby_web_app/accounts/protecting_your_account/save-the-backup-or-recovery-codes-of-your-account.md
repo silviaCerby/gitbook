@@ -1,5 +1,6 @@
 ---
 description: This article describes how to save in Cerby the backup or recovery codes of your account.
+intercom_id: 12748253
 ---
 
 # Save the backup or recovery codes of your account
@@ -9,9 +10,9 @@ description: This article describes how to save in Cerby the backup or recovery 
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * **Account Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* **Account Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -20,9 +21,9 @@ As an account **Owner** , you can securely save in Cerby the backup or recovery 
 
 When supported by the app, Cerby recommends that you always save the backup or recovery codes after turning on MFA, especially when Cerby manages the verification method. The following are some of the benefits of centralizing the codes in Cerby:
 
-  * You avoid using insecure and easy-to-lose storing methods, such as text files or physical notes.
-  * You can prevent business continuity risks, as other account **Owners** with shared access to the account can view the codes.
-  * Cerby encrypts these codes as it does with other sensitive data, and they are associated with the account, not an individual or a device.
+* You avoid using insecure and easy-to-lose storing methods, such as text files or physical notes.
+* You can prevent business continuity risks, as other account **Owners** with shared access to the account can view the codes.
+* Cerby encrypts these codes as it does with other sensitive data, and they are associated with the account, not an individual or a device.
 
 To save the backup or recovery codes of your account, you must complete the following steps:
 
@@ -31,9 +32,9 @@ To save the backup or recovery codes of your account, you must complete the foll
 
 **NOTE:** Take the following into consideration when saving backup or recovery codes in Cerby:
 
-  * Not all apps support these codes.
-  * You can save the codes any time after turning on MFA; however, Cerby recommends that you do it right after completing the MFA setup.
-  * If you have turned on MFA using your mobile phone and the codes are only displayed in the mobile app, you must enter the codes manually in the Cerby web app.
+* Not all apps support these codes.
+* You can save the codes any time after turning on MFA; however, Cerby recommends that you do it right after completing the MFA setup.
+* If you have turned on MFA using your mobile phone and the codes are only displayed in the mobile app, you must enter the codes manually in the Cerby web app.
 
 
 {% endhint %}

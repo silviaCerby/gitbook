@@ -1,5 +1,6 @@
 ---
 description: This article describes how to connect a business hub to centrally manage users and assets of TikTok Business Center from Cerby.
+intercom_id: 6273647
 ---
 
 # Connect a business hub for TikTok Business Center
@@ -9,8 +10,8 @@ description: This article describes how to connect a business hub to centrally m
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -19,49 +20,49 @@ As a user with any workspace role in Cerby, except **Guest User** and **Login-On
 
 When you connect the business hub, you become its **Owner** , and you can perform the following user and access management tasks through automated tasks or API calls executed by the Cerby agent:
 
-  * Check for updates
-  * Add users
-  * Update user roles
-  * Remove users
+* Check for updates
+* Add users
+* Update user roles
+* Remove users
 
-**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Business Hubs](https://help.cerby.com/en/articles/6831152-explore-apps).
+**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Business Hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs).
 ---
 
 Additionally, you can perform the following actions to manage access to your TikTok Business Center for external collaborators:
 
-  * Invite users to your workspace as[ guest users](https://help.cerby.com/en/articles/8392946-how-to-invite-a-guest-user-to-your-workspace) or[ local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), with secure credentials provided and managed by Cerby.
-  * Connect a[ native partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_e7fa9c355c) to your workspace to gain visibility into the partner’s users with shared access to the assets of your TikTok Business Center. For more information, read the article [Connect a TikTok for Business native partner to Cerby](https://help.cerby.com/en/articles/9082765-connect-a-tiktok-for-business-native-partner-to-cerby).
+* Invite users to your workspace as[ guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) or[ local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), with secure credentials provided and managed by Cerby.
+* Connect a[ native partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) to your workspace to gain visibility into the partner’s users with shared access to the assets of your TikTok Business Center. For more information, read the article [Connect a TikTok for Business native partner to Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/tiktok-for-business/connect-a-tiktok-for-business-native-partner-to-cerby).
 
 This article provides instructions on how to connect a business hub for TikTok Business Center. For other app-specific articles and videos, review the[ Connecting business hubs for your apps](https://help.cerby.com/en/collections/10289415-connecting-your-apps) and[ Connecting business hubs for your paid social apps](https://help.cerby.com/en/collections/12330234-connecting-business-hubs-for-your-paid-social-apps) collections in the Cerby Help Center.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to connect a business hub:
 
-  * A Cerby workspace
-  * A Cerby user account with the workspace **Owner** , **Super Admin** , **Admin** , or **User** role
-  * A collaboration space (workspace, team, or dashboard) in TikTok Business Center
-  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * An automation account, meaning an active user account with a native **Admin** role in your TikTok Business Center to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create a service account for your business hub](https://help.cerby.com/en/articles/9830816-create-an-automation-or-service-account-for-your-business-hub)
-  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Business Hubs](https://help.cerby.com/en/articles/6831152-explore-apps)
-  * A business ID. You can find the ID in the following ways:
+* A Cerby workspace
+* A Cerby user account with the workspace **Owner** , **Super Admin** , **Admin** , or **User** role
+* A collaboration space (workspace, team, or dashboard) in TikTok Business Center
+* Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+* An automation account, meaning an active user account with a native **Admin** role in your TikTok Business Center to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create a service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+* The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Business Hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
+* A business ID. You can find the ID in the following ways:
+**Figure 1. ID** in the **Business Center Information** section
+
     * **In the address bar:** When you are logged in to your TikTok Business Center, the ID is displayed in the address bar as part of the URL. It’s the number that comes after **`org_id=`**. For example, **`8453921765042398123`** in **`https://business.tiktok.com/manage/overview?org_id=845392176504239812`3**. Copy the value and paste it when connecting the business hub.
     * **In the business settings:** When you are logged in to your TikTok Business Center, select the **Business setting** option from the left menu. The ID is displayed in the **Business Center Information** section below the name of your business center, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/33ec24d4-6181-4b0e-97ff-685e43f79746.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/33ec24d4-6181-4b0e-97ff-685e43f79746.png" alt=""><figcaption></figcaption></figure>
 
-**Figure 1. ID** in the **Business Center Information** section
-
-  * Your browser must be configured to allow pop-ups. Follow the corresponding instructions to allow pop-ups:
+* Your browser must be configured to allow pop-ups. Follow the corresponding instructions to allow pop-ups:
     * [Google Chrome](https://support.google.com/chrome/answer/95472?hl=en)
     * [Microsoft Edge](https://support.microsoft.com/en-us/search?query=allow%20pop%20ups%20in%20edge)
     * [Mozilla Firefox](https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting)
     * [Safari](https://support.apple.com/guide/safari/block-pop-ups-sfri40696/mac)
 * * *
 
-# Connect a business hub for TikTok Business Center
+## Connect a business hub for TikTok Business Center
 
 To connect a business hub for TikTok Business Center, you must complete the following main steps from the Cerby web app dashboard:
 
@@ -73,7 +74,7 @@ To connect a business hub for TikTok Business Center, you must complete the foll
 
 The following sections describe each main step.
 
-## 1\. Add a business hub and connect it to your TikTok Business Center
+### 1\. Add a business hub and connect it to your TikTok Business Center
 
 To add a business hub and connect it to your TikTok Business Center, you must complete the following steps:
 
@@ -93,10 +94,10 @@ To add a business hub and connect it to your TikTok Business Center, you must co
   4. Click the **Get started** button. A wizard is displayed on the **Select app** page.
   5. Select **TikTok Business** from the catalog. The **Grant access to Cerby** page is displayed on the wizard with the **App Authorization | TikTok for Business** pop-up window on top, as shown in **Figure 2**.
 
-<figure><img src="../.gitbook/assets/0FVFAb1a0_3uSitn-_o0yP-4wVMpXogHaoKMJikMlwEo7s5OJBaEJhAcSMQs3ymYlRnmeIP_IxGvRFX5KnIH4jlTZ2km52RKBNxAVeji0b8aO620gKlqIwbDw_C9ag5z3X7kPlf_3xAySQyey2Ma9Gg.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 2. App Authorization | TikTok for Business** pop-up window
 ​
+
+<figure><img src="../../../../../../.gitbook/assets/0FVFAb1a0_3uSitn-_o0yP-4wVMpXogHaoKMJikMlwEo7s5OJBaEJhAcSMQs3ymYlRnmeIP_IxGvRFX5KnIH4jlTZ2km52RKBNxAVeji0b8aO620gKlqIwbDw_C9ag5z3X7kPlf_3xAySQyey2Ma9Gg.png" alt=""><figcaption></figcaption></figure>
 
   6. Click the **Confirm** button. A success message is displayed, and the pop-up window closes automatically.
   7. Click the **Next** button. The **Enter app details** page is displayed on the wizard.
@@ -116,7 +117,7 @@ The corresponding business hub is also displayed on the **Business Hubs** view.
 
 The next step is 2\. Check for updates to import users, roles, and assets to Cerby.
 
-## 2\. Check for updates to import users, roles, and assets to Cerby
+### 2\. Check for updates to import users, roles, and assets to Cerby
 
 To check for updates in your app to identify and import users, roles, and assets to Cerby, you must complete the following steps:
 
@@ -135,7 +136,7 @@ To check for updates in your app to identify and import users, roles, and assets
 
 The next step is 3\. Connect your TikTok Business Center user account to the business hub.
 
-## 3\. Connect your TikTok Business Center user account to the business hub
+### 3\. Connect your TikTok Business Center user account to the business hub
 
 To connect your TikTok Business Center user account to the business hub so Cerby can manage and protect it, you must complete the following steps:
 
@@ -146,7 +147,7 @@ To connect your TikTok Business Center user account to the business hub so Cerby
 
 The next step is 4\. Auto-claim the Owner role in Cerby
 
-## 4\. Auto-claim the Owner role in Cerby
+### 4\. Auto-claim the Owner role in Cerby
 
 When your Cerby account has a different email than your TikTok profile, the integration does not automatically match the **Owner** role in Cerby with the **Admin** role in your TikTok Business Center. Therefore, you must manually claim ownership.
 
@@ -174,9 +175,9 @@ To claim the **Owner** role for your business hub, you must complete the followi
 
 The next step is [5\. Manage unmatched users](https://docs.google.com/document/d/1oeSbrLoewVWqUOFaoHXdoAK4LSFLIXW-TpUL5G_bYYE/edit#heading=h.xnn3mvf6dst8).
 
-## 5\. Manage unmatched users
+### 5\. Manage unmatched users
 
-During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://help.cerby.com/en/articles/8392946-explore-guest-users) and [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
+During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) and [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
 
 To view the status of the imported app members, you must complete the following steps:
 
@@ -191,13 +192,13 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * Match users
-  * Remove unmatched users
-  * Exempt unmatched users
+* Match users
+* Remove unmatched users
+* Exempt unmatched users
 
 The following sections describe each action.
 
-### Match and invite users
+#### Match and invite users
 
 To match users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -212,7 +213,7 @@ To match users, you must complete the following steps from the **Unmatched users
 
   6. Click the **Match user** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Onboarded** **users** tab.
 
-### Remove unmatched users
+#### Remove unmatched users
 
 To remove unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -223,7 +224,7 @@ To remove unmatched users, you must complete the following steps from the **Unma
   2. Select the **Remove user** option from the menu. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the app via an automated task.
 
-### Exempt unmatched users
+#### Exempt unmatched users
 
 Exempted users keep their user accounts or seats active in your app, but you cannot manage them through Cerby.
 
@@ -236,19 +237,19 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 * * *
 
-# Use your business hub
+## Use your business hub
 
 The following are the supported features of business hubs you can use:
 
-  * [Join TikTok for Business and connect user account to Cerby](https://help.cerby.com/en/articles/9082605-join-tiktok-tiktok-for-business-and-connect-user-account-to-cerby)[Add users to your app via a business hub](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Provision users to your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040540-provision-users-to-your-apps-via-an-idp-and-business-hub)
-  * [Remove users from your app via a business hub](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Remove teams from your app via a business hub](https://help.cerby.com/en/articles/11038640-remove-teams-from-your-app-via-a-business-hub)
-  * [Deprovision users from your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040570-deprovision-users-from-your-apps-via-an-idp-and-business-hub)
-  * [Update user roles in your app via a business hub](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Update user roles in your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040590-update-user-roles-in-your-apps-via-an-idp-and-business-hub)
-  * [Sync your app users with your business hub](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
-  * [Protect your app user accounts via a business hub](https://help.cerby.com/en/articles/9046212-protect-your-app-user-accounts-via-a-business-hub)
-  * [Log in to your app via a business hub](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track the activity of business hub users](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove a business hub](https://help.cerby.com/en/articles/9046230-remove-an-app)
+* [Join TikTok for Business and connect user account to Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/tiktok-for-business/join-tiktok-for-business-and-connect-your-user-account-to-cerby)[Add users to your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+* [Provision users to your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/provision-users-to-your-apps-via-an-idp-and-business-hub)
+* [Remove users from your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+* [Remove teams from your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-teams-from-your-app-via-a-business-hub)
+* [Deprovision users from your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/deprovision-users-from-your-apps-via-an-idp-and-business-hub)
+* [Update user roles in your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+* [Update user roles in your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-apps-via-an-idp-and-business-hub)
+* [Sync your app users with your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+* [Protect your app user accounts via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+* [Log in to your app via a business hub](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+* [Track the activity of business hub users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+* [Remove a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

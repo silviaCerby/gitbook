@@ -1,5 +1,6 @@
 ---
 description: This article describes how to turn on the Allow notifications feature in your Cerby mobile app.
+intercom_id: 9724914
 ---
 
 # Turn on the Allow notifications feature

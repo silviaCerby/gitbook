@@ -1,5 +1,6 @@
 ---
 description: This article describes how to set up an AWS KMS integration to create vaults using the keys of your existing environment.
+intercom_id: 10085037
 ---
 
 # Set up an AWS KMS vault integration
@@ -9,8 +10,8 @@ description: This article describes how to set up an AWS KMS integration to crea
 
 **Who can use this feature?**
 
-  * Workspace **Admins** , **Super** **Admins** , and **Owners**
-  * If you are interested in this feature but don't see it available in your workspace, email our Sales team at [sales@cerby.com](mailto:sales@cerby.com).
+* Workspace **Admins** , **Super** **Admins** , and **Owners**
+* If you are interested in this feature but don't see it available in your workspace, email our Sales team at [sales@cerby.com](mailto:sales@cerby.com).
 
 
 {% endhint %}
@@ -19,15 +20,15 @@ With Cerby, you can use the encryption keys within your AWS Key Management Servi
 
 Cerby already uses AWS KMS for vault key encryption; however, you can leverage your existing environment for your workspace. Users with the workspace **Admin** , **Super Admin** , or **Owner** role can configure a custom AWS KMS vault integration, manage your vaults, and set a default vault for accounts and secrets. Additionally, as an owner of the AWS KMS environment, you can log the creation, access, and management of your keys and encrypted credentials in your AWS account.
 
-In Cerby’s standard cloud setup, encryption keys are stored and managed by Cerby. For data protection, Cerby implements Zero Knowledge architecture principles and rigorous security protocols. For more information, read the article [How Cerby protects your data with cloud and local encryption](https://help.cerby.com/en/articles/8376548-how-cerby-protects-your-data-with-cloud-and-local-encryption).
+In Cerby’s standard cloud setup, encryption keys are stored and managed by Cerby. For data protection, Cerby implements Zero Knowledge architecture principles and rigorous security protocols. For more information, read the article [How Cerby protects your data with cloud and local encryption](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/how-cerby-protects-your-data-with-cloud-and-local-encryption).
 
 {% hint style="danger" %}
 
 
 **IMPORTANT:** Consider the following about the AWS KMS vault integration:
 
-  * You must _not_ delete or disable your AWS KMS key after the integration; otherwise, you will permanently lose access to all data encrypted with the key unless you have manually backed up the secret and account data beforehand. Cerby does not automatically detect deleted or disabled keys, as this action is outside our control.
-  * You must _not_ edit the AWS KMS key after the integration; otherwise, you will permanently lose access to all data encrypted with the key unless you have manually backed up the secret and account data beforehand. Editing an AWS KMS key is complex due to encryption dependencies, and it is not supported within Cerby, as changes to the key prevent data decryption.
+* You must _not_ delete or disable your AWS KMS key after the integration; otherwise, you will permanently lose access to all data encrypted with the key unless you have manually backed up the secret and account data beforehand. Cerby does not automatically detect deleted or disabled keys, as this action is outside our control.
+* You must _not_ edit the AWS KMS key after the integration; otherwise, you will permanently lose access to all data encrypted with the key unless you have manually backed up the secret and account data beforehand. Editing an AWS KMS key is complex due to encryption dependencies, and it is not supported within Cerby, as changes to the key prevent data decryption.
 
 
 {% endhint %}
@@ -42,39 +43,38 @@ The following sections detail how to set up your AWS KMS vault integration.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up an AWS KMS vault integration:
 
-  * A Cerby workspace.
-  * A Cerby account with the workspace **Admin** , **Super Admin** , or **Owner** role.
-  * The browser you'll use for the AWS KMS vault integration must be a trusted device in Cerby. For more information, read the article [Set up trusted sessions on your devices](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices).
-  * Your Cerby workspace ID. You can find it by completing the following steps:
+* A Cerby workspace.
+* A Cerby account with the workspace **Admin** , **Super Admin** , or **Owner** role.
+* The browser you'll use for the AWS KMS vault integration must be a trusted device in Cerby. For more information, read the article [Set up trusted sessions on your devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices).
+* Your Cerby workspace ID. You can find it by completing the following steps:
 
     1. Log in to your Cerby [workspace](https://app.cerby.com/) using the Cerby web app.
     2. Select the **Settings** option from the left navigation drawer. The **Workspace** **Configuration** page is displayed with the **General** tab activated.
     3. Copy the Cerby workspace ID from the **Workspace ID** field and save it in a safe location.
 
-  * An AWS account with Administrator permissions to create and manage KMS.
-  * Your AWS account ID. You can find it by completing the following steps:
+* An AWS account with Administrator permissions to create and manage KMS.
+* Your AWS account ID. You can find it by completing the following steps:
 
     1. Log in to the [AWS console](https://aws.amazon.com/console/) on your web browser.
     2. Click your account name information located at the top right of the page.
     3. Locate the **Account ID** field that contains a 12-digit ID.
     4. Copy the account ID and save it in a safe location.
 
-  * An AWS KMS key with the following characteristics:
+* An AWS KMS key with the following characteristics:
+To create a compliant key, you must complete the instructions in step 1\. Create your AWS KMS key.
+
     * It must be an asymmetric key.
     * It must be configured with the encryption and decryption usage.
     * It must have multi-region support for replica creation in the following regions supported by Cerby:
-      * **Main:** `us-east-2`
-      * **Replica:**`us-west-2`
-
 **IMPORTANT:** This requirement is needed to comply with Cerby’s Disaster Recovery process.
 
-To create a compliant key, you must complete the instructions in step 1\. Create your AWS KMS key.
-
-  * The AWS KMS key ID and the ARNs of the main and replica keys. You can find them by completing the following steps:
+      * **Main:** `us-east-2`
+      * **Replica:**`us-west-2`
+* The AWS KMS key ID and the ARNs of the main and replica keys. You can find them by completing the following steps:
 
     1. Log in to your [AWS console](https://aws.amazon.com/console/) on your web browser.
     2. Access the **Key Management Service (KMS)** console.
@@ -84,7 +84,7 @@ To create a compliant key, you must complete the instructions in step 1\. Create
     6. Activate the **Regionality** tab below the **General configuration** section.
     7. Click the **Copy** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1239891766/0e42f7b7884afc9e966f9101dd75/AD_4nXfr-Hj1353b1jTkYtxoZVUzuIr_EzOotrPKegRPTZgRw8x_exWo7CtVkhpdpbGrbMkemEdUoRGWaYUpDmmfmOBZ4TOtooTN6VcGYNHI30gCbubrB5JbseQxe6zcZY-03YAQPXpndr4TE5PwRvlWKw9GIATI?expires=1765422000&signature=75fa31288e9a9ecba96cdcf62cefe3932eadd8dc7a52a58c63a8d1894e72f654&req=dSIkH8F3nIZZX%2FMW3Hu4gXCjGZX1m2LT2jnw5X%2FHot8IE40lfgQW03FsnQYG%0Atw%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the **Key ARN** column in the **Related multi-Region keys** section and save it in a safe location. This is the ARN of the replica key.
 
-  * The AWS role ARN. You can find it by completing the following steps:
+* The AWS role ARN. You can find it by completing the following steps:
 
     1. Log in to your [AWS console](https://aws.amazon.com/console/) on your web browser.
     2. Access the **IAM** dashboard.
@@ -94,10 +94,10 @@ side navigation drawer. The **Roles** page is displayed.
     4. Open the role you created after following the instructions in step 2\. Create a new AWS IAM role. The role details page is displayed.
     5. Copy the role ARN from the **ARN** field in the **Summary** section and save it in a safe location.
 
-  * The Cerby account and workspace ID that can use the role created in section 2.1. Create a new role. Request this ID at support@cerby.com.
+* The Cerby account and workspace ID that can use the role created in section 2.1. Create a new role. Request this ID at support@cerby.com.
 * * *
 
-# Set up an AWS KMS vault integration
+## Set up an AWS KMS vault integration
 
 To set up an AWS KMS vault integration, you must complete the following main steps:
 
@@ -108,12 +108,11 @@ To set up an AWS KMS vault integration, you must complete the following main ste
 
 The following sections describe each main step.
 
-## 1\. Create your AWS KMS key
+### 1\. Create your AWS KMS key
 
 To create your AWS KMS key, complying with the requirements to integrate with Cerby, you must complete the following steps:
 
   1. Log in to your [AWS console](https://aws.amazon.com/console/) in your web browser.
-
 **IMPORTANT:** Make sure you are in the **us-east-2** (**US East Ohio**) region by selecting it from the top navigation bar.
 
   2. Access the **Key Management Service (KMS)** console.
@@ -123,7 +122,6 @@ To create your AWS KMS key, complying with the requirements to integrate with Ce
      1. **Asymmetric** in the **Key type** section.
      2. **Encrypt and decrypt** in the **Key usage** section. The **Key spec** section is displayed.
         1. Select the key material you want your key to have in the **Key spec** section.
-
 **TIP:** For your security, Cerby recommends using the**RSA_4096** key material.
 
   6. Expand the **Advanced options** section.
@@ -160,7 +158,7 @@ To create your AWS KMS key, complying with the requirements to integrate with Ce
 
 The next step is 2\. Create a new AWS IAM role.
 
-## 2\. Create a new AWS IAM role
+### 2\. Create a new AWS IAM role
 
 To create a new AWS IAM role specific to the AWS KMS integration with Cerby, you must complete the following steps:
 
@@ -170,7 +168,7 @@ To create a new AWS IAM role specific to the AWS KMS integration with Cerby, you
 
 The following subsections describe each step.
 
-### 2.1. Create a new role
+#### 2.1. Create a new role
 
 To create a new role in AWS, complete the following steps:
 
@@ -192,7 +190,7 @@ To create a new role in AWS, complete the following steps:
 
 The next step is 2.2. Attach a new inline policy to the role.
 
-### 2.2. Attach a new inline policy to the role
+#### 2.2. Attach a new inline policy to the role
 
 To attach a new inline policy to the role, you must complete the next steps:
 
@@ -201,6 +199,7 @@ To attach a new inline policy to the role, you must complete the next steps:
   3. Select the **Create inline policy** option. The **Specify permissions** page is displayed.
   4. Click the **JSON** button in the **Policy editor** section. The policy JSON editor field is displayed.
   5. Copy and paste the following policy configuration in the editor field:
+**IMPORTANT:** You must replace the **`{ARN for the main region KMS key}`** and **`{ARN for the replica region KMS key}`** values with the corresponding ARNs for the main and replica keys that you copied in step 1\. Create your AWS KMS key.
 
          {
             "Version": "2012-10-17",
@@ -222,8 +221,6 @@ To attach a new inline policy to the role, you must complete the next steps:
             ]
          }
 
-**IMPORTANT:** You must replace the **`{ARN for the main region KMS key}`** and **`{ARN for the replica region KMS key}`** values with the corresponding ARNs for the main and replica keys that you copied in step 1\. Create your AWS KMS key.
-
   6. Click the **Next** button. The **Review and create** page is displayed.
   7. Enter the name of the policy in the **Policy name** field.
   8. Click the **Create policy** button. A success message is displayed and the policy is attached to your role.
@@ -231,7 +228,7 @@ To attach a new inline policy to the role, you must complete the next steps:
 
 The next step is 2.3. Edit the trust relationship.
 
-### 2.3. Edit the trust relationship
+#### 2.3. Edit the trust relationship
 
 To edit the trust relationship in the role, you must complete the next steps:
 
@@ -258,6 +255,7 @@ To edit the trust relationship in the role, you must complete the next steps:
          }
 
   4. Replace the information with the following policy:
+**IMPORTANT:** This policy must include the role allowed to perform actions within AWS, created by Cerby for the production environment: **`production-kms-byo-key-access-role`**. Also, you must replace **`<workspace ID>`** with the ID of your Cerby workspace.
 
          {
              "Version": "2012-10-17",
@@ -277,13 +275,11 @@ To edit the trust relationship in the role, you must complete the next steps:
              ]
          }
 
-**IMPORTANT:** This policy must include the role allowed to perform actions within AWS, created by Cerby for the production environment: **`production-kms-byo-key-access-role`**. Also, you must replace **`<workspace ID>`** with the ID of your Cerby workspace.
-
   5. Click the **Update policy** button. The role **Summary** page is displayed again.
 
 The next step is 3\. Set up the AWS KMS vault integration in Cerby.
 
-## 3\. Set up the AWS KMS vault integration in Cerby
+### 3\. Set up the AWS KMS vault integration in Cerby
 
 To set up the AWS KMS vault integration in Cerby, you must complete the following steps:
 
@@ -293,7 +289,6 @@ To set up the AWS KMS vault integration in Cerby, you must complete the followin
   4. Click the **Create new vault** button. The **Create new vault** dialog box is displayed.
   5. Enter the vault name in the **Vault name** field.
   6. Select the **AWS KMS** option from the **Strategy** drop-down list.
-
 **NOTE:** Select the **Set as default vault** option if you want to set the new vault as the default when adding an item to Cerby.
 
   7. Click the **Next** button. The **Configure your AWS KMS vault** dialog box is displayed.
@@ -301,42 +296,41 @@ To set up the AWS KMS vault integration in Cerby, you must complete the followin
 
      * **AWS Account ID**
      * **KMS Key ID**
-     * **AWS Role ARN**
-
-**NOTE:** You can find the values by completing the corresponding steps in the Requirements section.
+     * **AWS Role ARN**\
+       **NOTE:** You can find the values by completing the corresponding steps in the Requirements section.
 
   9. Click the **Create vault** button. The **Vault created!** message appears, and the **Page reload required** dialog box is displayed.
   10. Click the **Reload page** button. The page is reloaded and the new vault is listed.
 
 Now you are done. The next optional step is 4\. Configure logs in AWS for your KMS key.
 
-## 4\. Configure logs in AWS for your KMS key
+### 4\. Configure logs in AWS for your KMS key
 
 As an optional step in the AWS KMS integration with Cerby, you can configure logs in AWS to track the events for your key. For example, you can use the [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html) logging service, which can track all usage and management actions taken on your AWS KMS keys.
 
 * * *
 
-# Save accounts and secrets in your AWS KMS vault
+## Save accounts and secrets in your AWS KMS vault
 
 After integrating your AWS KMS vault with Cerby, you can start saving accounts and secrets. Read the following articles to learn more about account and secret creation and vault assignation:
 
-  * [Add an account](https://help.cerby.com/en/articles/8708374-add-an-account)
-  * [Add a secret](https://help.cerby.com/en/articles/8705289-add-a-secret)
-  * [Assign additional vaults to an account](https://help.cerby.com/en/articles/9370625-assign-additional-vaults-to-an-account)
+* [Add an account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/add-an-account)
+* [Add a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-secret)
+* [Assign additional vaults to an account](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/assign-additional-vaults-to-an-account)
 * * *
 
-# Manage your AWS KMS vault
+## Manage your AWS KMS vault
 
-Read the article [Create and manage a vault](https://help.cerby.com/en/articles/8376564-create-and-manage-a-vault) to learn how to manage your AWS KMS vault.
+Read the article [Create and manage a vault](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/create-a-vault) to learn how to manage your AWS KMS vault.
 
 * * *
 
-# Plan any AWS KMS key modification
+## Plan any AWS KMS key modification
 
 As stated at the beginning of this article, you must take into account the following before modifying your AWS KMS key:
 
-  * You must _not_ delete or disable your AWS KMS key; otherwise, you will permanently lose access to all data encrypted with the key unless you have manually backed up the secret and account data beforehand. Cerby does not automatically detect deleted or disabled keys, as this action is outside our control.
-  * You must _not_ edit the AWS KMS key; otherwise, you will permanently lose access to all data encrypted with the key unless you have manually backed up the secret and account data beforehand. Editing an AWS KMS key is complex due to encryption dependencies, and it is not supported within Cerby, as changes to the key prevent data decryption.
+* You must _not_ delete or disable your AWS KMS key; otherwise, you will permanently lose access to all data encrypted with the key unless you have manually backed up the secret and account data beforehand. Cerby does not automatically detect deleted or disabled keys, as this action is outside our control.
+* You must _not_ edit the AWS KMS key; otherwise, you will permanently lose access to all data encrypted with the key unless you have manually backed up the secret and account data beforehand. Editing an AWS KMS key is complex due to encryption dependencies, and it is not supported within Cerby, as changes to the key prevent data decryption.
 
 If you need to delete, remove, disable, or modify your KMS key, plan ahead and consider the following alternative actions for the accounts and secrets assigned to the vault:
 

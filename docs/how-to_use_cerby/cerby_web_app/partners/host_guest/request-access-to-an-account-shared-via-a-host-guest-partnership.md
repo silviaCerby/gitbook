@@ -1,5 +1,6 @@
 ---
 description: This article describes how to request access to an account shared via a host-guest partnership.
+intercom_id: 9044773
 ---
 
 # Request access to an account shared via a host-guest partnership
@@ -9,9 +10,9 @@ description: This article describes how to request access to an account shared v
 
 **Who can use this feature?**
 
-  * Workspace **Admins** and**Users** with the **Manager** role on an account
-  * Available to Cerby Automate
-  * Only supported using the Cerby web app
+* Workspace **Admins** and**Users** with the **Manager** role on an account
+* Available to Cerby Automate
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -33,7 +34,6 @@ To request access to an account, you must complete the following steps:
      * **Account manager:** With this role, guest workspace members can log in to the shared accounts and request access to these accounts for other members.
 
   7. Click the **Send** button. The dialog box closes, and a success message box is displayed.
-
 An email is sent to the account**Owners** from the host workspace to inform them about the access request.
 
 {% hint style="danger" %}

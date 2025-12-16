@@ -1,5 +1,6 @@
 ---
 description: This article describes the benefits of the Activity view to monitor and analyze activity on your Cerby workspace in real time.
+intercom_id: 10128402
 ---
 
 # Explore Activity
@@ -10,14 +11,14 @@ The **Activity** view offers different filtering options, enabling you to custom
 
 The data displayed on the view is organized into the following columns:
 
-  * The time when each event was registered
-  * A description or category of the activity
-  * The associated account
-  * The application where the event occurred
-  * The user involved in the event
-  * The geographical location
-  * The operating system in use
-  * The originating device
+* The time when each event was registered
+* A description or category of the activity
+* The associated account
+* The application where the event occurred
+* The user involved in the event
+* The geographical location
+* The operating system in use
+* The originating device
 
 You can monitor events in real time and get immediate insights that support quick, informed decision-making, enabling you to respond to potential issues as they arise, thus enhancing workspace security and control.
 
@@ -25,13 +26,13 @@ Furthermore, the **Activity** view also includes a report download feature to ex
 
 **Figure 1** shows the **Activity** view that you can access from the left navigation drawer of the Cerby web app dashboard.
 
-<figure><img src="../.gitbook/assets/Screenshot_2024-11-13_at_2.55.31_3Fp.m..png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2024-11-13_at_2.55.31_3Fp.m..png" alt=""><figcaption></figcaption></figure>
 
 **Figure 1. Activity** view in the Cerby web app dashboard
 
-# Related articles
+## Related articles
 
 Refer to the following articles to learn more about the **Activity** view:
 
-  * [Filter events in the Activity view](https://help.cerby.com/en/articles/10128410-filter-events-in-the-activity-view)
-  * [Monitor events in the Activity view](https://help.cerby.com/en/articles/10128426-monitor-events-in-the-activity-view)
+* [Filter events in the Activity view](https://cerby-test.gitbook.io/cerby-test/management/monitoring/filter-events-in-the-activity-view)
+* [Monitor events in the Activity view](https://cerby-test.gitbook.io/cerby-test/management/monitoring/monitor-events-in-the-activity-page)

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to assign users and teams to manage your business hub.
+intercom_id: 10971635
 ---
 
 # Assign managers to your business hub
@@ -9,8 +10,8 @@ description: This article describes how to assign users and teams to manage your
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

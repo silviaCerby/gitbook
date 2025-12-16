@@ -1,5 +1,6 @@
 ---
 description: This article describes how to retrieve a bearer token to use in the Cerby CLI.
+intercom_id: 9450993
 ---
 
 # Retrieve a bearer token
@@ -9,8 +10,8 @@ description: This article describes how to retrieve a bearer token to use in the
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -31,4 +32,4 @@ To retrieve a bearer token, you must complete the following steps:
 
 {% endhint %}
 
-Now you are done. You can start using the bearer token to [authenticate and log in to the Cerby CLI](https://help.cerby.com/en/articles/9132804-authenticate-with-the-cerby-cli#h_7e37d0e3a8).
+Now you are done. You can start using the bearer token to [authenticate and log in to the Cerby CLI](https://cerby-test.gitbook.io/cerby-test/extending-cerby/cerby-cli/authenticate-with-the-cerby-cli).

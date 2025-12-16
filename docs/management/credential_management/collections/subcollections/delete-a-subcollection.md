@@ -1,5 +1,6 @@
 ---
 description: This article describes how to delete a subcollection from a parent collection, removing inherited access from top-level collections.
+intercom_id: 8982989
 ---
 
 # Delete a subcollection
@@ -21,7 +22,7 @@ To delete a subcollection, you must complete the following steps:
      * Alternatively, you can search for the subcollection in the search bar.
 
   4. Hover the mouse over the subcollection you want to share. A menu of icons is displayed.
-  5. Click the **More options** (<figure><img src="../.gitbook/assets/unnamed_60.png" alt=""><figcaption></figcaption></figure>) icon. A menu is displayed.
+  5. Click the **More options** (<figure><img src="../../../../../.gitbook/assets/unnamed_60.png" alt=""><figcaption></figcaption></figure>) icon. A menu is displayed.
   6. Select the **Delete collection** option. The **Delete collection?** dialog box is displayed.
   7. Select how you want to delete the collection:
 

@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add a WiFi item to your Cerby workspace.
+intercom_id: 8705330
 ---
 
 # Add a WiFi item
@@ -9,23 +10,23 @@ description: This article describes how to add a WiFi item to your Cerby workspa
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * You must have already set up your [trusted devices](https://help.cerby.com/en/articles/8142370-how-to-set-up-and-manage-your-trusted-devices)
-  * Supported using the Cerby web and mobile apps
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* You must have already set up your [trusted devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices)
+* Supported using the Cerby web and mobile apps
 
 
 {% endhint %}
 
 You can add WiFi items and attachments to Cerby in the following two ways:
 
-  * Add a WiFi item manually
-  * Import WiFi items from LastPass
+* Add a WiFi item manually
+* Import WiFi items from LastPass
 
 The following sections describe each way.
 
 * * *
 
-# Add a WiFi item manually
+## Add a WiFi item manually
 
 To add a secret manually and, optionally, a file attachment, you must complete the following steps using the Cerby web app:
 
@@ -51,11 +52,10 @@ To add a secret manually and, optionally, a file attachment, you must complete t
 
   6. Add an attachment optionally by performing the following actions:
      1. Click the **Add attachment** button. A file dialog box is displayed.
-     2. Select the file you want to add as an attachment to the secret. For more information on the size limits and supported file formats, read the [Specifications](https://help.cerby.com/en/articles/7216784-explore-secrets#h_4d6ff4fb5e) section.
+     2. Select the file you want to add as an attachment to the secret. For more information on the size limits and supported file formats, read the [Specifications](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-secrets) section.
      3. Click the **Open** button. The file dialog box closes, and the file is displayed on the **Attachments** section.
      4. Repeat steps a to c as necessary.
   7. Select a vault where you want to save the secret from the **Vault** drop-down list.
-
 **NOTE:** If you only have one vault, the **Vault** drop-down list is not displayed.
 
   8. Click the **Add Secret** button. The dialog box closes, and the secret details page is displayed.
@@ -64,8 +64,8 @@ Now you are done. You can start managing access to your WiFi items securely.
 
 * * *
 
-# Import WiFi items from LastPass
+## Import WiFi items from LastPass
 
-To import WiFi items from your password manager, including their file attachments, follow the instructions in the [How to use the Password Manager Importer](https://help.cerby.com/en/articles/7175132-how-to-use-the-password-manager-importer) article.
+To import WiFi items from your password manager, including their file attachments, follow the instructions in the [How to use the Password Manager Importer](https://cerby-test.gitbook.io/cerby-test/management/credential-management/item-importer/migrate-from-lastpass-to-cerby) article.
 
 After importing your WiFi items, you can start managing access to them securely.

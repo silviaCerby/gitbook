@@ -1,5 +1,6 @@
 ---
 description: This article describes how to add users and teams to your external seat-based and paid social apps via a business hub.
+intercom_id: 9045790
 ---
 
 # Add users and teams to your apps via a business hub
@@ -9,8 +10,8 @@ description: This article describes how to add users and teams to your external 
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -22,7 +23,7 @@ The process of adding users involves sharing the business hub integration with o
 {% hint style="danger" %}
 
 
-**IMPORTANT:** To start protecting and managing user access from Cerby, the new users must accept the invitation and join the external app. For instructions, read the article [Join your external app and set up your business hub access](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby).
+**IMPORTANT:** To start protecting and managing user access from Cerby, the new users must accept the invitation and join the external app. For instructions, read the article [Join your external app and set up your business hub access](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access).
 
 
 {% endhint %}
@@ -51,7 +52,6 @@ To add a user to your app via a business hub, you must complete the following st
 
   12. Click the **Next** button. The**Define App Role** dialog box is displayed.
   13. Select the corresponding access role of the users and teams from the **Application Role** list.
-
 **NOTE:** Access roles are different depending on the app’s native roles and permissions.
 
   14. (Optional) Assign the assets to share with the users and teams by completing the following steps:
@@ -65,7 +65,6 @@ To add a user to your app via a business hub, you must complete the following st
         * **Full access:** It means users can perform all the supported actions on the asset.
 
   15. Click the**Share** button. The dialog box closes, and a success message box is displayed. The new users and teams are displayed in the table in the**User Overview** section.
-
 Cerby triggers an automated task to send invites via email to the users to set up their account to join the app and connect their user account to Cerby.
 
 Now you are done.
@@ -73,7 +72,7 @@ Now you are done.
 {% hint style="info" %}
 
 
-**NOTE:** If the invitation fails, you’ll see an **Invite failed** status next to the user. You can resend the invitation manually. For detailed instructions, read the article [Troubleshooting: Add users to your app manually](https://help.cerby.com/en/articles/9046236-troubleshooting-apps#h_fe825e748a).
+**NOTE:** If the invitation fails, you’ll see an **Invite failed** status next to the user. You can resend the invitation manually. For detailed instructions, read the article [Troubleshooting: Add users to your app manually](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/troubleshooting/troubleshooting-business-hubs).
 
 
 {% endhint %}

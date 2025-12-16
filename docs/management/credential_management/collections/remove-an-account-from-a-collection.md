@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove accounts from a collection.
+intercom_id: 11102060
 ---
 
 # Remove an account from a collection
@@ -9,9 +10,9 @@ description: This article describes how to remove accounts from a collection.
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
-  * Collection **Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
+* Collection **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}

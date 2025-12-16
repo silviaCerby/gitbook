@@ -1,5 +1,6 @@
 ---
 description: This article describes how to configure a custom user schema for your IdLCM integration.
+intercom_id: 11644390
 ---
 
 # Configure your user schema
@@ -9,8 +10,8 @@ description: This article describes how to configure a custom user schema for yo
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -21,14 +22,14 @@ Configuring a custom user schema in Cerby ensures that user profiles and access 
 
 For each external app available in the app catalog of IdLCM integrations, Cerby provides a default user schema that you can update to perform one of the following actions:
 
-  * Add custom attributes
-  * Add custom roles
+* Add custom attributes
+* Add custom roles
 
 The following sections describe each action.
 
 * * *
 
-# Add custom attributes
+## Add custom attributes
 
 Cerby supports the definition of custom attributes to extend the default user schema. The goal is to tailor user profiles to your organization's specific requirements by adding fields that are not part of the standard schema.
 
@@ -37,7 +38,7 @@ Cerby supports the definition of custom attributes to extend the default user sc
 
 **IMPORTANT** : When you create a custom attribute for a user schema, you must define the new attributes and its corresponding mapping within your Identity Provider (IdP). For instructions, read the official documentation of your IdP:
 
-  * **Okta:**
+* **Okta:**
     * [Add custom attributes to apps, directories, and identity providers](https://help.okta.com/oie/en-us/content/topics/users-groups-profiles/usgp-add-custom-attribute.htm)
     * [Map app attributes on the Provisioning page](https://help.okta.com/en-us/content/topics/users-groups-profiles/usgp-map-attributes-provisioning.htm)
 ​**NOTE:** Okta only supports **urn:ietf:params:scim:schemas:extension:enterprise:2.0:User** namespace for schema extensions.
@@ -76,8 +77,8 @@ The following table provides a description of each JSON field used for defining 
 **`type`** | Indicates the constant value **`cerby:user-schema-attribute`**|  String
 **`dataClassification`**|  Indicates the sensitivity level of the data. The valid values are the following:
 
-  * **`plain`**
-  * **`encrypted`**
+* **`plain`**
+* **`encrypted`**
 
 |  String
 **`allowEmptyInSync`**|  Indicates if the attribute can be empty when syncing user data between systems.| Boolean
@@ -85,10 +86,10 @@ The following table provides a description of each JSON field used for defining 
 **`required`**|  Indicates if the attributes must be provided when creating or updating a user.| Boolean
 **`returned`**|  Indicates when the field is included in responses. The valid values are the following:
 
-  * **`always`**
-  * **`never`**
-  * **`default`**
-  * **`request`**
+* **`always`**
+* **`never`**
+* **`default`**
+* **`request`**
 
 |  String
 **`multiValued`**|  Indicates if the attribute supports multiple values.| Boolean
@@ -97,7 +98,7 @@ The following table provides a description of each JSON field used for defining 
 
 * * *
 
-# Add custom roles
+## Add custom roles
 
 Cerby supports the creation of custom roles in the user schema, enabling you to define role attributes that align with how your connected apps manage access. By defining a custom role attribute, you can automatically assign the right role to each user when their account is created or updated.
 
@@ -106,7 +107,7 @@ Cerby supports the creation of custom roles in the user schema, enabling you to 
 
 **IMPORTANT** : After defining custom roles in your IdLCM integrations, you must configure the mapping within your IdP to ensure role information is included correctly during user provisioning. For instructions, read the official documentation of your IdP:
 
-  * **Okta:**
+* **Okta:**
     * [Map app attributes on the Provisioning page](https://help.okta.com/en-us/content/topics/users-groups-profiles/usgp-map-attributes-provisioning.htm)
 
 

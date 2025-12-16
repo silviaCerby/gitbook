@@ -1,5 +1,6 @@
 ---
 description: This article describes how to complete the recertification process for your accounts and business hubs in Cerby.
+intercom_id: 10228341
 ---
 
 # Simplify your account recertification process with Cerby
@@ -12,12 +13,12 @@ This feature leverages the comprehensive visibility and control that Cerby provi
 
 The following are some of the benefits of the Recertification feature:
 
-  * Regulating access controls, thus reducing the risk of unauthorized access and safeguarding your organization’s sensitive data.
-  * Ensuring consistent adherence to internal security policies, helping your organization stay aligned with best practices and regulatory standards.
-  * Reinforcing trust using Cerby’s robust security and effective user management, giving users peace of mind and a stronger sense of reliability.
+* Regulating access controls, thus reducing the risk of unauthorized access and safeguarding your organization’s sensitive data.
+* Ensuring consistent adherence to internal security policies, helping your organization stay aligned with best practices and regulatory standards.
+* Reinforcing trust using Cerby’s robust security and effective user management, giving users peace of mind and a stronger sense of reliability.
 
 The following are specific benefits for account **Owners** :
 
-  * Gaining visibility on the account recertification progress and due dates to stay on track with pending items.
-  * Centralizing account access reviews and reducing the need for time-consuming manual efforts.
-  * Having immediate access to clear action items needed to meet compliance criteria.
+* Gaining visibility on the account recertification progress and due dates to stay on track with pending items.
+* Centralizing account access reviews and reducing the need for time-consuming manual efforts.
+* Having immediate access to clear action items needed to meet compliance criteria.

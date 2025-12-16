@@ -1,5 +1,6 @@
 ---
 description: This article describes how to connect a business hub to centrally manage the users of your seat-based and paid social apps from Cerby.
+intercom_id: 9046120
 ---
 
 # Connect a business hub for your app
@@ -9,8 +10,8 @@ description: This article describes how to connect a business hub to centrally m
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
-  * Only supported using the Cerby web app
+* Workspace **Owners** , **Super** **Admins** , **Admins** , and **Users**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -19,34 +20,33 @@ As a user with any workspace role in Cerby, except **Guest User** and **Login-On
 
 When you connect the business hub, you become its **Owner** , and you can perform the following user and access management tasks from Cerby:
 
-  * Check for updates
-  * Add users
-  * Update user roles
-  * Remove users
+* Check for updates
+* Add users
+* Update user roles
+* Remove users
 
 This article provides generic instructions on how to connect a business hub to Cerby. For app-specific articles and videos, visit the [Connecting business hubs for your apps](https://help.cerby.com/en/collections/10289415-connecting-business-hubs-for-your-apps) and [Connecting business hubs for your paid social apps](https://help.cerby.com/en/collections/12330234-connecting-business-hubs-for-your-paid-social-apps) collections in the Cerby Help Center.
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to connect a business hub:
 
-  * A Cerby workspace
-  * A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
-  * A collaboration space (workspace, team, or dashboard) in your app
-  * A group assignment configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning for your apps based on IdP events. For more information, read the articles available in the [Managing users via an IdP and business hub](https://help.cerby.com/en/collections/12330182-managing-users-via-an-idp-and-business-hub) collection in the Cerby Help Center
-  * An automation account, meaning an active user account with a native admin role in your seat-based or paid social app. For instructions and recommendations on how to create this account, read the article[ Create a service account for your business hub](https://help.cerby.com/en/articles/9830816-create-an-automation-or-service-account-for-your-business-hub)
-  * The user management and login method for your business hub identified. For more information, read the **User management and login method** section of the article [Explore Business Hubs](https://help.cerby.com/en/articles/6831152-explore-apps)
-  * A business or organization ID. Commonly, you can find the ID in the following ways:
+* A Cerby workspace
+* A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
+* A collaboration space (workspace, team, or dashboard) in your app
+* A group assignment configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning for your apps based on IdP events. For more information, read the articles available in the [Managing users via an IdP and business hub](https://help.cerby.com/en/collections/12330182-managing-users-via-an-idp-and-business-hub) collection in the Cerby Help Center
+* An automation account, meaning an active user account with a native admin role in your seat-based or paid social app. For instructions and recommendations on how to create this account, read the article[ Create a service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+* The user management and login method for your business hub identified. For more information, read the **User management and login method** section of the article [Explore Business Hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
+* A business or organization ID. Commonly, you can find the ID in the following ways:
+​**NOTE:** Not all business hubs require a business or organization ID; Cerby displays an input field when applicable to your app. For more information, read the article [Retrieve the Business ID to connect your disconnected apps to Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby).
+
     * **From the address bar:** When you are logged in to your app, sometimes the ID is displayed in the address bar as part of the URL. For example, **`https://business.app.com/settings/&business_id=1234567890`**. Just copy the value and paste it when connecting the business hub.
     * **From the business information or settings:** When you are logged in to your app, navigate to the settings or business information page. The ID is usually displayed in an information section for you to copy.
-
-​**NOTE:** Not all business hubs require a business or organization ID; Cerby displays an input field when applicable to your app. For more information, read the article [Retrieve the Business ID to connect your disconnected apps to Cerby](https://help.cerby.com/en/articles/12335748-retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby).
-
 * * *
 
-# Connect a business hub for your app
+## Connect a business hub for your app
 
 To connect a business hub for your seat-based or paid social app, you must complete the following main steps from the Cerby web app dashboard:
 
@@ -57,7 +57,7 @@ To connect a business hub for your seat-based or paid social app, you must compl
 
 The following sections describe each main step.
 
-## 1\. Add a business hub and connect it to your external app
+### 1\. Add a business hub and connect it to your external app
 
 To add a business hub and connect it to your seat-based or paid social app, you must complete the following steps:
 
@@ -69,6 +69,7 @@ To add a business hub and connect it to your seat-based or paid social app, you 
   4. Click the **Get started** button. A wizard is displayed on the **Select app** page.
   5. Select the corresponding app from the catalog. The **Enter app details** page is displayed on the wizard.
   6. Enter and select your app information in the corresponding fields:
+**NOTE:** Other input fields relevant to your app might be required.
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
      * **Business ID:** It is the unique identifier of your business or organization within the seat-based or paid social app. This value may exist or not depending on the app and might have different names, such as **Organization ID** or **Team ID**. For generic instructions on how to find the ID, read the Requirements section.
@@ -76,9 +77,8 @@ To add a business hub and connect it to your seat-based or paid social app, you 
        * **Single sign-on (SSO)** : Access is managed by your identity provider, and users log in with SSO authentication.
        * **Username and password:** Account security and access are managed by Cerby, and users log in with their credentials.
 
-**NOTE:** Other input fields relevant to your app might be required.
-
   7. Click the **Next** button. The **Select automation account** page is displayed. One of the following scenarios occurs:
+The wizard closes, and a success message box is displayed. The corresponding business hub is also displayed on the**Business Hubs** page.
 
      * If you already have an account for the external app, a list of accounts is displayed.
 
@@ -98,11 +98,9 @@ To add a business hub and connect it to your seat-based or paid social app, you 
           * **Phone Number Linked to Accou** nt: It is the phone number associated with your account
           * Click the **Add account** button.
 
-The wizard closes, and a success message box is displayed. The corresponding business hub is also displayed on the**Business Hubs** page.
-
 The next step is 2\. Check for updates to import users, roles, and assets to Cerby.
 
-## 2\. Check for updates to import users, roles, and assets to Cerby
+### 2\. Check for updates to import users, roles, and assets to Cerby
 
 To check for updates in your app to identify and import users, roles, and assets to Cerby, you must complete the following steps:
 
@@ -119,14 +117,14 @@ To check for updates in your app to identify and import users, roles, and assets
 {% hint style="info" %}
 
 
-**NOTE:** Cerby runs syncs regularly for all business hubs, but you can trigger them manually, as described above in steps 1 to 4. For more information, read the article [Sync your app users with your business hub](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report).
+**NOTE:** Cerby runs syncs regularly for all business hubs, but you can trigger them manually, as described above in steps 1 to 4. For more information, read the article [Sync your app users with your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).
 
 
 {% endhint %}
 
 The next step is [3\. Connect your external app user account to the business hub (optional)](https://docs.google.com/document/d/13bEDsJOdtkkCru_Wred7pgQRZTlLOM1Xj0g5Tj6K2EY/edit?pli=1#heading=h.ruciuhfek6rd).
 
-## 3\. **Connect your external app user account to the business hub (optional)**
+### 3\. **Connect your external app user account to the business hub (optional)**
 
 As an integration **Owner** , you can access the external app using the service account associated with the business hub. However, to avoid potential conflicts and ensure smooth access, Cerby recommends connecting your external app user account to the business hub, especially if you actively work in the external app.
 
@@ -141,7 +139,7 @@ To connect your external app user account to the business hub so Cerby can manag
 
 The next step is 4\. Manage unmatched users, which you must complete from your Cerby dashboard.
 
-## 4\. Manage unmatched users
+### 4\. Manage unmatched users
 
 After a check for updates, Cerby matches app members to their Cerby user accounts, including existing guest users and local partners. Manual matching is required for users who cannot be matched automatically.
 
@@ -158,13 +156,13 @@ The app users are displayed in the following tabs of the **User Overview** secti
 
 For unmatched users, you can perform one of the following actions:
 
-  * Match users
-  * Remove unmatched users
-  * Exempt unmatched users
+* Match users
+* Remove unmatched users
+* Exempt unmatched users
 
 The following sections describe each action.
 
-### Match users
+#### Match users
 
 To match users to their corresponding Cerby user account, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -179,7 +177,7 @@ To match users to their corresponding Cerby user account, you must complete the 
 
   6. Click the **Match user** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Onboarded users** tab.
 
-### Remove unmatched users
+#### Remove unmatched users
 
 To remove unmatched users from the seat-based or paid social app, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
@@ -190,7 +188,7 @@ To remove unmatched users from the seat-based or paid social app, you must compl
   2. Select the**Remove user** option from the menu. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the external app.
 
-### Exempt unmatched users
+#### Exempt unmatched users
 
 Exempted users keep their user accounts active for the seat-based or paid social app, but you cannot manage them through Cerby.
 
@@ -203,21 +201,21 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 * * *
 
-## Use your business hub
+### Use your business hub
 
 The following are the supported features of business hubs you can use:
 
-  * [Join your external app and set up your business hub access](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby)
-  * [Add users to your app via a business hub](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Provision users to your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040540-provision-users-to-your-apps-via-an-idp-and-business-hub)
-  * [Remove users from your app via a business hub](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Remove teams from your app via a business hub](https://help.cerby.com/en/articles/11038640-remove-teams-from-your-app-via-a-business-hub)
-  * [Deprovision users from your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040570-deprovision-users-from-your-apps-via-an-idp-and-business-hub)
-  * [Update user roles in your apps via an IdP and business hub](https://help.cerby.com/en/articles/11040590-update-user-roles-in-your-apps-via-an-idp-and-business-hub)
-  * [Update user roles in your app via a business hub](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Sync your app users with your business hub ](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
-  * [Protect your app users via a business hub](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app via a business hub](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track the activity of business hub users](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove a business hub](https://help.cerby.com/en/articles/9046230-remove-an-app)
-  * [Troubleshooting Business Hubs](https://help.cerby.com/en/articles/9046236-troubleshooting-apps)
+* [Join your external app and set up your business hub access](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+* [Add users to your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+* [Provision users to your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/provision-users-to-your-apps-via-an-idp-and-business-hub)
+* [Remove users from your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+* [Remove teams from your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-teams-from-your-app-via-a-business-hub)
+* [Deprovision users from your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/deprovision-users-from-your-apps-via-an-idp-and-business-hub)
+* [Update user roles in your apps via an IdP and business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-apps-via-an-idp-and-business-hub)
+* [Update user roles in your app via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+* [Sync your app users with your business hub ](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+* [Protect your app users via a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+* [Log in to your app via a business hub](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+* [Track the activity of business hub users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+* [Remove a business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
+* [Troubleshooting Business Hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/troubleshooting/troubleshooting-business-hubs)

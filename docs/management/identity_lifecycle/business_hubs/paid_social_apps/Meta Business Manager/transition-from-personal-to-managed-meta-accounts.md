@@ -1,5 +1,6 @@
 ---
 description: This article describes how to transition access to your Meta business tools from using personal accounts to managed Meta Accounts.
+intercom_id: 10421800
 ---
 
 # Transition from personal to managed Meta Accounts
@@ -17,7 +18,7 @@ Users do need to store their credentials within Cerby; instead, they can authent
 
 * * *
 
-# Transition from personal to managed Meta Accounts
+## Transition from personal to managed Meta Accounts
 
 The following are the main steps you must follow to migrate from your personal account to managed Meta Accounts:
 
@@ -26,16 +27,16 @@ The following are the main steps you must follow to migrate from your personal a
 
 The following sections describe each main step.
 
-## 1\. Complete your migration to managed Meta Accounts
+### 1\. Complete your migration to managed Meta Accounts
 
 The Meta transition from Facebook personal accounts to managed Meta Accounts is designed to improve security and streamline user access to business resources without relying on personal Facebook profiles. This change means more efficient administrative features, such as SSO and automatic account provisioning.
 
 To learn, prepare, and perform the migration process from personal to managed Meta Accounts, ensure to review the following official Meta articles:
 
-  * [Managed Meta Accounts & Third-party Integrations](https://developers.facebook.com/docs/facebook-login/managed-accounts)
-  * [About migrating to managed Meta accounts in Business Manager](https://www.facebook.com/business/help/967992801216784?helpref=faq_content)
+* [Managed Meta Accounts & Third-party Integrations](https://developers.facebook.com/docs/facebook-login/managed-accounts)
+* [About migrating to managed Meta accounts in Business Manager](https://www.facebook.com/business/help/967992801216784?helpref=faq_content)
 
-## 2\. Update the users’ login method in Cerby
+### 2\. Update the users’ login method in Cerby
 
 To update the users’ login method in Cerby, you must complete the next substeps:
 
@@ -45,7 +46,7 @@ To update the users’ login method in Cerby, you must complete the next substep
 
 The following sections describe each substep.
 
-## 2.1. Update the login method of the Meta business hub
+### 2.1. Update the login method of the Meta business hub
 
 To update the login method of the Meta business hub, you must complete the next steps:
 
@@ -56,7 +57,7 @@ To update the login method of the Meta business hub, you must complete the next 
   5. Select the **Single sign on (SSO)** option in the drop-down field in the dialog box.
   6. Click the **Done** button. A success message is displayed.
 
-## 2.2. Sync the user information in the Meta business hub
+### 2.2. Sync the user information in the Meta business hub
 
 To sync the user information in the Meta business hub, you must complete the next steps:
 
@@ -64,7 +65,6 @@ To sync the user information in the Meta business hub, you must complete the nex
   2. Select the **Business Hubs** option from the left navigation drawer. The **Business Hubs** view is displayed.
   3. Click the **Settings** () icon of the corresponding Meta business hub card. The business hub details page is displayed with the **Settings** tab activated.
   4. Click the **Check for updates** button located at the top-right section of the page. A message box is displayed with information about the process.
-
 **NOTE:** The check and import process may take a few minutes depending on the number of users and assets, and because Cerby automatically matches users to their corresponding Cerby account. You can review the progress of the automation task through the **Automation** view; when the process is complete, a success message box is displayed.
 
   5. Activate the **Members** tab to review the list of synced users in the **User Overview** section.

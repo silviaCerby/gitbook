@@ -1,5 +1,6 @@
 ---
 description: This article describes the actions you can take on the issues encountered by automation tasks displayed in the Security Hub.
+intercom_id: 12845215
 ---
 
 # Address automation task issues in the Security Hub
@@ -9,8 +10,8 @@ description: This article describes the actions you can take on the issues encou
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -19,7 +20,7 @@ As a workspace **Owner** , **Super** **Admin** , or **Admin** , you can quickly 
 
 An automation task issue is raised when a workflow execution for that task type enters a state that cannot be resolved independently. Individual issue cards in the Security Hub provide you with the actions you can perform in the relevant workspace module or offer additional information by opening the corresponding help center article. If you can’t solve an issue on your side, the Cerby team automatically marks it under its review. For all cases, you can mark an issue as _read_ , indicating that you have acknowledged the issue exists.
 
-# Filter the list of automation task issues
+## Filter the list of automation task issues
 
 To filter the list of automation task issues displayed in the Security Hub, you must complete the following steps:
 
@@ -34,7 +35,7 @@ Now you are done.
 
 * * *
 
-# Act on an individual automation task issue
+## Act on an individual automation task issue
 
 To act on an individual automation task issue in the Security Hub, you must complete the following steps:
 
@@ -54,7 +55,7 @@ Now you are done.
 
 * * *
 
-# Mark automation task issues as read in bulk
+## Mark automation task issues as read in bulk
 
 To mark multiple automation task issues as read in the Security Hub, you must complete the following steps:
 

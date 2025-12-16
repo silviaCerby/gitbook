@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove teams from your seat-based and paid social apps via a business hub.
+intercom_id: 11038640
 ---
 
 # Remove teams from your app via a business hub
@@ -9,8 +10,8 @@ description: This article describes how to remove teams from your seat-based and
 
 **Who can use this feature?**
 
-  * Business hub **Owners**
-  * Only supported using the Cerby web app
+* Business hub **Owners**
+* Only supported using the Cerby web app
 
 
 {% endhint %}
@@ -32,10 +33,10 @@ To remove a team from your external app via a business hub, you must complete th
 
 Now you are done.
 
-# Important considerations
+## Important considerations
 
 While the instructions above provide a general guide for removing teams, outcomes can vary depending on how access was granted to the business hub integration. The following are important considerations:
 
-  * Users who keep shared access to the integration, whether individually or through another team, will not be removed from the external app. Cerby ensures that their role in the external app is updated to reflect their remaining access.
-  * To fully remove users’ access, make sure you review and remove all existing user and team access grants to the business hub integration.
-  * Removals from the external app or the business hub _don’t_ affect user access to their Cerby workspace.
+* Users who keep shared access to the integration, whether individually or through another team, will not be removed from the external app. Cerby ensures that their role in the external app is updated to reflect their remaining access.
+* To fully remove users’ access, make sure you review and remove all existing user and team access grants to the business hub integration.
+* Removals from the external app or the business hub _don’t_ affect user access to their Cerby workspace.

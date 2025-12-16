@@ -1,10 +1,11 @@
 ---
 description: This article describes how to connect a Pinterest Business native partner to gain visibility on the users with shared access to your assets.
+intercom_id: 9082837
 ---
 
 # Connect a Pinterest Business native partner to Cerby
 
-With Cerby, you can connect a Pinterest Business [native partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_e7fa9c355c) to your workspace to gain visibility on the partner’s users with shared access to your assets.
+With Cerby, you can connect a Pinterest Business [native partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) to your workspace to gain visibility on the partner’s users with shared access to your assets.
 
 This connection is established via a monitor account with **Manager** access to your partner’s Pinterest Business Center.
 
@@ -32,22 +33,21 @@ This article describes how to connect a Pinterest Business native partner to Cer
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to add a Pinterest Business native partner to Cerby:
 
-  * A Cerby account
-  * A Pinterest Business Manager integration in Cerby. For more information and instructions, read the article [Connect a Pinterest Business Center app integration](https://help.cerby.com/en/articles/6119728-add-a-pinterest-business-center-integration)
-  * A partner in Pinterest Business with shared access to your assets
-  * An admin from your partner’s side must have already joined your Cerby workspace as a **Guest User**. For more information and instructions, read the article [How to invite a guest user to your workspace ](https://help.cerby.com/en/articles/8392946-how-to-invite-a-guest-user-to-your-workspace)
-  * Your assets isolated into a single Pinterest Business Manager (optional)
+* A Cerby account
+* A Pinterest Business Manager integration in Cerby. For more information and instructions, read the article [Connect a Pinterest Business Center app integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/pinterest-business-manager/connect-a-pinterest-business-center-app-integration)
+* A partner in Pinterest Business with shared access to your assets
+* An admin from your partner’s side must have already joined your Cerby workspace as a **Guest User**. For more information and instructions, read the article [How to invite a guest user to your workspace ](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users)
+* Your assets isolated into a single Pinterest Business Manager (optional)\
+  **NOTE:** Cerby recommends your partner isolate your shared assets to avoid syncing and importing information from other organizations or customers
 
-**NOTE:** Cerby recommends your partner isolate your shared assets to avoid syncing and importing information from other organizations or customers
-
-  * An active Pinterest Business account with the **Manager** role on your partner’s Pinterest Business Manager
+* An active Pinterest Business account with the **Manager** role on your partner’s Pinterest Business Manager
 * * *
 
-# Connect a Pinterest Business native partner to Cerby
+## Connect a Pinterest Business native partner to Cerby
 
 To connect a Pinterest Business native partner to Cerby, you and your partner must complete the following main steps:
 
@@ -56,19 +56,18 @@ To connect a Pinterest Business native partner to Cerby, you and your partner mu
 
 The following sections describe each main step.
 
-## 1\. Partner setup in Pinterest Business
+### 1\. Partner setup in Pinterest Business
 
 Your partner must complete the following steps in Pinterest Business to set up the connection to Cerby:
 
   1. Create an account with the **Manager** role on the Pinterest Business Manager with the isolated shared asset. For instructions, read the article [Create and manage accounts](https://help.pinterest.com/en/business/article/create-and-manage-accounts).
-
 **NOTE:** Preferably, set this account up with a Cerby-managed email address and phone number, as well as a secure password, provided by your partner.
 
   2. Add the account to Cerby and share it with your partner.
 
 Now, your partner is done. The next step is 2\. Native partner connection in Cerby that you must complete using the Cerby web app.
 
-## 2\. Native partner connection in Cerby
+### 2\. Native partner connection in Cerby
 
 You must complete the following steps in Cerby to connect with your Pinterest Business native partner:
 
@@ -77,7 +76,7 @@ You must complete the following steps in Cerby to connect with your Pinterest Bu
 
 The following sections describe each step.
 
-### 1\. Connect the native partner to Cerby
+#### 1\. Connect the native partner to Cerby
 
 To connect the native partner to Cerby, you must complete the following steps:
 
@@ -86,7 +85,6 @@ To connect the native partner to Cerby, you must complete the following steps:
   3. Click the corresponding app card. The app details page is displayed.
   4. Activate the **Partners** tab.
   5. Activate the **Pinterest Business Partners** tab from the **Partners** section. A list of partners with shared access to your assets is displayed.
-
 **NOTE:** If your partner exists in your Pinterest Business Manager but is not displayed in the **Pinterest Business Partners tab** in Cerby, perform a check for updates to sync and import their user data.
 
   6. Click the **More options** icon from the corresponding partner, which has a “Pending Cerby onboarding” status. A drop-down list is displayed.
@@ -97,12 +95,11 @@ To connect the native partner to Cerby, you must complete the following steps:
 
 The next step is 2\. Sync and review your partner’s users, which you must complete from the app details page in Cerby.
 
-### 2\. Sync and review your partner’s users
+#### 2\. Sync and review your partner’s users
 
 To sync and review your partner’s users, you must complete the following steps from the app details page in Cerby:
 
   1. Click the **Check for updates** button located at the top right of the app details page. The process to sync and import to Cerby the partner’s user data may take a few seconds.
-
 **NOTE:** You can review the progress of the check for updates through the **Automation** view. When the corresponding automation task has the “Complete” status, you can continue to step 2.
 
   2. Activate the **Members** tab from the app details page.

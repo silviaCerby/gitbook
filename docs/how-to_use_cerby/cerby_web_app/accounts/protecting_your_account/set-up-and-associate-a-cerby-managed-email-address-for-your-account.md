@@ -1,5 +1,6 @@
 ---
 description: This article describes how to set up and associate a Cerby-managed email address for your account.
+intercom_id: 11888658
 ---
 
 # Set up and associate a Cerby-managed email address for your account
@@ -9,11 +10,11 @@ description: This article describes how to set up and associate a Cerby-managed 
 
 **Who can use this feature?**
 
-  * Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
-  * **Account Owners**
-  * Only supported using the Cerby web app
+* Workspace**Owners** , **Super Admins** , **Admins** , and **Users**
+* **Account Owners**
+* Only supported using the Cerby web app
 
-**IMPORTANT:** If you use local vaults, you must have already set up at least one [trusted session](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices) on your devices.
+**IMPORTANT:** If you use local vaults, you must have already set up at least one [trusted session](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices) on your devices.
 
 
 {% endhint %}
@@ -22,7 +23,7 @@ As an account **Owner** , you can set up and associate your account with a Cerby
 
 With a Cerby-managed email address, all email messages are routed to your dedicated in-platform Shared Inbox, providing a centralized and private channel for all digital communications related to your account.
 
-When used as a multi-factor authentication (MFA) verification method, Cerby retrieves the verification codes sent to the Cerby-managed email address and fills in the codes during automated logins. These codes are shared with all users who have access to your account, enabling automated logins for them as well. For more information, read the article [Turn on MFA with a Cerby-managed email address for your account](https://help.cerby.com/en/articles/11888742-turn-on-mfa-with-a-cerby-managed-email-address-for-your-account).
+When used as a multi-factor authentication (MFA) verification method, Cerby retrieves the verification codes sent to the Cerby-managed email address and fills in the codes during automated logins. These codes are shared with all users who have access to your account, enabling automated logins for them as well. For more information, read the article [Turn on MFA with a Cerby-managed email address for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-a-cerby-managed-email-address-for-your-account).
 
 {% hint style="info" %}
 
@@ -34,17 +35,17 @@ When used as a multi-factor authentication (MFA) verification method, Cerby retr
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to set up and associate a Cerby-managed email address for your account:
 
-  * A Cerby workspace
-  * A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
-  * An account in an app or service provider
-  * An account added to Cerby to which you have the **Owner** role
+* A Cerby workspace
+* A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
+* An account in an app or service provider
+* An account added to Cerby to which you have the **Owner** role
 * * *
 
-# Set up and associate a Cerby-managed email address for your account
+## Set up and associate a Cerby-managed email address for your account
 
 To set up and associate a Cerby-managed email address for your account, you must complete the following main steps:
 
@@ -53,7 +54,7 @@ To set up and associate a Cerby-managed email address for your account, you must
 
 The following sections describe each main step.
 
-## 1\. Create the Cerby-managed email address
+### 1\. Create the Cerby-managed email address
 
 To create the Cerby-managed email address, you must complete the following steps using the Cerby web app:
 
@@ -73,9 +74,8 @@ To create the Cerby-managed email address, you must complete the following steps
           * **Me**
           * **All account owners**
           * **All account collaborators**
-          * **Selected distribution lists**
-
-**NOTE:** You can create a distribution list of workspace users by clicking the **Create a new distribution list** button and following the instructions.
+          * **Selected distribution lists**\
+            **NOTE:** You can create a distribution list of workspace users by clicking the **Create a new distribution list** button and following the instructions.
 
        3. (Optional) Activate the **Auto-forward verification code mails** switch if you want the messages with verification codes to be auto-forwarded to the selected recipients.
        4. Click the **Next** button. The **Confirm recipients** dialog box is displayed.
@@ -89,7 +89,7 @@ To create the Cerby-managed email address, you must complete the following steps
 
 The next step is 2\. Associate the Cerby-managed email address with your account.
 
-## 2\. Associate the Cerby-managed email address with your account
+### 2\. Associate the Cerby-managed email address with your account
 
 To associate the Cerby-managed email address with your account, you must complete the following steps in your app:
 
@@ -97,8 +97,7 @@ To associate the Cerby-managed email address with your account, you must complet
   2. Navigate to the account settings.
   3. Associate the Cerby-managed email address with your account by pasting the email you copied previously and saving the changes.
   4. Verify the new email address, if prompted.
-
-**NOTE:** Usually, you must enter a verification code to complete the association process. If you had previously set up auto-forward, the email with the code will be sent to the selected recipients; if you didn’t set it up, complete the instructions in the article [Forward a message from your Cerby inbox](https://help.cerby.com/en/articles/6119548-forward-a-message-from-your-cerby-inbox) to forward you the message.
+**NOTE:** Usually, you must enter a verification code to complete the association process. If you had previously set up auto-forward, the email with the code will be sent to the selected recipients; if you didn’t set it up, complete the instructions in the article [Forward a message from your Cerby inbox](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/forward-a-message-from-your-cerby-inbox) to forward you the message.
 
 **IMPORTANT:** Ensure you associate the Cerby-managed email address with your account. If you don’t do it, Cerby cannot retrieve verification codes and streamline your login.
 ---

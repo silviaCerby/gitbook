@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove an app from the list of settings restrictions.
+intercom_id: 10276395
 ---
 
 # Remove apps from settings restrictions
@@ -9,9 +10,9 @@ description: This article describes how to remove an app from the list of settin
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , and **Admins**
-  * Only supported using the Cerby web app
-  * Workspace users must have the Cerby browser extension installed and logged in
+* Workspace **Owners** , **Super Admins** , and **Admins**
+* Only supported using the Cerby web app
+* Workspace users must have the Cerby browser extension installed and logged in
 
 
 {% endhint %}
@@ -29,11 +30,10 @@ To remove one or multiple apps from the app settings restrictions list, you must
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
   2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed with the **General** tab activated.
   3. Activate the **App settings restrictions** tab.
-
 **TIP:** Narrow down the list by using the following alternatives:
 
-     * Search for the app you want to remove from the list by clicking the **Search** (<figure><img src="../.gitbook/assets/AD_4nXfY4DLRU7ykotOPh_AhLVqVMElflGtc--uA4dwTlimydBVKc6jsz5f4Pb8LGlVLRYA7F9lc2u8ELZh2D6csafWEAZBdUAld8cL5_Fcpxe52TicRZHz-rFyFrUkkOOwj23BYLhFw1g.png" alt=""><figcaption></figcaption></figure>) icon, which displays the search field. As you type in the characters of the app, a list of matching apps is displayed below.
-     * Sort the list by recently added, earlier added, A to Z, or Z to A using the **Sort by** ( <figure><img src="../.gitbook/assets/AD_4nXey1jRuSBA3e3jjYkr3a5acXS-_DMyzZl0Pe6JUddNTvhNSS5IRA75Zl3rglc3QvrLIcvv0V4wyLrXdf_dqEEMyqAY-mTCKZ1KBqs_Kbo3yV4ObFTNn5vB-2uIEUXLCy_1cElVM3g.png" alt=""><figcaption></figcaption></figure>) button next to the search field.
+     * Search for the app you want to remove from the list by clicking the **Search** (<figure><img src="../../../../.gitbook/assets/AD_4nXfY4DLRU7ykotOPh_AhLVqVMElflGtc--uA4dwTlimydBVKc6jsz5f4Pb8LGlVLRYA7F9lc2u8ELZh2D6csafWEAZBdUAld8cL5_Fcpxe52TicRZHz-rFyFrUkkOOwj23BYLhFw1g.png" alt=""><figcaption></figcaption></figure>) icon, which displays the search field. As you type in the characters of the app, a list of matching apps is displayed below.
+     * Sort the list by recently added, earlier added, A to Z, or Z to A using the **Sort by** ( <figure><img src="../../../../.gitbook/assets/AD_4nXey1jRuSBA3e3jjYkr3a5acXS-_DMyzZl0Pe6JUddNTvhNSS5IRA75Zl3rglc3QvrLIcvv0V4wyLrXdf_dqEEMyqAY-mTCKZ1KBqs_Kbo3yV4ObFTNn5vB-2uIEUXLCy_1cElVM3g.png" alt=""><figcaption></figcaption></figure>) button next to the search field.
 
   4. Remove one or multiple apps:
 
@@ -46,7 +46,6 @@ To remove one or multiple apps from the app settings restrictions list, you must
      * Multiple apps
 
        1. Select the apps you want to remove from the list. A menu is displayed at the bottom of the page indicating the number of domains you have selected.
-
 **NOTE:** You can perform the following additional actions in the menu:
 
           * Select all the apps in the list by clicking the **Select all** option from the menu at the bottom. All the apps are selected.

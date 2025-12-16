@@ -1,22 +1,23 @@
 ---
 description: This article describes how to update a guest member’s role in an existing local partner.
+intercom_id: 11944425
 ---
 
 # Update a guest member's role in a local partner
 
 **Who can use this feature?**
 
-  * **Host Admins** and**Guest Admins** of a local partner
-  * Only supported using the Cerby web app
+* **Host Admins** and**Guest Admins** of a local partner
+* Only supported using the Cerby web app
 
 ---
 
-As a **Host Admin** or **Guest Admin** of a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can update a guest member’s role to grant them the permissions they need to streamline collaboration.
+As a **Host Admin** or **Guest Admin** of a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can update a guest member’s role to grant them the permissions they need to streamline collaboration.
 
 The following rules apply when updating roles:
 
-  * **Host Admins** and **Guest Admins** can update the role of **Guest Users** to **Guest Admins** and vice versa.
-  * **Guest Admins** can downgrade themselves to **Guest Users**.
+* **Host Admins** and **Guest Admins** can update the role of **Guest Users** to **Guest Admins** and vice versa.
+* **Guest Admins** can downgrade themselves to **Guest Users**.
 
 To update a guest member’s role, you must complete the following steps:
 

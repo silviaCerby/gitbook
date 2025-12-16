@@ -1,5 +1,6 @@
 ---
 description: This article describes how to remove a team from a collection using the Cerby mobile app.
+intercom_id: 9718650
 ---
 
 # Remove a team from a collection using the Cerby mobile app
@@ -9,9 +10,9 @@ description: This article describes how to remove a team from a collection using
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
-  * Collection **Owners**
-  * Supported using the Cerby web app and mobile app. For the web app instructions, read the article [Remove a team from a collection](https://help.cerby.com/en/articles/8981940-remove-team-access-to-a-collection)
+* Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
+* Collection **Owners**
+* Supported using the Cerby web app and mobile app. For the web app instructions, read the article [Remove a team from a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/remove-a-team-from-a-collection)
 
 
 {% endhint %}

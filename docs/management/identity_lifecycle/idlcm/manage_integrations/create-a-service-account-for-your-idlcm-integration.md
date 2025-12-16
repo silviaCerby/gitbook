@@ -1,5 +1,6 @@
 ---
 description: This article describes how to create a service account in your app to associate it with your IdLCM integration.
+intercom_id: 11641977
 ---
 
 # Create a service account for your IdLCM integration
@@ -9,9 +10,9 @@ description: This article describes how to create a service account in your app 
 
 **Who can use this feature?**
 
-  * Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
-  * Supported using the Cerby web app
-  * **IMPORTANT:** If you use local vaults, you must have already set up at least one trusted session on your devices.
+* Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
+* Supported using the Cerby web app
+* **IMPORTANT:** If you use local vaults, you must have already set up at least one trusted session on your devices.
 
 
 {% endhint %}
@@ -22,16 +23,16 @@ Service accounts are user accounts configured in your external app with enough p
 
 Cerby recommends having dedicated accounts not tied to a person or human identity to associate them with an integration as service accounts. The following are some of the reasons why you should avoid using personal accounts:
 
-  * **Operational continuity:** Service accounts are not tied to specific employees, ensuring that integrations remain functional even if personnel changes occur. This stability is crucial for maintaining uninterrupted operations.
-  * **Enhanced security:** By assigning distinct service accounts for integrations, you can enforce precise access controls and permissions, limiting exposure to sensitive data and reducing the risk of unauthorized access.
-  * **Improved accountability** : Dedicated service accounts enable better tracking and auditing of integration activities, as actions can be attributed to specific accounts rather than being obscured by shared user credentials.
-  * **Simplified maintenance** : Service accounts facilitate easier management of credentials and permissions, streamlining the process of updating or rotating passwords without disrupting user access.
+* **Operational continuity:** Service accounts are not tied to specific employees, ensuring that integrations remain functional even if personnel changes occur. This stability is crucial for maintaining uninterrupted operations.
+* **Enhanced security:** By assigning distinct service accounts for integrations, you can enforce precise access controls and permissions, limiting exposure to sensitive data and reducing the risk of unauthorized access.
+* **Improved accountability** : Dedicated service accounts enable better tracking and auditing of integration activities, as actions can be attributed to specific accounts rather than being obscured by shared user credentials.
+* **Simplified maintenance** : Service accounts facilitate easier management of credentials and permissions, streamlining the process of updating or rotating passwords without disrupting user access.
 
 This article describes how to create an automation or service account in your external app to associate it with your integration. The following are the different ways in which you can configure the account, depending on your app’s characteristics, user management strategy, and login method:
 
-  * Placeholder account
-  * IdP-provisioned account
-  * Individual account
+* Placeholder account
+* IdP-provisioned account
+* Individual account
 
 {% hint style="info" %}
 
@@ -45,7 +46,7 @@ The following sections describe each configuration.
 
 * * *
 
-# Placeholder account
+## Placeholder account
 
 A placeholder account (also known as a “ghost account”) is an account added to Cerby with an associated Cerby-managed email address and phone number.
 
@@ -69,22 +70,22 @@ To create and configure a placeholder account, you must complete the following s
 
      * **Current password:** It is the password you use to log in to your account.
 
-       1. Use the Password Generator in the Cerby browser extension to generate a secure password. For instructions, read the article[ How to generate secure passwords using the Cerby browser extension](https://help.cerby.com/en/articles/8377075-how-to-generate-secure-passwords-using-the-cerby-browser-extension).
+       1. Use the Password Generator in the Cerby browser extension to generate a secure password. For instructions, read the article[ How to generate secure passwords using the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/generate-secure-passwords-using-the-cerby-browser-extension).
   5. Select the corresponding vault from the **Vault** drop-down list to add the account to it.
 **NOTE:** This drop-down list is not displayed if you only have access to one vault.
 
   6. Click the **Add account** button. The dialog box closes, and a success message box and the account details page are displayed.
-  7. Set up a Cerby-managed email address and phone number for the account. For instructions, see the video [How to add a Cerby-managed email or phone number to your account](https://help.cerby.com/en/articles/6393770-video-how-to-add-a-cerby-managed-email-or-phone-number-to-your-account).
+  7. Set up a Cerby-managed email address and phone number for the account. For instructions, see the video [How to add a Cerby-managed email or phone number to your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/video-how-to-add-a-cerby-managed-email-or-phone-number-to-your-account).
 **IMPORTANT:** After adding the Cerby-managed email address, make sure you update the account details in Cerby. Enter this email address as the value in the **Username** field.
 
   8. Create the user account in your external app with the login credentials from the Cerby account.
-  9. Turn on MFA for your app’s user account with Cerby as an authenticator app. For instructions, read the article [How to turn on 2FA managed by Cerby](https://help.cerby.com/en/articles/8429534-how-to-turn-on-2fa-managed-by-cerby).
+  9. Turn on MFA for your app’s user account with Cerby as an authenticator app. For instructions, read the article [How to turn on 2FA managed by Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app).
 
 Now you are done. You can connect an integration for your app.
 
 * * *
 
-# IdP-provisioned account
+## IdP-provisioned account
 
 An IdP-provisioned account (also known as a federated account) is a user account created and managed by your identity provider (IdP).
 
@@ -107,14 +108,14 @@ To create and set up an IdP-provisioned account, you must complete the following
      * The Cerby app
      * The seat-based or paid social app to be managed by this user account
 
-  4. Add this user account to Cerby. For instructions, read the article[ Add an account](https://help.cerby.com/en/articles/8708374-add-an-account).
-  5. Turn on MFA for the user account managed by your IdP with Cerby as an authenticator app. For instructions, read the article[ How to turn on 2FA managed by Cerby](https://help.cerby.com/en/articles/8429534-how-to-turn-on-2fa-managed-by-cerby).
+  4. Add this user account to Cerby. For instructions, read the article[ Add an account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/add-an-account).
+  5. Turn on MFA for the user account managed by your IdP with Cerby as an authenticator app. For instructions, read the article[ How to turn on 2FA managed by Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app).
 
 Now you are done. You can connect a business hub for your app.
 
 * * *
 
-# Individual account
+## Individual account
 
 An individual account (also known as a profile account) is an account directly created by a user on an app or service provider using their corporate login credentials, such as email address and phone number.
 
@@ -122,10 +123,10 @@ Sometimes, especially in paid social apps, users keep their existing personal ac
 
 To create and configure an individual account, you must complete the following steps:
 
-  1. Add your personal account to Cerby. For instructions, read the article[ Add an account](https://help.cerby.com/en/articles/8708374-add-an-account).
-  2. Set up a Cerby-managed email address and phone number for the account. For instructions, see the video[ How to add a Cerby-managed email or phone number to your account](https://help.cerby.com/en/articles/6393770-video-how-to-add-a-cerby-managed-email-or-phone-number-to-your-account).
+  1. Add your personal account to Cerby. For instructions, read the article[ Add an account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/add-an-account).
+  2. Set up a Cerby-managed email address and phone number for the account. For instructions, see the video[ How to add a Cerby-managed email or phone number to your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/video-how-to-add-a-cerby-managed-email-or-phone-number-to-your-account).
 **NOTE:** Cerby recommends you use the Cerby-managed email address as the value in the **Username** field.
 
-  3. Turn on MFA for your app’s user account with Cerby as an authenticator app. For instructions, read the article[ How to turn on 2FA managed by Cerby](https://help.cerby.com/en/articles/8429534-how-to-turn-on-2fa-managed-by-cerby).
+  3. Turn on MFA for your app’s user account with Cerby as an authenticator app. For instructions, read the article[ How to turn on 2FA managed by Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app).
 
 Now you are done. You can connect a business hub for your app.

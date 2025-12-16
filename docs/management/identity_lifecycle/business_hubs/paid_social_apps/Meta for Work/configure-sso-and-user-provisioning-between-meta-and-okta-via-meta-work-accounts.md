@@ -1,5 +1,6 @@
 ---
 description: This article describes how to configure single sign-on (SSO) authentication and automatic user provisioning with Okta via Meta Work Accounts
+intercom_id: 8958775
 ---
 
 # Configure SSO and user provisioning between Meta and Okta via Meta Work Accounts
@@ -23,23 +24,22 @@ Note that this feature is currently available to **select customers only**. For 
 
 * * *
 
-# Requirements
+## Requirements
 
 The following are the requirements to configure the integration between Okta and Meta:
 
-  * An Okta admin with **Application Administrator** permissions (at least)
-  * A Meta Business Manager admin
-  * A Meta Work Accounts IT setup manager
-  * Identify a [Migration team](https://business.facebook.com/business/help/968690314307771), if needed, for the necessary task delegation
-  * Make sure you abide by all the requirements for the environment you’re working on, according to the [IT settings tasks to complete before your managed Meta accounts migration in Business Manager](https://business.facebook.com/business/help/1282083822669093) guide
-  * Prepare the Meta environment following the [Overview of managed Meta accounts setup and migration in Business Manager](https://business.facebook.com/business/help/1428374961242667) guide.
-  * Sign up your organization for managed Meta accounts following the [Launch the migration to managed Meta accounts in Business Manager](https://business.facebook.com/business/help/210453938514953) guide.
-
+* An Okta admin with **Application Administrator** permissions (at least)
+* A Meta Business Manager admin
+* A Meta Work Accounts IT setup manager
+* Identify a [Migration team](https://business.facebook.com/business/help/968690314307771), if needed, for the necessary task delegation
+* Make sure you abide by all the requirements for the environment you’re working on, according to the [IT settings tasks to complete before your managed Meta accounts migration in Business Manager](https://business.facebook.com/business/help/1282083822669093) guide
+* Prepare the Meta environment following the [Overview of managed Meta accounts setup and migration in Business Manager](https://business.facebook.com/business/help/1428374961242667) guide.
+* Sign up your organization for managed Meta accounts following the [Launch the migration to managed Meta accounts in Business Manager](https://business.facebook.com/business/help/210453938514953) guide.
 **IMPORTANT:** You must have the **IT Setup Manager** permissions provided by the **Migration Manager** or **Owner**.
 
 * * *
 
-# Configure the Okta integration for Meta Work Accounts
+## Configure the Okta integration for Meta Work Accounts
 
 To configure the Okta integration for Meta Work Accounts, you must complete the following main steps:
 
@@ -50,7 +50,7 @@ To configure the Okta integration for Meta Work Accounts, you must complete the 
 
 The following sections describe each main step.
 
-## 1\. Configure Meta Work Accounts
+### 1\. Configure Meta Work Accounts
 
 To configure the Meta Work Accounts, you must complete the following steps:
 
@@ -59,9 +59,9 @@ To configure the Meta Work Accounts, you must complete the following steps:
   3. Click the **Verify domain** button to verify your business domain. A verification method dialog box is displayed.
   4. Select the **Email verification (Immediate)** option to verify the domain ownership, as shown in **Figure 1**.
 
-<figure><img src="../.gitbook/assets/TRNsGp3RdX9eK1zl0VCjP9aEmfKX-9UbMnARVBDQKfvs5qyY22JkVJbt-RECWsH6AJEac9rmR2C4buvnAx7tK0CGg9fIm_6YX_oGyD7mEtWoXo0dbUa0qYIlqTkahm-FcpHYnrxYbAPfpUuJ_sn4GCM.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 1.** Verification method dialog box
+
+<figure><img src="../../../../../../.gitbook/assets/TRNsGp3RdX9eK1zl0VCjP9aEmfKX-9UbMnARVBDQKfvs5qyY22JkVJbt-RECWsH6AJEac9rmR2C4buvnAx7tK0CGg9fIm_6YX_oGyD7mEtWoXo0dbUa0qYIlqTkahm-FcpHYnrxYbAPfpUuJ_sn4GCM.png" alt=""><figcaption></figcaption></figure>
 
   5. Select the email address previously registered to receive a verification code.
   6. Enter the verification code.
@@ -70,7 +70,7 @@ To configure the Meta Work Accounts, you must complete the following steps:
 
 The next step is to configure the Okta integration.
 
-## 2\. Add and configure the Meta Work Accounts app in Okta
+### 2\. Add and configure the Meta Work Accounts app in Okta
 
 To add and configure the Meta Work Accounts app in Okta, you must complete the following steps:
 
@@ -83,16 +83,16 @@ To add and configure the Meta Work Accounts app in Okta, you must complete the f
   4. Click the **Add Integration** button. The **Add Meta Work Accounts** page is displayed with the **General Settings** tab activated.
   5. Enter your application name in the **Application label** field, as shown in **Figure 2**.
 
-<figure><img src="../.gitbook/assets/SO1XckgvErVhRLBfuyLJu75QucI9D9R2RoNJoYXyEE7uNYh91vxSnERh7_xiE43Tzkix2uOEcUhmFbLcFPacU8ODR7TvrolGcqIjudcoU6NRiv6lkVO3CMkGzoIWGGWmq_-FatjqFOWbMBl6nN-k9pg.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 2. General Settings** tab of the **Add Meta Work Accounts** page
+
+<figure><img src="../../../../../../.gitbook/assets/SO1XckgvErVhRLBfuyLJu75QucI9D9R2RoNJoYXyEE7uNYh91vxSnERh7_xiE43Tzkix2uOEcUhmFbLcFPacU8ODR7TvrolGcqIjudcoU6NRiv6lkVO3CMkGzoIWGGWmq_-FatjqFOWbMBl6nN-k9pg.png" alt=""><figcaption></figcaption></figure>
 
   6. Click the **Done** button. The **Meta Work Accounts** app page is displayed with the **Assignments** tab activated.
 ​**TIP:** Leave this browser tab open because you need it to configure SSO authentication and automatic user provisioning in Meta.
 
 The next step is to configure SSO authentication in Meta and Okta.
 
-## 3\. Configure SSO in Meta and Okta
+### 3\. Configure SSO in Meta and Okta
 
 To configure SSO authentication in Okta, you must complete the following steps:
 
@@ -102,14 +102,14 @@ To configure SSO authentication in Okta, you must complete the following steps:
      3. Select the **Single sign-on** option from the left menu. The **Single sign-on (SSO)** page is displayed.
      4. Click the **Add IdP** button. The **Add IdP** page is displayed with the following values that you must copy to enter them in Okta, as shown in **Figure 3** :
 
-        * **Audience URL**
-        * **ACS (Assertion Consumer Service) URL**
-
-<figure><img src="../.gitbook/assets/2s3YT_5iW0uHIAGtoLtigfwtLQwk5QfChPjygpZGmBxX6AjrEVCxWR8Kkng79TE9Q4qiOp4DEI4Mgxts9mgMUS4_GLzwGNrAP8uLqo_cv7rG6RFlfRVpNk_fOaMc2K2-vR3r3qwNBXecOmDBMHj21rY.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 3.** **Add IdP** page in the **Security** view of your Meta Business Admin Center
 
 **TIP:** Leave this browser tab open because you need it to copy each value.
+
+        * **Audience URL**
+        * **ACS (Assertion Consumer Service) URL**
+
+<figure><img src="../../../../../../.gitbook/assets/2s3YT_5iW0uHIAGtoLtigfwtLQwk5QfChPjygpZGmBxX6AjrEVCxWR8Kkng79TE9Q4qiOp4DEI4Mgxts9mgMUS4_GLzwGNrAP8uLqo_cv7rG6RFlfRVpNk_fOaMc2K2-vR3r3qwNBXecOmDBMHj21rY.png" alt=""><figcaption></figcaption></figure>
 
   2. Enter the URL values in the **Meta Work Accounts** app in Okta by performing the following actions:
      1. Switch to the browser tab you left open with the **Meta Work Accounts** app page in Okta.
@@ -123,15 +123,15 @@ To configure SSO authentication in Okta, you must complete the following steps:
      5. Click the **Save** button. A success message is displayed, and the changes are saved.
      6. Click the **More details** button from the **SAML 2.0** section. The following values are displayed for you to copy and enter in the Meta Business Admin Center, as shown in **Figure 4** :
 
+**Figure 4.** **SAML 2.0** section in the **Sign On** tab of your **Meta Work Accounts** app in Okta
+
+**TIP:** Leave this browser tab open because you need it to copy each value.
+
         * **Sign on URL**
         * **Issuer**
         * **Signing Certificate**
 
-<figure><img src="../.gitbook/assets/O71qIsw2QaveVoAIWO4JBzpzu2Tna6hr1GbVYRWWmzN-MMJHj1UTsPlbN4kGlXh2PlJhMJBJzDPLN1E5OSSnc-fTu3dWq02MDLfOsX4y95G6K97NaHs_meHEbf7z5GvQR4eB2TCg_uyULD9K--MI9xk.png" alt=""><figcaption></figcaption></figure>
-
-**Figure 4.** **SAML 2.0** section in the **Sign On** tab of your **Meta Work Accounts** app in Okta
-
-**TIP:** Leave this browser tab open because you need it to copy each value.
+<figure><img src="../../../../../../.gitbook/assets/O71qIsw2QaveVoAIWO4JBzpzu2Tna6hr1GbVYRWWmzN-MMJHj1UTsPlbN4kGlXh2PlJhMJBJzDPLN1E5OSSnc-fTu3dWq02MDLfOsX4y95G6K97NaHs_meHEbf7z5GvQR4eB2TCg_uyULD9K--MI9xk.png" alt=""><figcaption></figcaption></figure>
 
   3. Enter the corresponding information and SAML URL values in the **Add your IdP's SSO metadata** section of the **Add IdP** page of your Meta Business Admin Center by performing the following actions:
      1. Click the **I’ve added the metadata** button.
@@ -145,9 +145,9 @@ To configure SSO authentication in Okta, you must complete the following steps:
      3. Click the **Test SSO** option. A new browser tab is displayed.
      4. Log in to your Okta account in the new browser tab to verify the SSO authentication if you don’t have an active session. The SSO test complete pop-up window is displayed, as shown in **Figure 5**.
 
-<figure><img src="../.gitbook/assets/7_Lcyb8m93mQrmmGyDSqxXS-9WguymiWpuXQD6y8ye6RpoBlyjb7SyJGOyeFKSSxOwU40ATRDh-GbCaXiXX52N3w5s5xYQnlyChjOTdTS_sZoPvmbSawYaxA-5vO72JD-rGmLvDGdqqhVeYIYQM035c.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 5.** Success message pop-up window for the SSO test
+
+<figure><img src="../../../../../../.gitbook/assets/7_Lcyb8m93mQrmmGyDSqxXS-9WguymiWpuXQD6y8ye6RpoBlyjb7SyJGOyeFKSSxOwU40ATRDh-GbCaXiXX52N3w5s5xYQnlyChjOTdTS_sZoPvmbSawYaxA-5vO72JD-rGmLvDGdqqhVeYIYQM035c.png" alt=""><figcaption></figcaption></figure>
 
   5. Assign your business email domains for logging in with SSO authentication in your Meta Business Admin Center by performing the following actions:
      1. Switch to the browser tab you left open with the **Meta Work Accounts** app page.
@@ -155,9 +155,9 @@ To configure SSO authentication in Okta, you must complete the following steps:
      3. Enter your domain in the **Assign domains to “Okta SSO”** field.
      4. Enter **All newly verified domains** in the **Unassigned domains** field, as shown in **Figure 6**.
 
-<figure><img src="../.gitbook/assets/mdxClk8HvU6rEhq9ZErfeKkZrN3zq8GPyN05Oz0zW4rqArxH0qWXU8RDi07ysnelBbUA_YDnz_ryVIe4hPx3BJTDXTytJm8spS-g-VlAHbXP-OauXFSVPIESGmx9o-B16NrmERK_cWnfDX5vzj9oJ6M.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 6. Assign email domains** section of the **Add IdP** page in the **Security** view of your Meta Business Admin Center
+
+<figure><img src="../../../../../../.gitbook/assets/mdxClk8HvU6rEhq9ZErfeKkZrN3zq8GPyN05Oz0zW4rqArxH0qWXU8RDi07ysnelBbUA_YDnz_ryVIe4hPx3BJTDXTytJm8spS-g-VlAHbXP-OauXFSVPIESGmx9o-B16NrmERK_cWnfDX5vzj9oJ6M.png" alt=""><figcaption></figcaption></figure>
 
      5. Click the **Activate SSO** button to turn on SSO authentication.
 
@@ -177,7 +177,7 @@ To configure SSO authentication in Okta, you must complete the following steps:
 
 The next step is to configure automatic user provisioning in Okta.
 
-## 4\. Configure automatic user provisioning in Okta
+### 4\. Configure automatic user provisioning in Okta
 
 To configure automatic user provisioning in Okta, you must complete the following steps:
 
@@ -186,14 +186,13 @@ To configure automatic user provisioning in Okta, you must complete the followin
   3. Click the **Configure API integration** button. The **Enable API integration** option is displayed.
   4. Select the **Enable API integration** option. An informational message box and a button are displayed, as shown in **Figure 7**.
 
-<figure><img src="../.gitbook/assets/wuU2mzYAAV2xVrbw92ujuyN2YqXGsPg4lkESuqPt72mui_M_iRwwSjqyjtkRam4BNydpUAIY5UsIl3ajX2wpQUURbtCyXLrPrNZrfjIROSZosN-ePMP2VvB7Cn_zGtq7ikJAvBsRADDdf0UXEmpyvJI.png" alt=""><figcaption></figcaption></figure>
-
 **Figure 7. Enable API integration** option in the **Provisioning** tab of the **Meta Work Accounts** app in Okta
+
+<figure><img src="../../../../../../.gitbook/assets/wuU2mzYAAV2xVrbw92ujuyN2YqXGsPg4lkESuqPt72mui_M_iRwwSjqyjtkRam4BNydpUAIY5UsIl3ajX2wpQUURbtCyXLrPrNZrfjIROSZosN-ePMP2VvB7Cn_zGtq7ikJAvBsRADDdf0UXEmpyvJI.png" alt=""><figcaption></figcaption></figure>
 
   5. Click the **Authenticate with Meta Work Accounts** button. The **Meta** pop-up window with your Meta Work Accounts organization is displayed.
   6. Click the **Add to Work Accounts** button.
   7. Log in to Meta Work Accounts using your admin credentials to allow Okta to use the API on your behalf.
-
 **IMPORTANT:** You must be a Meta IT Setup Manager or Meta Business Manager to test the API integration.
 
   8. Click the **Save** button after configuring your new application.
@@ -203,13 +202,13 @@ To configure automatic user provisioning in Okta, you must complete the followin
   12. Select the **To App** option from the left panel of the **Provisioning** tab.
   13. Select the following options from the **Provisioning to App** section, as shown in **Figure 8** :
 
+**Figure 8. Provisioning to App** section in the **Provisioning** tab of the **Meta Work Accounts** app in Okta
+
      * **Create Users**
      * **Update User Attributes**
      * **Deactivate Users**
 
-<figure><img src="../.gitbook/assets/ogAmHe318B_IgF9WNG0PjWZtJ2zH5-OAoHBXhydMW619NWpkluYk_fJCbU0qvPYhhYa9P4lmYBonzQtvjPEuomDhnutRJ7L-_rXwcrAxnQZEkl58fGKkNxQ3ZYzgNd-dZ7qcDRcKoO3UpQtxaxT654c.png" alt=""><figcaption></figcaption></figure>
-
-**Figure 8. Provisioning to App** section in the **Provisioning** tab of the **Meta Work Accounts** app in Okta
+<figure><img src="../../../../../../.gitbook/assets/ogAmHe318B_IgF9WNG0PjWZtJ2zH5-OAoHBXhydMW619NWpkluYk_fJCbU0qvPYhhYa9P4lmYBonzQtvjPEuomDhnutRJ7L-_rXwcrAxnQZEkl58fGKkNxQ3ZYzgNd-dZ7qcDRcKoO3UpQtxaxT654c.png" alt=""><figcaption></figcaption></figure>
 
   14. Click the **Save** button.
 
