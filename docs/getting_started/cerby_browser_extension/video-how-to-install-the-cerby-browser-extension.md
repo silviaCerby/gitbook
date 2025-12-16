@@ -16,6 +16,6 @@ description: >-
   * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
   * [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
   * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
-* For more information, read the [How the Cerby browser extensions work](https://app.gitbook.com/s/jrZr195LCzdRVRkM24Vq/explore/explore-the-cerby-browser-extension) article. You can share this article to get the browser extension approved by your IT or Security team.
+* For more information, read the [How the Cerby browser extensions work](../../support_and_use_cases/explore/explore-the-cerby-browser-extension.md) article. You can share this article to get the browser extension approved by your IT or Security team.
 
 {% embed url="https://play.vidyard.com/7gvtdkVX35RAwzuqxYf1ft" %}
