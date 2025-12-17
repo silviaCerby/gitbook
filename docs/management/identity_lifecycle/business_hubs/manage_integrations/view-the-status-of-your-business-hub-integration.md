@@ -29,15 +29,14 @@ To view the status of your business hub integration, you must complete the follo
    **Figure 1.** The **Business Hubs** page in the Cerby web app dashboard\
    \
    You can see your integration status under the **Status** column. The following are the possible statuses:
-
-* **Under validation:** The business hub has been successfully connected to an external app, and Cerby is currently validating if the integration works correctly in your environment.\
-  **NOTE:** This status appears while Cerby completes the validation for a business hub. After validation is completed, subsequent business hubs for the same application will not enter this status.
-* **Under review by Cerby:** Cerby is currently reviewing and addressing issues identified during validation.
-* **Review configuration:** Cerby has detected a configuration issue in this business hub that prevents it from completing its tasks. The integration **Owner** must address the misconfiguration.
-* **Review service account:** Cerby has detected a configuration issue with the service account that prevents it from completing its tasks. The integration **Owner** must address the misconfiguration caused by any of the following reasons:
-  * The service account’s login credentials are incorrect.
-  * Cerby-managed MFA is not turned on for the account.
-* **Requires sync:** Cerby has detected that the data for this business hub is outdated. The integration **Owner** must perform a manual data sync.
-* **Healthy:** The business hub integration is working correctly, and the data for this business hub is up to date.
+   * **Under validation:** The business hub has been successfully connected to an external app, and Cerby is currently validating if the integration works correctly in your environment.\
+     **NOTE:** This status appears while Cerby completes the validation for a business hub. After validation is completed, subsequent business hubs for the same application will not enter this status.
+   * **Under review by Cerby:** Cerby is currently reviewing and addressing issues identified during validation.
+   * **Review configuration:** Cerby has detected a configuration issue in this business hub that prevents it from completing its tasks. The integration **Owner** must address the misconfiguration.
+   * **Review service account:** Cerby has detected a configuration issue with the service account that prevents it from completing its tasks. The integration **Owner** must address the misconfiguration caused by any of the following reasons:
+     * The service account’s login credentials are incorrect.
+     * Cerby-managed MFA is not turned on for the account.
+   * **Requires sync:** Cerby has detected that the data for this business hub is outdated. The integration **Owner** must perform a manual data sync.
+   * **Healthy:** The business hub integration is working correctly, and the data for this business hub is up to date.
 
 Now you are done.
