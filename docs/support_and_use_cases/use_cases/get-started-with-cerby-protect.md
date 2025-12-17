@@ -13,14 +13,14 @@ Cerby Protect is our enterprise password management product designed to provide 
 
 In the following sections, we will walk you through the basic information and the first steps to take to start using Cerby Protect:
 
-* Learn how Cerby Protect works
-* Log in to your workspace
-* Install the Cerby client apps
-* Set up your trusted devices
-* Add your items to Cerby
-* Share your items
-* Enhance the security of your accounts
-* Boost collaboration
+  * [Learn how Cerby Protect works](get-started-with-cerby-protect.md#id-learn-how-cerby-protect-works)
+  * [Log in to your workspace](get-started-with-cerby-protect.md#id-log-in-to-your-workspace)
+  * [Install the Cerby client apps](get-started-with-cerby-protect.md#id-install-the-cerby-client-apps)
+  * [Set up your trusted devices](get-started-with-cerby-protect.md#id-set-up-your-trusted-devices)
+  * [Add your items to Cerby](get-started-with-cerby-protect.md#id-add-your-items-to-cerby)
+  * [Share your items](get-started-with-cerby-protect.md#id-share-your-items)
+  * [Enhance the security of your accounts](get-started-with-cerby-protect.md#id-enhance-the-security-of-your-accounts)
+  * [Boost collaboration](get-started-with-cerby-protect.md#id-boost-collaboration)
 * * *
 
 ## Learn how Cerby Protect works
@@ -32,11 +32,11 @@ Cerby Protect is an enterprise password management product built to safeguard th
 
 The following sections explain how we protect your data and increase your productivity:
 
-* Zero Knowledge architecture
-* Cerby client apps
-* Security best practices
-* Item management and sharing
-* User activity monitoring
+* [Zero Knowledge architecture](get-started-with-cerby-protect.md#id-zero-knowledge-architecture)
+* [Cerby client apps](get-started-with-cerby-protect.md#id-cerby-client-apps)
+* [Security best practices](get-started-with-cerby-protect.md#id-security-best-practices)
+* [Item management and sharing](get-started-with-cerby-protect.md#id-item-management-and-sharing)
+* [User activity monitoring](get-started-with-cerby-protect.md#id-user-activity-monitoring)
 
 ### Zero Knowledge architecture
 
@@ -64,9 +64,9 @@ For more information on the encryption schemes, read the [How Cerby protects you
 
 The Cerby platform comprises three client apps that work together to provide you with the best experience as a Cerby Protect user:
 
-* Cerby web app
-* Cerby browser extension
-* Cerby mobile app
+* [Cerby web app](get-started-with-cerby-protect.md#id-cerby-web-app)
+* [Cerby browser extension](get-started-with-cerby-protect.md#id-cerby-browser-extension)
+* [Cerby mobile app](get-started-with-cerby-protect.md#id-cerby-mobile-app)
 
 ### Cerby web app
 
@@ -93,7 +93,7 @@ The following are the actions you can perform:
 
 You can use any web browser to access the Cerby web app, and all of your interactions are through a dashboard that’s displayed after logging in to your workspace, as shown in **Figure 1**.
 
-<figure><img src="../../../.gitbook/assets/lwPBhOQ0bPGNujA71w2wQxNhm-4ihlO3P_oJ_kHHQd0vFdzLPEcLD7y-EI9nOY-yjqfJDiEwcakwZyZ-lcevFzyTothzebg5WfOCLVTyudooN0tqP7qnMYPBPfaOgaxBFSwoBN4UOxMlIoalXMNPo40.png" alt="Screenshot of the Cerby web app dashboard. The All accounts view is displayed with multiple account cards and a button at the top right to add an item \(account, secret, or collection\) or import them from a password manager."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/lwPBhOQ0bPGNujA71w2wQxNhm-4ihlO3P_oJ_kHHQd0vFdzLPEcLD7y-EI9nOY-yjqfJDiEwcakwZyZ-lcevFzyTothzebg5WfOCLVTyudooN0tqP7qnMYPBPfaOgaxBFSwoBN4UOxMlIoalXMNPo40.png" alt="Screenshot of the Cerby web app dashboard. The All accounts view is displayed with multiple account cards and a button at the top right to add an item \(account, secret, or collection\) or import them from a password manager.">
 
 **Figure 1.** Cerby web app dashboard for Cerby Protect users
 
@@ -114,11 +114,11 @@ The Cerby browser extension is an add-on for web browsers that complements the u
 
 After logging in to your workspace with the Cerby browser extension, your interactions are through a popup and an inline menu, as shown in **Figure 2** and **Figure 3**.
 
-<figure><img src="../../../.gitbook/assets/6Rq5OIDzBXwm4CUo_mfy4yMcpEk9pUXWizfyKxO1NiWoJFNGFDVp_VQO8R6xfSFgtB5ADZAIfji5uiYzRadLbbNs0gWxsCV-93Ck8iH5CJz7fHH7HvbsE-Gv2T9ZqLrz_XTy2JVSyuWtZV9r4nQAlNE.png" alt="Screenshot of the Cerby browser extension popup on top of a login page. The Accounts tab is activated, and a list of account cards is displayed."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/6Rq5OIDzBXwm4CUo_mfy4yMcpEk9pUXWizfyKxO1NiWoJFNGFDVp_VQO8R6xfSFgtB5ADZAIfji5uiYzRadLbbNs0gWxsCV-93Ck8iH5CJz7fHH7HvbsE-Gv2T9ZqLrz_XTy2JVSyuWtZV9r4nQAlNE.png" alt="Screenshot of the Cerby browser extension popup on top of a login page. The Accounts tab is activated, and a list of account cards is displayed.">
 
 **Figure 2.** Cerby browser extension popup for Cerby Protect users
 
-<figure><img src="../../../.gitbook/assets/Q_tllasD6zReGMrgHqXf-HaSwZayWbX74rIrkorz8sPuB4OJGAEdI9luqznePe558isnB7eW-NToPmf2O8JhDaeqekX8xuqnPoXwUY8o_56VeAPcoaEBZq7P8ENXq9ZxhFmVSibIMPBzHjKibI1k9x8.png" alt="Screenshot of the Cerby browser extension inline menu on top of the input fields of a login page. A list of account cards is displayed."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/Q_tllasD6zReGMrgHqXf-HaSwZayWbX74rIrkorz8sPuB4OJGAEdI9luqznePe558isnB7eW-NToPmf2O8JhDaeqekX8xuqnPoXwUY8o_56VeAPcoaEBZq7P8ENXq9ZxhFmVSibIMPBzHjKibI1k9x8.png" alt="Screenshot of the Cerby browser extension inline menu on top of the input fields of a login page. A list of account cards is displayed.">
 
 **Figure 3.** Cerby browser extension inline menu for Cerby Protect users
 
@@ -148,7 +148,7 @@ The Cerby mobile app is the interface that enables you to access the account and
 
 You can use iOS and Android devices to access the Cerby mobile app, and all of your interactions are through a dashboard that’s displayed after logging in to your workspace, as shown in **Figure 4**.
 
-<figure><img src="../../../.gitbook/assets/0ovEm-56QR3Q5IK1-Cv5zpfILkKsHJWE_9doi9cB8EPJ4NSk3LKd-8OIoYJLJUBOD30KCuhMBcgvDOS_e_ICjLoYB2qeXIFs3iEdmDc5N9T4L4-ca0vUeGkpywALKmcs_1a4y6YRaPgWptodsqTRLYI.png" alt="Screenshot of the Cerby mobile app dashboard. The Accounts tab is activated, and a list of account cards is displayed."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/0ovEm-56QR3Q5IK1-Cv5zpfILkKsHJWE_9doi9cB8EPJ4NSk3LKd-8OIoYJLJUBOD30KCuhMBcgvDOS_e_ICjLoYB2qeXIFs3iEdmDc5N9T4L4-ca0vUeGkpywALKmcs_1a4y6YRaPgWptodsqTRLYI.png" alt="Screenshot of the Cerby mobile app dashboard. The Accounts tab is activated, and a list of account cards is displayed.">
 
 **Figure 4.** Cerby mobile app dashboard for Cerby Protect users
 
@@ -157,10 +157,10 @@ You can use iOS and Android devices to access the Cerby mobile app, and all of y
 Cerby Protect provides the following security best practices that you can implement to keep your data safe:
 
 * Connect apps that don’t support security standards with your identity provider (IdP) as follows:
-    * Using Security Assertion Markup Language (SAML) or OIDC for authentication.
-    * Using the corporate identity credentials managed by your IdP to provide secure access to your apps.
-    * Extending single sign-on (SSO) authentication to any app and enforcing access control.
-    * Setting up automatic user provisioning with the System for Cross-domain Identity Management (SCIM) specification to manage the creation and synchronization of user accounts.
+  * Using Security Assertion Markup Language (SAML) or OIDC for authentication.
+  * Using the corporate identity credentials managed by your IdP to provide secure access to your apps.
+  * Extending single sign-on (SSO) authentication to any app and enforcing access control.
+  * Setting up automatic user provisioning with the System for Cross-domain Identity Management (SCIM) specification to manage the creation and synchronization of user accounts.
 * Generate strong passwords for your accounts.
 * Turn on the MFA method determined by your IdP to log in to your Cerby workspace.
 * Turn on MFA for your apps using verification methods managed by Cerby: phone numbers, email addresses, and authenticator app.
@@ -193,7 +193,7 @@ Cerby Protect provides you with visibility around the user activity within a wor
 
 This information is available through the **Activity** view, as shown in **Figure 5**.
 
-<figure><img src="../../../.gitbook/assets/z2n5kY9AUV0RExJKjCvpKNy_RfTtFzGGB1fqzTYBRZwEITkgLXnNc2B16HRLfaaLFwdyTzNdMU58LcCHc1vCOWumVmJSHxDztoANuS5qTp9gbfT94w90eEV6J5TxAsOKKDi1Tj0FIL3j9TvMghblirg.png" alt="Screenshot of the Activity view in the Cerby dashboard. A table with analytic events is displayed."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/z2n5kY9AUV0RExJKjCvpKNy_RfTtFzGGB1fqzTYBRZwEITkgLXnNc2B16HRLfaaLFwdyTzNdMU58LcCHc1vCOWumVmJSHxDztoANuS5qTp9gbfT94w90eEV6J5TxAsOKKDi1Tj0FIL3j9TvMghblirg.png" alt="Screenshot of the Activity view in the Cerby dashboard. A table with analytic events is displayed.">
 
 **Figure 5.** **Activity** view in the Cerby dashboard
 
@@ -227,15 +227,15 @@ For an optimal user experience, Cerby recommends installing the browser extensio
 
 If your company uses an MDM service, the Cerby browser extension may have been already installed on your computer. To install it manually, navigate to the website according to your web browser and follow the installation instructions:
 
-* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
-* [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
-* [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
-* [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
+  * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
+  * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
+  * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
+  * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
 
 To install the Cerby mobile app, navigate to the website according to your operating system and follow the installation instructions:
 
-* [Android](https://play.google.com/store/apps/details?id=com.cerby)
-* [iOS](https://apps.apple.com/co/app/cerby/id1533747684)
+  * [Android](https://play.google.com/store/apps/details?id=com.cerby)
+  * [iOS](https://apps.apple.com/co/app/cerby/id1533747684)
 * * *
 
 ## Set up your trusted devices
@@ -250,9 +250,9 @@ To set up a trusted device, follow the instructions in the [How to set up and ma
 
 Now that you have accessed the Cerby platform, let’s start adding items. Currently, you have three options to do so in Cerby:
 
-* Import items from LastPass
-* Add items
-* Save credentials at login
+  * [Import items from LastPass](get-started-with-cerby-protect.md#id-import-items-from-lastpass)
+  * [Add items](get-started-with-cerby-protect.md#id-add-items)
+  * [Save credentials at login](get-started-with-cerby-protect.md#id-save-credentials-at-login)
 
 The following sections describe each option.
 
@@ -262,10 +262,10 @@ With our Password Manager Importer, you can transfer from LastPass your corporat
 
 All of the items inside LastPass folders are transferred as follows:
 
-* Folders become collections with the same items inside.
-* Passwords become accounts.
-* Secure notes and their attachments become secrets.
-* User access permissions are automatically matched with the users in your IdP who were assigned to your workspace and have a Cerby account.
+  * Folders become collections with the same items inside.
+  * Passwords become accounts.
+  * Secure notes and their attachments become secrets.
+  * User access permissions are automatically matched with the users in your IdP who were assigned to your workspace and have a Cerby account.
 
 {% hint style="danger" %}
 
@@ -281,9 +281,9 @@ To import your items from LastPass, follow the instructions in the [Import items
 
 The process to add items to Cerby is different depending on the item type:
 
-* Accounts
-* Secrets
-* Collections
+  * [Accounts](get-started-with-cerby-protect.md#id-accounts)
+  * [Secrets](get-started-with-cerby-protect.md#id-secrets)
+  * [Collections](get-started-with-cerby-protect.md#id-collections)
 
 The following sections describe the instructions for each item type.
 
@@ -319,8 +319,8 @@ To save your credentials at login, follow the instructions in the [How to save y
 
 With your items added to Cerby, let’s start sharing them. Currently, you have two options to do so:
 
-* Share items within your workspace
-* Share items via a public link
+  * [Share items within your workspace](get-started-with-cerby-protect.md#id-share-items-within-your-workspace)
+  * [Share items via a public link](get-started-with-cerby-protect.md#id-share-items-via-a-public-link)
 
 The following sections describe each option.
 
@@ -328,14 +328,14 @@ The following sections describe each option.
 
 With Cerby Protect, you can share your items with users and teams within your workspace. When sharing any item, you must assign one of the two following roles:
 
-* **Owner:** Your colleagues can view and share the items with other users and edit the item details.
-* **Collaborator:** Your colleagues can only view the item details. For accounts, they can only log in to applications.
+  * **Owner:** Your colleagues can view and share the items with other users and edit the item details.
+  * **Collaborator:** Your colleagues can only view the item details. For accounts, they can only log in to applications.
 
 The process of sharing items is different depending on the item type:
 
-* Accounts
-* Secrets
-* Collections
+  * [Accounts](get-started-with-cerby-protect.md#id-accounts)
+  * [Secrets](get-started-with-cerby-protect.md#id-secrets)
+  * [Collections](get-started-with-cerby-protect.md#id-collections)
 
 The following sections describe the instructions for each item type.
 
@@ -363,10 +363,10 @@ To share accounts and secrets with external collaborators, follow the instructio
 
 With Cerby Protect, you can take the following actions to enhance the security of your accounts:
 
-* Create Cerby-managed second factors for your accounts
-* Turn on MFA for your accounts
-* Generate secure passwords
-* Track user activity
+  * [Create Cerby-managed second factors for your accounts](get-started-with-cerby-protect.md#id-create-cerby-managed-second-factors-for-your-accounts)
+  * [Turn on MFA for your accounts](get-started-with-cerby-protect.md#id-turn-on-mfa-for-your-accounts)
+  * [Generate secure passwords](get-started-with-cerby-protect.md#id-generate-secure-passwords)
+  * [Track user activity](get-started-with-cerby-protect.md#id-track-user-activity)
 
 The following sections describe each action.
 
@@ -404,7 +404,7 @@ The **Activity** view is enabled for all users to see the activity of the accoun
 
 You can perform the following actions from this view:
 
-* See the **Activity Log** table with information in the following columns:
+  * See the **Activity Log** table with information in the following columns:
     * **Time:** It is the time when the user activity was registered.
     * **Event:** It is the type of activity performed by the user, for example, **Account Added To Collection** , **Password Retrieved** , or**Login to Cerby**.
     * **Account:** It is the label of the account in Cerby related to the user activity.
@@ -413,15 +413,15 @@ You can perform the following actions from this view:
     * **Location:** It is the geographical location of the user.
     * **OS:** It is the operating system of the user’s device.
     * **Device:** It is the user’s device from where the activity was registered.
-* Download the activity report in a CSV file by clicking the **Download CSV** button.
+  * Download the activity report in a CSV file by clicking the **Download CSV** button.
 * * *
 
 ## Boost collaboration
 
 Cerby Protect offers the following features to boost your collaboration:
 
-* Teams
-* Partners
+  * [Teams](get-started-with-cerby-protect.md#id-teams)
+  * [Partners](get-started-with-cerby-protect.md#id-guest-users)
 
 The following sections describe each feature.
 
@@ -431,12 +431,12 @@ With Teams, you can simplify user and access management. This feature helps you 
 
 You have the following two options to create teams in Cerby:
 
-* Create a group of users in the corporate directory managed by your IdP, such as Okta and Azure AD, and replicate it automatically as a team in Cerby.
-* Create a self-managed team selecting users from your workspace.
+  * Create a group of users in the corporate directory managed by your IdP, such as Okta and Azure AD, and replicate it automatically as a team in Cerby.
+  * Create a self-managed team selecting users from your workspace.
 
 You can manage all of your teams through the **Teams** view, as shown in **Figure 6**.
 
-<figure><img src="../../../.gitbook/assets/mUzMAxGsD6JuYXXzn7VmjVUSiu2LPd79rtzOUkztsRx51jdqdAk8eZ5OveRbjfOpcnuq0H-LyWHYt_aMV4l753K43-4-QByGAaL_14O5XcKUsm6YswnvXT5TJ81mpmWT-ISxpQ5bqty2SO8nZbshtYY.png" alt="Screenshot of the Teams view in the Cerby dashboard. The Members tab of a specific team is displayed."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/mUzMAxGsD6JuYXXzn7VmjVUSiu2LPd79rtzOUkztsRx51jdqdAk8eZ5OveRbjfOpcnuq0H-LyWHYt_aMV4l753K43-4-QByGAaL_14O5XcKUsm6YswnvXT5TJ81mpmWT-ISxpQ5bqty2SO8nZbshtYY.png" alt="Screenshot of the Teams view in the Cerby dashboard. The Members tab of a specific team is displayed.">
 
 **Figure 6.** **Teams** view in the Cerby dashboard
 
@@ -450,7 +450,7 @@ After joining Cerby, all of the workspace members from your organization who hav
 
 **Workspace Admins** can manage guest users through the **All Members** view, as shown in **Figure 7**.
 
-<figure><img src="../../../.gitbook/assets/CcI0RiPIZhY1OTN9jRO9zJFw0HGreuI2IIHR_XEecmtjVexQLqbIRfE0dT9v_myWh6KwNkLfcTi_sCKcbQdoGMnaDyAoA9yJkGbAGslplHEdAYd9dUlcNdoIGC0BcVcwTYDlEhmHu7K44BLGTrEjeW0.png" alt="Alt-text: Screenshot of the Guests tab inside the All Members view in the Cerby dashboard. All of the guest users within a workspace are displayed on a table."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/CcI0RiPIZhY1OTN9jRO9zJFw0HGreuI2IIHR_XEecmtjVexQLqbIRfE0dT9v_myWh6KwNkLfcTi_sCKcbQdoGMnaDyAoA9yJkGbAGslplHEdAYd9dUlcNdoIGC0BcVcwTYDlEhmHu7K44BLGTrEjeW0.png" alt="Alt-text: Screenshot of the Guests tab inside the All Members view in the Cerby dashboard. All of the guest users within a workspace are displayed on a table.">
 
 **Figure 7.** **All members** view
 

@@ -1,5 +1,5 @@
 ---
-description: "This article describes how to log in as a guest user to any of the Cerby client apps: web app, browser extension, and mobile app."
+description: This article describes how to log in as a guest user to any of the Cerby client apps: web app, browser extension, and mobile app.
 intercom_id: 9317182
 ---
 
@@ -18,9 +18,9 @@ intercom_id: 9317182
 
 After joining a workspace as a guest user, you can log in to any of the Cerby client apps:
 
-* Cerby web app
-* Cerby browser extension
-* Cerby mobile app
+* [Cerby web app](log-in-to-cerby-as-a-guest-user.md#id-cerby-web-app)
+* [Cerby browser extension](log-in-to-cerby-as-a-guest-user.md#id-cerby-browser-extension)
+* [Cerby mobile app](log-in-to-cerby-as-a-guest-user.md#id-cerby-mobile-app)
 
 The following sections describe how to log in to each client app.
 
@@ -31,7 +31,6 @@ The following sections describe how to log in to each client app.
 To log in to the Cerby web app, you must complete the following steps using your web browser:
 
   1. Open the login page of your [Cerby workspace](https://app.cerby.com/). Depending on whether you have logged in previously or not to the Cerby web app, one of the following two pages is displayed:
-**IMPORTANT:** Proceed to step 2 right away because after a few seconds you are redirected to the corporate identity provider’s login page.
 
      * **Let's find your workspace** page
 
@@ -41,27 +40,30 @@ To log in to the Cerby web app, you must complete the following steps using your
      * **Hi, welcome back!** page
 
        1. Click the **Go to Workspace** button of your workspace. An authentication waiting page is displayed.
+
+       **IMPORTANT:** Proceed to step 2 right away because after a few seconds you are redirected to the corporate identity provider’s login page.
+
   2. Click the **Log in as guest user** button, as shown in **Figure 1**.
+
+<img src="../../../../../.gitbook/assets/R_Z3icvJIgUoeHaXlB_CM07ZzwZhuW_-Bq6cov93iKETn8pH7Ap2sqFYfa_UpeEpQGsPxSfhJ4non7KdIOQZwVdYorL0s2poyrRd1qdQ7j7bDmPRxVxFBQzf2Y-Qr-E9YONTuuPetI65PU3IM__keYQ.png" alt="Screenshot of the authentication waiting page. The Log in as guest user button is highlighted.">
 
 **Figure 1.** **Log in as a guest user** button on the authentication waiting page
 
 The Cerby authentication page is displayed.
 
-<figure><img src="../../../../../.gitbook/assets/R_Z3icvJIgUoeHaXlB_CM07ZzwZhuW_-Bq6cov93iKETn8pH7Ap2sqFYfa_UpeEpQGsPxSfhJ4non7KdIOQZwVdYorL0s2poyrRd1qdQ7j7bDmPRxVxFBQzf2Y-Qr-E9YONTuuPetI65PU3IM__keYQ.png" alt="Screenshot of the authentication waiting page. The Log in as guest user button is highlighted."><figcaption></figcaption></figure>
-
   3. Enter your username and password in the corresponding fields, as shown in **Figure 2**.
 
-**Figure 2.** **Username** and **Password** fields on the Cerby authentication page
+<img src="../../../../../.gitbook/assets/mLIoljueWXVToL_I_XQZwy6BzfI1X5zNYepdOTnRnTQzk4Efozm1mXv_cSvIIWcWd9jEHoLjLWTmbK2T0YktP68uYfk_t3MO3hyXevDUYb_iBrd3trpF-LiObiWl4_0S95Hr1egCX52tbrdJjrfnHgk.png" alt="Screenshot of the Cerby authentication waiting page. The Username and Password fields are highlighted.">
 
-<figure><img src="../../../../../.gitbook/assets/mLIoljueWXVToL_I_XQZwy6BzfI1X5zNYepdOTnRnTQzk4Efozm1mXv_cSvIIWcWd9jEHoLjLWTmbK2T0YktP68uYfk_t3MO3hyXevDUYb_iBrd3trpF-LiObiWl4_0S95Hr1egCX52tbrdJjrfnHgk.png" alt="Screenshot of the Cerby authentication waiting page. The Username and Password fields are highlighted."><figcaption></figcaption></figure>
+**Figure 2.** **Username** and **Password** fields on the Cerby authentication page
 
   4. Click the **Sign in** button. Depending on your MFA status, one of the following two pages is displayed:
 
      * The Cerby verification page is displayed when MFA is on, as shown in **Figure 3**.
 
-**Figure 3.** Cerby verification page
+<img src="../../../../../.gitbook/assets/r-o8fJ3j9HUDX42X5bUbp9aToTqtOMyHzHcNs58_4X9TamDnbHsciwyGGjDBlmJen6e0TKQA4OXg9ZFQ4kQrNISCAbG1gKHm3DQQI3pB9ghIA280pSJ_wuc9IKUqMcBYGIkN4LIltAxPiiPOhhK1pRo.png" alt="Screenshot of the Cerby verification page. An input field is displayed to enter a code from the 2FA verification method you have set up for your Cerby account.">
 
-<figure><img src="../../../../../.gitbook/assets/r-o8fJ3j9HUDX42X5bUbp9aToTqtOMyHzHcNs58_4X9TamDnbHsciwyGGjDBlmJen6e0TKQA4OXg9ZFQ4kQrNISCAbG1gKHm3DQQI3pB9ghIA280pSJ_wuc9IKUqMcBYGIkN4LIltAxPiiPOhhK1pRo.png" alt="Screenshot of the Cerby verification page. An input field is displayed to enter a code from the 2FA verification method you have set up for your Cerby account."><figcaption></figcaption></figure>
+**Figure 3.** Cerby verification page
 
        1. Open the authenticator app you have set up for your Cerby account to retrieve the verification code.
        2. Enter the code on the Cerby verification page.
@@ -78,7 +80,6 @@ Now you are done.
 To log in to the Cerby browser extension, you must complete the following steps using your web browser:
 
   1. Open the Cerby browser extension popup by clicking the Cerby icon from the extensions or add-ons section. Depending on whether you have logged in previously to the Cerby browser extension or not, one of the following two pages is displayed on the popup:
-**IMPORTANT:** Proceed to step 2 right away because, after a few seconds, you are redirected to the corporate identity provider’s login page.
 
      * **Welcome to Cerby** page
 
@@ -89,6 +90,9 @@ To log in to the Cerby browser extension, you must complete the following steps 
      * **Hi there!** page
 
        1. Click the **Log in** button of your workspace. An authentication waiting page is displayed on a new browser tab, as shown above in **Figure 1**.
+
+       **IMPORTANT:** Proceed to step 2 right away because, after a few seconds, you are redirected to the corporate identity provider’s login page.
+
   2. Click the **Log in as guest user** button. The Cerby authentication page is displayed.
   3. Enter your username and password in the corresponding fields, as shown above in **Figure 2**.
   4. Click the **Sign in** button. Depending on your MFA status, one of the following two pages is displayed:
@@ -116,7 +120,6 @@ To log in to the Cerby mobile app, you must complete the following steps using y
 
   1. Open the Cerby mobile app. The **Welcome to Cerby!** screen is displayed.
   2. Tap the **Log in** button. Depending on whether you have logged in previously or not to the Cerby mobile app, one of the following two pages is displayed on your web browser:
-**IMPORTANT:** Proceed to step 3 right away because, after a few seconds, you are redirected to the corporate identity provider’s login page.
 
      * **Let's find your workspace** page
 
@@ -126,6 +129,9 @@ To log in to the Cerby mobile app, you must complete the following steps using y
      * **Hi, welcome back!** page
 
        1. Tap the **Go to Workspace** button of your workspace. An authentication waiting page is displayed, as shown above in **Figure 1**.
+
+       **IMPORTANT:** Proceed to step 3 right away because, after a few seconds, you are redirected to the corporate identity provider’s login page.
+
   3. Tap the **Log in as guest user** button. The Cerby authentication page is displayed, as shown above in **Figure 2**.
   4. Enter your username and password in the corresponding fields.
   5. Tap the **Sign in** button. Depending on your MFA status, one of the following two pages is displayed:

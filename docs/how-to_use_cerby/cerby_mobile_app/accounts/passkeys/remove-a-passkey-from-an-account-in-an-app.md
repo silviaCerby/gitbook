@@ -15,11 +15,11 @@ To remove a passkey from an account in an app, you must complete the following g
 
 {% endhint %}
 
-  1. Log in to the app with the account you want to remove the passkey from.
-  2. Access the account login or security settings within the app.
-  3. Locate the passkey section in the settings.
-  4. Select the**Remove passkey** or **Disable passkey authentication** option.
-  5. Confirm the removal.
-  6. Test the login process to the account without a passkey.
+1. Log in to the app with the account you want to remove the passkey from.
+2. Access the account login or security settings within the app.
+3. Locate the passkey section in the settings.
+4. Select the**Remove passkey** or **Disable passkey authentication** option.
+5. Confirm the removal.
+6. Test the login process to the account without a passkey.
 
 Now you are done.

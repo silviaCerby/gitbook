@@ -40,13 +40,13 @@ This article provides instructions on how to connect a business hub for Playable
 
 The following are the requirements to connect a business hub:
 
-* A Cerby workspace
-* A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
-* An account in Playable with the Admin role
-* A group assignment configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on IdP events. For more information, read the **App user provisioning and deprovisioning** section of the article [Explore Business hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
-* An automation account, meaning an active user account with a native admin role in your seat-based or paid social app. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
-* The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Business hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
-* The ID of your Payable account. To find it, perform the following actions:
+  * A Cerby workspace
+  * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
+  * An account in Playable with the Admin role
+  * A group assignment configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on IdP events. For more information, read the **App user provisioning and deprovisioning** section of the article [Explore Business hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
+  * An automation account, meaning an active user account with a native admin role in your seat-based or paid social app. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Business hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
+  * The ID of your Payable account. To find it, perform the following actions:
 
     1. Log in to your Payable account
     2. Select the **My Account** option from the left navigation drawer. The **Account Settings** for your account page is displayed
@@ -58,10 +58,10 @@ The following are the requirements to connect a business hub:
 
 To connect a business hub to Playable, you must complete the following main steps from the Cerby web app dashboard:
 
-  1. Add a business hub and connect it to Playable
-  2. Check for updates to import users, roles, and assets to Cerby
-  3. Connect your app’s user account to the business hub
-  4. Manage unmatched users
+  1. [Add a business hub and connect it to Playable](connect-a-business-hub-for-playable.md#id-1.-add-a-business-hub-and-connect-it-to-playable)
+  2. [Check for updates to import users, roles, and assets to Cerby](connect-a-business-hub-for-playable.md#id-2.-check-for-updates-to-import-users-roles-and-assets-to-cerby)
+  3. [Connect your app’s user account to the business hub](connect-a-business-hub-for-playable.md#id-3.-connect-your-apps-user-account-to-the-business-hub)
+  4. [Manage unmatched users](connect-a-business-hub-for-playable.md#id-4.-manage-unmatched-users)
 
 The following sections describe each main step.
 
@@ -77,9 +77,9 @@ To add a business hub and connect it to Playable, you must complete the followin
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **Unique Identifier:** It is the identifier of your organizational account within Playable. See the Requirements section to learn how to get it.
+     * **Unique Identifier:** It is the identifier of your organizational account within Playable. See the [Requirements](connect-a-business-hub-for-playable.md#id-requirements) section to learn how to get it.
      * **User management and login method:** It is the way your users log in to the app and determines if they must save their credentials in Cerby. You must select one of the following methods:
-       * **Single sign-on (SSO):** Access is managed by your identity provider, and users log in with SSO authentication. They are not asked to save their credentials in Cerby. After you select this option, the **SSO service** field is displayed with the service account you created for Playable as part of the Requirements.
+       * **Single sign-on (SSO):** Access is managed by your identity provider, and users log in with SSO authentication. They are not asked to save their credentials in Cerby. After you select this option, the **SSO service** field is displayed with the service account you created for Playable as part of the [Requirements](connect-a-business-hub-for-playable.md#id-requirements).
        * **Username and password:** Account security and access are managed by Ceby, and users log in with their credentials after saving them in Cerby.
 
   7. Click the **Next** button. The **Select automation account** page is displayed. One of the following scenarios occurs:
@@ -103,16 +103,17 @@ To add a business hub and connect it to Playable, you must complete the followin
 
 The wizard closes, and a success message box is displayed. The corresponding business hub is also displayed on the **Business Hubs** view.
 
-The next step is 2\. Check for updates to import users, roles, and assets to Cerby.
+The next step is [2. Check for updates to import users, roles, and assets to Cerby](connect-a-business-hub-for-playable.md#id-2.-check-for-updates-to-import-users-roles-and-assets-to-cerby).
 
 ### 2\. Check for updates to import users, roles, and assets to Cerby
 
 To check for updates in your app to identify and import users, roles, and assets to Cerby, you must complete the following steps:
 
   1. Select the **Business Hubs** option from the left navigation drawer. The **Business Hubs** view is displayed.
-  2. Click the **Settings** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1223765749/a4ba887a61e35c12d6338f5246ce/AD_4nXcZBcbY5WH1Zuy6uy6Sq_kFTBVfQMrCvvzplaBFrODUPtsXGlvgMWX-04y9e1bSLxNj8tbhJAAifNZHuV5KrV3RROd5GB0ur3s_mGxsTcsVob3BekobKDesS_aXgNrscz0eG0GtwMWMW2V5Epg0hCoGEDs_?expires=1739340000&signature=359d57624e7f15e74a7bd353b09a0c27ca4a6649bb1fb1faea46e292f76fe3fe&req=dSIlFc54mIZbUPMW3Hu4gS%2F2GpULa0wpQmEK2cOhH4NSiz9rlJey8XNrpRvG%0AwQ%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. The business hub details page is displayed with the **Settings** tab activated.
+  2. Click the **Settings** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1223765749/a4ba887a61e35c12d6338f5246ce/AD_4nXcZBcbY5WH1Zuy6uy6Sq_kFTBVfQMrCvvzplaBFrODUPtsXGlvgMWX-04y9e1bSLxNj8tbhJAAifNZHuV5KrV3RROd5GB0ur3s_mGxsTcsVob3BekobKDesS_aXgNrscz0eG0GtwMWMW2V5Epg0hCoGEDs_?expires=1739340000&signature=359d57624e7f15e74a7bd353b09a0c27ca4a6649bb1fb1faea46e292f76fe3fe&req=dSIlFc54mIZbUPMW3Hu4gS%2F2GpULa0wpQmEK2cOhH4NSiz9rlJey8XNrpRvG%0AwQ%3D%3D%0A" alt="">) icon of the corresponding business hub card. The business hub details page is displayed with the **Settings** tab activated.
   3. Click the **Check for updates** button located at the top right of the page. A message box is displayed with information about the process.
-**NOTE:** The check and import process may take a few minutes depending on the number of users and assets, and because Cerby automatically matches users to their corresponding Cerby account.
+
+  **NOTE:** The check and import process may take a few minutes depending on the number of users and assets, and because Cerby automatically matches users to their corresponding Cerby account.
 
   4. Confirm that the **Check for updates** automated task has the “Completed” status by performing any of the following actions:
 
@@ -127,7 +128,7 @@ To check for updates in your app to identify and import users, roles, and assets
 
 {% endhint %}
 
-The next step is 3\. Connect your app’s user account to the business hub.
+The next step is [3. Connect your app’s user account to the business hub](connect-a-business-hub-for-playable.md#id-3.-connect-your-apps-user-account-to-the-business-hub).
 
 ### 3\. Connect your app’s user account to the business hub
 
@@ -138,14 +139,14 @@ To connect your app’s user account to the business hub so Cerby can manage and
   3. Enter the login credentials of your Playable user account.
   4. Click the **Connect account** button. The dialog box closes, and a success message box and a new account card for your user account are displayed.
 
-The next step is 4\. Manage unmatched users, which you must complete from your Cerby dashboard.
+The next step is [4. Manage unmatched users](connect-a-business-hub-for-playable.md#id-4.-manage-unmatched-users), which you must complete from your Cerby dashboard.
 
 ### 4\. Manage unmatched users
 
 After a check for updates, make sure you manage all unmatched users. By matching users, Cerby ensures that the app’s user accounts correspond to the users’ corporate identities; therefore, you can perform the following automated user management tasks on them:
 
-* Invite app members
-* Remove app members
+  * Invite app members
+  * Remove app members
 
 Additionally, if you have IdP groups configured, you can benefit from automatic user provisioning and deprovisioning based on IdP events, such as account deactivation or group assignments.
 
@@ -160,21 +161,22 @@ Additionally, if you have IdP groups configured, you can benefit from automatic 
 To view the status of the imported app’s users, you must complete the following steps:
 
   1. Select the **Business Hubs** option from the left navigation drawer. The **Business Hubs** view is displayed.
-  2. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1223774384/75a2126051b292fd82f77e7a525f/AD_4nXcGFnap-9CTFzBgWeqJbOISTlY5_QDW7lURhLVJ8md8OZAjsiFvQbppvi3LDooSEmLtE9rw2aia_SSjnPMcJjMW2caFKjPZtshR6amvkhr0Bc9Sd0zOMjXHtyOOoYLJScvLuBiIDrfxGd3o6anW1kcV3cOG?expires=1739340000&signature=d35c83f2b056c83bc1103ce4b1bccab277e0d009ad4b3f51f3404d9c634edb82&req=dSIlFc55mYJXXfMW3Hu4gZp%2F7S%2BO6Iu02nSUulMmE%2BJqgannljFcyfyadkVp%0AfQ%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. A drop-down list is displayed.
+  2. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1223774384/75a2126051b292fd82f77e7a525f/AD_4nXcGFnap-9CTFzBgWeqJbOISTlY5_QDW7lURhLVJ8md8OZAjsiFvQbppvi3LDooSEmLtE9rw2aia_SSjnPMcJjMW2caFKjPZtshR6amvkhr0Bc9Sd0zOMjXHtyOOoYLJScvLuBiIDrfxGd3o6anW1kcV3cOG?expires=1739340000&signature=d35c83f2b056c83bc1103ce4b1bccab277e0d009ad4b3f51f3404d9c634edb82&req=dSIlFc55mYJXXfMW3Hu4gZp%2F7S%2BO6Iu02nSUulMmE%2BJqgannljFcyfyadkVp%0AfQ%3D%3D%0A" alt="">) icon of the corresponding business hub card. A drop-down list is displayed.
   3. Select the **View Members** option from the list. The business hub details page is displayed with the **Members** tab activated.
 The app members are displayed in the following tabs of the **User Overview** section:
 
      * **Unmatched users:** This tab displays the users who were not automatically matched because they use an email address that couldn’t be identified or they are not in the corporate directory.
-     * **Onboarded users:** This tab displays the users matched to their Cerby user account. ****\
-       **NOTE:** After a check for updates, Cerby automatically matches users to their Cerby user accounts according to their email addresses. Manual matching is required for apps that don't provide email addresses or for which users access through personal accounts.
+     * **Onboarded users:** This tab displays the users matched to their Cerby user account. ****
+
+     **NOTE:** After a check for updates, Cerby automatically matches users to their Cerby user accounts according to their email addresses. Manual matching is required for apps that don't provide email addresses or for which users access through personal accounts.
 
      * **Guest users:** This tab displays the users who were matched to a user account but it doesn’t exist in the corporate directory, such as external collaborators.
 
 For unmatched users, you can perform one of the following actions:
 
-* Match users
-* Remove unmatched users
-* Exempt unmatched users
+  * [Match users](connect-a-business-hub-for-playable.md#id-match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-playable.md#id-remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-playable.md#id-exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -197,7 +199,7 @@ To match users to their corresponding Cerby user accounts, you must complete the
 
 To remove unmatched users from the app, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
-  1. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1223774384/75a2126051b292fd82f77e7a525f/AD_4nXcGFnap-9CTFzBgWeqJbOISTlY5_QDW7lURhLVJ8md8OZAjsiFvQbppvi3LDooSEmLtE9rw2aia_SSjnPMcJjMW2caFKjPZtshR6amvkhr0Bc9Sd0zOMjXHtyOOoYLJScvLuBiIDrfxGd3o6anW1kcV3cOG?expires=1739340000&signature=d35c83f2b056c83bc1103ce4b1bccab277e0d009ad4b3f51f3404d9c634edb82&req=dSIlFc55mYJXXfMW3Hu4gZp%2F7S%2BO6Iu02nSUulMmE%2BJqgannljFcyfyadkVp%0AfQ%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding user. A drop-down list is displayed.
+  1. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1223774384/75a2126051b292fd82f77e7a525f/AD_4nXcGFnap-9CTFzBgWeqJbOISTlY5_QDW7lURhLVJ8md8OZAjsiFvQbppvi3LDooSEmLtE9rw2aia_SSjnPMcJjMW2caFKjPZtshR6amvkhr0Bc9Sd0zOMjXHtyOOoYLJScvLuBiIDrfxGd3o6anW1kcV3cOG?expires=1739340000&signature=d35c83f2b056c83bc1103ce4b1bccab277e0d009ad4b3f51f3404d9c634edb82&req=dSIlFc55mYJXXfMW3Hu4gZp%2F7S%2BO6Iu02nSUulMmE%2BJqgannljFcyfyadkVp%0AfQ%3D%3D%0A" alt="">) icon of the corresponding user. A drop-down list is displayed.
   2. Select the **Remove user** option from the list. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the app.
 
@@ -207,7 +209,7 @@ Exempted users keep their user accounts active for the seat-based or paid social
 
 To exempt unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
-  1. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1223774384/75a2126051b292fd82f77e7a525f/AD_4nXcGFnap-9CTFzBgWeqJbOISTlY5_QDW7lURhLVJ8md8OZAjsiFvQbppvi3LDooSEmLtE9rw2aia_SSjnPMcJjMW2caFKjPZtshR6amvkhr0Bc9Sd0zOMjXHtyOOoYLJScvLuBiIDrfxGd3o6anW1kcV3cOG?expires=1739340000&signature=d35c83f2b056c83bc1103ce4b1bccab277e0d009ad4b3f51f3404d9c634edb82&req=dSIlFc55mYJXXfMW3Hu4gZp%2F7S%2BO6Iu02nSUulMmE%2BJqgannljFcyfyadkVp%0AfQ%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding user. A drop-down list is displayed.
+  1. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1223774384/75a2126051b292fd82f77e7a525f/AD_4nXcGFnap-9CTFzBgWeqJbOISTlY5_QDW7lURhLVJ8md8OZAjsiFvQbppvi3LDooSEmLtE9rw2aia_SSjnPMcJjMW2caFKjPZtshR6amvkhr0Bc9Sd0zOMjXHtyOOoYLJScvLuBiIDrfxGd3o6anW1kcV3cOG?expires=1739340000&signature=d35c83f2b056c83bc1103ce4b1bccab277e0d009ad4b3f51f3404d9c634edb82&req=dSIlFc55mYJXXfMW3Hu4gZp%2F7S%2BO6Iu02nSUulMmE%2BJqgannljFcyfyadkVp%0AfQ%3D%3D%0A" alt="">) icon of the corresponding user. A drop-down list is displayed.
   2. Select the **Exempt user** option from the list. The exempt user dialog box is displayed.
   3. Enter a reason for exempting the user in the **Provide a reason** field.
   4. Click the **Exempt member** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Exempted users** tab.
@@ -218,14 +220,14 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 The following are the supported features of Business hubs you can use:
 
-* [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
-* [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
-* [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
-* [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
-* [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
-* [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
-* [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
-* [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
-* [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
+  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+  * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

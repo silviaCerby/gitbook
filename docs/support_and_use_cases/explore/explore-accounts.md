@@ -24,7 +24,7 @@ You can add your accounts to Cerby manually, at login, or import them from your 
 
 Accounts are displayed as cards in your dashboard, whether you use the Cerby web app, browser extension, or mobile app. **Figure 1** shows different accounts in the **All accounts** page of the Cerby web app dashboard.
 
-<figure><img src="../../../.gitbook/assets/T08O8UyQMj8nlwBP6IvFUSbgsZE7ee3C2GKACLugboVd5011viRyjua-Yl8N7cyT6pUFGTMwUb5gcH7O7S9VhOy8WF4C2t1CFS9bUNtnWRlHQvhT7_me0C2mjp4wuMQQUE51Y15B1rhpxxqkYAEsTCw.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/T08O8UyQMj8nlwBP6IvFUSbgsZE7ee3C2GKACLugboVd5011viRyjua-Yl8N7cyT6pUFGTMwUb5gcH7O7S9VhOy8WF4C2t1CFS9bUNtnWRlHQvhT7_me0C2mjp4wuMQQUE51Y15B1rhpxxqkYAEsTCw.png" alt="">
 
 **Figure 1.** Account cards in the **All accounts** page of the Cerby web app dashboard
 
@@ -36,9 +36,9 @@ By interacting with account cards, you can trigger an automatic login, share acc
 
 The following are the account types you can add to Cerby:
 
-* Managed accounts
-* Self-managed accounts
-* No URL accounts
+  * [Managed accounts](explore-accounts.md#id-managed-accounts)
+  * [Self-managed accounts](explore-accounts.md#id-self-managed-accounts)
+  * [No URL accounts](explore-accounts.md#id-no-url-accounts)
 
 The following sections describe each account type.
 
@@ -50,11 +50,11 @@ Logging in to your managed accounts from Cerby is a one-click experience: the lo
 
 For Cerby Automate users, in addition to automatic login, managed accounts also support the following hygiene security automated tasks triggered by one click in the Cerby web app:
 
-* **Turn on or off MFA:** You can automatically turn on or off MFA for an account. When turning on MFA, you can also store the secret key for authentication in Cerby.
-* **Check MFA status:** You can automatically verify if MFA is active and has the correct secret key.
-* **Swap email:** You can change the current email registered in your accounts for a Cerby-managed email.
-* **Swap phone:** You can change the current phone number registered in your accounts for a Cerby-managed phone number.
-* **Rotate password:** You can automatically rotate your accounts' passwords to Cerby-generated secure passwords that comply with the password strength rules of each app.
+  * **Turn on or off MFA:** You can automatically turn on or off MFA for an account. When turning on MFA, you can also store the secret key for authentication in Cerby.
+  * **Check MFA status:** You can automatically verify if MFA is active and has the correct secret key.
+  * **Swap email:** You can change the current email registered in your accounts for a Cerby-managed email.
+  * **Swap phone:** You can change the current phone number registered in your accounts for a Cerby-managed phone number.
+  * **Rotate password:** You can automatically rotate your accounts' passwords to Cerby-generated secure passwords that comply with the password strength rules of each app.
 
 {% hint style="info" %}
 
@@ -84,6 +84,6 @@ No URL accounts are for non-integrated apps that you access locally, not through
 
 Some apps that can be accessed without a URL account are hardware devices and desktop applications. Cerby doesn’t support security automated tasks for these accounts. No URL accounts are identified visually in the Cerby dashboard, as shown in **Figure 2**.
 
-<figure><img src="../../../.gitbook/assets/TQ_M8ie-yaM-ZoIx25lZ9K2sFg9KZETAKIwvwInsDgNn_4jUROysgKmSNHWLmdmlyyVzsJHnYvAGYsq8zn9sEyLFZdVIpEhHHwCNDWKuGgW_N5Emt_90Jpp7nAYdsp7be6t85ZcSyypSRv3Qqw_PJDA.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/TQ_M8ie-yaM-ZoIx25lZ9K2sFg9KZETAKIwvwInsDgNn_4jUROysgKmSNHWLmdmlyyVzsJHnYvAGYsq8zn9sEyLFZdVIpEhHHwCNDWKuGgW_N5Emt_90Jpp7nAYdsp7be6t85ZcSyypSRv3Qqw_PJDA.png" alt="">
 
 **Figure 2.** No URL account card

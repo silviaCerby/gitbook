@@ -11,15 +11,15 @@ intercom_id: 10458604
 For more information about how Scout works and scouting tips, read the article [Explore Scout](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-scout).
 
 * The following are the workflows you can scout:
-    * Account security
-      * Log in to your account
-      * Update your account's password
-      * Turn on multi-factor authentication (MFA)
-    * App user management
-      * Check for updates
-      * Invite a user to your app
-      * Remove a user from your app
-      * Update a user's role in your app
+  * Account security
+    * Log in to your account
+    * Update your account's password
+    * Turn on multi-factor authentication (MFA)
+  * App user management
+    * [Check for updates](video-how-to-scout-user-management-workflows-for-your-apps.md#id-check-for-updates)
+    * [Invite a user to your app](video-how-to-scout-user-management-workflows-for-your-apps.md#id-invite-a-user-to-your-app)
+    * [Remove a user from your app](video-how-to-scout-user-management-workflows-for-your-apps.md#id-remove-a-user-from-your-app)
+    * [Update a user's role in your app](video-how-to-scout-user-management-workflows-for-your-apps.md#id-update-a-users-role-in-your-app)
 
 This article contains the videos for the app user management workflows.
 
@@ -29,11 +29,12 @@ This article contains the videos for the app user management workflows.
 
 The following are the requirements to start using Scout for user management workflow scouting:
 
-* The [Scout by Cerby](https://chromewebstore.google.com/detail/scout-by-cerby/dknnopjbgccecedcmkfjlmenbagocmnh?authuser=1) browser extension installed. For more information, read the article [Install Scout](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/install-scout).
-**IMPORTANT:** Your organization must request access to this extension to Cerby because it is privately listed in the Chrome Web Store.
+  * The [Scout by Cerby](https://chromewebstore.google.com/detail/scout-by-cerby/dknnopjbgccecedcmkfjlmenbagocmnh?authuser=1) browser extension installed. For more information, read the article [Install Scout](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/install-scout).
 
-* An active session in the Scout browser extension by logging into it. For more information, read the article [Log in to Scout](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/log-in-to-scout).
-* A user account in the seat-based or paid social app with enough permissions (typically with an Admin role) to manage users, groups, and roles.
+  **IMPORTANT:** Your organization must request access to this extension to Cerby because it is privately listed in the Chrome Web Store.
+
+  * An active session in the Scout browser extension by logging into it. For more information, read the article [Log in to Scout](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/log-in-to-scout).
+  * A user account in the seat-based or paid social app with enough permissions (typically with an Admin role) to manage users, groups, and roles.
 * * *
 
 ## Check for updates

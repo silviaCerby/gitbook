@@ -29,10 +29,10 @@ When MFA is turned on with this verification method, Cerby fills in the six-digi
 
 The following are the requirements to turn on MFA with Cerby as an authenticator app for your account:
 
-* A Cerby workspace
-* A Cerby user account with the workspace **Owner** , **Super Admin** , **Admin** , or **User** role
-* An account in an app or service provider
-* An account added to Cerby to which you have the **Owner** role
+  * A Cerby workspace
+  * A Cerby user account with the workspace **Owner** , **Super Admin** , **Admin** , or **User** role
+  * An account in an app or service provider
+  * An account added to Cerby to which you have the **Owner** role
 * * *
 
 ## Turn on MFA with Cerby as an authenticator app for your account
@@ -54,7 +54,7 @@ To turn on MFA with Cerby as an authenticator app for your account, you must com
      5. Tap the **Can’t scan the QR code?** button. The **Enter key manually** screen is displayed.
      6. Paste the secret key in the **Secret key** field.
      7. Tap the **Save secret key** button. A six-digit code is displayed on a new screen.
-     8. Tap the **Copy** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1813660361/d758bdeba38f6b9a5e58c75ab354/542154e7-3599-4cbe-93dd-31607f7bce6c?expires=1762304850&signature=1987f52e7b3bd39e6bc384683661e41ea8686bb1cdf3f979220044f7497c59c1&req=dSgmFc94nYJZWPMU3HP0gMVMAMxtxCmViNMVjexTMZsJv9E%2FPIc%3D%0A" alt=""><figcaption></figcaption></figure>) icon.
+     8. Tap the **Copy** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1813660361/d758bdeba38f6b9a5e58c75ab354/542154e7-3599-4cbe-93dd-31607f7bce6c?expires=1762304850&signature=1987f52e7b3bd39e6bc384683661e41ea8686bb1cdf3f979220044f7497c59c1&req=dSgmFc94nYJZWPMU3HP0gMVMAMxtxCmViNMVjexTMZsJv9E%2FPIc%3D%0A" alt="">) icon.
   7. Finish the MFA setup in your app by completing the following steps:
      1. Switch to the app where you retrieved the secret key.
      2. Continue with the MFA setup flow.

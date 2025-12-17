@@ -22,23 +22,23 @@ Cerby keeps your business hubs up to date automatically, but you can also run sy
 
 To sync your business hub with your external app, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  3. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1723576197/6fcb0b167d21af5b2cc374320a87/10b3dd88-e196-43c4-86f3-57ebfdb164a6?expires=1764504000&signature=d4d87c5cb72251ac4867992190573a1e10647344fb9d3ab1c8bd4feb1c718b14&req=dSclFcx5m4BWXvMW3Hu4gZFxFppurDZAiaBWej0kdzb8UG4Li9WaIYVQ3q5r%0Aag%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. A drop-down menu is displayed.
-  4. Select the **Settings** option from the menu. The business hub details page is displayed with the **Settings** tab activated.
-  5. Click the**Sync** button located at the top-right section of the page. A message box is displayed with information about the process.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
+3. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1723576197/6fcb0b167d21af5b2cc374320a87/10b3dd88-e196-43c4-86f3-57ebfdb164a6?expires=1764504000&signature=d4d87c5cb72251ac4867992190573a1e10647344fb9d3ab1c8bd4feb1c718b14&req=dSclFcx5m4BWXvMW3Hu4gZFxFppurDZAiaBWej0kdzb8UG4Li9WaIYVQ3q5r%0Aag%3D%3D%0A" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
+4. Select the **Settings** option from the menu. The business hub details page is displayed with the **Settings** tab activated.
+5. Click the**Sync** button located at the top-right section of the page. A message box is displayed with information about the process.
 ​**NOTE:** The sync process may take a few minutes depending on the number of users and assets. You can review the progress of the automated task through the **Automation** **Log** page.
 
-  6. Activate the **Users** tab. The recently synced app users are displayed in the following tabs of the **User Overview** section:
+6. Activate the **Users** tab. The recently synced app users are displayed in the following tabs of the **User Overview** section:
 
-     * **Onboarded users:** This tab displays the users matched to their Cerby account.
-     * **Unmatched users:** This tab displays the users who were not automatically matched.
-     * **Guest users:** This tab displays the users matched to a Cerby guest user.
+   * **Onboarded users:** This tab displays the users matched to their Cerby account.
+   * **Unmatched users:** This tab displays the users who were not automatically matched.
+   * **Guest users:** This tab displays the users matched to a Cerby guest user.
 
-  7. Perform one of the following actions described in the [Connect a business hub for your app](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app) article for unmatched users:
+7. Perform one of the following actions described in the [Connect a business hub for your app](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app) article for unmatched users:
 
-     * [Match users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
-     * [Remove unmatched users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
-     * [Exempt unmatched users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
+   * [Match users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
+   * [Remove unmatched users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
+   * [Exempt unmatched users](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
 
 Now you are done.

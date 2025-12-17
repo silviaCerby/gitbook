@@ -9,15 +9,15 @@ intercom_id: 10707843
 
 * The Recertification process enables L'Oréal to verify that your organic accounts and Business Hubs are configured and protected according to the company’s security guidelines.
 * The social organic accounts and Business Hubs you must recertify are the following:
-    * Meta (Instagram and Facebook)
-    * TikTok
-    * Pinterest
-    * Snapchat
-    * X (Twitter)
-    * YouTube
+  * Meta (Instagram and Facebook)
+  * TikTok
+  * Pinterest
+  * Snapchat
+  * X (Twitter)
+  * YouTube
 * For more information about the recertification process, read the articles:
-    * [Simplify your account recertification process with Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/simplify-your-account-recertification-process-with-cerby)
-    * [Recertification criteria for L'Oréal](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/use-cases/recertification-criteria-for-l-or-al)
+  * [Simplify your account recertification process with Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/simplify-your-account-recertification-process-with-cerby)
+  * [Recertification criteria for L'Oréal](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/use-cases/recertification-criteria-for-l-or-al)
 
 {% hint style="danger" %}
 

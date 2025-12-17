@@ -21,18 +21,18 @@ As a secret or secret item (such as WiFi, SSH keys, database, server, and custom
 
 To update a team’s role on a secret, you must complete the following steps using the Cerby mobile app:
 
-  1. Open the Cerby mobile app.
-  2. Log in to your Cerby workspace.
-  3. Activate the **Secrets** tab located at the top on iOS or Android. The **Secrets** screen is displayed.
-  4. Tap the corresponding secret card. The secret details screen is displayed.
-  5. Tap the right arrow icon from the **Teams** list within the **Sharing** section. The **View teams** screen is displayed.
-  6. Select the corresponding team from the list. A menu is displayed at the bottom.
-  7. Tap the **Update role** button from the menu. The list of teams is displayed.
-  8. Select the team’s new role on the secret or secret item:
+1. Open the Cerby mobile app.
+2. Log in to your Cerby workspace.
+3. Activate the **Secrets** tab located at the top on iOS or Android. The **Secrets** screen is displayed.
+4. Tap the corresponding secret card. The secret details screen is displayed.
+5. Tap the right arrow icon from the **Teams** list within the **Sharing** section. The **View teams** screen is displayed.
+6. Select the corresponding team from the list. A menu is displayed at the bottom.
+7. Tap the **Update role** button from the menu. The list of teams is displayed.
+8. Select the team’s new role on the secret or secret item:
 
-     * **Owner:** Teams can share access, edit, add attachments, and manage the secret settings.
-     * **Collaborator:** Teams can only view the secret and download the attachments.
+   * **Owner:** Teams can share access, edit, add attachments, and manage the secret settings.
+   * **Collaborator:** Teams can only view the secret and download the attachments.
 
-  9. Tap the **Save** button.
+9. Tap the **Save** button.
 
 Now you are done.

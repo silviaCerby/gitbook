@@ -32,8 +32,8 @@ With this action, you become the collection **Owner** , and when you share the c
 
 In Cerby, you can create a collection in the following two ways:
 
-* Create a collection manually
-* Import collections from your password manager
+* [Create a collection manually](create-a-collection.md#id-create-a-collection-manually)
+* [Import collections from your password manager](create-a-collection.md#id-import-collections-from-your-password-manager)
 
 The following sections describe each way.
 
@@ -50,7 +50,7 @@ To create a collection manually, you must complete the following steps using the
 ​**NOTE:** This page includes the **Create as subcollection** option. For more information about subcollections, read the article [Explore Subcollections](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-subcollections).
 
   5. Click the **Next** button. The **Add items to your collection** page of the wizard is displayed listing the items you own.
-  6. Click the **Add**(<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1481328643/0667f81a58c5e7a7fe37ac42c7e9/AD_4nXcXkA9uSdrmnOIUp4FEKVa5dOQgv_inKeFNHTAr0uAmTIptIuBit2C42NfgpuCrglPoRZb0mmUwg315TyvtQ_vD7B-esIkOtocJI-RF0fEB3iPrHJx8zV9qahQibS4JsF_hva-wzg?expires=1759320000&signature=9322676cacdee699b5665ba0f7af069eeeb817765d1d8fecee1ce0bd941b48b9&req=dSQvF8p8lYdbWvMW3Hu4gUkxTM1A%2BKudkV2cWGhtBRW60HCthV0JuuZ3JGm0%0Amg%3D%3D%0A" alt=""><figcaption></figcaption></figure>)icon of the item you want to add to your collection. The item is added to a list in the **Selected items** section.
+  6. Click the **Add**(<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1481328643/0667f81a58c5e7a7fe37ac42c7e9/AD_4nXcXkA9uSdrmnOIUp4FEKVa5dOQgv_inKeFNHTAr0uAmTIptIuBit2C42NfgpuCrglPoRZb0mmUwg315TyvtQ_vD7B-esIkOtocJI-RF0fEB3iPrHJx8zV9qahQibS4JsF_hva-wzg?expires=1759320000&signature=9322676cacdee699b5665ba0f7af069eeeb817765d1d8fecee1ce0bd941b48b9&req=dSQvF8p8lYdbWvMW3Hu4gUkxTM1A%2BKudkV2cWGhtBRW60HCthV0JuuZ3JGm0%0Amg%3D%3D%0A" alt="">)icon of the item you want to add to your collection. The item is added to a list in the **Selected items** section.
   7. Repeat step 6 as necessary.
   8. Decide whether you want only to create the collection or create it and share it:
 
@@ -66,10 +66,11 @@ To create a collection manually, you must complete the following steps using the
        3. Select the member or team from the list to add them to the **Members and Teams** section.
        4. Repeat steps b and c as necessary.
        5. Select the role to assign on the collection to the members and teams from the **Access** drop-down menu:
-**NOTE:** When you select a user with the **Login-only** role, they are listed in the **Login-Only** section. You can only select the **Collaborator** role for them.
 
           * **Owner:** Members and teams can share access to the collection, manage the item settings, and perform the actions of a **Collaborator**.
           * **Collaborator:** Members and teams can only log in to the accounts, view the secrets, and download the secret attachments.
+
+          **NOTE:** When you select a user with the **Login-only** role, they are listed in the **Login-Only** section. You can only select the **Collaborator** role for them.
 
        6. (Optional) Customize the message to send when you share the collection in the **Message** field.
        7. Click the **Share** button. The wizard closes, a success message box is displayed, and the new collection is added to the **Collections** page.
@@ -86,5 +87,5 @@ Currently, our importer supports migrations from LastPass and 1Password. LastPas
 
 For more information and instructions, read the following articles:
 
-* [Migrate from LastPass to Cerby](https://cerby-test.gitbook.io/cerby-test/management/credential-management/item-importer/migrate-from-lastpass-to-cerby)
-* [Migrate from 1Password to Cerby](https://cerby-test.gitbook.io/cerby-test/management/credential-management/item-importer/migrate-from-1password-to-cerby)
+  * [Migrate from LastPass to Cerby](https://cerby-test.gitbook.io/cerby-test/management/credential-management/item-importer/migrate-from-lastpass-to-cerby)
+  * [Migrate from 1Password to Cerby](https://cerby-test.gitbook.io/cerby-test/management/credential-management/item-importer/migrate-from-1password-to-cerby)

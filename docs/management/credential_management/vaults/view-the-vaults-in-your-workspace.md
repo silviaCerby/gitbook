@@ -20,6 +20,6 @@ intercom_id: 10113669
 
 To view the vaults in your workspace, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
-  2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed.
-  3. Activate the **Privacy and security** tab. A table with a list of vaults is displayed in the **Vault management** section.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
+2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed.
+3. Activate the **Privacy and security** tab. A table with a list of vaults is displayed in the **Vault management** section.

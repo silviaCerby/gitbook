@@ -50,12 +50,12 @@ Finally, consider the following security recommendations when using Smart Collec
 
 This article contains the instructions to perform the following actions using the Smart Collections feature:
 
-* Add an account
-* Edit the tags of a corporate account
-* Convert an account from corporate to personal
-* Convert an account from personal to corporate
-* Update the tags of a collection
-* View the accounts assigned to a collection
+* [Add an account](explore-smart-collections.md#id-add-an-account)
+* [Edit the tags of a corporate account](explore-smart-collections.md#id-edit-the-tags-of-a-corporate-account)
+* [Convert an account from corporate to personal](explore-smart-collections.md#id-convert-an-account-from-corporate-to-personal)
+* [Convert an account from personal to corporate](explore-smart-collections.md#id-convert-an-account-from-personal-to-corporate)
+* [Update the tags of a collection](explore-smart-collections.md#id-update-the-tags-of-a-collection)
+* [View the accounts assigned to a collection](explore-smart-collections.md#id-view-the-accounts-assigned-to-a-collection)
 
 The following sections contain the steps for each action.
 
@@ -98,7 +98,8 @@ To add an individual or corporate account to Cerby, you must complete the follow
 ​**NOTE:** Accounts can belong to more than one collection.
 
   7. Optionally, if you see the **Vault** field, select the corresponding vault from the drop-down list to add the account to it.
-**NOTE:** If you only have access to one vault, this drop-down list will not be displayed.
+
+  **NOTE:** If you only have access to one vault, this drop-down list will not be displayed.
 
   8. Click the **Add account** button. The dialog box closes, and a success message box and the account details page are displayed.
 
@@ -112,8 +113,8 @@ To edit the tags of a corporate account, you must complete the following steps:
 
   1. Log in to your Cerby workspace. The **All accounts** view is displayed.
   2. Click the corporate account you want to modify. The account details page is displayed with the **General** tab activated.
-  3. Hover the mouse over the **Division** , **Zone** , **Brand** , and **Market** fields in the **Account labels** section. The **Edit** (<figure><img src="../../../.gitbook/assets/unnamed_51.png" alt=""><figcaption></figcaption></figure>) icon is displayed.
-  4. Click the **Edit** (<figure><img src="../../../.gitbook/assets/unnamed_52.png" alt=""><figcaption></figcaption></figure>) icon. The drop-down lists are enabled next to the **Division** , **Zone** , **Brand** , and **Market** fields.
+  3. Hover the mouse over the **Division** , **Zone** , **Brand** , and **Market** fields in the **Account labels** section. The **Edit** (<img src="../../../.gitbook/assets/unnamed_51.png" alt="">) icon is displayed.
+  4. Click the **Edit** (<img src="../../../.gitbook/assets/unnamed_52.png" alt="">) icon. The drop-down lists are enabled next to the **Division** , **Zone** , **Brand** , and **Market** fields.
   5. Select the corresponding option in the following fields:
 
      * **Division**
@@ -121,7 +122,7 @@ To edit the tags of a corporate account, you must complete the following steps:
      * **Brand**
      * **Market**
 
-  6. Click the **Done** (<figure><img src="../../../.gitbook/assets/unnamed_53.png" alt=""><figcaption></figcaption></figure>) icon. The edit fields are disabled, and a success message box is displayed.
+  6. Click the **Done** (<img src="../../../.gitbook/assets/unnamed_53.png" alt="">) icon. The edit fields are disabled, and a success message box is displayed.
 
 Now you are done. You have edited the tags of a corporate account.
 
@@ -135,10 +136,11 @@ To convert a corporate account into a personal account, you must complete the fo
   2. Click the corporate account you want to modify. The account details page is displayed with the **General** tab activated.
   3. Select the **This is an individual account** switch. The **Update account configuration?** dialog box is displayed, as shown in **Figure 1**.
 
-**Figure 1. Update account configuration?** dialog box to convert from
-corporate to personal account
+<img src="../../../.gitbook/assets/ec66d781-ed94-4f81-a572-082bd07fbb50.png" alt="">
 
-<figure><img src="../../../.gitbook/assets/ec66d781-ed94-4f81-a572-082bd07fbb50.png" alt=""><figcaption></figcaption></figure>
+**Figure 1. Update account configuration?** dialog box to convert from
+
+corporate to personal account
 
   4. Click the **Confirm** button. A success message box is displayed, and the account is updated as follows:
 
@@ -157,10 +159,11 @@ To convert a personal account into a corporate account, you must complete the fo
   2. Click the corporate account you want to modify. The account details page is displayed with the **General** tab activated.
   3. Deselect the **This is an individual account** switch. The **Update account configuration?** dialog box is displayed, as shown in **Figure 2**.
 
-**Figure 2. Update account configuration?** dialog box to convert from
-personal to corporate account
+<img src="../../../.gitbook/assets/67fbdb1d-8cd2-49ce-bbfa-a85e43c677b8.png" alt="">
 
-<figure><img src="../../../.gitbook/assets/67fbdb1d-8cd2-49ce-bbfa-a85e43c677b8.png" alt=""><figcaption></figcaption></figure>
+**Figure 2. Update account configuration?** dialog box to convert from
+
+personal to corporate account
 
   4. Click the **Confirm** button. A success message box is displayed, and the account is updated as follows:
 
@@ -168,7 +171,7 @@ personal to corporate account
      * The original account name is kept, and it cannot be edited.
 
   5. Hover the mouse over the **Account label** section. The **Edit** () button is displayed.
-  6. Edit the tags of a corporate account. A success message box is displayed, and the account is updated as follows:
+  6. [Edit the tags of a corporate account](explore-smart-collections.md#id-edit-the-tags-of-a-corporate-account). A success message box is displayed, and the account is updated as follows:
 
      * The account name is updated, according to the tags established.
      * The account name cannot be edited.
@@ -186,9 +189,9 @@ To update the tags of a collection, you must complete the following steps:
 
   1. Log in to your Cerby workspace.
   2. Select the **Collections** option from the left navigation drawer. The **Collections** view is displayed.
-  3. Click the **Settings** (<figure><img src="../../../.gitbook/assets/unnamed_54.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
-  4. Hover the mouse over the **Division** , **Zone** , **Brand** , and **Market** fields in the **Tags** section. The **Edit** (<figure><img src="../../../.gitbook/assets/unnamed_55.png" alt=""><figcaption></figcaption></figure>) icon is displayed.
-  5. Click the **Edit** (<figure><img src="../../../.gitbook/assets/unnamed_56.png" alt=""><figcaption></figcaption></figure>) icon. The drop-down lists appear next to the **Division** , **Zone** , **Brand** , and **Market** fields.
+  3. Click the **Settings** (<img src="../../../.gitbook/assets/unnamed_54.png" alt="">) icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
+  4. Hover the mouse over the **Division** , **Zone** , **Brand** , and **Market** fields in the **Tags** section. The **Edit** (<img src="../../../.gitbook/assets/unnamed_55.png" alt="">) icon is displayed.
+  5. Click the **Edit** (<img src="../../../.gitbook/assets/unnamed_56.png" alt="">) icon. The drop-down lists appear next to the **Division** , **Zone** , **Brand** , and **Market** fields.
   6. Select the corresponding option in the following fields:
 
      * **Social Media Type**
@@ -197,7 +200,7 @@ To update the tags of a collection, you must complete the following steps:
      * **Brand**
      * **Market**
 
-  7. Click the **Done** (<figure><img src="../../../.gitbook/assets/unnamed_57.png" alt=""><figcaption></figcaption></figure>) icon. The edit fields are disabled, and a success message is displayed. The accounts that match the tags are displayed in the **Accounts** tab.
+  7. Click the **Done** (<img src="../../../.gitbook/assets/unnamed_57.png" alt="">) icon. The edit fields are disabled, and a success message is displayed. The accounts that match the tags are displayed in the **Accounts** tab.
 
 Now you are done. You have updated the corporate tags of a collection.
 
@@ -209,7 +212,7 @@ To view the assigned accounts of a collection, you must complete the following s
 
   1. Log in to your Cerby workspace.
   2. Select the **Collections** option from the left navigation drawer. The **Collections** view is displayed.
-  3. Click the **Settings** (<figure><img src="../../../.gitbook/assets/unnamed_58.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
+  3. Click the **Settings** (<img src="../../../.gitbook/assets/unnamed_58.png" alt="">) icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
   4. Activate the **Accounts** tab. The list of accounts in the collection is displayed.
 
 Now you are done.

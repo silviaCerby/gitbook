@@ -19,8 +19,8 @@ intercom_id: 8705340
 
 You can add a database item and attachments to Cerby in the following two ways:
 
-* Add a database item manually
-* Import database items from LastPass
+* [Add a database item manually](add-a-database-item.md#id-add-a-database-item-manually)
+* [Import database items from LastPass](add-a-database-item.md#id-import-database-items-from-lastpass)
 
 The following sections describe each way.
 
@@ -52,7 +52,8 @@ To add a database item and, optionally, a file attachment, you must complete the
      3. Click the **Open** button. The file dialog box closes, and the file is displayed on the **Attachments** section.
      4. Repeat steps a to c as necessary.
   7. Select a vault where you want to save the secret from the **Vault** drop-down list.
-**NOTE:** If you only have one vault, the **Vault** drop-down list is not displayed.
+
+  **NOTE:** If you only have one vault, the **Vault** drop-down list is not displayed.
 
   8. Click the **Add Secret** button. The dialog box closes, and the secret details page is displayed.
 

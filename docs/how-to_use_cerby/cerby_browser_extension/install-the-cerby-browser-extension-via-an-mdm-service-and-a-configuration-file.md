@@ -7,7 +7,7 @@ intercom_id: 8265232
 
 With Cerby, you can deploy the Cerby browser extension across all of your company endpoints using a Mobile Device Management (MDM) platform, such as Jamf (macOS) and Tanium (Windows), and configuration files.
 
-The deployment comprises the following web browsers running on macOS and Windows:
+The deployment comprises the following web browsers running on [macOS](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-macos) and [Windows](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-windows):
 
 * Safari
 * Microsoft Edge
@@ -32,9 +32,9 @@ This article describes the process to achieve a seamless installation and ensure
 
 The deployment setup on macOS endpoints is different depending on the web browser:
 
-* Safari
-* Chrome
-* Firefox
+  * [Safari](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-safari)
+  * [Chrome](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-chrome)
+  * [Firefox](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-firefox)
 
 The following sections describe the setup process for each browser.
 
@@ -48,8 +48,8 @@ When you complete the setup, you can select the Cerby browser extension from the
 
 The following are the requirements to set up the deployment:
 
-* An [Apple Business Manager](https://business.apple.com/) account with the **Content Manager** role (minimum)
-* Access to an MDM service with the necessary permissions to create and deploy configuration profiles and their payloads
+  * An [Apple Business Manager](https://business.apple.com/) account with the **Content Manager** role (minimum)
+  * Access to an MDM service with the necessary permissions to create and deploy configuration profiles and their payloads
 
 #### Deployment setup
 
@@ -61,9 +61,9 @@ To set up the deployment and payloads of the Cerby browser extension, you must c
   4. Click the **View Store** button located in the right pane. The **Store** page is displayed.
   5. Search for the **Cerby Web Extension** app and select it. The app license details are displayed on the right pane, as shown in **Figure 1**.
 
-**Figure 1.** Cerby Web Extension license details on the **Store** page
+<img src="../../../.gitbook/assets/_hw_JIafquH0PVuIX-fXzH8pYhIgc63bswTrtDRP3S6gqD-nxU7_HcsdGmO54VkIsPAnq2SabryPsuCIQ_41NFocqpIEvVxkcTldCd-KPP3m5lerRxIjllVwblGvvUJOR_81FVDGvpyaqvkaQ3hIcAU.png" alt="">
 
-<figure><img src="../../../.gitbook/assets/_hw_JIafquH0PVuIX-fXzH8pYhIgc63bswTrtDRP3S6gqD-nxU7_HcsdGmO54VkIsPAnq2SabryPsuCIQ_41NFocqpIEvVxkcTldCd-KPP3m5lerRxIjllVwblGvvUJOR_81FVDGvpyaqvkaQ3hIcAU.png" alt=""><figcaption></figcaption></figure>
+**Figure 1.** Cerby Web Extension license details on the **Store** page
 
   6. Select the corresponding location token to assign to your MDM service from the **Assign to** drop-down list.
   7. Enter the number of licenses you want to make available for deployment through your MDM service in the **Quantity** field.
@@ -123,8 +123,6 @@ To set up the configuration file, payload, deployment, and roll out the installa
   6. Click the **Add** button again. A new **Custom** form is displayed.
   7. Enter **`com.google.chrome.extensions.clccplmaaeihbagbefjinmclielobnkb`** in the **Preference Domain** field.
   8. Copy the following XML snippet and paste it in the **Property List** field:
-**IMPORTANT:** You must replace the `{your-workspace-name}` value with the actual name of your workspace to specify the `DEFAULT_WORKSPACE` key.For example, **contentzilla**.
-(Optional) To enable the Auto sign-in feature, replace the `{your-subdomain}` value with the actual subdomain of your Okta tenant to specify the `OKTA_DOMAIN` key.
 
          <?xml version="1.0" encoding="UTF-8"?>
          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -137,6 +135,9 @@ To set up the configuration file, payload, deployment, and roll out the installa
          	</dict>
          </plist>
 
+**IMPORTANT:** You must replace the `{your-workspace-name}` value with the actual name of your workspace to specify the `DEFAULT_WORKSPACE` key.For example, **contentzilla**.
+(Optional) To enable the Auto sign-in feature, replace the `{your-subdomain}` value with the actual subdomain of your Okta tenant to specify the `OKTA_DOMAIN` key.
+
   9. Click the **Save** button.
   10. Activate the **Scope** tab to add your deployment targets. For more information, read the [Scope](https://learn.jamf.com/bundle/jamf-pro-documentation-current/page/Scope.html) official documentation.
   11. Click the **Save** button located at the bottom right of the page.
@@ -145,7 +146,7 @@ Now you are done. The macOS endpoints will install the Cerby browser extension a
 
 **Figure 2** shows how the Cerby browser extension is displayed on the extension management page of a macOS computer using Google Chrome.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXfaelE-4JGagJVstoA7CDiHBcAwWUPp6EGRvSNDuHOL5KWljMlTiwRb5-Az2YPkSVQ0QJ103P7Q2kYv5gvZYhWQZBSVWJjnkiIYCmy6PhNb_grFArlPrByY6v__KstE2FdlFhddZQy3K1gMFz3Rc-yvyPo.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXfaelE-4JGagJVstoA7CDiHBcAwWUPp6EGRvSNDuHOL5KWljMlTiwRb5-Az2YPkSVQ0QJ103P7Q2kYv5gvZYhWQZBSVWJjnkiIYCmy6PhNb_grFArlPrByY6v__KstE2FdlFhddZQy3K1gMFz3Rc-yvyPo.png" alt="">
 
 **Figure 2.** Cerby browser extension in the **Extension** page of the Chrome web browser
 
@@ -184,9 +185,6 @@ To set up the configuration file, payload, deployment, and roll out the installa
         * **Distribution Method**
 
   5. Enter the XML Property Lists to populate the configuration properties by performing the following actions:
-**IMPORTANT:** You must replace the `{your-workspace-name}` value with the actual name of your workspace to specify the `DEFAULT_WORKSPACE` key. For example, **contentzilla**.
-(Optional) To enable the Auto sign-in feature, replace the `{your-subdomain}` value with the actual subdomain of your Okta tenant to specify the `OKTA_DOMAIN` key.
-
      1. Select the **Upload** option from the **Application & Custom Settings** drop-down list located in the left pane of the page. The **Upload** section is displayed.
      2. Click the **Add** button. The **Custom** form is displayed.
      3. Enter **org.mozilla.firefox** in the **Preference Domain** field.
@@ -224,6 +222,9 @@ To set up the configuration file, payload, deployment, and roll out the installa
               </dict>
             </plist>
 
+**IMPORTANT:** You must replace the `{your-workspace-name}` value with the actual name of your workspace to specify the `DEFAULT_WORKSPACE` key. For example, **contentzilla**.
+(Optional) To enable the Auto sign-in feature, replace the `{your-subdomain}` value with the actual subdomain of your Okta tenant to specify the `OKTA_DOMAIN` key.
+
   6. Click the **Save** button.
   7. Activate the **Scope** tab to add your deployment targets. For more information, read the [Scope](https://learn.jamf.com/bundle/jamf-pro-documentation-current/page/Scope.html) official documentation.
   8. Click the **Save** button located at the bottom right of the page.
@@ -232,7 +233,7 @@ Now you are done. The macOS endpoints will install the Cerby browser extension a
 
 **Figure 3** shows how the Cerby browser extension is displayed on the extension management page of a macOS computer using Mozilla Firefox.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXe8psU2qad6tuIV0WkdOajPcMMM0LmRDn1Bifsl4jfKzbzZk5t8PO3R9Ljy3WJr5f8RCcNpM152egKx_r3Uv3akyP-mK7--2pCciXC8-xPkkeVwyVDFILk4hVwLIGedYydA1KtXeF-jQ0oYJDarXGACMQSY.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXe8psU2qad6tuIV0WkdOajPcMMM0LmRDn1Bifsl4jfKzbzZk5t8PO3R9Ljy3WJr5f8RCcNpM152egKx_r3Uv3akyP-mK7--2pCciXC8-xPkkeVwyVDFILk4hVwLIGedYydA1KtXeF-jQ0oYJDarXGACMQSY.png" alt="">
 
 **Figure 3.** Cerby browser extension in the **Manage Your Extensions** page of the Firefox web browser
 
@@ -256,14 +257,16 @@ When each script runs with a command (also provided by Cerby) in your selected e
 
 The following are the requirements to set up the deployment and perform the enterprise rollout:
 
-* The PS1 files for each web browser:
-You must create these files in your code editor by copying and pasting the corresponding scripts from the Appendix: Scripts section.
-
+  * The PS1 files for each web browser:
     * `chrome_windows_installer.ps1`
     * `edge_windows_installer.ps1`
     * `firefox_windows_installer.ps1`
-* An MDM service for Windows, such as Intune, Hexnode, Tanium, or ManageEngine, in which you can create a configuration profile or payload to upload the script and set up an execution command
-**IMPORTANT:** The deployment of a PowerShell script depends on your MDM’s capabilities. For more setup information, you can read the official documentation from the following providers:
+
+You must create these files in your code editor by copying and pasting the corresponding scripts from the [Appendix: Scripts](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-appendix-scripts) section.
+
+  * An MDM service for Windows, such as Intune, Hexnode, Tanium, or ManageEngine, in which you can create a configuration profile or payload to upload the script and set up an execution command
+
+  **IMPORTANT:** The deployment of a PowerShell script depends on your MDM’s capabilities. For more setup information, you can read the official documentation from the following providers:
 
     * **Intune:**[Use PowerShell scripts on Windows 10/11 devices in Intune](https://learn.microsoft.com/en-us/mem/intune/apps/intune-management-extension)
     * **Hexnode:**[Executing custom scripts for Windows](https://www.hexnode.com/mobile-device-management/help/executing-custom-scripts-for-windows/)
@@ -280,9 +283,10 @@ To set up the deployment, upload the script, set up the execution command, and r
 
      * Upload the corresponding PS1 file to the configuration profile or payload.
      * Specify the following as the command to run the script:
-For example, the following command is for Chrome:
 
            powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -Noninteractive -NoProfile .\<installer_file>.ps1
+
+For example, the following command is for Chrome:
 
            powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -Noninteractive -NoProfile .\chrome_windows_installer.ps1
 
@@ -298,17 +302,17 @@ This appendix contains the scripts you must copy and paste into your code editor
 
 You must create a file per web browser:
 
-* Chrome
-* Edge
-* Firefox
+  * [Chrome](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-chrome)
+  * [Edge](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-edge)
+  * [Firefox](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-firefox)
 
 {% hint style="danger" %}
 
 
 **IMPORTANT:** Take the following into consideration when copying and pasting the script:
 
-* Replace the `<your-workspace-name>` value with the actual name of your workspace to specify the default workspace in the `Set-ItemProperty` and `New-ItemProperty` commands of each script. For example, **contentzilla**
-* (Optional) Replace the `{your-subdomain}` value with the actual subdomain of your Okta tenant to specify the `OKTA_DOMAIN` key and enable the Auto sign-in feature.
+  * Replace the `<your-workspace-name>` value with the actual name of your workspace to specify the default workspace in the `Set-ItemProperty` and `New-ItemProperty` commands of each script. For example, **contentzilla**
+  * (Optional) Replace the `{your-subdomain}` value with the actual subdomain of your Okta tenant to specify the `OKTA_DOMAIN` key and enable the Auto sign-in feature.
 
 
 {% endhint %}

@@ -33,15 +33,15 @@ This article provides generic instructions on how to create an IdLCM integration
 
 The following are the requirements to create an IdLCM integration:
 
-* A Cerby workspace
-* A Cerby user account with the workspace **Owner** , **Super Admin** , or **Admin** role
-* A collaboration space (workspace, team, or dashboard) in your app
-* A service account added to Cerby that corresponds to an active user account with a native admin role in your app. For instructions and recommendations on how to create this account, read the article [Create a service account for your IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/create-a-service-account-for-your-idlcm-integration).
-* The user management and login method for your integration must be identified. Depending on your app, the options might be the following:
+  * A Cerby workspace
+  * A Cerby user account with the workspace **Owner** , **Super Admin** , or **Admin** role
+  * A collaboration space (workspace, team, or dashboard) in your app
+  * A service account added to Cerby that corresponds to an active user account with a native admin role in your app. For instructions and recommendations on how to create this account, read the article [Create a service account for your IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/create-a-service-account-for-your-idlcm-integration).
+  * The user management and login method for your integration must be identified. Depending on your app, the options might be the following:
     * Username and password
     * Single sign-on (SSO) with your IdP
     * Access token
-* A business or organization ID. Commonly, you can find the ID in the following ways:
+  * A business or organization ID. Commonly, you can find the ID in the following ways:
     * **From the address bar** : After you logged in to your app, sometimes the ID is displayed in the address bar as part of the URL, either in the subdomain, path, or an ID parameter. For example:
       * **123456890** in `https://business.app.com/settings/&business_id=1234567890`
       * **contentzilla** in `https://contentzilla.app.com/`
@@ -54,10 +54,10 @@ The following are the requirements to create an IdLCM integration:
 
 To create an IdLCM integration for your app, you must complete the following main steps:
 
-  1. Create and set up an IdLCM integration in Cerby
-  2. Create and set up an app integration in your IdP connected to IdLCM
-  3. Sync to import users, roles, and entitlements to Cerby
-  4. Import users, roles, and entitlements from an IdLCM integration into your IdP
+  1. [Create and set up an IdLCM integration in Cerby](create-an-idlcm-integration-for-your-app.md#id-1.-create-and-set-up-an-idlcm-integration-in-cerby)
+  2. [Create and set up an app integration in your IdP connected to IdLCM](create-an-idlcm-integration-for-your-app.md#id-2.-create-and-set-up-an-app-integration-in-your-idp-connected-to-idlcm)
+  3. [Sync to import users, roles, and entitlements to Cerby](create-an-idlcm-integration-for-your-app.md#id-3.-sync-users-roles-and-entitlements-from-your-external-app-to-cerby)
+  4. [Import users, roles, and entitlements from an IdLCM integration into your IdP](create-an-idlcm-integration-for-your-app.md#id-4.-import-users-roles-and-entitlements-from-an-idlcm-integration-into-your-idp)
 
 The following sections describe each main step.
 
@@ -74,7 +74,7 @@ To create and set up an IdLCM integration in Cerby, you must complete the follow
      * **Select app:** It is the name of the external app. The apps from Cerby’s catalog that match the name are displayed on a list automatically for you to select one.
 ​**IMPORTANT:** You can only create an IdLCM integration if the app is in Cerby’s catalog.
 
-     * **Business ID or other identifier:** It is the unique identifier of your business or organization within the app. This field is displayed or not depending on the app, and it might have different names, such as Organization ID or Team ID. For generic instructions on how to find the ID, read the Requirements section.
+     * **Business ID or other identifier:** It is the unique identifier of your business or organization within the app. This field is displayed or not depending on the app, and it might have different names, such as Organization ID or Team ID. For generic instructions on how to find the ID, read the [Requirements](create-an-idlcm-integration-for-your-app.md#id-requirements) section.
 
   5. Click the **Next** button. The **Service account** section is displayed.
   6. Specify the service account and its login method by completing the following steps:
@@ -95,13 +95,13 @@ To create and set up an IdLCM integration in Cerby, you must complete the follow
   9. Click the **Test and save** button located at the top right of the page. The **Checking your integration setup…** page is displayed.
 Cerby starts an automation job to validate the settings and the provided service account. The page closes, and a success message box is displayed.
 
-The next step is 2\. Create and set up an app integration in your IdP connected to IdLCM, which you must complete in your IdP.
+The next step is [2. Create and set up an app integration in your IdP connected to IdLCM](create-an-idlcm-integration-for-your-app.md#id-2.-create-and-set-up-an-app-integration-in-your-idp-connected-to-idlcm), which you must complete in your IdP.
 
 ### 2\. Create and set up an app integration in your IdP connected to IdLCM
 
 To set up an app integration in your IdP connected to IdLCM, refer to the specific instructions for your IdP. Currently, we only support Okta, so follow the instructions in the article [Create and set up an app integration in Okta connected to IdLCM](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/create-and-set-up-an-app-integration-in-okta-connected-to-idlcm).
 
-The next step is 3\. Sync users, roles, and entitlements from your external app to Cerby.
+The next step is [3. Sync users, roles, and entitlements from your external app to Cerby](create-an-idlcm-integration-for-your-app.md#id-3.-sync-users-roles-and-entitlements-from-your-external-app-to-cerby).
 
 ### 3\. Sync users, roles, and entitlements from your external app to Cerby
 
@@ -110,12 +110,12 @@ After setting up the app integration in your IdP, you must sync the users, roles
 To sync the users, roles, and entitlements to Cerby, you must complete the following steps from your Cerby web app dashboard:
 
   1. Select the **Integrations** option from the left menu. The **Integrations** page is displayed.
-  2. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1587026605/e9b15220cb41d0d08e416505e5a7/AD_4nXeeGJZmzwaS-SRUr4CcvXA1PA3rISj09RcmqDq85HoPba8eNIqf_R3tEAQLnllWdWILc1Bqh27pzMZyY8U-YoVbHP4ySRBvsA4AaWgWOVhb9ZQEVfVl1HbwHEUl3rKefAJYLA_HjA?expires=1750950000&signature=d731dd57f65bff0c847fc06ae48d8a834287a8d195c4b39a7e903be1ceec1574&req=dSUvEcl8m4dfXPMW3Hu4gQAyC5km3IJV4Y3MnXKlYzqjwTyY4rqNa4xoxZDY%0AIw%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding integrations. A drop-down menu is displayed.
+  2. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1587026605/e9b15220cb41d0d08e416505e5a7/AD_4nXeeGJZmzwaS-SRUr4CcvXA1PA3rISj09RcmqDq85HoPba8eNIqf_R3tEAQLnllWdWILc1Bqh27pzMZyY8U-YoVbHP4ySRBvsA4AaWgWOVhb9ZQEVfVl1HbwHEUl3rKefAJYLA_HjA?expires=1750950000&signature=d731dd57f65bff0c847fc06ae48d8a834287a8d195c4b39a7e903be1ceec1574&req=dSUvEcl8m4dfXPMW3Hu4gQAyC5km3IJV4Y3MnXKlYzqjwTyY4rqNa4xoxZDY%0AIw%3D%3D%0A" alt="">) icon of the corresponding integrations. A drop-down menu is displayed.
   3. Select the **Settings** option from the menu. The integrations details page is displayed with the **Settings** tab activated.
   4. Click the **Sync** button located at the top right of the page.
 ​**NOTE:** The check and import may take a few minutes, depending on the number of users. When the process is complete, a success message box is displayed.
 
-The next step is 4\. Import users, roles, and entitlements from an IdLCM integration into your IdP.
+The next step is [4. Import users, roles, and entitlements from an IdLCM integration into your IdP](create-an-idlcm-integration-for-your-app.md#id-4.-import-users-roles-and-entitlements-from-an-idlcm-integration-into-your-idp).
 
 ### 4\. Import users, roles, and entitlements from an IdLCM integration into your IdP
 

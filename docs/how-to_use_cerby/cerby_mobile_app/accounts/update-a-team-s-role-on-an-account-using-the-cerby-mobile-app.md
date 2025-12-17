@@ -21,17 +21,17 @@ As an account **Owner** , you can update other teams’ roles on your accounts u
 
 To update a team’s role on an account, you must complete the following steps using the Cerby mobile app:
 
-  1. Open the Cerby mobile app on your phone.
-  2. Log in to your Cerby workspace.
-  3. Tap the corresponding account card. The account details screen is displayed.
-  4. Tap the right arrow icon from the **Teams** list within the **Sharing** section. The **View teams** screen is displayed.
-  5. Select the corresponding team from the list. A menu is displayed at the bottom.
-  6. Tap the **Update role** button from the menu. The list of roles is displayed.
-  7. Select the team’s new role on the account:
+1. Open the Cerby mobile app on your phone.
+2. Log in to your Cerby workspace.
+3. Tap the corresponding account card. The account details screen is displayed.
+4. Tap the right arrow icon from the **Teams** list within the **Sharing** section. The **View teams** screen is displayed.
+5. Select the corresponding team from the list. A menu is displayed at the bottom.
+6. Tap the **Update role** button from the menu. The list of roles is displayed.
+7. Select the team’s new role on the account:
 
-     * **Owner:** Teams can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
-     * **Collaborator:** Teams can only view passwords through API responses for login through Cerby, and their access through the UI is restricted.
+   * **Owner:** Teams can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
+   * **Collaborator:** Teams can only view passwords through API responses for login through Cerby, and their access through the UI is restricted.
 
-  8. Tap the **Save** button.
+8. Tap the **Save** button.
 
 Now you are done.

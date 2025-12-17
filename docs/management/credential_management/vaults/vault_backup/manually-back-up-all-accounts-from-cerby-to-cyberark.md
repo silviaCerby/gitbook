@@ -21,12 +21,12 @@ To ensure all accounts are stored in CyberArk, you can use the **Back up account
 
 To manually back up all accounts from a Cerby vault to CyberArk, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed with the **General** tab active.
-  3. Activate the **Privacy and security** tab.
-  4. Activate the **Vault backup** left tab.
-  5. Click the **More options** () button of the vault backup. A drop-down menu is displayed.
-  6. Select the **Back up accounts** () option. A success message is displayed.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed with the **General** tab active.
+3. Activate the **Privacy and security** tab.
+4. Activate the **Vault backup** left tab.
+5. Click the **More options** () button of the vault backup. A drop-down menu is displayed.
+6. Select the **Back up accounts** () option. A success message is displayed.
 
 **IMPORTANT:** Depending on the workspace size, backing up the accounts to CyberArk might take several minutes to complete.
 ---

@@ -23,12 +23,12 @@ As a workspace **Owner** , **Super** **Admin** , or **Admin** , you can disable 
 
 To disable vault backup in your workspace, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed with the **General** tab active.
-  3. Activate the **Privacy and security** tab.
-  4. Activate the **Vault backup** left tab.
-  5. Click the **More options** () button. A drop-down menu is displayed.
-  6. Select the **Disable connection** () option. The Disable connection message box is displayed.
-  7. Click the **Confirm** button. The CyberArk-Cerby connection is displayed with the **Disabled** status.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed with the **General** tab active.
+3. Activate the **Privacy and security** tab.
+4. Activate the **Vault backup** left tab.
+5. Click the **More options** () button. A drop-down menu is displayed.
+6. Select the **Disable connection** () option. The Disable connection message box is displayed.
+7. Click the **Confirm** button. The CyberArk-Cerby connection is displayed with the **Disabled** status.
 
 Now you are done.

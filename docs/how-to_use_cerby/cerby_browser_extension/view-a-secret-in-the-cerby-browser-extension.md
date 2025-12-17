@@ -21,12 +21,13 @@ All users with shared access to a secret can view its details regardless of thei
 
 To view a secret using the Cerby browser extension, you must complete the following steps:
 
-  1. Open the Cerby browser extension popup.
-  2. [Log in to your corresponding workspace](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/log-in-to-the-cerby-browser-extension) using the Cerby browser extension.
-  3. Select the Secrets option in the All items dropdown. All your saved and shared secrets are displayed.
-  4. Click the corresponding secret card. The secret details popup is displayed with the secret content and attachments.
+1. Open the Cerby browser extension popup.
+2. [Log in to your corresponding workspace](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/log-in-to-the-cerby-browser-extension) using the Cerby browser extension.
+3. Select the Secrets option in the All items dropdown. All your saved and shared secrets are displayed.
+4. Click the corresponding secret card. The secret details popup is displayed with the secret content and attachments.
+
 **NOTE:** If an identity challenge is configured, the **Confirm your identity** popup is displayed. To confirm your identity, use one of [Cerby's multi-factor authentication methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods).
 
-  5. Click the **View** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1556345024/da00951e33a53ad6c96d2a877cf2/AD_4nXfpRyAH4Mz4kVu_CNEEUnq4sFiPyp82uoJ0b-oz2sXqZGCr68UbyJKN1m_UQvFaJ5mKMufvxkZxZ2RoF5g3xsHex3cmDbuWVd6XbERo8hUoItU8d4CiRZRQZkaDybm0Sw-9zx8q?expires=1750140000&signature=8a5395c0e819f3630b18724ab353d259388e3f9ed600be5042c3090f6e884691&req=dSUiEMp6mIFdXfMW3Hu4gbgwoipH%2FSlEzKj8VFCzzuwbWhOCqwkRL5WdYnAY%0Acg%3D%3D%0A" alt=""><figcaption></figcaption></figure>) button next to the **Secret** field to show the secret content.
+5. Click the **View** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1556345024/da00951e33a53ad6c96d2a877cf2/AD_4nXfpRyAH4Mz4kVu_CNEEUnq4sFiPyp82uoJ0b-oz2sXqZGCr68UbyJKN1m_UQvFaJ5mKMufvxkZxZ2RoF5g3xsHex3cmDbuWVd6XbERo8hUoItU8d4CiRZRQZkaDybm0Sw-9zx8q?expires=1750140000&signature=8a5395c0e819f3630b18724ab353d259388e3f9ed600be5042c3090f6e884691&req=dSUiEMp6mIFdXfMW3Hu4gbgwoipH%2FSlEzKj8VFCzzuwbWhOCqwkRL5WdYnAY%0Acg%3D%3D%0A" alt="">) button next to the **Secret** field to show the secret content.
 
 Now you are done.

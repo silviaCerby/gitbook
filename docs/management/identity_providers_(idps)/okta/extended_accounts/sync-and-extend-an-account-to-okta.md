@@ -48,11 +48,11 @@ After the first sync, any change in Cerby accounts is automatically updated in O
 
 To sync and extend an account to Okta, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
-  2. Click the corresponding account card. The account details page is displayed.
-  3. Expand the**Connected services and apps** section.
-  4. Click the **Sync** button from the **Extended account access for Okta** section. The **Extend your account to Okta?** dialog box is displayed.
-  5. Click the **Extend account** button. The dialog box closes, and Cerby starts syncing your account.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
+2. Click the corresponding account card. The account details page is displayed.
+3. Expand the**Connected services and apps** section.
+4. Click the **Sync** button from the **Extended account access for Okta** section. The **Extend your account to Okta?** dialog box is displayed.
+5. Click the **Extend account** button. The dialog box closes, and Cerby starts syncing your account.
 When the sync is complete, a success message box is displayed. The dates when the account was extended and last synced are also displayed in the **Extended account access for Okta** section.
 
 Now you are done. You and all workspace members and teams with shared access to your account as **Owners** or **Collaborators** will see the corresponding chiclet in the Okta dashboard for logging-in purposes.

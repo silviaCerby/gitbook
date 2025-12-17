@@ -1,2 +1,0 @@
-# JP Morgan PaymentNet
-

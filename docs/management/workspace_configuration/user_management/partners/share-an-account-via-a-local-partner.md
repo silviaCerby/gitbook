@@ -30,8 +30,8 @@ By default, the only users on the local partner who receive shared access to you
 
 To share an account via your local partner, you must complete the following main steps:
 
-  1. Share an account with a local partner
-  2. Share an account with a Guest User
+1. [Share an account with a local partner](share-an-account-via-a-local-partner.md#id-1.-share-an-account-with-a-local-partner)
+2. [Share an account with a Guest User](share-an-account-via-a-local-partner.md#id-2.-share-the-account-with-a-guest-user)
 
 The following sections describe each main step.
 
@@ -64,7 +64,8 @@ As a **Guest Admin** of a local partner with the **Manager** role on an account,
   1. Log in to your [Cerby](https://app.cerby.com/) workspace.
   2. Click the **Share account**() icon that appears when hovering over the corresponding account card. A drop-down menu is displayed.
   3. Select the **Share item** option. The **Share Access** dialog box is displayed.
-**TIP:** You can also open the **Share Access** dialog box by performing the following actions:
+
+  **TIP:** You can also open the **Share Access** dialog box by performing the following actions:
 
      1. Click the corresponding account card. The account details page is displayed.
      2. Click the **Share** button located at the top right. A drop-down menu is displayed.
@@ -72,7 +73,8 @@ As a **Guest Admin** of a local partner with the **Manager** role on an account,
   4. Enter the username or email of the **Guest User** in the search bar. Users who match the name are automatically displayed on a list.
   5. Select the corresponding user from the list. The user is listed in the **Members** section.
   6. Repeat steps 4 and 5 to select multiple users.
-**NOTE:** Remember that you can only assign the Collaborator role to other **Guest Users** on the account.
+
+  **NOTE:** Remember that you can only assign the Collaborator role to other **Guest Users** on the account.
 
   7. Click the **Confirm** button. The **Is it ok to share this account?** dialog box is displayed.
   8. Click the **Confirm** button. The dialog box closes, and a success message box is displayed.

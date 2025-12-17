@@ -33,11 +33,11 @@ As an account **Owner** , you can use the Cerby mobile app to create passkeys fo
 
 The following are the requirements to create a passkey for an account using the Cerby mobile app:
 
-* Mobile operating systems:
+  * Mobile operating systems:
     * **iOS:** From version 17 onwards
     * **Android:** From version 14 onwards
-* The **Allow AutoFill** feature turned on. For instructions, read the article [Turn on the Allow AutoFill feature](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/app-configuration/turn-on-the-allow-autofill-feature).
-* The **Biometrics Login** feature turned on. For instructions, read the article [Turn on the Biometrics Login feature](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/app-configuration/turn-on-the-biometrics-login-feature).
+  * The **Allow AutoFill** feature turned on. For instructions, read the article [Turn on the Allow AutoFill feature](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/app-configuration/turn-on-the-allow-autofill-feature).
+  * The **Biometrics Login** feature turned on. For instructions, read the article [Turn on the Biometrics Login feature](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/app-configuration/turn-on-the-biometrics-login-feature).
 * * *
 
 ## Create a passkey for an account using the Cerby mobile app
@@ -47,7 +47,8 @@ To create a passkey for an account using the Cerby mobile app, you must complete
   1. Log in to the app with the account you want to add the passkey to.
   2. Access the account login and authentication settings within the app.
   3. Select the option to add a new passkey. A menu is displayed with the list of passkey managers on your phone.
-**IMPORTANT:** On Android, if this is your first time using a third-party passkey manager, the OS may not immediately display it in the menu. After you've set Cerby as a provider and used it before, it will appear more readily as a pre-selected option or as a direct alternative in the menu.
+
+  **IMPORTANT:** On Android, if this is your first time using a third-party passkey manager, the OS may not immediately display it in the menu. After you've set Cerby as a provider and used it before, it will appear more readily as a pre-selected option or as a direct alternative in the menu.
 
   4. Select the **Cerby** option.
   5. Tap the **Continue** button. The phone’s biometric verification, face ID or Touch ID on iOS, and face lock or fingerprint recognition on Android is activated.
@@ -65,7 +66,8 @@ To create a passkey for an account using the Cerby mobile app, you must complete
 
        1. Select the account in the **Create new item for <app name>** section. The **Create Account** screen is displayed.
        2. Fill in the information about the new account.
-**IMPORTANT:** Ensure the username is unique, meaning two accounts cannot have the same username.
+
+       **IMPORTANT:** Ensure the username is unique, meaning two accounts cannot have the same username.
 
   7. Tap the **Save** option. A success message is displayed on the screen.
 

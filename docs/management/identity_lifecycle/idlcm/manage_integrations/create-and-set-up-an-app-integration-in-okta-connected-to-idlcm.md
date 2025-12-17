@@ -17,19 +17,19 @@ This article describes the process of creating and setting up an app integration
 
 The following are the requirements to set up an app integration in Okta connected to IdLCM:
 
-* An Okta tenant
-* A user account in Okta with privileges to manage an app integration in your Okta tenant
-* A user account in Cerby with the workspace **Owner** , **Super** **Admins** , or **Admins** role
-* A Cerby IdLCM integration successfully created for an app. For instructions on creating the integration, read the article [Create an IdLCM integration for your app](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/create-an-idlcm-integration-for-your-app).
-* A SCIM gateway token. For instructions on how to retrieve the SCIM gateway token, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-scim-gateway-details-for-an-idlcm-integration).
-* A SCIM gateway URL. For instructions on how to retrieve the SCIM gateway URL, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-scim-gateway-details-for-an-idlcm-integration).
-* The app's login page URL. You can find the URL by completing the following steps:
+  * An Okta tenant
+  * A user account in Okta with privileges to manage an app integration in your Okta tenant
+  * A user account in Cerby with the workspace **Owner** , **Super** **Admins** , or **Admins** role
+  * A Cerby IdLCM integration successfully created for an app. For instructions on creating the integration, read the article [Create an IdLCM integration for your app](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/create-an-idlcm-integration-for-your-app).
+  * A SCIM gateway token. For instructions on how to retrieve the SCIM gateway token, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-scim-gateway-details-for-an-idlcm-integration).
+  * A SCIM gateway URL. For instructions on how to retrieve the SCIM gateway URL, read the article [Retrieve the SCIM gateway token and URL for an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-scim-gateway-details-for-an-idlcm-integration).
+  * The app's login page URL. You can find the URL by completing the following steps:
 
     1. Log in to your [Cerby](https://app.cerby.com/) workspace.
     2. Select the **Integrations** option from the left menu. The **Integrations** page is displayed.
     3. Select the integration you want to connect to Okta. The integration details page is displayed with the **Settings** tab activated.
     4. Activate the **Connected services** left**** tab.
-    5. Click the **Copy** icon (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1584712034/37654ef6faeee93bdf4ea2f4a413/AD_4nXdC8FzycgYlwfvcVwFQMXImb5XYFdhIo3nGHLM8hi1KBzlSfub9XXSlsDyrfGMiOFjy15n-0sQGFWQbE-X6X-XEVwFM8gClRM1PO1kfbR-FniCu9k2R9HkbegoY3FadqKF9LG6DlQ?expires=1759266000&signature=c2e090e5a75807c774a2748ee86f7f7bf701fa38c535c89bce9d565094756246&req=dSUvEs5%2Fn4FcXfMW3Hu4gVIYP3ykq6LFFu0B4t0QWuhte1MMvsspQSD79Sg1%0AzA%3D%3D%0A" alt=""><figcaption></figcaption></figure>) in the **Bookmark URL** field located in the **Quick access shortcut** section.
+    5. Click the **Copy** icon (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1584712034/37654ef6faeee93bdf4ea2f4a413/AD_4nXdC8FzycgYlwfvcVwFQMXImb5XYFdhIo3nGHLM8hi1KBzlSfub9XXSlsDyrfGMiOFjy15n-0sQGFWQbE-X6X-XEVwFM8gClRM1PO1kfbR-FniCu9k2R9HkbegoY3FadqKF9LG6DlQ?expires=1759266000&signature=c2e090e5a75807c774a2748ee86f7f7bf701fa38c535c89bce9d565094756246&req=dSUvEs5%2Fn4FcXfMW3Hu4gVIYP3ykq6LFFu0B4t0QWuhte1MMvsspQSD79Sg1%0AzA%3D%3D%0A" alt="">) in the **Bookmark URL** field located in the **Quick access shortcut** section.
 
 * * *
 
@@ -37,10 +37,10 @@ The following are the requirements to set up an app integration in Okta connecte
 
 To create and set up an app integration in Okta connected to IdLCM, you must complete the following steps:
 
-  1. Create an app integration in Okta
-  2. Configure your Okta app integration
-  3. Add required custom attributes in Okta
-  4. (Optional) Map custom attributes to your app
+  1. [Create an app integration in Okta](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-1.-create-an-app-integration-in-okta)
+  2. [Configure your Okta app integration](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-2.-configure-your-okta-app-integration)
+  3. [Add required custom attributes in Okta](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-3.-add-required-custom-attributes-in-okta)
+  4. [(Optional) Map custom attributes to your app](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-4.-(optional)-map-custom-attributes-to-your-app)
 
 The following sections describe each step.
 
@@ -56,12 +56,12 @@ To create an integration in Okta for your Cerby-integrated app, complete the fol
   6. Enter the following information in the**General App Settings** section:
 
      * **App name:** It is the name of your app integration. Preferably, use the same name as the IdLCM integration you created in Cerby.
-     * **App's login page URL:** It is the URL of the sign-in page for your integration. For instructions on how to find the URL, read the Requirements section.
+     * **App's login page URL:** It is the URL of the sign-in page for your integration. For instructions on how to find the URL, read the [Requirements](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-requirements) section.
 
   7. Configure the settings in the**How will your users sign in?** section based on your organization's preferences**.** For instructions, read the official documentation [Create SWA app integrations](https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_swa.htm).
   8. Click the **Finish** button. The app integration settings page is displayed.
 
-The next step is 2\. Configure your Okta app integration.
+The next step is [2. Configure your Okta app integration](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-2.-configure-your-okta-app-integration).
 
 ### 2\. Configure your Okta app integration
 
@@ -103,7 +103,7 @@ To configure SCIM provisioning for your app integration, you must complete the f
 
      5. Click the **Save** button. A success message box is displayed.
 
-The next step is 3\. Add required custom attributes in Okta.
+The next step is [3. Add required custom attributes in Okta](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-3.-add-required-custom-attributes-in-okta).
 
 ### 3\. Add required custom attributes in Okta
 
@@ -114,7 +114,7 @@ To add custom attributes for your external app, you must complete the following 
   1. Scroll down to the **Attribute Mappings** section of your app integration.
   2. Click the **Go to Profile Editor** button. The **Profile Editor** page is displayed.
   3. Add a custom attribute for each attribute listed in the **Connected services** page by completing the following steps:
-**Note:** For instructions on how to find the list of required attributes, read the Requirements section.
+**Note:** For instructions on how to find the list of required attributes, read the [Requirements](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-requirements) section.
 
      1. Click the **Add Attribute** button. The**Add Attribute** dialog box is displayed.
      2. Enter the following attribute details using the values from the **Connected services** page:
@@ -134,7 +134,7 @@ To add custom attributes for your external app, you must complete the following 
      4. (Optional) If the attribute is marked as **Set this attribute as Required** , select the **Attribute required** option.
      5. Click the **Save** button.
 
-The next step is 4\. (Optional) Map custom attributes to your app.
+The next step is [4. (Optional) Map custom attributes to your app](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-4.-(optional)-map-custom-attributes-to-your-app).
 
 ### 4\. (Optional) Map custom attributes to your app
 
@@ -146,7 +146,7 @@ To map your role attribute from Okta to your Cerby-integrated app, you must comp
   2. Select the **To App** option from the **Settings** section of the left menu.
   3. Scroll down to the bottom of the **Attribute Mappings** section.
   4. Click the **Show Unmapped Attributes** button.
-  5. Look for the attribute that you want to update and click the corresponding **Edit** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1584796151/4d32faf44af2895739ab24bb87e9/AD_4nXewvbFnLx9Kyz6-K5YeauL08oL2gxsJX2MK65jhyk_ZGjBd74m7tEC8w0V7MeGyzFzLy1JwCud9GeAVn1MlrNsgGUfqwam7aOVWmXPbsVoCYB9uF2C09lUnhNcv7ovgF2t8Hi-BUQ?expires=1759266000&signature=554f458f3097c22074c42d79eb34acd209351414d653c01bc0073743e22a590d&req=dSUvEs53m4BaWPMW3Hu4gUPXbyah8ZuVIyO7eHfikBM8rYFJggWq1zF3Rvf4%0AKA%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon. The **Application roles** dialog box is displayed.
+  5. Look for the attribute that you want to update and click the corresponding **Edit** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1584796151/4d32faf44af2895739ab24bb87e9/AD_4nXewvbFnLx9Kyz6-K5YeauL08oL2gxsJX2MK65jhyk_ZGjBd74m7tEC8w0V7MeGyzFzLy1JwCud9GeAVn1MlrNsgGUfqwam7aOVWmXPbsVoCYB9uF2C09lUnhNcv7ovgF2t8Hi-BUQ?expires=1759266000&signature=554f458f3097c22074c42d79eb34acd209351414d653c01bc0073743e22a590d&req=dSUvEs53m4BaWPMW3Hu4gUPXbyah8ZuVIyO7eHfikBM8rYFJggWq1zF3Rvf4%0AKA%3D%3D%0A" alt="">) icon. The **Application roles** dialog box is displayed.
   6. Select the **Expression** option from the**Attribute value** drop-down menu.
   7. Define and enter an expression to map the attribute appropriately. For instructions, read the official documentation [Okta Expression Language](https://developer.okta.com/docs/reference/okta-expression-language/).
   8. Click the **Save** button.

@@ -9,31 +9,33 @@ Similar to using the other Cerby client apps, you must set up the Cerby CLI as a
 
 To set up the Cerby CLI as a trusted device using its commands, you must complete the following steps:
 
-  1. Execute the following command to verify if the device has already been registered:
+1. Execute the following command to verify if the device has already been registered:
 
-         cerby-mac{os} register --status
+       cerby-mac{os} register --status
 
-     * If the device is correctly registered, then the following is output:
+   * If the device is correctly registered, then the following is output:
 
-           Device is registered and approved
+         Device is registered and approved
 
-     * If the registry verification returns the `RemoteDeviceNotFoundError` error (or other), you must register the device correctly. Go to step 2 to continue registering the device.
+   * If the registry verification returns the `RemoteDeviceNotFoundError` error (or other), you must register the device correctly. Go to step 2 to continue registering the device.
 
-  2. Execute the following command to request a verification code to the email you have registered in Cerby:
+2. Execute the following command to request a verification code to the email you have registered in Cerby:
 
-         cerby-mac{os} register --request-code
+       cerby-mac{os} register --request-code
 
-  3. Copy the verification code from the email Cerby sent you.
+3. Copy the verification code from the email Cerby sent you.
+
 **IMPORTANT:** The verification code expires in 5 minutes.
 
-  4. Execute the following command to verify the code:
+4. Execute the following command to verify the code:
+
+       cerby-mac{os} register --verification-code {code_from_your_email}
+
 **NOTE:** You might encounter the "`Error: Device already exists`" error while executing this command if your machine has been previously verified. In that case, ignore the error and continue to step 4.
 
-         cerby-mac{os} register --verification-code {code_from_your_email}
+5. Execute the following command to sync your account and secret data:
 
-  5. Execute the following command to sync your account and secret data:
-
-         cerby-mac{os} sync
+       cerby-mac{os} sync
 
 {% hint style="info" %}
 

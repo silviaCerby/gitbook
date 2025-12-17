@@ -7,9 +7,9 @@ intercom_id: 9046236
 
 The following sections contain instructions to troubleshoot issues in case tasks fail or if you must perform changes manually in the external app that you connect to Cerby:
 
-* Add users manually
-* Remove users manually
-* Update user roles manually
+  * [Add users manually](troubleshooting-business-hubs.md#id-add-users-manually)
+  * [Remove users manually](troubleshooting-business-hubs.md#id-remove-users-manually)
+  * [Update user roles manually](troubleshooting-business-hubs.md#id-update-user-roles-manually)
 * * *
 
 ## Add users manually
@@ -37,7 +37,7 @@ If the task to remove an app member fails or the app member is deprovisioned fro
 
 If the task to update the role of a user fails, you must change their user roles manually in the seat-based or paid social app. To do so, you must complete the following steps:
 
-  1. Log in to your external app with your admin account.
-  2. Access your user management or collaboration space settings.
-  3. Change the corresponding user role.
-  4. Complete the steps from the article [Sync your business hub with your external app](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app) to identify and import the latest role changes to Cerby.
+1. Log in to your external app with your admin account.
+2. Access your user management or collaboration space settings.
+3. Change the corresponding user role.
+4. Complete the steps from the article [Sync your business hub with your external app](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app) to identify and import the latest role changes to Cerby.

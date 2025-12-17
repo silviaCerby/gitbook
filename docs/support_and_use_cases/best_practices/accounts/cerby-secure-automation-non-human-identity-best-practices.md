@@ -31,7 +31,7 @@ By leveraging the above logic, you can ensure that not every application managed
 Cerby recommends enforcing an extra layer of protection beyond usernames and passwords using Cerby’s Multi-Factor Authentication (MFA) to prevent unauthorized access:
 
 * **Time-based One-Time Passwords (TOTPs):** Cerby generates unique, temporary codes for strong authentication that are known only to the user and the authentication server.
-    * Depending on your identity provider policies, you may need to create a policy for your NHI service accounts that enables said SSO-enabled service accounts to leverage TOTP-based multi-factor authentication (MFA) versus a more human-oriented form of MFA, like biometrics.
+  * Depending on your identity provider policies, you may need to create a policy for your NHI service accounts that enables said SSO-enabled service accounts to leverage TOTP-based multi-factor authentication (MFA) versus a more human-oriented form of MFA, like biometrics.
 * **Passkeys** : Cerby is introducing passkeys, a phishing-resistant method using biometric information. This feature is being implemented in Cerby (coming soon).
 
 ## Automate credential rotation with Cerby

@@ -42,8 +42,8 @@ This article explains how to manage the RSA token integration in Cerby to enhanc
 
 The following are the requirements to set up RSA tokens as your account verification method:
 
-* Your RSA token configured within an RSA token app provider
-* An activation link to complete the RSA token setup in Cerby. This link is emailed after completing the RSA token configuration in your app provider. The link must have the following format:
+  * Your RSA token configured within an RSA token app provider
+  * An activation link to complete the RSA token setup in Cerby. This link is emailed after completing the RSA token configuration in your app provider. The link must have the following format:
 
         com.rsa.securid://ctkip?url={URL-address}?activationCode={activation-code}
 
@@ -53,9 +53,9 @@ The following are the requirements to set up RSA tokens as your account verifica
 
 The following are the actions that enable you to manage RSA as your account's verification method:
 
-* Set up RSA as your account's verification method
-* Log in to an account using RSA codes
-* Turn off RSA as your account's verification method
+  * [Set up RSA as your account's verification method](set-rsa-tokens-as-your-account-verification-method.md#id-set-up-rsa-as-your-accounts-verification-method)
+  * [Log in to an account using RSA codes](set-rsa-tokens-as-your-account-verification-method.md#id-log-in-to-an-account-using-rsa-codes)
+  * [Turn off RSA as your account's verification method](set-rsa-tokens-as-your-account-verification-method.md#id-turn-off-rsa-as-your-accounts-verification-method)
 
 The instructions to perform each action are described in the following sections.
 
@@ -63,8 +63,8 @@ The instructions to perform each action are described in the following sections.
 
 The following are the clients that enable you to set up RSA codes as your account's verification method:
 
-* Cerby web app
-* Cerby mobile app
+  * [Cerby web app](set-rsa-tokens-as-your-account-verification-method.md#id-cerby-web-app)
+  * [Cerby mobile app](set-rsa-tokens-as-your-account-verification-method.md#id-cerby-mobile-app)
 
 The next subsections explain the steps for each client.
 
@@ -77,13 +77,14 @@ To set up RSA as your account's verification method, you must complete the follo
   3. Expand the **Multi-factor authentication (MFA) settings** section.
   4. Click the **Set as MFA** button in the **RSA codes** section. The **Set up MFA with RSA codes** dialog box is displayed.
   5. Enter the RSA token activation link in the **Activation link** field.
-**NOTE:** See the Requirements section to learn how to obtain the activation link.
+
+  **NOTE:** See the [Requirements](set-rsa-tokens-as-your-account-verification-method.md#id-requirements) section to learn how to obtain the activation link.
 
   6. Click the **Set up** button. The **You’re all set!** dialog box is displayed.
 
 Now you are done. You can view and copy the account RSA codes from the RSA code field in the **Account details** section, as shown in **Figure 1**.
 
-<figure><img src="../../../../../.gitbook/assets/image7_1.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../../../.gitbook/assets/image7_1.png" alt="">
 
 **Figure 1. RSA codes** included in the account details page
 
@@ -95,8 +96,8 @@ For more information about how to turn on multi-factor authentication (MFA) with
 
 The following are the clients that support the account login process using RSA codes:
 
-* Cerby web app
-* Cerby mobile app
+  * [Cerby web app](set-rsa-tokens-as-your-account-verification-method.md#id-cerby-web-app)
+  * [Cerby mobile app](set-rsa-tokens-as-your-account-verification-method.md#id-cerby-mobile-app)
 
 The next subsections explain the steps for each client.
 
@@ -108,7 +109,7 @@ If you need to retrieve the RSA code manually during the automated login process
 
   1. Log in to your[ Cerby](https://app.cerby.com/) workspace.
   2. Click the corresponding account card. The account details page is displayed.
-  3. Click the **Copy** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1457063049/655d87dd99d558ee541f892ecb60/AD_4nXfNUVniBca14FwF-XwQ_xC4bW9YAfEuFZHvVzuzFEw8Dic03bA1jp1fkEa8bj3W6ioyyE3V2XONriZjMKPzYtZUJFX1cAJ1QZL01xJHmX1rI4g5OLa4ZsJsv-ZWmmsgYxAUm6ZX7A?expires=1753920000&signature=a23d29e73c62fc02249f991c0034dc831c09f3670c1c10001dc5d1032965dac1&req=dSQiEcl4noFbUPMW3Hu4gRQy9OAUGnaD15D0aKKc4zD9gLHvvZRcfHWrGfCq%0Ayw%3D%3D%0A" alt=""><figcaption></figcaption></figure>) icon on the right side of the **RSA code** field.
+  3. Click the **Copy** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1457063049/655d87dd99d558ee541f892ecb60/AD_4nXfNUVniBca14FwF-XwQ_xC4bW9YAfEuFZHvVzuzFEw8Dic03bA1jp1fkEa8bj3W6ioyyE3V2XONriZjMKPzYtZUJFX1cAJ1QZL01xJHmX1rI4g5OLa4ZsJsv-ZWmmsgYxAUm6ZX7A?expires=1753920000&signature=a23d29e73c62fc02249f991c0034dc831c09f3670c1c10001dc5d1032965dac1&req=dSQiEcl4noFbUPMW3Hu4gRQy9OAUGnaD15D0aKKc4zD9gLHvvZRcfHWrGfCq%0Ayw%3D%3D%0A" alt="">) icon on the right side of the **RSA code** field.
   4. Paste the RSA code on the app’s login page.
 
 Now you are done.

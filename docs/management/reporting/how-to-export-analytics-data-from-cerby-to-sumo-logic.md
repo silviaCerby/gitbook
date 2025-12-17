@@ -28,8 +28,8 @@ This article describes the instructions to configure the analytics data export t
 
 To configure the export of the analytics data that Cerby registers and stores for a workspace, you must complete the following main steps:
 
-  1. Create and configure an Amazon S3 bucket
-  2. Add and configure a hosted collector in Sumo Logic
+  1. [Create and configure an Amazon S3 bucket](how-to-export-analytics-data-from-cerby-to-sumo-logic.md#id-1.-create-and-configure-an-amazon-s3-bucket)
+  2. [Add and configure a hosted collector in Sumo Logic](how-to-export-analytics-data-from-cerby-to-sumo-logic.md#id-2.-add-and-configure-a-hosted-collector-in-sumo-logic)
 
 The following sections describe each main step.
 
@@ -40,10 +40,10 @@ The following sections describe each main step.
 To create and configure an Amazon S3 bucket, complete the following steps:
 
   1. Create an Amazon S3 bucket for storing objects by following the instructions in the [Create your first S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html) official documentation.
-**NOTE:** Make sure to select the **ACLs disabled** and **Block all public access** options when creating your bucket.
+
+  **NOTE:** Make sure to select the **ACLs disabled** and **Block all public access** options when creating your bucket.
 
   2. Add a bucket policy to grant Cerby writing permissions on the bucket by following the instructions in the [Adding a bucket policy by using the Amazon S3 console](https://docs.aws.amazon.com/AmazonS3/latest/userguide/add-bucket-policy.html) official documentation. Use the following policy:
-**IMPORTANT:**
 
          {
              "Version": "2012-10-17",
@@ -78,12 +78,14 @@ To create and configure an Amazon S3 bucket, complete the following steps:
              ]
          }
 
+**IMPORTANT:**
+
      * Contact the Cerby Customer Support team to ask for the `cerby_account` and `cerby_role` values. Ensure you add the name of your bucket in the `Resource` parameters.
      * The Cerby Customer Support team will share the values through a Cerby secure secret. Refer to the article [View a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-a-secret) to learn how to view the values.
 
   3. Share the bucket name and its path with the Cerby Customer Support team.
 
-The next step is 2\. Add and configure a hosted collector in Sumo Logic.
+The next step is [2. Add and configure a hosted collector in Sumo Logic](how-to-export-analytics-data-from-cerby-to-sumo-logic.md#id-2.-add-and-configure-a-hosted-collector-in-sumo-logic).
 
 * * *
 

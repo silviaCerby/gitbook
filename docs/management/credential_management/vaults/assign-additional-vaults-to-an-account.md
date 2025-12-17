@@ -26,9 +26,9 @@ This article describes how to add a user vault to an account.
 
 The following are the requirements to create a vault:
 
-* A Cerby account with the **Workspace Owner** or **Workspace Admin** role.
-* A trusted session previously set up for the device. For instructions, read the article [Set up trusted sessions on your devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices).
-* At least one vault assigned to the account.
+  * A Cerby account with the **Workspace Owner** or **Workspace Admin** role.
+  * A trusted session previously set up for the device. For instructions, read the article [Set up trusted sessions on your devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices).
+  * At least one vault assigned to the account.
 * * *
 
 ## Assign an additional vault to an account

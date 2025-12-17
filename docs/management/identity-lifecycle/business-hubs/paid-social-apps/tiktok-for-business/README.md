@@ -1,2 +1,0 @@
-# TikTok for Business
-

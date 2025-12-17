@@ -1,15 +1,19 @@
 ---
-intercom_id: 12431348
 description: This article describes how to view the vault backup details in your workspace.
+intercom_id: 12431348
 ---
 
 # View the details of a vault backup
 
 {% hint style="info" %}
+
+
 **Who can use this capability?**
 
 * Workspace**Owners** , **Super Admins** , and **Admins**
 * Only supported using the Cerby web app.
+
+
 {% endhint %}
 
 As a workspace **Owner** , **Super** **Admin** , or **Admin** , you can view the details of your vault backup for your Cerby workspace.
@@ -20,6 +24,8 @@ To view the vault backups in your workspace, you must complete the following ste
 2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed with the **General** tab activated.
 3. Activate the **Privacy and security** tab.
 4. Activate the **Vault backup** left tab. The **Vault backup** section is displayed, as shown in **Figure 1**.
+
+<img src="../../../../../.gitbook/assets/e5303c31-3dc8-4080-8d21-2aad07eb4834.png" alt="">
 
 **Figure 1.** Details about the vault backup in your workspace
 

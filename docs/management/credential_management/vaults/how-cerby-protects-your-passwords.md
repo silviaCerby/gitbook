@@ -19,8 +19,8 @@ Whenever an organization creates a new Cerby workspace, the Cerby platform autom
 
 This vault is where users save their sensitive data (accounts and secrets), and Cerby offers the following vault encryption schemes, inclusive of the option referenced above:
 
-* **Cloud encryption:** Cerby's servers store the decryption keys and the encrypted data, and the unique encryption keys are generated in the server and secured by AWS KMS.
-* **Local encryption:** Cerby's servers store the encrypted data, and the vault data encryption keys are stored exclusively on registered trusted devices. Decryption happens decentralized on such devices. This encryption scheme leverages a Zero Knowledge architecture.
+  * **Cloud encryption:** Cerby's servers store the decryption keys and the encrypted data, and the unique encryption keys are generated in the server and secured by AWS KMS.
+  * **Local encryption:** Cerby's servers store the encrypted data, and the vault data encryption keys are stored exclusively on registered trusted devices. Decryption happens decentralized on such devices. This encryption scheme leverages a Zero Knowledge architecture.
 
 The choice between cloud and local encryption schemes depends on customer security requirements and preferences. For more information, read the article [How Cerby protects your data with cloud and local encryption](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/how-cerby-protects-your-data-with-cloud-and-local-encryption).
 
@@ -32,8 +32,8 @@ Cerby uses a role-based access control (RBAC) system to define user permissions 
 
 Users who add accounts to Cerby are automatically granted the account **Owner** role. When they share their accounts with other users for collaboration purposes, they can grant them one of the following roles:
 
-* **Owner:** Users with this role can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
-* **Collaborator:** Users with this role can only view passwords through API responses for account login with Cerby; viewing passwords through the UI is restricted.
+  * **Owner:** Users with this role can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
+  * **Collaborator:** Users with this role can only view passwords through API responses for account login with Cerby; viewing passwords through the UI is restricted.
 
 For more information about roles and permissions, read the article [How Cerby manages roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles).
 
@@ -43,10 +43,10 @@ For more information about roles and permissions, read the article [How Cerby ma
 
 On top of the system, architectural, and role-based protections, Cerby has the following features to enable organizations and end users to protect their passwords proactively:
 
-* Automated password rotations
-* Generation of secure passwords
-* Restrictions on password view capabilities
-* [Coming soon] Audit analytics for password update attempts
+  * [Automated password rotations](how-cerby-protects-your-passwords.md#id-automated-password-rotations)
+  * [Generation of secure passwords](how-cerby-protects-your-passwords.md#id-generation-of-secure-passwords)
+  * [Restrictions on password view capabilities](how-cerby-protects-your-passwords.md#id-restrictions-on-password-view-capabilities)
+  * [[Coming soon] Audit analytics for password update attempts](#id-coming-soon-audit-analytics-for-password-update-attempts)
 
 The following sections describe each feature.
 
@@ -58,9 +58,9 @@ IT admins can set workspace policies to rotate passwords periodically via automa
 
 With automated and regular password rotations by policy, organizations achieve the following:
 
-* Minimize the risk of unauthorized access.
-* Ensure users have to use Cerby as the front door to access their accounts.
-* Alert if the password status has changed to not being managed by Cerby.
+  * Minimize the risk of unauthorized access.
+  * Ensure users have to use Cerby as the front door to access their accounts.
+  * Alert if the password status has changed to not being managed by Cerby.
 
 End users can also trigger automated password rotations manually with a single click in the Cerby web app.
 
@@ -70,11 +70,11 @@ It’s worth mentioning that, during automated password rotation, Cerby generate
 
 As mentioned, Cerby generates and sets secure passwords when performing automated password rotations. However, you can also use the password generator in the Cerby browser extension to generate a secure password with the following customizable strength rules:
 
-* Length
-* Uppercase letters
-* Lowercase letters
-* Digits
-* Symbols
+  * Length
+  * Uppercase letters
+  * Lowercase letters
+  * Digits
+  * Symbols
 
 For more information about this feature, read the article [Explore the Password Generator](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-the-password-generator).
 
@@ -86,10 +86,10 @@ According to Cerby’s RBAC system, account **Collaborators** are restricted to 
 
 However, based on your needs and security policies, your organization can request Cerby to grant account **Collaborators** access to view passwords through the UI. The following are the features our Technical Support team can enable or disable for a workspace:
 
-* Display the **Collaborators can view the password for this account** switch in the account details page of the Cerby web app. By activating or deactivating this switch, account **Owners** decide whether to hide or show passwords to account **Collaborators** who have shared access to an account. This decision impacts all client apps.
-* View and copy an account password using the Cerby browser extension inline menu. This feature is enabled only if an account **Owner** activates the **Collaborators can view the password for this account** switch on the account details page.
-* Display the **Copy** icon in the account details screen using the Cerby mobile app. This feature prevents users from copying passwords; therefore, they must use the autofill service of their mobile phone’s operating system.
-* View and copy an account password in the account details screen using the Cerby browser extension popup and inline menu. This feature prevents users from viewing and copying passwords; therefore, they have to click the **Fill** button to enter the password in the corresponding input field.
+  * Display the **Collaborators can view the password for this account** switch in the account details page of the Cerby web app. By activating or deactivating this switch, account **Owners** decide whether to hide or show passwords to account **Collaborators** who have shared access to an account. This decision impacts all client apps.
+  * View and copy an account password using the Cerby browser extension inline menu. This feature is enabled only if an account **Owner** activates the **Collaborators can view the password for this account** switch on the account details page.
+  * Display the **Copy** icon in the account details screen using the Cerby mobile app. This feature prevents users from copying passwords; therefore, they must use the autofill service of their mobile phone’s operating system.
+  * View and copy an account password in the account details screen using the Cerby browser extension popup and inline menu. This feature prevents users from viewing and copying passwords; therefore, they have to click the **Fill** button to enter the password in the corresponding input field.
 
 You can contact the Cerby Technical Support team via email at [support@cerby.com](mailto:support@cerby.com) or through the help chat to request any of the features to be enabled or disabled.
 

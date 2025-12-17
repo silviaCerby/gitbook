@@ -7,7 +7,7 @@ intercom_id: 6465559
 
 This glossary contains the basic definitions of terms that are commonly used in Cerby:
 
-A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z
+[A](glossary.md#id-a) | [B](glossary.md#id-b) | [C](glossary.md#id-c) | [D](glossary.md#id-d) | [E](glossary.md#id-e) | [F](glossary.md#id-f) | [G](glossary.md#id-g) | [H](glossary.md#id-h) | [I](glossary.md#id-i) | [J](glossary.md#id-j) | [K](glossary.md#id-k) | [L](glossary.md#id-l) | [M](glossary.md#id-m) | [N](glossary.md#id-n) | [O](glossary.md#id-o) | [P](glossary.md#id-p) | [Q](glossary.md#id-q) | [R](glossary.md#id-r) | [S](glossary.md#id-s) | [T](glossary.md#id-t) | [U](glossary.md#id-u) | [V](glossary.md#id-v) | [W](glossary.md#id-w) | [X](glossary.md#id-x) | [Y](glossary.md#id-y) | [Z](glossary.md#id-z)
 
 * * *
 
@@ -21,14 +21,14 @@ An account usually consists of a username and a password, but in some cases, suc
 
 At Cerby, accounts are how users with**Account Collaborator** and **Account Owner** roles access their apps. The following two types of accounts exist:
 
-* **Master account.** It is the primary account that Cerby leverages to assign a role to a proxy account for an asset.
-* **Proxy account.** It is the account that Cerby leverages to grant users access to the assets and resources of services, solutions, or applications.
+  * **Master account.** It is the primary account that Cerby leverages to assign a role to a proxy account for an asset.
+  * **Proxy account.** It is the account that Cerby leverages to grant users access to the assets and resources of services, solutions, or applications.
 
 ### Account card
 
 It is a graphical component in the user interface (UI) of the Cerby web app, mobile app, and browser extension that consists of card-type buttons representing the application accounts added to Cerby.
 
-Depending on the user role on such accounts, these cards redirect users to log in to their applications or to perform account management and security actions.
+Depending on the user [role](glossary.md#id-role) on such accounts, these cards redirect users to log in to their applications or to perform account management and security actions.
 
 ### Account Collaborator
 
@@ -52,7 +52,7 @@ It is a security process to determine the identity of users by verifying their c
 
 ### Authorization
 
-It is a security process to determine the role of users based on their identity. Users are granted permission to perform actions and access specific resources with these roles.
+It is a security process to determine the role of users based on their identity. Users are granted permission to perform actions and access specific resources with these [roles](glossary.md#id-role).
 
 * * *
 
@@ -78,7 +78,7 @@ It consists of groups of accounts displayed in the Cerby dashboard. Only **Accou
 
 It is the graphical interface of the Cerby web application that integrates information about users, accounts, configuration, services, and applications.
 
-To navigate through the different features of Cerby, the dashboard contains the left navigation drawer and the main section that contains the different views, pages, information, and account cards.
+To navigate through the different features of Cerby, the dashboard contains the left navigation drawer and the main section that contains the different views, pages, information, and [account cards](glossary.md#id-account-card).
 
 * * *
 
@@ -160,15 +160,15 @@ Cerby manages roles at a workspace and account level, and roles are also inherit
 
 The following are the different roles in Cerby depending on your access level:
 
-* Workspace-level roles
-    * Workspace Owner
-    * Workspace Admin
-    * Workspace User
-* Account-level roles
-    * Account Owner
-    * Account Collaborator
+  * Workspace-level roles
+    * [Workspace Owner](glossary.md#id-workspace-owner)
+    * [Workspace Admin](glossary.md#id-workspace-admin)
+    * [Workspace User](glossary.md#id-workspace-user)
+  * Account-level roles
+    * [Account Owner](glossary.md#id-account-owner)
+    * [Account Collaborator](glossary.md#id-account-collaborator)
 
-**NOTE:** Regardless of their role, all users can add accounts to a workspace and then introduce the account roles, and they can only share the accounts they are owners of. Also, all users can create collections.
+    **NOTE:** Regardless of their role, all users can add accounts to a workspace and then introduce the account roles, and they can only share the accounts they are owners of. Also, all users can create collections.
 
 For the detailed permissions of each role, read the [Workspace-level roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles) and [Item-level roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles) sections in the article [How Cerby manages roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles).
 
@@ -188,7 +188,7 @@ It is an entity that provides services, solutions, or applications to end users 
 
 It is a feature that enables you and your team members to receive and store the messages sent to the phone numbers and email addresses provisioned and managed by Cerby and configured in your app accounts.
 
-Cerby leverages the **Shared Inbox** to provide you with automatic logging-in processes to your accounts, including verification codes for 2FA.
+Cerby leverages the **Shared Inbox** to provide you with automatic logging-in processes to your accounts, including verification codes for [2FA](glossary.md#id-two-factor-authentication-(2fa)).
 
 ### Single sign-on (SSO)
 
@@ -232,12 +232,12 @@ It is the environment in which organizations and users can access a set of share
 
 Through a Cerby workspace, organizations and users can also manage their accounts and perform the following actions:
 
-* Manage user permissions.
-* Manage app accounts.
-* Onboard two-factor authentication (2FA) and rotate passwords for accounts.
-* Manage user provisioning and deprovisioning.
-* Configure authentication with an identity provider (IDP).
-* Retrieve analytics for account usage and user activity.
+  * Manage user permissions.
+  * Manage app accounts.
+  * Onboard two-factor authentication (2FA) and rotate passwords for accounts.
+  * Manage user provisioning and deprovisioning.
+  * Configure authentication with an identity provider (IDP).
+  * Retrieve analytics for account usage and user activity.
 
 Organizations may have one or multiple workspaces depending on their needs. Though usually, one organization has one workspace.
 

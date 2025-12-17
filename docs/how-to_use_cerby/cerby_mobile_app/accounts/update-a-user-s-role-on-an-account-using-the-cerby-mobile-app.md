@@ -21,20 +21,20 @@ As an account **Owner** , you can update other users' roles on your accounts usi
 
 To update a user’s role on an account, you must complete the following steps:
 
-  1. Open the Cerby mobile app on your phone.
-  2. Log in to your Cerby workspace.
-  3. Tap the corresponding account card. The account details screen is displayed.
-  4. Tap the right arrow icon from the **Members** list within the **Sharing** section. The **View members** screen is displayed.
+1. Open the Cerby mobile app on your phone.
+2. Log in to your Cerby workspace.
+3. Tap the corresponding account card. The account details screen is displayed.
+4. Tap the right arrow icon from the **Members** list within the **Sharing** section. The **View members** screen is displayed.
 ​**NOTE:** To update guest users’ role access, tap the right arrow from the **Guest users** list.
 
-  5. Select the corresponding member from the list. A menu is displayed at the bottom.
-  6. Tap the **Update role** button from the menu. The list of roles is displayed.
-  7. Select the user’s new role on the account:
+5. Select the corresponding member from the list. A menu is displayed at the bottom.
+6. Tap the **Update role** button from the menu. The list of roles is displayed.
+7. Select the user’s new role on the account:
 
-     * **Owner:** Users can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
-     * **Collaborator:** Users can only view passwords through API responses for login through Cerby, and their access through the UI is restricted.
+   * **Owner:** Users can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
+   * **Collaborator:** Users can only view passwords through API responses for login through Cerby, and their access through the UI is restricted.
 
-  8. Tap the **Save** button.
+8. Tap the **Save** button.
 
 Now you are done.
 

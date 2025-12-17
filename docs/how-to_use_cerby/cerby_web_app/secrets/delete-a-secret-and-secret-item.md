@@ -19,9 +19,9 @@ intercom_id: 8705456
 
 To delete a secret or secret item (WiFi, SSH keys, database, server, and custom item), you must complete the following steps using the Cerby web app:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Secrets** option from the left navigation drawer. The **Secrets** view is displayed.
-  3. Click the **More options** icon of the corresponding secret card. A drop-down list is displayed.
-  4. Select the **Delete secret** option. The **Confirm your identity to continue** dialog box is displayed.
-     1. Confirm your identity by using one of [Cerby's multi-factor authentication methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods).
-  5. Click the **Delete secret** button. The page closes, and a success message box is displayed.
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Secrets** option from the left navigation drawer. The **Secrets** view is displayed.
+3. Click the **More options** icon of the corresponding secret card. A drop-down list is displayed.
+4. Select the **Delete secret** option. The **Confirm your identity to continue** dialog box is displayed.
+   1. Confirm your identity by using one of [Cerby's multi-factor authentication methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods).
+5. Click the **Delete secret** button. The page closes, and a success message box is displayed.

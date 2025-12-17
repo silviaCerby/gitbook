@@ -42,23 +42,24 @@ The workspace **Owner** , **Admins** , or **Super Admins** can only configure th
 
 The following are the available restriction options for managing password and user settings:
 
-* **Fully block:** Users cannot change the settings directly in the app because Cerby blocks the user interface. Any attempt to change the settings results in a notification informing the user that they do not have permission to make the change. Workspace**Admins** received an email about blocked attempts, giving them visibility into restricted actions in the **Activity** view.
-* **Monitor and prompt to Cerby:** Users are recommended to make changes through Cerby using the account capabilities, such as automated password rotation. However, they can still make updates directly in the app. Workspace **Admins** are notified when a user changes the app settings.
-* **No restriction:** Users have complete freedom to change the settings as needed directly in the app. Changes are not limited or monitored; users can modify their passwords or settings without intervention.
+  * **Fully block:** Users cannot change the settings directly in the app because Cerby blocks the user interface. Any attempt to change the settings results in a notification informing the user that they do not have permission to make the change. Workspace**Admins** received an email about blocked attempts, giving them visibility into restricted actions in the **Activity** view.
+  * **Monitor and prompt to Cerby:** Users are recommended to make changes through Cerby using the account capabilities, such as automated password rotation. However, they can still make updates directly in the app. Workspace **Admins** are notified when a user changes the app settings.
+  * **No restriction:** Users have complete freedom to change the settings as needed directly in the app. Changes are not limited or monitored; users can modify their passwords or settings without intervention.
 * * *
 
 ## User notifications
 
 The following is the behavior for the different restriction settings when users attempt to make changes in the app:
 
-* **Full block** : When a setting is fully blocked, any modification attempt displays an error message in the app, as shown in **Figure 1**.
-**Figure 1.** Error messages displayed in the app when the password or user settings are fully blocked
+  * **Full block** : When a setting is fully blocked, any modification attempt displays an error message in the app, as shown in **Figure 1**.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXcpXX2h0-mX2YAXDEY5rfBM_WooymhgXM-qOqBA13ZhWKmf7wQFAOetVCy9tDIsEvRXaZ3kDjFfCX0TkHqifwgBEEcSdjlXP-ge082Ov8EA_TN8K4fS8Ms8mBep3Yvz8xO9kPYOgQ.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXcpXX2h0-mX2YAXDEY5rfBM_WooymhgXM-qOqBA13ZhWKmf7wQFAOetVCy9tDIsEvRXaZ3kDjFfCX0TkHqifwgBEEcSdjlXP-ge082Ov8EA_TN8K4fS8Ms8mBep3Yvz8xO9kPYOgQ.png" alt="">
+
+**Figure 1.** Error messages displayed in the app when the password or user settings are fully blocked
 
 **Monitor and prompt to Cerby** : When users are prompted to use Cerby, any attempt to modify settings will display an informational window, recommending users to configure the setting through Cerby, either via **Accounts** or **Members** , as shown in **Figure 2**.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXfaiXcSIMQMFiRFQitwVVUspwp3t_k5kzBZtLRoHjrlP7KQQm126J-iu_POe71M-8Za0iCmZTPxMHQjYC5tm3R-5Xk3pvgsG4bSq4x2BZQYz_czZph2Sx9OuzWSePQOxHWlzEdKlA.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXfaiXcSIMQMFiRFQitwVVUspwp3t_k5kzBZtLRoHjrlP7KQQm126J-iu_POe71M-8Za0iCmZTPxMHQjYC5tm3R-5Xk3pvgsG4bSq4x2BZQYz_czZph2Sx9OuzWSePQOxHWlzEdKlA.png" alt="">
 
 **Figure 2.** Information messages displayed in the app when the password and user settings are recommended to be modified on Cerby
 
@@ -68,34 +69,34 @@ The following is the behavior for the different restriction settings when users 
 
 The following are the domains of the apps that support the Apps settings restrictions feature:
 
-* google.com
-* appbot.co
-* bitrise.io
-* mailchimp.com
-* make.com
-* ngrok.com
-* paypal.com
-* surveymonkey.com
-* developers.google.com/ads-data-hub
-* cloud.google.com/document-ai
-* acsense.com
-* meraki.com
-* explorium.ai
-* x.com
-* instagram.com
-* facebook.com
-* tiktok.com
-* bsky.app
-* pinterest.com
-* snapchat.com
+  * google.com
+  * appbot.co
+  * bitrise.io
+  * mailchimp.com
+  * make.com
+  * ngrok.com
+  * paypal.com
+  * surveymonkey.com
+  * developers.google.com/ads-data-hub
+  * cloud.google.com/document-ai
+  * acsense.com
+  * meraki.com
+  * explorium.ai
+  * x.com
+  * instagram.com
+  * facebook.com
+  * tiktok.com
+  * bsky.app
+  * pinterest.com
+  * snapchat.com
 * * *
 
 ## Related articles
 
 The following articles contain more information about App settings restrictions:
 
-* [Manage access to app settings](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/manage-access-to-app-settings)
-* [Add settings restrictions to an app](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/add-settings-restrictions-to-an-app)
-* [Edit an app settings restriction](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/edit-an-app-settings-restriction)
-* [Customize the user message for setting restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/customize-the-user-message-for-setting-restrictions)
-* [Remove apps from settings restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/remove-apps-from-settings-restrictions)
+  * [Manage access to app settings](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/manage-access-to-app-settings)
+  * [Add settings restrictions to an app](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/add-settings-restrictions-to-an-app)
+  * [Edit an app settings restriction](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/edit-an-app-settings-restriction)
+  * [Customize the user message for setting restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/customize-the-user-message-for-setting-restrictions)
+  * [Remove apps from settings restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/remove-apps-from-settings-restrictions)

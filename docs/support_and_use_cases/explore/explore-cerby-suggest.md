@@ -15,24 +15,24 @@ Our approach is unique because we address app sprawl at the moment of account cr
 
 In the following sections, we walk you through the basic information and characteristics of Cerby Suggest:
 
-* Learn how Cerby Suggest works
-* Use Cerby Suggest
-* Boost collaboration with Teams
+  * [Learn how Cerby Suggest works](explore-cerby-suggest.md#id-learn-how-cerby-suggest-works)
+  * [Use Cerby Suggest](explore-cerby-suggest.md#id-use-cerby-suggest)
+  * [Boost collaboration with Teams](explore-cerby-suggest.md#id-boost-collaboration-with-teams)
 * * *
 
 ## Learn how Cerby Suggest works
 
 Cerby Suggest is a product built to help you detect app sprawl. By being connected to your systems and your identity provider (IdP), Cerby Suggest can guide end users into taking advantage of the licenses and seats of your organization’s sanctioned apps, therefore reducing the costs of unnecessary, unused, orphaned, or duplicate resources.
 
-The process to request licenses or seats is guided and managed by Cerby and your IT team via custom-built integrations. For example, employees can raise IT service request tickets from Cerby Suggest through an integration with ServiceNow.
+The process to request licenses or seats is guided and managed by Cerby and your IT team via custom-built integrations. For example, employees can raise IT service request tickets from Cerby Suggest through an integration with [ServiceNow](explore-cerby-suggest.md#id-servicenow).
 
 After receiving authorization to sign up for a SaaS app account, employees can add such an account to Cerby to streamline login and secure access with the multi-factor authentication (MFA) managed by Cerby.
 
 The following sections explain how we detect app sprawl, optimize your licenses and seats, and secure access to your accounts:
 
-* Custom-built integrations
-* Discovery report
-* Cerby client apps
+* [Custom-built integrations](explore-cerby-suggest.md#id-custom-built-integrations)
+* [Discovery report](explore-cerby-suggest.md#id-discovery-report)
+* [Cerby client apps](explore-cerby-suggest.md#id-cerby-client-apps)
 
 ### Custom-built integrations
 
@@ -40,10 +40,10 @@ The Cerby platform is connected to your organization's systems via custom-built 
 
 Currently, the following integrations are available:
 
-* Application assignments
-* Application graph
-* ServiceNow
-* Slack
+* [Application assignments](explore-cerby-suggest.md#id-application-assignments)
+* [Application graph](explore-cerby-suggest.md#id-application-graph)
+* [ServiceNow](explore-cerby-suggest.md#id-servicenow)
+* [Slack](explore-cerby-suggest.md#id-slack)
 
 The following sections describe each integration.
 
@@ -94,8 +94,8 @@ For more information about this report, read the article [Explore the Cerby Sugg
 
 The Cerby platform comprises two client apps that work together to provide you with the best experience as a Cerby Suggest user:
 
-* Cerby web app
-* Cerby browser extension
+* [Cerby web app](explore-cerby-suggest.md#id-cerby-web-app)
+* [Cerby browser extension](explore-cerby-suggest.md#id-cerby-browser-extension)
 
 #### Cerby web app
 
@@ -113,7 +113,7 @@ The following are the actions you can perform with the Cerby web app:
 
 You can use any web browser to access the Cerby web app, and all of your interactions are through a dashboard displayed after logging in to your workspace, as shown in **Figure 2**.
 
-<figure><img src="../../../.gitbook/assets/gwfP4-Pfa0yJmqGu2jd7GG6B8gqZ392I8ENCz3a0VygjAy6YPjcbGffWjljj2sk3TKfsXZT3eD7FZd2d304Hvw4ZJ6vUHwLUQF6Jlgs8AngcIwWGjTWfgPaq6gwATRp9VN0ygpPcQn_qmE_VU0QOXBY.png" alt="Screenshot of the Cerby web app dashboard. The All accounts view is displayed with multiple account cards and a button at the top right to add an account or collection."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/gwfP4-Pfa0yJmqGu2jd7GG6B8gqZ392I8ENCz3a0VygjAy6YPjcbGffWjljj2sk3TKfsXZT3eD7FZd2d304Hvw4ZJ6vUHwLUQF6Jlgs8AngcIwWGjTWfgPaq6gwATRp9VN0ygpPcQn_qmE_VU0QOXBY.png" alt="Screenshot of the Cerby web app dashboard. The All accounts view is displayed with multiple account cards and a button at the top right to add an account or collection.">
 
 **Figure 2.** Cerby web app dashboard for Cerby Suggest users
 
@@ -147,11 +147,11 @@ The following are the actions you can perform with the Cerby browser extension:
 
 After logging in to your workspace with the Cerby browser extension, your interactions are through a popup and an inline menu, as shown in **Figure 3** and **Figure 4**.
 
-<figure><img src="../../../.gitbook/assets/v-Pe9Lhvx6iX8nBfqD63PRk5MYVnz4cZu-MGyEhpLsDjEdSZeYYDPsilu0BTNp3PCSMVg4zVDtmm292c5M92E4yKRUjowqC7M0Sb6rSYi_q5W3j_y0iXDM5jeDoBxByl6S50lQY-IBP2j7eTWh_DAq8.png" alt="Screenshot of the Cerby browser extension popup on top of a login page. The Accounts tab is activated with a list of account cards."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/v-Pe9Lhvx6iX8nBfqD63PRk5MYVnz4cZu-MGyEhpLsDjEdSZeYYDPsilu0BTNp3PCSMVg4zVDtmm292c5M92E4yKRUjowqC7M0Sb6rSYi_q5W3j_y0iXDM5jeDoBxByl6S50lQY-IBP2j7eTWh_DAq8.png" alt="Screenshot of the Cerby browser extension popup on top of a login page. The Accounts tab is activated with a list of account cards.">
 
 **Figure 3.** Cerby browser extension popup for Cerby Suggest users
 
-<figure><img src="../../../.gitbook/assets/PSWgJJHhpCMj5kfkMyFYU4VvkWvn1OfwkABnuR23exV_ul3JhCwLHswEWt0xGXW9xHdjT6pVYnnYJguD_Jct4yrEIm8XQ1rgO1KcwCosmN0PzOAchMtAaFbzwdSmgT5ecu-0lpGM53v3f8AkcR3SOd4.png" alt="Screenshot of the Cerby browser extension inline menu on top of the input fields of a login page. A list of account cards is displayed."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/PSWgJJHhpCMj5kfkMyFYU4VvkWvn1OfwkABnuR23exV_ul3JhCwLHswEWt0xGXW9xHdjT6pVYnnYJguD_Jct4yrEIm8XQ1rgO1KcwCosmN0PzOAchMtAaFbzwdSmgT5ecu-0lpGM53v3f8AkcR3SOd4.png" alt="Screenshot of the Cerby browser extension inline menu on top of the input fields of a login page. A list of account cards is displayed.">
 
 **Figure 4.** Cerby browser extension inline menu for Cerby Suggest users
 
@@ -159,11 +159,11 @@ The Cerby browser extension can be installed from the browsers’ stores or dist
 
 The following web browsers are supported for MacOS and Windows computers:
 
-* Safari
-* Microsoft Edge
-* Mozilla Firefox
-* Google Chrome
-* Island
+  * Safari
+  * Microsoft Edge
+  * Mozilla Firefox
+  * Google Chrome
+  * Island
 * * *
 
 ## Use Cerby Suggest
@@ -178,12 +178,12 @@ With Teams, you can simplify user and access management through Cerby. This feat
 
 The following are the options to create teams in Cerby:
 
-* Create a group of users in the corporate directory managed by your IdP, such as Okta and Azure AD, and replicate it automatically as a team in Cerby.
-* Create a self-managed team selecting users from your workspace.
+  * Create a group of users in the corporate directory managed by your IdP, such as Okta and Azure AD, and replicate it automatically as a team in Cerby.
+  * Create a self-managed team selecting users from your workspace.
 
 You can manage all your teams through the **Teams** view, as shown in **Figure 6**.
 
-<figure><img src="../../../.gitbook/assets/3-Zil3qdaOhf7pLa_s-y_E4P0aRdTHAe-XYt63Vzl1Nh1lJdo1RFepG5pT146Y0lH3d_lgbEABm1D9X-67zrFvhJlFQQh0veXjIQqsP_X-BIHD2IQs5g0OijeaZJz20c0KjgMfe4bw0tN1kuWuCEOYk.png" alt="Screenshot of the Teams view in the Cerby dashboard. The Members tab of a specific team is displayed with a list of team members."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/3-Zil3qdaOhf7pLa_s-y_E4P0aRdTHAe-XYt63Vzl1Nh1lJdo1RFepG5pT146Y0lH3d_lgbEABm1D9X-67zrFvhJlFQQh0veXjIQqsP_X-BIHD2IQs5g0OijeaZJz20c0KjgMfe4bw0tN1kuWuCEOYk.png" alt="Screenshot of the Teams view in the Cerby dashboard. The Members tab of a specific team is displayed with a list of team members.">
 
 **Figure 6.** **Teams** view in the Cerby dashboard
 

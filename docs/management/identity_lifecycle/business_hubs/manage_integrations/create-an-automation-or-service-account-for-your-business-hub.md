@@ -41,9 +41,9 @@ Cerby recommends having dedicated user accounts not tied to a person or human id
 
 This article describes how to create an automation or service account in your app to connect it to your business hub. The following are the different ways in which you can configure the account, depending on your app’s characteristics, user management strategy, and login method:
 
-* Placeholder account
-* IdP-provisioned account
-* Individual account
+* [Placeholder account](create-an-automation-or-service-account-for-your-business-hub.md#id-placeholder-account)
+* [IdP-provisioned account](create-an-automation-or-service-account-for-your-business-hub.md#id-idp-provisioned-account)
+* [Individual account](create-an-automation-or-service-account-for-your-business-hub.md#id-individual-account)
 
 {% hint style="info" %}
 
@@ -83,11 +83,13 @@ To create and configure a placeholder account, you must complete the following s
 
        1. Use the Password Generator in the Cerby browser extension to generate a secure password. For instructions, read the article [How to generate secure passwords using the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/generate-secure-passwords-using-the-cerby-browser-extension).
   5. Select the corresponding vault from the **Vault** drop-down list to add the account to it.
-**NOTE:** This drop-down list is not displayed if you only have access to one vault.
+
+  **NOTE:** This drop-down list is not displayed if you only have access to one vault.
 
   6. Click the **Add account** button. The dialog box closes, and a success message box and the account details page are displayed.
   7. Associate a Cerby-managed email address and phone number with the account. For instructions, see the video [How to add a Cerby-managed email or phone number to your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/video-how-to-add-a-cerby-managed-email-or-phone-number-to-your-account).
-**IMPORTANT:** After adding the Cerby-managed email address, make sure you update the account details in Cerby. Enter this email address as the value in the **Username** field.
+
+  **IMPORTANT:** After adding the Cerby-managed email address, make sure you update the account details in Cerby. Enter this email address as the value in the **Username** field.
 
   8. Create the user account in your app with the login credentials from the Cerby account.
   9. Turn on MFA for your app’s user account with Cerby as an authenticator app. For instructions, read the article [How to turn on MFA managed by Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app).
@@ -136,7 +138,8 @@ To create and configure an individual account, you must complete the following s
 
   1. Add your personal account to Cerby. For instructions, read the article [Add an account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/add-an-account).
   2. Associate a Cerby-managed email address and phone number with the account. For instructions, see the video [How to add a Cerby-managed email or phone number to your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/video-how-to-add-a-cerby-managed-email-or-phone-number-to-your-account).
-**NOTE:** Cerby recommends you use the Cerby-managed email address as the value in the **Username** field.
+
+  **NOTE:** Cerby recommends you use the Cerby-managed email address as the value in the **Username** field.
 
   3. Turn on MFA for your app’s user account with Cerby as an authenticator app. For instructions, read the article [How to turn on MFA managed by Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app).
 

@@ -37,10 +37,10 @@ MFA is one of the most impactful cybersecurity best practices. [According to Mic
 
 The following are the Cerby-managed verification methods you can set up for your accounts:
 
-* Authenticator app
-* Email address
-* Phone number
-* RSA codes
+  * [Authenticator app](explore-the-cerby-managed-verification-methods-for-your-accounts.md#id-authentication-app)
+  * [Email address](explore-the-cerby-managed-verification-methods-for-your-accounts.md#id-email-address)
+  * [Phone number](explore-the-cerby-managed-verification-methods-for-your-accounts.md#id-phone-number)
+  * [RSA codes](explore-the-cerby-managed-verification-methods-for-your-accounts.md#id-rsa-codes)
 
 The following sections briefly explain each method.
 

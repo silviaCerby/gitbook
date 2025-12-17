@@ -32,30 +32,31 @@ The following are the requirements to forward a message from your Cerby inbox:
 
 To forward a message from your Cerby inbox, you must complete the following steps:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-  2. Open the **Forward Message** dialog box. You have two options to perform this action:
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
+2. Open the **Forward Message** dialog box. You have two options to perform this action:
 
-     * From the Inbox tab of the account details page
+   * From the Inbox tab of the account details page
 
-       1. Click the **Settings** icon of the corresponding account card. The account settings page is displayed with the **Settings** tab activated.
-       2. Activate the **Inbox** tab.
-       3. Click the **More options** icon of the corresponding message. A drop-down list is displayed.
-       4. Select the **Forward** option. The **Forward Message** dialog box is displayed.
+     1. Click the **Settings** icon of the corresponding account card. The account settings page is displayed with the **Settings** tab activated.
+     2. Activate the **Inbox** tab.
+     3. Click the **More options** icon of the corresponding message. A drop-down list is displayed.
+     4. Select the **Forward** option. The **Forward Message** dialog box is displayed.
 
-     * From the Shared Inbox
+   * From the Shared Inbox
 
-       1. Click the **Shared Inbox** icon located at the top right of the Cerby dashboard. The **Shared Inbox** page is displayed with a table of messages.
-       2. Click the **More options** icon of the corresponding message. A drop-down list is displayed.
-       3. Select the **Forward Message** option. The **Forward Message** dialog box is displayed.
-  3. Select the corresponding option from the**Forward to** drop-down list:
+     1. Click the **Shared Inbox** icon located at the top right of the Cerby dashboard. The **Shared Inbox** page is displayed with a table of messages.
+     2. Click the **More options** icon of the corresponding message. A drop-down list is displayed.
+     3. Select the **Forward Message** option. The **Forward Message** dialog box is displayed.
+3. Select the corresponding option from the**Forward to** drop-down list:
 
-     * **Me:** It sends the message to the corporate email address registered in your Cerby account.
-     * **All account collaborators:** It sends the message to all users in Cerby with the **Account Collaborator** role on the app account.
-     * **All account owners:** It sends the message to all users in Cerby with the **Account Owner** role on the app account.
-     * **Selected distribution list:** It sends the message to a distribution list already created.
-     * **Selected users:** It sends the message to one or multiple users you select.\
-       **NOTE:** For the **Selected distribution list** and **Selected users** options, a search bar is displayed to look for distribution lists and users, respectively.
+   * **Me:** It sends the message to the corporate email address registered in your Cerby account.
+   * **All account collaborators:** It sends the message to all users in Cerby with the **Account Collaborator** role on the app account.
+   * **All account owners:** It sends the message to all users in Cerby with the **Account Owner** role on the app account.
+   * **Selected distribution list:** It sends the message to a distribution list already created.
+   * **Selected users:** It sends the message to one or multiple users you select.
 
-  4. Click the **Forward Message** button. The dialog box closes, a success message box is displayed, and the message is sent to the email address of the selected recipient.
+   **NOTE:** For the **Selected distribution list** and **Selected users** options, a search bar is displayed to look for distribution lists and users, respectively.
+
+4. Click the **Forward Message** button. The dialog box closes, a success message box is displayed, and the message is sent to the email address of the selected recipient.
 
 Now you are done.

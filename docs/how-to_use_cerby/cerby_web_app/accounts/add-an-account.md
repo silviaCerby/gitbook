@@ -19,9 +19,9 @@ intercom_id: 8708374
 
 You can add accounts to Cerby in the following three ways:
 
-* Add an account manually
-* Autosave an account at login or signup
-* Import accounts from LastPass
+* [Add an account manually](add-an-account.md#id-add-an-account-manually)
+* [Autosave an account at login or signup](add-an-account.md#id-autosave-an-account-at-login-or-signup)
+* [Import accounts from LastPass](add-an-account.md#id-import-accounts-from-lastpass)
 
 The following sections describe each way.
 
@@ -31,9 +31,9 @@ The following sections describe each way.
 
 The process to add an account manually is different depending on the Cerby client app you use:
 
-* Cerby web app
-* Cerby browser extension
-* Cerby mobile app
+  * [Cerby web app](add-an-account.md#id-cerby-web-app)
+  * [Cerby browser extension](add-an-account.md#id-cerby-browser-extension)
+  * [Cerby mobile app](add-an-account.md#id-cerby-mobile-app)
 
 The following sections describe each process.
 
@@ -54,12 +54,14 @@ To add an account manually using the Cerby web app, you must complete the follow
        * **[Self-managed accounts](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-accounts):** If the app is not displayed in the list but you access it through its website, you must enter or paste the login URL. For example, **<https://www.app.com/login>**.
        * **[No URL accounts](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-accounts):** You can leave the field blank for the apps you access locally, not through a website (such as hardware devices or desktop apps).
      * **Username:** It is the username you use to log in to your account. Sometimes, the username is your email address.
-     * **Current password:** It is the password you use to log in to your account.\
-       **NOTE:** You can generate a password by clicking the **Generate password** option.
+     * **Current password:** It is the password you use to log in to your account.
+
+     **NOTE:** You can [generate a password](add-an-account.md#id-generate-a-password) by clicking the **Generate password** option.
 
   5. Select optionally an existing collection from the **Collection** drop-down list to add the account to it.
   6. Select the corresponding vault from the **Vault** drop-down list to add the account to it.
-**NOTE:** This drop-down list is not displayed if you only have access to one vault.
+
+  **NOTE:** This drop-down list is not displayed if you only have access to one vault.
 
   7. Click the **Add account** button. The dialog box closes, and a success message box and the account details page are displayed.
 
@@ -82,12 +84,14 @@ To add an account manually using the Cerby browser extension, you must complete 
        * **[Self-managed accounts](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-accounts):** If the app is not displayed in the list but you access it through its website, you must enter or paste the login URL. For example, **<https://www.app.com/login>**.
        * **[No URL accounts](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-accounts):** You can leave the field blank for the apps you access locally, not through a website (such as hardware devices or desktop apps).
      * **Username:** It is the username you use to log in to your account. Sometimes, the username is your email address.
-     * **Current password:** It is the password you use to log in to your account.\
-       **NOTE:** You can generate a password by clicking the **Generate password** option.
+     * **Current password:** It is the password you use to log in to your account.
+
+     **NOTE:** You can [generate a password](add-an-account.md#id-generate-a-password) by clicking the **Generate password** option.
 
   5. Select optionally an existing collection from the **Collection** drop-down list to add the account to it.
   6. Select the corresponding vault from the **Vault** drop-down list to add the account to it.
-**NOTE:** This drop-down list is not displayed if you only have access to one vault.
+
+  **NOTE:** This drop-down list is not displayed if you only have access to one vault.
 
   7. Click the **Add account** button. The dialog box closes, and a success message box and the account details page are displayed.
 The new account is now listed in the Cerby browser extension popup.
@@ -106,16 +110,16 @@ When you add an account manually to Cerby using the Cerby web app, you can gener
 
 This feature enables you to create passwords that meet your specific security preferences by defining the following characteristics:
 
-* Length (from five to 50 characters)
-* Uppercase usage
-* Lowercase usage
-* Numerical digit
-* Symbol usage
-* Passphrase
+  * Length (from five to 50 characters)
+  * Uppercase usage
+  * Lowercase usage
+  * Numerical digit
+  * Symbol usage
+  * Passphrase
 
 **Figure 1** displays the **Password Generator** popup within the **Add account details** dialog box. The popup indicates the strength of the generated password, whether it is weak, moderate, or strong, and provides options to copy the password or generate a new one.
 
-<figure><img src="../../../../.gitbook/assets/8c07244f-9f24-40e0-9200-dd56a557cc2f.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../../.gitbook/assets/8c07244f-9f24-40e0-9200-dd56a557cc2f.png" alt="">
 
 **Figure 1.** The **Password Generator** popup with the **Add account details** dialog box
 

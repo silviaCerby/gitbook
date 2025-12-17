@@ -1,8 +1,6 @@
 ---
+description: This article describes how to troubleshoot JetBrains license assignment issues when using Okta push groups.
 intercom_id: 11691098
-description: >-
-  This article describes how to troubleshoot JetBrains license assignment issues
-  when using Okta push groups.
 ---
 
 # Troubleshooting: JetBrains license assignment issues when using Okta push groups
@@ -45,16 +43,22 @@ To update the name of an Okta push group, you must complete the following steps:
    2. Select the **Cerby** option from the list of applications. The **Cerby application** page is displayed with the **General** tab activated.
    3. Activate the **Push Groups** tab. The **Push Groups to Cerby** page is displayed.
    4. Verify that the updated group name is displayed in the **Group in Okta** and **Group in Cerby** columns.
-4. (Optional) After updating the group name, it is common for the value displayed in the **Group in Cerby** column not to reflect the update, as shown in **Figures 1** and **2**. ​ **Figure 1. Group in Okta** column\*\*\*\* showing the updated group name ​ **Figure 2. Group in Cerby** column showing an incorrect group name ​ In this case, Cerby recommends the following workaround:
+4. (Optional) After updating the group name, it is common for the value displayed in the **Group in Cerby** column not to reflect the update, as shown in **Figures 1** and **2**.
+​
 
-<figure><img src="../../../../.gitbook/assets/image_15.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../../../../.gitbook/assets/image_15.png" alt="">
 
-<figure><img src="../../../../.gitbook/assets/image_16.png" alt=""><figcaption></figcaption></figure>
+**Figure 1. Group in Okta** column**** showing the updated group name
+​
 
-```
- 1. Edit the group name again and temporarily add a space within the JetBrains product name. For example, change from **`dotTrace`** to **`dot Trace`.**
- 2. Verify that the updated name with the space is reflected in both the **Group in Okta** and **Group in Cerby** columns.
- 3. After the update is visible in both columns, edit the group name again to remove the space and restore its correct format. For example, change from **`dot Trace`** to **`dotTrace`**.
-```
+<img src="../../../../../../.gitbook/assets/image_16.png" alt="">
+
+**Figure 2. Group in Cerby** column showing an incorrect group name
+​
+In this case, Cerby recommends the following workaround:
+
+1. Edit the group name again and temporarily add a space within the JetBrains product name. For example, change from **`dotTrace`** to **`dot Trace`.**
+2. Verify that the updated name with the space is reflected in both the **Group in Okta** and **Group in Cerby** columns.
+3. After the update is visible in both columns, edit the group name again to remove the space and restore its correct format. For example, change from **`dot Trace`** to **`dotTrace`**.
 
 Now you are done.

@@ -1,2 +1,0 @@
-# Paid social apps
-

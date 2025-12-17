@@ -18,11 +18,11 @@ intercom_id: 9450993
 
 To retrieve a bearer token, you must complete the following steps:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
-  2. Click your user profile located at the top right of the page. A drop-down list is displayed.
-  3. Select the**My Profile** option. The **My Profile** page is displayed with the **General** tab activated.
-  4. Activate the **Dev Tools** tab. The **Developer tools** section is displayed with the **Copy Bearer Token** information.
-  5. Click the **Copy token** button. Your bearer token is copied to the clipboard.
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
+2. Click your user profile located at the top right of the page. A drop-down list is displayed.
+3. Select the**My Profile** option. The **My Profile** page is displayed with the **General** tab activated.
+4. Activate the **Dev Tools** tab. The **Developer tools** section is displayed with the **Copy Bearer Token** information.
+5. Click the **Copy token** button. Your bearer token is copied to the clipboard.
 
 {% hint style="danger" %}
 

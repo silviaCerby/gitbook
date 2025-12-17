@@ -7,8 +7,8 @@ intercom_id: 9354486
 
 This article contains the steps you must follow to perform the following actions related to viewing the registered, trusted sessions in your workspace:
 
-* View the trusted sessions on your devices
-* View other members' trusted sessions in the workspace
+* [View the trusted sessions on your devices](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-view-the-trusted-sessions-on-your-devices)
+* [View other members' trusted sessions in the workspace](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-view-other-members-trusted-sessions-in-the-workspace)
 
 The following sections detail the steps for each action.
 
@@ -20,9 +20,9 @@ As a **Workspace User** , you can view the trusted sessions on the devices you h
 
 To view your trusted sessions, you must complete the steps corresponding to the Cerby client app you are using:
 
-* Cerby web app
-* Cerby mobile app
-* Cerby browser extension
+  * [Cerby web app](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-web-app)
+  * [Cerby mobile app](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-mobile-app)
+  * [Cerby browser extension](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-browser-extension)
 
 The following sections contain the steps for each Cerby client app.
 
@@ -61,16 +61,17 @@ As a **Workspace Owner** ,**Super Admin** , or **Admin** , you can view the trus
 
 To view the trusted sessions in your workspace, you must complete the following steps using the Cerby web app:
 
-* Trusted sessions of a specific member
+  * Trusted sessions of a specific member
 
     1. Log in to your [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
     2. Select the **All Members** option from the left navigation drawer. The **All** **Members** view is displayed with the **Members** tab activated.
-**NOTE:** If you want to see the trusted sessions of a guest user, activate the **Guest** tab.
+
+    **NOTE:** If you want to see the trusted sessions of a guest user, activate the **Guest** tab.
 
     3. Click the corresponding user account from the table. The user details page is displayed.
     4. Activate the **Trusted** **devices** tab. A table with the list of trusted devices the member has set up is displayed.
 
-* Trusted sessions of all workspace members
+  * Trusted sessions of all workspace members
 
     1. Log in to your [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
     2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed.

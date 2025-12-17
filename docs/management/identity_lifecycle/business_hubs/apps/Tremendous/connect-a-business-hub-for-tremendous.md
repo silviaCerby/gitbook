@@ -41,25 +41,25 @@ This article provides instructions on how to connect a business hub for Tremendo
 
 The following are the requirements to connect a business hub:
 
-* A Cerby workspace
-* A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
-* A team in Tremendous
-* Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* An automation account, meaning an active user account with an **Admin** role in Tremendous to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
-* The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps
+  * A Cerby workspace
+  * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
+  * A team in Tremendous
+  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * An automation account, meaning an active user account with an **Admin** role in Tremendous to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps
 ​](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)**IMPORTANT:** This business hub only supports single sign-on (SSO) as the user management and login method.
 
-* An app ID. You can find the ID in the address bar after logging in to Tremendous. It’s the first subdirectory after the domain. For example, **`ABC1DEFGH2`** in **`https://app.tremendous.com/apps/ABC1DEFGH2`**. Just copy the value and paste it when requested while connecting the business hub.
+  * An app ID. You can find the ID in the address bar after logging in to Tremendous. It’s the first subdirectory after the domain. For example, **`ABC1DEFGH2`** in **`https://app.tremendous.com/apps/ABC1DEFGH2`**. Just copy the value and paste it when requested while connecting the business hub.
 * * *
 
 ## Connect a business hub for Tremendous
 
 To connect a business hub for Tremendous, you must complete the following main steps from the Cerby web app dashboard:
 
-  1. Add a business hub and connect it to Tremendous[ ](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
-  2. Check for updates to import users and roles to Cerby
-  3. Connect your Tremendous user account to the business hub
-  4. Manage unmatched users
+  1. [Add a business hub and connect it to Tremendous](connect-a-business-hub-for-tremendous.md#id-1.-add-a-business-hub-and-connect-it-to-tremendous)[ ](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
+  2. [Check for updates to import users and roles to Cerby](connect-a-business-hub-for-tremendous.md#id-2.-check-for-updates-to-import-users-and-roles-to-cerby)
+  3. [Connect your Tremendous user account to the business hub](connect-a-business-hub-for-tremendous.md#id-3.-connect-your-tremendous-user-account-to-the-business-hub)
+  4. [Manage unmatched users](connect-a-business-hub-for-tremendous.md#id-4.-manage-unmatched-users)
 
 The following sections describe each main step.
 
@@ -77,20 +77,21 @@ To add a business hub and connect it to Tremendous, you must complete the follow
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **App ID:** It is the unique identifier of your organization in Tremendous. For instructions on how to find it, read the Requirements section.
+     * **App ID:** It is the unique identifier of your organization in Tremendous. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-tremendous.md#id-requirements) section.
      * **User management and login method:** It is the way your users log in to the app and determines whether they must save their credentials in Cerby.
 
        1. Select the **Single sign-on (SSO)** option because access must be managed by your identity provider, and users log in with SSO authentication. They are not asked to save their credentials in Cerby.
-**IMPORTANT:** This business hub doesn’t support automated tasks when selecting the **Username and password** option.
+
+       **IMPORTANT:** This business hub doesn’t support automated tasks when selecting the **Username and password** option.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Tremendous accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the Requirements section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-tremendous.md#id-requirements) section.
 ​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
 The corresponding business hub is also displayed on the **Business Hubs** view.
 
-The next step is 2\. Check for updates to import users and roles to Cerby.
+The next step is [2. Check for updates to import users and roles to Cerby](connect-a-business-hub-for-tremendous.md#id-2.-check-for-updates-to-import-users-and-roles-to-cerby).
 
 ### 2\. Check for updates to import users and roles to Cerby
 
@@ -114,7 +115,7 @@ To check for updates in your app to identify and import users and roles to Cerby
 
 {% endhint %}
 
-The next step is 3\. Connect your Tremendous user account to the business hub.
+The next step is [3. Connect your Tremendous user account to the business hub](connect-a-business-hub-for-tremendous.md#id-3.-connect-your-tremendous-user-account-to-the-business-hub).
 
 ### 3\. Connect your Tremendous user account to the business hub
 
@@ -125,7 +126,7 @@ To connect your Tremendous user account to the business hub so Cerby can manage 
   3. Enter the login credentials of your Tremendous user account.
   4. Click the **Connect account** button. The dialog box closes, and a success message box and a new account card are displayed.
 
-The next step is 4\. Manage unmatched users.
+The next step is [4. Manage unmatched users](connect-a-business-hub-for-tremendous.md#id-4.-manage-unmatched-users).
 
 ### 4\. Manage unmatched users
 
@@ -144,9 +145,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-* Match users
-* Remove unmatched users
-* Exempt unmatched users
+  * [Match users](connect-a-business-hub-for-tremendous.md#id-match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-tremendous.md#id-remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-tremendous.md#id-exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -198,14 +199,14 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 The following are the supported features of business hubs you can use:
 
-* [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
-* [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
-* [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
-* [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
-* [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
-* [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
-* [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
-* [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
-* [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
+  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+  * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

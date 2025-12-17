@@ -31,10 +31,10 @@ The following are the four underlying services of the Cerby browser extension:
 
 The Cerby browser extension is supported by the following web browsers:
 
-* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
-* [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
-* [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
-* [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
+  * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
+  * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
+  * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
+  * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
 
 {% hint style="danger" %}
 
@@ -52,33 +52,33 @@ It’s worth mentioning that Cerby provides the flexibility for organizations to
 
 The following are the key benefits of the Cerby browser extension:
 
-* **Real-time sync:** Changes made on the Cerby web app, such as adding accounts, updating passwords, or organizing collections, are instantly reflected in the browser extension, ensuring your information is always up-to-date.
-* **Streamlined login:** Experience automated access to your accounts, eliminating the need to manually enter usernames, passwords, and multi-factor authentication (MFA) codes.
-* **Account onboarding:** Identify and autosave new accounts in Cerby as you log in or sign up for services, maintaining a complete record of your digital footprint.
-* **In-app access management:** For specific domains, the Cerby browser extension can enforce access rules, ensuring users only interact with allowed sections of the app settings.
-* **Enterprise-first:** Leverage your MDM service to install the Cerby browser extension across all the endpoints in your organization. You can pre-seed your workspace in the extension for user convenience.
+  * **Real-time sync:** Changes made on the Cerby web app, such as adding accounts, updating passwords, or organizing collections, are instantly reflected in the browser extension, ensuring your information is always up-to-date.
+  * **Streamlined login:** Experience automated access to your accounts, eliminating the need to manually enter usernames, passwords, and multi-factor authentication (MFA) codes.
+  * **Account onboarding:** Identify and autosave new accounts in Cerby as you log in or sign up for services, maintaining a complete record of your digital footprint.
+  * **In-app access management:** For specific domains, the Cerby browser extension can enforce access rules, ensuring users only interact with allowed sections of the app settings.
+  * **Enterprise-first:** Leverage your MDM service to install the Cerby browser extension across all the endpoints in your organization. You can pre-seed your workspace in the extension for user convenience.
 * * *
 
 ## Key operations
 
 The following are the key operations of the Cerby browser extension:
 
-* **Logging in to your accounts:** Leverage automated login by having the Cerby browser extension autofill your login credentials, or perform assisted manual logins.
-* **Autosaving your accounts:** Let Cerby identify login and signup attempts so that these accounts are autosaved in your workspace.
-* **Restricting app settings:** Encourage users to use Cerby rather than the app’s interface to manage users and update passwords in your apps.
-* **Generating passwords:** Use our password strength selectors to generate strong passwords that comply with your app requirements.
-* **Receiving in-context alerts:** Let Cerby display important notifications in your web browser as the Cerby browser extension performs automated logins for you.
-* **Suggesting accounts:** Let the inline menu display existing accounts based on the web page you're visiting.
-* **Accessing your items:** Use the Cerby browser extension popup to view your accounts, secrets, and collections.
-* **Auto signing in to the extension:** Leverage the active session of your identity provider to automatically sign in to the Cerby browser extension. Currently, this feature is available for Okta-based workspaces.
+  * **Logging in to your accounts:** Leverage automated login by having the Cerby browser extension autofill your login credentials, or perform assisted manual logins.
+  * **Autosaving your accounts:** Let Cerby identify login and signup attempts so that these accounts are autosaved in your workspace.
+  * **Restricting app settings:** Encourage users to use Cerby rather than the app’s interface to manage users and update passwords in your apps.
+  * **Generating passwords:** Use our password strength selectors to generate strong passwords that comply with your app requirements.
+  * **Receiving in-context alerts:** Let Cerby display important notifications in your web browser as the Cerby browser extension performs automated logins for you.
+  * **Suggesting accounts:** Let the inline menu display existing accounts based on the web page you're visiting.
+  * **Accessing your items:** Use the Cerby browser extension popup to view your accounts, secrets, and collections.
+  * **Auto signing in to the extension:** Leverage the active session of your identity provider to automatically sign in to the Cerby browser extension. Currently, this feature is available for Okta-based workspaces.
 * * *
 
 ## Related articles
 
 The following articles contain more information about the Cerby browser extension:
 
-* [Install the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/getting-started/cerby-browser-extension/install-the-cerby-browser-extension)
-* [Log in to the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/log-in-to-the-cerby-browser-extension)
-* [Generate secure passwords using the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/generate-secure-passwords-using-the-cerby-browser-extension)
-* [Explore Account Autosave](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-account-autosave)
-* [Explore App settings restrictions](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-app-settings-restrictions)
+  * [Install the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/getting-started/cerby-browser-extension/install-the-cerby-browser-extension)
+  * [Log in to the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/log-in-to-the-cerby-browser-extension)
+  * [Generate secure passwords using the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/generate-secure-passwords-using-the-cerby-browser-extension)
+  * [Explore Account Autosave](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-account-autosave)
+  * [Explore App settings restrictions](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-app-settings-restrictions)

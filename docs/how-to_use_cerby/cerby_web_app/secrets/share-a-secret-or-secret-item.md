@@ -20,8 +20,8 @@ intercom_id: 8705424
 
 As a secret or secret item (such as WiFi, SSH keys, database, server, and custom item) **Owner** , you can share your items with other workspace members and teams using the following Cerby client apps:
 
-* Cerby web app
-* Cerby mobile app
+* [Cerby web app](share-a-secret-or-secret-item.md#id-cerby-web-app)
+* [Cerby mobile app](share-a-secret-or-secret-item.md#id-cerby-mobile-app)
 
 The following sections describe the sharing process using each client app.
 
@@ -33,7 +33,7 @@ To share a secret or secret item, you must complete the following steps using th
 
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
   2. Select the **Secrets** option from the left navigation drawer. The **Secrets** view is displayed.
-  3. Click the **Share secret** (<figure><img src="../../../../.gitbook/assets/unnamed_68.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding secret card. A drop-down list is displayed.
+  3. Click the **Share secret** (<img src="../../../../.gitbook/assets/unnamed_68.png" alt="">) icon of the corresponding secret card. A drop-down list is displayed.
   4. Select the **Share item** option. Depending on whether you have an identity challenge configured, one of the following scenarios occurs:
 
      * The **Confirm your identity to continue** dialog box is displayed. To confirm your identity, use one of [Cerby's multi-factor authentication methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods).
@@ -45,8 +45,9 @@ To share a secret or secret item, you must complete the following steps using th
   8. Select the corresponding role on the secret from the **Role** drop-down list:
 
      * **Owner:** They can share access, edit, add attachments, and manage the secret settings.
-     * **Collaborator:** They can only view the secret and download the attachments.\
-       **NOTE:** When you select a member with the **Login-only** role, they are listed in the **Login-Only** section. You can only select the **Collaborator** role for them.
+     * **Collaborator:** They can only view the secret and download the attachments.
+
+     **NOTE:** When you select a member with the **Login-only** role, they are listed in the **Login-Only** section. You can only select the **Collaborator** role for them.
 
   9. Customize the message to send when you share the collection in the **Message** field.
   10. Click the **Share** button. The dialog box closes, and a success message box is displayed.
@@ -63,17 +64,19 @@ To share a secret or secret item, you must complete the following steps using th
   2. Log in to your Cerby workspace.
   3. Activate the **Secrets** tab located at the top of the screen. All your saved and shared secrets and secret items are displayed.
   4. Tap the corresponding secret card. The secret details screen is displayed.
-**NOTE:** If you have an identity challenge configured, the Cerby mobile app confirms your identity automatically.
 
-  5. Tap the **Share** (<figure><img src="../../../../.gitbook/assets/unnamed_69.png" alt=""><figcaption></figcaption></figure>) icon on Android or the **Share** (<figure><img src="../../../../.gitbook/assets/unnamed_70.png" alt=""><figcaption></figcaption></figure>) icon on iOS located at the top right of the screen. The **Share item** screen is displayed.
+  **NOTE:** If you have an identity challenge configured, the Cerby mobile app confirms your identity automatically.
+
+  5. Tap the **Share** (<img src="../../../../.gitbook/assets/unnamed_69.png" alt="">) icon on Android or the **Share** (<img src="../../../../.gitbook/assets/unnamed_70.png" alt="">) icon on iOS located at the top right of the screen. The **Share item** screen is displayed.
   6. Enter the name of the member or team in the search bar. The members or teams that match the name are displayed on a list automatically.
   7. Select the corresponding member or team from the list. The member or team is displayed in the **Members and Teams** section.
   8. Repeat steps 6 and 7 as necessary to select multiple members or teams.
   9. Select the role to assign to the members and teams from the drop-down list:
 
      * **Owner:** Members and team can share access, edit, add attachments, and manage the secret settings.
-     * **Collaborator:** Members and teams can only view the secret and download the attachments.\
-       **NOTE:** When you select a member with the **Login-only** role, they are listed in the **Login-Only** section, and you can only select the **Collaborator** role for them.
+     * **Collaborator:** Members and teams can only view the secret and download the attachments.
+
+     **NOTE:** When you select a member with the **Login-only** role, they are listed in the **Login-Only** section, and you can only select the **Collaborator** role for them.
 
   10. Customize the message to send when you share the collection in the **Message** field.
   11. Tap the **Share item** button on Android or the **Share** button on iOS. The screen closes, and the users with shared access are displayed in the **Members** section of the secret details screen.

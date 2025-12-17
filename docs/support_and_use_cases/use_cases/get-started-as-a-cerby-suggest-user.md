@@ -11,11 +11,11 @@ If you are reading this guide, it means you have started using Cerby Suggest or 
 
 The following are the actions you can perform to get started with Cerby Suggest:
 
-* Log in to a workspace
-* Install the Cerby browser extension
-* Add items to Cerby
-* Protect your accounts
-* Share your items
+* [Log in to a workspace](get-started-as-a-cerby-suggest-user.md#id-log-in-to-a-workspace)
+* [Install the Cerby browser extension](get-started-as-a-cerby-suggest-user.md#id-install-the-cerby-browser-extension)
+* [Add items to Cerby](get-started-as-a-cerby-suggest-user.md#id-add-items-to-cerby)
+* [Protect your accounts](get-started-as-a-cerby-suggest-user.md#id-protect-your-accounts)
+* [Share your items](get-started-as-a-cerby-suggest-user.md#id-share-your-items)
 
 The following sections describe each action.
 
@@ -60,18 +60,18 @@ If your company uses an MDM service, the Cerby browser extension may have alread
 
 To install it manually, navigate to the website according to your web browser and follow the installation instructions:
 
-* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
-* [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
-* [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
-* [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
+  * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
+  * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
+  * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
+  * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
 * * *
 
 ## Add items to Cerby
 
 After you have accessed the Cerby platform, you can start adding items. You can add items in Cerby in the following ways:
 
-* Manually
-* At login
+  * [Manually](get-started-as-a-cerby-suggest-user.md#id-manually)
+  * [At login](get-started-as-a-cerby-suggest-user.md#id-at-login)
 
 The following sections describe each option.
 
@@ -79,8 +79,8 @@ The following sections describe each option.
 
 The process of adding items to Cerby manually is different depending on the item type:
 
-* Accounts
-* Collections
+  * [Accounts](get-started-as-a-cerby-suggest-user.md#id-accounts)
+  * [Collections](get-started-as-a-cerby-suggest-user.md#id-collections)
 
 The following sections describe the instructions for each item type.
 
@@ -108,8 +108,8 @@ To save your credentials at login, follow the instructions in the article [How t
 
 With Cerby Suggest, you can take the following actions to enhance the security of your accounts:
 
-* Turn on MFA for your accounts
-* Generate secure passwords
+  * [Turn on MFA for your accounts](get-started-as-a-cerby-suggest-user.md#id-turn-on-mfa-for-your-accounts)
+  * [Generate secure passwords](get-started-as-a-cerby-suggest-user.md#id-generate-secure-passwords)
 
 The following sections describe each action.
 
@@ -135,8 +135,8 @@ To generate a password, follow the instructions in the article [How to generate 
 
 With your items added to Cerby, you can start sharing them. Currently, you have two options to do so:
 
-* Internally with other workspace users
-* Externally via a public link
+  * [Internally with other workspace users](get-started-as-a-cerby-suggest-user.md#id-internally-with-other-workspace-users)
+  * [Externally via a public link](get-started-as-a-cerby-suggest-user.md#id-externally-via-a-public-link)
 
 The following sections describe each option.
 
@@ -144,13 +144,13 @@ The following sections describe each option.
 
 With Cerby Suggest, you can share your items internally with users and teams within your workspace. When sharing any item, you must assign one of the two following roles:
 
-* **Owner:** Your colleagues can view and share the items with other users and edit the item details.
-* **Collaborator:** Your colleagues can only view the item details. For accounts, they can only log in to applications.
+  * **Owner:** Your colleagues can view and share the items with other users and edit the item details.
+  * **Collaborator:** Your colleagues can only view the item details. For accounts, they can only log in to applications.
 
 The process of sharing items is different depending on the item type:
 
-* Accounts
-* Collections
+  * [Accounts](get-started-as-a-cerby-suggest-user.md#id-accounts)
+  * [Collections](get-started-as-a-cerby-suggest-user.md#id-collections)
 
 The following sections describe the instructions for each item type.
 

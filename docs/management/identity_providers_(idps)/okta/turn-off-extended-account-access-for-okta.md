@@ -35,10 +35,10 @@ When this feature is on, you and all workspace members can sync and extend the a
 
 To turn off the Extended account access feature, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
-  2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed.
-  3. Activate the **IDP Settings** tab. The**Identity Provider Settings** section is displayed
-  4. Deactivate the switch from the **Extend Cerby accounts to Okta** section. The **Turn off extended account access?** dialog box is displayed.
-  5. Click the **Turn off** button. The dialog box closes, and a success message box is displayed.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
+2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed.
+3. Activate the **IDP Settings** tab. The**Identity Provider Settings** section is displayed
+4. Deactivate the switch from the **Extend Cerby accounts to Okta** section. The **Turn off extended account access?** dialog box is displayed.
+5. Click the **Turn off** button. The dialog box closes, and a success message box is displayed.
 
 Now you are done. Cerby will stop syncing accounts already extended to Okta, and all workspace members will be unable to sync and extend new items.

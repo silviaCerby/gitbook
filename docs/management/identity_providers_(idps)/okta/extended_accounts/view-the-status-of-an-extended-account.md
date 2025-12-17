@@ -21,11 +21,11 @@ As an account **Owner** who has synced and [extended an account to Okta](https:/
 
 To view the status of an extended account, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
-  2. Click the corresponding account card. The account details page is displayed.
-  3. Expand the**Connected services and apps** section. The **Extended account access for Okta** section is displayed with the following information:
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
+2. Click the corresponding account card. The account details page is displayed.
+3. Expand the**Connected services and apps** section. The **Extended account access for Okta** section is displayed with the following information:
 
-     * The date when the account was extended and the name of the user who extended it
-     * The date when the account was last synced
+   * The date when the account was extended and the name of the user who extended it
+   * The date when the account was last synced
 
 Now you are done.

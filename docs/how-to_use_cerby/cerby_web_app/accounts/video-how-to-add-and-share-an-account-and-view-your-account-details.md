@@ -10,7 +10,7 @@ intercom_id: 8325215
 * Cerby uses the information you enter when adding an account to provide you with a seamless automatic login experience.
 * The user who adds an account becomes the Account Owner.
 * When sharing an account with other workspace users or teams, you can assign them one of two roles on the account:
-    * Owner: Your colleagues can share the account with other users, edit the account details, and manage the account security.
-    * Collaborator: Your colleagues can only use the account to log in to the application.
+  * Owner: Your colleagues can share the account with other users, edit the account details, and manage the account security.
+  * Collaborator: Your colleagues can only use the account to log in to the application.
 
 {% embed url="https://play.vidyard.com/p33giZXsRMxAjuzPEWGpE2" %}

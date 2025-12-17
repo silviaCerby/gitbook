@@ -25,9 +25,9 @@ The following are the requirements to configure MFA for Google:
 
 To turn on MFA for your Google account, you must complete the following main steps:
 
-  1. Turn on MFA with your Cerby-managed phone number
-  2. Turn on MFA with Cerby as an authenticator
-  3. Save the secret key in Cerby
+1. [Turn on MFA with your Cerby-managed phone number](how-to-turn-on-mfa-for-google-manually.md#id-1.-turn-on-mfa-with-your-cerby-managed-phone-number)
+2. [Turn on MFA with Cerby as an authenticator](how-to-turn-on-mfa-for-google-manually.md#id-2.-turn-on-mfa-with-cerby-as-an-authenticator)
+3. [Save the secret key in Cerby](how-to-turn-on-mfa-for-google-manually.md#id-3.-save-the-secret-key-in-cerby)
 
 The following sections describe each main step.
 
@@ -35,26 +35,28 @@ The following sections describe each main step.
 
 To turn on MFA with your Cerby-managed phone number, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace.
-  2. Log in to your corresponding Google account from Cerby. The Google Account **Home** page is displayed in a new tab.
-  3. Click the **Security** button in the left navigation drawer. The **Security** page is displayed.
-  4. Click the **2-Step Verification** button on the **Signing in to Google** section. The **2-Step Verification** page is displayed with the **Protect your account with 2-Step verification** section.
-  5. Click the **GET STARTED** button. The **Let’s set up your phone** section is displayed.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace.
+2. Log in to your corresponding Google account from Cerby. The Google Account **Home** page is displayed in a new tab.
+3. Click the **Security** button in the left navigation drawer. The **Security** page is displayed.
+4. Click the **2-Step Verification** button on the **Signing in to Google** section. The **2-Step Verification** page is displayed with the **Protect your account with 2-Step verification** section.
+5. Click the **GET STARTED** button. The **Let’s set up your phone** section is displayed.
+
 **IMPORTANT:** Ensure the **Text message** option is selected in the **How do you want to get codes?** section.
 
-  6. Click the **NEXT** button. The **Confirm that it works** section is displayed. A verification code is sent to the Cerby-managed phone number via SMS, and you may receive a notification with the code in your phone via the Cerby mobile app.
-  7. Get the verification code from the account inbox in Cerby or from the notification on your phone.
+6. Click the **NEXT** button. The **Confirm that it works** section is displayed. A verification code is sent to the Cerby-managed phone number via SMS, and you may receive a notification with the code in your phone via the Cerby mobile app.
+7. Get the verification code from the account inbox in Cerby or from the notification on your phone.
+
 **NOTE:** To access the account inbox, perform the following actions:
 
-     1. Switch to the tab with the Cerby web app.
-     2. Click the **Settings** icon of the corresponding Google account card. The account details page is displayed with the **Settings** tab activated.
-     3. Activate the **Inbox** tab. A table of messages sent to the Cerby-managed phone number via SMS is displayed.
-     4. Copy the corresponding verification code from the **Message** column.
-  8. Enter the verification code in the **Enter the code** field.
-  9. Click the **NEXT** button. The **It worked! Turn on 2-Step Verification?** section is displayed.
-  10. Click the **TURN ON** button. The **Available second step** section is displayed with the Cerby-managed phone number verified.
+   1. Switch to the tab with the Cerby web app.
+   2. Click the **Settings** icon of the corresponding Google account card. The account details page is displayed with the **Settings** tab activated.
+   3. Activate the **Inbox** tab. A table of messages sent to the Cerby-managed phone number via SMS is displayed.
+   4. Copy the corresponding verification code from the **Message** column.
+8. Enter the verification code in the **Enter the code** field.
+9. Click the **NEXT** button. The **It worked! Turn on 2-Step Verification?** section is displayed.
+10. Click the **TURN ON** button. The **Available second step** section is displayed with the Cerby-managed phone number verified.
 
-The next step is 2\. Turn on MFA with Cerby as an authenticator, which you must complete from the **2-Step Verification** page.
+The next step is [2. Turn on MFA with Cerby as an authenticator](how-to-turn-on-mfa-for-google-manually.md#id-2.-turn-on-mfa-with-cerby-as-an-authenticator), which you must complete from the **2-Step Verification** page.
 
 * * *
 
@@ -66,9 +68,10 @@ To turn on MFA with Cerby as an authenticator, you must complete the following s
   2. Click the **Set up authenticator** button. The **Set up authenticator app** dialog box is displayed with a QR code.
   3. Click the **Can’t scan it?** button. A set of instructions is displayed with a secret key.
   4. Copy the secret key.
-**IMPORTANT:** Leave the dialog box open because you need it later.
 
-The next step is 3\. Save the secret key in Cerby, which you must complete from the Cerby web app.
+  **IMPORTANT:** Leave the dialog box open because you need it later.
+
+The next step is [3. Save the secret key in Cerby](how-to-turn-on-mfa-for-google-manually.md#id-3.-save-the-secret-key-in-cerby), which you must complete from the Cerby web app.
 
 * * *
 

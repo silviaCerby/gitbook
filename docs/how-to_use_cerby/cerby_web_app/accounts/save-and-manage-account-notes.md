@@ -31,14 +31,15 @@ Only users with the **Account Owner** role on an account can save a note and edi
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace. The **All accounts** view is displayed.
   2. Click the **Settings** icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated, as shown in **Figure 1**.
 
-**Figure 1.** Account details page
+<img src="../../../../.gitbook/assets/gyRbvO-fCJv_wQ3QYt8D6FPTw1wsN9GQGcMCncoJ55ygBBHywhvb10_0tlzWEgQ766asjpcq6OMKgQwwEXKw5PAgUWoDYeqRlcQefNH2FZykbPBPZP3uenpqojrwGwTUXyYWDuIzJZNOjg4dlxXRuvA.png" alt="Screenshot of the account details page, where you can manage your account and save additional information in the Notes field.">
 
-<figure><img src="../../../../.gitbook/assets/gyRbvO-fCJv_wQ3QYt8D6FPTw1wsN9GQGcMCncoJ55ygBBHywhvb10_0tlzWEgQ766asjpcq6OMKgQwwEXKw5PAgUWoDYeqRlcQefNH2FZykbPBPZP3uenpqojrwGwTUXyYWDuIzJZNOjg4dlxXRuvA.png" alt="Screenshot of the account details page, where you can manage your account and save additional information in the Notes field."><figcaption></figcaption></figure>
+**Figure 1.** Account details page
 
   3. Click the **Edit** icon of the **Notes** field located in the **More details** section to make it editable.
   4. Enter the information.
   5. Click the **Done** icon to save the information. A success message box is displayed.
-**NOTE:** You can discard the changes to the **Notes** field by performing the following actions:
+
+  **NOTE:** You can discard the changes to the **Notes** field by performing the following actions:
 
      1. Click the **Cancel** icon. The **Discard your changes?** dialog box is displayed.
      2. Click the **Yes, discard changes** button. The dialog box closes, and the changes are discarded.
@@ -51,7 +52,8 @@ Users with the **Account Owner** or **Account Collaborator** role on an account 
 
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace. The **All accounts** view is displayed.
   2. Click the **Settings** icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated and the **Notes** field in the **More details** section.
-**NOTE:** If you have the **Account Collaborator** role on the account, you must perform the following actions to access the account details page:
+
+  **NOTE:** If you have the **Account Collaborator** role on the account, you must perform the following actions to access the account details page:
 
      1. Click the **More options** icon of the corresponding account card. A drop-down list is displayed.
      2. Select the **Account details** option. The account details page is displayed with the **Notes** field in the **More details** section.
@@ -64,7 +66,8 @@ Users with the **Account Owner** or **Account Collaborator** role on an account 
 
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace. The **All accounts** view is displayed.
   2. Click the **Settings** icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated and the **Notes** field in the **More details** section.
-**NOTE:** If you have the **Account Collaborator** role on the account, you must perform the following actions to access the account details page:
+
+  **NOTE:** If you have the **Account Collaborator** role on the account, you must perform the following actions to access the account details page:
 
      1. Click the **More options** icon of the corresponding account card. A drop-down list is displayed.
      2. Select the **Account details** option. The account details page is displayed with the **Notes** field in the **More details** section.
