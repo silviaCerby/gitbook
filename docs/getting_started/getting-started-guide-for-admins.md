@@ -1,6 +1,8 @@
 ---
-description: This article describes the key initial steps you must perform to start using Cerby as an admin.
 intercom_id: 6402278
+description: >-
+  This article describes the key initial steps you must perform to start using
+  Cerby as an admin.
 ---
 
 # Getting Started Guide for Admins
@@ -30,37 +32,41 @@ So, let’s get started. This guide contains the following basic information:
 
 The following sections describe each topic.
 
-* * *
+***
 
 ## How does Cerby work?
 
 The solution offered by Cerby combines the following three clients that work together to provide you with the best experience.
 
-  * **Browser extension:** It enables you to log in to your accounts by automatically filling the credentials you store in Cerby in the corresponding fields of your apps. It also helps automate all of the security hygiene tasks available in Cerby.
+* **Browser extension:** It enables you to log in to your accounts by automatically filling the credentials you store in Cerby in the corresponding fields of your apps. It also helps automate all of the security hygiene tasks available in Cerby.
 
 The Cerby browser extension is available for the following browsers:
 
-    * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
-    * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
-    * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
-    * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
+```
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
+* [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
+* [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
+* [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
 
-    **TIP:** For instructions to install the browser extension, see the [How to install the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/getting-started/cerby-browser-extension/video-how-to-install-the-cerby-browser-extension) video.
+**TIP:** For instructions to install the browser extension, see the [How to install the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/getting-started/cerby-browser-extension/video-how-to-install-the-cerby-browser-extension) video.
+```
 
-  * **Mobile application:** It enables you to access your accounts from your mobile phone. It also serves as a second device to authenticate for sensitive tasks.
+* **Mobile application:** It enables you to access your accounts from your mobile phone. It also serves as a second device to authenticate for sensitive tasks.
 
 The Cerby mobile app is available for the following operating systems:
 
-    * [Android](https://play.google.com/store/apps/details?id=com.cerby)
-    * [iOS](https://apps.apple.com/co/app/cerby/id1533747684)
+```
+* [Android](https://play.google.com/store/apps/details?id=com.cerby)
+* [iOS](https://apps.apple.com/co/app/cerby/id1533747684)
 
-    **TIP:** For instructions to install the mobile app, see the [How to install and set up the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/getting-started/cerby-mobile-app/video-how-to-install-and-set-up-the-cerby-mobile-app) video.
+**TIP:** For instructions to install the mobile app, see the [How to install and set up the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/getting-started/cerby-mobile-app/video-how-to-install-and-set-up-the-cerby-mobile-app) video.
+```
 
-  * **Web application:** It enables you to manage all your accounts, share access across your teams, and access your accounts, all from a single place.
+* **Web application:** It enables you to manage all your accounts, share access across your teams, and access your accounts, all from a single place.
 
 The [Cerby web app](https://app.cerby.com/) is available for any browser.
 
-* * *
+***
 
 ## What’s a workspace?
 
@@ -68,18 +74,18 @@ A workspace is an environment in which organizations and users can access a set 
 
 Through a Cerby workspace, organizations and users can also manage their accounts and perform the following actions:
 
-  * Manage user permissions.
-  * Manage app accounts.
-  * Onboard multi-factor authentication (MFA) and rotate passwords for accounts.
-  * Manage user provisioning and deprovisioning.
-  * Configure authentication with an identity provider (IDP).
-  * Retrieve analytics for account usage and user activity.
+* Manage user permissions.
+* Manage app accounts.
+* Onboard multi-factor authentication (MFA) and rotate passwords for accounts.
+* Manage user provisioning and deprovisioning.
+* Configure authentication with an identity provider (IDP).
+* Retrieve analytics for account usage and user activity.
 
 Organizations may have one or multiple workspaces depending on their needs. However, usually, one organization has one workspace.
 
 Currently, you can only create a workspace from an invitation sent by the Cerby team from our official email address, [help@cerby.com](mailto:help@cerby.com). After creating your workspace, its name is displayed and identified as follows **< workspace name>.cerby.com**.
 
-* * *
+***
 
 ## What’s a role in Cerby?
 
@@ -91,19 +97,19 @@ The advantage of using role-based access management is that, after logging in to
 
 The following are the different roles in Cerby depending on your access level:
 
-  * Workspace-level roles
-    * Workspace Owner
-    * Workspace Super Admin
-    * Workspace Admin
-    * Workspace User
-    * Workspace Guest user
-  * Item-level roles
-    * Owner
-    * Collaborator
+* Workspace-level roles
+  * Workspace Owner
+  * Workspace Super Admin
+  * Workspace Admin
+  * Workspace User
+  * Workspace Guest user
+* Item-level roles
+  * Owner
+  * Collaborator
 
 For detailed information about roles, read the article [How Cerby manages roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles).
 
-* * *
+***
 
 ## What’s the dashboard?
 
@@ -111,7 +117,7 @@ The dashboard is the graphical interface of the Cerby web app that integrates in
 
 Every time you log in to the Cerby web app, you land on the homepage, which corresponds to the [All accounts](getting-started-guide-for-admins.md#id-all-accounts) view, as shown in **Figure 1**.
 
-<img src="../../.gitbook/assets/Vux09SPHs9BnCewr96J8vtal3LyYQsgdkcO40QAxvRFhyi_JzubloWH7JcbXt8TiQCpDOm2dc8L42y0wBoF0NaBLEMj2Sd1dU8CU2Y4r0IenSbbbMrwGt1s6rmXRSyrw-XU3hJdG8iAMXW2PDN3IAw.png" alt="">
+![](.gitbook/assets/Vux09SPHs9BnCewr96J8vtal3LyYQsgdkcO40QAxvRFhyi_JzubloWH7JcbXt8TiQCpDOm2dc8L42y0wBoF0NaBLEMj2Sd1dU8CU2Y4r0IenSbbbMrwGt1s6rmXRSyrw-XU3hJdG8iAMXW2PDN3IAw.png)
 
 **Figure 1. Homepage of the Cerby Dashboard**
 
@@ -125,7 +131,7 @@ Every time you add an account to Cerby, the corresponding account card is create
 
 As shown in **Figure 2** , the default view of account cards is a grid, but you can also display them as a list. To select every view option, click the **List** or **Grid** icons located at the top of the main section.
 
-<img src="../../.gitbook/assets/iIXBf-VnRyL-H_6VTeuVuIODIjF3yR-Zi6hD5pO02lPJdeAX4cs3fR9DGo0lWakRwzN2_jcr3_Iz1xs6zDUf3r8metrPm2flaOspe3Fp4l5N0M4JIpo-KVmL943AyoLGzDCYctJqoxOYHAlHmtOBQQ.png" alt="">
+![](.gitbook/assets/iIXBf-VnRyL-H_6VTeuVuIODIjF3yR-Zi6hD5pO02lPJdeAX4cs3fR9DGo0lWakRwzN2_jcr3_Iz1xs6zDUf3r8metrPm2flaOspe3Fp4l5N0M4JIpo-KVmL943AyoLGzDCYctJqoxOYHAlHmtOBQQ.png)
 
 **Figure 2. Grid View of Example Account Cards**
 
@@ -133,7 +139,7 @@ You can also display all the account cards or group them by application or servi
 
 For a list of actions that users can perform from an account card depending on their role, read the article [How Cerby manages roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles).
 
-* * *
+***
 
 ## What can I do from the dashboard?
 
@@ -143,14 +149,14 @@ Depending on your role, you can access different features of the Cerby dashboard
 
 The following are the different views and features that you can display when clicking the corresponding options from the left navigation drawer and top bar:
 
-  * [All accounts](getting-started-guide-for-admins.md#id-all-accounts)
-  * [Collections](getting-started-guide-for-admins.md#id-collections)
-  * [All members](getting-started-guide-for-admins.md#id-all-members)
-  * [Activity](getting-started-guide-for-admins.md#id-activity)
-  * [Billing](getting-started-guide-for-admins.md#id-billing)
-  * [Policies](getting-started-guide-for-admins.md#id-policies)
-  * [Shared Inbox](getting-started-guide-for-admins.md#id-shared-inbox)
-  * [My Profile](getting-started-guide-for-admins.md#id-my-profile)
+* [All accounts](getting-started-guide-for-admins.md#id-all-accounts)
+* [Collections](getting-started-guide-for-admins.md#id-collections)
+* [All members](getting-started-guide-for-admins.md#id-all-members)
+* [Activity](getting-started-guide-for-admins.md#id-activity)
+* [Billing](getting-started-guide-for-admins.md#id-billing)
+* [Policies](getting-started-guide-for-admins.md#id-policies)
+* [Shared Inbox](getting-started-guide-for-admins.md#id-shared-inbox)
+* [My Profile](getting-started-guide-for-admins.md#id-my-profile)
 
 The following sections describe each view and feature.
 
@@ -160,15 +166,15 @@ The **All accounts** view is the default homepage of the Cerby dashboard and con
 
 You can perform the following actions from the **All accounts** view:
 
-  * See and interact with account cards, as mentioned in the [Account Cards](getting-started-guide-for-admins.md#id-account-cards) section.
-  * Search for accounts by their account label or application name.
-  * Add an account through a wizard by clicking the **Add account** button.
+* See and interact with account cards, as mentioned in the [Account Cards](getting-started-guide-for-admins.md#id-account-cards) section.
+* Search for accounts by their account label or application name.
+* Add an account through a wizard by clicking the **Add account** button.
 
 ### Collections
 
 The **Collections** view, as shown in **Figure 3** , contains all the collections created by you or your team members in Cerby to help you categorize and access your accounts. This view is enabled for all roles; however, users can only see the collections shared with them or the collections they created.
 
-<img src="../../.gitbook/assets/yoqPBc5H3aCqFlkj89oSH5LJI_2puf9pttSp20tSgBGsBstlCUO-iVbTCnEll70qaAo61VhSEOoHUC4uQa0yc_WNkfFAvt9cQgWSBNS6azNm8Jvjsk_eKYM9Gm99fcT9f9S130HHlYtXllTVUPLqaA.png" alt="">
+![](.gitbook/assets/yoqPBc5H3aCqFlkj89oSH5LJI_2puf9pttSp20tSgBGsBstlCUO-iVbTCnEll70qaAo61VhSEOoHUC4uQa0yc_WNkfFAvt9cQgWSBNS6azNm8Jvjsk_eKYM9Gm99fcT9f9S130HHlYtXllTVUPLqaA.png)
 
 **Figure 3. Collections View of the Cerby Dashboard**
 
@@ -176,41 +182,42 @@ A collection consists of groups of accounts. Only users with the **Account Owner
 
 You can perform the following actions from the **Collections** view:
 
-  * See and interact with account cards, as mentioned in the [Account Cards](getting-started-guide-for-admins.md#id-account-cards) section, plus remove accounts from the collection.
-  * Search for collections by their collection name.
-  * Create a collection through a wizard by clicking the **Create collection** button.
+* See and interact with account cards, as mentioned in the [Account Cards](getting-started-guide-for-admins.md#id-account-cards) section, plus remove accounts from the collection.
+* Search for collections by their collection name.
+* Create a collection through a wizard by clicking the **Create collection** button.
 
 ### All members
 
 The **All members** view, as shown in **Figure 4** , contains a table with all the account members within a Cerby workspace to help you manage them. This view is enabled only for **Workspace Admins** and **Workspace Owners**.
 
-<img src="../../.gitbook/assets/C4-DxcucKJd3p38F5dr1URCphed--kSmY5U4zDifxcF8rASm40ZqXso_oyIC2jHGfBhvNyQeFI6ETF-c2K0sitIUpeCST-ojlLTQT4SOhXS9dHokmkgYrl50-9c-ecIMvLm0j3aBFCkinVrwpZBrzg.png" alt="">
+![](.gitbook/assets/C4-DxcucKJd3p38F5dr1URCphed--kSmY5U4zDifxcF8rASm40ZqXso_oyIC2jHGfBhvNyQeFI6ETF-c2K0sitIUpeCST-ojlLTQT4SOhXS9dHokmkgYrl50-9c-ecIMvLm0j3aBFCkinVrwpZBrzg.png)
 
 **Figure 4. All members View of the Cerby Dashboard**
 
 You can perform the following actions from the **All members** view:
 
-  * See the **Account Members** table with information in the following columns:
-    * **Account Members:** It contains the username and email address of the account member.
-    * **Workspace role:** It is the workspace role of the account member.
-    * **Accounts:** It displays a **More** button to see the accounts to which the account member has an **Account Owner** or **Account Collaborator** role.
-    * **Status:** It is the status of the account member, for example, **`Live`** , **`Pending`** , or **`Removed`**.
-    * **Joined Date:** It is the date when the account member joined Cerby.
-  * Remove account members by selecting the **Remove from Workspace** option from the **More options** drop-down list.
-  * Search for account members by their name or email address.
-  * Export the information from the **Account Members** table in a CSV file.
+* See the **Account Members** table with information in the following columns:
+  * **Account Members:** It contains the username and email address of the account member.
+  * **Workspace role:** It is the workspace role of the account member.
+  * **Accounts:** It displays a **More** button to see the accounts to which the account member has an **Account Owner** or **Account Collaborator** role.
+  * **Status:** It is the status of the account member, for example, **`Live`** , **`Pending`** , or **`Removed`**.
+  * **Joined Date:** It is the date when the account member joined Cerby.
+* Remove account members by selecting the **Remove from Workspace** option from the **More options** drop-down list.
+* Search for account members by their name or email address.
+* Export the information from the **Account Members** table in a CSV file.
 
 ### Activity
 
 The **Activity** view, as shown in **Figure 5** , contains information about user activity within a workspace. This view is enabled for all users to see the activity of the accounts for which they are owners, and **Workspace Admins** can see the activity of all accounts.
 
-<img src="../../.gitbook/assets/grZgqUEubJ_Wb6lrMMUeUCOinZQFHp-e3nzJYicUTvgDL6VWqXSNOC7voagM7Zb26KrvnFFQxL8IAnHb0076-PAcUMLXO2fLl8t2Z3BwzrR9pHSKd5sPyKTbFS2xYaNgJnsXRMyK1pCcp7g8XWeP8g.png" alt="">
+![](.gitbook/assets/grZgqUEubJ_Wb6lrMMUeUCOinZQFHp-e3nzJYicUTvgDL6VWqXSNOC7voagM7Zb26KrvnFFQxL8IAnHb0076-PAcUMLXO2fLl8t2Z3BwzrR9pHSKd5sPyKTbFS2xYaNgJnsXRMyK1pCcp7g8XWeP8g.png)
 
 **Figure 5. Activity View of the Cerby Dashboard**
 
 You can perform the following actions from the **Activity** view:
 
-  * See the **Activity Log** table with information in the following columns:
+*   See the **Activity Log** table with information in the following columns:
+
     * **Time:** It is the time when the user activity was registered.
     * **Event:** It is the type of activity performed by the user, for example, **`Login To Cerby`** or **`Account Added To Collection`**.
     * **Account:** It is the label of the account in Cerby related to the user activity.
@@ -226,48 +233,48 @@ You can perform the following actions from the **Activity** view:
     * **App**
     * **Accounts**
     * **Users & Groups**
-  * Download the activity report in a CSV file by clicking the **Download CSV** button.
+* Download the activity report in a CSV file by clicking the **Download CSV** button.
 
 ### Billing
 
 The **Billing** view, as shown **in Figure 6** , contains information about your billable accounts within a Cerby workspace. This view is enabled only for **Workspace Admins**.
 
-<img src="../../.gitbook/assets/TcKL6XuKu_riWO9xgQ4zbaOmG58eJOWbWZ_gLZiLnTpQzNdnjp5H5gND8kLL8mvS2r3atLhASwmsgCzNusSmdbSoOMC_D8UEIrqAcmk-6jZNQpAA_c89Cj6EX-09acJy6h2kHsUHfUAvvZPg_5K5Bw.png" alt="">
+![](.gitbook/assets/TcKL6XuKu_riWO9xgQ4zbaOmG58eJOWbWZ_gLZiLnTpQzNdnjp5H5gND8kLL8mvS2r3atLhASwmsgCzNusSmdbSoOMC_D8UEIrqAcmk-6jZNQpAA_c89Cj6EX-09acJy6h2kHsUHfUAvvZPg_5K5Bw.png)
 
 **Figure 6. Billing View of the Cerby Dashboard**
 
 You can perform the following actions from the **Billing** view:
 
-  * See the **Billable accounts** section with information about the fully supported and automated accounts through Cerby; also, the accounts with a phone number or email managed by Cerby.
-  * See the **Billing cycle** section with information about your contract’s cycle setup with your Cerby business account manager.
-  * See the **List of Billable Accounts** table with information in the following columns:
-    * **Application**
-    * **Account name**
-    * **Username**
-    * **Account Owners**
+* See the **Billable accounts** section with information about the fully supported and automated accounts through Cerby; also, the accounts with a phone number or email managed by Cerby.
+* See the **Billing cycle** section with information about your contract’s cycle setup with your Cerby business account manager.
+* See the **List of Billable Accounts** table with information in the following columns:
+  * **Application**
+  * **Account name**
+  * **Username**
+  * **Account Owners**
 
 ### Policies
 
 The **Policies** view, as shown in **Figure 7** , contains the workspace security policies that you can enforce for your accounts. This view is enabled only for **Workspace Admins**.
 
-<img src="../../.gitbook/assets/JauojgxrMJhxt1OVI1mvBBafQF2DodJrPL3jZYcK60A8PCsJsmYBerifkGQHiy8sZB4e2VQEgzEOtTG4f_GpP-H3aP3l9FmNn1Zz230OY7fjHGVV3ze3_Igj_WOimfc9w1FR2l1oJ0WplIZTHXsU4A.png" alt="">
+![](.gitbook/assets/JauojgxrMJhxt1OVI1mvBBafQF2DodJrPL3jZYcK60A8PCsJsmYBerifkGQHiy8sZB4e2VQEgzEOtTG4f_GpP-H3aP3l9FmNn1Zz230OY7fjHGVV3ze3_Igj_WOimfc9w1FR2l1oJ0WplIZTHXsU4A.png)
 
 **Figure 7. Policies View of the Cerby Dashboard**
 
 You can perform the following actions from the **Policies** view:
 
-  * Enforce MFA for all accounts.
-  * Enforce password rotation for all accounts within a determined time.
-  * Automate MFA and password rotation for supported apps.
-  * See the **Flagged Accounts** table with information about accounts that don’t comply with the workspace security policy in the following columns:
-    * **Account**
-    * **Issue**
+* Enforce MFA for all accounts.
+* Enforce password rotation for all accounts within a determined time.
+* Automate MFA and password rotation for supported apps.
+* See the **Flagged Accounts** table with information about accounts that don’t comply with the workspace security policy in the following columns:
+  * **Account**
+  * **Issue**
 
 ### Shared Inbox
 
 The **Shared Inbox** , as shown in **Figure 8** , is a feature that enables you and your team members to receive and store the messages sent to the phone numbers and email addresses provisioned and managed by Cerby and configured in your app accounts. This feature is enabled for all roles when users are **Account Owners** or **Account Collaborators** for an account.
 
-<img src="../../.gitbook/assets/wQtlQNOcZtmooITFpr9T7JsQ1qN9iCQ3QlE8P0Jxnb8d-b5LaLws9J3UgllWkKhL6dv_-92jD5LQWAbjFZiN7CQezKTCWZUIUTSWgRDU3lFex9MrRKpEoBQFAdhKetOvq0p7TpftJInJ8liN4ILhLw.png" alt="">
+![](.gitbook/assets/wQtlQNOcZtmooITFpr9T7JsQ1qN9iCQ3QlE8P0Jxnb8d-b5LaLws9J3UgllWkKhL6dv_-92jD5LQWAbjFZiN7CQezKTCWZUIUTSWgRDU3lFex9MrRKpEoBQFAdhKetOvq0p7TpftJInJ8liN4ILhLw.png)
 
 **Figure 8. Shared Inbox in the Cerby Dashboard**
 
@@ -275,7 +282,8 @@ Cerby leverages the Shared Inbox to provide you with automatic logging-in proces
 
 You can perform the following actions from the **Shared Inbox** :
 
-  * See a table with the received messages and information in the following columns:
+*   See a table with the received messages and information in the following columns:
+
     * **Account:** It is the label of the account in Cerby.
     * **Type:** It is the type of message received in the Shared Inbox, for example, SMS or Email.
     * **From:** It is the name of the app and the email address that sends the message.
@@ -288,58 +296,59 @@ You can perform the following actions from the **Shared Inbox** :
     * **Account**
     * **Collection**
     * **Type**
-  * Refresh the page by clicking the **Refresh** button
+* Refresh the page by clicking the **Refresh** button
 
 ### My Profile
 
 The **My Profile** page, as shown in **Figure 9** , is a feature that enables you to see your profile information in Cerby. This feature is enabled for all roles.
 
-<img src="../../.gitbook/assets/AVxdgQGn_aP04EbrgN_I4wrsydK5JvkKPpK_Esu50gyahBEtK8KEZCmwK5WH2HCN-QAq4waiCQgvKo4VCSPoqpWEq51ECZmfmo5FyQT300aEHKywuUo2OZxNTsSTVt0ofgVFGieknSsyf1U7xSw0Tw.png" alt="">
+![](.gitbook/assets/AVxdgQGn_aP04EbrgN_I4wrsydK5JvkKPpK_Esu50gyahBEtK8KEZCmwK5WH2HCN-QAq4waiCQgvKo4VCSPoqpWEq51ECZmfmo5FyQT300aEHKywuUo2OZxNTsSTVt0ofgVFGieknSsyf1U7xSw0Tw.png)
 
 **Figure 9. My Profile Page in the Cerby Dashboard**
 
-When you click the **Hi there <username>!** button, a drop-down menu appears with the following options:
+When you click the **Hi there !** button, a drop-down menu appears with the following options:
 
-  * The profile button with your username and email address: It opens the **My Profile** page in the main section of the window with the following information in the **Details** section of the **General** tab:
-    * **Joined Date:** It is the date when you joined Cerby.
-    * **Email:** It is your email address registered in Cerby.
-    * **Workspace role:** It is your role in Cerby.
-  * The **Products and Extensions** button: It opens the **Let's get everything setup** page with the status of the browser extension (installed or not) and mobile application (device configured or not).
-  * The **Log out** button: It logs you out from your workspace.
-* * *
+* The profile button with your username and email address: It opens the **My Profile** page in the main section of the window with the following information in the **Details** section of the **General** tab:
+  * **Joined Date:** It is the date when you joined Cerby.
+  * **Email:** It is your email address registered in Cerby.
+  * **Workspace role:** It is your role in Cerby.
+* The **Products and Extensions** button: It opens the **Let's get everything setup** page with the status of the browser extension (installed or not) and mobile application (device configured or not).
+* The **Log out** button: It logs you out from your workspace.
+
+***
 
 ## How do I start using Cerby?
 
 Now that you know all the basic information, it’s time to start using Cerby. We prepared the following steps to get you covered:
 
-  1. [Configure your Cerby workspace](getting-started-guide-for-admins.md#id-1.-configure-your-cerby-workspace)
-  2. [Add your accounts to Cerby](getting-started-guide-for-admins.md#id-2.-add-your-accounts-to-cerby)
-  3. [Start enforcing security](getting-started-guide-for-admins.md#id-3.-start-enforcing-security)
+1. [Configure your Cerby workspace](getting-started-guide-for-admins.md#id-1.-configure-your-cerby-workspace)
+2. [Add your accounts to Cerby](getting-started-guide-for-admins.md#id-2.-add-your-accounts-to-cerby)
+3. [Start enforcing security](getting-started-guide-for-admins.md#id-3.-start-enforcing-security)
 
 The following sections describe each step.
 
-### 1\. Configure your Cerby workspace
+### 1. Configure your Cerby workspace
 
 To leverage the organization directory and authentication you have with an IDP, you can configure your Cerby workspace to synchronize information. With this configuration, Cerby can perform the following actions:
 
-  * Import the users and contacts from your organization directory so you can share accounts easily with them.
-  * Provision and deprovision users automatically.
-  * Leverage authentication to Cerby through an IDP.
+* Import the users and contacts from your organization directory so you can share accounts easily with them.
+* Provision and deprovision users automatically.
+* Leverage authentication to Cerby through an IDP.
 
 ### Supported IDPs
 
 Currently, Cerby supports the following IDPs, and you can read the documentation from our [Cerby Help Center](https://help.cerby.com) to guide you on how to configure them:
 
-  * Okta
-    * [Enable Okta User Provisioning with SCIM](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/how-to-enable-okta-user-provisioning-with-scim)
-    * [Configure SSO Between Cerby and Okta with SAML](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/configure-sso-between-cerby-and-okta-with-saml)
-  * Azure AD
-    * [Configure Automatic User Provisioning for Azure AD](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/entra-id/configure-automatic-user-and-group-provisioning-with-entra-id-via-scim)
-    * [Configure the Cerby App Gallery SAML App with Your Azure AD Tenant](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/entra-id/configure-sso-in-cerby-with-entra-id-via-saml)
-  * Google
-    * [Configure the Cerby Pre-Integrated SAML App with Your Google Workspace](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/google/configure-sso-between-cerby-and-google-workspace-with-saml)
+* Okta
+  * [Enable Okta User Provisioning with SCIM](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/how-to-enable-okta-user-provisioning-with-scim)
+  * [Configure SSO Between Cerby and Okta with SAML](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/configure-sso-between-cerby-and-okta-with-saml)
+* Azure AD
+  * [Configure Automatic User Provisioning for Azure AD](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/entra-id/configure-automatic-user-and-group-provisioning-with-entra-id-via-scim)
+  * [Configure the Cerby App Gallery SAML App with Your Azure AD Tenant](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/entra-id/configure-sso-in-cerby-with-entra-id-via-saml)
+* Google
+  * [Configure the Cerby Pre-Integrated SAML App with Your Google Workspace](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/google/configure-sso-between-cerby-and-google-workspace-with-saml)
 
-### 2\. Add your accounts to Cerby
+### 2. Add your accounts to Cerby
 
 After configuring your organization directory, it’s time to get down to business and start adding your application accounts to securely manage their access through Cerby.
 
@@ -347,10 +356,10 @@ Unlike other cybersecurity platforms, Cerby goes beyond storing the login creden
 
 To add your accounts to Cerby, you have the following options:
 
-  * [Using the wizard](getting-started-guide-for-admins.md#id-using-the-wizard)
-  * [Sharing existing accounts](getting-started-guide-for-admins.md#id-sharing-existing-accounts)
-  * [Sharing a business center account and assets](getting-started-guide-for-admins.md#id-sharing-a-business-center-account-and-assets)
-  * [Migrating accounts from your password manager](getting-started-guide-for-admins.md#id-migrating-accounts-from-your-password-manager)
+* [Using the wizard](getting-started-guide-for-admins.md#id-using-the-wizard)
+* [Sharing existing accounts](getting-started-guide-for-admins.md#id-sharing-existing-accounts)
+* [Sharing a business center account and assets](getting-started-guide-for-admins.md#id-sharing-a-business-center-account-and-assets)
+* [Migrating accounts from your password manager](getting-started-guide-for-admins.md#id-migrating-accounts-from-your-password-manager)
 
 The following sections describe each option.
 
@@ -362,15 +371,17 @@ Also, you can add business center accounts to manage provisioning and deprovisio
 
 To add accounts using the wizard, complete the following steps:
 
-  1. Click the **Add account** button from the **All accounts** view. The **Add Account** wizard is displayed.
-  2. Follow the instructions of the wizard to add your account. The corresponding account card is added to the **All accounts** view when you complete the process.
+1. Click the **Add account** button from the **All accounts** view. The **Add Account** wizard is displayed.
+2. Follow the instructions of the wizard to add your account. The corresponding account card is added to the **All accounts** view when you complete the process.
 
-  **TIP:** For detailed instructions to add business center accounts, see the corresponding articles in our Help Center:
+**TIP:** For detailed instructions to add business center accounts, see the corresponding articles in our Help Center:
 
-     * [How to Add a Pinterest Business Account](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/pinterest-business-manager/connect-a-pinterest-business-center-app-integration)
-     * [How to Add a TikTok For Business Account](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/tiktok-for-business/connect-a-business-hub-for-tiktok-business-center)
-     * [How to Add a Snapchat Business Account](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/snapchat-business-manager/connect-a-snapchat-business-center-app-integration)
-     * [How to Add a Facebook Business Manager Account](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/meta-business-manager/connect-a-business-hub-for-meta-business-manager)
+```
+ * [How to Add a Pinterest Business Account](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/pinterest-business-manager/connect-a-pinterest-business-center-app-integration)
+ * [How to Add a TikTok For Business Account](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/tiktok-for-business/connect-a-business-hub-for-tiktok-business-center)
+ * [How to Add a Snapchat Business Account](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/snapchat-business-manager/connect-a-snapchat-business-center-app-integration)
+ * [How to Add a Facebook Business Manager Account](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/meta-business-manager/connect-a-business-hub-for-meta-business-manager)
+```
 
 ### Sharing existing accounts
 
@@ -378,12 +389,12 @@ The **Share Account** feature enables you to share an existing account with anot
 
 To share existing accounts, complete the following steps:
 
-  1. Click the **Share Account** button from the corresponding account card in the **All accounts** view. The **Share Access** dialog box is displayed.
-  2. Enter the username or email address of the person in your company you want to share the account.
+1. Click the **Share Account** button from the corresponding account card in the **All accounts** view. The **Share Access** dialog box is displayed.
+2. Enter the username or email address of the person in your company you want to share the account.
 
-  **IMPORTANT:** The user must be added either to your corporate SSO provider or must have logged in to Cerby to be available for sharing.
+**IMPORTANT:** The user must be added either to your corporate SSO provider or must have logged in to Cerby to be available for sharing.
 
-  3. Click the **Share** button. The dialog box closes, and the account is shared.
+3. Click the **Share** button. The dialog box closes, and the account is shared.
 
 ### Sharing a business center account and assets
 
@@ -391,39 +402,36 @@ The **Share Account** feature enables you to share an existing business center a
 
 To share a business center account and assets, complete the following steps:
 
-  1. Share the business center account
-     1. Click the **Share Account** button from the corresponding account card. The **Share Access** dialog box is displayed.
-     2. Enter the username or email address of the person in your company you want to share the account. The users that match the name or email address you entered are displayed automatically.
+1.  Share the business center account
 
-     **IMPORTANT:** The user must be added either to your corporate SSO provider or must have logged in to Cerby to be available for sharing.
+    1. Click the **Share Account** button from the corresponding account card. The **Share Access** dialog box is displayed.
+    2. Enter the username or email address of the person in your company you want to share the account. The users that match the name or email address you entered are displayed automatically.
 
-     3. Select the corresponding team member. The team member is added to a list in the **MEMBER** section.
-     4. Configure the role of your team member for the account in Cerby and for the business center by performing the following actions:
-        1. Select the corresponding Cerby account role from the drop-down list in the **MEMBER** section:
+    **IMPORTANT:** The user must be added either to your corporate SSO provider or must have logged in to Cerby to be available for sharing.
 
-           * **Collaborator.** Your team members will only be able to log in to the accounts.
-           * **Owner.** Your team members will be able to share access and manage the account configuration.
+    3. Select the corresponding team member. The team member is added to a list in the **MEMBER** section.
+    4. Configure the role of your team member for the account in Cerby and for the business center by performing the following actions:
+       1. Select the corresponding Cerby account role from the drop-down list in the **MEMBER** section:
+          * **Collaborator.** Your team members will only be able to log in to the accounts.
+          * **Owner.** Your team members will be able to share access and manage the account configuration.
+       2. Select the corresponding business center role from the checkboxes or switches in the **Channel Role** section. These roles are inherited from the business center.
+    5. Click the **Share** button. The wizard closes, and a success message box is displayed.
 
-        2. Select the corresponding business center role from the checkboxes or switches in the **Channel Role** section. These roles are inherited from the business center.
-     5. Click the **Share** button. The wizard closes, and a success message box is displayed.
+    **NOTE:** The **Authorize share** dialog box might be displayed if Cerby detects you don’t have an active session on your business center. Log in to your business center in a new browser window; then, go back to Cerby and click the **Confirm** button.
+2.  Share the business center assets
 
-     **NOTE:** The **Authorize <business center> share** dialog box might be displayed if Cerby detects you don’t have an active session on your business center. Log in to your business center in a new browser window; then, go back to Cerby and click the **Confirm** button.
+    1. Click the **View Account Assets** button from the corresponding account card. The account assets page is displayed.
+    2. Click the **Share Account** button from the corresponding account asset. The **Share Access** dialog box is displayed.
+    3. Enter the username or email address of the person in your company you want to share the account. The users that match the name or email address you entered are displayed automatically.
+    4. Select the corresponding team member. The team member is added to a list in the **MEMBER** section.
+    5. Configure the role of your team member for the asset account in Cerby and for the business center asset by performing the following actions:
+       1. Select the corresponding Cerby account role from the drop-down list in the **MEMBER** section:
+          * **Collaborator. Your team members will only be able to log in to the accounts.**
+          * **Owner.** Your team members will be able to share access and manage the account configuration.
+       2. Select the corresponding business center role from the checkboxes or switches in the **Channel Role** section. These roles are inherited from the business center.
+    6. Click the **Share** button. The wizard closes, and a success message box is displayed.
 
-  2. Share the business center assets
-     1. Click the **View Account Assets** button from the corresponding account card. The account assets page is displayed.
-     2. Click the **Share Account** button from the corresponding account asset. The **Share Access** dialog box is displayed.
-     3. Enter the username or email address of the person in your company you want to share the account. The users that match the name or email address you entered are displayed automatically.
-     4. Select the corresponding team member. The team member is added to a list in the **MEMBER** section.
-     5. Configure the role of your team member for the asset account in Cerby and for the business center asset by performing the following actions:
-        1. Select the corresponding Cerby account role from the drop-down list in the **MEMBER** section:
-
-           * **Collaborator. Your team members will only be able to log in to the accounts.**
-           * **Owner.** Your team members will be able to share access and manage the account configuration.
-
-        2. Select the corresponding business center role from the checkboxes or switches in the **Channel Role** section. These roles are inherited from the business center.
-     6. Click the **Share** button. The wizard closes, and a success message box is displayed.
-
-     **NOTE:** The **Authorize <asset account> share** dialog box might be displayed if Cerby detects you don’t have an active session on your business center. Log in to your business center in a new browser window; then, go back to Cerby and click the **Confirm** button.
+    **NOTE:** The **Authorize share** dialog box might be displayed if Cerby detects you don’t have an active session on your business center. Log in to your business center in a new browser window; then, go back to Cerby and click the **Confirm** button.
 
 ### Migrating accounts from your password manager
 
@@ -431,19 +439,19 @@ The **Add Account** wizard also enables you to migrate your accounts from your p
 
 To migrate accounts, complete the following steps:
 
-  1. Click the **Add account** button from the **All accounts** view. The **Add Account** wizard is displayed.
-  2. Click the **Migrate accounts from your password manager** button.
-  3. Follow the instructions of the wizard to migrate one or multiple accounts. The corresponding account cards are added to the **All Accounts** view when you complete the process.
+1. Click the **Add account** button from the **All accounts** view. The **Add Account** wizard is displayed.
+2. Click the **Migrate accounts from your password manager** button.
+3. Follow the instructions of the wizard to migrate one or multiple accounts. The corresponding account cards are added to the **All Accounts** view when you complete the process.
 
-### 3\. Start enforcing security
+### 3. Start enforcing security
 
 To start implementing security best practices in your accounts, you can enforce and trigger them from your Cerby workspace.
 
 You can enforce the following security best practices:
 
-  * [Rotating passwords](getting-started-guide-for-admins.md#id-rotating-passwords)
-  * [Using Cerby-managed email addresses and phone numbers](getting-started-guide-for-admins.md#id-using-cerby-managed-email-addresses-and-phone-numbers)
-  * [Turning on MFA](getting-started-guide-for-admins.md#id-turning-on-mfa)
+* [Rotating passwords](getting-started-guide-for-admins.md#id-rotating-passwords)
+* [Using Cerby-managed email addresses and phone numbers](getting-started-guide-for-admins.md#id-using-cerby-managed-email-addresses-and-phone-numbers)
+* [Turning on MFA](getting-started-guide-for-admins.md#id-turning-on-mfa)
 
 The following sections describe each security best practice.
 
@@ -455,53 +463,50 @@ You can enforce password rotation for all accounts within a determined time, and
 
 To rotate the password of your accounts, you have the following options:
 
-  * From the account settings
-
-    1. Click the **Settings** button of the corresponding account card. The account settings page is displayed.
-    2. Click the **Rotate Password** button.
-
-  * From the **Policies** view
-
-    1. Activate the **Password Rotation** switch in the **Policies** view to require password rotation for all accounts within the workspace every determined time.
-    2. Activate automatic password rotation for supported apps every determined time.
+* From the account settings
+  1. Click the **Settings** button of the corresponding account card. The account settings page is displayed.
+  2. Click the **Rotate Password** button.
+* From the **Policies** view
+  1. Activate the **Password Rotation** switch in the **Policies** view to require password rotation for all accounts within the workspace every determined time.
+  2. Activate automatic password rotation for supported apps every determined time.
 
 ### Using Cerby-managed email addresses and phone numbers
 
 Cerby provides and manages securely generated email addresses and phone numbers you can use for your accounts and across your organization.
 
-By managing these services, Cerby can improve the logging-in process of your applications by automatically filling your verification codes when MFA is turned on. These codes are retrieved from your **[Shared Inbox](getting-started-guide-for-admins.md#id-shared-inbox)** in Cerby.
+By managing these services, Cerby can improve the logging-in process of your applications by automatically filling your verification codes when MFA is turned on. These codes are retrieved from your [**Shared Inbox**](getting-started-guide-for-admins.md#id-shared-inbox) in Cerby.
 
 You can create a Cerby-managed email address and phone number through the web app after adding an account to Cerby.
 
 To create a Cerby-managed email address, complete the following steps:
 
-  1. Click the **Settings** button of the corresponding account card in the **All accounts** view of the dashboard. The account settings page is displayed.
-  2. Activate the **Create Email Address** switch. The **Add a Cerby managed email** dialog box is displayed.
-  3. Click the **Protect my email address** button. A success message is displayed indicating the email address was created.
-  4. Click the **Set up email address** button. The **Auto-forward messages** dialog box is displayed.
+1. Click the **Settings** button of the corresponding account card in the **All accounts** view of the dashboard. The account settings page is displayed.
+2. Activate the **Create Email Address** switch. The **Add a Cerby managed email** dialog box is displayed.
+3. Click the **Protect my email address** button. A success message is displayed indicating the email address was created.
+4. Click the **Set up email address** button. The **Auto-forward messages** dialog box is displayed.
 
-  **NOTE:** The auto-forward messages feature of Cerby enables you to designate recipients for the emails you receive in your Cerby-managed email address. You can configure it later from your account settings.
+**NOTE:** The auto-forward messages feature of Cerby enables you to designate recipients for the emails you receive in your Cerby-managed email address. You can configure it later from your account settings.
 
-  5. Click the **Skip** button. The **Update email address on <account name>** dialog box is displayed with the email address you created.
-  6. Copy the email address.
-  7. Open the account settings of your app in a new browser window.
-  8. Configure the email address manually in the account settings of your app.
-  9. Go back to the browser window with the Cerby web app.
-  10. Click the **Confirm** button. The dialog box closes, and a success message box is displayed.
+5. Click the **Skip** button. The **Update email address on** dialog box is displayed with the email address you created.
+6. Copy the email address.
+7. Open the account settings of your app in a new browser window.
+8. Configure the email address manually in the account settings of your app.
+9. Go back to the browser window with the Cerby web app.
+10. Click the **Confirm** button. The dialog box closes, and a success message box is displayed.
 
-  **IMPORTANT:** Make sure you configure the Cerby-managed email address on your app before clicking the **Confirm** button.
+**IMPORTANT:** Make sure you configure the Cerby-managed email address on your app before clicking the **Confirm** button.
 
 To create a Cerby-managed phone number, complete the following steps:
 
-  1. Click the **Settings** button of the corresponding account card. The account settings page is displayed.
-  2. Activate the **Create Phone Number** switch. The **Cerby-generated Phone Number** dialog box is displayed with a US phone number.
-  3. Copy the phone number.
-  4. Open the account settings of your app in a new browser window.
-  5. Configure the phone number manually in the account settings of your app.
-  6. Go back to the browser window with the Cerby web app.
-  7. Select the **I have already added the phone number to <app name> account setting** option.
-  8. Select the **I'm using this phone number for MFA** option if you are going to use the Cerby-managed phone number as a MFA verification method.
-  9. Click the **Create Phone Number** button. The dialog box closes, and a success message box is displayed.
+1. Click the **Settings** button of the corresponding account card. The account settings page is displayed.
+2. Activate the **Create Phone Number** switch. The **Cerby-generated Phone Number** dialog box is displayed with a US phone number.
+3. Copy the phone number.
+4. Open the account settings of your app in a new browser window.
+5. Configure the phone number manually in the account settings of your app.
+6. Go back to the browser window with the Cerby web app.
+7. Select the **I have already added the phone number to account setting** option.
+8. Select the **I'm using this phone number for MFA** option if you are going to use the Cerby-managed phone number as a MFA verification method.
+9. Click the **Create Phone Number** button. The dialog box closes, and a success message box is displayed.
 
 ### Turning on MFA
 
@@ -513,29 +518,23 @@ Unlike other authenticator apps, when you turn on MFA with Cerby, verification c
 
 To turn on MFA for your accounts, you have the following options:
 
-  * Automatically from the Cerby web app, with a single click, for supported apps
-
-    1. Click the **Settings** button of the corresponding account card. The account settings page is displayed.
-    2. Activate the **Second Layer of Protection** switch in the **TWO-FACTOR AUTHENTICATION** section.
-
-  * Automatically from the **Policies** view for new supported apps added to Cerby
-
-    1. Click the **Policies** button from the left navigation drawer. The **Policies** view is displayed.
-    2. Click the **Edit Policies** button. The **Edit Policies** page is displayed.
-    3. Activate the **Two-Factor Authentication Required** switch to turn on MFA automatically when new supported apps are added to Cerby
-
-  * Manually from the account settings of the application for unsupported apps
-    * Using the Cerby mobile app as an authenticator
-
-      1. Go to the account settings of your application.
-      2. Link your account to the Cerby mobile app by scanning or entering the code or secret key provided by the application.
-      3. Save your recovery codes in the Cerby web app through the account settings.
-
-    * Using Cerby-managed email addresses or phone numbers as verification methods
+* Automatically from the Cerby web app, with a single click, for supported apps
+  1. Click the **Settings** button of the corresponding account card. The account settings page is displayed.
+  2. Activate the **Second Layer of Protection** switch in the **TWO-FACTOR AUTHENTICATION** section.
+* Automatically from the **Policies** view for new supported apps added to Cerby
+  1. Click the **Policies** button from the left navigation drawer. The **Policies** view is displayed.
+  2. Click the **Edit Policies** button. The **Edit Policies** page is displayed.
+  3. Activate the **Two-Factor Authentication Required** switch to turn on MFA automatically when new supported apps are added to Cerby
+* Manually from the account settings of the application for unsupported apps
+  * Using the Cerby mobile app as an authenticator
+    1. Go to the account settings of your application.
+    2. Link your account to the Cerby mobile app by scanning or entering the code or secret key provided by the application.
+    3. Save your recovery codes in the Cerby web app through the account settings.
+  *   Using Cerby-managed email addresses or phone numbers as verification methods
 
       1. Go to the account settings of your application.
       2. Create the email address or phone number at Cerby, following the instructions in the [Using Cerby-Managed Email Addresses and Phone Numbers](getting-started-guide-for-admins.md#id-using-cerby-managed-email-addresses-and-phone-numbers) section.
       3. Configure the email address as a MFA verification method on the account settings of your application.
-      4. Retrieve the verification codes from the Cerby **[Shared Inbox](getting-started-guide-for-admins.md#id-shared-inbox)** to complete the configuration process in the application.
+      4. Retrieve the verification codes from the Cerby [**Shared Inbox**](getting-started-guide-for-admins.md#id-shared-inbox) to complete the configuration process in the application.
 
       **NOTE:** After turning on MFA manually and configuring the authenticator and verification methods with Cerby, users will be able to retrieve verification codes from the Cerby browser extension or the Cerby mobile app when logging in to their apps.
