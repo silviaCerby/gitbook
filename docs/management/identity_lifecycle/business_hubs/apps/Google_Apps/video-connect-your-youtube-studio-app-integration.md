@@ -1,5 +1,5 @@
 ---
-description: [Article description] This video shows how to add the YouTube app integration to manage access to it and its assets from Cerby centrally.
+description: This video shows how to add the YouTube app integration to manage access to it and its assets from Cerby centrally.
 intercom_id: 9186795
 ---
 
