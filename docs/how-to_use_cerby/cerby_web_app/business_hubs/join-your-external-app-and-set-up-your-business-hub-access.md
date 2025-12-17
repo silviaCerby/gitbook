@@ -1,5 +1,5 @@
 ---
-description: This article describes how to join an external app from an invite sent through Cerby, and connect your account to the business hub.
+description: "This article describes how to join an external app from an invite sent through Cerby, and connect your account to the business hub."
 intercom_id: 9046232
 ---
 

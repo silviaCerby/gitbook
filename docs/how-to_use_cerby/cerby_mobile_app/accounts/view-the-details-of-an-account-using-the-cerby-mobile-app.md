@@ -1,5 +1,5 @@
 ---
-description: This article describes the details and options you can view and use for your accounts using the Cerby mobile app.
+description: "This article describes the details and options you can view and use for your accounts using the Cerby mobile app."
 intercom_id: 12454986
 ---
 

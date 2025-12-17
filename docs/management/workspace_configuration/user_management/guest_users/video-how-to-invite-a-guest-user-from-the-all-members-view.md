@@ -1,5 +1,5 @@
 ---
-description: This video shows how to invite a guest user from the All Members view to join your workspace.
+description: "This video shows how to invite a guest user from the All Members view to join your workspace."
 intercom_id: 8432616
 ---
 

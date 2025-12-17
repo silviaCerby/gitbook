@@ -1,5 +1,5 @@
 ---
-description: This article describes Cerby’s best practices for creating, securing, and managing your service accounts.
+description: "This article describes Cerby’s best practices for creating, securing, and managing your service accounts."
 intercom_id: 9677654
 ---
 

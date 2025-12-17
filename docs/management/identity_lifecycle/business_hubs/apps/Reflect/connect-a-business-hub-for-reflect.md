@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of Reflect from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of Reflect from Cerby."
 intercom_id: 10315352
 ---
 
@@ -86,7 +86,7 @@ To add a business hub and connect it to Reflect, you must complete the following
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **Business ID:** It is the unique identifier of your Reflect account. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-reflect.md#id-requirements) section.
+     * **Business ID:** It is the unique identifier of your Reflect account. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-reflect.md#requirements) section.
      * **User management and login method:** It is the way your users log in to the app and determines if they must save their credentials in Cerby.
 
        1. Select the **Username and password** option because account security and access are managed by Ceby, and users log in with their credentials after saving them in Cerby.
@@ -94,7 +94,7 @@ To add a business hub and connect it to Reflect, you must complete the following
        **IMPORTANT:** Currently, the **Single sign-on (SSO)** option is not supported by this business hub.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Reflect accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-reflect.md#id-requirements) section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-reflect.md#requirements) section.
 ​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
@@ -154,9 +154,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-reflect.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-reflect.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-reflect.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-reflect.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-reflect.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-reflect.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

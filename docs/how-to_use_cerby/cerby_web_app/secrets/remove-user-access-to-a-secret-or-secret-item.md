@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove user access to a secret or secret item.
+description: "This article describes how to remove user access to a secret or secret item."
 intercom_id: 9483805
 ---
 

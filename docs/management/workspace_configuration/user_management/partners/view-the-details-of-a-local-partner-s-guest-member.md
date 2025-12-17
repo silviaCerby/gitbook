@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the details of a local partner’s guest member.
+description: "This article describes how to view the details of a local partner’s guest member."
 intercom_id: 11944432
 ---
 

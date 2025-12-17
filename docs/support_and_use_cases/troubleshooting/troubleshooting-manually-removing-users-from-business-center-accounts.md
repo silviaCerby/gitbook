@@ -1,5 +1,5 @@
 ---
-description: This article describes how to manually remove users from business center accounts to deprovision them successfully.
+description: "This article describes how to manually remove users from business center accounts to deprovision them successfully."
 intercom_id: 6479766
 ---
 
@@ -27,11 +27,11 @@ You must manually remove users from your business center accounts to solve this 
 
 The removal process is different depending on the business center. In this article, we cover the following business centers:
 
-* [Facebook Business Manager](troubleshooting-manually-removing-users-from-business-center-accounts.md#id-facebook-business-manager)
-* [Google Ads Manager](troubleshooting-manually-removing-users-from-business-center-accounts.md#id-google-ads-manager)
-* [Pinterest Business](troubleshooting-manually-removing-users-from-business-center-accounts.md#id-pinterest-business)
-* [Snapchat Business Manager](troubleshooting-manually-removing-users-from-business-center-accounts.md#id-snapchat-business-manager)
-* [TikTok Business Center](troubleshooting-manually-removing-users-from-business-center-accounts.md#id-tiktok-business-center)
+* [Facebook Business Manager](troubleshooting-manually-removing-users-from-business-center-accounts.md#facebook-business-manager)
+* [Google Ads Manager](troubleshooting-manually-removing-users-from-business-center-accounts.md#google-ads-manager)
+* [Pinterest Business](troubleshooting-manually-removing-users-from-business-center-accounts.md#pinterest-business)
+* [Snapchat Business Manager](troubleshooting-manually-removing-users-from-business-center-accounts.md#snapchat-business-manager)
+* [TikTok Business Center](troubleshooting-manually-removing-users-from-business-center-accounts.md#tiktok-business-center)
 
 The following sections describe the instructions for each business center.
 

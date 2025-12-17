@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add your business hub for YouTube Studio to centrally manage access to it and its assets from Cerby.
+description: "This article describes how to add your business hub for YouTube Studio to centrally manage access to it and its assets from Cerby."
 intercom_id: 9141289
 ---
 
@@ -27,7 +27,7 @@ The following are the requirements to add your YouTube Studio integration to Cer
   * A Cerby account
   * A collaboration space in your YouTube Studio
 
-  **IMPORTANT:** If you have a Brand account, you must migrate to YouTube Studio. Read the instructions in the [Migrate members’ permissions to YouTube Studio](connect-a-business-hub-for-youtube-studio.md#id-migrate-members-permissions-to-youtube-studio) section to learn how to perform the migration
+  **IMPORTANT:** If you have a Brand account, you must migrate to YouTube Studio. Read the instructions in the [Migrate members’ permissions to YouTube Studio](connect-a-business-hub-for-youtube-studio.md#migrate-members-permissions-to-youtube-studio) section to learn how to perform the migration
 
   * A service account with the following characteristics:
     * It must belong to your IdP, such as Okta, Entra ID, or JumpCloud
@@ -42,7 +42,7 @@ The following are the requirements to add your YouTube Studio integration to Cer
 
 ## Migrate members’ permissions to YouTube Studio
 
-**IMPORTANT:** Complete the steps in this section only if you have a YouTube Brand account. For instructions on verifying your account type, read the official documentation [Check if you have a Brand Account](https://support.google.com/youtube/answer/7286468?hl=en&ref_topic=9267586&sjid=9713402243757791435-NC). If you already use YouTube Studio's permission system, continue to the [Connect a business hub for YouTube Studio](connect-a-business-hub-for-youtube-studio.md#id-connect-a-business-hub-for-youtube-studio) section.
+**IMPORTANT:** Complete the steps in this section only if you have a YouTube Brand account. For instructions on verifying your account type, read the official documentation [Check if you have a Brand Account](https://support.google.com/youtube/answer/7286468?hl=en&ref_topic=9267586&sjid=9713402243757791435-NC). If you already use YouTube Studio's permission system, continue to the [Connect a business hub for YouTube Studio](connect-a-business-hub-for-youtube-studio.md#connect-a-business-hub-for-youtube-studio) section.
 ---
 
 As a **Primary Owner** of a YouTube Brand account, you must migrate the members’ permissions to YouTube Studio. By performing the migration, you’ll get more control over the members through specific roles and permissions. Refer to the [YouTube documentation](https://support.google.com/youtube/answer/9367690?hl=en) to learn more about YouTube Brand account migration to YouTube Studio.
@@ -199,9 +199,9 @@ The next step is [3. Manage unmatched users](connect-a-business-hub-for-youtube-
 
 After a check for updates, Cerby automatically matches users to their corresponding Cerby accounts. Users who couldn’t be identified during the check or who are not in the corporate directory are categorized as unmatched. For these users, you can perform one of the following three actions:
 
-  * [Match and invite users](connect-a-business-hub-for-youtube-studio.md#id-match-and-invite-users)
-  * [Remove unmatched users](connect-a-business-hub-for-youtube-studio.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-youtube-studio.md#id-exempt-unmatched-users)
+  * [Match and invite users](connect-a-business-hub-for-youtube-studio.md#match-and-invite-users)
+  * [Remove unmatched users](connect-a-business-hub-for-youtube-studio.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-youtube-studio.md#exempt-unmatched-users)
 
 These actions are performed from the **Unmatched Users** tab of the **User Overview** section inside the app details page.
 
@@ -279,10 +279,10 @@ If you encounter the "Oops, you don't have permission to view this page" error m
 
 The following are the possible causes and solutions:
 
-  * Ensure the YouTube user permissions have been migrated from Brand account to YouTube Studio. For instructions, read the [Migrate members’ permissions to YouTube Studio](connect-a-business-hub-for-youtube-studio.md#id-migrate-members-permissions-to-youtube-studio) section.
+  * Ensure the YouTube user permissions have been migrated from Brand account to YouTube Studio. For instructions, read the [Migrate members’ permissions to YouTube Studio](connect-a-business-hub-for-youtube-studio.md#migrate-members-permissions-to-youtube-studio) section.
   * Verify that the service account has been invited to the YouTube Studio account with a **Manager** role. This role is essential because it has permission to access the account. You must check the invitation status and ensure it has been accepted by the service account.
   * Confirm that the service account has accepted the invitation to join YouTube Studio with the **Manager** role. Without acceptance, access to YouTube Studio is restricted.
-  * Confirm that the YouTube Studio Business ID is correct. Review the [Requirements](connect-a-business-hub-for-youtube-studio.md#id-requirements) section to learn how to correctly find this ID.
+  * Confirm that the YouTube Studio Business ID is correct. Review the [Requirements](connect-a-business-hub-for-youtube-studio.md#requirements) section to learn how to correctly find this ID.
 
 ### “Only Google accounts can be invited” error while adding a member to YouTube Studio
 

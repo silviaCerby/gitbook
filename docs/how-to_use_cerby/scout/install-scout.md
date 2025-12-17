@@ -1,5 +1,5 @@
 ---
-description: This article describes how to install the Scout browser extension in your web browser.
+description: "This article describes how to install the Scout browser extension in your web browser."
 intercom_id: 10046805
 ---
 

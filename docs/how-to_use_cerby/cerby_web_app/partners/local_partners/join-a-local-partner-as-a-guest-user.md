@@ -1,5 +1,5 @@
 ---
-description: This article describes how to join an existing local partner as a Guest User after an invite.
+description: "This article describes how to join an existing local partner as a Guest User after an invite."
 intercom_id: 9039171
 ---
 

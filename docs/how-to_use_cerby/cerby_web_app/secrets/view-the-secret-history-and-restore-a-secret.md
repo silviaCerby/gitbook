@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the history and restore the secrets you've added or that you were granted shared access as Owner in Cerby
+description: "This article describes how to view the history and restore the secrets you've added or that you were granted shared access as Owner in Cerby"
 intercom_id: 8705415
 ---
 

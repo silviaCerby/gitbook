@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a team from a collection.
+description: "This article describes how to remove a team from a collection."
 intercom_id: 8981940
 ---
 

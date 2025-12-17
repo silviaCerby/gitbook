@@ -1,5 +1,5 @@
 ---
-description: This article describes how to export the table of workspace members to a CSV file.
+description: "This article describes how to export the table of workspace members to a CSV file."
 intercom_id: 10848214
 ---
 

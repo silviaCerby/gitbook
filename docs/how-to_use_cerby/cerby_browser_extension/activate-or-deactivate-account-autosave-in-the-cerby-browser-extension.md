@@ -1,5 +1,5 @@
 ---
-description: This article describes how to activate or deactivate the account autosave feature in the Cerby browser extension settings.
+description: "This article describes how to activate or deactivate the account autosave feature in the Cerby browser extension settings."
 intercom_id: 9510231
 ---
 

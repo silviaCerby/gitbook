@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the activity in an account shared via a local partner.
+description: "This article describes how to view the activity in an account shared via a local partner."
 intercom_id: 11944612
 ---
 

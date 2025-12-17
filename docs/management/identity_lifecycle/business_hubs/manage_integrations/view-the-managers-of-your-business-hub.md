@@ -1,5 +1,5 @@
 ---
-description: This article describes the information of the Managers tab for a business hub.
+description: "This article describes the information of the Managers tab for a business hub."
 intercom_id: 10971728
 ---
 

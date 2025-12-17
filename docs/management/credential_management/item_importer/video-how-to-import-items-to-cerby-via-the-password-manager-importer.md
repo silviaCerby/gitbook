@@ -1,5 +1,5 @@
 ---
-description: This video shows how to import passwords, folders, secure notes, and attachments from your password manager to Cerby.
+description: "This video shows how to import passwords, folders, secure notes, and attachments from your password manager to Cerby."
 intercom_id: 7321200
 ---
 

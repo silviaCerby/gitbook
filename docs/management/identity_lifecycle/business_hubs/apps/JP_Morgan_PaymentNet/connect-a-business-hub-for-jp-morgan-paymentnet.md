@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of JP Morgan PaymentNet from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of JP Morgan PaymentNet from Cerby."
 intercom_id: 13162630
 ---
 
@@ -86,7 +86,7 @@ To add a business hub and connect it to JP Morgan PaymentNet, you must complete 
        **IMPORTANT:** The **Single sign-on (SSO)** option is not supported for JP Morgan PaymentNet.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing JP Morgan PaymentNet accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-jp-morgan-paymentnet.md#id-requirements) section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-jp-morgan-paymentnet.md#requirements) section.
 ​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
@@ -99,7 +99,7 @@ The next step is [2\. Check for updates to import users and roles to Cerby](http
 To check for updates in your app to identify and import users and roles to Cerby, you must complete the following steps:
 
   1. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg.png" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
+  2. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1337118523/d67c21a49b18a83548bcd74eac2a/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg?expires=1765929600&signature=8462e784a5c2de8c56d76fa12bb10c4da619f25c5882dce7a4c1850720a23c5a&req=dSMkEch%2FlYRdWvMW3nq%2BgXneoYBRe015y4uSSWr%2Fb7vFBSnEAvqm3cBdwO3n%0AdfJp0frHtFVGV9XFy1TpJoxw53Q%3D%0A" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
   3. Select the **Settings** option from the menu. The business hub details page is displayed with the **Settings** tab activated.
   4. Click the **Sync** button located at the top right of the page. A message box is displayed with information about the process.
 ​**NOTE:** The check and import process may take a few minutes, depending on the number of users, and because Cerby automatically matches users to their corresponding Cerby user account.
@@ -137,7 +137,7 @@ During a check for updates, Cerby automatically matches app members to the Cerby
 To view the status of the imported app members, you must complete the following steps:
 
   1. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_1.png" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
+  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg.png" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
   3. Select the **View Members** option from the menu. The business hub details page is displayed with the **Members** tab activated.
 App members are displayed in the following tabs of the **User Overview** section:
 
@@ -147,9 +147,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-jp-morgan-paymentnet.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-jp-morgan-paymentnet.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-jp-morgan-paymentnet.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-jp-morgan-paymentnet.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-jp-morgan-paymentnet.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-jp-morgan-paymentnet.md#exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -180,7 +180,7 @@ To remove unmatched users, you must complete the following steps from the **Unma
 
 {% endhint %}
 
-  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_2.png" alt="">) icon of the corresponding user. A drop-down menu is displayed.
+  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_1.png" alt="">) icon of the corresponding user. A drop-down menu is displayed.
   2. Select the **Remove user** option from the list. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the app via an automated task.
 
@@ -190,7 +190,7 @@ Exempted users keep their user accounts or seats active in your app, but you can
 
 To exempt unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
-  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_3.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
+  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_2.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
   2. Select the **Exempt user** option from the list. The exempt user dialog box is displayed.
   3. Enter a reason for exempting the user in the **Provide a reason** field.
   4. Click the **Exempt member** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Exempted users** tab.

@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Cerby mobile app to manage your items and assets from your phone.
+description: "This article describes the key benefits of the Cerby mobile app to manage your items and assets from your phone."
 intercom_id: 9715502
 ---
 

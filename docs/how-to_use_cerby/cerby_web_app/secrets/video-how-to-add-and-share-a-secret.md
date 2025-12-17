@@ -1,5 +1,5 @@
 ---
-description: This video shows how to add a secret to Cerby with a file attachment and share it with other users in your workspace.
+description: "This video shows how to add a secret to Cerby with a file attachment and share it with other users in your workspace."
 intercom_id: 7321008
 ---
 

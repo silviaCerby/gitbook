@@ -1,5 +1,5 @@
 ---
-description: This article describes how to restore an account you have deleted from your Cerby workspace.
+description: "This article describes how to restore an account you have deleted from your Cerby workspace."
 intercom_id: 11385391
 ---
 

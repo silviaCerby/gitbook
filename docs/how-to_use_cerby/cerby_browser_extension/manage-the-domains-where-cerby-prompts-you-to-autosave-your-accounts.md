@@ -1,5 +1,5 @@
 ---
-description: This article describes how to manage in your profile the domains where Cerby prompts you to autosave your accounts.
+description: "This article describes how to manage in your profile the domains where Cerby prompts you to autosave your accounts."
 intercom_id: 9500525
 ---
 
@@ -32,9 +32,9 @@ The domains for which you select this option are added to your profile's **Do no
 
 The following are the actions you can perform to manage the account autosave settings:
 
-* [Disable the Add a new account to Cerby dialog box](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#id-disable-the-add-a-new-account-to-cerby-dialog-box)
-* [View the Do not save list](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#id-view-the-do-not-save-list)
-* [Remove domains from the Do not save list](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#id-remove-domains-from-the-do-not-save-list)
+* [Disable the Add a new account to Cerby dialog box](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#disable-the-add-a-new-account-to-cerby-dialog-box)
+* [View the Do not save list](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#view-the-do-not-save-list)
+* [Remove domains from the Do not save list](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#remove-domains-from-the-do-not-save-list)
 
 The following sections describe each action.
 
@@ -68,8 +68,8 @@ The **Do not save** list includes the domains where you have selected to prevent
 
 You can view the **Do not save** list using the following client apps:
 
-  * [Cerby web app](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#id-cerby-web-app)
-  * [Cerby browser extension](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#id-cerby-browser-extension)
+  * [Cerby web app](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#cerby-web-app)
+  * [Cerby browser extension](manage-the-domains-where-cerby-prompts-you-to-autosave-your-accounts.md#cerby-browser-extension)
 
 The following sections contain the instructions for each client app.
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn off Cerby as your authenticator app for your account.
+description: "This article describes how to turn off Cerby as your authenticator app for your account."
 intercom_id: 11880506
 ---
 
@@ -21,8 +21,8 @@ As an account **Owner** , you can turn off multi-factor authentication (MFA) wit
 
 To turn off MFA with Cerby as an authenticator app for your account, you have the following options:
 
-* [Turn off MFA automatically](turn-off-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app.md#id-turn-off-mfa-automatically)
-* [Turn off MFA manually](turn-off-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app.md#id-turn-off-mfa-manually)
+* [Turn off MFA automatically](turn-off-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app.md#turn-off-mfa-automatically)
+* [Turn off MFA manually](turn-off-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app.md#turn-off-mfa-manually)
 
 The following sections describe the setup for each option.
 

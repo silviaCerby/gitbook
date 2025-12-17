@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add an account to Cerby from your mobile app.
+description: "This article describes how to add an account to Cerby from your mobile app."
 intercom_id: 9709697
 ---
 

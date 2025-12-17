@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot the most common issues with accessing and managing your TikTok account through Cerby.
+description: "This article describes how to troubleshoot the most common issues with accessing and managing your TikTok account through Cerby."
 intercom_id: 6817408
 ---
 
@@ -9,11 +9,11 @@ This article helps you fix the most common issues with accessing and managing yo
 
 The following are the most common issues:
 
-* [Too many login attempts](troubleshooting-common-issues-with-tiktok.md#id-too-many-login-attempts)
-* [Not receiving codes in the Shared Inbox](troubleshooting-common-issues-with-tiktok.md#id-not-receiving-codes-in-the-shared-inbox)
-* [Manual MFA enrollment](troubleshooting-common-issues-with-tiktok.md#id-manual-mfa-enrollment)
+* [Too many login attempts](troubleshooting-common-issues-with-tiktok.md#too-many-login-attempts)
+* [Not receiving codes in the Shared Inbox](troubleshooting-common-issues-with-tiktok.md#not-receiving-codes-in-the-shared-inbox)
+* [Manual MFA enrollment](troubleshooting-common-issues-with-tiktok.md#manual-mfa-enrollment)
 * [Cerby mobile app behavior](troubleshooting-common-issues-with-tiktok.md#h_edd258d83a)
-* [Email swap](troubleshooting-common-issues-with-tiktok.md#id-email-swap)
+* [Email swap](troubleshooting-common-issues-with-tiktok.md#email-swap)
 
 The following sections describe common scenarios that can confuse and, if applicable, a proposed solution.
 

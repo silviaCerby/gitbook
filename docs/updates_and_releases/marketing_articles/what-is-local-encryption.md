@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of local encryption to leverage a Zero Knowledge architecture for your vaults.
+description: "This article describes the key benefits of local encryption to leverage a Zero Knowledge architecture for your vaults."
 intercom_id: 8487158
 ---
 

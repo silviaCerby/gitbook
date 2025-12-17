@@ -1,5 +1,5 @@
 ---
-description: This video shows you how to synchronize your Business Center using Facebook Manager as an example.
+description: "This video shows you how to synchronize your Business Center using Facebook Manager as an example."
 intercom_id: 5618974
 ---
 

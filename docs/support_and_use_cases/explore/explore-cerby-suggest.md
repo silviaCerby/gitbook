@@ -1,5 +1,5 @@
 ---
-description: This article describes the basic concepts and characteristics of Cerby Suggest.
+description: "This article describes the basic concepts and characteristics of Cerby Suggest."
 intercom_id: 8839657
 ---
 
@@ -15,24 +15,24 @@ Our approach is unique because we address app sprawl at the moment of account cr
 
 In the following sections, we walk you through the basic information and characteristics of Cerby Suggest:
 
-  * [Learn how Cerby Suggest works](explore-cerby-suggest.md#id-learn-how-cerby-suggest-works)
-  * [Use Cerby Suggest](explore-cerby-suggest.md#id-use-cerby-suggest)
-  * [Boost collaboration with Teams](explore-cerby-suggest.md#id-boost-collaboration-with-teams)
+  * [Learn how Cerby Suggest works](explore-cerby-suggest.md#learn-how-cerby-suggest-works)
+  * [Use Cerby Suggest](explore-cerby-suggest.md#use-cerby-suggest)
+  * [Boost collaboration with Teams](explore-cerby-suggest.md#boost-collaboration-with-teams)
 * * *
 
 ## Learn how Cerby Suggest works
 
 Cerby Suggest is a product built to help you detect app sprawl. By being connected to your systems and your identity provider (IdP), Cerby Suggest can guide end users into taking advantage of the licenses and seats of your organization’s sanctioned apps, therefore reducing the costs of unnecessary, unused, orphaned, or duplicate resources.
 
-The process to request licenses or seats is guided and managed by Cerby and your IT team via custom-built integrations. For example, employees can raise IT service request tickets from Cerby Suggest through an integration with [ServiceNow](explore-cerby-suggest.md#id-servicenow).
+The process to request licenses or seats is guided and managed by Cerby and your IT team via custom-built integrations. For example, employees can raise IT service request tickets from Cerby Suggest through an integration with [ServiceNow](explore-cerby-suggest.md#servicenow).
 
 After receiving authorization to sign up for a SaaS app account, employees can add such an account to Cerby to streamline login and secure access with the multi-factor authentication (MFA) managed by Cerby.
 
 The following sections explain how we detect app sprawl, optimize your licenses and seats, and secure access to your accounts:
 
-* [Custom-built integrations](explore-cerby-suggest.md#id-custom-built-integrations)
-* [Discovery report](explore-cerby-suggest.md#id-discovery-report)
-* [Cerby client apps](explore-cerby-suggest.md#id-cerby-client-apps)
+* [Custom-built integrations](explore-cerby-suggest.md#custom-built-integrations)
+* [Discovery report](explore-cerby-suggest.md#discovery-report)
+* [Cerby client apps](explore-cerby-suggest.md#cerby-client-apps)
 
 ### Custom-built integrations
 
@@ -40,10 +40,10 @@ The Cerby platform is connected to your organization's systems via custom-built 
 
 Currently, the following integrations are available:
 
-* [Application assignments](explore-cerby-suggest.md#id-application-assignments)
-* [Application graph](explore-cerby-suggest.md#id-application-graph)
-* [ServiceNow](explore-cerby-suggest.md#id-servicenow)
-* [Slack](explore-cerby-suggest.md#id-slack)
+* [Application assignments](explore-cerby-suggest.md#application-assignments)
+* [Application graph](explore-cerby-suggest.md#application-graph)
+* [ServiceNow](explore-cerby-suggest.md#servicenow)
+* [Slack](explore-cerby-suggest.md#slack)
 
 The following sections describe each integration.
 
@@ -94,8 +94,8 @@ For more information about this report, read the article [Explore the Cerby Sugg
 
 The Cerby platform comprises two client apps that work together to provide you with the best experience as a Cerby Suggest user:
 
-* [Cerby web app](explore-cerby-suggest.md#id-cerby-web-app)
-* [Cerby browser extension](explore-cerby-suggest.md#id-cerby-browser-extension)
+* [Cerby web app](explore-cerby-suggest.md#cerby-web-app)
+* [Cerby browser extension](explore-cerby-suggest.md#cerby-browser-extension)
 
 #### Cerby web app
 

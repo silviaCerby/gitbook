@@ -1,5 +1,5 @@
 ---
-description: This article describes how to access an account via a QR code using the Cerby mobile app.
+description: "This article describes how to access an account via a QR code using the Cerby mobile app."
 intercom_id: 10063312
 ---
 

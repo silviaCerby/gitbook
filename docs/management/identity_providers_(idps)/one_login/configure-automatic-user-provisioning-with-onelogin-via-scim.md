@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure automatic user provisioning with your OneLogin integration via SCIM.
+description: "This article describes how to configure automatic user provisioning with your OneLogin integration via SCIM."
 intercom_id: 11820873
 ---
 

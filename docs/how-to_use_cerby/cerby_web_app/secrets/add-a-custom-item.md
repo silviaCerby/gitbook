@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a custom item to your Cerby workspace.
+description: "This article describes how to add a custom item to your Cerby workspace."
 intercom_id: 8860242
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 8860242
 
 You can add a custom item and attachments to Cerby in the following two ways:
 
-* [Add a custom item manually](add-a-custom-item.md#id-add-a-custom-item-manually)
-* [Import custom items from LastPass](add-a-custom-item.md#id-import-custom-items-from-lastpass)
+* [Add a custom item manually](add-a-custom-item.md#add-a-custom-item-manually)
+* [Import custom items from LastPass](add-a-custom-item.md#import-custom-items-from-lastpass)
 
 The following sections describe each way.
 

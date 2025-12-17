@@ -1,5 +1,5 @@
 ---
-description: This article describes how to monitor the IdLCM integration events in the Activity tab
+description: "This article describes how to monitor the IdLCM integration events in the Activity tab"
 intercom_id: 11649369
 ---
 
@@ -28,7 +28,7 @@ The**Activity** tab provides information about integration events in the followi
 
   * **Date:** It is the date and time at which the event was triggered.
   * **Actor:** It is the entity that triggered the event.
-  * **Event:** It is the name of the event that was triggered. For the complete list of events and their description, read the [Integration events](monitor-idlcm-integration-events-in-the-activity-tab.md#id-integration-events) section.
+  * **Event:** It is the name of the event that was triggered. For the complete list of events and their description, read the [Integration events](monitor-idlcm-integration-events-in-the-activity-tab.md#integration-events) section.
   * **Target:** It is the entity affected by the event.
 * * *
 

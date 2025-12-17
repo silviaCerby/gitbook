@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create and configure a local user workspace in which Cerby manages the identity and authentication of users.
+description: "This article describes how to create and configure a local user workspace in which Cerby manages the identity and authentication of users."
 intercom_id: 8011381
 ---
 
@@ -117,11 +117,11 @@ Now you are done. It’s time to start adding your accounts to Cerby and sharing
 
 Users with the **Workspace Owner** and **Workspace Admin** roles can perform the following user management actions in a local user workspace:
 
-  * [Add a user](create-and-configure-a-local-user-workspace.md#id-add-a-user)
-  * [Reset MFA](create-and-configure-a-local-user-workspace.md#id-reset-mfa)
-  * [Force password reset](create-and-configure-a-local-user-workspace.md#id-force-password-reset)
-  * [Export members](create-and-configure-a-local-user-workspace.md#id-export-members)
-  * [Remove user from workspace](create-and-configure-a-local-user-workspace.md#id-remove-user-from-workspace)
+  * [Add a user](create-and-configure-a-local-user-workspace.md#add-a-user)
+  * [Reset MFA](create-and-configure-a-local-user-workspace.md#reset-mfa)
+  * [Force password reset](create-and-configure-a-local-user-workspace.md#force-password-reset)
+  * [Export members](create-and-configure-a-local-user-workspace.md#export-members)
+  * [Remove user from workspace](create-and-configure-a-local-user-workspace.md#remove-user-from-workspace)
 
 The following sections describe each action.
 
@@ -226,7 +226,7 @@ To join Cerby from an invite, you must complete the following steps:
 
   6. Click the **Send** button. The Cerby dashboard is displayed.
 
-To start using Cerby, all users must complete the following steps from the [Create and configure a local user workspace](create-and-configure-a-local-user-workspace.md#id-create-and-configure-a-local-user-workspace) section:
+To start using Cerby, all users must complete the following steps from the [Create and configure a local user workspace](create-and-configure-a-local-user-workspace.md#create-and-configure-a-local-user-workspace) section:
 
   1. [Install the Cerby mobile app and browser extension](create-and-configure-a-local-user-workspace.md#id-2.-install-the-cerby-mobile-app-and-browser-extension)
   2. [Turn on MFA for your Cerby account](create-and-configure-a-local-user-workspace.md#id-3.-turn-on-mfa-for-your-cerby-account)

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the details of a vault.
+description: "This article describes how to view the details of a vault."
 intercom_id: 10113673
 ---
 

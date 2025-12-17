@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the vault backup details in your workspace.
+description: "This article describes how to view the vault backup details in your workspace."
 intercom_id: 12431348
 ---
 

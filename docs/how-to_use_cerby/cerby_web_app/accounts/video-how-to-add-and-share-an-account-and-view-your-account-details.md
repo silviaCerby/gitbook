@@ -1,5 +1,5 @@
 ---
-description: This video shows how to add a new account to Cerby, share it with other workspace users, view your account details, and log in to your app
+description: "This video shows how to add a new account to Cerby, share it with other workspace users, view your account details, and log in to your app"
 intercom_id: 8325215
 ---
 

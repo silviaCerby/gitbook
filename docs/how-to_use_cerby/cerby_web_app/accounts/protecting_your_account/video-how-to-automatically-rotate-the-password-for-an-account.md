@@ -1,5 +1,5 @@
 ---
-description: This article describes how to automatically rotate a password from within the Cerby system.
+description: "This article describes how to automatically rotate a password from within the Cerby system."
 intercom_id: 6393786
 ---
 

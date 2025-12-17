@@ -1,5 +1,5 @@
 ---
-description: This article describes how to assign a Host Admin to an existing local partner.
+description: "This article describes how to assign a Host Admin to an existing local partner."
 intercom_id: 11944400
 ---
 

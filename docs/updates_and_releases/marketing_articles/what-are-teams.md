@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Teams feature that enables you to share accounts with groups of users.
+description: "This article describes the key benefits of the Teams feature that enables you to share accounts with groups of users."
 intercom_id: 6624219
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update a user’s role on a collection using the Cerby mobile app.
+description: "This article describes how to update a user’s role on a collection using the Cerby mobile app."
 intercom_id: 9742192
 ---
 

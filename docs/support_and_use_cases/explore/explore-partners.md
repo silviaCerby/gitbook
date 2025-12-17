@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Partners feature that enables you to collaborate with external parties through Cerby.
+description: "This article describes the key benefits of the Partners feature that enables you to collaborate with external parties through Cerby."
 intercom_id: 8980877
 ---
 
@@ -19,9 +19,9 @@ After adding a partner to your Cerby workspace, access to your items and seat-ba
 
 Currently, Cerby supports the following ways to add and collaborate with your partners:
 
-* [Host-guest partnership](explore-partners.md#id-host-guest-partnership)
-* [Local partner](explore-partners.md#id-local-partner)
-* [Native partner](explore-partners.md#id-native-partner)
+* [Host-guest partnership](explore-partners.md#host-guest-partnership)
+* [Local partner](explore-partners.md#local-partner)
+* [Native partner](explore-partners.md#native-partner)
 
 The following sections describe each way.
 

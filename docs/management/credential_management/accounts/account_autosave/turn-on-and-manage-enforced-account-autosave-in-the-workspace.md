@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on and manage the Enforced autosave setting at the workspace level, applicable to all workspace users.
+description: "This article describes how to turn on and manage the Enforced autosave setting at the workspace level, applicable to all workspace users."
 intercom_id: 11635871
 ---
 
@@ -22,9 +22,9 @@ With the **Enforced autosave** setting, Cerby automatically detects login and si
 
 The following are the enforced account autosave settings you can manage:
 
-* [Turn on Enforced autosave in the workspace](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#id-turn-on-enforced-autosave-in-the-workspace)
-* [Add a domain to Enforced autosave](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#id-add-a-domain-to-enforced-autosave)
-* [Remove domains from Enforced autosave](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#id-remove-domains-from-enforced-autosave)
+* [Turn on Enforced autosave in the workspace](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#turn-on-enforced-autosave-in-the-workspace)
+* [Add a domain to Enforced autosave](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#add-a-domain-to-enforced-autosave)
+* [Remove domains from Enforced autosave](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#remove-domains-from-enforced-autosave)
 
 {% hint style="danger" %}
 
@@ -49,8 +49,8 @@ To turn on the **Enforced autosave** setting in the workspace, you must complete
      * A success message is displayed.
      * The information about the user who modified the setting, the date, and time is updated.
      * The **Enter a domain for the enforced account autosave** field is displayed. To configure this list, read the following sections:
-       * [Add a domain to Enforced autosave](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#id-add-a-domain-to-enforced-autosave)
-       * [Remove domains from Enforced autosave](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#id-remove-domains-from-enforced-autosave)
+       * [Add a domain to Enforced autosave](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#add-a-domain-to-enforced-autosave)
+       * [Remove domains from Enforced autosave](turn-on-and-manage-enforced-account-autosave-in-the-workspace.md#remove-domains-from-enforced-autosave)
      * Depending on whether you have added domains for enforced account autosave, these domains are listed below.
 * * *
 

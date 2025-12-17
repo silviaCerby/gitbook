@@ -1,5 +1,5 @@
 ---
-description: This video shows how to connect an App integration to Cerby to centrally manage the users and assets of your seat-based and paid social apps
+description: "This video shows how to connect an App integration to Cerby to centrally manage the users and assets of your seat-based and paid social apps"
 intercom_id: 9025939
 ---
 

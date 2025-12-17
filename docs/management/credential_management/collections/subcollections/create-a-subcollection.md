@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create a subcollection, assign it to a parent collection, and add items to it.
+description: "This article describes how to create a subcollection, assign it to a parent collection, and add items to it."
 intercom_id: 8982897
 ---
 

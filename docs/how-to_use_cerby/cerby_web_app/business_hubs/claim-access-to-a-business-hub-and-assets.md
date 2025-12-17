@@ -1,5 +1,5 @@
 ---
-description: This article describes how to claim access to a business hub and assets shared via a collection.
+description: "This article describes how to claim access to a business hub and assets shared via a collection."
 intercom_id: 12457509
 ---
 
@@ -35,7 +35,7 @@ To claim access to a business hub and assets, you must complete the following st
 2. Click the **Go to Cerby** button in the email. A new browser tab is displayed, redirecting you to the **All Accounts** page in the Cerby web app dashboard.
 3. Click the account card that corresponds to the business hub and has the “Claim your invite” status. A dialog box for claiming access is displayed.
 
-**NOTE:** Collection and business hub **Owners** who don’t need a seat can skip the process by clicking the **Skip** button in the dialog box. For more information and instructions, read the section [Skip claiming access to a business hub](claim-access-to-a-business-hub-and-assets.md#id-skip-claiming-access-to-a-business-hub).
+**NOTE:** Collection and business hub **Owners** who don’t need a seat can skip the process by clicking the **Skip** button in the dialog box. For more information and instructions, read the section [Skip claiming access to a business hub](claim-access-to-a-business-hub-and-assets.md#skip-claiming-access-to-a-business-hub).
 
 4. Click the **Send email invite** button. The **Review your email** dialog box is displayed.
 Cerby adds you to the external app, and you receive an invite email from the external app.

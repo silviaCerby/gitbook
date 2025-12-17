@@ -1,5 +1,5 @@
 ---
-description: This video shows how to add a service account with Cerby-managed second factors to use it in your apps.
+description: "This video shows how to add a service account with Cerby-managed second factors to use it in your apps."
 intercom_id: 9099711
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a secret to Cerby.
+description: "This article describes how to add a secret to Cerby."
 intercom_id: 8705289
 ---
 
@@ -20,8 +20,8 @@ intercom_id: 8705289
 
 As a user with any workspace role, except the **Login-Only** and **Guest User** roles, you can add secrets and attachments to Cerby in the following two ways:
 
-* [Add a secret manually](add-a-secret.md#id-add-a-secret-manually)
-* [Import secrets from LastPass](add-a-secret.md#id-import-secrets-from-lastpass)
+* [Add a secret manually](add-a-secret.md#add-a-secret-manually)
+* [Import secrets from LastPass](add-a-secret.md#import-secrets-from-lastpass)
 
 The following sections describe each way.
 

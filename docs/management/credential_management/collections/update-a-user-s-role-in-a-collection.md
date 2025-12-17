@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update a user’s role in a collection.
+description: "This article describes how to update a user’s role in a collection."
 intercom_id: 11117064
 ---
 

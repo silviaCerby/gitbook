@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove guest user access to your accounts, secrets, and collections.
+description: "This article describes how to remove guest user access to your accounts, secrets, and collections."
 intercom_id: 9317146
 ---
 

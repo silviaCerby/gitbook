@@ -1,5 +1,5 @@
 ---
-description: This video shows how to share an account with guest users via a local partner.
+description: "This video shows how to share an account with guest users via a local partner."
 intercom_id: 11511608
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the key steps to install and configure the Cerby mobile app on Android.
+description: "This article describes the key steps to install and configure the Cerby mobile app on Android."
 intercom_id: 10008726
 ---
 

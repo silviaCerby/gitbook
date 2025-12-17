@@ -1,5 +1,5 @@
 ---
-description: This article describes the recertification process for L'Oréal.
+description: "This article describes the recertification process for L'Oréal."
 intercom_id: 10228345
 ---
 
@@ -128,7 +128,7 @@ To recertify an account in Cerby, you must complete the following steps:
 **IMPORTANT:**
 
   * You must comply with the recertification process every six months.
-  * An account is officially recertified when 100% of the criteria is met and compliant with L'Oréal’s security review process. The progress can be visualized inside the account details and certification pages. For more information about the visual cues on the [The account recertification page](recertification-criteria-for-l-or-al.md#id-the-account-recertification-page) section.
+  * An account is officially recertified when 100% of the criteria is met and compliant with L'Oréal’s security review process. The progress can be visualized inside the account details and certification pages. For more information about the visual cues on the [The account recertification page](recertification-criteria-for-l-or-al.md#the-account-recertification-page) section.
 
 
 {% endhint %}

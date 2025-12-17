@@ -1,5 +1,5 @@
 ---
-description: This article describes how to forward a message sent to the Cerby-managed email address created and set up for your accounts.
+description: "This article describes how to forward a message sent to the Cerby-managed email address created and set up for your accounts."
 intercom_id: 6119548
 ---
 

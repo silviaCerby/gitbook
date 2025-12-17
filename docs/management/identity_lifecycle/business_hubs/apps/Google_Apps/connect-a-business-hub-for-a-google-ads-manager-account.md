@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of a Google Ads Manager account from Cerb
+description: "This article describes how to connect a business hub to centrally manage the users of a Google Ads Manager account from Cerb"
 intercom_id: 9312229
 ---
 
@@ -118,7 +118,7 @@ The **Sign in to {your corporate account} manager** window opens. In this window
   9. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **MCC ID:** It is your manager account ID in Google Ads Manager. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-a-google-ads-manager-account.md#id-requirements) section.
+     * **MCC ID:** It is your manager account ID in Google Ads Manager. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-a-google-ads-manager-account.md#requirements) section.
 
      **IMPORTANT:** Leave the rest of the fields blank.
 
@@ -175,9 +175,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-a-google-ads-manager-account.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-a-google-ads-manager-account.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-a-google-ads-manager-account.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-a-google-ads-manager-account.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-a-google-ads-manager-account.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-a-google-ads-manager-account.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

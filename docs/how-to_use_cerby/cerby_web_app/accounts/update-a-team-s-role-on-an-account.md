@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the role of other teams on your accounts.
+description: "This article describes how to update the role of other teams on your accounts."
 intercom_id: 9479440
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the Cerby CLI commands, explaining their purpose and usage.
+description: "This article describes the Cerby CLI commands, explaining their purpose and usage."
 intercom_id: 9136331
 ---
 
@@ -7,9 +7,9 @@ intercom_id: 9136331
 
 This article is a reference guide for starting to interact with the Cerby CLI features from your command line. Here, you can discover all of Cerby CLI commands available for the following actions:
 
-* [Secrets](use-the-cerby-cli.md#id-secrets)
-* [Accounts](use-the-cerby-cli.md#id-accounts)
-* [Sync your data](use-the-cerby-cli.md#id-sync-your-data)
+* [Secrets](use-the-cerby-cli.md#secrets)
+* [Accounts](use-the-cerby-cli.md#accounts)
+* [Sync your data](use-the-cerby-cli.md#sync-your-data)
 
 ​​The following sections describe each action.
 
@@ -19,8 +19,8 @@ This article is a reference guide for starting to interact with the Cerby CLI fe
 
 Cerby CLI enables you to perform the following actions with your secrets in Cerby:
 
-  * [Get all secrets](use-the-cerby-cli.md#id-get-all-secrets)
-  * [Get the value of a secret by ID](use-the-cerby-cli.md#id-get-the-value-of-a-secret-by-id)
+  * [Get all secrets](use-the-cerby-cli.md#get-all-secrets)
+  * [Get the value of a secret by ID](use-the-cerby-cli.md#get-the-value-of-a-secret-by-id)
 
 ### Get all secrets
 
@@ -112,8 +112,8 @@ The resulting output is the value of the secret.
 
 The Cerby CLI enables you to perform the following actions with your accounts in Cerby:
 
-  * [Get all accounts](use-the-cerby-cli.md#id-get-all-accounts)
-  * [Get the information of an account by ID](use-the-cerby-cli.md#id-get-the-information-of-an-account-by-id)
+  * [Get all accounts](use-the-cerby-cli.md#get-all-accounts)
+  * [Get the information of an account by ID](use-the-cerby-cli.md#get-the-information-of-an-account-by-id)
   * Include the password in the information of an account
 
 ### Get all accounts

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up your IdP to support item imports from LastPass for users who authenticate with SSO.
+description: "This article describes how to set up your IdP to support item imports from LastPass for users who authenticate with SSO."
 intercom_id: 9822358
 ---
 

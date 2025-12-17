@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot the most common issues with the accounts you sync and extend to Okta.
+description: "This article describes how to troubleshoot the most common issues with the accounts you sync and extend to Okta."
 intercom_id: 9759116
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 9759116
 
 The following sections contain instructions to troubleshoot the most common issues with the **[Extended account access](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-extended-account-access)** feature:
 
-  * [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#id-sync-your-extended-accounts-with-okta-manually)
-  * [Remove a user with All-Access Mode from an extended account](troubleshooting-extended-account-access.md#id-remove-a-user-with-all-access-mode-from-an-extended-account)
+  * [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#sync-your-extended-accounts-with-okta-manually)
+  * [Remove a user with All-Access Mode from an extended account](troubleshooting-extended-account-access.md#remove-a-user-with-all-access-mode-from-an-extended-account)
 * * *
 
 ## Sync your extended accounts with Okta manually
@@ -29,8 +29,8 @@ If one or multiple extended accounts are not automatically updated in Okta after
 
 Two methods are available to sync your extended accounts with Okta manually:
 
-* [Sync one extended account](troubleshooting-extended-account-access.md#id-sync-one-extended-account)
-* [Sync all your extended accounts](troubleshooting-extended-account-access.md#id-sync-all-your-extended-accounts)
+* [Sync one extended account](troubleshooting-extended-account-access.md#sync-one-extended-account)
+* [Sync all your extended accounts](troubleshooting-extended-account-access.md#sync-all-your-extended-accounts)
 
 The following sections describe each method.
 
@@ -68,7 +68,7 @@ If you or another workspace **Super Admin** or **Owner** turns on **All-Access M
 
 This behavior is due to Cerby’s role-based access control (RBAC) system, because **All-Access Mode** enables users to view all accounts within the workspace and recover accounts by reassigning **Owners**.
 
-To solve this issue, you must turn off **All-Access Mode** first and then follow the corresponding instructions from the [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#id-sync-your-extended-accounts-with-okta-manually) section to sync one or multiple accounts.
+To solve this issue, you must turn off **All-Access Mode** first and then follow the corresponding instructions from the [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#sync-your-extended-accounts-with-okta-manually) section to sync one or multiple accounts.
 
 * * *
 

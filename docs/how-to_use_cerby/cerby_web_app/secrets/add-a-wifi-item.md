@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a WiFi item to your Cerby workspace.
+description: "This article describes how to add a WiFi item to your Cerby workspace."
 intercom_id: 8705330
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 8705330
 
 You can add WiFi items and attachments to Cerby in the following two ways:
 
-* [Add a WiFi item manually](add-a-wifi-item.md#id-add-a-wifi-item-manually)
-* [Import WiFi items from LastPass](add-a-wifi-item.md#id-import-wifi-items-from-lastpass)
+* [Add a WiFi item manually](add-a-wifi-item.md#add-a-wifi-item-manually)
+* [Import WiFi items from LastPass](add-a-wifi-item.md#import-wifi-items-from-lastpass)
 
 The following sections describe each way.
 

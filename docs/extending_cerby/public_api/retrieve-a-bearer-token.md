@@ -1,5 +1,5 @@
 ---
-description: This article describes how to retrieve a bearer token to use in the Cerby CLI.
+description: "This article describes how to retrieve a bearer token to use in the Cerby CLI."
 intercom_id: 9450993
 ---
 

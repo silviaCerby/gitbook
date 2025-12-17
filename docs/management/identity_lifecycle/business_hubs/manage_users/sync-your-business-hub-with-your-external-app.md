@@ -1,5 +1,5 @@
 ---
-description: This article describes how to sync your business hub with your seat-based and paid social apps.
+description: "This article describes how to sync your business hub with your seat-based and paid social apps."
 intercom_id: 9046205
 ---
 

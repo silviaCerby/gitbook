@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on MFA with Cerby as an authenticator app for your account.
+description: "This article describes how to turn on MFA with Cerby as an authenticator app for your account."
 intercom_id: 6393776
 ---
 

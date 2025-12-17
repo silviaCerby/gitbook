@@ -1,5 +1,5 @@
 ---
-description: This article describes how to protect your app user accounts via a business hub with security tasks such as turning on MFA and rotating passwords.
+description: "This article describes how to protect your app user accounts via a business hub with security tasks such as turning on MFA and rotating passwords."
 intercom_id: 9046212
 ---
 
@@ -18,8 +18,8 @@ intercom_id: 9046212
 
 As a business hub **Owner** , you can perform the following security tasks over user accounts managed in Cerby via a business hub:
 
-* [Turn on MFA for user accounts](protect-your-app-user-accounts-via-a-business-hub.md#id-turn-on-mfa-for-user-accounts)
-* [Rotate passwords for user accounts](protect-your-app-user-accounts-via-a-business-hub.md#id-rotate-passwords-for-user-accounts)
+* [Turn on MFA for user accounts](protect-your-app-user-accounts-via-a-business-hub.md#turn-on-mfa-for-user-accounts)
+* [Rotate passwords for user accounts](protect-your-app-user-accounts-via-a-business-hub.md#rotate-passwords-for-user-accounts)
 
 The following sections describe each task.
 

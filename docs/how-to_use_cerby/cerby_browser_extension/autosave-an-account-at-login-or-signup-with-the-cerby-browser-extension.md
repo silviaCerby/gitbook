@@ -1,5 +1,5 @@
 ---
-description: This article describes how to save an account with the Cerby browser extension when accessing an app through its login or signup page.
+description: "This article describes how to save an account with the Cerby browser extension when accessing an app through its login or signup page."
 intercom_id: 7239387
 ---
 

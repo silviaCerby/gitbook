@@ -1,5 +1,4 @@
 ---
-description: 
 intercom_id: 7336307
 ---
 
@@ -49,7 +48,7 @@ You can only perform this manual configuration with your Instagram mobile app to
 After turning on MFA and configuring Cerby as an authenticator app, your login experience improves. Verification codes are automatically distributed to all account members and auto-filled when they log into Instagram from Cerby as follows:
 
   * When logging in through the Cerby web app, the verification code is entered automatically as part of the workflow.
-  * When logging in through the Instagram mobile app, the verification code is copied to the clipboard by using the autofill feature. For more information, see the [Cerby mobile app behavior](unable-to-access-settings-when-turning-on-mfa.md#id-cerby-mobile-app-behavior) section.
+  * When logging in through the Instagram mobile app, the verification code is copied to the clipboard by using the autofill feature. For more information, see the [Cerby mobile app behavior](unable-to-access-settings-when-turning-on-mfa.md#cerby-mobile-app-behavior) section.
 
 You can turn off MFA through your web browser on a computer or the Instagram mobile app.
 

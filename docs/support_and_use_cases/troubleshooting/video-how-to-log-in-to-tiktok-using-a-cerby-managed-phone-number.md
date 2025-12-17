@@ -1,5 +1,5 @@
 ---
-description: This video shows how to log in to your TikTok account using a Cerby-managed phone number
+description: "This video shows how to log in to your TikTok account using a Cerby-managed phone number"
 intercom_id: 8092336
 ---
 

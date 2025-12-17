@@ -1,5 +1,5 @@
 ---
-description: This article covers key steps for getting started with Cerby as an account owner or collaborator for accounts managed in Cerby.
+description: "This article covers key steps for getting started with Cerby as an account owner or collaborator for accounts managed in Cerby."
 intercom_id: 6393805
 ---
 

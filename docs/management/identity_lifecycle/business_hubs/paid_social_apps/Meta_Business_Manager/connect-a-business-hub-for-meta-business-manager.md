@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users and assets of Meta Business Manager from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users and assets of Meta Business Manager from Cerby."
 intercom_id: 5528269
 ---
 
@@ -179,7 +179,7 @@ To add a business hub and connect it to Meta Business Manager, you must complete
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
      * **Access Token:** It is the token that you’ve previously generated in your Meta Business Manager.
-     * **Business ID:** It is your Meta Business Manager ID. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-meta-business-manager.md#id-requirements) section.
+     * **Business ID:** It is your Meta Business Manager ID. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-meta-business-manager.md#requirements) section.
      * **App Id:** It is the ID of the Cerby Assets Manager app to which you requested access previously: **2965389650414399**.
      * **User management and login method:** It is the way your users log in to the app and determines whether they must save their login credentials as a Cerby account connected to the business hub. You must select one of the following methods:
        * **Single sign-on (SSO):** Access is managed by your identity provider, and users log in with SSO authentication. They are not asked to save their credentials in Cerby.
@@ -195,7 +195,7 @@ The next step is [5. Check for updates to import users, roles, and assets to Cer
 To check for updates in your app to identify and import users, roles, and assets to Cerby, you must complete the following steps in the Cerby platform:
 
   1. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_508.png" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
+  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_507.png" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
   3. Select the **Settings** option from the menu. The business hub details page is displayed with the **Settings** tab activated.
   4. Click the **Sync** button located at the top right of the page. A message box is displayed with information about the process.
 ​**NOTE:** The check and import process may take a few minutes depending on the number of users, and because Cerby automatically matches users to their corresponding Cerby user account.
@@ -271,9 +271,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-meta-business-manager.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-meta-business-manager.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-meta-business-manager.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-meta-business-manager.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-meta-business-manager.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-meta-business-manager.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

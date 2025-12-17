@@ -1,5 +1,5 @@
 ---
-description: This article describes how to sync the users, roles, and entitlements from your external app to Cerby.
+description: "This article describes how to sync the users, roles, and entitlements from your external app to Cerby."
 intercom_id: 11648869
 ---
 

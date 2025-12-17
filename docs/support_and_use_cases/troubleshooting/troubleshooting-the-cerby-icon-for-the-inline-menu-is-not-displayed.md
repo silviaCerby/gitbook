@@ -1,5 +1,5 @@
 ---
-description: This article describes how to open the inline menu of the Cerby browser extension when the input fields of a login page are not identified.
+description: "This article describes how to open the inline menu of the Cerby browser extension when the input fields of a login page are not identified."
 intercom_id: 8350190
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Password Generator feature that enables you to generate strong and secure passwords anytime.
+description: "This article describes the key benefits of the Password Generator feature that enables you to generate strong and secure passwords anytime."
 intercom_id: 8487177
 ---
 

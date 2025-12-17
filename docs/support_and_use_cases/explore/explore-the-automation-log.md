@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits and settings for using and understanding Cerby’s Automation Log best.
+description: "This article describes the key benefits and settings for using and understanding Cerby’s Automation Log best."
 intercom_id: 11642287
 ---
 
@@ -48,11 +48,11 @@ The **Automation Log** page in the Cerby web app dashboard is the centralized vi
 
 The following is the information you can find in each column of the Automation Log:
 
-  * **Status:** The current phase of each automation job. For more information, refer to the [Status types](explore-the-automation-log.md#id-task-types) section.
+  * **Status:** The current phase of each automation job. For more information, refer to the [Status types](explore-the-automation-log.md#task-types) section.
   * **Target:** The specific resource affected by the job. For example, accounts, business hubs, and teams.
   * **Actor:** The entity that triggered the job. For example, Cerby or a user.
-  * **Task:** The identity, account, or user management action to be accomplished with the job. For more information, refer to the [Task types](explore-the-automation-log.md#id-trigger-types) section.
-  * **Trigger:** The underlying rule or context that triggered the job. For more information, refer to the [Trigger types](explore-the-automation-log.md#id-status-types) section.
+  * **Task:** The identity, account, or user management action to be accomplished with the job. For more information, refer to the [Task types](explore-the-automation-log.md#trigger-types) section.
+  * **Trigger:** The underlying rule or context that triggered the job. For more information, refer to the [Trigger types](explore-the-automation-log.md#status-types) section.
   * **Created at:** The date and time when the job was triggered.
   * **Updated at:** The date and time of the most recent status change.
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure Entra ID as your IdP to enable SSO for Cerby using a SAML integration.
+description: "This article describes how to configure Entra ID as your IdP to enable SSO for Cerby using a SAML integration."
 intercom_id: 5457563
 ---
 

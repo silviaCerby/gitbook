@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create and set up an app integration in Okta connected to IdLCM for user provisioning in your external apps.
+description: "This article describes how to create and set up an app integration in Okta connected to IdLCM for user provisioning in your external apps."
 intercom_id: 11643251
 ---
 
@@ -56,7 +56,7 @@ To create an integration in Okta for your Cerby-integrated app, complete the fol
   6. Enter the following information in the**General App Settings** section:
 
      * **App name:** It is the name of your app integration. Preferably, use the same name as the IdLCM integration you created in Cerby.
-     * **App's login page URL:** It is the URL of the sign-in page for your integration. For instructions on how to find the URL, read the [Requirements](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-requirements) section.
+     * **App's login page URL:** It is the URL of the sign-in page for your integration. For instructions on how to find the URL, read the [Requirements](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#requirements) section.
 
   7. Configure the settings in the**How will your users sign in?** section based on your organization's preferences**.** For instructions, read the official documentation [Create SWA app integrations](https://help.okta.com/oie/en-us/content/topics/apps/apps_app_integration_wizard_swa.htm).
   8. Click the **Finish** button. The app integration settings page is displayed.
@@ -114,7 +114,7 @@ To add custom attributes for your external app, you must complete the following 
   1. Scroll down to the **Attribute Mappings** section of your app integration.
   2. Click the **Go to Profile Editor** button. The **Profile Editor** page is displayed.
   3. Add a custom attribute for each attribute listed in the **Connected services** page by completing the following steps:
-**Note:** For instructions on how to find the list of required attributes, read the [Requirements](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#id-requirements) section.
+**Note:** For instructions on how to find the list of required attributes, read the [Requirements](create-and-set-up-an-app-integration-in-okta-connected-to-idlcm.md#requirements) section.
 
      1. Click the **Add Attribute** button. The**Add Attribute** dialog box is displayed.
      2. Enter the following attribute details using the values from the **Connected services** page:

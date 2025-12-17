@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot the most common issues with accessing and managing your X (Twitter) account through Cerby.
+description: "This article describes how to troubleshoot the most common issues with accessing and managing your X (Twitter) account through Cerby."
 intercom_id: 6657124
 ---
 
@@ -9,12 +9,12 @@ This article helps you fix the most common issues with accessing and managing yo
 
 The following are the most common issues:
 
-* [New login location](troubleshooting-common-issues-with-x-twitter.md#id-new-login-location)
-* [Turning on MFA manually](troubleshooting-common-issues-with-x-twitter.md#id-turning-on-mfa-manually)
-* [Cerby mobile app behavior](troubleshooting-common-issues-with-x-twitter.md#id-cerby-mobile-app-behavior)
-* [Cerby-managed phone number support](troubleshooting-common-issues-with-x-twitter.md#id-cerby-managed-phone-number-support)
-* [Email Swap](troubleshooting-common-issues-with-x-twitter.md#id-email-swap)
-* [Invalid MFA verification code](troubleshooting-common-issues-with-x-twitter.md#id-invalid-mfa-verification-code)
+* [New login location](troubleshooting-common-issues-with-x-twitter.md#new-login-location)
+* [Turning on MFA manually](troubleshooting-common-issues-with-x-twitter.md#turning-on-mfa-manually)
+* [Cerby mobile app behavior](troubleshooting-common-issues-with-x-twitter.md#cerby-mobile-app-behavior)
+* [Cerby-managed phone number support](troubleshooting-common-issues-with-x-twitter.md#cerby-managed-phone-number-support)
+* [Email Swap](troubleshooting-common-issues-with-x-twitter.md#email-swap)
+* [Invalid MFA verification code](troubleshooting-common-issues-with-x-twitter.md#invalid-mfa-verification-code)
 
 The following sections describe each issue and, if applicable, the proposed solution.
 
@@ -59,7 +59,7 @@ You can use this manual configuration with your web browser or the X mobile app.
 After turning on MFA and configuring Cerby as an authenticator app, your login experience improves. Verification codes are automatically distributed to all account members and auto-filled when they log in to X from Cerby as follows:
 
   * When logging in from the Cerby web app, the Cerby browser extension enters the verification code as part of the automated task.
-  * When logging in through the X mobile app, the verification code is copied to the clipboard by using the autofill feature. For more information, see the [Cerby mobile app behavior](troubleshooting-common-issues-with-x-twitter.md#id-cerby-mobile-app-behavior) section.
+  * When logging in through the X mobile app, the verification code is copied to the clipboard by using the autofill feature. For more information, see the [Cerby mobile app behavior](troubleshooting-common-issues-with-x-twitter.md#cerby-mobile-app-behavior) section.
 * * *
 
 ## Cerby mobile app behavior

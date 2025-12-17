@@ -1,5 +1,5 @@
 ---
-description: This article describes how to request access to an account shared via a host-guest partnership.
+description: "This article describes how to request access to an account shared via a host-guest partnership."
 intercom_id: 9044773
 ---
 

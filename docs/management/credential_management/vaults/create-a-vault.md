@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create a new vault for your workspace.
+description: "This article describes how to create a new vault for your workspace."
 intercom_id: 8376564
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a server item to your Cerby workspace.
+description: "This article describes how to add a server item to your Cerby workspace."
 intercom_id: 8705365
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 8705365
 
 You can add a server item and attachments to Cerby in the following two ways:
 
-* [Add a server item manually](add-a-server-item.md#id-add-a-server-item-manually)
-* [Import server items from LastPass](add-a-server-item.md#id-import-server-items-from-lastpass)
+* [Add a server item manually](add-a-server-item.md#add-a-server-item-manually)
+* [Import server items from LastPass](add-a-server-item.md#import-server-items-from-lastpass)
 
 The following sections describe each way.
 

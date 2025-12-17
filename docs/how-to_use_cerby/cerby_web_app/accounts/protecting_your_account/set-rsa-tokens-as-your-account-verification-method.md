@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up RSA tokens as your account verification method.
+description: "This article describes how to set up RSA tokens as your account verification method."
 intercom_id: 10858212
 ---
 
@@ -53,9 +53,9 @@ The following are the requirements to set up RSA tokens as your account verifica
 
 The following are the actions that enable you to manage RSA as your account's verification method:
 
-  * [Set up RSA as your account's verification method](set-rsa-tokens-as-your-account-verification-method.md#id-set-up-rsa-as-your-accounts-verification-method)
-  * [Log in to an account using RSA codes](set-rsa-tokens-as-your-account-verification-method.md#id-log-in-to-an-account-using-rsa-codes)
-  * [Turn off RSA as your account's verification method](set-rsa-tokens-as-your-account-verification-method.md#id-turn-off-rsa-as-your-accounts-verification-method)
+  * [Set up RSA as your account's verification method](set-rsa-tokens-as-your-account-verification-method.md#set-up-rsa-as-your-accounts-verification-method)
+  * [Log in to an account using RSA codes](set-rsa-tokens-as-your-account-verification-method.md#log-in-to-an-account-using-rsa-codes)
+  * [Turn off RSA as your account's verification method](set-rsa-tokens-as-your-account-verification-method.md#turn-off-rsa-as-your-accounts-verification-method)
 
 The instructions to perform each action are described in the following sections.
 
@@ -63,8 +63,8 @@ The instructions to perform each action are described in the following sections.
 
 The following are the clients that enable you to set up RSA codes as your account's verification method:
 
-  * [Cerby web app](set-rsa-tokens-as-your-account-verification-method.md#id-cerby-web-app)
-  * [Cerby mobile app](set-rsa-tokens-as-your-account-verification-method.md#id-cerby-mobile-app)
+  * [Cerby web app](set-rsa-tokens-as-your-account-verification-method.md#cerby-web-app)
+  * [Cerby mobile app](set-rsa-tokens-as-your-account-verification-method.md#cerby-mobile-app)
 
 The next subsections explain the steps for each client.
 
@@ -78,7 +78,7 @@ To set up RSA as your account's verification method, you must complete the follo
   4. Click the **Set as MFA** button in the **RSA codes** section. The **Set up MFA with RSA codes** dialog box is displayed.
   5. Enter the RSA token activation link in the **Activation link** field.
 
-  **NOTE:** See the [Requirements](set-rsa-tokens-as-your-account-verification-method.md#id-requirements) section to learn how to obtain the activation link.
+  **NOTE:** See the [Requirements](set-rsa-tokens-as-your-account-verification-method.md#requirements) section to learn how to obtain the activation link.
 
   6. Click the **Set up** button. The **You’re all set!** dialog box is displayed.
 
@@ -96,8 +96,8 @@ For more information about how to turn on multi-factor authentication (MFA) with
 
 The following are the clients that support the account login process using RSA codes:
 
-  * [Cerby web app](set-rsa-tokens-as-your-account-verification-method.md#id-cerby-web-app)
-  * [Cerby mobile app](set-rsa-tokens-as-your-account-verification-method.md#id-cerby-mobile-app)
+  * [Cerby web app](set-rsa-tokens-as-your-account-verification-method.md#cerby-web-app)
+  * [Cerby mobile app](set-rsa-tokens-as-your-account-verification-method.md#cerby-mobile-app)
 
 The next subsections explain the steps for each client.
 

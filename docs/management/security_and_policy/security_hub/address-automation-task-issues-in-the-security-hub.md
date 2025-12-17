@@ -1,5 +1,5 @@
 ---
-description: This article describes the actions you can take on the issues encountered by automation tasks displayed in the Security Hub.
+description: "This article describes the actions you can take on the issues encountered by automation tasks displayed in the Security Hub."
 intercom_id: 12845215
 ---
 

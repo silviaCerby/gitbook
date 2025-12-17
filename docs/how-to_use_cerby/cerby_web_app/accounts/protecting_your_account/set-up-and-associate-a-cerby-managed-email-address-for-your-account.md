@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up and associate a Cerby-managed email address for your account.
+description: "This article describes how to set up and associate a Cerby-managed email address for your account."
 intercom_id: 11888658
 ---
 

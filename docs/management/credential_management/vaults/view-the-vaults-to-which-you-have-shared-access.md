@@ -1,5 +1,5 @@
 ---
-description: This article describes how you can view the vaults to which all users have access.
+description: "This article describes how you can view the vaults to which all users have access."
 intercom_id: 10113743
 ---
 

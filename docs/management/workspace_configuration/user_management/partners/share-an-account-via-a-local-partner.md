@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share access to your Cerby accounts with guest members via a local partner.
+description: "This article describes how to share access to your Cerby accounts with guest members via a local partner."
 intercom_id: 9039198
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up the integration to export analytics data from Cerby to Splunk.
+description: "This article describes how to set up the integration to export analytics data from Cerby to Splunk."
 intercom_id: 9663721
 ---
 
@@ -18,7 +18,7 @@ intercom_id: 9663721
 
 With Cerby, you can export the analytics data of your workspace to a security information and event management (SIEM) solution like Splunk via an integration. This is a feature that customers can request to be enabled by the Cerby Customer Support team.
 
-The integration leverages an HTTP Event Collector, where Cerby exports the logs of analytic events in JSON format every minute as long as Cerby has registered events. The [Appendix: Analytic events format](export-analytics-data-from-cerby-to-splunk.md#id-appendix-analytic-events-format) section details the JSON object structure.
+The integration leverages an HTTP Event Collector, where Cerby exports the logs of analytic events in JSON format every minute as long as Cerby has registered events. The [Appendix: Analytic events format](export-analytics-data-from-cerby-to-splunk.md#appendix-analytic-events-format) section details the JSON object structure.
 
 {% hint style="info" %}
 

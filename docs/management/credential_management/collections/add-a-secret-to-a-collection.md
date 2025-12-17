@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a secret to an existing collection.
+description: "This article describes how to add a secret to an existing collection."
 intercom_id: 11101988
 ---
 
@@ -21,8 +21,8 @@ As a collection and secret **Owner** , you can add a secret to an existing colle
 
 In Cerby, you can add accounts to collections in the following two ways:
 
-* [Add one secret to a collection](add-a-secret-to-a-collection.md#id-add-one-secret-to-a-collection)
-* [Add multiple secrets to a collection](add-a-secret-to-a-collection.md#id-add-multiple-secrets-to-a-collection)
+* [Add one secret to a collection](add-a-secret-to-a-collection.md#add-one-secret-to-a-collection)
+* [Add multiple secrets to a collection](add-a-secret-to-a-collection.md#add-multiple-secrets-to-a-collection)
 
 The following sections describe each way.
 

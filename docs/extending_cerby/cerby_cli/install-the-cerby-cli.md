@@ -1,5 +1,5 @@
 ---
-description: This article describes how you can obtain the executable files for Windows, MacOS, and Linux to install the Cerby CLI.
+description: "This article describes how you can obtain the executable files for Windows, MacOS, and Linux to install the Cerby CLI."
 intercom_id: 9118688
 ---
 

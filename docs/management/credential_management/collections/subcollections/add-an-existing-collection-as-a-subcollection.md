@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add an existing collection as a subcollection, inheriting user permissions from the parent collection.
+description: "This article describes how to add an existing collection as a subcollection, inheriting user permissions from the parent collection."
 intercom_id: 8982905
 ---
 

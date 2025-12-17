@@ -1,5 +1,5 @@
 ---
-description: This article describes how to invite a guest user to join your Cerby workspace and be available for item sharing.
+description: "This article describes how to invite a guest user to join your Cerby workspace and be available for item sharing."
 intercom_id: 9317127
 ---
 
@@ -19,9 +19,9 @@ intercom_id: 9317127
 
 You can invite a guest user to your workspace in the following three ways:
 
-* [From the All members view](invite-a-guest-user-to-your-workspace.md#id-from-the-all-members-view)
-* [From the Password Manager Importer](invite-a-guest-user-to-your-workspace.md#id-from-the-password-manager-importer)
-* [From the Partners view](invite-a-guest-user-to-your-workspace.md#id-from-the-partners-view)
+* [From the All members view](invite-a-guest-user-to-your-workspace.md#from-the-all-members-view)
+* [From the Password Manager Importer](invite-a-guest-user-to-your-workspace.md#from-the-password-manager-importer)
+* [From the Partners view](invite-a-guest-user-to-your-workspace.md#from-the-partners-view)
 
 The following sections describe each way.
 
@@ -45,7 +45,7 @@ To send a direct guest user invite from the **All members** view, you must compl
 
 Now you are done. The guest user must open the invite and set up their account to join your Cerby workspace. For instructions, read the article [Join Cerby from a guest user invite](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/partners/guest-users/join-cerby-from-a-guest-user-invite). After joining, they are displayed in the **Guest** tab of the **All Members** view.
 
-If, for any reason, the external collaborator doesn’t receive the invitation, you can resend it by following the instructions in the [Resend a guest user invite](invite-a-guest-user-to-your-workspace.md#id-resend-a-guest-user-invite) section.
+If, for any reason, the external collaborator doesn’t receive the invitation, you can resend it by following the instructions in the [Resend a guest user invite](invite-a-guest-user-to-your-workspace.md#resend-a-guest-user-invite) section.
 
 * * *
 

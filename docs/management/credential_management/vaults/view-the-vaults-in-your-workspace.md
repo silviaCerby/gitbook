@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the vaults in your workspace.
+description: "This article describes how to view the vaults in your workspace."
 intercom_id: 10113669
 ---
 

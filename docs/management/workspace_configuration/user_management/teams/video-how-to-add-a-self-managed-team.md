@@ -1,5 +1,5 @@
 ---
-description: This video shows how to add a self-managed team to Cerby by manually selecting users from your workspace.
+description: "This video shows how to add a self-managed team to Cerby by manually selecting users from your workspace."
 intercom_id: 8325134
 ---
 

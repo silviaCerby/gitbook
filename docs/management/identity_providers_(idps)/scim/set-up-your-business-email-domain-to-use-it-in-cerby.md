@@ -1,5 +1,5 @@
 ---
-description: This article describes how to grant access to Cerby to use your business email domain via an Amazon SES integration.
+description: "This article describes how to grant access to Cerby to use your business email domain via an Amazon SES integration."
 intercom_id: 5855181
 ---
 
@@ -104,8 +104,8 @@ Now you can send and receive emails via Amazon SES with your business email doma
 
 To grant access to Cerby to use your Amazon SES integration on your behalf, you have two options:
 
-  * [CloudFormation template](set-up-your-business-email-domain-to-use-it-in-cerby.md#id-cloudformation-template)
-  * [Manual configuration](set-up-your-business-email-domain-to-use-it-in-cerby.md#id-manual-configuration)
+  * [CloudFormation template](set-up-your-business-email-domain-to-use-it-in-cerby.md#cloudformation-template)
+  * [Manual configuration](set-up-your-business-email-domain-to-use-it-in-cerby.md#manual-configuration)
 
 The following subsections describe the steps of each option.
 

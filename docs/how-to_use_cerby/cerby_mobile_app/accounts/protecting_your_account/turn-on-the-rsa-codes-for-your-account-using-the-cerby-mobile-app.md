@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on RSA codes as your account's verification method using the Cerby mobile app.
+description: "This article describes how to turn on RSA codes as your account's verification method using the Cerby mobile app."
 intercom_id: 11429260
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Cerby browser extension to manage your items and log in to your accounts.
+description: "This article describes the key benefits of the Cerby browser extension to manage your items and log in to your accounts."
 intercom_id: 5467963
 ---
 

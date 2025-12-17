@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add an account to your Cerby workspace.
+description: "This article describes how to add an account to your Cerby workspace."
 intercom_id: 8708374
 ---
 
@@ -19,9 +19,9 @@ intercom_id: 8708374
 
 You can add accounts to Cerby in the following three ways:
 
-* [Add an account manually](add-an-account.md#id-add-an-account-manually)
-* [Autosave an account at login or signup](add-an-account.md#id-autosave-an-account-at-login-or-signup)
-* [Import accounts from LastPass](add-an-account.md#id-import-accounts-from-lastpass)
+* [Add an account manually](add-an-account.md#add-an-account-manually)
+* [Autosave an account at login or signup](add-an-account.md#autosave-an-account-at-login-or-signup)
+* [Import accounts from LastPass](add-an-account.md#import-accounts-from-lastpass)
 
 The following sections describe each way.
 
@@ -31,9 +31,9 @@ The following sections describe each way.
 
 The process to add an account manually is different depending on the Cerby client app you use:
 
-  * [Cerby web app](add-an-account.md#id-cerby-web-app)
-  * [Cerby browser extension](add-an-account.md#id-cerby-browser-extension)
-  * [Cerby mobile app](add-an-account.md#id-cerby-mobile-app)
+  * [Cerby web app](add-an-account.md#cerby-web-app)
+  * [Cerby browser extension](add-an-account.md#cerby-browser-extension)
+  * [Cerby mobile app](add-an-account.md#cerby-mobile-app)
 
 The following sections describe each process.
 
@@ -56,7 +56,7 @@ To add an account manually using the Cerby web app, you must complete the follow
      * **Username:** It is the username you use to log in to your account. Sometimes, the username is your email address.
      * **Current password:** It is the password you use to log in to your account.
 
-     **NOTE:** You can [generate a password](add-an-account.md#id-generate-a-password) by clicking the **Generate password** option.
+     **NOTE:** You can [generate a password](add-an-account.md#generate-a-password) by clicking the **Generate password** option.
 
   5. Select optionally an existing collection from the **Collection** drop-down list to add the account to it.
   6. Select the corresponding vault from the **Vault** drop-down list to add the account to it.
@@ -86,7 +86,7 @@ To add an account manually using the Cerby browser extension, you must complete 
      * **Username:** It is the username you use to log in to your account. Sometimes, the username is your email address.
      * **Current password:** It is the password you use to log in to your account.
 
-     **NOTE:** You can [generate a password](add-an-account.md#id-generate-a-password) by clicking the **Generate password** option.
+     **NOTE:** You can [generate a password](add-an-account.md#generate-a-password) by clicking the **Generate password** option.
 
   5. Select optionally an existing collection from the **Collection** drop-down list to add the account to it.
   6. Select the corresponding vault from the **Vault** drop-down list to add the account to it.

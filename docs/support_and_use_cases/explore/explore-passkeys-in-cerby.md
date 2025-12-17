@@ -1,5 +1,5 @@
 ---
-description: This article describes the passkeys feature available for the Cerby mobile app.
+description: "This article describes the passkeys feature available for the Cerby mobile app."
 intercom_id: 10875208
 ---
 

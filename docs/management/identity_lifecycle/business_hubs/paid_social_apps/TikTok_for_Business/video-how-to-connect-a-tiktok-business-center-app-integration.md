@@ -1,5 +1,5 @@
 ---
-description: This video shows how to add a TikTok Business Center app integration to centrally manage access to it and its assets from Cerby.
+description: "This video shows how to add a TikTok Business Center app integration to centrally manage access to it and its assets from Cerby."
 intercom_id: 9099695
 ---
 

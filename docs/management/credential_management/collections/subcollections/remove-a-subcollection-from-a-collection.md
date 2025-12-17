@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a subcollection from a collection, thus converting it to a root collection.
+description: "This article describes how to remove a subcollection from a collection, thus converting it to a root collection."
 intercom_id: 8982984
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes what accounts are in Cerby and the type of accounts you can add to your workspace.
+description: "This article describes what accounts are in Cerby and the type of accounts you can add to your workspace."
 intercom_id: 8708338
 ---
 
@@ -36,9 +36,9 @@ By interacting with account cards, you can trigger an automatic login, share acc
 
 The following are the account types you can add to Cerby:
 
-  * [Managed accounts](explore-accounts.md#id-managed-accounts)
-  * [Self-managed accounts](explore-accounts.md#id-self-managed-accounts)
-  * [No URL accounts](explore-accounts.md#id-no-url-accounts)
+  * [Managed accounts](explore-accounts.md#managed-accounts)
+  * [Self-managed accounts](explore-accounts.md#self-managed-accounts)
+  * [No URL accounts](explore-accounts.md#no-url-accounts)
 
 The following sections describe each account type.
 

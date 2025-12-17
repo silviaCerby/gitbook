@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of Embedly from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of Embedly from Cerby."
 intercom_id: 10187220
 ---
 
@@ -80,7 +80,7 @@ To add a business hub and connect it to Embedly, you must complete the following
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **Project name:** It is the unique identifier of your Embedly project. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-embedly.md#id-requirements) section.
+     * **Project name:** It is the unique identifier of your Embedly project. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-embedly.md#requirements) section.
      * **User management and login method:** It is the way your users log in to the app and determines if they must save their credentials in Cerby.
 
        1. Select the **Username and password** option because account security and access are managed by Ceby, and users log in with their credentials after saving them in Cerby.
@@ -182,9 +182,9 @@ The app members are displayed in the following tabs of the **User Overview** sec
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-embedly.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-embedly.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-embedly.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-embedly.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-embedly.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-embedly.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

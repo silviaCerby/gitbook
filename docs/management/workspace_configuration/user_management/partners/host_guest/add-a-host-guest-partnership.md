@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a host-guest partnership to share access to your accounts with external parties.
+description: "This article describes how to add a host-guest partnership to share access to your accounts with external parties."
 intercom_id: 6634083
 ---
 

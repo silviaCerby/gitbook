@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the registered, trusted sessions on your devices.
+description: "This article describes how to view the registered, trusted sessions on your devices."
 intercom_id: 9354486
 ---
 
@@ -7,8 +7,8 @@ intercom_id: 9354486
 
 This article contains the steps you must follow to perform the following actions related to viewing the registered, trusted sessions in your workspace:
 
-* [View the trusted sessions on your devices](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-view-the-trusted-sessions-on-your-devices)
-* [View other members' trusted sessions in the workspace](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-view-other-members-trusted-sessions-in-the-workspace)
+* [View the trusted sessions on your devices](view-the-trusted-sessions-and-devices-in-your-workspace.md#view-the-trusted-sessions-on-your-devices)
+* [View other members' trusted sessions in the workspace](view-the-trusted-sessions-and-devices-in-your-workspace.md#view-other-members-trusted-sessions-in-the-workspace)
 
 The following sections detail the steps for each action.
 
@@ -20,9 +20,9 @@ As a **Workspace User** , you can view the trusted sessions on the devices you h
 
 To view your trusted sessions, you must complete the steps corresponding to the Cerby client app you are using:
 
-  * [Cerby web app](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-web-app)
-  * [Cerby mobile app](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-mobile-app)
-  * [Cerby browser extension](view-the-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-browser-extension)
+  * [Cerby web app](view-the-trusted-sessions-and-devices-in-your-workspace.md#cerby-web-app)
+  * [Cerby mobile app](view-the-trusted-sessions-and-devices-in-your-workspace.md#cerby-mobile-app)
+  * [Cerby browser extension](view-the-trusted-sessions-and-devices-in-your-workspace.md#cerby-browser-extension)
 
 The following sections contain the steps for each Cerby client app.
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure the sync safeguard threshold of your business hub to prevent unintended user removals.
+description: "This article describes how to configure the sync safeguard threshold of your business hub to prevent unintended user removals."
 intercom_id: 12773569
 ---
 

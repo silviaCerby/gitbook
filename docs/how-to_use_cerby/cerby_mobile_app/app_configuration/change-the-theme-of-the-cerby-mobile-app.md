@@ -1,5 +1,5 @@
 ---
-description: This article describes how to change the theme of your Cerby mobile app.
+description: "This article describes how to change the theme of your Cerby mobile app."
 intercom_id: 9737399
 ---
 
@@ -23,8 +23,8 @@ By adjusting the theme of the Cerby mobile app, you can also align it with your 
 
 This article describes how to change the theme of the Cerby mobile app depending on your operating system (OS):
 
-* [iOS](change-the-theme-of-the-cerby-mobile-app.md#id-ios)
-* [Android](change-the-theme-of-the-cerby-mobile-app.md#id-android)
+* [iOS](change-the-theme-of-the-cerby-mobile-app.md#ios)
+* [Android](change-the-theme-of-the-cerby-mobile-app.md#android)
 
 The following sections contain the instructions for each OS.
 

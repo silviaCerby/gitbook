@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of the Extended account access feature to access your apps from your IdP with Cerby's automated login.
+description: "This article describes the benefits of the Extended account access feature to access your apps from your IdP with Cerby's automated login."
 intercom_id: 9616265
 ---
 

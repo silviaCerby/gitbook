@@ -1,5 +1,5 @@
 ---
-description: This article describes how to scout a workflow on your app, consisting of the steps you take to complete a task in a browser tab.
+description: "This article describes how to scout a workflow on your app, consisting of the steps you take to complete a task in a browser tab."
 intercom_id: 10046916
 ---
 
@@ -62,7 +62,7 @@ To scout a workflow, you must complete the next steps:
   5. Open the Scout browser extension when you are done. The **Scouting** screen is displayed.
   6. Click the **Stop** button. The **Send your scouting report** screen is displayed with the length and the number of actions saved in the scouting.
 
-  **TIP:** Click the **Preview** button to see the recording before sending it to Cerby. A new browser tab opens where you can preview the scouting report. To learn more about the controls of this page, read the [Preview your recording](scout-a-workflow.md#id-preview-your-scouting-report) section.
+  **TIP:** Click the **Preview** button to see the recording before sending it to Cerby. A new browser tab opens where you can preview the scouting report. To learn more about the controls of this page, read the [Preview your recording](scout-a-workflow.md#preview-your-scouting-report) section.
 
   7. Enter and select the corresponding details of your scouting report from the following fields:
 
@@ -80,7 +80,7 @@ Now you are done.
 
 ## Preview your scouting report
 
-The following are the controls available to preview your scouting report in a new browser tab when clicking the **Preview** button after step 6 of the [Scout a workflow](scout-a-workflow.md#id-scout-a-workflow) section:
+The following are the controls available to preview your scouting report in a new browser tab when clicking the **Preview** button after step 6 of the [Scout a workflow](scout-a-workflow.md#scout-a-workflow) section:
 
   * **Play/Pause:** Starts or pauses the scouting report.
   * **Progress bar:** Moves the scouting report forward or backward. You can also click anywhere on the bar to jump to a specific point in the recording.
@@ -110,7 +110,7 @@ The following are the potential issues you may encounter when using Scout and th
 
     **IMPORTANT:** The recording must be at least 15 seconds long.
 
-  * **Blank recording when previewing the scouting report:** This error occurs when the Scout browser extension doesn’t capture your UI interactions correctly due to an unexpected issue. Cerby is unable to detect this error, so you can only identify it when you [preview the scouting report](scout-a-workflow.md#id-preview-your-scouting-report) and see a blank recording.
+  * **Blank recording when previewing the scouting report:** This error occurs when the Scout browser extension doesn’t capture your UI interactions correctly due to an unexpected issue. Cerby is unable to detect this error, so you can only identify it when you [preview the scouting report](scout-a-workflow.md#preview-your-scouting-report) and see a blank recording.
 
     1. Open the Scout browser extension. The **Send your scouting report** screen is displayed.
     2. Click the **Cancel** button. The **Scout your workflows** screen is displayed.

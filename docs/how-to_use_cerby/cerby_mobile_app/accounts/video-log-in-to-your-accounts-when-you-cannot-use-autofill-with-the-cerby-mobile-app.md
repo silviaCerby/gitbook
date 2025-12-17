@@ -1,5 +1,5 @@
 ---
-description: This video shows how to log in to your accounts manually when you cannot use the Cerby mobile app to autofill your credentials.
+description: "This video shows how to log in to your accounts manually when you cannot use the Cerby mobile app to autofill your credentials."
 intercom_id: 8325183
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log in manually to your account when the Cerby browser extension cannot complete the automatic login.
+description: "This article describes how to log in manually to your account when the Cerby browser extension cannot complete the automatic login."
 intercom_id: 8350176
 ---
 

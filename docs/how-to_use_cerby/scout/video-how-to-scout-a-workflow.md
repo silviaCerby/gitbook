@@ -1,5 +1,5 @@
 ---
-description: This video shows how to scout a workflow in the apps you use daily to help Cerby accelerate the automation building process.
+description: "This video shows how to scout a workflow in the apps you use daily to help Cerby accelerate the automation building process."
 intercom_id: 10115043
 ---
 

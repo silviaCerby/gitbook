@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on the Extended account access feature for accessing your apps from Okta with Cerby's automated login.
+description: "This article describes how to turn on the Extended account access feature for accessing your apps from Okta with Cerby's automated login."
 intercom_id: 9758222
 ---
 
@@ -72,7 +72,7 @@ The **Turn on extended account access?** dialog box is displayed.
 
      **IMPORTANT:** You must include the protocol part (**`https://`**) of the URL. For example, **`https://mycompany.okta.com`**.
 
-     * **API Token:** It is the token that you generated or retrieved previously as part of the [Requirements](turn-on-extended-account-access-for-okta.md#id-requirements) section. For instructions, read the official documentation [Manage Okta API tokens](https://help.okta.com/en-us/content/topics/security/api.htm#create-okta-api-token).
+     * **API Token:** It is the token that you generated or retrieved previously as part of the [Requirements](turn-on-extended-account-access-for-okta.md#requirements) section. For instructions, read the official documentation [Manage Okta API tokens](https://help.okta.com/en-us/content/topics/security/api.htm#create-okta-api-token).
 
      **TIP:** You can click the **Test connection** button to verify that Cerby can connect with Okta.
 

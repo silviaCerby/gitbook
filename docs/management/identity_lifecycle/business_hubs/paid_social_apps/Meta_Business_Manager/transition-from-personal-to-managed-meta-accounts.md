@@ -1,5 +1,5 @@
 ---
-description: This article describes how to transition access to your Meta business tools from using personal accounts to managed Meta Accounts.
+description: "This article describes how to transition access to your Meta business tools from using personal accounts to managed Meta Accounts."
 intercom_id: 10421800
 ---
 

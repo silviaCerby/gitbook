@@ -1,5 +1,5 @@
 ---
-description: This article describes the Meta for Work tools available to manage user access and your business assets and how they relate to Cerby.
+description: "This article describes the Meta for Work tools available to manage user access and your business assets and how they relate to Cerby."
 intercom_id: 8958757
 ---
 

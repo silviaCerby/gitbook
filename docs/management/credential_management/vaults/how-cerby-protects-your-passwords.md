@@ -1,5 +1,5 @@
 ---
-description: This article describes how Cerby provides a comprehensive solution for protecting your saved passwords.
+description: "This article describes how Cerby provides a comprehensive solution for protecting your saved passwords."
 intercom_id: 10008672
 ---
 
@@ -43,10 +43,10 @@ For more information about roles and permissions, read the article [How Cerby ma
 
 On top of the system, architectural, and role-based protections, Cerby has the following features to enable organizations and end users to protect their passwords proactively:
 
-  * [Automated password rotations](how-cerby-protects-your-passwords.md#id-automated-password-rotations)
-  * [Generation of secure passwords](how-cerby-protects-your-passwords.md#id-generation-of-secure-passwords)
-  * [Restrictions on password view capabilities](how-cerby-protects-your-passwords.md#id-restrictions-on-password-view-capabilities)
-  * [[Coming soon] Audit analytics for password update attempts](#id-coming-soon-audit-analytics-for-password-update-attempts)
+  * [Automated password rotations](how-cerby-protects-your-passwords.md#automated-password-rotations)
+  * [Generation of secure passwords](how-cerby-protects-your-passwords.md#generation-of-secure-passwords)
+  * [Restrictions on password view capabilities](how-cerby-protects-your-passwords.md#restrictions-on-password-view-capabilities)
+  * [[Coming soon] Audit analytics for password update attempts](#coming-soon-audit-analytics-for-password-update-attempts)
 
 The following sections describe each feature.
 

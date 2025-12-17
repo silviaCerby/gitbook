@@ -18,9 +18,9 @@ intercom_id: 9317182
 
 After joining a workspace as a guest user, you can log in to any of the Cerby client apps:
 
-* [Cerby web app](log-in-to-cerby-as-a-guest-user.md#id-cerby-web-app)
-* [Cerby browser extension](log-in-to-cerby-as-a-guest-user.md#id-cerby-browser-extension)
-* [Cerby mobile app](log-in-to-cerby-as-a-guest-user.md#id-cerby-mobile-app)
+* [Cerby web app](log-in-to-cerby-as-a-guest-user.md#cerby-web-app)
+* [Cerby browser extension](log-in-to-cerby-as-a-guest-user.md#cerby-browser-extension)
+* [Cerby mobile app](log-in-to-cerby-as-a-guest-user.md#cerby-mobile-app)
 
 The following sections describe how to log in to each client app.
 

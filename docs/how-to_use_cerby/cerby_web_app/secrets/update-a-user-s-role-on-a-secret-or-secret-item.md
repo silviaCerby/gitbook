@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the role of other workspace members on your secrets and secret items.
+description: "This article describes how to update the role of other workspace members on your secrets and secret items."
 intercom_id: 9483752
 ---
 

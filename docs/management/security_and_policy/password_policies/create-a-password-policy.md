@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create a password policy for all the accounts belonging to one or multiple managed apps.
+description: "This article describes how to create a password policy for all the accounts belonging to one or multiple managed apps."
 intercom_id: 11466694
 ---
 

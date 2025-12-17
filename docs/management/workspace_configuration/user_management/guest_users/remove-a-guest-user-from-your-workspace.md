@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a guest user from your Cerby workspace.
+description: "This article describes how to remove a guest user from your Cerby workspace."
 intercom_id: 9317141
 ---
 

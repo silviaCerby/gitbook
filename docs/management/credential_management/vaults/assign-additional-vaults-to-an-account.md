@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a vault to an account manually.
+description: "This article describes how to add a vault to an account manually."
 intercom_id: 9370625
 ---
 

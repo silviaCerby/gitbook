@@ -1,5 +1,5 @@
 ---
-description: This article describes how to enable automatic user provisioning via SCIM with your Okta tenant.
+description: "This article describes how to enable automatic user provisioning via SCIM with your Okta tenant."
 intercom_id: 5457593
 ---
 
@@ -23,7 +23,7 @@ The following are the supported features of enabling Okta user provisioning with
     * Last name
     * Primary email
   * **Push groups:** Users who are members of a group in Okta and assigned to the Cerby application are pushed in batches to the Cerby clients, and this grouping structure and its members are replicated in Cerby.
-  * **Deactivate users:** Deactivated users in Okta are automatically detected in Cerby, and their associated access grants in Cerby are removed. In some cases, additional follow-up actions, like password rotation, may occur in Cerby for privileged identities to which the deprovisioned user had access grants. See the [Troubleshooting: Deactivated Users](how-to-enable-okta-user-provisioning-with-scim.md#id-troubleshooting-deactivated-users) section for more information on the support that Cerby provides for this feature.
+  * **Deactivate users:** Deactivated users in Okta are automatically detected in Cerby, and their associated access grants in Cerby are removed. In some cases, additional follow-up actions, like password rotation, may occur in Cerby for privileged identities to which the deprovisioned user had access grants. See the [Troubleshooting: Deactivated Users](how-to-enable-okta-user-provisioning-with-scim.md#troubleshooting-deactivated-users) section for more information on the support that Cerby provides for this feature.
   * **Reactivate users:** Reactivated users in Okta will reappear as valid users in Cerby; however, account access grants must be reassigned in Cerby.
 * * *
 
@@ -38,7 +38,7 @@ The following are the requirements to enable Okta user provisioning with SCIM:
   * The Cerby SAML-based app integration must be set up and deployed. You must have already deployed the app as part of the [How to Configure SSO Between Cerby and Okta with SAML](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/configure-sso-between-cerby-and-okta-with-saml) article
   * A SCIM API authentication token. Follow the instructions in the [How to Retrieve the SCIM API Authentication Token from Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/retrieve-the-scim-api-authentication-token-from-cerby) article to retrieve the token
 
-  **NOTE:** If you need to regenerate the SCIM API authentication token, see the [Regenerating the SCIM API authentication token](how-to-enable-okta-user-provisioning-with-scim.md#id-regenerating-the-scim-api-authentication-token) section.
+  **NOTE:** If you need to regenerate the SCIM API authentication token, see the [Regenerating the SCIM API authentication token](how-to-enable-okta-user-provisioning-with-scim.md#regenerating-the-scim-api-authentication-token) section.
 
 * * *
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to retrieve the SCIM gateway details required to connect your disconnected apps to your IdP through IdLCM.
+description: "This article describes how to retrieve the SCIM gateway details required to connect your disconnected apps to your IdP through IdLCM."
 intercom_id: 11642821
 ---
 
@@ -20,10 +20,10 @@ Cerby uses unique SCIM gateway tokens for secure identity provider (IdP) integra
 
 When you set up an app integration in your IdP to connect it to your Ceby-integrated app, you must provide the SCIM gateway URL, a SCIM gateway token, and the Bookmark URL. You can retrieve these elements in the following ways:
 
-* [Retrieve the SCIM gateway URL](retrieve-the-scim-gateway-details-for-an-idlcm-integration.md#id-retrieve-the-scim-gateway-url)
-* [Generate a SCIM gateway token](retrieve-the-scim-gateway-details-for-an-idlcm-integration.md#id-generate-a-scim-gateway-token)
-* [Regenerate a SCIM gateway token](retrieve-the-scim-gateway-details-for-an-idlcm-integration.md#id-regenerate-a-scim-gateway-token)
-* [Retrieve the Bookmark URL](retrieve-the-scim-gateway-details-for-an-idlcm-integration.md#id-retrieve-the-bookmark-url)
+* [Retrieve the SCIM gateway URL](retrieve-the-scim-gateway-details-for-an-idlcm-integration.md#retrieve-the-scim-gateway-url)
+* [Generate a SCIM gateway token](retrieve-the-scim-gateway-details-for-an-idlcm-integration.md#generate-a-scim-gateway-token)
+* [Regenerate a SCIM gateway token](retrieve-the-scim-gateway-details-for-an-idlcm-integration.md#regenerate-a-scim-gateway-token)
+* [Retrieve the Bookmark URL](retrieve-the-scim-gateway-details-for-an-idlcm-integration.md#retrieve-the-bookmark-url)
 
 The following sections describe each way.
 

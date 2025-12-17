@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn off the Extended account access feature to stop syncing your accounts with Okta.
+description: "This article describes how to turn off the Extended account access feature to stop syncing your accounts with Okta."
 intercom_id: 9758233
 ---
 

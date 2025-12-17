@@ -1,5 +1,5 @@
 ---
-description: This article describes how to manually turn on MFA for Google using Cerby as an authenticator.
+description: "This article describes how to manually turn on MFA for Google using Cerby as an authenticator."
 intercom_id: 6992597
 ---
 

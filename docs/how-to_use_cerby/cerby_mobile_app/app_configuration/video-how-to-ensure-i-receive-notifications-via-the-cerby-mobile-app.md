@@ -1,5 +1,5 @@
 ---
-description: This article describes the three key ways to ensure you can receive notifications via the Cerby Mobile application.
+description: "This article describes the three key ways to ensure you can receive notifications via the Cerby Mobile application."
 intercom_id: 6393799
 ---
 

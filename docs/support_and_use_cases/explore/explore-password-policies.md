@@ -1,5 +1,5 @@
 ---
-description: This article describes the Password Policies feature that enables you to configure password rotation policies per app.
+description: "This article describes the Password Policies feature that enables you to configure password rotation policies per app."
 intercom_id: 11465716
 ---
 

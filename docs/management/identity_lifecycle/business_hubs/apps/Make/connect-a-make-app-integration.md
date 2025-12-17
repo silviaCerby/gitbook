@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a Make app integration to centrally manage access to it and its assets from Cerby.
+description: "This article describes how to add a Make app integration to centrally manage access to it and its assets from Cerby."
 intercom_id: 9660535
 ---
 
@@ -47,7 +47,7 @@ External collaborators without a Cerby account are displayed as unmatched users.
 * Remove unmatched users
 * Exempt unmatched users to keep their user account active in Make; however, you cannot manage them through Cerby
 
-This article describes how to add a Make app integration and import its users and assets to Cerby. For more information about the management tasks you can perform, read the [Use the Make app integration](connect-a-make-app-integration.md#id-use-the-make-app-integration) section.
+This article describes how to add a Make app integration and import its users and assets to Cerby. For more information about the management tasks you can perform, read the [Use the Make app integration](connect-a-make-app-integration.md#use-the-make-app-integration) section.
 
 * * *
 
@@ -91,7 +91,7 @@ To add an app integration to Cerby and connect it to Make, you must complete the
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your app integration in Cerby, and it will be displayed on the app card.
-     * **Organization ID:** It is the identifier of your Make organization. For instructions on how to find it, read the [Requirements](connect-a-make-app-integration.md#id-requirements) section.
+     * **Organization ID:** It is the identifier of your Make organization. For instructions on how to find it, read the [Requirements](connect-a-make-app-integration.md#requirements) section.
      * **User management and login method:** It is the way your users log in to the app and determines if they must save their credentials in Cerby. You must select one of the following methods:
        * **Single sign-on (SSO):** Access is managed via your identity provider, and users log in via SSO authentication. They are not asked to save their credentials in Cerby.
        * **Username and password:** Account security and access are managed from Ceby, and users log in with their credentials after saving them in Cerby.
@@ -155,9 +155,9 @@ The next step is [4. Manage unmatched users](connect-a-make-app-integration.md#i
 
 After a check for updates, Cerby automatically matches users to their corresponding Cerby accounts. Users who couldn’t be identified during the check or who are not in the corporate directory are categorized as unmatched. For these users, you can perform one of the following three actions:
 
-  * [Match and invite users](connect-a-make-app-integration.md#id-match-and-invite-users)
-  * [Remove unmatched users](connect-a-make-app-integration.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-make-app-integration.md#id-exempt-unmatched-users)
+  * [Match and invite users](connect-a-make-app-integration.md#match-and-invite-users)
+  * [Remove unmatched users](connect-a-make-app-integration.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-make-app-integration.md#exempt-unmatched-users)
 
 All of these actions are performed from the **Unmatched users** tab of the **User Overview** section inside the app details page.
 

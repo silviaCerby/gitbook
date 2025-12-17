@@ -1,5 +1,5 @@
 ---
-description: This video shows how to invite a guest user to an existing local partner.
+description: "This video shows how to invite a guest user to an existing local partner."
 intercom_id: 11511600
 ---
 

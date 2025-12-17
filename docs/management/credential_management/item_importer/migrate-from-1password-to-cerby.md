@@ -1,5 +1,5 @@
 ---
-description: This article describes how to import your 1Password vaults and items to Cerby.
+description: "This article describes how to import your 1Password vaults and items to Cerby."
 intercom_id: 9613378
 ---
 
@@ -28,7 +28,7 @@ As a workspace user in Cerby, you can migrate your 1Password vaults and items us
 * Wireless routers become WiFi secrets
 * SSH keys become SSH key secrets
 
-**NOTE:** For a detailed mapping between 1Password and Cerby items, read the [Item and field mapping](migrate-from-1password-to-cerby.md#id-item-and-field-mapping) section.
+**NOTE:** For a detailed mapping between 1Password and Cerby items, read the [Item and field mapping](migrate-from-1password-to-cerby.md#item-and-field-mapping) section.
 
 {% hint style="danger" %}
 
@@ -105,7 +105,7 @@ The following import rules have been established for 1Password:
     * Multiple application providers share the same root domain.
   * 1Password access permissions are automatically granted to users with an active Cerby user account. After the import, you can invite users without a matching Cerby user account.
 
-  **NOTE:** Read more about how 1Password roles and permissions map to Cerby roles in the [Mapping of 1Password vault permissions and client settings](migrate-from-1password-to-cerby.md#id-mapping-of-1password-vault-permissions-and-client-settings) section.
+  **NOTE:** Read more about how 1Password roles and permissions map to Cerby roles in the [Mapping of 1Password vault permissions and client settings](migrate-from-1password-to-cerby.md#mapping-of-1password-vault-permissions-and-client-settings) section.
 
 * * *
 
@@ -275,7 +275,7 @@ To import your 1Password vaults to Cerby, you must complete the following steps:
      * **Secret key**
 
        1. Enter your 1Password secret key.
-​**NOTE:** For instructions on how to find your secret key, read the [Requirements](migrate-from-1password-to-cerby.md#id-requirements) section.
+​**NOTE:** For instructions on how to find your secret key, read the [Requirements](migrate-from-1password-to-cerby.md#requirements) section.
 
   7. Click the **Next** button. The **Select vaults to import** page is displayed with the **Loading your vaults** icon, meaning that Cerby is retrieving the list of your 1Password vaults. After the sync is complete, the list is displayed, as shown in **Figure 1**.
 
@@ -317,7 +317,7 @@ You can download a full import report in a CSV file by clicking the **Download l
 
 If you see items with the skipped or failed status, the report provides information about why Cerby did not import them, and you can take action to solve the issues.
 
-For more information about this report, read the [How to interpret the downloadable import report](migrate-from-1password-to-cerby.md#id-how-to-interpret-the-downloadable-import-report) section.
+For more information about this report, read the [How to interpret the downloadable import report](migrate-from-1password-to-cerby.md#how-to-interpret-the-downloadable-import-report) section.
 
 The next step is [3. Take action on onboarded items](migrate-from-1password-to-cerby.md#id-3.-take-action-on-onboarded-items).
 
@@ -325,12 +325,12 @@ The next step is [3. Take action on onboarded items](migrate-from-1password-to-c
 
 The following are the actions you can take on onboarded items:
 
-  * [Edit collection name](migrate-from-1password-to-cerby.md#id-edit-collection-name)
-  * [Edit account label](migrate-from-1password-to-cerby.md#id-edit-account-label)
-  * [Edit secret title](migrate-from-1password-to-cerby.md#id-edit-secret-title)
-  * [Share access to a collection](migrate-from-1password-to-cerby.md#id-share-access-to-a-collection)
-  * [Share access to a secret](migrate-from-1password-to-cerby.md#id-share-access-to-a-secret)
-  * [View item settings](migrate-from-1password-to-cerby.md#id-view-item-settings)
+  * [Edit collection name](migrate-from-1password-to-cerby.md#edit-collection-name)
+  * [Edit account label](migrate-from-1password-to-cerby.md#edit-account-label)
+  * [Edit secret title](migrate-from-1password-to-cerby.md#edit-secret-title)
+  * [Share access to a collection](migrate-from-1password-to-cerby.md#share-access-to-a-collection)
+  * [Share access to a secret](migrate-from-1password-to-cerby.md#share-access-to-a-secret)
+  * [View item settings](migrate-from-1password-to-cerby.md#view-item-settings)
 
 The following sections describe each action.
 
@@ -412,8 +412,8 @@ After importing a collection, account, or secret to Cerby, you can view their se
 
 After an import from 1Password, unmatched users in the **Import report** view need a direct share or an invite to access the imported collections, accounts, or secrets. The invite process is different depending on the type of user:
 
-  * [Users with a Cerby account](migrate-from-1password-to-cerby.md#id-users-with-a-cerby-account)
-  * [Guest users](migrate-from-1password-to-cerby.md#id-guest-users)
+  * [Users with a Cerby account](migrate-from-1password-to-cerby.md#users-with-a-cerby-account)
+  * [Guest users](migrate-from-1password-to-cerby.md#guest-users)
 
 ### Users with a Cerby account
 

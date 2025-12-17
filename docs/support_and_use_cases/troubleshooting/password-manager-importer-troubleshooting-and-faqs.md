@@ -1,5 +1,5 @@
 ---
-description: This article helps you solve issues and find quick answers to your questions when importing items from LastPass to Cerby.
+description: "This article helps you solve issues and find quick answers to your questions when importing items from LastPass to Cerby."
 intercom_id: 8345679
 ---
 
@@ -9,12 +9,12 @@ This article describes the most common issues related to using our [Password Man
 
 We have categorized the information as follows:
 
-* [Import checklist](password-manager-importer-troubleshooting-and-faqs.md#id-import-checklist)
-* [MFA options](password-manager-importer-troubleshooting-and-faqs.md#id-mfa-options)
-* [Folder and item handling](password-manager-importer-troubleshooting-and-faqs.md#id-folder-and-item-handling)
-* [LastPass account verification](password-manager-importer-troubleshooting-and-faqs.md#id-lastpass-account-verification)
-* [Troubleshooting error messages](password-manager-importer-troubleshooting-and-faqs.md#id-troubleshooting-error-messages)
-* [Post-import actions](password-manager-importer-troubleshooting-and-faqs.md#id-post-import-actions)
+* [Import checklist](password-manager-importer-troubleshooting-and-faqs.md#import-checklist)
+* [MFA options](password-manager-importer-troubleshooting-and-faqs.md#mfa-options)
+* [Folder and item handling](password-manager-importer-troubleshooting-and-faqs.md#folder-and-item-handling)
+* [LastPass account verification](password-manager-importer-troubleshooting-and-faqs.md#lastpass-account-verification)
+* [Troubleshooting error messages](password-manager-importer-troubleshooting-and-faqs.md#troubleshooting-error-messages)
+* [Post-import actions](password-manager-importer-troubleshooting-and-faqs.md#post-import-actions)
 
 The following sections describe the issues and FAQs, and provide solutions.
 
@@ -217,7 +217,7 @@ LastPass may send the "Unknown error happened on login" message when it detects 
 
 **Figure 3.** Error dialog box with the “Unknown error happened on login” message
 
-Before retrying, Cerby recommends making sure you meet the three requirements and conditions from the [What checks should I mark before importing items?](password-manager-importer-troubleshooting-and-faqs.md#id-what-checks-should-i-mark-before-importing-items) section.
+Before retrying, Cerby recommends making sure you meet the three requirements and conditions from the [What checks should I mark before importing items?](password-manager-importer-troubleshooting-and-faqs.md#what-checks-should-i-mark-before-importing-items) section.
 
 ### Troubleshooting: “Failed to enter correct password” message
 
@@ -227,7 +227,7 @@ LastPass may send the “Failed to enter correct password” message after the s
 
 **Figure 4.** Error dialog box with the “Failed to enter correct password” message
 
-If you have MFA enabled with the LastPass Authenticator app, make sure you complete the verification challenges for the three push notifications sent by LastPass throughout the import process. Additionally, make sure you meet the three requirements and conditions from the [What checks should I mark before importing items?](password-manager-importer-troubleshooting-and-faqs.md#id-what-checks-should-i-mark-before-importing-items) section.
+If you have MFA enabled with the LastPass Authenticator app, make sure you complete the verification challenges for the three push notifications sent by LastPass throughout the import process. Additionally, make sure you meet the three requirements and conditions from the [What checks should I mark before importing items?](password-manager-importer-troubleshooting-and-faqs.md#what-checks-should-i-mark-before-importing-items) section.
 
 ### Troubleshooting: “Unknown error happened on groups” message
 

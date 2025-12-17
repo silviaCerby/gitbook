@@ -1,5 +1,5 @@
 ---
-description: This article describes how to assign Owners to orphaned accounts in your workspace through the Security Hub.
+description: "This article describes how to assign Owners to orphaned accounts in your workspace through the Security Hub."
 intercom_id: 10580392
 ---
 

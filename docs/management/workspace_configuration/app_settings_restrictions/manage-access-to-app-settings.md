@@ -1,5 +1,5 @@
 ---
-description: This article explains how to manage user access to password and user settings, either blocking modifications or recommending Cerby for changes.
+description: "This article explains how to manage user access to password and user settings, either blocking modifications or recommending Cerby for changes."
 intercom_id: 10276318
 ---
 

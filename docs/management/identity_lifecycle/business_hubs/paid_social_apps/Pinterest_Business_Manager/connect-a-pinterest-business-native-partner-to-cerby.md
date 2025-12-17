@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a Pinterest Business native partner to gain visibility on the users with shared access to your assets.
+description: "This article describes how to connect a Pinterest Business native partner to gain visibility on the users with shared access to your assets."
 intercom_id: 9082837
 ---
 

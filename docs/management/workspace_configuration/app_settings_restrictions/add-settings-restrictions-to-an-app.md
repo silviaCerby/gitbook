@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add password or member settings restrictions to an app.
+description: "This article describes how to add password or member settings restrictions to an app."
 intercom_id: 10276341
 ---
 

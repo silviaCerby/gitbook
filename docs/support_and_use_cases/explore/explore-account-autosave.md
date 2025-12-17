@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits and configurations of the account autosave feature that captures login and signup credentials.
+description: "This article describes the key benefits and configurations of the account autosave feature that captures login and signup credentials."
 intercom_id: 9500455
 ---
 
@@ -20,8 +20,8 @@ The following are the main benefits of the account autosave feature:
 
 Two account autosave settings determine the user experience during login and signup:
 
-* [Prompted autosave](explore-account-autosave.md#id-prompted-autosave)
-* [Enforced autosave](explore-account-autosave.md#id-enforced-autosave)
+* [Prompted autosave](explore-account-autosave.md#prompted-autosave)
+* [Enforced autosave](explore-account-autosave.md#enforced-autosave)
 
 ### Prompted autosave
 
@@ -37,8 +37,8 @@ The **Enforced autosave** setting automatically saves credentials without displa
 
 The account autosave feature operates at two levels:
 
-  * [Individual level](explore-account-autosave.md#id-individual-level)
-  * [Workspace level](explore-account-autosave.md#id-workspace-level)
+  * [Individual level](explore-account-autosave.md#individual-level)
+  * [Workspace level](explore-account-autosave.md#workspace-level)
 
 ### Individual level
 
@@ -59,8 +59,8 @@ The workspace level is available for both settings, **Prompted** and **Enforced 
 
 The following are the cases for which role assignments differ in account autosave:
 
-  * [Accounts](explore-account-autosave.md#id-accounts)
-  * [Business hubs](explore-account-autosave.md#id-business-hubs)
+  * [Accounts](explore-account-autosave.md#accounts)
+  * [Business hubs](explore-account-autosave.md#business-hubs)
 
 ### Accounts
 
@@ -70,8 +70,8 @@ All users who create accounts through **Prompted** or **Enforced** **autosave** 
 
 For business hubs, when Cerby captures credentials via **Enforced** and **Prompted autosave** and the associated app account is later linked to a business hub through a sync, Cerby assigns user roles based on whether the user was already invited to the business hub before the sync. The following scenarios describe how roles are assigned in different situations:
 
-  * [The user is already invited to the business hub](explore-account-autosave.md#id-the-user-is-already-invited-to-the-business-hub)
-  * [The user is added to the business hub after account creation](explore-account-autosave.md#id-the-user-is-added-to-the-business-hub-after-account-creation)
+  * [The user is already invited to the business hub](explore-account-autosave.md#the-user-is-already-invited-to-the-business-hub)
+  * [The user is added to the business hub after account creation](explore-account-autosave.md#the-user-is-added-to-the-business-hub-after-account-creation)
 
 #### The user is already invited to the business hub
 

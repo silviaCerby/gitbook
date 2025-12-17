@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share an account with other workspace users and teams.
+description: "This article describes how to share an account with other workspace users and teams."
 intercom_id: 9479388
 ---
 

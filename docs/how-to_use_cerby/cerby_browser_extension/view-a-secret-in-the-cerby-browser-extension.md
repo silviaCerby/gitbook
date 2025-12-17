@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the secrets you have added or were granted shared access to in Cerby.
+description: "This article describes how to view the secrets you have added or were granted shared access to in Cerby."
 intercom_id: 11511270
 ---
 

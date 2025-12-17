@@ -1,5 +1,5 @@
 ---
-description: This video shows how to join a workspace as a guest user from a local partner invite.
+description: "This video shows how to join a workspace as a guest user from a local partner invite."
 intercom_id: 11513091
 ---
 

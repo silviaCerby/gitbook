@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the details of all accounts in your workspace.
+description: "This article describes how to view the details of all accounts in your workspace."
 intercom_id: 12921276
 ---
 

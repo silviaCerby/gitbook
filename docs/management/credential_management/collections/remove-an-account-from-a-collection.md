@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove accounts from a collection.
+description: "This article describes how to remove accounts from a collection."
 intercom_id: 11102060
 ---
 

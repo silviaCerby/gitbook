@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of Kahoot from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of Kahoot from Cerby."
 intercom_id: 10293878
 ---
 
@@ -83,13 +83,13 @@ To add a business hub and connect it to Kahoot, you must complete the following 
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **Business ID:** It is the unique identifier of your group in a Kahoot team workspace. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-kahoot.md#id-requirements) section.
+     * **Business ID:** It is the unique identifier of your group in a Kahoot team workspace. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-kahoot.md#requirements) section.
      * **User management and login method:** It is the way your users log in to the app and determines whether they must save their login credentials as a Cerby account connected to the business hub. You must select one of the following methods:
        * **Single sign-on (SSO):** Access is managed by your identity provider, and users log in with SSO authentication. They are not asked to save their credentials in Cerby.
        * **Username and password:** Cerby manages account security and access, and users log in with their credentials after saving them in Cerby.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Kahoot accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-kahoot.md#id-requirements) section
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-kahoot.md#requirements) section
 
   **NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
@@ -151,9 +151,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-kahoot.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-kahoot.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-kahoot.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-kahoot.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-kahoot.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-kahoot.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

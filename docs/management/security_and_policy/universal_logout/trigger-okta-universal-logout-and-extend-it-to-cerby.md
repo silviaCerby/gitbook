@@ -1,5 +1,5 @@
 ---
-description: This article describes how to trigger Okta Universal Logout from the Okta Dashboard and extend it to Cerby.
+description: "This article describes how to trigger Okta Universal Logout from the Okta Dashboard and extend it to Cerby."
 intercom_id: 10495624
 ---
 

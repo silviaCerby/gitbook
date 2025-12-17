@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a business hub to an existing collection.
+description: "This article describes how to add a business hub to an existing collection."
 intercom_id: 11102018
 ---
 

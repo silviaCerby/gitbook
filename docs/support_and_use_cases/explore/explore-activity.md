@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of the Activity view to monitor and analyze activity on your Cerby workspace in real time.
+description: "This article describes the benefits of the Activity view to monitor and analyze activity on your Cerby workspace in real time."
 intercom_id: 10128402
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how workspace Admins can generate and manage the recovery keys for local encryption vaults.
+description: "This article describes how workspace Admins can generate and manage the recovery keys for local encryption vaults."
 intercom_id: 8376680
 ---
 
@@ -31,7 +31,7 @@ To generate a recovery key when creating a new vault, follow the instructions in
 
 To generate a recovery key at any moment after creating a vault, you must complete the following steps:
 
-  1. Discard the existing recovery key by following the instructions in the [Discard recovery key](generate-and-manage-the-recovery-keys-for-your-vault.md#id-discard-a-recovery-key) section.
+  1. Discard the existing recovery key by following the instructions in the [Discard recovery key](generate-and-manage-the-recovery-keys-for-your-vault.md#discard-a-recovery-key) section.
 
   **NOTE:** If you have already used the recovery key to regain access to your vault, continue in step 2.
 

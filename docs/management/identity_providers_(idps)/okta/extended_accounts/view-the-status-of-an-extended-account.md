@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the status of an account you have previously synced and extended to Okta.
+description: "This article describes how to view the status of an account you have previously synced and extended to Okta."
 intercom_id: 9759124
 ---
 

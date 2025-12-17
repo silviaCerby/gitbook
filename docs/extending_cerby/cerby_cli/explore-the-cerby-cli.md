@@ -1,5 +1,5 @@
 ---
-description: This article describes the Cerby CLI capabilities that enable you to interact with your items through your command line.
+description: "This article describes the Cerby CLI capabilities that enable you to interact with your items through your command line."
 intercom_id: 9118683
 ---
 

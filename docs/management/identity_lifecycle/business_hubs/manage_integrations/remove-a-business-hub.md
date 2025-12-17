@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a business hub from Cerby.
+description: "This article describes how to remove a business hub from Cerby."
 intercom_id: 9046230
 ---
 

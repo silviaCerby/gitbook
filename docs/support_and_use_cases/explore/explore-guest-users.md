@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of guest users, a role that enables you to share items with external collaborators through Cerby.
+description: "This article describes the key benefits of guest users, a role that enables you to share items with external collaborators through Cerby."
 intercom_id: 8392946
 ---
 

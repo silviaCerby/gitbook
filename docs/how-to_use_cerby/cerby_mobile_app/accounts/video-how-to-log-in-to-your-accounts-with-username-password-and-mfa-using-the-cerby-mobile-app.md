@@ -1,5 +1,5 @@
 ---
-description: This video shows how to use the Cerby mobile app to log in to your accounts with a username, password, and multi-factor authenticator (MFA).
+description: "This video shows how to use the Cerby mobile app to log in to your accounts with a username, password, and multi-factor authenticator (MFA)."
 intercom_id: 11145786
 ---
 

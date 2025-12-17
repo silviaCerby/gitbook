@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the details of an active API key.
+description: "This article describes how to view the details of an active API key."
 intercom_id: 9450961
 ---
 

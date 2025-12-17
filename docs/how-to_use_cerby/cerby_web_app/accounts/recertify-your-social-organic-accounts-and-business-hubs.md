@@ -1,5 +1,5 @@
 ---
-description: This video shows how the recertification process works for your social organic accounts and Business Hubs and how to recertify them.
+description: "This video shows how the recertification process works for your social organic accounts and Business Hubs and how to recertify them."
 intercom_id: 10707843
 ---
 

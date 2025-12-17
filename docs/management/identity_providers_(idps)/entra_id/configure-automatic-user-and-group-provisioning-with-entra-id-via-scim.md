@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure automatic user and group provisioning with your Entra ID tenant via SCIM.
+description: "This article describes how to configure automatic user and group provisioning with your Entra ID tenant via SCIM."
 intercom_id: 5638472
 ---
 
@@ -138,7 +138,7 @@ To configure automatic user and group provisioning to Cerby, you must complete t
   5. Review the user attributes that are synced between Entra ID and Cerby by performing the following actions:
      1. Click the **Provision Microsoft Entra ID Users** button. The **Attribute Mapping** page is displayed.
      2. Select the **Yes** option from the **Enabled** switch.
-     3. Verify that the attributes and information from **[Table 1](configure-automatic-user-and-group-provisioning-with-entra-id-via-scim.md#id-table-1.-user-attribute-mappings-in-entra-id)** are configured correctly in the **Attribute Mappings** section.
+     3. Verify that the attributes and information from **[Table 1](configure-automatic-user-and-group-provisioning-with-entra-id-via-scim.md#table-1.-user-attribute-mappings-in-entra-id)** are configured correctly in the **Attribute Mappings** section.
 
      **NOTE:** The attributes selected as **Matching precedence** properties are used to match the user accounts in Cerby for update operations. If you change the matching target attribute, you must ensure that the Cerby API supports filtering users based on that attribute. For more information, read the article [Tutorial - Customize user provisioning attribute-mappings for SaaS applications in Microsoft Entra ID](https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/customize-application-attributes).
 
@@ -146,7 +146,7 @@ To configure automatic user and group provisioning to Cerby, you must complete t
   6. Enable group provisioning from Entra ID to Cerby by performing the following actions:
      1. Click the **Provision Microsoft Entra ID Groups** button. The **Attribute Mapping** page is displayed.
      2. Select the **Yes** option from the **Enabled** switch.
-     3. Verify that the attributes and information from **[Table 2](configure-automatic-user-and-group-provisioning-with-entra-id-via-scim.md#id-table-2.-group-attribute-mappings-in-entra-id)** are configured correctly in the **Attribute Mappings** section.
+     3. Verify that the attributes and information from **[Table 2](configure-automatic-user-and-group-provisioning-with-entra-id-via-scim.md#table-2.-group-attribute-mappings-in-entra-id)** are configured correctly in the **Attribute Mappings** section.
      4. Click the **Save** button. The **Attribute Mapping (Preview)** page is displayed again, and a success message box is displayed.
   7. Configure the email address for notifications and the scope in the **Settings** section by performing the following actions:
      1. Activate the **Properties** tab on the page. The **Basics** page is displayed.

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn off the Cerby autofill in specific fields when using the Cerby browser extension.
+description: "This article describes how to turn off the Cerby autofill in specific fields when using the Cerby browser extension."
 intercom_id: 9236619
 ---
 
@@ -21,8 +21,8 @@ Upon opening a login page and having an active session in the Cerby browser exte
 
 If you want to turn off the Cerby icon and the account credentials displayed after you click the field, you can follow either of the following ways:
 
-  * [Using the help icon](turn-off-cerby-autofill-in-specific-fields.md#id-using-the-help-icon)
-  * [Using the context menu](turn-off-cerby-autofill-in-specific-fields.md#id-using-the-context-menu)
+  * [Using the help icon](turn-off-cerby-autofill-in-specific-fields.md#using-the-help-icon)
+  * [Using the context menu](turn-off-cerby-autofill-in-specific-fields.md#using-the-context-menu)
 
 The following sections contain the steps to turn off the extension for each way.
 
@@ -55,7 +55,7 @@ To turn off autofill in a specific field using the Cerby help icon, you must com
 {% hint style="info" %}
 
 
-**NOTE:** To turn autofill back on for the field, follow the instructions in the [Turn on the Cerby autofill](turn-off-cerby-autofill-in-specific-fields.md#id-turn-on-cerby-autofill-in-a-specific-field) option in a specific field section.
+**NOTE:** To turn autofill back on for the field, follow the instructions in the [Turn on the Cerby autofill](turn-off-cerby-autofill-in-specific-fields.md#turn-on-cerby-autofill-in-a-specific-field) option in a specific field section.
 
 
 {% endhint %}

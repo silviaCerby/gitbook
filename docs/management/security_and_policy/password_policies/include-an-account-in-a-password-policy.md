@@ -1,5 +1,5 @@
 ---
-description: This article describes how to include an account in a password policy.
+description: "This article describes how to include an account in a password policy."
 intercom_id: 11466985
 ---
 

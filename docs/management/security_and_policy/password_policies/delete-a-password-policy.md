@@ -1,5 +1,5 @@
 ---
-description: This article describes how to delete a password policy.
+description: "This article describes how to delete a password policy."
 intercom_id: 11466995
 ---
 

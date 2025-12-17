@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log in to the accounts you shared with a guest workspace via a host-guest partnership.
+description: "This article describes how to log in to the accounts you shared with a guest workspace via a host-guest partnership."
 intercom_id: 9044761
 ---
 

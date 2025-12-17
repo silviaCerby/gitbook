@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a vault backup for your workspace.
+description: "This article describes how to add a vault backup for your workspace."
 intercom_id: 12431284
 ---
 

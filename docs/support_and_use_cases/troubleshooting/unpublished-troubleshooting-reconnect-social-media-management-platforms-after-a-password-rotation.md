@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot the disconnection between social media apps and management platforms after a password rotation.
+description: "This article describes how to troubleshoot the disconnection between social media apps and management platforms after a password rotation."
 intercom_id: 6843921
 ---
 
@@ -29,8 +29,8 @@ Emplifi| Yes| Yes
 
 To solve the disconnection issue, you have two options:
 
-* [Automatic reconnection for supported apps](unpublished-troubleshooting-reconnect-social-media-management-platforms-after-a-password-rotation.md#id-automatic-reconnection-for-supported-apps)
-* [Manual reconnection](unpublished-troubleshooting-reconnect-social-media-management-platforms-after-a-password-rotation.md#id-manual-reconnection)
+* [Automatic reconnection for supported apps](unpublished-troubleshooting-reconnect-social-media-management-platforms-after-a-password-rotation.md#automatic-reconnection-for-supported-apps)
+* [Manual reconnection](unpublished-troubleshooting-reconnect-social-media-management-platforms-after-a-password-rotation.md#manual-reconnection)
 
 The following sections describe the steps to complete for each option.
 

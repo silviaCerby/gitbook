@@ -1,5 +1,5 @@
 ---
-description: This article demonstrates the two most common ways to leverage the Activity panel report.
+description: "This article demonstrates the two most common ways to leverage the Activity panel report."
 intercom_id: 5620137
 ---
 

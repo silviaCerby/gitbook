@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of using collections to group and share accounts, secrets, business hubs, and subcollections.
+description: "This article describes the benefits of using collections to group and share accounts, secrets, business hubs, and subcollections."
 intercom_id: 8981886
 ---
 

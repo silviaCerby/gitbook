@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log in to an account with a passkey on your web browser or mobile device using the Cerby mobile app.
+description: "This article describes how to log in to an account with a passkey on your web browser or mobile device using the Cerby mobile app."
 intercom_id: 10875427
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 10875427
 
 As an account **Owner** , you can log in to your accounts with passkeys using the Cerby mobile app. The following are the supported devices:
 
-* [Web browser](log-in-to-an-account-with-a-passkey-using-the-cerby-mobile-app.md#id-web-browser) (using the Cerby mobile app)
-* [Mobile phone](log-in-to-an-account-with-a-passkey-using-the-cerby-mobile-app.md#id-mobile-phone)
+* [Web browser](log-in-to-an-account-with-a-passkey-using-the-cerby-mobile-app.md#web-browser) (using the Cerby mobile app)
+* [Mobile phone](log-in-to-an-account-with-a-passkey-using-the-cerby-mobile-app.md#mobile-phone)
 
 The following sections explain how to log in with passkeys for each device.
 

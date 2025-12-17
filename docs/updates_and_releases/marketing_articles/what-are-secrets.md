@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Secrets feature that enables you to save important information and file attachments in Cerby.
+description: "This article describes the key benefits of the Secrets feature that enables you to save important information and file attachments in Cerby."
 intercom_id: 7211600
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share a collection with other workspace members and teams using the Cerby mobile app.
+description: "This article describes how to share a collection with other workspace members and teams using the Cerby mobile app."
 intercom_id: 9718995
 ---
 

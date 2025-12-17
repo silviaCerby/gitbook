@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a user’s access to an account granted through an account, team, collection, or business hub.
+description: "This article describes how to remove a user’s access to an account granted through an account, team, collection, or business hub."
 intercom_id: 11565773
 ---
 

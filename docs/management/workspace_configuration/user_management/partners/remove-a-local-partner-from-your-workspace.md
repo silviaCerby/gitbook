@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a local partner from your Cerby workspace.
+description: "This article describes how to remove a local partner from your Cerby workspace."
 intercom_id: 9039318
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of integrating Okta and Cerby to streamline access to disconnected apps from Okta dashboard chiclets.
+description: "This article describes the benefits of integrating Okta and Cerby to streamline access to disconnected apps from Okta dashboard chiclets."
 intercom_id: 9759131
 ---
 

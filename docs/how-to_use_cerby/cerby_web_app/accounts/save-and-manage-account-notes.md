@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add and manage notes to save additional information about your accounts.
+description: "This article describes how to add and manage notes to save additional information about your accounts."
 intercom_id: 8076365
 ---
 

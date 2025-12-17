@@ -1,5 +1,5 @@
 ---
-description: This video shows how to turn on MFA for an account using Cerby's automated tasks.
+description: "This video shows how to turn on MFA for an account using Cerby's automated tasks."
 intercom_id: 6393780
 ---
 

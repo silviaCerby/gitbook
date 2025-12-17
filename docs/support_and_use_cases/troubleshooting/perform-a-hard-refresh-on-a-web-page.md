@@ -1,5 +1,5 @@
 ---
-description: This article describes how to perform a hard refresh of a web page, depending on the browser you are using.
+description: "This article describes how to perform a hard refresh of a web page, depending on the browser you are using."
 intercom_id: 11128043
 ---
 

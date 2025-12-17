@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of Shippo from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of Shippo from Cerby."
 intercom_id: 10259433
 ---
 
@@ -92,7 +92,7 @@ To add a business hub and connect it to Shippo, you must complete the following 
 
        1. Select the **Username and password** option because account security and access are managed by Cerby, and users log in with their credentials after saving them in Cerby.
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Shippo accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-shippo.md#id-requirements) section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-shippo.md#requirements) section.
 
   **NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 

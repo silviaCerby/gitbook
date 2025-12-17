@@ -1,5 +1,5 @@
 ---
-description: This article describes the Subcollections feature to organize, import, and share your secrets, accounts, and other collections.
+description: "This article describes the Subcollections feature to organize, import, and share your secrets, accounts, and other collections."
 intercom_id: 8982445
 ---
 
@@ -48,7 +48,7 @@ Click the corresponding links to open the instructions for each action.
 {% hint style="info" %}
 
 
-**NOTE:** Our Development team continues working on the Subcollections feature. Refer to the [Known issues in subcollections](explore-subcollections.md#id-known-issues-in-subcollections)section for a list of known issues. We will keep you posted when these issues are resolved.
+**NOTE:** Our Development team continues working on the Subcollections feature. Refer to the [Known issues in subcollections](explore-subcollections.md#known-issues-in-subcollections)section for a list of known issues. We will keep you posted when these issues are resolved.
 
 
 {% endhint %}

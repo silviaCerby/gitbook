@@ -1,5 +1,5 @@
 ---
-description: This article describes how to extend an account to start logging in to it from Okta with Cerby’s automated login.
+description: "This article describes how to extend an account to start logging in to it from Okta with Cerby’s automated login."
 intercom_id: 9759106
 ---
 

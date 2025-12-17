@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up analytics data export from Cerby to an Amazon S3 bucket for SIEM integration.
+description: "This article describes how to set up analytics data export from Cerby to an Amazon S3 bucket for SIEM integration."
 intercom_id: 11713898
 ---
 

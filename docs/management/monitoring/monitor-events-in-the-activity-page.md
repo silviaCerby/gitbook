@@ -1,5 +1,5 @@
 ---
-description: This article describes all the events in the platform that you can monitor in the Activity page.
+description: "This article describes all the events in the platform that you can monitor in the Activity page."
 intercom_id: 10128426
 ---
 

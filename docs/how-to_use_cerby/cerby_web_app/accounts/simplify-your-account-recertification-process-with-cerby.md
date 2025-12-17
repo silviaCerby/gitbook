@@ -1,5 +1,5 @@
 ---
-description: This article describes how to complete the recertification process for your accounts and business hubs in Cerby.
+description: "This article describes how to complete the recertification process for your accounts and business hubs in Cerby."
 intercom_id: 10228341
 ---
 

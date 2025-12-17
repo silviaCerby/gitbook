@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure MFA in Instagram manually using a Cerby-managed phone number and email address.
+description: "This article describes how to configure MFA in Instagram manually using a Cerby-managed phone number and email address."
 intercom_id: 5946657
 ---
 
@@ -29,8 +29,8 @@ The following are the requirements to configure MFA in Instagram:
 
 To configure MFA on Instagram, you must complete different steps depending on the platform you use:
 
-* [Turning on MFA with the Browser](configure-mfa-in-instagram-manually.md#id-turn-on-mfa-with-the-browser)
-* [Turning on MFA with the Mobile Application](configure-mfa-in-instagram-manually.md#id-turn-on-mfa-with-the-mobile-application)
+* [Turning on MFA with the Browser](configure-mfa-in-instagram-manually.md#turn-on-mfa-with-the-browser)
+* [Turning on MFA with the Mobile Application](configure-mfa-in-instagram-manually.md#turn-on-mfa-with-the-mobile-application)
 
 **NOTE:** When configuring MFA with the browser, Instagram only supports phone numbers as a verification method. However, you can configure both a phone number and an authentication application using the Instagram mobile application.
 
@@ -70,7 +70,7 @@ To select a Cerby-managed phone number as a verification method, complete the fo
 
 **NOTE:** If the **Phone Number** field displays a phone number, it means that number was already configured. You can change it to a Cerby-managed phone number in step 3.
 
-3. Enter the phone number provided by Cerby in the **Phone number** field. Instagram uses this phone number to send a verification code. To create a phone number managed by Cerby, follow the [Creating a Cerby-Managed Phone Number or Email Address](configure-mfa-in-instagram-manually.md#id-create-a-cerby-managed-phone-number-or-email-address) instructions.
+3. Enter the phone number provided by Cerby in the **Phone number** field. Instagram uses this phone number to send a verification code. To create a phone number managed by Cerby, follow the [Creating a Cerby-Managed Phone Number or Email Address](configure-mfa-in-instagram-manually.md#create-a-cerby-managed-phone-number-or-email-address) instructions.
 
 **IMPORTANT:** Make sure to enter a plus (+) sign and the country code before the 10-digit phone number.
 
@@ -80,7 +80,7 @@ To select a Cerby-managed phone number as a verification method, complete the fo
 
 To enter the confirmation code, complete the following steps from the **Confirmation** page.
 
-1. Enter the confirmation code in the **Confirmation Code** field. This code is sent by Instagram to the phone number you have created in Cerby. To retrieve the code, follow the instructions to [Retrieve the verification code from Cerby](configure-mfa-in-instagram-manually.md#id-retrieve-the-verification-code-from-cerby).
+1. Enter the confirmation code in the **Confirmation Code** field. This code is sent by Instagram to the phone number you have created in Cerby. To retrieve the code, follow the instructions to [Retrieve the verification code from Cerby](configure-mfa-in-instagram-manually.md#retrieve-the-verification-code-from-cerby).
 2. Click the **Done** button. The “Settings saved.” message box is displayed at the bottom of the screen and automatically closes after several seconds.
 3. Refresh the page. The **Two-Factor Authentication** page displays the checkbox for the **Use Text Message** option selected.
 
@@ -108,8 +108,8 @@ To access the MFA settings, complete the following steps from the Instagram mobi
 
 **NOTE:** If you have previously turned on MFA, the **Two-Factor Authentication** screen displays the **Two-factor authentication is on** section with the verification methods options with an “On” status. Follow the corresponding instructions to change the verification methods to an “On” status:
 
-   * [Add an authentication application](configure-mfa-in-instagram-manually.md#id-add-an-authentication-application)
-   * [Change the verified phone number](configure-mfa-in-instagram-manually.md#id-change-the-verified-phone-number)
+   * [Add an authentication application](configure-mfa-in-instagram-manually.md#add-an-authentication-application)
+   * [Change the verified phone number](configure-mfa-in-instagram-manually.md#change-the-verified-phone-number)
 
 7. Tap the **Get started** button. The **Two-Factor Authentication** page is displayed with the **Choose your security method** section. You are prompted to select at least one of three security methods.
 
@@ -117,8 +117,8 @@ To access the MFA settings, complete the following steps from the Instagram mobi
 
 To select a verification method, you must complete different steps from the **Two-Factor Authentication** screen with the **Choose your security method** section, depending on the switch you activate:
 
-* **[Authentication app](configure-mfa-in-instagram-manually.md#id-authentication-app)**
-* **[Text message](configure-mfa-in-instagram-manually.md#id-text-message)**
+* **[Authentication app](configure-mfa-in-instagram-manually.md#authentication-app)**
+* **[Text message](configure-mfa-in-instagram-manually.md#text-message)**
 
 **NOTE:** Cerby recommends enabling the **Authentication app** method as your primary verification method for MFA, and **Text message** , as secondary.
 
@@ -135,14 +135,14 @@ To select Cerby as the **Authentication app** verification method, complete the 
 
 3. Link your Instagram account to Cerby using the secret key. To link your account, follow the corresponding instructions depending on the platform you use:
 
-   * [Linking your account with the Cerby mobile application](configure-mfa-in-instagram-manually.md#id-link-your-account-with-the-cerby-mobile-application)
-   * [Linking your account with the Cerby web application](configure-mfa-in-instagram-manually.md#id-link-your-account-with-the-cerby-web-application)
+   * [Linking your account with the Cerby mobile application](configure-mfa-in-instagram-manually.md#link-your-account-with-the-cerby-mobile-application)
+   * [Linking your account with the Cerby web application](configure-mfa-in-instagram-manually.md#link-your-account-with-the-cerby-web-application)
 
 4. Click the **Next** button. The **Confirmation code** screen is displayed.
 5. Enter the confirmation code provided by Cerby in the **Enter Confirmation Code** field.
 6. Click the **Next** button. The **Confirmation** screen is displayed.
 7. Click the **Done** button. The **Account Recovery** screen is displayed with a list of recovery codes that you can use if you lose your mobile phone or cannot receive codes via SMS or an authentication app.
-8. Save the recovery codes in Cerby to retrieve them from your workspace whenever needed. To save the codes, follow the [Saving Recovery Codes in Cerby](configure-mfa-in-instagram-manually.md#id-save-recovery-codes-in-cerby) instructions.
+8. Save the recovery codes in Cerby to retrieve them from your workspace whenever needed. To save the codes, follow the [Saving Recovery Codes in Cerby](configure-mfa-in-instagram-manually.md#save-recovery-codes-in-cerby) instructions.
 9. Click the **Back** button. The **Two-Factor Authentication** screen is displayed, and the Authentication app switch is in “On” status.
 
 ### Link your account with the Cerby mobile application
@@ -188,14 +188,14 @@ To add Cerby as an authentication application when MFA is turned on, complete th
 
 **TIP:** Click the **Copy Key** button to copy the secret key to the clipboard. You need this key to link your Instagram account to Cerby with the mobile application.
 
-5. Set up Cerby as an authentication application by following steps 3 to 8 of the [Authentication App](configure-mfa-in-instagram-manually.md#id-authentication-app) instructions.
+5. Set up Cerby as an authentication application by following steps 3 to 8 of the [Authentication App](configure-mfa-in-instagram-manually.md#authentication-app) instructions.
 
 ### Text message
 
 To select a Cerby-managed phone number as the**Text message** verification method, you must complete different steps depending on whether you have previously configured a phone number or not:
 
-* [Register a new phone number](configure-mfa-in-instagram-manually.md#id-register-a-new-phone-number)
-* [Change the phone number](configure-mfa-in-instagram-manually.md#id-change-the-phone-number)
+* [Register a new phone number](configure-mfa-in-instagram-manually.md#register-a-new-phone-number)
+* [Change the phone number](configure-mfa-in-instagram-manually.md#change-the-phone-number)
 
 ### Register a new phone number
 
@@ -204,7 +204,7 @@ To register a new phone number, complete the following steps:
 1. Activate the **Text message** switch. The **Phone Number** screen is displayed.
 2. Tap the country code field. The **SELECT YOUR COUNTRY** drop-down list is displayed.
 3. Select the **United States (+1)** option from the list. The country code field displays the **US +1** value.
-4. Enter the phone number provided by Cerby in the **Add Phone Number** field. Instagram uses this phone number to send a confirmation code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](configure-mfa-in-instagram-manually.md#id-create-a-cerby-managed-phone-number-or-email-address) instructions.
+4. Enter the phone number provided by Cerby in the **Add Phone Number** field. Instagram uses this phone number to send a confirmation code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](configure-mfa-in-instagram-manually.md#create-a-cerby-managed-phone-number-or-email-address) instructions.
 5. Tap the **Next** button. The **Confirmation code** screen is displayed.
 
 ### Change the phone number
@@ -215,7 +215,7 @@ To change the configured phone number, complete the following steps:
 2. Tap the **Change Phone Number** button located at the bottom of the screen. The **Phone Number** screen is displayed with the **Add Phone Number** section.
 3. Tap the country code field. The **SELECT YOUR COUNTRY** drop-down list is displayed.
 4. Select the **United States (+1)** option from the list. The country code field displays the **US +1** value.
-5. Enter the phone number provided by Cerby in the **Add Phone Number** field. Instagram uses this phone number to send a confirmation code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](configure-mfa-in-instagram-manually.md#id-create-a-cerby-managed-phone-number-or-email-address) instructions.
+5. Enter the phone number provided by Cerby in the **Add Phone Number** field. Instagram uses this phone number to send a confirmation code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](configure-mfa-in-instagram-manually.md#create-a-cerby-managed-phone-number-or-email-address) instructions.
 6. Tap the **Next** button. The **Confirmation code** screen is displayed.
 
 ### Change the verified phone number
@@ -226,19 +226,19 @@ To change the configured phone number for MFA, complete the following steps:
 2. Tap the **Change phone number** button. The**Two-Factor Authentication** screen is displayed with the **Update Phone Number** section.
 3. Tap the country code field. The **SELECT YOUR COUNTRY** drop-down list is displayed.
 4. Select the **United States (+1)** option from the list. The country code field displays the **US +1** value.
-5. Enter the phone number provided by Cerby in the **Add Phone Number** field. Instagram uses this phone number to send a confirmation code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](configure-mfa-in-instagram-manually.md#id-create-a-cerby-managed-phone-number-or-email-address) instructions.
+5. Enter the phone number provided by Cerby in the **Add Phone Number** field. Instagram uses this phone number to send a confirmation code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](configure-mfa-in-instagram-manually.md#create-a-cerby-managed-phone-number-or-email-address) instructions.
 6. Tap the **Next** button. The **Confirmation code** screen is displayed.
-7. Enter the confirmation code in the **Enter Confirmation Code** field. This code is sent by Instagram to the phone number you have created in Cerby. To retrieve the code, follow the [Retrieve the verification code from Cerby](configure-mfa-in-instagram-manually.md#id-retrieve-the-verification-code-from-cerby) instructions.
+7. Enter the confirmation code in the **Enter Confirmation Code** field. This code is sent by Instagram to the phone number you have created in Cerby. To retrieve the code, follow the [Retrieve the verification code from Cerby](configure-mfa-in-instagram-manually.md#retrieve-the-verification-code-from-cerby) instructions.
 8. Click the **Next** button. The **Confirmation screen** is displayed with the **Phone number updated** section.
 
 ### 3\. Enter the Confirmation Code
 
 To enter the confirmation code, complete the following steps from the **Confirmation code** screen.
 
-1. Enter the confirmation code in the **Enter Confirmation Code** field. This code is sent by Instagram to the phone number you have created in Cerby. To retrieve the code, follow the [Retrieve the Verification Code from Cerby](configure-mfa-in-instagram-manually.md#id-retrieve-the-verification-code-from-cerby) instructions.
+1. Enter the confirmation code in the **Enter Confirmation Code** field. This code is sent by Instagram to the phone number you have created in Cerby. To retrieve the code, follow the [Retrieve the Verification Code from Cerby](configure-mfa-in-instagram-manually.md#retrieve-the-verification-code-from-cerby) instructions.
 2. Click the **Next** button. The **Confirmation** screen is displayed with the **Two-factor authentication is on** section.
 3. Click the **Done** button. The **Account Recovery** screen is displayed with a list of recovery codes that you can use if you lose your mobile phone or cannot receive codes via SMS or an authentication app.
-4. Save the recovery codes in Cerby to retrieve them from your workspace whenever needed. To save the codes, follow the instructions to [Save Recovery Codes in Cerby](configure-mfa-in-instagram-manually.md#id-save-recovery-codes-in-cerby).
+4. Save the recovery codes in Cerby to retrieve them from your workspace whenever needed. To save the codes, follow the instructions to [Save Recovery Codes in Cerby](configure-mfa-in-instagram-manually.md#save-recovery-codes-in-cerby).
 5. Click the **Back** button. The **Two-Factor Authentication** page is displayed with the **Text message** switch activated.
 
 Now you are done.
@@ -251,8 +251,8 @@ To create a phone number or email address managed by Cerby, complete the followi
 2. Click the **All accounts** button in the left-side navigation drawer. The **All accounts** view is displayed.
 3. Click the **Settings** button of the corresponding Instagram account card. The **Account Settings** page is displayed with the **General** tab activated. You must complete different steps depending on the verification method you want Cerby to provide:
 
-   * [Create a phone number](configure-mfa-in-instagram-manually.md#id-create-a-phone-number)
-   * [Create an email address](configure-mfa-in-instagram-manually.md#id-create-an-email-address)
+   * [Create a phone number](configure-mfa-in-instagram-manually.md#create-a-phone-number)
+   * [Create an email address](configure-mfa-in-instagram-manually.md#create-an-email-address)
 
 The following sections describe the steps for each alternative.
 

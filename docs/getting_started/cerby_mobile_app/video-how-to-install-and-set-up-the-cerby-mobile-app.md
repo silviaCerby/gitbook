@@ -1,5 +1,5 @@
 ---
-description: This video shows how to install and configure the Cerby mobile app on your iOS or Android phone.
+description: "This video shows how to install and configure the Cerby mobile app on your iOS or Android phone."
 intercom_id: 5621519
 ---
 

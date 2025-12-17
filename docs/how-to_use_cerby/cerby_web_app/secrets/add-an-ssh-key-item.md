@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add Secure Shell (SSH) key pairs to your Cerby workspace.
+description: "This article describes how to add Secure Shell (SSH) key pairs to your Cerby workspace."
 intercom_id: 8705355
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 8705355
 
 You can add a Secure Shell (SSH) item and attachments to Cerby in the following two ways:
 
-* [Add an SSH key item manually](add-an-ssh-key-item.md#id-add-an-ssh-key-item-manually)
-* [Import SSH key items from LastPass](add-an-ssh-key-item.md#id-import-ssh-key-items-from-lastpass)
+* [Add an SSH key item manually](add-an-ssh-key-item.md#add-an-ssh-key-item-manually)
+* [Import SSH key items from LastPass](add-an-ssh-key-item.md#import-ssh-key-items-from-lastpass)
 
 The following sections describe each way.
 

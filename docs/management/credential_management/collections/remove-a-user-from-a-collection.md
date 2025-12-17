@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a user from a collection.
+description: "This article describes how to remove a user from a collection."
 intercom_id: 8432313
 ---
 

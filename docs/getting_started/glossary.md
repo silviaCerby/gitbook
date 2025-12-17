@@ -1,5 +1,5 @@
 ---
-description: This article describes the basic definitions of terms that are commonly used in Cerby.
+description: "This article describes the basic definitions of terms that are commonly used in Cerby."
 intercom_id: 6465559
 ---
 
@@ -7,7 +7,7 @@ intercom_id: 6465559
 
 This glossary contains the basic definitions of terms that are commonly used in Cerby:
 
-[A](glossary.md#id-a) | [B](glossary.md#id-b) | [C](glossary.md#id-c) | [D](glossary.md#id-d) | [E](glossary.md#id-e) | [F](glossary.md#id-f) | [G](glossary.md#id-g) | [H](glossary.md#id-h) | [I](glossary.md#id-i) | [J](glossary.md#id-j) | [K](glossary.md#id-k) | [L](glossary.md#id-l) | [M](glossary.md#id-m) | [N](glossary.md#id-n) | [O](glossary.md#id-o) | [P](glossary.md#id-p) | [Q](glossary.md#id-q) | [R](glossary.md#id-r) | [S](glossary.md#id-s) | [T](glossary.md#id-t) | [U](glossary.md#id-u) | [V](glossary.md#id-v) | [W](glossary.md#id-w) | [X](glossary.md#id-x) | [Y](glossary.md#id-y) | [Z](glossary.md#id-z)
+[A](glossary.md#a) | [B](glossary.md#b) | [C](glossary.md#c) | [D](glossary.md#d) | [E](glossary.md#e) | [F](glossary.md#f) | [G](glossary.md#g) | [H](glossary.md#h) | [I](glossary.md#i) | [J](glossary.md#j) | [K](glossary.md#k) | [L](glossary.md#l) | [M](glossary.md#m) | [N](glossary.md#n) | [O](glossary.md#o) | [P](glossary.md#p) | [Q](glossary.md#q) | [R](glossary.md#r) | [S](glossary.md#s) | [T](glossary.md#t) | [U](glossary.md#u) | [V](glossary.md#v) | [W](glossary.md#w) | [X](glossary.md#x) | [Y](glossary.md#y) | [Z](glossary.md#z)
 
 * * *
 
@@ -28,7 +28,7 @@ At Cerby, accounts are how users with**Account Collaborator** and **Account Owne
 
 It is a graphical component in the user interface (UI) of the Cerby web app, mobile app, and browser extension that consists of card-type buttons representing the application accounts added to Cerby.
 
-Depending on the user [role](glossary.md#id-role) on such accounts, these cards redirect users to log in to their applications or to perform account management and security actions.
+Depending on the user [role](glossary.md#role) on such accounts, these cards redirect users to log in to their applications or to perform account management and security actions.
 
 ### Account Collaborator
 
@@ -52,7 +52,7 @@ It is a security process to determine the identity of users by verifying their c
 
 ### Authorization
 
-It is a security process to determine the role of users based on their identity. Users are granted permission to perform actions and access specific resources with these [roles](glossary.md#id-role).
+It is a security process to determine the role of users based on their identity. Users are granted permission to perform actions and access specific resources with these [roles](glossary.md#role).
 
 * * *
 
@@ -78,7 +78,7 @@ It consists of groups of accounts displayed in the Cerby dashboard. Only **Accou
 
 It is the graphical interface of the Cerby web application that integrates information about users, accounts, configuration, services, and applications.
 
-To navigate through the different features of Cerby, the dashboard contains the left navigation drawer and the main section that contains the different views, pages, information, and [account cards](glossary.md#id-account-card).
+To navigate through the different features of Cerby, the dashboard contains the left navigation drawer and the main section that contains the different views, pages, information, and [account cards](glossary.md#account-card).
 
 * * *
 
@@ -161,12 +161,12 @@ Cerby manages roles at a workspace and account level, and roles are also inherit
 The following are the different roles in Cerby depending on your access level:
 
   * Workspace-level roles
-    * [Workspace Owner](glossary.md#id-workspace-owner)
-    * [Workspace Admin](glossary.md#id-workspace-admin)
-    * [Workspace User](glossary.md#id-workspace-user)
+    * [Workspace Owner](glossary.md#workspace-owner)
+    * [Workspace Admin](glossary.md#workspace-admin)
+    * [Workspace User](glossary.md#workspace-user)
   * Account-level roles
-    * [Account Owner](glossary.md#id-account-owner)
-    * [Account Collaborator](glossary.md#id-account-collaborator)
+    * [Account Owner](glossary.md#account-owner)
+    * [Account Collaborator](glossary.md#account-collaborator)
 
     **NOTE:** Regardless of their role, all users can add accounts to a workspace and then introduce the account roles, and they can only share the accounts they are owners of. Also, all users can create collections.
 
@@ -188,7 +188,7 @@ It is an entity that provides services, solutions, or applications to end users 
 
 It is a feature that enables you and your team members to receive and store the messages sent to the phone numbers and email addresses provisioned and managed by Cerby and configured in your app accounts.
 
-Cerby leverages the **Shared Inbox** to provide you with automatic logging-in processes to your accounts, including verification codes for [2FA](glossary.md#id-two-factor-authentication-(2fa)).
+Cerby leverages the **Shared Inbox** to provide you with automatic logging-in processes to your accounts, including verification codes for [2FA](glossary.md#two-factor-authentication-(2fa)).
 
 ### Single sign-on (SSO)
 

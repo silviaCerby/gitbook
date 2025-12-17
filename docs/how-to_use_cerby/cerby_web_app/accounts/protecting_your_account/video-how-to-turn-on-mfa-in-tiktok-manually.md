@@ -1,5 +1,5 @@
 ---
-description: This article details how to turn on MFA manually for a TikTok account using the Cerby mobile and web applications.
+description: "This article details how to turn on MFA manually for a TikTok account using the Cerby mobile and web applications."
 intercom_id: 6489438
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update a guest member’s role in an existing local partner.
+description: "This article describes how to update a guest member’s role in an existing local partner."
 intercom_id: 11944425
 ---
 

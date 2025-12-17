@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Tenants feature to centralize management of your business app from Cerby.
+description: "This article describes the key benefits of the Tenants feature to centralize management of your business app from Cerby."
 intercom_id: 6831122
 ---
 

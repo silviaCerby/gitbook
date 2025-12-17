@@ -1,5 +1,5 @@
 ---
-description: This document describes how to log in to the Cerby browser extension to access your workspace and manage your items.
+description: "This document describes how to log in to the Cerby browser extension to access your workspace and manage your items."
 intercom_id: 10755356
 ---
 
@@ -25,7 +25,7 @@ The login process is different for workspaces integrated or federated with an id
 * **Social login or third-party authentication:** All users authenticate via single sign-on (SSO) through their external identity portal.
 * **Local user workspaces:** All users authenticate with login credentials managed by Cerby.
 
-This article describes how to log in to the Cerby browser extension; it also includes a section on how to [log out of the extension](log-in-to-the-cerby-browser-extension.md#id-log-out-of-the-cerby-browser-extension).
+This article describes how to log in to the Cerby browser extension; it also includes a section on how to [log out of the extension](log-in-to-the-cerby-browser-extension.md#log-out-of-the-cerby-browser-extension).
 
 * * *
 
@@ -44,9 +44,9 @@ The following are the requirements to log in to the Cerby browser extension:
 
 The process to add a secret manually is different depending on the Cerby client app you use:
 
-  * [IdP-based or federated workspaces](log-in-to-the-cerby-browser-extension.md#id-idp-based-or-federated-workspaces)
-  * [Social login or third-party authentication](log-in-to-the-cerby-browser-extension.md#id-social-login-or-third-party-authentication)
-  * [Local user workspaces](log-in-to-the-cerby-browser-extension.md#id-local-user-workspaces)
+  * [IdP-based or federated workspaces](log-in-to-the-cerby-browser-extension.md#idp-based-or-federated-workspaces)
+  * [Social login or third-party authentication](log-in-to-the-cerby-browser-extension.md#social-login-or-third-party-authentication)
+  * [Local user workspaces](log-in-to-the-cerby-browser-extension.md#local-user-workspaces)
 
 {% hint style="info" %}
 

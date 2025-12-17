@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a software license to your Cerby workspace.
+description: "This article describes how to add a software license to your Cerby workspace."
 intercom_id: 8860238
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 8860238
 
 You can add a software license item and attachments to Cerby in the following two ways:
 
-* [Add a software license item manually](add-a-software-license-item.md#id-add-a-software-license-item-manually)
-* [Import software license items from LastPass](add-a-software-license-item.md#id-import-software-license-items-from-lastpass)
+* [Add a software license item manually](add-a-software-license-item.md#add-a-software-license-item-manually)
+* [Import software license items from LastPass](add-a-software-license-item.md#import-software-license-items-from-lastpass)
 
 The following sections describe each way.
 

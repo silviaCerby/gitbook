@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of American Express Merchant Account from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of American Express Merchant Account from Cerby."
 intercom_id: 12675974
 ---
 
@@ -86,7 +86,7 @@ To add a business hub and connect it to American Express, you must complete the 
        **IMPORTANT:** The **Single sign-on (SSO)** option is not supported for American Express.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing American Express accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-american-express-merchant-account.md#id-requirements) section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-american-express-merchant-account.md#requirements) section.
 ​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
@@ -99,7 +99,7 @@ The next step is [2\. Check for updates to import users and roles to Cerby](http
 To check for updates in your app to identify and import users and roles to Cerby, you must complete the following steps:
 
   1. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_78.png" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
+  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_77.png" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
   3. Select the **Settings** option from the menu. The business hub details page is displayed with the **Settings** tab activated.
   4. Click the **Sync** button located at the top right of the page. A message box is displayed with information about the process.
 ​**NOTE:** The check and import process may take a few minutes, depending on the number of users, and because Cerby automatically matches users to their corresponding Cerby user account.
@@ -147,9 +147,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-american-express-merchant-account.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-american-express-merchant-account.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-american-express-merchant-account.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-american-express-merchant-account.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-american-express-merchant-account.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-american-express-merchant-account.md#exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -190,7 +190,7 @@ Exempted users keep their user accounts or seats active in your app, but you can
 
 To exempt unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
-  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_79.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
+  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_78.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
   2. Select the **Exempt user** option from the list. The exempt user dialog box is displayed.
   3. Enter a reason for exempting the user in the **Provide a reason** field.
   4. Click the **Exempt member** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Exempted users** tab.

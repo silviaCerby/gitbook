@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a team from a collection using the Cerby mobile app.
+description: "This article describes how to remove a team from a collection using the Cerby mobile app."
 intercom_id: 9718650
 ---
 
