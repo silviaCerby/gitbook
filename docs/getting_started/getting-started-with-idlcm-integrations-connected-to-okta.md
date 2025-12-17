@@ -9,11 +9,11 @@ Cerby’s IdLCM enables you to automate user provisioning, updates, and deprovis
 
 This guide provides a step-by-step overview of how to enable and configure IdLCM for your organization:
 
-* Key concepts
-* How IdLCM works
-* Quick setup checklist
-* Steps to configure your IdLCM integration
-* Next steps
+  * [Key concepts](getting-started-with-idlcm-integrations-connected-to-okta.md#id-key-concepts)
+  * [How IdLCM works](getting-started-with-idlcm-integrations-connected-to-okta.md#id-how-idlcm-works)
+  * [Quick setup checklist](getting-started-with-idlcm-integrations-connected-to-okta.md#id-quick-setup-checklist)
+  * [Steps to configure your IdLCM integration](getting-started-with-idlcm-integrations-connected-to-okta.md#id-steps-to-set-up-your-idlcm-integration)
+  * [Next steps](getting-started-with-idlcm-integrations-connected-to-okta.md#id-next-steps)
 * * *
 
 ## Key concepts
@@ -43,7 +43,7 @@ For disconnected apps, it's essential to establish a dedicated **service account
 
 **Figure 1** shows how Cerby’s IdLCM integration connects your IdP and disconnected apps to enable full lifecycle automation.
 
-<figure><img src="../../.gitbook/assets/5baafbb1-30d2-410e-ba43-ab693288c258.png" alt=""><figcaption></figcaption></figure>
+<img src="../../.gitbook/assets/5baafbb1-30d2-410e-ba43-ab693288c258.png" alt="">
 
 **Figure 1.** Sequence diagram of a disconnected app connected to an IdP through an IdLCM integration
 
@@ -62,13 +62,13 @@ Use the checklist in **Table 2** as your guide for setting up and connecting you
 
 **Step**| **Action**| **Description**
 ---|---|---
-0| **Prerequisites**|  Verify that you meet all prerequisites for your Cerby workspace, Okta tenant, and disconnected app.
-1| **Create a service account**|  Create a service account in your external app with admin privileges and save it in Cerby.
-2| **Create an IdLCM integration in Cerby**|  Create an IdLCM integration for your external app in Cerby.
-3| **Retrieve the SCIM gateway details**|  Retrieve the following values from Cerby: SCIM gateway URL, SCIM gateway token, and bookmark URL.
-4| **Create an Okta app integration**|  Create and set up an app integration in Okta connected to your IdLCM integration.
-5| **Sync users, roles, and entitlements from your app to Cerby**|  Identify and sync users, roles, and entitlements from your app to Cerby.
-6| **Import users, roles, and entitlements from Cerby into your IdP**|  Import users, roles, and entitlements from an IdLCM integration into Okta.
+0| **[Prerequisites](getting-started-with-idlcm-integrations-connected-to-okta.md#id-step-0.-prerequisites)**|  Verify that you meet all prerequisites for your Cerby workspace, Okta tenant, and disconnected app.
+1| **[Create a service account](getting-started-with-idlcm-integrations-connected-to-okta.md#id-step-1.-create-a-service-account)**|  Create a service account in your external app with admin privileges and save it in Cerby.
+2| **[Create an IdLCM integration in Cerby](getting-started-with-idlcm-integrations-connected-to-okta.md#id-step-2.-create-an-idlcm-integration-in-cerby)**|  Create an IdLCM integration for your external app in Cerby.
+3| **[Retrieve the SCIM gateway details](getting-started-with-idlcm-integrations-connected-to-okta.md#id-step-3.-retrieve-the-scim-gateway-details)**|  Retrieve the following values from Cerby: SCIM gateway URL, SCIM gateway token, and bookmark URL.
+4| **[Create an Okta app integration](getting-started-with-idlcm-integrations-connected-to-okta.md#id-step-4.-create-an-okta-app-integration)**|  Create and set up an app integration in Okta connected to your IdLCM integration.
+5| **[Sync users, roles, and entitlements from your app to Cerby](getting-started-with-idlcm-integrations-connected-to-okta.md#id-step-5.-sync-users-roles-and-entitlements-from-your-app-to-cerby)**|  Identify and sync users, roles, and entitlements from your app to Cerby.
+6| **[Import users, roles, and entitlements from Cerby into your IdP](getting-started-with-idlcm-integrations-connected-to-okta.md#id-step-6.-import-users-roles-and-entitlements-from-cerby-into-your-idp)**|  Import users, roles, and entitlements from an IdLCM integration into Okta.
 
 **Table 2.** Setup checklist for an IdLCM integration
 
@@ -82,22 +82,23 @@ Complete the following steps to add, set up, and connect your IdLCM integration 
 
 Before setting up your IdLCM integration, verify that the following prerequisites are met:
 
-* A Cerby workspace
-* A Cerby user account with the workspace **Owner** , **Super Admin** , or **Admin** role
-* A collaboration space (workspace, team, or dashboard) in your external app
-* The user management and login method for your integration identified. Depending on your app, the options might be the following:
+  * A Cerby workspace
+  * A Cerby user account with the workspace **Owner** , **Super Admin** , or **Admin** role
+  * A collaboration space (workspace, team, or dashboard) in your external app
+  * The user management and login method for your integration identified. Depending on your app, the options might be the following:
     * Username and password
     * Single sign-on (SSO) with your IdP
     * Access token
-* A business or organization ID. Commonly, you can find the ID in the following ways:\
-  **NOTE:** Not all IdLCM integrations require a business or organization ID; Cerby displays an input field when applicable to your app. For more information, read the article [Retrieve the Business ID to connect your disconnected apps to Cerby.](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby)****
-
+  * A business or organization ID. Commonly, you can find the ID in the following ways:
     * **From the address bar:** After you log in to your app, sometimes the ID is displayed in the address bar as part of the URL, either in the subdomain, path, or an ID parameter. For example:
       * **`123456890`** in **`https://business.app.com/settings/&business_id=1234567890`**
       * **`contentzilla`** in **`https://contentzilla.app.com/`**
     * **From the business information or settings:** When you are logged in to your app, go to the settings or business information page. The ID is usually displayed in an information section for you to copy.
-* An Okta tenant
-* A user account in Okta with privileges to manage an app integration in your Okta tenant
+
+    **NOTE:** Not all IdLCM integrations require a business or organization ID; Cerby displays an input field when applicable to your app. For more information, read the article [Retrieve the Business ID to connect your disconnected apps to Cerby.](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby)****
+
+  * An Okta tenant
+  * A user account in Okta with privileges to manage an app integration in your Okta tenant
 
 ### Step 1. Create a service account
 
@@ -143,14 +144,14 @@ Your IdLCM integration is now connected to Okta. You can now manage user provisi
 
 The following are the supported tasks and features that help you make the most of your integration and maintain efficient, secure user management through Cerby:
 
-* **Manage user access**
+  * **Manage user access**
     * [Provision users to your app via an IdP and IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-users/provision-users-to-your-app-via-an-idp-and-idlcm-integration)
     * [Update user assignments in your app via an IdP and IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-users/update-user-assignments-in-your-app-via-an-idp-and-idlcm-integration)
     * [Deprovision users from your app via an IdP and IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-users/deprovision-users-from-your-app-via-an-idp-and-idlcm-integration)
-* **Monitor your users**
+  * **Monitor your users**
     * [Monitor IdLCM integration events in the Activity tab](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/monitor-idlcm-integration-events-in-the-activity-tab)
     * [View the users of an IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/view-the-users-of-an-idlcm-integration)
-* **Advanced configuration options**
+  * **Advanced configuration options**
     * [View the entitlements in your IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/view-the-entitlements-in-your-idlcm-integration)
     * [Export the entitlement assignments of your IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/export-the-entitlement-assignments-of-your-idlcm-integration)
     * [Configure the sync safeguard threshold of your IdLCM Integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/configure-the-sync-safeguard-threshold-of-your-idlcm-integration)

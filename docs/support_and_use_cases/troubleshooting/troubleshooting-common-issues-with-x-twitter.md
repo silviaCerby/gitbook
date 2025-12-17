@@ -9,12 +9,12 @@ This article helps you fix the most common issues with accessing and managing yo
 
 The following are the most common issues:
 
-* New login location
-* Turning on MFA manually
-* Cerby mobile app behavior
-* Cerby-managed phone number support
-* Email Swap
-* Invalid MFA verification code
+* [New login location](troubleshooting-common-issues-with-x-twitter.md#id-new-login-location)
+* [Turning on MFA manually](troubleshooting-common-issues-with-x-twitter.md#id-turning-on-mfa-manually)
+* [Cerby mobile app behavior](troubleshooting-common-issues-with-x-twitter.md#id-cerby-mobile-app-behavior)
+* [Cerby-managed phone number support](troubleshooting-common-issues-with-x-twitter.md#id-cerby-managed-phone-number-support)
+* [Email Swap](troubleshooting-common-issues-with-x-twitter.md#id-email-swap)
+* [Invalid MFA verification code](troubleshooting-common-issues-with-x-twitter.md#id-invalid-mfa-verification-code)
 
 The following sections describe each issue and, if applicable, the proposed solution.
 
@@ -24,7 +24,7 @@ The following sections describe each issue and, if applicable, the proposed solu
 
 When an X account added to Cerby doesn’t have multi-factor authentication (MFA) turned on, X displays a dialog box that prompts you to enter a verification code when you try to log in automatically from Cerby, as shown in **Figure 1**.
 
-<figure><img src="../../../.gitbook/assets/AhBtkj1RD2dUrptliNvjKTFf_gfNCKIg3guLoF_6I7AQCAfGxh7py4ORiAbQOjb6au_ERi-_UAsaC5iF8mPbspYjyZ8R7RBg7Z9e_YYcezMEguYVo3yMISO_ZTllgvySj8ey_zjMlWZ0M6s8Hg8265S8ISIAVlwJ5j6viDXDArFhbLz4z4KmImPsDg.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AhBtkj1RD2dUrptliNvjKTFf_gfNCKIg3guLoF_6I7AQCAfGxh7py4ORiAbQOjb6au_ERi-_UAsaC5iF8mPbspYjyZ8R7RBg7Z9e_YYcezMEguYVo3yMISO_ZTllgvySj8ey_zjMlWZ0M6s8Hg8265S8ISIAVlwJ5j6viDXDArFhbLz4z4KmImPsDg.png" alt="">
 
 **Figure 1. X Verification Dialog Box**
 
@@ -58,8 +58,8 @@ You can use this manual configuration with your web browser or the X mobile app.
 
 After turning on MFA and configuring Cerby as an authenticator app, your login experience improves. Verification codes are automatically distributed to all account members and auto-filled when they log in to X from Cerby as follows:
 
-* When logging in from the Cerby web app, the Cerby browser extension enters the verification code as part of the automated task.
-* When logging in through the X mobile app, the verification code is copied to the clipboard by using the autofill feature. For more information, see the Cerby mobile app behavior section.
+  * When logging in from the Cerby web app, the Cerby browser extension enters the verification code as part of the automated task.
+  * When logging in through the X mobile app, the verification code is copied to the clipboard by using the autofill feature. For more information, see the [Cerby mobile app behavior](troubleshooting-common-issues-with-x-twitter.md#id-cerby-mobile-app-behavior) section.
 * * *
 
 ## Cerby mobile app behavior
@@ -68,10 +68,11 @@ The Cerby mobile app helps you easily log in to your apps by autofilling the log
 
 When MFA is on, you may have to enter a verification code on an additional screen after autofilling your credentials. Perform the following actions to retrieve the code according to your verification method:
 
-* **Cerby as an authenticator app:** The verification code is automatically copied to the clipboard when autofill is enabled on your mobile phone. Tap the **Paste** button to fill in the verification code field.\
+  * **Cerby as an authenticator app:** The verification code is automatically copied to the clipboard when autofill is enabled on your mobile phone. Tap the **Paste** button to fill in the verification code field.
+
   **NOTE:** If autofill is not enabled or the verification code is not automatically copied to the clipboard, copy it manually from the **Verification Codes** section in the account details screen of the Cerby mobile app.
 
-* **Cerby-managed phone number:** The verification code is sent to Cerby, and you can retrieve it through the Cerby web app. For more information, read the article [View the messages sent to a Cerby-managed email address or phone number](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number).
+  * **Cerby-managed phone number:** The verification code is sent to Cerby, and you can retrieve it through the Cerby web app. For more information, read the article [View the messages sent to a Cerby-managed email address or phone number](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number).
 
 For more information on the logging-in process, see the video [How to log in to your accounts with username and password using the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/accounts/video-how-to-log-in-to-your-accounts-with-username-and-password-using-the-cerby-mobile-app).
 

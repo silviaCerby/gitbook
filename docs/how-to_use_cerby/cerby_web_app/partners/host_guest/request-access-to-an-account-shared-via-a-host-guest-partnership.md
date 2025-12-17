@@ -23,17 +23,18 @@ This request can be accepted or declined; when accepted, the account is shared w
 
 To request access to an account, you must complete the following steps:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-  2. Click the **Request share access for this account** icon from the corresponding account card in the **All accounts** view. The **Request share access** dialog box is displayed.
-  3. Enter in the search bar the name or email address of the guest workspace member you want to share the account with.
-  4. Select the corresponding member from the list. The user is added to a list below the search bar.
-  5. Repeat steps 3 and 4 as necessary.
-  6. Select the role to assign to the guest workspace members on the shared account:
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
+2. Click the **Request share access for this account** icon from the corresponding account card in the **All accounts** view. The **Request share access** dialog box is displayed.
+3. Enter in the search bar the name or email address of the guest workspace member you want to share the account with.
+4. Select the corresponding member from the list. The user is added to a list below the search bar.
+5. Repeat steps 3 and 4 as necessary.
+6. Select the role to assign to the guest workspace members on the shared account:
 
-     * **Collaborator:** With this role, guest workspace members can only log in to the shared account.
-     * **Account manager:** With this role, guest workspace members can log in to the shared accounts and request access to these accounts for other members.
+   * **Collaborator:** With this role, guest workspace members can only log in to the shared account.
+   * **Account manager:** With this role, guest workspace members can log in to the shared accounts and request access to these accounts for other members.
 
-  7. Click the **Send** button. The dialog box closes, and a success message box is displayed.
+7. Click the **Send** button. The dialog box closes, and a success message box is displayed.
+
 An email is sent to the account**Owners** from the host workspace to inform them about the access request.
 
 {% hint style="danger" %}

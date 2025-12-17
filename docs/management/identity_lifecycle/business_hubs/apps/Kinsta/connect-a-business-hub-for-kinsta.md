@@ -41,22 +41,22 @@ This article provides instructions on how to connect a business hub for Kinsta. 
 
 The following are the requirements to connect a business hub:
 
-* A Cerby workspace
-* A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
-* A company in Kinsta
-* Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* An automation account, meaning an active user account with a **Company Administrator** role in Kinsta to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
-* The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
+  * A Cerby workspace
+  * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
+  * A company in Kinsta
+  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * An automation account, meaning an active user account with a **Company Administrator** role in Kinsta to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
 * * *
 
 ## Connect a business hub for Kinsta
 
 To connect a business hub for Kinsta, you must complete the following main steps from the Cerby web app dashboard:
 
-  1. Add a business hub and connect it to Kinsta[ ](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
-  2. Check for updates to import users and roles to Cerby
-  3. Connect your Kinsta user account to the business hub
-  4. Manage unmatched users
+  1. [Add a business hub and connect it to Kinsta](connect-a-business-hub-for-kinsta.md#id-1.-add-a-business-hub-and-connect-it-to-kinsta)[ ](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
+  2. [Check for updates to import users and roles to Cerby](connect-a-business-hub-for-kinsta.md#id-2.-check-for-updates-to-import-users-and-roles-to-cerby)
+  3. [Connect your Kinsta user account to the business hub](connect-a-business-hub-for-kinsta.md#id-3.-connect-your-kinsta-user-account-to-the-business-hub)
+  4. [Manage unmatched users](connect-a-business-hub-for-kinsta.md#id-4.-manage-unmatched-users)
 
 The following sections describe each main step.
 
@@ -80,13 +80,13 @@ To add a business hub and connect it to Kinsta, you must complete the following 
        * **Username and password:** Cerby manages account security and access, and users log in with their credentials after saving them in Cerby.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Kinsta accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the Requirements section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-kinsta.md#id-requirements) section.
 ​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
 The corresponding business hub is also displayed on the **Business Hubs** view.
 
-The next step is 2\. Check for updates to import users and roles to Cerby.
+The next step is [2. Check for updates to import users and roles to Cerby](connect-a-business-hub-for-kinsta.md#id-2.-check-for-updates-to-import-users-and-roles-to-cerby).
 
 ### 2\. Check for updates to import users and roles to Cerby
 
@@ -110,7 +110,7 @@ To check for updates in your app to identify and import users and roles to Cerby
 
 {% endhint %}
 
-The next step is 3\. Connect your Kinsta user account to the business hub.
+The next step is [3. Connect your Kinsta user account to the business hub](connect-a-business-hub-for-kinsta.md#id-3.-connect-your-kinsta-user-account-to-the-business-hub).
 
 ### 3\. Connect your Kinsta user account to the business hub
 
@@ -121,7 +121,7 @@ To connect your Kinsta user account to the business hub so Cerby can manage and 
   3. Enter the login credentials of your Kinsta user account.
   4. Click the **Connect account** button. The dialog box closes, and a success message box and a new account card are displayed.
 
-The next step is 4\. Manage unmatched users.
+The next step is [4. Manage unmatched users](connect-a-business-hub-for-kinsta.md#id-4.-manage-unmatched-users).
 
 ### 4\. Manage unmatched users
 
@@ -140,9 +140,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-* Match users
-* Remove unmatched users
-* Exempt unmatched users
+  * [Match users](connect-a-business-hub-for-kinsta.md#id-match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-kinsta.md#id-remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-kinsta.md#id-exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -156,8 +156,8 @@ To match users, you must complete the following steps from the **Unmatched users
   4. Click the **Next** button. The **Select Cerby role** dialog box is displayed.
   5. Select the role to assign to the user on the business hub **Cerby role** drop-down list:
 
-* **Owner:** This role enables sharing access and managing business hub settings in Cerby.
-* **Collaborator:** This role enables only logging in to the app from Cerby.
+  * **Owner:** This role enables sharing access and managing business hub settings in Cerby.
+  * **Collaborator:** This role enables only logging in to the app from Cerby.
 
   1. Click the **Match user** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Onboarded** **users** tab.
 
@@ -194,14 +194,14 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 The following are the supported features of business hubs you can use:
 
-* [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
-* [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
-* [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
-* [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
-* [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
-* [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
-* [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
-* [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
-* [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
+  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+  * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

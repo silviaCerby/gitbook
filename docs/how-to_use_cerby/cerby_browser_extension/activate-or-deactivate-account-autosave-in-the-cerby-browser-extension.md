@@ -33,13 +33,15 @@ For more information, read the article [Explore account autosave](https://cerby-
 
 To activate or deactivate the account autosave feature, you must complete the following steps:
 
-  1. Open the Cerby browser extension.
-  2. Log in to your workspace.
-  3. Click the **Settings** (<figure><img src="../../../.gitbook/assets/unnamed_39.png" alt=""><figcaption></figcaption></figure>) icon located at the top right of the browser extension popup. The **Settings** page is displayed.
-  4. Activate or deactivate the **Account autosave** switch, as **Figure 1**.
-**Figure 1.** The **Account autosave** feature in the Cerby
-browser extension settings
+1. Open the Cerby browser extension.
+2. Log in to your workspace.
+3. Click the **Settings** (<img src="../../../.gitbook/assets/unnamed_39.png" alt="">) icon located at the top right of the browser extension popup. The **Settings** page is displayed.
+4. Activate or deactivate the **Account autosave** switch, as **Figure 1**.
 
-<figure><img src="../../../.gitbook/assets/image7_2.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/image7_2.png" alt="">
+
+**Figure 1.** The **Account autosave** feature in the Cerby
+
+browser extension settings
 
 Now you are done.

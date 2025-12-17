@@ -9,8 +9,8 @@ At Cerby, vaults are protected spaces for storing and managing your account data
 
 You can create additional local vaults to leverage a Zero-Knowledge architecture. The following are the characteristics of Cerby's vault strategy:
 
-* **Cloud vault:** Cerby stores and manages the encryption keys, and all automated tasks are supported.
-* **Local vault:** Users hold the encryption keys in trusted devices, which are not accessible to Cerby. This vault strategy has limited automated tasks.
+  * **Cloud vault:** Cerby stores and manages the encryption keys, and all automated tasks are supported.
+  * **Local vault:** Users hold the encryption keys in trusted devices, which are not accessible to Cerby. This vault strategy has limited automated tasks.
 * * *
 
 ## User visibility

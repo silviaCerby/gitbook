@@ -16,9 +16,9 @@ TikTok may display the "Too many attempts. Try again later" message and temporar
 To solve the too many login attempts issue, you can perform the following actions depending on the device you use:
 
 * Web browser on your computer
-    * Use an alternative browser to log in to the account
+  * Use an alternative browser to log in to the account
 
-**IMPORTANT:** Make sure to have installed the corresponding Cerby browser extension:
+  **IMPORTANT:** Make sure to have installed the corresponding Cerby browser extension:
 
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
 * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
@@ -27,4 +27,4 @@ To solve the too many login attempts issue, you can perform the following action
 * Wait a couple of hours before retrying to log in
 * Switch networks. Try switching between Wi-Fi and mobile data. You can also use a VPN.
 * TikTok mobile app on your mobile phone
-    * Wait one or more days before retrying to log in
+  * Wait one or more days before retrying to log in

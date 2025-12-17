@@ -20,8 +20,8 @@ intercom_id: 8705289
 
 As a user with any workspace role, except the **Login-Only** and **Guest User** roles, you can add secrets and attachments to Cerby in the following two ways:
 
-* Add a secret manually
-* Import secrets from LastPass
+* [Add a secret manually](add-a-secret.md#id-add-a-secret-manually)
+* [Import secrets from LastPass](add-a-secret.md#id-import-secrets-from-lastpass)
 
 The following sections describe each way.
 
@@ -58,10 +58,12 @@ IMPORTANT: **When selecting the Custom option, a calendar is displayed for you t
 
   8. (Optional) Enter the name of a collection to which you want to add the secret in the **Collection** name.
   9. Select a vault where you want to save the secret from the **Vault** drop-down menu.
-**NOTE:** If you only have one vault, the **Vault** drop-down list is not displayed.
+
+  **NOTE:** If you only have one vault, the **Vault** drop-down list is not displayed.
 
   10. (Optional) Select the **Ask users to confirm their identity to view the secret** option if you want an identity challenge to be issued when users want to view it.
-**NOTE:** To add an identity challenge later, activate the **Request users to confirm their identity to view the secret** switch in the **Settings** section of the secret details page. For more information, read the article [Edit a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/edit-a-secret).
+
+  **NOTE:** To add an identity challenge later, activate the **Request users to confirm their identity to view the secret** switch in the **Settings** section of the secret details page. For more information, read the article [Edit a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/edit-a-secret).
 
   11. Click the **Add Secret** button. The dialog box closes, and the secret details page is displayed with the **Settings** tab activated.
 

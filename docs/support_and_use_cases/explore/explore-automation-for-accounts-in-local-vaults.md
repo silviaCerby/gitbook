@@ -11,8 +11,8 @@ Automation was previously exclusive to workspaces with cloud vaults, leveraging 
 
 The following are the automated tasks supported for accounts in local vaults:
 
-* Rotate passwords
-* Turn on multi-factor authentication (MFA)
+  * Rotate passwords
+  * Turn on multi-factor authentication (MFA)
 * * *
 
 ## Learn how automation works for accounts in local vaults
@@ -21,18 +21,18 @@ With Cerby, you can create additional local vaults to leverage a Zero-Knowledge 
 
 The automated tasks for accounts in local vaults are executed as follows:
 
-  1. Your account is stored securely in a local vault.
-  2. When you trigger the automated task to rotate a password or turn on MFA, Cerby prompts you to confirm whether it's okay to temporarily use a cloud vault.
-  3. When you confirm this action, your local vault encryption key is _temporarily_ shared with the cloud vault.
-  4. The Cerby bot performs the automated task using the account information from the cloud vault.
-  5. When the automated task is complete, the Cerby bot sends the final status (success or failure) back to the Cerby platform.
-  6. The Cerby platform then triggers the removal of the vault encryption key from the cloud vault, ensuring that your account's secrets are only stored locally again.
+1. Your account is stored securely in a local vault.
+2. When you trigger the automated task to rotate a password or turn on MFA, Cerby prompts you to confirm whether it's okay to temporarily use a cloud vault.
+3. When you confirm this action, your local vault encryption key is _temporarily_ shared with the cloud vault.
+4. The Cerby bot performs the automated task using the account information from the cloud vault.
+5. When the automated task is complete, the Cerby bot sends the final status (success or failure) back to the Cerby platform.
+6. The Cerby platform then triggers the removal of the vault encryption key from the cloud vault, ensuring that your account's secrets are only stored locally again.
 
 With the previous flow, Cerby guarantees the following:
 
-* Your account information is temporarily shared with the cloud vault only for the duration of the automated task.
-* Your key is not exposed to Cerby because we follow the Zero Knowledge principles at all times. Your information is encrypted, and we can’t access your encryption keys. The Cerby bot handles the entire process automatically and securely.
-* After completing the automated task, the cloud vault is cleaned up, and your information remains safe in your local vault.
+  * Your account information is temporarily shared with the cloud vault only for the duration of the automated task.
+  * Your key is not exposed to Cerby because we follow the Zero Knowledge principles at all times. Your information is encrypted, and we can’t access your encryption keys. The Cerby bot handles the entire process automatically and securely.
+  * After completing the automated task, the cloud vault is cleaned up, and your information remains safe in your local vault.
 * * *
 
 ## Related articles

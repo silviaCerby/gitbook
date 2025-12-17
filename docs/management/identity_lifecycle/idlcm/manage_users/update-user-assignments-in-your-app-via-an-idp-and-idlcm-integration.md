@@ -26,8 +26,8 @@ After connecting an integration to your IdP, such as Okta or Entra ID, you can c
 
 The following are the requirements to update users in your external apps via an IdP and IdLCM integration:
 
-* A user account in your IdP with privileges to manage an app integration.
-* An IdLCM integration connected to your IdP, to which you have management access. For more information, read the article [Create an IdLCM integration for your app](https://help.cerby.com/en/articles/11643479-create-an-idlcm-integration-for-your-app).
+  * A user account in your IdP with privileges to manage an app integration.
+  * An IdLCM integration connected to your IdP, to which you have management access. For more information, read the article [Create an IdLCM integration for your app](https://help.cerby.com/en/articles/11643479-create-an-idlcm-integration-for-your-app).
 * * *
 
 ## Update user assignments in your app via an IdP and IdLCM integration
@@ -36,8 +36,6 @@ To update user assignments in your external app via an IdP and IdLCM integration
 
   1. Log in to the IdP admin console or center of your organization.
   2. Edit the user assignments in your app integration by completing the steps depending on how your user was granted access:
-An automation job to update user assignments is triggered by Cerby.
-​**TIP:** You can view the progress of the provisioning request in the integration **Activity** tab.
 
      * **User groups:**
 
@@ -51,5 +49,8 @@ An automation job to update user assignments is triggered by Cerby.
      * **Individual users**
        * Update the user assignment within the integrated app.**** For instructions, read the official documentation of your IdP:
          * **Okta:** [Manage app integration assignments](https://help.okta.com/en-us/content/topics/apps/apps-manage-assignments.htm)
+
+An automation job to update user assignments is triggered by Cerby.
+​**TIP:** You can view the progress of the provisioning request in the integration **Activity** tab.
 
 Now you are done.

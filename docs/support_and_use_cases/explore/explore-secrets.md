@@ -32,7 +32,7 @@ Currently, Cerby supports the following secret items:
 {% hint style="info" %}
 
 
-**NOTE:** You can add attachments to any secret item. For more information on the size limits and supported formats of secrets and attachments, read the Attachment and input specifications section.
+**NOTE:** You can add attachments to any secret item. For more information on the size limits and supported formats of secrets and attachments, read the [Attachment and input specifications](explore-secrets.md#id-attachment-and-input-specifications) section.
 
 
 {% endhint %}
@@ -40,7 +40,7 @@ Currently, Cerby supports the following secret items:
 You can set up the following protection measures for your secrets:
 
 * Set up an identity confirmation challenge for other workspace users who want to view or edit a secret that was shared with them. Identity challenges are also required for other actions. For more information, read the article [Confirm your identity with Cerby's MFA methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods).
-* Make a secret temporary by setting up an expiration date, after which the secret is automatically deleted. For more information about this feature, read the Temporary secrets section.
+* Make a secret temporary by setting up an expiration date, after which the secret is automatically deleted. For more information about this feature, read the [Temporary secrets](explore-secrets.md#id-temporary-secrets) section.
 
 You can add your secret items and attachments to Cerby manually or import them from your [enterprise password manager](https://cerby-test.gitbook.io/cerby-test/updates-and-releases/marketing-articles/migrate-your-items-from-your-enterprise-password-manager-to-cerby). When you add a secret item manually, you automatically become its **Owner** , and when you share it with other workspace users or teams, you can assign them one of the following two roles:
 
@@ -51,15 +51,15 @@ For more information about roles and the actions users can perform on a secret i
 
 All secret types are displayed as cards in your dashboard, whether you use the Cerby web app, browser extension, or mobile app. **Figure 1** , **Figure 2** , and **Figure 3** show secret cards on these client apps, respectively.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXeKsgk4AYUSZ4BmeAO-n8pKu2cuVcx1wa3w9ndRsqrrsKafE6ZmRUsWBxiBaeQbbyp_IjWS95lt3KtSe0UFEMZup4vBT0wZFSVhxzW1zhWSMmPJtQvOxb6Kxiccd8ZIu0i8WwTMUw.png" alt="Alt-text: Screenshot of the Cerby web app dashboard. The Secrets page is displayed with multiple secret cards and a button at the top right to add a secret."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXeKsgk4AYUSZ4BmeAO-n8pKu2cuVcx1wa3w9ndRsqrrsKafE6ZmRUsWBxiBaeQbbyp_IjWS95lt3KtSe0UFEMZup4vBT0wZFSVhxzW1zhWSMmPJtQvOxb6Kxiccd8ZIu0i8WwTMUw.png" alt="Alt-text: Screenshot of the Cerby web app dashboard. The Secrets page is displayed with multiple secret cards and a button at the top right to add a secret.">
 
 **Figure 1.** Secret cards in the **Secrets** view of the Cerby web app dashboard
 
-<figure><img src="../../../.gitbook/assets/AD_4nXcW074a-d7HbWY8taCaz7nd2B3_6ZP6oFGq6eD8FwQKN_35eb9zfYMHliMhbJmjJeuN_nrL0FznIBLc7K2nrBUm0LnsnDrh4F7hXbHMyk2dE_NAUlqqU2vn9scGRWY9YxPNonceFQ.png" alt="Alt-text: Screenshot of the Cerby browser extension popup on top of a website. The Secrets tab is activated with a list of secret cards."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXcW074a-d7HbWY8taCaz7nd2B3_6ZP6oFGq6eD8FwQKN_35eb9zfYMHliMhbJmjJeuN_nrL0FznIBLc7K2nrBUm0LnsnDrh4F7hXbHMyk2dE_NAUlqqU2vn9scGRWY9YxPNonceFQ.png" alt="Alt-text: Screenshot of the Cerby browser extension popup on top of a website. The Secrets tab is activated with a list of secret cards.">
 
 **Figure 2.** Secret cards in the **Secrets** tab of the Cerby browser extension dashboard
 
-<figure><img src="../../../.gitbook/assets/AD_4nXcmnC2wciy7wFah5W5s6c4TnZRRSfv9V368mPcIxJFeJAKuU-8QYIHzFBVu0ONrdf3Hf-uXJyf3rfnTXJW3-TZf2F-B-JLV3b1LkVAgYvMiu3cRn0q297YCFsSqnrq9hr6BXZDO.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXcmnC2wciy7wFah5W5s6c4TnZRRSfv9V368mPcIxJFeJAKuU-8QYIHzFBVu0ONrdf3Hf-uXJyf3rfnTXJW3-TZf2F-B-JLV3b1LkVAgYvMiu3cRn0q297YCFsSqnrq9hr6BXZDO.png" alt="">
 
 **Figure 3.** Secret cards in the **Secrets** tab of the Cerby mobile app dashboard
 
@@ -69,10 +69,10 @@ All secret types are displayed as cards in your dashboard, whether you use the C
 
 The following are the specifications on the size limits and supported formats of secrets, secret items, and attachments:
 
-* **Notes field:** You can enter up to 45,000 characters in the **Notes** field of a secret and secret item.
-* **Input fields** : You can enter up to 255 characters in the input fields, except the **Notes** field, of any secret and secret item.
-* **Password field:** Secret items that support the **Password** field (such as server, database, and WiFi) have their value masked.
-* **Attachments:** You can add as many file attachments as you want to a secret, and these files must not exceed 10 MB in size. The following are the supported file formats:
+  * **Notes field:** You can enter up to 45,000 characters in the **Notes** field of a secret and secret item.
+  * **Input fields** : You can enter up to 255 characters in the input fields, except the **Notes** field, of any secret and secret item.
+  * **Password field:** Secret items that support the **Password** field (such as server, database, and WiFi) have their value masked.
+  * **Attachments:** You can add as many file attachments as you want to a secret, and these files must not exceed 10 MB in size. The following are the supported file formats:
     * CSV
     * JSON
     * DOC
@@ -128,35 +128,35 @@ Currently, you can only make a secret temporary when you are adding the secret t
 
 The following rules apply to a temporary secret:
 
-* Only secrets can be temporary; all other secret items, like databases and servers, don't support this feature.
-* The expiration time is limited from one day to one month or 30 days.
-* Temporary secret cards have a visual identifier in the dashboard indicating the remaining days until expiration, as shown in **Figure 4**. You can also view and edit the expiration time on the secret details page.
+  * Only secrets can be temporary; all other secret items, like databases and servers, don't support this feature.
+  * The expiration time is limited from one day to one month or 30 days.
+  * Temporary secret cards have a visual identifier in the dashboard indicating the remaining days until expiration, as shown in **Figure 4**. You can also view and edit the expiration time on the secret details page.
+
+<img src="../../../.gitbook/assets/AD_4nXdvgb7Moasry2WSyiBg-5IETVIk3nI5T3C-3Jgf5byoFvw1dKkVhTmVbPBVYMQaHpyyFBEdYzqu6ZbgIGSZM1Wa517YRizWI2tQl5FEJx3Muomysfz6QWV7H2q3IPMRLJpluZX-YA.png" alt="Screenshot of the Cerby web app dashboard. The Secrets page is displayed with multiple secret cards. The temporary secret card has an identifier of “2 Days” indicating the remaining days until expiration.">
 
 **Figure 4.** Temporary secret card in the **Secrets** page of the Cerby web app dashboard
 
-<figure><img src="../../../.gitbook/assets/AD_4nXdvgb7Moasry2WSyiBg-5IETVIk3nI5T3C-3Jgf5byoFvw1dKkVhTmVbPBVYMQaHpyyFBEdYzqu6ZbgIGSZM1Wa517YRizWI2tQl5FEJx3Muomysfz6QWV7H2q3IPMRLJpluZX-YA.png" alt="Screenshot of the Cerby web app dashboard. The Secrets page is displayed with multiple secret cards. The temporary secret card has an identifier of “2 Days” indicating the remaining days until expiration."><figcaption></figcaption></figure>
-
-* Deletion events after the expiration time are logged in the **Activity** page.
-* When secrets are deleted after expiration, they are unrecoverable.
+  * Deletion events after the expiration time are logged in the **Activity** page.
+  * When secrets are deleted after expiration, they are unrecoverable.
 * * *
 
 ## Related articles
 
 The following articles contain more information about the Secrets feature:
 
-* [Add a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-secret)
-* [Add a WiFi item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-wifi-item)
-* [Add an SSH key item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-an-ssh-key-item)
-* [Add a database item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-database-item)
-* [Add a server item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-server-item)
-* [Add a software license item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-software-license-item)
-* [Add a custom item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-custom-item)
-* [View a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-a-secret)
-* [View a secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-a-secret-item)
-* [Edit a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/edit-a-secret)
-* [Edit a secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/edit-a-secret-item)
-* [View the secret history and restore a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-the-secret-history-and-restore-a-secret)
-* [Manage access to your secrets and secret items](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/share-a-secret-or-secret-item)
-* [Manage the attachments of a secret and secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/manage-the-attachments-of-a-secret-and-secret-item)
-* [Delete a secret and secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/delete-a-secret-and-secret-item)
-* [Monitor events on the Activity page](https://cerby-test.gitbook.io/cerby-test/management/monitoring/monitor-events-in-the-activity-page)
+  * [Add a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-secret)
+  * [Add a WiFi item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-wifi-item)
+  * [Add an SSH key item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-an-ssh-key-item)
+  * [Add a database item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-database-item)
+  * [Add a server item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-server-item)
+  * [Add a software license item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-software-license-item)
+  * [Add a custom item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-custom-item)
+  * [View a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-a-secret)
+  * [View a secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-a-secret-item)
+  * [Edit a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/edit-a-secret)
+  * [Edit a secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/edit-a-secret-item)
+  * [View the secret history and restore a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-the-secret-history-and-restore-a-secret)
+  * [Manage access to your secrets and secret items](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/share-a-secret-or-secret-item)
+  * [Manage the attachments of a secret and secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/manage-the-attachments-of-a-secret-and-secret-item)
+  * [Delete a secret and secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/delete-a-secret-and-secret-item)
+  * [Monitor events on the Activity page](https://cerby-test.gitbook.io/cerby-test/management/monitoring/monitor-events-in-the-activity-page)

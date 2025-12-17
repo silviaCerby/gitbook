@@ -14,9 +14,9 @@ The following is the difference between a regular and hard refresh in a browser:
 
 The following are the cases for which you can use a hard refresh on a web page:
 
-* You’re not seeing recent updates to Cerby.
-* Layouts or styles seem broken after changes.
-* Changes have been applied to your workspace, and they are not shown on your browser.
+  * You’re not seeing recent updates to Cerby.
+  * Layouts or styles seem broken after changes.
+  * Changes have been applied to your workspace, and they are not shown on your browser.
 * * *
 
 ## Shortcuts to perform a hard refresh of a web page in your browser

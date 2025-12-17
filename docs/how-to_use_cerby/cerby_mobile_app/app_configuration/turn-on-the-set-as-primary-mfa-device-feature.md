@@ -23,10 +23,10 @@ As a user of the Cerby mobile app, you can enable the **Set as primary MFA devic
 
 To turn on the **Set as primary MFA device** feature, you must complete the following steps:
 
-  1. Open the Cerby mobile app on your phone.
-  2. Log in to your Cerby workspace.
-  3. Tap the profile icon. The **My Profile** screen appears.
-  4. Tap the **Settings** option. The **Settings** screen is displayed.
-  5. Activate the **Set as primary MFA device** switch.
+1. Open the Cerby mobile app on your phone.
+2. Log in to your Cerby workspace.
+3. Tap the profile icon. The **My Profile** screen appears.
+4. Tap the **Settings** option. The **Settings** screen is displayed.
+5. Activate the **Set as primary MFA device** switch.
 
 Now you are done.

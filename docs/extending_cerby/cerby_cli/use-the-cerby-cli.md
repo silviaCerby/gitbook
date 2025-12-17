@@ -7,9 +7,9 @@ intercom_id: 9136331
 
 This article is a reference guide for starting to interact with the Cerby CLI features from your command line. Here, you can discover all of Cerby CLI commands available for the following actions:
 
-* Secrets
-* Accounts
-* Sync your data
+* [Secrets](use-the-cerby-cli.md#id-secrets)
+* [Accounts](use-the-cerby-cli.md#id-accounts)
+* [Sync your data](use-the-cerby-cli.md#id-sync-your-data)
 
 ​​The following sections describe each action.
 
@@ -19,8 +19,8 @@ This article is a reference guide for starting to interact with the Cerby CLI fe
 
 Cerby CLI enables you to perform the following actions with your secrets in Cerby:
 
-* Get all secrets
-* Get the value of a secret by ID
+  * [Get all secrets](use-the-cerby-cli.md#id-get-all-secrets)
+  * [Get the value of a secret by ID](use-the-cerby-cli.md#id-get-the-value-of-a-secret-by-id)
 
 ### Get all secrets
 
@@ -32,8 +32,8 @@ By default, the result array contains the first 20 secrets in your Cerby workspa
 
 The resulting JSON has the following main keys:
 
-* `itemsPerPage` (Number): The number of secret objects returned in the secureSecrets array
-* `secureSecrets` (array): The secret object with information about each shared or owned secret in the Cerby workspace
+  * `itemsPerPage` (Number): The number of secret objects returned in the secureSecrets array
+  * `secureSecrets` (array): The secret object with information about each shared or owned secret in the Cerby workspace
     * `body` (Object)
     * `category` (String): The secret category, which might be any of the following: text, server, ssh_key, database, wifi_password, software_license, or custom
     * `createdAt` (String): The date when the secret was created
@@ -56,8 +56,8 @@ The resulting JSON has the following main keys:
     * `version` (Number)
     * `versionId` (String)
     * `workspace` (String): The name of the Cerby workspace to which the secret belongs
-* `startIndex` (Number): Indicates the starting index within the response array from which results are displayed
-* `totalResults` (Number): Indicates the total number of secrets returned in the results, which must be the same number of secrets you see in your workspace
+  * `startIndex` (Number): Indicates the starting index within the response array from which results are displayed
+  * `totalResults` (Number): Indicates the total number of secrets returned in the results, which must be the same number of secrets you see in your workspace
 
 The following is an example of the result the command returns:
 
@@ -112,9 +112,9 @@ The resulting output is the value of the secret.
 
 The Cerby CLI enables you to perform the following actions with your accounts in Cerby:
 
-* Get all accounts
-* Get the information of an account by ID
-* Include the password in the information of an account
+  * [Get all accounts](use-the-cerby-cli.md#id-get-all-accounts)
+  * [Get the information of an account by ID](use-the-cerby-cli.md#id-get-the-information-of-an-account-by-id)
+  * Include the password in the information of an account
 
 ### Get all accounts
 
@@ -126,10 +126,10 @@ By default, the result array contains the first 20 accounts in your Cerby worksp
 
 The resulting JSON has the following main keys:
 
-* `startIndex` (Number): Indicates the starting index within the response array from which results are displayed.
-* `limit` (Number): Indicates the number of account objects returned in the accounts array.
-* `totalResults` (Number): Indicates the total number of accounts the CLI found, which must be the same number of secrets you see in your workspace.
-* `accounts`
+  * `startIndex` (Number): Indicates the starting index within the response array from which results are displayed.
+  * `limit` (Number): Indicates the number of account objects returned in the accounts array.
+  * `totalResults` (Number): Indicates the total number of accounts the CLI found, which must be the same number of secrets you see in your workspace.
+  * `accounts`
     * `id` (String): The ID of the account
     * `name` (String): The name of the account
     * `username` (String): The username used to log in to the account

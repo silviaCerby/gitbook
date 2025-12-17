@@ -21,14 +21,14 @@ intercom_id: 9724952
 
 As an account **Owner** or **Collaborator** , you can view your accounts using the Cerby mobile app, as shown in **Figure 1**.
 
-<figure><img src="../../../../.gitbook/assets/unnamed_21.png" alt=""><figcaption></figcaption></figure><figure><img src="../../../../.gitbook/assets/unnamed_22.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../../.gitbook/assets/unnamed_21.png" alt=""><img src="../../../../.gitbook/assets/unnamed_22.png" alt="">
 
 **Figure 1. Accounts** screens in the Cerby mobile app for iOS (left) and Android (right)
 
 To view your accounts, you must complete the following steps:
 
-  1. Open the Cerby mobile app on your mobile phone.
-  2. Log in to your Cerby workspace.
-  3. Activate the **Accounts** tab located at the top on iOS or Android. The **Accounts** screen is displayed.
+1. Open the Cerby mobile app on your mobile phone.
+2. Log in to your Cerby workspace.
+3. Activate the **Accounts** tab located at the top on iOS or Android. The **Accounts** screen is displayed.
 
 Now you are done.

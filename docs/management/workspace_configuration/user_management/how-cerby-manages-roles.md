@@ -9,26 +9,26 @@ At Cerby, we have implemented roles to determine the tasks, functions, or activi
 
 These roles comprise sets of permissions that are part of a role-based access control (RBAC) system, designed to maintain data security, streamline access management, enhance collaboration, comply with regulations, and ensure that sensitive information is protected.
 
-The advantage of using role-based access management is that, after logging in to a Cerby workspace, members are automatically granted permissions depending on their role. For more information, read the Benefits of RBAC section.
+The advantage of using role-based access management is that, after logging in to a Cerby workspace, members are automatically granted permissions depending on their role. For more information, read the [Benefits of RBAC](how-cerby-manages-roles.md#id-benefits-of-rbac) section.
 
 Cerby manages roles at multiple levels. This article contains the description of each role, which we have categorized as follows:
 
-* Workspace-level roles
-* Item-level roles
-* Business hub-level roles
-* Team-level roles
-* Partnership-level roles
+  * [Workspace-level roles](how-cerby-manages-roles.md#id-workspace-level-roles)
+  * [Item-level roles](how-cerby-manages-roles.md#id-item-level-roles)
+  * [Business hub-level roles](how-cerby-manages-roles.md#id-business-hub-level-roles)
+  * [Team-level roles](how-cerby-manages-roles.md#id-team-level-roles)
+  * [Partnership-level roles](how-cerby-manages-roles.md#id-partnership-level-roles)
 * * *
 
 ## Workspace-level roles
 
 Workspace-level roles determine the features of the Cerby platform available to the users, their access privileges, and their responsibilities. The actions users can perform within a workspace according to their role can be categorized as follows:
 
-* Workspace setup
-* Workspace management
-* User management
-* Security hygiene tasks
-* Item management
+* [Workspace setup](how-cerby-manages-roles.md#id-workspace-setup)
+* [Workspace management](how-cerby-manages-roles.md#id-workspace-management)
+* [User management](how-cerby-manages-roles.md#id-user-management)
+* [Security hygiene tasks](how-cerby-manages-roles.md#id-security-hygiene-tasks)
+* [Item management](how-cerby-manages-roles.md#id-item-management)
 
 The following sections describe the actions for each category.
 
@@ -106,11 +106,11 @@ View all guest workspace members with access to the accounts shared through the 
 Add and remove a local partner.|  |  |  | Yes| Yes| Yes
 Manage users in a local user workspace:
 
-* Add new users.
-* Update the workspace-level role of other users.
-* Reset multi-factor authentication (MFA).
-* Force password reset.
-* Remove users from the workspace.
+  * Add new users.
+  * Update the workspace-level role of other users.
+  * Reset multi-factor authentication (MFA).
+  * Force password reset.
+  * Remove users from the workspace.
 
 |  |  |  | Yes| Yes| Yes
 Invite guest users to join Cerby through the**All Members** page or the Password Manager Importer.|  |  | Yes| Yes| Yes| Yes
@@ -140,7 +140,7 @@ Add an account, secret, or collection to Cerby.|  |  | Yes| Yes| Yes| Yes
 Save accounts at login and signup.|  |  | Yes| Yes| Yes| Yes
 Access the **Business Hubs** page.| Yes| Yes | Yes| Yes| Yes| Yes
 Connect a business hub integration to Cerby.|  |  | Yes| Yes| Yes| Yes
-Share items to which they have the **Owners** role and assign the item role to other users (read the Item-level roles section).|  |  | Yes| Yes| Yes| Yes
+Share items to which they have the **Owners** role and assign the item role to other users (read the [Item-level roles](how-cerby-manages-roles.md#id-item-level-roles) section).|  |  | Yes| Yes| Yes| Yes
 Share items to which they have the **Owner** role with any **Guest User** of a local partner.| Yes***|  | Yes| Yes| Yes| Yes
 Receive shared access to items as **Owners** and **Collaborators**.| Yes****| Yes****| Yes| Yes| Yes| Yes
 Turn on **All-Access Mode** to view all accounts within the workspace and recover accounts by reassigning account **Owners**.|  |  |  |  | Yes| Yes
@@ -157,10 +157,10 @@ View all the items shared with all teams.|  |  |  |  | Yes| Yes
 
 Item-level roles determine the actions users can perform on items, and they can be categorized as follows according to the item type:
 
-* Accounts
-* Secrets
-* Collections
-* Business hubs
+  * [Accounts](how-cerby-manages-roles.md#id-accounts)
+  * [Secrets](how-cerby-manages-roles.md#id-secrets)
+  * [Collections](how-cerby-manages-roles.md#id-collections)
+  * [Business hubs](how-cerby-manages-roles.md#h_1ce2efa84c)
 
 The following sections describe the actions for each item type.
 
@@ -179,9 +179,9 @@ Update the account details.|  | Yes
 Share an account with other users.|  | Yes
 Manage shared access to accounts:
 
-* View the members and teams with shared access to an account.
-* Add and remove **Collaborators** from an account.
-* Change the role of other users and teams on an account.
+  * View the members and teams with shared access to an account.
+  * Add and remove **Collaborators** from an account.
+  * Change the role of other users and teams on an account.
 
 |  | Yes
 Manage the account security by turning on MFA or rotating passwords automatically from Cerby.|  | Yes
@@ -212,10 +212,10 @@ View the content of a secret.| Yes| Yes
 Update the details of a secret (name, body, and attachments).|  | Yes
 Manage shared access to secrets:
 
-* View the users and teams with shared access to a secret.
-* Share a secret with other users.
-* Add and remove **Collaborators** from a secret.
-* Change the role of other users and teams on a secret.
+  * View the users and teams with shared access to a secret.
+  * Share a secret with other users.
+  * Add and remove **Collaborators** from a secret.
+  * Change the role of other users and teams on a secret.
 
 |  | Yes
 Delete a secret.|  | Yes
@@ -233,10 +233,10 @@ View the collection details.|  | Yes
 Update the collection details.|  | Yes
 Manage shared access to secrets:
 
-* View the users and teams with shared access to a collection.
-* Share a collection with other users.
-* Add and remove **Collaborators** from a collection.
-* Change the role of other users and teams on a collection.
+  * View the users and teams with shared access to a collection.
+  * Share a collection with other users.
+  * Add and remove **Collaborators** from a collection.
+  * Change the role of other users and teams on a collection.
 
 |  | Yes
 Delete a collection.|  | Yes
@@ -260,23 +260,23 @@ Change the role of other users and teams on the business hub.|  | Yes
 View the users and teams with access to the external app. |  | Yes
 Manage user access to the external app:
 
-* Add and remove users and teams from the external app.
-* Change the role of other users and teams on the external app.
-* Check for user updates between the external app and the business hub.
+  * Add and remove users and teams from the external app.
+  * Change the role of other users and teams on the external app.
+  * Check for user updates between the external app and the business hub.
 
 |  | Yes
 View the available assets.| Yes| Yes
 Manage user access to assets in the external app
 
-* Add and remove users and teams from the assets.
-* Change the role of other users and teams on the assets.
+  * Add and remove users and teams from the assets.
+  * Change the role of other users and teams on the assets.
 
 |  | Yes
 Manage the user account connected to the business hub integration.| Yes| Yes
 Manage the security of all user accounts from Cerby through automated tasks:
 
-* Turn on 2FA
-* Rotate passwords
+  * Turn on 2FA
+  * Rotate passwords
 
 |  | Yes
 Delete a business hub.|  | Yes
@@ -295,8 +295,8 @@ Receive access as **Owner** or **Collaborator** to the items shared through the 
 View all the accounts, secrets, and collections shared with the team.| Yes| Yes
 Manage the **Team Members** of a self-managed team:
 
-* Add and remove **Team Members**.
-* Assign **Team Admins**.
+  * Add and remove **Team Members**.
+  * Assign **Team Admins**.
 
 |  | Yes
 Remove a self-managed team.|  | Yes
@@ -333,8 +333,8 @@ Invite **Guest Users** to a local partner.|  |  | Yes|  | Yes
 Assign a **Host Admin** to a local partner.|  |  |  |  | Yes
 Manage guest members of a local partner:
 
-* Update the role of **Guest Admins** and **Guest Users**.
-* Remove**Guest Admins** and **Guest Users** from a local partner.
+  * Update the role of **Guest Admins** and **Guest Users**.
+  * Remove**Guest Admins** and **Guest Users** from a local partner.
 
 |  |  | Yes|  | Yes
 
@@ -346,10 +346,10 @@ Manage guest members of a local partner:
 
 The following are the benefits of using the RBAC system in Cerby:
 
-* **Enhanced security:** Access to sensitive data and features is restricted. Only users with specific roles can perform critical actions, reducing the risk of unauthorized access and data breaches.
-* **Access control:** Fine-grained control over what users can and cannot do. Administrators can assign roles and permissions according to each user's job responsibilities.
-* **Compliance and auditing:** Organizations can implement access controls and audit trails, which are essential for demonstrating data security and compliance with industry and legal standards.
-* **Streamlined onboarding and offboarding:** New employees can be quickly assigned the appropriate roles and permissions while departing employees can have their access revoked just as easily.
-* **Efficient collaboration:** Users have the necessary access to work together effectively. RBAC allows organizations to balance the need for collaboration with the need for data security.
-* **Resource management:** RBAC assists in optimizing resource allocation. It ensures that resources are used efficiently and that access to costly or limited resources is restricted to only those who require them.
-* **Transparency:** RBAC offers transparency in access control, making it clear who has access to what resources and why. This transparency can foster trust and accountability within an organization.
+  * **Enhanced security:** Access to sensitive data and features is restricted. Only users with specific roles can perform critical actions, reducing the risk of unauthorized access and data breaches.
+  * **Access control:** Fine-grained control over what users can and cannot do. Administrators can assign roles and permissions according to each user's job responsibilities.
+  * **Compliance and auditing:** Organizations can implement access controls and audit trails, which are essential for demonstrating data security and compliance with industry and legal standards.
+  * **Streamlined onboarding and offboarding:** New employees can be quickly assigned the appropriate roles and permissions while departing employees can have their access revoked just as easily.
+  * **Efficient collaboration:** Users have the necessary access to work together effectively. RBAC allows organizations to balance the need for collaboration with the need for data security.
+  * **Resource management:** RBAC assists in optimizing resource allocation. It ensures that resources are used efficiently and that access to costly or limited resources is restricted to only those who require them.
+  * **Transparency:** RBAC offers transparency in access control, making it clear who has access to what resources and why. This transparency can foster trust and accountability within an organization.

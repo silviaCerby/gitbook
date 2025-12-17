@@ -20,13 +20,14 @@ intercom_id: 9479440
 
 As an account **Owner** , you can update the role of other teams on your accounts using the Cerby web app. To do so, you must complete the following steps:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-  2. Click the **Settings** (<figure><img src="../../../../.gitbook/assets/unnamed_48.png" alt=""><figcaption></figcaption></figure>) icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated.
-  3. Activate the **Teams** tab. The **Teams** section is displayed with a table of teams who have shared access to the account.
-  4. Select the option from the **Cerby role** drop-down list that corresponds to the new role on the account:
-A success message box is displayed.
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
+2. Click the **Settings** (<img src="../../../../.gitbook/assets/unnamed_48.png" alt="">) icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated.
+3. Activate the **Teams** tab. The **Teams** section is displayed with a table of teams who have shared access to the account.
+4. Select the option from the **Cerby role** drop-down list that corresponds to the new role on the account:
 
-     * **Owner:** Teams can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
-     * **Collaborator:** Teams can only view passwords through API responses for account login with Cerby; viewing passwords through the UI is restricted.
+   * **Owner:** Teams can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
+   * **Collaborator:** Teams can only view passwords through API responses for account login with Cerby; viewing passwords through the UI is restricted.
+
+A success message box is displayed.
 
 Now you are done.

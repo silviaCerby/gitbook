@@ -15,7 +15,7 @@ The Cerby mobile app is built using best practices for iOS and Android platforms
 
 The layout is designed to be user-friendly, ensuring that you can find what you need with just a few taps. Whether you're looking to quickly log in to an account or update your authentication methods, the dashboard makes it all accessible, as shown in **Figure 1**.
 
-<figure><img src="../../../.gitbook/assets/unnamed_27.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/unnamed_28.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/unnamed_27.png" alt=""> <img src="../../../.gitbook/assets/unnamed_28.png" alt="">
 
 **Figure 1.** Cerby mobile app dashboard screen on iOS (left) and Android (right)
 

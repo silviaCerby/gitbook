@@ -33,8 +33,9 @@ Additionally, you must have the **Owner** or **Collaborator** role in such exten
 
 To log in to your accounts from a chiclet in your Okta dashboard, you must complete the following steps:
 
-  1. Log in to your Okta dashboard.
-  2. Click the corresponding chiclet or application from your Okta dashboard. Okta redirects you to the Cerby platform and authenticates you automatically if you don’t have an active session in Cerby.
+1. Log in to your Okta dashboard.
+2. Click the corresponding chiclet or application from your Okta dashboard. Okta redirects you to the Cerby platform and authenticates you automatically if you don’t have an active session in Cerby.
+
 The Cerby browser extension autofills your credentials, including verification codes if multi-factor authentication (MFA) is on and managed by Cerby.
 
 Now you are done.

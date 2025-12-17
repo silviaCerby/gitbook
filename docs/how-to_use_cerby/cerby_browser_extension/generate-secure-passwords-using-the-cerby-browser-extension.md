@@ -38,19 +38,21 @@ To generate a password using the Cerby browser extension, you must complete the 
   1. Open the Cerby browser extension popup.
   2. Click the **Password generator** icon located at the top right of the popup. The **Password generator** page is displayed with a suggested password generated, as shown in **Figure 1**.
 
-**Figure 1.** **Password generator** page
+<img src="../../../.gitbook/assets/mWVqDZ7K-4o2MgnlpitoIbUpEgTKZZmK6Me4nDgwA2013KDDxuhm5S0S1jVZK4w7FKJ5aWTbphqMhJIllNo8ODXE8n161SfsluHAoEH4mJJWwr4xrOtowKuTEO45iFs8c2A4WmqbYFyi83-6KnAvZdHvQJU6KwU48URg0GHwhAdBFxd4KuYcSymYg2cuPA.png" alt="Screenshot of the Password Generator page in the Cerby browser extension popup. A secure password is displayed along with the password strength rules.">
 
-<figure><img src="../../../.gitbook/assets/mWVqDZ7K-4o2MgnlpitoIbUpEgTKZZmK6Me4nDgwA2013KDDxuhm5S0S1jVZK4w7FKJ5aWTbphqMhJIllNo8ODXE8n161SfsluHAoEH4mJJWwr4xrOtowKuTEO45iFs8c2A4WmqbYFyi83-6KnAvZdHvQJU6KwU48URg0GHwhAdBFxd4KuYcSymYg2cuPA.png" alt="Screenshot of the Password Generator page in the Cerby browser extension popup. A secure password is displayed along with the password strength rules."><figcaption></figcaption></figure>
+**Figure 1.** **Password generator** page
 
   3. Slide the **Length (characters)** bar to set the desired password length.
   4. Select the options of the password strength rules to apply to the password:
-A new password is generated each time you select or deselect an option.
-**TIP:** You can click the **Generate new** icon to regenerate the password anytime.
 
      * **Use uppercase letters (A-Z)**
      * **Use lowercase letters (a-z)**
      * **Use digits (0-9)**
      * **Use symbols (@#$%^ &)**
+
+A new password is generated each time you select or deselect an option.
+
+**TIP:** You can click the **Generate new** icon to regenerate the password anytime.
 
   5. Click the **Copy** icon to copy the generated password to the clipboard.
   6. Paste the password where you need it.

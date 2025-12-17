@@ -21,7 +21,7 @@ intercom_id: 9724920
 
 As a collection **Owner** or **Collaborator** , you can see how your items are organized in collections and subcollections using the Cerby mobile app, as shown in **Figure 1**.
 
-<figure><img src="../../../../.gitbook/assets/unnamed_25.png" alt=""><figcaption></figcaption></figure><figure><img src="../../../../.gitbook/assets/unnamed_26.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../../.gitbook/assets/unnamed_25.png" alt=""><img src="../../../../.gitbook/assets/unnamed_26.png" alt="">
 
 **Figure 1. Collections** screens in the Cerby mobile app for iOS (left) and Android (right)
 
@@ -32,9 +32,9 @@ The **Collections** screen shows the following information:
 
 To view your collections, you must complete the following steps:
 
-  1. Open the Cerby mobile app on your mobile phone.
-  2. Log in to your Cerby workspace.
-  3. Activate the **Collections** tab located at the top on iOS or tap the **Collections** button located at the bottom navigation bar on Android. The **Collections** screen is displayed.
+1. Open the Cerby mobile app on your mobile phone.
+2. Log in to your Cerby workspace.
+3. Activate the **Collections** tab located at the top on iOS or tap the **Collections** button located at the bottom navigation bar on Android. The **Collections** screen is displayed.
 
 **NOTES:** Consider the following when viewing your collections:
 

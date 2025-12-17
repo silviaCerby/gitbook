@@ -38,16 +38,16 @@ To save the backup or recovery codes of your account, you must complete the foll
 
 
 {% endhint %}
-  1. Log in to your app in a web browser.
-  2. Navigate to the MFA page in your app settings.
-  3. Look for the backup or recovery codes option.
-  4. Copy the codes. Commonly, the apps display a list of single-use codes.
-  5. Open a separate browser tab.
-  6. Log in to your [Cerby](https://app.cerby.com/) workspace.
-  7. Click the corresponding account card. The account details page is displayed with the **Settings** tab activated.
-  8. Expand the **Emergency controls** section at the bottom of the account details page.
-  9. Click the **Add codes** button. The **Add MFA Backup Codes** dialog box is displayed.
-  10. Paste the codes in the **MFA Backup Codes** field.
-  11. Click the **Save Codes** button. The dialog box closes, and a success message is displayed.
+1. Log in to your app in a web browser.
+2. Navigate to the MFA page in your app settings.
+3. Look for the backup or recovery codes option.
+4. Copy the codes. Commonly, the apps display a list of single-use codes.
+5. Open a separate browser tab.
+6. Log in to your [Cerby](https://app.cerby.com/) workspace.
+7. Click the corresponding account card. The account details page is displayed with the **Settings** tab activated.
+8. Expand the **Emergency controls** section at the bottom of the account details page.
+9. Click the **Add codes** button. The **Add MFA Backup Codes** dialog box is displayed.
+10. Paste the codes in the **MFA Backup Codes** field.
+11. Click the **Save Codes** button. The dialog box closes, and a success message is displayed.
 
 Now you are done.

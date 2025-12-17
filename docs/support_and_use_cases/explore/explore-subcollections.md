@@ -16,7 +16,7 @@ With **Subcollections** , you can efficiently organize your accounts and secrets
 
 **Figure 1** shows how secrets, accounts, and subcollections are displayed in the **Collections** view.
 
-<figure><img src="../../../.gitbook/assets/Lt2FfDDdh6VXAWXPak8AHRlYd01jWxFgfa8llH3ZZTrd3s979DYDTZ5j9hRBIOKJM6aGp85UgcVDtZATyLvM3yowwckCSIYaNG0DkSEFfnEqzE3LYP2GO-g_FV6ugZn0mqeuB_tOtBuLS727MeQepRk.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/Lt2FfDDdh6VXAWXPak8AHRlYd01jWxFgfa8llH3ZZTrd3s979DYDTZ5j9hRBIOKJM6aGp85UgcVDtZATyLvM3yowwckCSIYaNG0DkSEFfnEqzE3LYP2GO-g_FV6ugZn0mqeuB_tOtBuLS727MeQepRk.png" alt="">
 
 **Figure 1. Collections** view of the Cerby web app dashboard
 
@@ -48,7 +48,7 @@ Click the corresponding links to open the instructions for each action.
 {% hint style="info" %}
 
 
-**NOTE:** Our Development team continues working on the Subcollections feature. Refer to the Known issues in subcollections section for a list of known issues. We will keep you posted when these issues are resolved.
+**NOTE:** Our Development team continues working on the Subcollections feature. Refer to the [Known issues in subcollections](explore-subcollections.md#id-known-issues-in-subcollections)section for a list of known issues. We will keep you posted when these issues are resolved.
 
 
 {% endhint %}
@@ -62,7 +62,7 @@ The following are the known issues in subcollections. Our Development team is al
 * It is not possible to reassign a subcollection yet.
 * If you get the following error when [adding an existing subcollection to a parent collection](https://docs.google.com/document/d/1_taRKHSX2zpT_s6Kj4JwyAwQSqMANMeo_YEraXFvAL4/edit#heading=h.rvg4f8khaicc): “An unexpected error happened while adding to the <parent collection> collection,” as shown in **Figure 2.**
 
-<figure><img src="../../../.gitbook/assets/odf3Luyz-dPK6twzBTVo5hy65aJAOrgJn1SiNvMOyc1TBRB3oqDG49ka9t7ZwkfVfxA3w5ZAX9YIlHaoy5niyBpDZ5kba0e0mLGjQJVxM2xUrzqJt98vws8vZu2BYa-ta5RLhsO0ZLq6bE9zeg6nVKE.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/odf3Luyz-dPK6twzBTVo5hy65aJAOrgJn1SiNvMOyc1TBRB3oqDG49ka9t7ZwkfVfxA3w5ZAX9YIlHaoy5niyBpDZ5kba0e0mLGjQJVxM2xUrzqJt98vws8vZu2BYa-ta5RLhsO0ZLq6bE9zeg6nVKE.png" alt="">
 
 **Figure 2**. “An unexpected error happened while adding to the <parent collection> collection” error message
 

@@ -46,22 +46,22 @@ This article provides instructions on how to connect a business hub for Embedly.
 
 The following are the requirements to connect a business hub:
 
-* A Cerby workspace
-* A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
-* An Embedly project
-* Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* An automation account, meaning an active user account in Embedly. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
-* A project name. You can find the name in the address bar after logging in to Embedly. It’s the last part of the URL after the **`organization`** subdirectory. For example, **`https://app.embed.ly/organization/cerby`**
+  * A Cerby workspace
+  * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
+  * An Embedly project
+  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * An automation account, meaning an active user account in Embedly. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+  * A project name. You can find the name in the address bar after logging in to Embedly. It’s the last part of the URL after the **`organization`** subdirectory. For example, **`https://app.embed.ly/organization/cerby`**
 * * *
 
 ## Connect a business hub for Embedly
 
 To connect a business hub to Embedly, you must complete the following main steps from the Cerby web app dashboard:
 
-  1. Add a business hub and connect it to Embedly
-  2. Check for updates to import users to Cerby
-  3. Connect your app’s user account to the business hub
-  4. Manage unmatched users
+  1. [Add a business hub and connect it to Embedly](connect-a-business-hub-for-embedly.md#id-1.-add-a-business-hub-and-connect-it-to-embedly)
+  2. [Check for updates to import users to Cerby](connect-a-business-hub-for-embedly.md#id-2.-check-for-updates-to-import-users-to-cerby)
+  3. [Connect your app’s user account to the business hub](connect-a-business-hub-for-embedly.md#id-3.-connect-your-apps-user-account-to-the-business-hub)
+  4. [Manage unmatched users](connect-a-business-hub-for-embedly.md#id-4.-manage-unmatched-users)
 
 The following sections describe each main step.
 
@@ -72,18 +72,20 @@ To add a business hub and connect it to Embedly, you must complete the following
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
   2. Select the **Business Hubs** option from the left navigation drawer. The **Business Hubs** view is displayed.
   3. Click the **Connect Business Hub** button located at the top-right corner of the page. The **Connect your Business Hubs to Cerby** dialog box is displayed.
-**TIP:** You can select the **Don’t show this again** option to skip this step the next time you connect a new business hub.
+
+  **TIP:** You can select the **Don’t show this again** option to skip this step the next time you connect a new business hub.
 
   4. Click the **Get started** button. A wizard is displayed on the **Select app** page.
   5. Select the **Embed.Ly - API Tenant** app from the catalog. The **Enter app details** page is displayed on the wizard.
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **Project name:** It is the unique identifier of your Embedly project. For instructions on how to find it, read the Requirements section.
+     * **Project name:** It is the unique identifier of your Embedly project. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-embedly.md#id-requirements) section.
      * **User management and login method:** It is the way your users log in to the app and determines if they must save their credentials in Cerby.
 
        1. Select the **Username and password** option because account security and access are managed by Ceby, and users log in with their credentials after saving them in Cerby.
-**IMPORTANT:** The **Single sign-on (SSO)** option is not supported by Embedly.
+
+       **IMPORTANT:** The **Single sign-on (SSO)** option is not supported by Embedly.
 
   7. Click the **Next** button. The **Select automation account** page is displayed. One of the following scenarios occurs:
 
@@ -97,17 +99,19 @@ To add a business hub and connect it to Embedly, you must complete the following
        1. Enter your account details in the corresponding fields:
 
           * **Account label in Cerby:** It is the name to assign to your account in Cerby, and it is displayed on the account card.
-          * **App:** It is the name of the app or service provider to which the account belongs or the login URL.\
-            **NOTE:** The app you selected in step 5 is displayed on this field, and you cannot change it.
+          * **App:** It is the name of the app or service provider to which the account belongs or the login URL.
+
+          **NOTE:** The app you selected in step 5 is displayed on this field, and you cannot change it.
 
           * **Username:** It is the username you use to log in to your account. Sometimes, the username is your email address.
           * **Current password:** It is the password you use to log in to your account.
           * **Phone Number Linked to Account:** It is the phone number associated with your account
 
        2. Click the **Add account** button.
+
 The wizard closes, and a success message box is displayed. The corresponding business hub is also displayed on the **Business Hubs** view.
 
-The next step is 2\. Check for updates to import users to Cerby.
+The next step is [2. Check for updates to import users to Cerby](connect-a-business-hub-for-embedly.md#id-2.-check-for-updates-to-import-users-to-cerby).
 
 ### 2\. Check for updates to import users to Cerby
 
@@ -116,7 +120,8 @@ To check for updates in your app to identify and import users to Cerby, you must
   1. Select the **Business Hubs** option from the left navigation drawer. The **Business Hubs** view is displayed.
   2. Click the **Settings** icon of the corresponding business hub card. The business hub details page is displayed with the **Settings** tab activated.
   3. Click the **Check for updates** button located at the top right of the page. A message box is displayed with information about the process.
-**NOTE:** The check and import process may take a few minutes depending on the number of users, and because Cerby automatically matches users to their corresponding Cerby user account.
+
+  **NOTE:** The check and import process may take a few minutes depending on the number of users, and because Cerby automatically matches users to their corresponding Cerby user account.
 
   4. Confirm that the **Check for updates** automated task has the “Completed” status by performing any of the following actions:
 
@@ -131,7 +136,7 @@ To check for updates in your app to identify and import users to Cerby, you must
 
 {% endhint %}
 
-The next step is 3\. Connect your app’s user account to the business hub.
+The next step is [3. Connect your app’s user account to the business hub](connect-a-business-hub-for-embedly.md#id-3.-connect-your-apps-user-account-to-the-business-hub).
 
 ### 3\. Connect your app’s user account to the business hub
 
@@ -142,14 +147,14 @@ To connect your app’s user account to the business hub so Cerby can manage and
   3. Enter the login credentials of your Embedly user account.
   4. Click the **Connect account** button. The dialog box closes, and a success message box and a new account card for your user account are displayed.
 
-The next step is 4\. Manage unmatched users, which you must complete from your Cerby dashboard.
+The next step is [4. Manage unmatched users](connect-a-business-hub-for-embedly.md#id-4.-manage-unmatched-users), which you must complete from your Cerby dashboard.
 
 ### 4\. Manage unmatched users
 
 After a check for updates, make sure you manage all unmatched users. By matching users, Cerby ensures that the app’s user accounts correspond to the users’ corporate identities; therefore, you can perform the following automated user management tasks on them:
 
-* Invite app members
-* Remove app members
+  * Invite app members
+  * Remove app members
 
 Additionally, if you have IdP groups configured, you can benefit from automatic user provisioning and deprovisioning based on IdP events, such as account deactivation or group assignments.
 
@@ -169,16 +174,17 @@ To view the status of the imported app’s users, you must complete the followin
 The app members are displayed in the following tabs of the **User Overview** section:
 
      * **Unmatched users:** This tab displays the users who were not automatically matched because they use an email address that couldn’t be identified or they are not in the corporate directory.
-     * **Onboarded users:** This tab displays the users matched to their Cerby user account.\
-       **NOTE:** After a check for updates, Cerby automatically matches users to their Cerby user accounts according to their email addresses. Manual matching is required for apps that don't provide email addresses or for which users access through personal accounts.
+     * **Onboarded users:** This tab displays the users matched to their Cerby user account.
+
+     **NOTE:** After a check for updates, Cerby automatically matches users to their Cerby user accounts according to their email addresses. Manual matching is required for apps that don't provide email addresses or for which users access through personal accounts.
 
      * **Guest users:** This tab displays the users who were matched to a user account but it doesn’t exist in the corporate directory, such as external collaborators.
 
 For unmatched users, you can perform one of the following actions:
 
-* Match users
-* Remove unmatched users
-* Exempt unmatched users
+  * [Match users](connect-a-business-hub-for-embedly.md#id-match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-embedly.md#id-remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-embedly.md#id-exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -222,13 +228,13 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 The following are the supported features of Business hubs you can use:
 
-* [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
-* [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
-* [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
-* [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
-* [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
-* [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
-* [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
-* [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
+  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+  * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

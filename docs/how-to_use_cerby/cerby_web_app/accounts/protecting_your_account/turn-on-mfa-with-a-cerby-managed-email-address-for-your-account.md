@@ -33,11 +33,11 @@ While Cerby recommends using its authenticator app feature for MFA when supporte
 
 The following are the requirements to turn on MFA with a Cerby-managed email address:
 
-* A Cerby workspace
-* A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
-* An account in an app or service provider
-* An account added to Cerby to which you have the **Owner** role
-* A Cerby-managed email address already associated with your account. For instructions, read the article [Set up and associate a Cerby-managed email address for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/set-up-and-associate-a-cerby-managed-email-address-for-your-account)
+  * A Cerby workspace
+  * A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
+  * An account in an app or service provider
+  * An account added to Cerby to which you have the **Owner** role
+  * A Cerby-managed email address already associated with your account. For instructions, read the article [Set up and associate a Cerby-managed email address for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/set-up-and-associate-a-cerby-managed-email-address-for-your-account)
 * * *
 
 ## Turn on MFA with a Cerby-managed email address for your account
@@ -50,6 +50,7 @@ To turn on MFA with a Cerby-managed email address for your account, you must com
   4. Select email address as the MFA verification method.
   5. Enter the Cerby-managed email address.
   6. Verify the email address when prompted.
-**IMPORTANT:** You must enter a verification code to complete the configuration process. If you had previously set up auto-forward, the email with the code will be sent to the selected recipients; if you didn’t set it up, complete the instructions in the article [Forward a message from your Cerby inbox](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/forward-a-message-from-your-cerby-inbox) to forward you the message.
+
+  **IMPORTANT:** You must enter a verification code to complete the configuration process. If you had previously set up auto-forward, the email with the code will be sent to the selected recipients; if you didn’t set it up, complete the instructions in the article [Forward a message from your Cerby inbox](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/forward-a-message-from-your-cerby-inbox) to forward you the message.
 
 Now you are done.

@@ -19,8 +19,8 @@ intercom_id: 9759116
 
 The following sections contain instructions to troubleshoot the most common issues with the **[Extended account access](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-extended-account-access)** feature:
 
-* Sync your extended accounts with Okta manually
-* Remove a user with All-Access Mode from an extended account
+  * [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#id-sync-your-extended-accounts-with-okta-manually)
+  * [Remove a user with All-Access Mode from an extended account](troubleshooting-extended-account-access.md#id-remove-a-user-with-all-access-mode-from-an-extended-account)
 * * *
 
 ## Sync your extended accounts with Okta manually
@@ -29,8 +29,8 @@ If one or multiple extended accounts are not automatically updated in Okta after
 
 Two methods are available to sync your extended accounts with Okta manually:
 
-* Sync one extended account
-* Sync all your extended accounts
+* [Sync one extended account](troubleshooting-extended-account-access.md#id-sync-one-extended-account)
+* [Sync all your extended accounts](troubleshooting-extended-account-access.md#id-sync-all-your-extended-accounts)
 
 The following sections describe each method.
 
@@ -38,12 +38,12 @@ The following sections describe each method.
 
 To sync only one extended account, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
-  2. Click the corresponding account card. The account details page is displayed.
-  3. Expand the**Connected services and apps** section.
-  4. Click the **More options** (<figure><img src="../../../.gitbook/assets/unnamed_14.png" alt=""><figcaption></figcaption></figure>) icon. A drop-down list is displayed.
-  5. Select the **Sync account manually** option from the list. The **Sync account manually?** dialog box is displayed.
-  6. Click the **Sync account** button. The dialog box closes, and Cerby starts syncing your account.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
+2. Click the corresponding account card. The account details page is displayed.
+3. Expand the**Connected services and apps** section.
+4. Click the **More options** (<img src="../../../.gitbook/assets/unnamed_14.png" alt="">) icon. A drop-down list is displayed.
+5. Select the **Sync account manually** option from the list. The **Sync account manually?** dialog box is displayed.
+6. Click the **Sync account** button. The dialog box closes, and Cerby starts syncing your account.
 
 Now you are done.
 
@@ -51,12 +51,12 @@ Now you are done.
 
 To sync all your extended accounts, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
-  2. Click the user profile menu at the top right of the Cerby dashboard. A drop-down menu is displayed.
-  3. Select the **My Profile** option. The **My Profile** page is displayed with the **General** tab activated.
-  4. Expand the**Connected Apps and Services** section.
-  5. Click the **Sync with Okta** button. The **Sync your accounts with Okta manually?** dialog box is displayed.
-  6. Click the **Sync accounts** button. The dialog box closes, and Cerby starts syncing all your extended accounts.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
+2. Click the user profile menu at the top right of the Cerby dashboard. A drop-down menu is displayed.
+3. Select the **My Profile** option. The **My Profile** page is displayed with the **General** tab activated.
+4. Expand the**Connected Apps and Services** section.
+5. Click the **Sync with Okta** button. The **Sync your accounts with Okta manually?** dialog box is displayed.
+6. Click the **Sync accounts** button. The dialog box closes, and Cerby starts syncing all your extended accounts.
 
 Now you are done.
 
@@ -68,7 +68,7 @@ If you or another workspace **Super Admin** or **Owner** turns on **All-Access M
 
 This behavior is due to Cerby’s role-based access control (RBAC) system, because **All-Access Mode** enables users to view all accounts within the workspace and recover accounts by reassigning **Owners**.
 
-To solve this issue, you must turn off **All-Access Mode** first and then follow the corresponding instructions from the Sync your extended accounts with Okta manually section to sync one or multiple accounts.
+To solve this issue, you must turn off **All-Access Mode** first and then follow the corresponding instructions from the [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#id-sync-your-extended-accounts-with-okta-manually) section to sync one or multiple accounts.
 
 * * *
 

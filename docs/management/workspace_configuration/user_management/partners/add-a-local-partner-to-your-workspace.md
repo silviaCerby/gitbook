@@ -28,8 +28,8 @@ This article describes how to add a local partner to your Cerby workspace.
 
 The following are the requirements to add a local partner to your workspace:
 
-* The email address of the user from your partner’s side to be assigned as the **Guest Admin**.
-* The email address of the user in your workspace who will be the **Host Admin** for managing the local partner.
+  * The email address of the user from your partner’s side to be assigned as the **Guest Admin**.
+  * The email address of the user in your workspace who will be the **Host Admin** for managing the local partner.
 
 {% hint style="danger" %}
 
@@ -54,7 +54,7 @@ To add a local partner to your Cerby workspace, you must complete the following 
 
      * **Assign a name for your partner’s company:** The name of your partner’s company.
      * **Partner’s email address:** The email address of the member from your partner’s organization who will become the **Guest Admin**.
-**IMPORTANT:** The **Guest** **Admin** and **Host** **Admin** must use email addresses from different domains to establish the partnership.
+     **IMPORTANT:** The **Guest** **Admin** and **Host** **Admin** must use email addresses from different domains to establish the partnership.
 
      * **Role:** The role assigned to the first partner’s member. By default, you can only select the **Guest admin** option.
      * **Assign a partnership host:** The workspace user who is granted the Host Admin role for managing a local partner, including its guest admins and users. You can assign this role to yourself and other users.

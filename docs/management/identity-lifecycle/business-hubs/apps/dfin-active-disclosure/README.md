@@ -1,2 +1,0 @@
-# DFIN Active Disclosure
-

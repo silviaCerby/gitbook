@@ -20,17 +20,17 @@ As an account owner or collaborator, you can access the following features of Ce
 The solution we offer combines the following three clients that work together to provide you with the best experience:
 
 * **Browser extension:** It enables you to log in to your accounts by automatically filling the credentials you store in Cerby in the corresponding fields of your apps. It also helps automate all of the security hygiene tasks available in Cerby.
-    * The Cerby browser extension is available for the following browsers:
-      * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
-      * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
-      * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
-      * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
+  * The Cerby browser extension is available for the following browsers:
+    * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cerby-s-browser-extension/)
+    * [Google Chrome](https://chrome.google.com/webstore/detail/cerbys-browser-extension/clccplmaaeihbagbefjinmclielobnkb)
+    * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cerbys-browser-extension/bbaiiaogfdgpbapebajffliefkfipoif)
+    * [Safari](https://apps.apple.com/mx/app/cerby-web-extension/id1581820030?l=en&mt=12)
 * **Mobile app:** It enables you to access your accounts from your mobile device. It also serves as a second device to authenticate for sensitive tasks by providing you with verification codes.
-    * The Cerby mobile app is available for the following operating systems:
-      * [Android](https://play.google.com/store/apps/details?id=com.cerby)
-      * [iOS](https://apps.apple.com/co/app/cerby/id1533747684)
+  * The Cerby mobile app is available for the following operating systems:
+    * [Android](https://play.google.com/store/apps/details?id=com.cerby)
+    * [iOS](https://apps.apple.com/co/app/cerby/id1533747684)
 * **Web app:** It enables you to manage all your accounts, share access with your team, and access your accounts, all from a single place.
-    * The [Cerby web app](https://app.cerby.com/) is available for any browser.
+  * The [Cerby web app](https://app.cerby.com/) is available for any browser.
 
 So, say goodbye to sharing credentials through spreadsheets, phone calls, or emails. Also, forget about configuring multi-factor authentication or rotating passwords. We got you covered and can do all the hard work for you.
 
@@ -45,15 +45,15 @@ Let’s get started. Below are key videos grouped under the main actions you'll 
 ### How Do I Add My Accounts?
 
 * How to add a business center account
-    * Meta
-      * [How to add](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/video-how-to-add-a-business-center-to-your-cerby-workspace)
-      * [How to synchronize](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/video-how-to-synchronize-a-business-center-using-facebook-business-manager)
-      * [How to share](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/video-how-to-share-a-business-center-and-its-assets)
-      * [How to accept an invite](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/video-how-to-accept-a-business-center-invite)
-    * Others (videos coming soon):
-      * [TikTok](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/tiktok-for-business/connect-a-business-hub-for-tiktok-business-center)
-      * [Pinterest](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/pinterest-business-manager/connect-a-pinterest-business-center-app-integration)
-      * [Snapchat](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/snapchat-business-manager/connect-a-snapchat-business-center-app-integration)
+  * Meta
+    * [How to add](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/video-how-to-add-a-business-center-to-your-cerby-workspace)
+    * [How to synchronize](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/video-how-to-synchronize-a-business-center-using-facebook-business-manager)
+    * [How to share](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/video-how-to-share-a-business-center-and-its-assets)
+    * [How to accept an invite](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/video-how-to-accept-a-business-center-invite)
+  * Others (videos coming soon):
+    * [TikTok](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/tiktok-for-business/connect-a-business-hub-for-tiktok-business-center)
+    * [Pinterest](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/pinterest-business-manager/connect-a-pinterest-business-center-app-integration)
+    * [Snapchat](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/paid-social-apps/snapchat-business-manager/connect-a-snapchat-business-center-app-integration)
 * [How to add a managed application account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/video-how-to-add-a-managed-account)
 * [How to add a new application or service](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/video-how-to-add-an-account-for-a-new-service)
 

@@ -29,8 +29,8 @@ Emplifi| Yes| Yes
 
 To solve the disconnection issue, you have two options:
 
-* Automatic reconnection for supported apps
-* Manual reconnection
+* [Automatic reconnection for supported apps](unpublished-troubleshooting-reconnect-social-media-management-platforms-after-a-password-rotation.md#id-automatic-reconnection-for-supported-apps)
+* [Manual reconnection](unpublished-troubleshooting-reconnect-social-media-management-platforms-after-a-password-rotation.md#id-manual-reconnection)
 
 The following sections describe the steps to complete for each option.
 
@@ -38,11 +38,11 @@ The following sections describe the steps to complete for each option.
 
 For supported apps, as shown in **Table 1** , the Cerby Support team can help you configure your accounts to automatically reconnect your management platforms and social media apps after a password rotation. For us to do so, you must complete the following steps:
 
-  1. Add the supported social media management platform account to Cerby.
-  2. Contact the Cerby Support team to configure the supported social media app accounts in Cerby. You must provide the following information:
+1. Add the supported social media management platform account to Cerby.
+2. Contact the Cerby Support team to configure the supported social media app accounts in Cerby. You must provide the following information:
 
-     * The name of your social media accounts in Cerby that are connected to the social media management platform.
-     * The name of your social media management platform account in Cerby.
+   * The name of your social media accounts in Cerby that are connected to the social media management platform.
+   * The name of your social media management platform account in Cerby.
 
 We will contact you when we complete the configuration.
 

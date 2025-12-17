@@ -19,12 +19,12 @@ intercom_id: 9044790
 
 As a **Partnership Owner** or**Admin** from both the host and guest workspaces, you can remove a host-guest partnership. To do so, you must complete the following steps:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Partners** option from the left navigation drawer. The **Partners** view is displayed.
-  3. Select the corresponding partner from the list in the **Your partners** section. The partner details are displayed on the main panel.
-  4. Click the **More actions** icon located at the top right corner of the partner details. A drop-down list is displayed.
-  5. Select the **Remove partner** option. The **Remove partner?** dialog box is displayed
-  6. Click the **Remove** button. The dialog box closes, and a success message box is displayed.
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Partners** option from the left navigation drawer. The **Partners** view is displayed.
+3. Select the corresponding partner from the list in the **Your partners** section. The partner details are displayed on the main panel.
+4. Click the **More actions** icon located at the top right corner of the partner details. A drop-down list is displayed.
+5. Select the **Remove partner** option. The **Remove partner?** dialog box is displayed
+6. Click the **Remove** button. The dialog box closes, and a success message box is displayed.
 
 {% hint style="info" %}
 

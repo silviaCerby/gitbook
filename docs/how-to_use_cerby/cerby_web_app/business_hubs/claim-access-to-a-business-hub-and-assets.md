@@ -31,15 +31,16 @@ The goal of the claim access flow is to let Cerby know you are ready to join the
 
 To claim access to a business hub and assets, you must complete the following steps after receiving an invite email from Cerby:
 
-  1. Open the invite email that Cerby sent you.
-  2. Click the **Go to Cerby** button in the email. A new browser tab is displayed, redirecting you to the **All Accounts** page in the Cerby web app dashboard.
-  3. Click the account card that corresponds to the business hub and has the “Claim your invite” status. A dialog box for claiming access is displayed.
-**NOTE:** Collection and business hub **Owners** who don’t need a seat can skip the process by clicking the **Skip** button in the dialog box. For more information and instructions, read the section Skip claiming access to a business hub.
+1. Open the invite email that Cerby sent you.
+2. Click the **Go to Cerby** button in the email. A new browser tab is displayed, redirecting you to the **All Accounts** page in the Cerby web app dashboard.
+3. Click the account card that corresponds to the business hub and has the “Claim your invite” status. A dialog box for claiming access is displayed.
 
-  4. Click the **Send email invite** button. The **Review your email** dialog box is displayed.
+**NOTE:** Collection and business hub **Owners** who don’t need a seat can skip the process by clicking the **Skip** button in the dialog box. For more information and instructions, read the section [Skip claiming access to a business hub](claim-access-to-a-business-hub-and-assets.md#id-skip-claiming-access-to-a-business-hub).
+
+4. Click the **Send email invite** button. The **Review your email** dialog box is displayed.
 Cerby adds you to the external app, and you receive an invite email from the external app.
 
-  5. Join the app and set up your business hub access by following the instructions in the article [Join your external app and set up your business hub access](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access).
+5. Join the app and set up your business hub access by following the instructions in the article [Join your external app and set up your business hub access](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access).
 
 Now you are done.
 

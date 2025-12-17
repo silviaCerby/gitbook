@@ -11,7 +11,7 @@ Scout is a browser extension that accelerates and improves the building process 
 
 **Figure 1** shows how the Scout browser extension looks.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXdXAu1YH2unkib1NWwfAVlMDE58bdxT_bF8Hu74ZLo5VJXkEgA4lSEF2psFPE4FBvMbJrARdA3YavybL1tARO5zQ4zpBJwKeC33zIywNq8IoUqwsFXOu4ADy7yqCnPdR_Y9GdRPfjdluC_WgjD9o3_Q4qNa.png" alt="Screenshot of Scout"><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXdXAu1YH2unkib1NWwfAVlMDE58bdxT_bF8Hu74ZLo5VJXkEgA4lSEF2psFPE4FBvMbJrARdA3YavybL1tARO5zQ4zpBJwKeC33zIywNq8IoUqwsFXOu4ADy7yqCnPdR_Y9GdRPfjdluC_WgjD9o3_Q4qNa.png" alt="Screenshot of Scout">
 
 **Figure 1.** Scout browser extension popup on top of a web browser
 
@@ -30,7 +30,7 @@ The following are the manual business workflows and tasks you can capture so tha
 {% hint style="danger" %}
 
 
-**IMPORTANT:** Scout doesn’t capture or store input values entered in any field. When your organization has enabled this feature, only workspace **Admins** and **Super Admins** can authorize Scout. For more information, read the How Scout protects your privacy section.
+**IMPORTANT:** Scout doesn’t capture or store input values entered in any field. When your organization has enabled this feature, only workspace **Admins** and **Super Admins** can authorize Scout. For more information, read the [How Scout protects your privacy](explore-scout.md#id-how-scout-protects-your-privacy) section.
 
 
 {% endhint %}
@@ -43,17 +43,17 @@ Scout captures all your user interface (UI) interactions on a web browser, such 
 
 To get started, you must authenticate by providing an API key that you generate in the Cerby web app with the following scopes:
 
-* **Read automated jobs:** Enables reading automated job data.
-* **Write automated jobs:** Enables writing automated job data.
+  * **Read automated jobs:** Enables reading automated job data.
+  * **Write automated jobs:** Enables writing automated job data.
 
 After authentication, you can start scouting your workflows in the current browser tab. All your interactions are captured as they occur, and you can stop the recording when you are done.
 
 Before sending the scouting report, you can preview it using the following playback controls:
 
-* Play and pause
-* Progress bar
-* Full-screen mode
-* Speed selector
+  * Play and pause
+  * Progress bar
+  * Full-screen mode
+  * Speed selector
 * * *
 
 ## How Scout protects your privacy
@@ -64,10 +64,10 @@ When using Scout to capture your UI interactions, Cerby prioritizes the protecti
 
 To provide valuable insights while maintaining your privacy, Scout captures user interactions on a webpage considering the following:
 
-* **On-demand and tab-specific capture:** Scout captures user interactions from the specific browser tab the user specifies and operates strictly on demand. If a user does not actively start Scout it does not send any data to our servers.
-* **Interaction paths:** Scout captures user interactions from the tab, focusing on elements, such as input fields and buttons where users click. These data points are used to automatically create your app integration workflows.
-* **Playback of web content:** Cerby uses the Scout data to replay the web views and user interactions. Scout never records an actual video of the screen or browser tab.
-* **Masked input data:** Scout masks all input fields–such as usernames, email addresses, and other sensitive information–ensuring that your private data is not captured or made visible to Cerby.
+  * **On-demand and tab-specific capture:** Scout captures user interactions from the specific browser tab the user specifies and operates strictly on demand. If a user does not actively start Scout it does not send any data to our servers.
+  * **Interaction paths:** Scout captures user interactions from the tab, focusing on elements, such as input fields and buttons where users click. These data points are used to automatically create your app integration workflows.
+  * **Playback of web content:** Cerby uses the Scout data to replay the web views and user interactions. Scout never records an actual video of the screen or browser tab.
+  * **Masked input data:** Scout masks all input fields–such as usernames, email addresses, and other sensitive information–ensuring that your private data is not captured or made visible to Cerby.
 
 Scout’s approach protects your privacy and security. It shares only what is necessary to build and maintain business workflows.
 
@@ -75,9 +75,9 @@ Scout’s approach protects your privacy and security. It shares only what is ne
 
 Cerby understands the critical importance of privacy and security for our customers; protecting your secrets is what we do best. We designed Scout to gather the data we require while omitting unnecessary or sensitive fields.
 
-* **Application credentials:** Scout does _not_ capture passwords or other credentials. Masked fields are automatically excluded from capture.
-* **User data entry:** Scout does not capture browser input fields.
-* **Headers and cookies** : Scout does not capture raw POST data, headers, or cookies.
+  * **Application credentials:** Scout does _not_ capture passwords or other credentials. Masked fields are automatically excluded from capture.
+  * **User data entry:** Scout does not capture browser input fields.
+  * **Headers and cookies** : Scout does not capture raw POST data, headers, or cookies.
 
 We recognize that business application administrators have demanding workloads; therefore, we aim to alleviate that burden. Scout allows us to work asynchronously with our customers on their schedule, not ours. We believe in effective collaboration without requesting direct access to your applications or scheduling support sessions.
 
@@ -87,12 +87,12 @@ We recognize that business application administrators have demanding workloads; 
 
 The following are the best scouting practices and general tips for scouting your workflows:
 
-* Think through all the steps necessary to perform the task to ensure nothing is missed.
-* Make sure you have a stable and reliable internet connection.
-* Record one task per scouting report, and perform only the relevant steps to complete that task.
-* Avoid scouting reports that are shorter than 15 seconds.
-* Review the scouting report for any mistakes or errors before submitting it to Cerby.
-* Select the appropriate task type and enter the name of your application before submitting the scouting to the Cerby Integrations team.
+  * Think through all the steps necessary to perform the task to ensure nothing is missed.
+  * Make sure you have a stable and reliable internet connection.
+  * Record one task per scouting report, and perform only the relevant steps to complete that task.
+  * Avoid scouting reports that are shorter than 15 seconds.
+  * Review the scouting report for any mistakes or errors before submitting it to Cerby.
+  * Select the appropriate task type and enter the name of your application before submitting the scouting to the Cerby Integrations team.
 
 {% hint style="danger" %}
 
@@ -116,9 +116,9 @@ The following are the scouting recommendations:
 
 The following are additional workflows that Cerby recommends to scout:
 
-* Attempt to log in by entering incorrect login credentials and show what happens in your app, such as message boxes or notifications.
-* Log in using a different web browser and a different computer than you normally do, and show any additional interaction. You can even use incognito mode.
-* Close an active session (log out) before attempting to log in.
+  * Attempt to log in by entering incorrect login credentials and show what happens in your app, such as message boxes or notifications.
+  * Log in using a different web browser and a different computer than you normally do, and show any additional interaction. You can even use incognito mode.
+  * Close an active session (log out) before attempting to log in.
 
 ### Update your account's password
 
@@ -253,7 +253,7 @@ The following are the scouting recommendations:
 
 The following articles contain more information about Scout:
 
-* [Install the Scout browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/install-scout)
-* [Log in to Scout](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/log-in-to-scout)
-* [Scout a workflow](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/scout-a-workflow)
-* [Log out from Scout](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/log-out-from-scout)
+  * [Install the Scout browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/install-scout)
+  * [Log in to Scout](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/log-in-to-scout)
+  * [Scout a workflow](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/scout-a-workflow)
+  * [Log out from Scout](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/scout/log-out-from-scout)

@@ -9,11 +9,11 @@ When retrieving your accounts and secrets, the Cerby CLI outputs data in JSON fo
 
 This article contains the following aspects of the Cerby CLI output data:
 
-* Default output
-* Output customization
-* Output parsing and processing
-* Output error codes
-* Output help commands
+* [Default output](interpret-and-customize-the-cerby-cli-output-data.md#id-default-output)
+* [Output customization](interpret-and-customize-the-cerby-cli-output-data.md#id-output-customization)
+* [Output parsing and processing](interpret-and-customize-the-cerby-cli-output-data.md#id-output-parsing-and-processing)
+* [Output error codes](interpret-and-customize-the-cerby-cli-output-data.md#id-output-error-codes)
+* [Output help commands](interpret-and-customize-the-cerby-cli-output-data.md#id-output-help-commands)
 
 The following sections describe each aspect of the output.
 
@@ -29,8 +29,8 @@ By default, when retrieving information about accounts or secrets, the output re
 
 You can customize the output of some of the Cerby CLI commands by adding the following flags to the secrets and accounts list commands:
 
-* **\--page-size** (number): Specifies the number of items displayed per page. 20 items are shown by default per page, but you can limit the results to a desired number.
-* **\--start-index** (number): Selects the starting index within the response array from which results are displayed. This is useful for paginating through large datasets.
+  * **\--page-size** (number): Specifies the number of items displayed per page. 20 items are shown by default per page, but you can limit the results to a desired number.
+  * **\--start-index** (number): Selects the starting index within the response array from which results are displayed. This is useful for paginating through large datasets.
 
 For example, when you execute the following command:
 
@@ -50,18 +50,18 @@ After receiving the JSON output, you can use any tool or library to parse and pr
 
 The following are the error codes per command you might encounter while using the Ceby CLI:
 
-* `register`
+  * `register`
     * **`Unauthorized`:** Run the login command or provide a valid token using the --bearer-token option
     * **`Error`:** The device already exists
-* `sync`
+  * `sync`
     * **`Unauthorized`:** Run the login command or provide a valid token using the --bearer-token option
     * **`RemoteDeviceNotFoundError`** : Run the register command to re-onboard your device
-* `secrets`
+  * `secrets`
     * **`Unauthorized`:** Run the login command or provide a valid token using the --bearer-token option
     * **`RemoteDeviceNotFoundError`:** Run the register command to re-onboard your device
     * **`VaultNotFoundInDeviceError`:** The vault was not found
     * **`Forbidden`: **You don't have permission to access this resource
-* `accounts`
+  * `accounts`
     * **`Unauthorized`:** Run the login command or provide a valid token using the --bearer-token option
     * **`Not found`:** Verify the --id of the resource you're trying to access.
     * **`VaultNotFoundInDeviceError`:** The vault was not found
@@ -73,10 +73,10 @@ The following are the error codes per command you might encounter while using th
 
 The Cerby CLI offers the following guidelines that can help you understand how to use the commands effectively:
 
-* Summarize the available command options
-* Get help with a command
-* Get the version of the Cerby CLI
-* Enable the debugging mode
+  * [Summarize the available command options](interpret-and-customize-the-cerby-cli-output-data.md#h_6993657fe7)
+  * [Get help with a command](interpret-and-customize-the-cerby-cli-output-data.md#h_7b94d22dc3)
+  * [Get the version of the Cerby CLI](interpret-and-customize-the-cerby-cli-output-data.md#id-get-the-version-of-the-cerby-cli)
+  * [Enable the debugging mode](interpret-and-customize-the-cerby-cli-output-data.md#h_b762a2d58b)
 
 The following sections explain each command in detail.
 
@@ -96,5 +96,5 @@ To get the number version of the Cerby CLI you have installed in your Operating 
 
 To deeply understand the underlying process behind executing a command, such as for debugging purposes, you can use the `--verbose` flag. Appending `--verbose` to a command instructs the CLI to generate more detailed output, often including:
 
-* Additional logs and messages detailing the command's execution steps.
-* Debugging information that can help troubleshoot unexpected behavior.
+  * Additional logs and messages detailing the command's execution steps.
+  * Debugging information that can help troubleshoot unexpected behavior.

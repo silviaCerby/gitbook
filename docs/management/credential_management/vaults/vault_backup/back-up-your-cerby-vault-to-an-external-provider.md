@@ -35,8 +35,8 @@ The following are the ways in which Cerby backs up your vault to an external wor
 
 The following environments comprise the Cerby vault backup scheme with an external provider:
 
-* **Cerby:** The primary vault, where all accounts and credentials live.
-* **CyberArk:** The backup provider where login credentials are stored.
+  * **Cerby:** The primary vault, where all accounts and credentials live.
+  * **CyberArk:** The backup provider where login credentials are stored.
 
 The following is the complete flow of how both environments interact:
 
@@ -50,27 +50,27 @@ The following is the complete flow of how both environments interact:
 
 The **Vault Backup** capability supports the following main flows:
 
-* **Discover vault:** Identify your Cerby cloud vault to include in your backup plan.
-* **Verify accounts:** Check that login credentials in CyberArk match what you have in Cerby.
-* **Handle MFA:** MFA settings stay consistent across both vaults.
+  * **Discover vault:** Identify your Cerby cloud vault to include in your backup plan.
+  * **Verify accounts:** Check that login credentials in CyberArk match what you have in Cerby.
+  * **Handle MFA:** MFA settings stay consistent across both vaults.
 * * *
 
 ## Keeping your data secure
 
 Security is built into every part of vault backup to keep your credentials secure while providing added redundancy.
 
-* All data is encrypted at rest and in transit.
-* Backing up MFA settings prevents data loss, preserves strong authentication, and keeps the restored vault secure.
-* A one-way sync ensures the primary vault remains the sole source of truth, protecting against corruption, tampering, and upstream attacks from a compromised replica.
-* Even if the recovery vault is breached, the primary stays isolated and secure, simplifying disaster recovery with a clean, reliable state to restore.
+  * All data is encrypted at rest and in transit.
+  * Backing up MFA settings prevents data loss, preserves strong authentication, and keeps the restored vault secure.
+  * A one-way sync ensures the primary vault remains the sole source of truth, protecting against corruption, tampering, and upstream attacks from a compromised replica.
+  * Even if the recovery vault is breached, the primary stays isolated and secure, simplifying disaster recovery with a clean, reliable state to restore.
 * * *
 
 ## Related articles
 
 The following articles contain more information about the Vault Backup capability:
 
-* [Add a vault backup](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/add-a-vault-backup)
-* [View the details of a vault backup](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/view-the-details-of-a-vault-backup)
-* [Edit the vault backup information](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/edit-the-vault-backup-details)
-* [Disable vault backup in your workspace](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/disable-vault-backup-in-your-workspace)
-* [Manually back up all accounts from Cerby to CyberArk](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/manually-back-up-all-accounts-from-cerby-to-cyberark)
+  * [Add a vault backup](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/add-a-vault-backup)
+  * [View the details of a vault backup](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/view-the-details-of-a-vault-backup)
+  * [Edit the vault backup information](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/edit-the-vault-backup-details)
+  * [Disable vault backup in your workspace](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/disable-vault-backup-in-your-workspace)
+  * [Manually back up all accounts from Cerby to CyberArk](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/manually-back-up-all-accounts-from-cerby-to-cyberark)

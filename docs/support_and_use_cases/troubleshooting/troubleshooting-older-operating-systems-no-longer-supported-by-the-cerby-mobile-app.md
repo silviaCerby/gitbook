@@ -24,12 +24,12 @@ To solve the issues with older versions of the Cerby mobile app, you must comple
 
 * **iOS**
 
-    1. Update your mobile phone's OS to at least iOS 16. For instructions on updating your mobile phone, read the [Update your iPhone or iPad](https://support.apple.com/en-us/118575) official documentation.
-    2. Reinstall the Cerby mobile app.
+  1. Update your mobile phone's OS to at least iOS 16. For instructions on updating your mobile phone, read the [Update your iPhone or iPad](https://support.apple.com/en-us/118575) official documentation.
+  2. Reinstall the Cerby mobile app.
 
 * **Android**
 
-    1. Update your mobile phone's OS to at least Android 11. For instructions on updating your mobile phone, read the [Check & update your Android version](https://support.google.com/android/answer/7680439?hl=en) official documentation.
-    2. Reinstall the Cerby mobile app.
+  1. Update your mobile phone's OS to at least Android 11. For instructions on updating your mobile phone, read the [Check & update your Android version](https://support.google.com/android/answer/7680439?hl=en) official documentation.
+  2. Reinstall the Cerby mobile app.
 
 Unfortunately, the iPhone 7 and older models are no longer compatible with iOS 16.0 and all newer OS versions, so you will not be able to update them. We recommend using a compatible mobile phone. Also, if you are unable to update Android, leveraging a compatible mobile phone is strongly recommended.

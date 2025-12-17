@@ -51,12 +51,12 @@ Additionally, to access customer data stored in the cloud vaults, Cerby Protect 
 
 Currently, the following items and item details are encrypted using local encryption:
 
-* Accounts
+  * Accounts
     * Passwords
     * Time-based one-time passwords (TOTPs)
     * Backup codes
     * Account notes
-* Secrets
+  * Secrets
     * Text-based information (body of the secret)
     * File attachments
 
@@ -74,9 +74,10 @@ When devices are registered as trusted, Cerby grants them privileges to access a
 
 When **Workspace Admins** create a vault with local encryption, the following sets of keys are generated in a trusted device:
 
-* Public and private device keys, which are unique per device
-* Vault DEKs, which are unique per vault
-* Local encryption key, which is generated on the server and used to authorize decryption\
+  * Public and private device keys, which are unique per device
+  * Vault DEKs, which are unique per vault
+  * Local encryption key, which is generated on the server and used to authorize decryption
+
   **NOTE:** The device keys and local encryption keys are used to decrypt and get local access to the vault DEKs. The private part of the key used for decryption never reaches any of Cerby’s servers.
 
 To share access to a vault, a copy of the vault DEKs encrypted with the target public device key is distributed among all the trusted devices to enable them to perform encryption and decryption operations locally.

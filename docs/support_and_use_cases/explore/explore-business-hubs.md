@@ -30,7 +30,7 @@ Business hub integrations are intended for apps that have collaboration spaces (
 
 The **Business Hubs** page in the Cerby web app dashboard is the centralized view of all your connected integrations, as shown in **Figure 1**. From this page, you can manage user access to your external seat-based and paid social apps.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXeiLDt5UT4k1b4b1OyNDlfKkK_0UTQpUUWsITR0kJZkreBldlcJd_HTqSqFPgrqLsgyCmObThCy41HLlW7h3lRegFh8mCTgIwbijSt9GE8yHeyKzJU8TtsWu-SKpVtMZYb2K20Lnw_1.png" alt="Screenshot of the Cerby web app dashboard. The Business Hubs page is displayed with a table of connected integrations and a wizard on the right side of the page for connecting your app to Cerby."><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXeiLDt5UT4k1b4b1OyNDlfKkK_0UTQpUUWsITR0kJZkreBldlcJd_HTqSqFPgrqLsgyCmObThCy41HLlW7h3lRegFh8mCTgIwbijSt9GE8yHeyKzJU8TtsWu-SKpVtMZYb2K20Lnw_1.png" alt="Screenshot of the Cerby web app dashboard. The Business Hubs page is displayed with a table of connected integrations and a wizard on the right side of the page for connecting your app to Cerby.">
 
 **Figure 1.** **Business Hubs** page in the Cerby web app dashboard
 
@@ -45,7 +45,7 @@ The general flow for a business hub integration is the following:
   1. A workspace member connects a seat-based or paid social app to Cerby through a business hub integration.
   2. Cerby retrieves information about who has access to the app, which roles they have, and, when supported, which assets are assigned to them.
   3. Cerby associates the app’s users with their Cerby user accounts, whether they come from your IdP or are managed directly in Cerby, such as [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) and [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners).
-**NOTE:** For apps supporting the [native partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) feature, you can also gain visibility on the users who access your assets to run ad campaigns on your partner's side.
+  **NOTE:** For apps supporting the [native partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) feature, you can also gain visibility on the users who access your assets to run ad campaigns on your partner's side.
 
   4. Depending on their business hub integration role, users can do the following through Cerby:
 
@@ -56,10 +56,10 @@ The general flow for a business hub integration is the following:
 
 The main functionalities of a business hub integration are the following:
 
-* User and access management tasks
-* Extended user and access management from your IdP
-* Business hub integration management in Cerby
-* Connected account management and login methods
+  * [User and access management tasks](explore-business-hubs.md#id-user-and-access-management-tasks)
+  * [Extended user and access management from your IdP](explore-business-hubs.md#id-extended-user-and-access-management-from-your-idp)
+  * [Business hub integration management in Cerby](explore-business-hubs.md#id-business-hub-integration-management-in-cerby)
+  * [Connected account management and login methods](explore-business-hubs.md#id-connected-account-management-and-login-methods)
 
 The following sections describe each functionality.
 
@@ -75,15 +75,15 @@ The following are the user and access management tasks you can perform on your e
 
 {% endhint %}
 
-* **Check for updates:** Retrieves information about the users, roles, and assets in your external app.
-* **Add users:** Creates the user accounts in your external app with the specified roles, including assets (if supported).
-* **Update user roles:** Updates the native user roles in your external app and its assets (if supported).
-* **Remove users:** Removes the user accounts from your external app, including assets (if supported).
+  * **Check for updates:** Retrieves information about the users, roles, and assets in your external app.
+  * **Add users:** Creates the user accounts in your external app with the specified roles, including assets (if supported).
+  * **Update user roles:** Updates the native user roles in your external app and its assets (if supported).
+  * **Remove users:** Removes the user accounts from your external app, including assets (if supported).
 
 Additionally, Cerby supports the following tasks for partners that natively exist on paid social apps, such as Meta Business Manager or TikTok For Business:
 
-* **Monitor partners:** View which [native partner’s](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) users have access to the assets you own or that a partner shared with your paid social app, including their roles and the list of assets.
-* **Manage partner assets:** Assign roles and assets to the users of a specific native partner in your app.
+  * **Monitor partners:** View which [native partner’s](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) users have access to the assets you own or that a partner shared with your paid social app, including their roles and the list of assets.
+  * **Manage partner assets:** Assign roles and assets to the users of a specific native partner in your app.
 
 ### Extended user and access management from your IdP
 
@@ -97,9 +97,9 @@ A business hub integration is like other regular accounts you add, protect, and 
 
 **Owners** can share a business hub integration and assign one of the following Cerby roles to other users and teams:
 
-* **Owner:** It enables users and teams to perform the supported [user and access management tasks](https://docs.google.com/document/d/1EIsGCD7qIueaDk4JC13PiDou3KVzB3dV0g3qqyUAjoo/edit?tab=t.0#heading=h.buw3jrwnsdmr) via the business hub. They can also update the business hub settings and log in to the external app through Cerby.
-* **Collaborator:** It enables users and teams to log in to the external app through Cerby.
-* **Manager:** It enables users and teams to perform the supported user and access management tasks via the business hub and log in to the external app through Cerby.
+  * **Owner:** It enables users and teams to perform the supported [user and access management tasks](https://docs.google.com/document/d/1EIsGCD7qIueaDk4JC13PiDou3KVzB3dV0g3qqyUAjoo/edit?tab=t.0#heading=h.buw3jrwnsdmr) via the business hub. They can also update the business hub settings and log in to the external app through Cerby.
+  * **Collaborator:** It enables users and teams to log in to the external app through Cerby.
+  * **Manager:** It enables users and teams to perform the supported user and access management tasks via the business hub and log in to the external app through Cerby.
 
 This lets you separate responsibilities between users who configure and manage access, and users who simply use the external app.
 
@@ -111,8 +111,8 @@ The user management and login method of a business hub integration is the way yo
 
 You can select one of two user management and login methods depending on the setup of your app:
 
-* **Single sign-on (SSO):** Access is managed via your IdP, and users log in via SSO authentication. In this case, users are not asked to save their credentials in Cerby, and they continue accessing their seat-based and paid social apps as usual.
-* **Username and password:** Account security and access are managed from Cerby, and users log in to their external apps through Cerby. In this case, users are asked to save their credentials in Cerby and connect them to the business hub integration; therefore, you can apply the following security policies to user accounts:
+  * **Single sign-on (SSO):** Access is managed via your IdP, and users log in via SSO authentication. In this case, users are not asked to save their credentials in Cerby, and they continue accessing their seat-based and paid social apps as usual.
+  * **Username and password:** Account security and access are managed from Cerby, and users log in to their external apps through Cerby. In this case, users are asked to save their credentials in Cerby and connect them to the business hub integration; therefore, you can apply the following security policies to user accounts:
     * Turn on MFA
     * Rotate passwords
 

@@ -33,8 +33,8 @@ Cerby hashes API keys before storing them in the database, encrypted with the wo
 
 To enhance security and control access, you can configure the following characteristics for your API keys:
 
-* Expiration time
-* Scopes
+  * [Expiration time](explore-api-keys-and-bearer-tokens.md#id-expiration-time)
+  * [Scopes](explore-api-keys-and-bearer-tokens.md#id-scopes)
 
 The following sections describe each characteristic.
 
@@ -44,12 +44,12 @@ When generating an API key, you can set an expiration time to limit their usage,
 
 The following are the expiration time options:
 
-* 1 hour
-* 12 hours
-* 1 day
-* 5 days
-* 1 year
-* Custom
+  * 1 hour
+  * 12 hours
+  * 1 day
+  * 5 days
+  * 1 year
+  * Custom
 
 ### Scopes
 
@@ -57,24 +57,24 @@ You can set up scopes for your API key to control exactly what information you c
 
 The following are the available scopes:
 
-* **Read activities:** Enables reading activity data.
-* **Read items:** Enables reading account, secret, and collection data.
-* **Read accounts:** Enables reading account data.
-* **Read secrets:** Enables reading secret data.
-* **Read users:** Enables reading user and team data.
-* **Read integrations:** Enables reading integration and entitlement data.
-* **Write integrations:** Enables writing integration and entitlement data.
-* **Read automated jobs:** Enables reading automated job data.
-* **Write automated jobs:** Enables writing automated job data.
+  * **Read activities:** Enables reading activity data.
+  * **Read items:** Enables reading account, secret, and collection data.
+  * **Read accounts:** Enables reading account data.
+  * **Read secrets:** Enables reading secret data.
+  * **Read users:** Enables reading user and team data.
+  * **Read integrations:** Enables reading integration and entitlement data.
+  * **Write integrations:** Enables writing integration and entitlement data.
+  * **Read automated jobs:** Enables reading automated job data.
+  * **Write automated jobs:** Enables writing automated job data.
 
 The responses from the Cerby API to the API key are the following:
 
-* **200 and a successful JSON response:** The key was authenticated successfully, and the response contains the requested data.
-* **401 error:** The key does not exist, is expired, deleted, or does not contain the necessary scopes.
+  * **200 and a successful JSON response:** The key was authenticated successfully, and the response contains the requested data.
+  * **401 error:** The key does not exist, is expired, deleted, or does not contain the necessary scopes.
 
 You can view the list of generated API keys in the **API keys** tab of the **Workspace Configuration** page using the Cerby web app, as shown in **Figure 1**.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXfjnu-ACq5_yZ7K0GjBSjH7QBTUSyWhaE-aoeTBpuX6ta6M2oqOH4TwYGo0bwkNMVZDD1Dga2PFWnaAhH1N06n-bQ3XDnSrir-p6n711PUpz6gxvX1aSzQjszn5qTgXGMWyuwxFf65lt9UKHMeAZJOsmrk.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXfjnu-ACq5_yZ7K0GjBSjH7QBTUSyWhaE-aoeTBpuX6ta6M2oqOH4TwYGo0bwkNMVZDD1Dga2PFWnaAhH1N06n-bQ3XDnSrir-p6n711PUpz6gxvX1aSzQjszn5qTgXGMWyuwxFf65lt9UKHMeAZJOsmrk.png" alt="">
 
 **Figure 1.** **API keys** tab on the **Workspace Configuration** page of the Cerby web app dashboard
 
@@ -102,7 +102,7 @@ Windows| `%userprofile%\.cerby\credentials`
 
 Bearer tokens have no scopes, meaning that you can retrieve any item and user data as long as you have the corresponding access role (**Owner** or **Collaborator**) on the items. These tokens can be retrieved from the **Dev Tools** tab on the **My Profile** page using the Cerby web app, as shown in **Figure 2**.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXfUDqZeSzDGLIi4y1NzDQAO9kEPhB59u_vHvY72_q3hYquRDqr_5b1kXYnDDaf5XIaiP4e5rT7PWdQCfTwdi7Tyfrk_olNr3qnXsh-hozD6MdEPuYAJWM0oT-EfgaqQJZIz8zACUi5ULZUOILjc2P7wUSk.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXfUDqZeSzDGLIi4y1NzDQAO9kEPhB59u_vHvY72_q3hYquRDqr_5b1kXYnDDaf5XIaiP4e5rT7PWdQCfTwdi7Tyfrk_olNr3qnXsh-hozD6MdEPuYAJWM0oT-EfgaqQJZIz8zACUi5ULZUOILjc2P7wUSk.png" alt="">
 
 **Figure 2.** **Dev Tools** tab on the **My Profile** page of the Cerby web app dashboard
 
@@ -112,8 +112,8 @@ Bearer tokens have no scopes, meaning that you can retrieve any item and user da
 
 The following articles contain more information about how to generate, retrieve, and manage API and bearer tokens:
 
-* [Generate an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/generate-an-api-key)
-* [View the details of an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/view-the-details-of-an-api-key)
-* [Update the scopes of an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/update-the-scopes-of-an-api-key)
-* [Delete an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/delete-an-api-key)
-* [Retrieve a bearer token](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/retrieve-a-bearer-token)
+  * [Generate an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/generate-an-api-key)
+  * [View the details of an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/view-the-details-of-an-api-key)
+  * [Update the scopes of an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/update-the-scopes-of-an-api-key)
+  * [Delete an API key](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/delete-an-api-key)
+  * [Retrieve a bearer token](https://cerby-test.gitbook.io/cerby-test/extending-cerby/public-api/retrieve-a-bearer-token)

@@ -13,15 +13,15 @@ After adding a partner to your Cerby workspace, access to your items and seat-ba
 
 **Figure 1** shows the **Partners** page in the Cerby web app dashboard, where you can manage your partnerships.
 
-<figure><img src="../../../.gitbook/assets/AD_4nXeChnY4WU6ChlJXiSH2R1f73t69Gdv542XrTKuSbLL1O1q7GHteNz1Y6zbOnA8x5rRsUV5-XoBxgevAo1lDqxhzKmeDXgEFW8dQIO2qs_pttk_MAbE2fbA5acSqk5aB6z5gG5CvsQ.png" alt="Screenshot of the Cerby web app dashboard. The Partners page is displayed with the Add a partner dialog box on top of it"><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/AD_4nXeChnY4WU6ChlJXiSH2R1f73t69Gdv542XrTKuSbLL1O1q7GHteNz1Y6zbOnA8x5rRsUV5-XoBxgevAo1lDqxhzKmeDXgEFW8dQIO2qs_pttk_MAbE2fbA5acSqk5aB6z5gG5CvsQ.png" alt="Screenshot of the Cerby web app dashboard. The Partners page is displayed with the Add a partner dialog box on top of it">
 
 **Figure 1.** **Partners** view in the Cerby web app dashboard
 
 Currently, Cerby supports the following ways to add and collaborate with your partners:
 
-* Host-guest partnership
-* Local partner
-* Native partner
+* [Host-guest partnership](explore-partners.md#id-host-guest-partnership)
+* [Local partner](explore-partners.md#id-local-partner)
+* [Native partner](explore-partners.md#id-native-partner)
 
 The following sections describe each way.
 
@@ -39,25 +39,25 @@ With this partnership type, Cerby introduces the following roles, as described i
 ---|---
 Partnership**Owner**|  It is a role assigned automatically to the user from the host workspace who adds the partnership. With this role, they can perform the following actions:
 
-* Manage the partnership they own.
-* Share accounts with the guest workspace.
+  * Manage the partnership they own.
+  * Share accounts with the guest workspace.
 
 Host workspace **Admin**|  It is a user from the host workspace who has the **Admin** role. With this role, they can perform the following actions:
 
-* Manage any partnership.
-* Approve or decline any attempt to add a host-guest partnership.
+  * Manage any partnership.
+  * Approve or decline any attempt to add a host-guest partnership.
 
 Guest workspace **Admin**|  It is a user from the guest workspace who has the **Admin** role. With this role, they can perform the following actions:
 
-* Manage users in the guest workspace.
-* Accept or decline any partnership request from the host workspace.
+  * Manage users in the guest workspace.
+  * Accept or decline any partnership request from the host workspace.
 
 Account **Manager**|  It is an account-level role assigned by the partnership**Owner** when sharing an account with the guest workspace; by default, it is assigned to the guest workspace **Admin**. With this role, they can perform the following actions:
 
-* Log in to accounts shared with them.
-* Request access to accounts for other guest workspace members.
+  * Log in to accounts shared with them.
+  * Request access to accounts for other guest workspace members.
 
-**IMPORTANT:** Account **Managers** cannot manage the account security settings.
+  **IMPORTANT:** Account **Managers** cannot manage the account security settings.
 
 **Table 1.** Host-guest partnership roles and their descriptions
 
@@ -65,8 +65,8 @@ Any user in the host workspace can add a host-guest partnership. To establish th
 
 After adding the partnership, only you as a partnership **Owner** can share accounts with the guest workspace and assign one of the following roles over the accounts:
 
-* **Collaborator:** Guest workspace members can only log in to shared accounts.
-* **Manager:** Guest workspace members can log in to shared accounts and request access to these accounts for other members.
+  * **Collaborator:** Guest workspace members can only log in to shared accounts.
+  * **Manager:** Guest workspace members can log in to shared accounts and request access to these accounts for other members.
 
 For more information about roles, read the article [How Cerby manages roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles).
 
@@ -94,22 +94,22 @@ With this partnership type, Cerby introduces the following roles, as described i
 ---|---
 **Host Admin**|  It is a role assigned by the workspace **Admin** to another workspace user when adding a local partner. With this role, they can perform the following actions:
 
-* Manage the local partner and its guest users.
-* Overlook the activities the local partner’s users do in your workspace.
-* Assign the **Host Admin** role to other workspace users.
-* Share accounts with the local partner.
+  * Manage the local partner and its guest users.
+  * Overlook the activities the local partner’s users do in your workspace.
+  * Assign the **Host Admin** role to other workspace users.
+  * Share accounts with the local partner.
 
 **Guest Admin**|  It is a role assigned by the workspace **Admin** to a guest user when adding a local partner. With this role, they can perform the following actions:
 
-* Manage other **Guest Users** and their access to the workspace.
-* Propagate access to the accounts that **Host Admins** shared with them as account **Managers**.
+  * Manage other **Guest Users** and their access to the workspace.
+  * Propagate access to the accounts that **Host Admins** shared with them as account **Managers**.
 
-**NOTE:** **Guest Admins** can’t add other local partners, import items from LastPass, or view workspace users, policies, or settings.
+  **NOTE:** **Guest Admins** can’t add other local partners, import items from LastPass, or view workspace users, policies, or settings.
 **Guest User**|  It is a role assigned to an external collaborator invited to join a Cerby workspace with limited access to items and assets, enough to perform their activities.
 Account **Manager**|  It is an account-level role assigned by the **Host Admin** when sharing an account with the local partner; by default, the role is assigned to the **Guest** **Admin**. With this role, they can perform the following actions:
 
-* Log in to accounts shared with them.
-* Propagate shared access to the accounts with other **Guest Users**.
+  * Log in to accounts shared with them.
+  * Propagate shared access to the accounts with other **Guest Users**.
 
 **Table 2.** Local partner roles and their descriptions
 
@@ -117,10 +117,10 @@ Only as a workspace**Admin** , you can add a local partner to your workspace. Wh
 
 The following are the benefits of having **Host** and **Guest Admins** :
 
-* **Delegate ownership:** **Host Admins** can invite and assign other workspace users as **Host Admins** , sharing control and responsibility over the partnership.
-* **Expand collaboration:** **Host Admins** can invite external collaborators from the partner's organization, selecting between granting them **Guest Admin** privileges for management capabilities within the partnership only or **Guest User** access for limited access, visibility, and interaction.
-* **Delegate user invites:** **Guest Admins** can invite external collaborators to your workspace as **Guest Users**.
-* **Propagate access to accounts:** With the account **Manager** role, **Guest Admins** can share with other **Guest Users** the accounts that were initially shared with them by **Host Admins**.
+  * **Delegate ownership:** **Host Admins** can invite and assign other workspace users as **Host Admins** , sharing control and responsibility over the partnership.
+  * **Expand collaboration:** **Host Admins** can invite external collaborators from the partner's organization, selecting between granting them **Guest Admin** privileges for management capabilities within the partnership only or **Guest User** access for limited access, visibility, and interaction.
+  * **Delegate user invites:** **Guest Admins** can invite external collaborators to your workspace as **Guest Users**.
+  * **Propagate access to accounts:** With the account **Manager** role, **Guest Admins** can share with other **Guest Users** the accounts that were initially shared with them by **Host Admins**.
 
 For more information about roles, read the article [How Cerby manages roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles).
 
@@ -148,6 +148,6 @@ Unlike a local partner, where external collaborators exist in your workspace usi
 
 Currently, Cerby supports the Native Partner feature for the following paid social apps:
 
-* Meta Business Manager
-* TikTok For Business
-* Pinterest Business Manager
+  * Meta Business Manager
+  * TikTok For Business
+  * Pinterest Business Manager

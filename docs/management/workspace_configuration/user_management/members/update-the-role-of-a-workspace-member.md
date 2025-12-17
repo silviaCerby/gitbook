@@ -20,14 +20,14 @@ As a workspace **Owner** , **Super Admin** , or **Admin** , you can update the r
 
 To update the role of a workspace member, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
-  2. Select the **All members** option from the left menu. The **All members** page is displayed with the **Members** tab activated.
-  3. Select the option from the **Workspace role** drop-down list that corresponds to the new role of the workspace member:
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
+2. Select the **All members** option from the left menu. The **All members** page is displayed with the **Members** tab activated.
+3. Select the option from the **Workspace role** drop-down list that corresponds to the new role of the workspace member:
 
-     * **Super Admin:** Performs full workspace access management.
-     * **Admin:** Invites and manages workspace users.
-     * **User:** Adds and shares items with other workspace members.
-     * **Login-Only:** Logs in to accounts and views items as a **Collaborator**.
+   * **Super Admin:** Performs full workspace access management.
+   * **Admin:** Invites and manages workspace users.
+   * **User:** Adds and shares items with other workspace members.
+   * **Login-Only:** Logs in to accounts and views items as a **Collaborator**.
 
 A success message box is displayed.
 

@@ -7,8 +7,8 @@ intercom_id: 9354501
 
 This article contains the steps you must follow to perform the following actions related to disabling trusted sessions in your workspace:
 
-* Disable the trusted sessions on your devices
-* Disable other members' trusted sessions in the workspace
+* [Disable the trusted sessions on your devices](disable-trusted-sessions-and-devices-in-your-workspace.md#id-disable-the-trusted-sessions-on-your-devices)
+* [Disable other members' trusted sessions in the workspace](disable-trusted-sessions-and-devices-in-your-workspace.md#id-disable-other-members-trusted-sessions-in-the-workspace)
 
 The following sections detail the steps for each action.
 
@@ -28,9 +28,9 @@ As a **Workspace User** , you can disable the trusted session on the devices you
 
 To disable your trusted sessions, you must complete the steps corresponding to the Cerby client app you are using:
 
-* Cerby web app
-* Cerby mobile app
-* Cerby browser extension
+  * [Cerby web app](disable-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-web-app)
+  * [Cerby mobile app](disable-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-mobile-app)
+  * [Cerby browser extension](disable-trusted-sessions-and-devices-in-your-workspace.md#id-cerby-browser-extension)
 
 The following sections contain the steps for each Cerby client app.
 

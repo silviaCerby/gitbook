@@ -19,12 +19,12 @@ intercom_id: 8705410
 
 To edit a secret item (WiFi, SSH keys, database, server, and custom item), you must complete the following steps using the Cerby web app:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Secrets** option from the left navigation drawer. The **Secrets** page is displayed.
-  3. Click the card or the **Settings** icon for the corresponding secret item. The secret details page**** is displayed with the **Settings** tab activated.
-  4. Click the **Edit** icon of the corresponding field to make it editable.
-  5. Enter the new value in the field.
-  6. Click the **Done** icon to save your changes. A success message box is displayed.
-  7. Repeat steps 4 to 6 as necessary for each field.
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Secrets** option from the left navigation drawer. The **Secrets** page is displayed.
+3. Click the card or the **Settings** icon for the corresponding secret item. The secret details page**** is displayed with the **Settings** tab activated.
+4. Click the **Edit** icon of the corresponding field to make it editable.
+5. Enter the new value in the field.
+6. Click the **Done** icon to save your changes. A success message box is displayed.
+7. Repeat steps 4 to 6 as necessary for each field.
 
 Now you are done.

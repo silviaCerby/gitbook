@@ -21,21 +21,21 @@ As a secret or secret item (such as WiFi, SSH keys, database, server, and custom
 
 To update a user’s role on a secret, you must complete the following steps using the Cerby mobile app:
 
-  1. Open the Cerby mobile app on your phone.
-  2. Log in to your Cerby workspace.
-  3. Activate the **Secrets** tab located at the top on iOS or Android. The **Secrets** screen is displayed.
-  4. Tap the corresponding secret card. The secret details screen is displayed.
-  5. Tap the right arrow icon from the **Members** list within the **Sharing** section. The **View members** screen is displayed.
+1. Open the Cerby mobile app on your phone.
+2. Log in to your Cerby workspace.
+3. Activate the **Secrets** tab located at the top on iOS or Android. The **Secrets** screen is displayed.
+4. Tap the corresponding secret card. The secret details screen is displayed.
+5. Tap the right arrow icon from the **Members** list within the **Sharing** section. The **View members** screen is displayed.
 ​**NOTE:** To update guest users’ role access from external parties, tap the right arrow from the **Guest users** list.
 
-  6. Select the corresponding member from the list. A menu is displayed at the bottom.
-  7. Tap the **Update role** button from the menu. The list of roles is displayed.
-  8. Select the user’s new role on the secret:
+6. Select the corresponding member from the list. A menu is displayed at the bottom.
+7. Tap the **Update role** button from the menu. The list of roles is displayed.
+8. Select the user’s new role on the secret:
 
-     * **Owner:** Users can share access and manage the secret configuration.
-     * **Collaborator:** Users can only view the secret or secret item content.
+   * **Owner:** Users can share access and manage the secret configuration.
+   * **Collaborator:** Users can only view the secret or secret item content.
 
-  9. Tap the **Save** button.
+9. Tap the **Save** button.
 
 Now you are done.
 

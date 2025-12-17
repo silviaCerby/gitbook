@@ -41,7 +41,7 @@ As explained in the article [Explore App settings restrictions](https://cerby-te
 
 The following articles describe the actions and steps to add **App settings restrictions** :
 
-* [Add settings restrictions to an app](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/add-settings-restrictions-to-an-app)
-* [Edit an app settings restriction](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/edit-an-app-settings-restriction)
-* [Customize the user message for setting restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/customize-the-user-message-for-setting-restrictions)
-* [Remove apps from settings restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/remove-apps-from-settings-restrictions)
+  * [Add settings restrictions to an app](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/add-settings-restrictions-to-an-app)
+  * [Edit an app settings restriction](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/edit-an-app-settings-restriction)
+  * [Customize the user message for setting restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/customize-the-user-message-for-setting-restrictions)
+  * [Remove apps from settings restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/remove-apps-from-settings-restrictions)

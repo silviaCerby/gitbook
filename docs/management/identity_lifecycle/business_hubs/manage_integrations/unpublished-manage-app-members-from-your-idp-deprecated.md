@@ -25,8 +25,8 @@ For the Apps feature, provisioning and deprovisioning events propagate from grou
 
 The management tasks you can perform on app members are the following:
 
-* Invite new app members from Okta
-* Remove app members from Okta
+* [Invite new app members from Okta](unpublished-manage-app-members-from-your-idp-deprecated.md#id-invite-new-app-members-from-okta)
+* [Remove app members from Okta](unpublished-manage-app-members-from-your-idp-deprecated.md#id-remove-app-members-from-okta)
 
 The following sections describe each task.
 
@@ -42,9 +42,9 @@ These teams correspond to group assignments in Okta, and they are automatically 
 
 The following are the requirements to invite app members via group assignments in Okta:
 
-* The Group Push feature configured for Cerby. For more information, read the [Configure Group Push between Okta and Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/how-to-enable-okta-user-provisioning-with-scim) section from the [How to Enable Okta User Provisioning with SCIM](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/how-to-enable-okta-user-provisioning-with-scim) article.
-* A group created in Okta to be used to provision and deprovision users for your app. This group corresponds to a team in Cerby. For more information, read the [How to use Teams](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/teams/how-to-use-teams) article.
-* The Cerby team must have shared access to the App in Cerby via an invitation from the app **Owner**. To do so, you must complete the following steps in Cerby:
+  * The Group Push feature configured for Cerby. For more information, read the [Configure Group Push between Okta and Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/how-to-enable-okta-user-provisioning-with-scim) section from the [How to Enable Okta User Provisioning with SCIM](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/how-to-enable-okta-user-provisioning-with-scim) article.
+  * A group created in Okta to be used to provision and deprovision users for your app. This group corresponds to a team in Cerby. For more information, read the [How to use Teams](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/teams/how-to-use-teams) article.
+  * The Cerby team must have shared access to the App in Cerby via an invitation from the app **Owner**. To do so, you must complete the following steps in Cerby:
 
     1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
     2. Select the **Apps** option from the left navigation drawer. The **Apps** view is displayed.
@@ -59,7 +59,8 @@ The following are the requirements to invite app members via group assignments i
        * **Collaborator:** This role enables only logging in to the app.
 
     9. Select the corresponding role for the team on the app from the **Grant access role for <app name>** section.
-**NOTE:** Access roles are different depending on the app's native roles and permissions. This access role is granted to all the team members.
+
+    **NOTE:** Access roles are different depending on the app's native roles and permissions. This access role is granted to all the team members.
 
     10. Click the **Send invites** button. The wizard closes, and a success message box is displayed.
 
@@ -87,6 +88,7 @@ To remove app members automatically from Okta via group assignments, you must co
   2. Select the **Groups** option from the **Directory** drop-down list located in the left navigation drawer. The **Groups** page is displayed with a table of groups.
   3. Select the corresponding group from the table. The group details page is displayed with the **People** tab activated.
   4. Click the **Remove** icon of the user you want to remove from the group. A success message box is displayed.
+
 The user is automatically removed from the corresponding team in Cerby and the app via an automation task.
 
 When removing users individually from the IdP, the corresponding member removal propagates to a Cerby workspace. However, to remove the user completely from the seat-based or paid social app, you must do it manually or perform a check for updates and apply the report. For instructions, read the articles [Troubleshooting Apps: Remove app members manually](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/troubleshooting/troubleshooting-business-hubs) or [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).

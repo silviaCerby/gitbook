@@ -31,7 +31,7 @@ Based on your selection, the Password Generator also lets you know how weak or s
 
 Check out the Password Generator in the Cerby browser extension, as shown in **Figure 1**.
 
-<figure><img src="../../../.gitbook/assets/2tytyAhPZkCmfgSR19rh2H9t1mY4JtVw-2lBIp6U57dSiIAVi3Q-uSP5WP7ZqUPO6sig6dxzpLAIZu5_UNqOvjjixRu162WGEzWy4CnQSb0sqkrVWiypRWgSL3fW5q4lexd3nhzIWKMlg1PBKWBV3I0.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/2tytyAhPZkCmfgSR19rh2H9t1mY4JtVw-2lBIp6U57dSiIAVi3Q-uSP5WP7ZqUPO6sig6dxzpLAIZu5_UNqOvjjixRu162WGEzWy4CnQSb0sqkrVWiypRWgSL3fW5q4lexd3nhzIWKMlg1PBKWBV3I0.png" alt="">
 
 **Figure 1.** **Password generator** page in the Cerby browser extension popup
 
@@ -39,9 +39,9 @@ Check out the Password Generator in the Cerby browser extension, as shown in **F
 
 If you are as excited as us about this new feature, here’s what you have to do next:
 
-  1. Open the Cerby browser extension popup
-  2. Open the Password generator
-  3. Start generating passwords
+1. Open the Cerby browser extension popup
+2. Open the Password generator
+3. Start generating passwords
 
 For detailed instructions, read the [How to generate secure passwords using the Cerby browser extension](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-browser-extension/generate-secure-passwords-using-the-cerby-browser-extension) article.
 

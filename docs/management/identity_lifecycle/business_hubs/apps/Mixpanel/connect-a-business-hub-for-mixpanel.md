@@ -41,13 +41,13 @@ This article provides instructions on how to connect a business hub for Mixpanel
 
 The following are the requirements to connect a business hub:
 
-* A Cerby workspace
-* A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
-* An organization in Mixpanel
-* Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* An automation account, meaning an active user account with an **Owner** role in Mixpanel to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
-* The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
-* An organization ID. You can find the ID in the **Personal Settings** page by completing the following steps after logging in to Mixpanel:
+  * A Cerby workspace
+  * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
+  * An organization in Mixpanel
+  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * An automation account, meaning an active user account with an **Owner** role in Mixpanel to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
+  * An organization ID. You can find the ID in the **Personal Settings** page by completing the following steps after logging in to Mixpanel:
 
     1. Click the **Settings** icon located at the top right of the page. A drop-down menu is displayed.
     2. Select the **Personal Settings** option. The **Personal Settings** page is displayed.
@@ -59,10 +59,10 @@ The following are the requirements to connect a business hub:
 
 To connect a business hub for Mixpanel, you must complete the following main steps from the Cerby web app dashboard:
 
-  1. Add a business hub and connect it to Mixpanel
-  2. Check for updates to import users, roles, and assets to Cerby
-  3. Connect your Mixpanel user account to the business hub
-  4. Manage unmatched users
+  1. [Add a business hub and connect it to Mixpanel](connect-a-business-hub-for-mixpanel.md#id-1.-add-a-business-hub-and-connect-it-to-mixpanel)
+  2. [Check for updates to import users, roles, and assets to Cerby](connect-a-business-hub-for-mixpanel.md#id-2.-check-for-updates-to-import-users-roles-and-assets-to-cerby)
+  3. [Connect your Mixpanel user account to the business hub](connect-a-business-hub-for-mixpanel.md#id-3.-connect-your-mixpanel-user-account-to-the-business-hub)
+  4. [Manage unmatched users](connect-a-business-hub-for-mixpanel.md#id-4.-manage-unmatched-users)
 
 The following sections describe each main step.
 
@@ -80,19 +80,19 @@ To add a business hub and connect it to Mixpanel, you must complete the followin
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **Organization ID:** It is the unique identifier of your organization in Mixpanel. For instructions on how to find it, read the Requirements section.
+     * **Organization ID:** It is the unique identifier of your organization in Mixpanel. For instructions on how to find it, read the [Requirements](connect-a-business-hub-for-mixpanel.md#id-requirements) section.
      * **User management and login method:** It is the way your users log in to the app and determines whether they must save their login credentials as a Cerby account connected to the business hub. You must select one of the following methods:
        * **Single sign-on (SSO):** Access is managed by your identity provider, and users log in with SSO authentication. They are not asked to save their credentials in Cerby.
        * **Username and password:** Ceby manages account security and access, and users log in with their credentials after saving them in Cerby.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Mixpanel accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the Requirements section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-mixpanel.md#id-requirements) section.
 ​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub) because you may need to add the account first and then, add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
 The corresponding business hub is also on the **Business Hubs** view.
 
-The next step is 2\. Check for updates to import users, roles, and assets to Cerby.
+The next step is [2. Check for updates to import users, roles, and assets to Cerby](connect-a-business-hub-for-mixpanel.md#id-2.-check-for-updates-to-import-users-roles-and-assets-to-cerby).
 
 ### 2\. Check for updates to import users, roles, and assets to Cerby
 
@@ -116,7 +116,7 @@ To check for updates in your app to identify and import users, roles, and assets
 
 {% endhint %}
 
-The next step is 3\. Connect your Mixpanel user account to the business hub.
+The next step is [3. Connect your Mixpanel user account to the business hub](connect-a-business-hub-for-mixpanel.md#id-3.-connect-your-mixpanel-user-account-to-the-business-hub).
 
 ### 3\. Connect your Mixpanel user account to the business hub
 
@@ -127,7 +127,7 @@ To connect your Mixpanel user account to the business hub so Cerby can manage an
   3. Enter the login credentials of your Mixpanel user account.
   4. Click the **Connect account** button. The dialog box closes, and a success message box and a new account card are displayed.
 
-The next step is 4\. Manage unmatched users.
+The next step is [4. Manage unmatched users](connect-a-business-hub-for-mixpanel.md#id-4.-manage-unmatched-users).
 
 ### 4\. Manage unmatched users
 
@@ -146,9 +146,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-* Match users
-* Remove unmatched users
-* Exempt unmatched users
+  * [Match users](connect-a-business-hub-for-mixpanel.md#id-match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-mixpanel.md#id-remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-mixpanel.md#id-exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -200,14 +200,14 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 The following are the supported features of business hubs you can use:
 
-* [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
-* [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
-* [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
-* [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-* [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
-* [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
-* [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-* [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
-* [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
-* [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
-* [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
+  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+  * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

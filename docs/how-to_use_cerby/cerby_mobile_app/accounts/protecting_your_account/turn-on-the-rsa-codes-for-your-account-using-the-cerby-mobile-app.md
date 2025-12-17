@@ -38,7 +38,8 @@ To turn on RSA codes for your account using the Cerby mobile app, you must compl
   3. Activate the **Accounts** tab. The screen with the list of your accounts is displayed.
   4. Tap your JP Morgan account.
   5. Tap the **Activate MFA** button. The **Scan QR code** screen is displayed.
-**NOTE:** The Cerby mobile app might require permission to access your phone’s camera. Ensure that you grant the required permissions during this step.
+
+  **NOTE:** The Cerby mobile app might require permission to access your phone’s camera. Ensure that you grant the required permissions during this step.
 
   6. Scan the RSA QR code you want to associate with your account. The RSA code is generated, associated with your account, and displayed in the **Verification codes** section of your account.
 

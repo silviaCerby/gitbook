@@ -24,12 +24,12 @@ An automation task issue is raised when a workflow execution for that task type 
 
 To filter the list of automation task issues displayed in the Security Hub, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Security Hub** option from the left navigation drawer. The **Security Hub** view is displayed.
-  3. Click the right arrow () within the issue type category whose issues you want to view. A side drawer is displayed with the list of cards for the selected automation task type.
-  4. Click the **Filter by issue** field above the issue cards displayed in the side drawer. A menu is displayed.
-  5. Select one or more automation task types you want to list.
-  6. Click the **Apply filter** option. The menu closes, and the list displays only the cards for the selected automation task types.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Security Hub** option from the left navigation drawer. The **Security Hub** view is displayed.
+3. Click the right arrow () within the issue type category whose issues you want to view. A side drawer is displayed with the list of cards for the selected automation task type.
+4. Click the **Filter by issue** field above the issue cards displayed in the side drawer. A menu is displayed.
+5. Select one or more automation task types you want to list.
+6. Click the **Apply filter** option. The menu closes, and the list displays only the cards for the selected automation task types.
 
 Now you are done.
 

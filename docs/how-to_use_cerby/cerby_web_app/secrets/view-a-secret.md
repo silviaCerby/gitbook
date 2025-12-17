@@ -24,11 +24,12 @@ Additionally, as mentioned in the article [Add a secret](https://cerby-test.gitb
 
 To view a secret using the Cerby web app, you must complete the following steps:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Secrets** option from the left navigation drawer. The **Secrets** view is displayed.
-  3. Click the secret card or the **View** icon from the corresponding secret card. The **Secret** dialog box is displayed with the content of the secret and the attachments.
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Secrets** option from the left navigation drawer. The **Secrets** view is displayed.
+3. Click the secret card or the **View** icon from the corresponding secret card. The **Secret** dialog box is displayed with the content of the secret and the attachments.
+
 **NOTE:** If an identity challenge is configured, the **Confirm your identity to continue** dialog box is displayed. To confirm your identity, use one of [Cerby's multi-factor authentication methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods).
 
-  4. Click the **View**(<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1556350243/784f8bb37d56a988965676ad1c4e/AD_4nXfLvX2UAJ5sQT2itdYgZYHTpCgPrY8HFbRh-AtwIdkokuJ5jBUrvp5OUgzNrjMqprkdIR5sqfN4O0_HItHVApvd51f3AD08AntUzYe1HcqDOwT13icdxl227-xUjraxXT2Z_VXdpI0PxXYKkVmKxpsnlrnV?expires=1749069750&signature=49b8502f36c3e8f56e7a9b50a2c6248ccd97f121f25f49c61215d0ce31e9716e&req=dSUiEMp7nYNbWvMU3HP0gFClkh5a2ovgFvETS6ENpOdLVl%2BWnKI%3D%0A" alt=""><figcaption></figcaption></figure>) button next to the **Secret** field to show the secret content.
+4. Click the **View**(<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1556350243/784f8bb37d56a988965676ad1c4e/AD_4nXfLvX2UAJ5sQT2itdYgZYHTpCgPrY8HFbRh-AtwIdkokuJ5jBUrvp5OUgzNrjMqprkdIR5sqfN4O0_HItHVApvd51f3AD08AntUzYe1HcqDOwT13icdxl227-xUjraxXT2Z_VXdpI0PxXYKkVmKxpsnlrnV?expires=1749069750&signature=49b8502f36c3e8f56e7a9b50a2c6248ccd97f121f25f49c61215d0ce31e9716e&req=dSUiEMp7nYNbWvMU3HP0gFClkh5a2ovgFvETS6ENpOdLVl%2BWnKI%3D%0A" alt="">) button next to the **Secret** field to show the secret content.
 
 Now you are done.

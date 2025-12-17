@@ -9,13 +9,13 @@ This article helps you fix the most common issues with accessing and managing yo
 
 The following are the most common issues:
 
-* Suspicious login attempt
-* Unable to access settings when turning on MFA
-* Manual MFA enrollment
-* Cerby mobile app behavior
-* Cerby-managed phone number support
-* Email swap
-* Invalid MFA verification code
+* [Suspicious login attempt](troubleshooting-common-issues-with-instagram.md#id-suspicious-login-attempt)
+* [Unable to access settings when turning on MFA](troubleshooting-common-issues-with-instagram.md#id-unable-to-access-settings-when-turning-on-mfa)
+* [Manual MFA enrollment](troubleshooting-common-issues-with-instagram.md#id-manual-mfa-enrollment)
+* [Cerby mobile app behavior](troubleshooting-common-issues-with-instagram.md#id-cerby-mobile-app-behavior)
+* [Cerby-managed phone number support](troubleshooting-common-issues-with-instagram.md#h_66650888dc)
+* [Email swap](troubleshooting-common-issues-with-instagram.md#id-email-swap)
+* [Invalid MFA verification code](troubleshooting-common-issues-with-instagram.md#id-invalid-mfa-verification-code)
 
 The following sections describe common scenarios that can cause confusion and, if applicable, a proposed solution.
 
@@ -25,7 +25,7 @@ The following sections describe common scenarios that can cause confusion and, i
 
 When you log in automatically to an Instagram account from Cerby using a new device (computer or mobile phone) from a new location, Instagram displays the **Suspicious Login Attempt** dialog box or screen asking you to verify your identity, as shown in **Figure 1**.
 
-<figure><img src="../../../../.gitbook/assets/5ktSl6CtPZ98mhoHP3oXeQ7Qwe-KMcZ2oVUa58itSyDkz6t7d50nKlvm6Abc7_2I2fqTzXkC62fpv_4H1bFtaudiWhM7g7OMzu9o36JJ4iplKtwHKLO3gVe77osClA4dGyv40fW1orOG2kRRs4Zh5CbAe11QVR0E7urkythO9h8KtNzS3DTKUqRmEV7o.jpg" alt="Suspicious Login Attempt Dialog Box or Screen"><figcaption></figcaption></figure>
+<img src="../../../../.gitbook/assets/5ktSl6CtPZ98mhoHP3oXeQ7Qwe-KMcZ2oVUa58itSyDkz6t7d50nKlvm6Abc7_2I2fqTzXkC62fpv_4H1bFtaudiWhM7g7OMzu9o36JJ4iplKtwHKLO3gVe77osClA4dGyv40fW1orOG2kRRs4Zh5CbAe11QVR0E7urkythO9h8KtNzS3DTKUqRmEV7o.jpg" alt="Suspicious Login Attempt Dialog Box or Screen">
 
 **Figure 1. Suspicious Login Attempt Dialog Box or Screen**
 
@@ -48,7 +48,8 @@ To retrieve the security code when you have a Cerby-managed email address, you m
 To prevent the **Suspicious Login Attempt** dialog box or screen from being displayed in the future, Cerby recommends you turn on MFA with Cerby as an authenticator app and disable the login requests settings on Instagram. Complete the following steps:
 
   1. Turn on MFA manually. Follow the instructions in the [How to turn on MFA in Instagram manually](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/video-how-to-turn-on-mfa-in-instagram-manually) video.
-**NOTE:** If you have already turned on MFA with Cerby as an authenticator app, continue to step 2.
+
+  **NOTE:** If you have already turned on MFA with Cerby as an authenticator app, continue to step 2.
 
   2. Tap the **Profile** button with your picture or avatar, located on the right in the bottom navigation drawer of the Instagram mobile app. The **Edit profile** screen is displayed.
   3. Tap the **Menu** icon at the top right of the screen. A drop-down list is displayed.
@@ -66,7 +67,7 @@ Now you are done.
 
 When you attempt to turn on MFA manually or automatically from Cerby using a new device (mobile phone or computer), Instagram may display the **You can’t access certain settings for a few days** dialog box, as shown in **Figure 2**.
 
-<figure><img src="../../../../.gitbook/assets/_q2tILisZ1Sv_AJf7fdMSDJmKnqPfeD1jnbzbLkTaXGc2aq93O2kz944mwAzllnBEpSFeMvY2oLVnTRByvOF_I0wlkpsmBf_e85GPY3GQSuBWAhUkSWnYDw3jg_p43WNPxQH6cPFdoUnNb28ca-9e4TpJzzQ7gAZ8xXx3IfJogex7RnF--NAHW05a7rn5Q.png" alt="You can’t access certain settings for a few days Dialog Box"><figcaption></figcaption></figure>
+<img src="../../../../.gitbook/assets/_q2tILisZ1Sv_AJf7fdMSDJmKnqPfeD1jnbzbLkTaXGc2aq93O2kz944mwAzllnBEpSFeMvY2oLVnTRByvOF_I0wlkpsmBf_e85GPY3GQSuBWAhUkSWnYDw3jg_p43WNPxQH6cPFdoUnNb28ca-9e4TpJzzQ7gAZ8xXx3IfJogex7RnF--NAHW05a7rn5Q.png" alt="You can’t access certain settings for a few days Dialog Box">
 
 **Figure 2. You can’t access certain settings for a few days** dialog box
 
@@ -76,14 +77,14 @@ This behavior happens because Instagram verifies and keeps track of your devices
 
 To solve the MFA enrollment attempt prompt, you have two options:
 
-* Try again to turn on MFA in a day or two.
-* Use a device with an active session to turn on MFA manually by performing the following actions:
+  * Try again to turn on MFA in a day or two.
+  * Use a device with an active session to turn on MFA manually by performing the following actions:
 
     1. Identify the device with an active session by following the instructions in the [View your account’s recent login activity](https://help.instagram.com/2761108904184084) official documentation from Instagram. The device must have an **Active now** status, as shown in **Figure 3**.
 
-**Figure 3. Instagram Login Activity** screen
+<img src="../../../../.gitbook/assets/InstagramDialogBox_1_70.png" alt="">
 
-<figure><img src="../../../../.gitbook/assets/InstagramDialogBox_1_70.png" alt=""><figcaption></figcaption></figure>
+**Figure 3. Instagram Login Activity** screen
 
     2. Use the device with the active session to turn on MFA manually. Follow the instructions in the [How to turn on MFA in Instagram manually](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/video-how-to-turn-on-mfa-in-instagram-manually) video.
 
@@ -109,8 +110,8 @@ You can only go through this manual configuration with your Instagram mobile app
 
 After turning on MFA and configuring Cerby as an authenticator app, your login experience improves. Verification codes are automatically distributed to all account members and auto-filled when they log into Instagram from Cerby as follows:
 
-* When logging in through the Cerby web app, the verification code is entered automatically as part of the workflow.
-* When logging in through the Instagram mobile app, the verification code is copied to the clipboard using the autofill feature. For more information, see the Cerby mobile app behavior section.
+  * When logging in through the Cerby web app, the verification code is entered automatically as part of the workflow.
+  * When logging in through the Instagram mobile app, the verification code is copied to the clipboard using the autofill feature. For more information, see the [Cerby mobile app behavior](troubleshooting-common-issues-with-instagram.md#id-cerby-mobile-app-behavior) section.
 
 You can turn off MFA on a computer or the Instagram mobile app through your web browser.
 
@@ -122,10 +123,11 @@ The Cerby mobile app helps you easily log in to your apps by auto-filling the cr
 
 When MFA is on, you may have to enter a verification code on an additional screen after auto-filling your credentials. Perform the following actions to retrieve the code according to your verification method:
 
-* **Cerby app as an authenticator app:** When autofill is enabled on your mobile phone, the verification code is automatically copied to the clipboard. Tap the **Paste** button to fill in the verification code field. For more information, read the article [Turn on MFA with Cerby as an authenticator app for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app).\
+  * **Cerby app as an authenticator app:** When autofill is enabled on your mobile phone, the verification code is automatically copied to the clipboard. Tap the **Paste** button to fill in the verification code field. For more information, read the article [Turn on MFA with Cerby as an authenticator app for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app).
+
   **NOTE:** If autofill is not enabled or the code is not automatically copied to the clipboard, copy the verification code from the **MFA Code** section. This section is located in the account details using the Cerby mobile app.
 
-* **Cerby-managed email address:** The verification code is sent to the **Shared Inbox** , and you can retrieve it through the Cerby web app. For more information on the **Shared Inbox** , refer to the articles:
+  * **Cerby-managed email address:** The verification code is sent to the **Shared Inbox** , and you can retrieve it through the Cerby web app. For more information on the **Shared Inbox** , refer to the articles:
     * [Set up and associate a Cerby-managed email address for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/set-up-and-associate-a-cerby-managed-email-address-for-your-account)
     * [View the messages sent to a Cerby-managed email address or phone number](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number)
 * * *
@@ -170,4 +172,4 @@ If you still encounter the error, use one of the recovery or backup codes you sa
   2. Click the **View Codes** button located in the **Emergency Controls** section. The **Confirm your identity to continue** dialog box is displayed.
   3. Click the **It’s me!** button in the **Confirmation Request** screen of the Cerby mobile app to confirm your identity. The dialog box in the Cerby web app closes, and the **View MFA Backup Codes** dialog box is displayed with the codes.
 
-**IMPORTANT:** Remember to use only a recovery or backup code once. If you need to generate a new set of codes, follow the instructions in the [How you can use a recovery code on Instagram](https://help.instagram.com/1006568999411025) official documentation, and save the new codes in Cerby, as described in the Manual MFA enrollment section.
+  **IMPORTANT:** Remember to use only a recovery or backup code once. If you need to generate a new set of codes, follow the instructions in the [How you can use a recovery code on Instagram](https://help.instagram.com/1006568999411025) official documentation, and save the new codes in Cerby, as described in the [Manual MFA enrollment](troubleshooting-common-issues-with-instagram.md#id-manual-mfa-enrollment) section.

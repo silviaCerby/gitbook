@@ -39,7 +39,8 @@ This article describes how to scout a workflow.
 To scout a workflow, you must complete the next steps:
 
   1. Open a new browser tab.
-**IMPORTANT:** Scout records all your UI interactions in the current tab, such as clicks, scrolls, and overall navigation. If you change the tab, it’ll keep scouting, but it won’t capture any data.
+
+  **IMPORTANT:** Scout records all your UI interactions in the current tab, such as clicks, scrolls, and overall navigation. If you change the tab, it’ll keep scouting, but it won’t capture any data.
 
   2. Open the Scout browser extension. Depending on whether you have an active session or not, one of the following screens are displayed:
 
@@ -55,11 +56,13 @@ To scout a workflow, you must complete the next steps:
 ​**NOTE:** The extension popup closes when you click any element in the browser tab, but it keeps recording.
 
   4. Complete the task from start to finish.
-**NOTE:** You can cancel the current scouting anytime and discard it by clicking the **Cancel** button. The **Scout your workflows** popup is displayed again.
+
+  **NOTE:** You can cancel the current scouting anytime and discard it by clicking the **Cancel** button. The **Scout your workflows** popup is displayed again.
 
   5. Open the Scout browser extension when you are done. The **Scouting** screen is displayed.
   6. Click the **Stop** button. The **Send your scouting report** screen is displayed with the length and the number of actions saved in the scouting.
-**TIP:** Click the **Preview** button to see the recording before sending it to Cerby. A new browser tab opens where you can preview the scouting report. To learn more about the controls of this page, read the Preview your recording section.
+
+  **TIP:** Click the **Preview** button to see the recording before sending it to Cerby. A new browser tab opens where you can preview the scouting report. To learn more about the controls of this page, read the [Preview your recording](scout-a-workflow.md#id-preview-your-scouting-report) section.
 
   7. Enter and select the corresponding details of your scouting report from the following fields:
 
@@ -77,12 +80,12 @@ Now you are done.
 
 ## Preview your scouting report
 
-The following are the controls available to preview your scouting report in a new browser tab when clicking the **Preview** button after step 6 of the Scout a workflow section:
+The following are the controls available to preview your scouting report in a new browser tab when clicking the **Preview** button after step 6 of the [Scout a workflow](scout-a-workflow.md#id-scout-a-workflow) section:
 
-* **Play/Pause:** Starts or pauses the scouting report.
-* **Progress bar:** Moves the scouting report forward or backward. You can also click anywhere on the bar to jump to a specific point in the recording.
-* **Fullscreen:** Plays the scouting report in fullscreen mode. Press the ESC key or click the icon again to exit fullscreen.
-* **Speed controllers:** Play the scouting at the following speeds:
+  * **Play/Pause:** Starts or pauses the scouting report.
+  * **Progress bar:** Moves the scouting report forward or backward. You can also click anywhere on the bar to jump to a specific point in the recording.
+  * **Fullscreen:** Plays the scouting report in fullscreen mode. Press the ESC key or click the icon again to exit fullscreen.
+  * **Speed controllers:** Play the scouting at the following speeds:
     * 1x
     * 2x
     * 4x
@@ -93,20 +96,21 @@ The following are the controls available to preview your scouting report in a ne
 
 The following are the potential issues you may encounter when using Scout and the proposed actions to troubleshoot them:
 
-* **Unable to send your scouting report:** This error message means that the scouting report couldn’t be sent due to an unexpected issue.
+  * **Unable to send your scouting report:** This error message means that the scouting report couldn’t be sent due to an unexpected issue.
 
     1. Click the **Try again** button to send the scouting report again.
 
-* **Unable to scout your workflow:** This error message means that the Scout browser extension couldn't generate the scouting report due to an unexpected issue.
+  * **Unable to scout your workflow:** This error message means that the Scout browser extension couldn't generate the scouting report due to an unexpected issue.
 
     1. Click the **Try again** button to scout your workflow again from the start.
 
-* **Unable to process your scouting report:** This error message means that the Scout browser extension couldn't process the scouting report because it was recorded for less than 15 seconds.
+  * **Unable to process your scouting report:** This error message means that the Scout browser extension couldn't process the scouting report because it was recorded for less than 15 seconds.
 
     1. Click the **Try again** button to scout your workflow again from the start.
-**IMPORTANT:** The recording must be at least 15 seconds long.
 
-* **Blank recording when previewing the scouting report:** This error occurs when the Scout browser extension doesn’t capture your UI interactions correctly due to an unexpected issue. Cerby is unable to detect this error, so you can only identify it when you preview the scouting report and see a blank recording.
+    **IMPORTANT:** The recording must be at least 15 seconds long.
+
+  * **Blank recording when previewing the scouting report:** This error occurs when the Scout browser extension doesn’t capture your UI interactions correctly due to an unexpected issue. Cerby is unable to detect this error, so you can only identify it when you [preview the scouting report](scout-a-workflow.md#id-preview-your-scouting-report) and see a blank recording.
 
     1. Open the Scout browser extension. The **Send your scouting report** screen is displayed.
     2. Click the **Cancel** button. The **Scout your workflows** screen is displayed.

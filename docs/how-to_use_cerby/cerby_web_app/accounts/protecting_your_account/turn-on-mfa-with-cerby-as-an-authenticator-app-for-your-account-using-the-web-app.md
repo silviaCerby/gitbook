@@ -29,18 +29,18 @@ When MFA is turned on with this verification method, Cerby fills in the six-digi
 
 The following are the requirements to set up and associate Cerby as your authenticator app for your account:
 
-* A Cerby workspace
-* A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
-* An account in an app or service provider
-* An account added to Cerby to which you have the **Owner** role
+  * A Cerby workspace
+  * A Cerby user account with the workspace **Owner** , **Super** **Admin** , **Admin** , or **User** role
+  * An account in an app or service provider
+  * An account added to Cerby to which you have the **Owner** role
 * * *
 
 ## Turn on MFA with Cerby as an authenticator app for your account
 
 You can turn on MFA with Cerby as your authenticator app using the following methods:
 
-* **Automatic setup:** For supported managed apps, Cerby can automatically turn on MFA without requiring manual input. With one click, Cerby handles the entire setup process for you in the background, including saving the account backup or recovery codes when supported.
-* **Manual setup:** For apps that don’t support automation to turn on MFA, you can manually turn it on by retrieving a secret key from the app’s settings page and entering it in Cerby to complete the setup. Cerby recommends saving the account backup or recovery codes when supported.
+  * **[Automatic setup](turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app.md#id-automatic-setup):** For supported managed apps, Cerby can automatically turn on MFA without requiring manual input. With one click, Cerby handles the entire setup process for you in the background, including saving the account backup or recovery codes when supported.
+  * **[Manual setup](turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app.md#id-manual-setup):** For apps that don’t support automation to turn on MFA, you can manually turn it on by retrieving a secret key from the app’s settings page and entering it in Cerby to complete the setup. Cerby recommends saving the account backup or recovery codes when supported.
 
 The following sections describe the instructions for each option.
 

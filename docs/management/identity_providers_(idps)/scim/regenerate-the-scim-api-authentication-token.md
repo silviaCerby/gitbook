@@ -9,9 +9,9 @@ When configuring automatic user and group provisioning with your IdP, you may ne
 
 To regenerate the SCIM API authentication token, complete the following steps:
 
-  1. Send an email with your request to the Customer Support team at [support@cerby.com](mailto:support@cerby.com). We’ll regenerate the token for you and notify you via email.
-  2. Open the response email from Cerby to confirm that the token was successfully regenerated.
-  3. Complete the instructions in the article [Retrieve the SCIM API authentication token from Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/retrieve-the-scim-api-authentication-token-from-cerby) to retrieve the new SCIM API authentication token.
+1. Send an email with your request to the Customer Support team at [support@cerby.com](mailto:support@cerby.com). We’ll regenerate the token for you and notify you via email.
+2. Open the response email from Cerby to confirm that the token was successfully regenerated.
+3. Complete the instructions in the article [Retrieve the SCIM API authentication token from Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/retrieve-the-scim-api-authentication-token-from-cerby) to retrieve the new SCIM API authentication token.
 
 {% hint style="info" %}
 

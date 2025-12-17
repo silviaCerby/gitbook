@@ -30,8 +30,8 @@ This article describes the instructions to set up the analytics data export for 
 
 The following are the requirements to configure the integration to export analytics data from Cerby via an Amazon S3 bucket:
 
-* A Cerby account in AWS.
-* A Cerby role in AWS.
+  * A Cerby account in AWS.
+  * A Cerby role in AWS.
 
 {% hint style="danger" %}
 
@@ -47,8 +47,8 @@ The following are the requirements to configure the integration to export analyt
 
 To set up the analytics data export to a SIEM integration via an Amazon S3 bucket, you must complete the following main steps:
 
-  1. Create and configure an Amazon S3 bucket
-  2. Configure your SIEM solution to ingest data from the S3 bucket
+  1. [Create and configure an Amazon S3 bucket](export-analytics-data-from-cerby-to-an-amazon-s3-bucket-for-siem-integration.md#id-1.-create-and-configure-an-amazon-s3-bucket)
+  2. [Configure your SIEM solution to ingest data from the S3 bucket](export-analytics-data-from-cerby-to-an-amazon-s3-bucket-for-siem-integration.md#id-2.-configure-your-siem-solution-to-ingest-data-from-the-amazon-s3-bucket)
 
 The following sections describe each main step.
 
@@ -57,12 +57,10 @@ The following sections describe each main step.
 To create and configure an Amazon S3 bucket, you must complete the following steps:
 
   1. Create an Amazon S3 bucket for storing objects by following the instructions in the [Create your first S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html#creating-bucket) official documentation.
-**NOTE:** Make sure to select the **ACLs disabled** and **Block all public access** options when creating your bucket.
+  **NOTE:** Make sure to select the **ACLs disabled** and **Block all public access** options when creating your bucket.
 
   2. Add a bucket policy to grant Cerby writing permissions on the bucket by following the instructions in the [Adding a bucket policy by using the Amazon S3 console](https://docs.aws.amazon.com/AmazonS3/latest/userguide/add-bucket-policy.html) official documentation. Use the following policy:
 ​
-
-**IMPORTANT:** Make sure you add the name of your bucket in the **`Resource`** parameters and replace **`cerby_account`** and**`cerby_role`** with the values provided by our Support team.
 
          {
              "Version": "2012-10-17",
@@ -96,6 +94,8 @@ To create and configure an Amazon S3 bucket, you must complete the following ste
                  }
              ]
          }
+
+**IMPORTANT:** Make sure you add the name of your bucket in the **`Resource`** parameters and replace **`cerby_account`** and**`cerby_role`** with the values provided by our Support team.
 
   3. Share the **bucket name** and its **path** with our Support team.
 

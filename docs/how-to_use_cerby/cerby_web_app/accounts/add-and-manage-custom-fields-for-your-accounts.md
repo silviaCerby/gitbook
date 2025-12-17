@@ -46,9 +46,9 @@ To add a custom field, you must complete the following steps using the Cerby web
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace. The **All accounts** view is displayed.
   2. Click the **Settings** icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated, as shown in **Figure 1**.
 
-**Figure 1.** Account details page
+<img src="../../../../.gitbook/assets/M6BCD9BPSX8fWomVBk4eoGOmSNJORkFUrAxcjKj2JlBiqOJUBADN3v9bZzoq1m_2Gg6EpPV-MpZg-EuKgEl4hLU2OwKEeXnq2sgpoJD5pc43pTt7NcKmFn9uIHqPVKP0YBHNrE-6UA7bUvSFBM-s2kA.png" alt="Screenshot of the account details page, where you can manage your account and add custom fields to save specific and categorized information.">
 
-<figure><img src="../../../../.gitbook/assets/M6BCD9BPSX8fWomVBk4eoGOmSNJORkFUrAxcjKj2JlBiqOJUBADN3v9bZzoq1m_2Gg6EpPV-MpZg-EuKgEl4hLU2OwKEeXnq2sgpoJD5pc43pTt7NcKmFn9uIHqPVKP0YBHNrE-6UA7bUvSFBM-s2kA.png" alt="Screenshot of the account details page, where you can manage your account and add custom fields to save specific and categorized information."><figcaption></figcaption></figure>
+**Figure 1.** Account details page
 
   3. Click the **Add custom field** button located in the **More details** section. The **Add custom field** dialog box is displayed.
   4. Select the corresponding option from the Field type drop-down list:
@@ -61,7 +61,8 @@ To add a custom field, you must complete the following steps using the Cerby web
   6. Click the **Add custom field** button. The dialog box closes, and the new custom field is displayed editable.
   7. Enter the information in the new field.
   8. Click the **Done** icon to save the information. A success message box is displayed.
-**NOTE:** You can click the **Cancel** icon to discard the new custom field.
+
+  **NOTE:** You can click the **Cancel** icon to discard the new custom field.
 
 * * *
 
@@ -74,7 +75,8 @@ Only users with the **Account Owner** role on an account can edit the content of
   3. Click the **Edit** icon of the corresponding custom field in the **More details** section to make it editable.
   4. Enter the information.
   5. Click the **Done** icon to save the information. A success message box is displayed.
-**NOTE:** You can discard the changes to the custom field by performing the following actions:
+
+  **NOTE:** You can discard the changes to the custom field by performing the following actions:
 
      1. Click the **Cancel** icon. The **Discard your changes?** dialog box is displayed.
      2. Click the **Yes, discard changes** button. The dialog box closes, and the changes are discarded.
@@ -87,7 +89,8 @@ Users with the **Account Owner** or **Account Collaborator** role on an account 
 
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace. The **All accounts** view is displayed.
   2. Click the **Settings** icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated and custom fields in the **More details** section.
-**NOTE:** If you have the **Account Collaborator** role on the account, you must perform the following actions to access the account details page:
+
+  **NOTE:** If you have the **Account Collaborator** role on the account, you must perform the following actions to access the account details page:
 
      1. Click the **More options** icon of the corresponding account card. A drop-down list is displayed.
      2. Select the **Account details** option. The account details page is displayed with the custom fields in the **More details** section.
@@ -100,7 +103,8 @@ Users with the **Account Owner** or **Account Collaborator** role on an account 
 
   1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace. The **All accounts** view is displayed.
   2. Click the **Settings** icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated and custom fields in the **More details** section.
-**NOTE:** If you have the **Account Collaborator** role on the account, you must perform the following actions to access the account details page:
+
+  **NOTE:** If you have the **Account Collaborator** role on the account, you must perform the following actions to access the account details page:
 
      1. Click the **More options** icon of the corresponding account card. A drop-down list is displayed.
      2. Select the **Account details** option. The account details page is displayed with the custom fields in the **More details** section.

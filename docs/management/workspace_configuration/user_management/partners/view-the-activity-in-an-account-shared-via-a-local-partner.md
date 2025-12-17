@@ -24,8 +24,8 @@ As a **Host Admin** , **Guest Admin** , or **Guest User** of an existing [local 
 
 To view the activity in an account shared via a local partner, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace.
-  2. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1655791515/d0c1ede9e96921702d406ac342cc/AD_4nXcRXuZlqpWdtuRcbhBeIeUfl_5B0VnA7hHgYhRlZLlQllTLtgyvrcb55rwcAZYzy9YU_xRVvAKy46UM_gBLMP9ADO_qp8amFp-hX7ZeE_7BtkD5COF05wt_AyRzRORGxqs0smXgFtgeGkOBlr9xJ04mBYY?expires=1754441100&signature=22ab17d0afb0cd99c622b0d0ae9ac6aeb6061a4e420f5947e09ddab5134bdabf&req=dSYiE853nIReXPMU3HP0gHQuT29%2B9AvmxXKpHn1H8%2FJ5Zrm3%2FLQ%3D%0A" alt=""><figcaption></figcaption></figure>) icon that appears when hovering over the corresponding account card. A drop-down menu is displayed.
-  3. Select the **View activity** option. The **Activity** page is displayed with the pre-filtered information about user activity in the account.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace.
+2. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1655791515/d0c1ede9e96921702d406ac342cc/AD_4nXcRXuZlqpWdtuRcbhBeIeUfl_5B0VnA7hHgYhRlZLlQllTLtgyvrcb55rwcAZYzy9YU_xRVvAKy46UM_gBLMP9ADO_qp8amFp-hX7ZeE_7BtkD5COF05wt_AyRzRORGxqs0smXgFtgeGkOBlr9xJ04mBYY?expires=1754441100&signature=22ab17d0afb0cd99c622b0d0ae9ac6aeb6061a4e420f5947e09ddab5134bdabf&req=dSYiE853nIReXPMU3HP0gHQuT29%2B9AvmxXKpHn1H8%2FJ5Zrm3%2FLQ%3D%0A" alt="">) icon that appears when hovering over the corresponding account card. A drop-down menu is displayed.
+3. Select the **View activity** option. The **Activity** page is displayed with the pre-filtered information about user activity in the account.
 
 Now you are done.

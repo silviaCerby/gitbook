@@ -28,20 +28,20 @@ To assign a manager to your business hub, you must complete the following steps:
 
 {% endhint %}
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
-  3. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1445289297/11a36d8975a55d31b77a09e01533/AD_4nXfr3-YldnQ2De5ChMi0XObm91PK390NTCo3afWmpBNFEFIBne514QxVjYJrMSlObGA-nNo5JedJwP_yxgCoSag82aB4jvGFCKfQMnayBuh9Kg1rTb0mmRLz7-wTvh8zAo6vnZVk?expires=1743116700&signature=4d8beabd2caaffbe6bff07ec9ddb9005086deed0216860798863fefafca0ee77&req=dSQjE8t2lINWXvMU3HP0gMm2IOpNDUgadi1a1KWQ51YCq1tlMT0%3D%0A" alt=""><figcaption></figcaption></figure>) icon of the corresponding business hub card. A drop-down menu is displayed.
-  4. Select the **Settings** option. The app details page is displayed with the **Settings** tab activated.
-  5. Activate the **Managers** tab.
-  6. Click the **Assign** button. The **Assign manager** dialog box is displayed.
-  7. Enter the name or email address of the user or the name of the team in the search bar. The users or teams that match the name or email address are displayed on a list below the search bar.
-  8. Select the corresponding user or team from the list.
-  9. Repeat steps 7 and 8 to assign multiple users and teams.
-  10. Select the corresponding role of the users and teams on the business hub from the role drop-down menu:
+1. Log in to your [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Business Hubs** option from the left menu. The **Business Hubs** page is displayed.
+3. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1445289297/11a36d8975a55d31b77a09e01533/AD_4nXfr3-YldnQ2De5ChMi0XObm91PK390NTCo3afWmpBNFEFIBne514QxVjYJrMSlObGA-nNo5JedJwP_yxgCoSag82aB4jvGFCKfQMnayBuh9Kg1rTb0mmRLz7-wTvh8zAo6vnZVk?expires=1743116700&signature=4d8beabd2caaffbe6bff07ec9ddb9005086deed0216860798863fefafca0ee77&req=dSQjE8t2lINWXvMU3HP0gMm2IOpNDUgadi1a1KWQ51YCq1tlMT0%3D%0A" alt="">) icon of the corresponding business hub card. A drop-down menu is displayed.
+4. Select the **Settings** option. The app details page is displayed with the **Settings** tab activated.
+5. Activate the **Managers** tab.
+6. Click the **Assign** button. The **Assign manager** dialog box is displayed.
+7. Enter the name or email address of the user or the name of the team in the search bar. The users or teams that match the name or email address are displayed on a list below the search bar.
+8. Select the corresponding user or team from the list.
+9. Repeat steps 7 and 8 to assign multiple users and teams.
+10. Select the corresponding role of the users and teams on the business hub from the role drop-down menu:
 
-     * **Manager** : This role enables only managing the users of your external app from Cerby.
-     * **Owner** : This role enables managing the users of your external app from Cerby and all the business hub settings.
+   * **Manager** : This role enables only managing the users of your external app from Cerby.
+   * **Owner** : This role enables managing the users of your external app from Cerby and all the business hub settings.
 
-  11. Click the **Assign** button. The dialog box closes, and a success message box is displayed. The new managers are displayed in the **Managers** table.
+11. Click the **Assign** button. The dialog box closes, and a success message box is displayed. The new managers are displayed in the **Managers** table.
 
 Now you are done.

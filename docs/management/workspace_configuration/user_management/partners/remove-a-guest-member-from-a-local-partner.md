@@ -26,13 +26,13 @@ The following rules apply when removing a guest member:
 
 To remove a guest member from a local partner, you must complete the following steps:
 
-  1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-  2. Select the **Partners** option from the left menu. The **Partners** page is displayed.
-  3. Select the corresponding local partner from the **Your partners** list. The partner details section is displayed.
-  4. Activate the **Users** tab. The partner’s members and their roles are displayed.
-  5. Click the **More options** (<figure><img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1655755551/3b66f8b06420290546bbb7dca7d9/AD_4nXcRXuZlqpWdtuRcbhBeIeUfl_5B0VnA7hHgYhRlZLlQllTLtgyvrcb55rwcAZYzy9YU_xRVvAKy46UM_gBLMP9ADO_qp8amFp-hX7ZeE_7BtkD5COF05wt_AyRzRORGxqs0smXgFtgeGkOBlr9xJ04mBYY?expires=1754439000&signature=75fcfd526e1c2f6e64463aded9a6103135ac2c90636d689495c039b689693deb&req=dSYiE857mIRaWPMU3HP0gH76Y8shsawP95bkrAgnSsfqTZ9%2FWuA%3D%0A" alt=""><figcaption></figcaption></figure>) icon on the right side of the corresponding user. A drop-down menu is displayed.
-  6. Select the **Remove** option. The **Remove user?** dialog box is displayed.
-  7. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the local partner and the workspace.
+1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
+2. Select the **Partners** option from the left menu. The **Partners** page is displayed.
+3. Select the corresponding local partner from the **Your partners** list. The partner details section is displayed.
+4. Activate the **Users** tab. The partner’s members and their roles are displayed.
+5. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1655755551/3b66f8b06420290546bbb7dca7d9/AD_4nXcRXuZlqpWdtuRcbhBeIeUfl_5B0VnA7hHgYhRlZLlQllTLtgyvrcb55rwcAZYzy9YU_xRVvAKy46UM_gBLMP9ADO_qp8amFp-hX7ZeE_7BtkD5COF05wt_AyRzRORGxqs0smXgFtgeGkOBlr9xJ04mBYY?expires=1754439000&signature=75fcfd526e1c2f6e64463aded9a6103135ac2c90636d689495c039b689693deb&req=dSYiE857mIRaWPMU3HP0gH76Y8shsawP95bkrAgnSsfqTZ9%2FWuA%3D%0A" alt="">) icon on the right side of the corresponding user. A drop-down menu is displayed.
+6. Select the **Remove** option. The **Remove user?** dialog box is displayed.
+7. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the local partner and the workspace.
 
 {% hint style="info" %}
 

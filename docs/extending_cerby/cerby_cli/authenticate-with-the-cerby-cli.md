@@ -11,8 +11,8 @@ This article describes how to log in to the Cerby platform with the Cerby CLI vi
 
 Cerby has the following authentication processes to enable you to log in even in unusual situations where you can't access a web browser:
 
-* Log in via a web browser
-* Log in via a bearer token
+* [Log in via a web browser](authenticate-with-the-cerby-cli.md#id-log-in-via-a-web-browser)
+* [Log in via a bearer token](authenticate-with-the-cerby-cli.md#id-log-in-via-a-bearer-token)
 
 ​​The following sections describe each process.
 
@@ -24,11 +24,12 @@ To log in via a web browser and start using the CLI commands, you must complete 
 
   1. Access the location where the Cerby CLI is installed using your command line interface, depending on your OS.
   2. Execute the following command in your OS command line interface:
-You are redirected to your identity provider's login page on a browser page.
 
      * **Windows:** `.\cerby-win.exe login`
      * **Linux:** `./cerby-linux login`
      * **MacOS:** `./cerby-macos login`
+
+You are redirected to your identity provider's login page on a browser page.
 
   3. Enter your credentials to authenticate via single sign-on (SSO). The **All set!** page is displayed, meaning that the authentication has been successful.
   4. Start using the Cerby commands in your command line.

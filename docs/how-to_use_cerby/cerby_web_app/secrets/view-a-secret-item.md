@@ -20,8 +20,8 @@ intercom_id: 8705400
 
 You can view your secret items (WiFi, SSH keys, database, server, and custom item) using all of the Cerby client apps:
 
-* View a secret item using the Cerby web app
-* View a secret item using the Cerby browser extension
+* [View a secret item using the Cerby web app](view-a-secret-item.md#id-view-a-secret-item-using-the-cerby-web-app)
+* [View a secret item using the Cerby browser extension](view-a-secret-item.md#id-view-a-secret-item-using-the-cerby-browser-extension)
 
 The following sections describe how to view a secret using each Cerby client app.
 

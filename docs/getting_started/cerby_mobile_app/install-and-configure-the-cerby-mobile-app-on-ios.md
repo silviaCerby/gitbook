@@ -5,9 +5,7 @@ intercom_id: 8432312
 
 # Install and configure the Cerby mobile app on iOS
 
-The Cerby mobile app enables you to access and manage your accounts, secrets, and collections from your iPhone. It also serves as a second device to authenticate sensitive tasks by providing you with verification codes and confirming your identity with push notifications.
-
-This article describes the steps to install and appropriately configure the required settings of the Cerby mobile app.
+The Cerby mobile app enables you to access and manage your accounts, secrets, and collections from your iPhone. It also serves as a secondary device to authenticate sensitive tasks, providing verification codes and confirming your identity through push notifications.
 
 * * *
 
@@ -15,21 +13,21 @@ This article describes the steps to install and appropriately configure the requ
 
 The following are the requirements to install, configure, and use the Cerby mobile app on iOS:
 
-* Cerby requires iOS 16 as the minimum supported OS version due to security updates and performance improvements. If your iPhone has an older operating system (OS) version, refer to the article [Troubleshooting: Older operating systems are no longer supported by the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/troubleshooting/troubleshooting-older-operating-systems-no-longer-supported-by-the-cerby-mobile-app)
-* From **v1.0.261** , the Cerby mobile app also supports installation on iPads (minimum supported OS: iOS 16)
-* Access to a Cerby workspace
+  * Cerby requires iOS 16 as the minimum supported OS version due to security updates and performance improvements. If your iPhone has an older operating system (OS) version, refer to the article [Troubleshooting: Older operating systems are no longer supported by the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/troubleshooting/troubleshooting-older-operating-systems-no-longer-supported-by-the-cerby-mobile-app)
+  * From **v1.0.261** , the Cerby mobile app also supports installation on iPads (minimum supported OS: iOS 16)
+  * Access to a Cerby workspace
 * * *
 
 ## Install and configure the Cerby mobile app on iOS
 
 To install and configure the Cerby mobile app on your iPhone, you must complete the following steps:
 
-  1. Install from the App Store
-  2. Turn on the Autofill Service on your iPhone
-  3. Turn on the Allow Notifications feature on your iPhone
-  4. Log in to your Cerby workspace
-  5. Turn on the Biometrics Login on your iPhone
-  6. Set up the Cerby mobile app as a trusted device
+  1. [Install from the App Store](install-and-configure-the-cerby-mobile-app-on-ios.md#id-1.-install-from-the-app-store)
+  2. [Turn on the Autofill Service on your iPhone](install-and-configure-the-cerby-mobile-app-on-ios.md#id-2.-turn-on-the-autofill-service-on-your-iphone)
+  3. [Turn on the Allow Notifications feature on your iPhone](install-and-configure-the-cerby-mobile-app-on-ios.md#id-3.-turn-on-the-allow-notifications-feature-on-your-iphone)
+  4. [Log in to your Cerby workspace](install-and-configure-the-cerby-mobile-app-on-ios.md#id-4.-log-in-to-your-cerby-workspace)
+  5. [Turn on the Biometrics Login on your iPhone](install-and-configure-the-cerby-mobile-app-on-ios.md#id-5.-turn-on-the-biometrics-login-on-your-iphone)
+  6. [Set up the Cerby mobile app as a trusted device](install-and-configure-the-cerby-mobile-app-on-ios.md#id-6.-set-up-the-cerby-mobile-app-as-a-trusted-device)
 
 The following sections describe each main step.
 
@@ -38,9 +36,9 @@ The following sections describe each main step.
 To install the Cerby mobile app on your iPhone from the App Store, you must complete the following steps:
 
   1. Open the Cerby mobile app in the [App Store](https://apps.apple.com/us/app/cerby/id1533747684).
-  2. Tap the **Install** (<figure><img src="../../../.gitbook/assets/AD_4nXflg-14MS3x3cXNQ7kxbMzndIE5fvxAZ-_kRDpWG7gDnu6pqg51PxGkFZ-mTJlDFV3O-UB-FFuESolWbUvMG4vVk5XeyWkRC6v_SiIzU8j-1yE34e3cZoI0PBHNkSWMbX2RLuZIlQ.png" alt=""><figcaption></figcaption></figure>) button. The app is downloaded and installed on your iPhone.
+  2. Tap the **Install** (<img src="../../../.gitbook/assets/AD_4nXflg-14MS3x3cXNQ7kxbMzndIE5fvxAZ-_kRDpWG7gDnu6pqg51PxGkFZ-mTJlDFV3O-UB-FFuESolWbUvMG4vVk5XeyWkRC6v_SiIzU8j-1yE34e3cZoI0PBHNkSWMbX2RLuZIlQ.png" alt="">) button. The app is downloaded and installed on your iPhone.
 
-The next step is 2\. Turn on the Autofill Service on your iPhone.
+The next step is [2. Turn on the Autofill Service on your iPhone](install-and-configure-the-cerby-mobile-app-on-ios.md#id-2.-turn-on-the-autofill-service-on-your-iphone).
 
 ### 2\. Turn on the Autofill Service on your iPhone
 
@@ -58,7 +56,7 @@ To continue the configuration of the Cerby mobile app and turn on the **Autofill
   8. Tap the **Done** option at the top right corner to return to the previous screen.
   9. Return to the Cerby app to continue the app setup.
 
-The next step is 3\. Turn on the Allow Notifications feature on your iPhone.
+The next step is [3. Turn on the Allow Notifications feature on your iPhone](install-and-configure-the-cerby-mobile-app-on-ios.md#id-3.-turn-on-the-allow-notifications-feature-on-your-iphone).
 
 ### 3\. Turn on the Allow Notifications feature on your iPhone
 
@@ -71,7 +69,7 @@ To continue the configuration and turn on the **Allow Notifications** feature, y
   3. Tap the **Allow** option. The **Allow notifications** switch is turned on.
   4. Tap the **Continue** button. The **Welcome to Cerby** screen is displayed.
 
-The next step is 4\. Log in to your Cerby workspace.
+The next step is [4. Log in to your Cerby workspace](install-and-configure-the-cerby-mobile-app-on-ios.md#id-4.-log-in-to-your-cerby-workspace).
 
 ### 4\. Log in to your Cerby workspace
 
@@ -82,7 +80,7 @@ To log in to your Cerby workspace with the Cerby mobile app, you must complete t
   3. Tap the **Next** button. The login page of your identity provider (IdP) is displayed.
   4. Log in to your IdP. The **Turn on Face ID to unlock Cerby** screen is displayed.
 
-The next step is 5\. Turn on the Biometrics Login on your iPhone.
+The next step is [5. Turn on the Biometrics Login on your iPhone](install-and-configure-the-cerby-mobile-app-on-ios.md#id-5.-turn-on-the-biometrics-login-on-your-iphone).
 
 ### 5\. Turn on the Biometrics Login on your iPhone
 
@@ -90,14 +88,14 @@ The Cerby mobile app enables you to use your biometric information, such as your
 
 To continue the configuration and turn on the **Biometrics Login** feature, you must complete the following steps:
 
-**NOTE:** This step is not mandatory. You can set up the **Biometrics Login** later by tapping the **Maybe later** option in the **Turn on Face ID to unlock Cerby** screen and skipping to step 6\. Set up the Cerby mobile app as a trusted session.
+**NOTE:** This step is not mandatory. You can set up the **Biometrics Login** later by tapping the **Maybe later** option in the **Turn on Face ID to unlock Cerby** screen and skipping to step [6. Set up the Cerby mobile app as a trusted session](install-and-configure-the-cerby-mobile-app-on-ios.md#id-6.-set-up-the-cerby-mobile-app-as-a-trusted-device).
 ---
 
   1. Tap the **Set up Face ID** button. The iPhone’s Face ID is activated.
   2. Look at the phone’s camera. A checkmark indicates that the verification has been completed. The **“Cerby” Would Like to Send You Notifications** message box is displayed.
   3. Tap the **Allow** button. The **Set up trusted device** screen is displayed.
 
-The next step is 6\. Set up the Cerby mobile app as a trusted session.
+The next step is [6. Set up the Cerby mobile app as a trusted session](install-and-configure-the-cerby-mobile-app-on-ios.md#id-6.-set-up-the-cerby-mobile-app-as-a-trusted-device).
 
 ### 6\. Set up the Cerby mobile app as a trusted device
 
@@ -107,27 +105,31 @@ To continue the configuration and set up your Cerby mobile app as a trusted devi
 
   1. Tap the **Set up device** button in the **Let’s set up your mobile device as a trusted device** screen. The **Name your device** screen is displayed.
   2. Enter a name for your device in the **Device name** field.
-**NOTE:** Cerby creates a name by default for you using the format: `[username] - [operating system]`. If you want to change it, Cerby recommends using a device name you can easily recognize and including the name of your mobile OS. Device names must be unique.
 
-  3. Tap the **Next** button. The **Verify your identity** screen is displayed with the following options to approve the device from a trusted session:
+  **NOTE:** Cerby automatically creates a name for you using the format: `[username] - [operating system]`. If you want to change it, Cerby recommends using a device name you can easily recognize and including the name of your mobile OS. Device names must be unique.
 
-     * **Approve from another trusted session**
+  3. Tap the **Continue** button. The **Verify your identity** screen is displayed with the following options to approve the device from a trusted session:
 
-       1. Log in to Cerby from a trusted session on the Cerby web app.
-       2. Select the **My profile** option from the user profile menu located in the top-right corner.
-       3. Activate the **My trusted devices** tab in your **Profile** information. The list of your trusted sessions is displayed.
-       4. Hover the mouse over the device with the **Pending** approval status. The **Approve** and **Deny** buttons are displayed.
-       5. Click the **Approve** button. The Cerby dashboard screen and a success message box are displayed on your mobile app.
-
-     * **Approve using a secure code**
+     * **I don’t have access to my trusted device**
 
        1. Tap the **I don’t have access to my trusted device** option. The **Verify your device** screen is displayed, and a message with a verification code is sent to your email.
-       2. Copy the verification code from the email Cerby sent you. **IMPORTANT:** The verification code expires in 5 minutes.
+       2. Copy the verification code from the email Cerby sent you.
+
+       **IMPORTANT:** The verification code expires in 5 minutes.
+
        3. Enter the code in the **Verification code** field in your mobile app.
-       4. Tap the **Verify code** button. The dialog box closes, and a success message box is displayed. The Cerby dashboard screen and a success message box are displayed on your mobile app.
+       4. Tap the **Verify code** button**.** The dialog box closes, and a success message box is displayed. The Cerby dashboard screen and a success message box are displayed on your mobile app.
 
-     * **Set up the trusted session later**
+     * **Waiting for approval…**
 
-       1. Tap the **Continue without a secure session** option. The Cerby dashboard screen and a warning banner indicating that your session is not secured are displayed. You can set up the trusted session by tapping the **Right arrow** (<figure><img src="../../../.gitbook/assets/AD_4nXdQq0FRndFzdQIoap8RTTUr5Zn2e4mlGvHPxRBhhZ7IYZH4FR8svSAMvHTrjgTRI8JfQ3m0sFFVCqWguBLggh91uvbGvnVaJXZKtp1rAN8A6wz0AgyNMil9SdYKseW51-INp5izOA.png" alt=""><figcaption></figcaption></figure>) button and following the instructions.
+       1. Log in to Cerby from a trusted session on the Cerby web app.
+       2. Select the **My profile** option from the user profile menu, located in the top-right corner.
+       3. Activate the **My trusted devices** tab in your**Profile** information. The list of your trusted sessions is displayed.
+       4. Hover the mouse over the device with the**Pending approval** status. The**Approve** and**Deny** buttons are displayed.
+       5. Click the **Approve** button. The **Cerby dashboard** screen and a success message box are displayed on your mobile app.
+
+     * **Continue without a secure session**
+
+       1. Tap the **Continue without a secure session** option. The **Cerby dashboard** screen and a warning banner indicating that your session is not secured are displayed. You can set up the trusted session by tapping the**Right arrow** () button and following the instructions.
 
 Now you are done. You can start using Cerby on your iPhone.

@@ -13,11 +13,11 @@ To make automation work and exploit the highest security level of our platform, 
 
 A fully configured account in Cerby involves completing the following milestones:
 
-  1. Ensure the account credentials are correct
-  2. Configure your account with an email address managed by Cerby
-  3. Turn on MFA managed by Cerby
-  4. Share the account with collaborators
-  5. Rotate passwords automatically in Cerby
+1. [Ensure the account credentials are correct](configure-your-accounts-with-the-highest-security-level.md#id-1.-ensure-the-account-credentials-are-correct)
+2. [Configure your account with an email address managed by Cerby](configure-your-accounts-with-the-highest-security-level.md#id-2.-configure-your-account-with-an-email-address-managed-by-cerby)
+3. [Turn on MFA managed by Cerby](configure-your-accounts-with-the-highest-security-level.md#id-3.-turn-on-mfa-managed-by-cerby)
+4. [Share the account with collaborators](configure-your-accounts-with-the-highest-security-level.md#id-4.-share-the-account-with-collaborators)
+5. [Rotate passwords automatically in Cerby](configure-your-accounts-with-the-highest-security-level.md#id-5.-rotate-passwords-automatically-in-cerby)
 
 The following sections describe each milestone.
 
