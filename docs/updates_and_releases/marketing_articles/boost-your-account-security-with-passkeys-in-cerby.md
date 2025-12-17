@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of using passkeys with Cerby to boost your account security.
+description: "This article describes the benefits of using passkeys with Cerby to boost your account security."
 intercom_id: 10875187
 ---
 

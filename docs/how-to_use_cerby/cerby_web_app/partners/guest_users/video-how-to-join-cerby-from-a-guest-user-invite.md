@@ -1,5 +1,5 @@
 ---
-description: This video shows how external collaborators can join a Cerby workspace from a guest user invite.
+description: "This video shows how external collaborators can join a Cerby workspace from a guest user invite."
 intercom_id: 8432613
 ---
 

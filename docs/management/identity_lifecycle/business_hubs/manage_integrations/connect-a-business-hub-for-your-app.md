@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of your seat-based and paid social apps from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of your seat-based and paid social apps from Cerby."
 intercom_id: 9046120
 ---
 
@@ -72,7 +72,7 @@ To add a business hub and connect it to your seat-based or paid social app, you 
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **Business ID:** It is the unique identifier of your business or organization within the seat-based or paid social app. This value may exist or not depending on the app and might have different names, such as **Organization ID** or **Team ID**. For generic instructions on how to find the ID, read the [Requirements](connect-a-business-hub-for-your-app.md#id-requirements) section.
+     * **Business ID:** It is the unique identifier of your business or organization within the seat-based or paid social app. This value may exist or not depending on the app and might have different names, such as **Organization ID** or **Team ID**. For generic instructions on how to find the ID, read the [Requirements](connect-a-business-hub-for-your-app.md#requirements) section.
      * **User management and login method** : It is the way your users log in to the app and determines if they must save their credentials in Cerby. You must select one of the following methods:
        * **Single sign-on (SSO)** : Access is managed by your identity provider, and users log in with SSO authentication.
        * **Username and password:** Account security and access are managed by Cerby, and users log in with their credentials.
@@ -159,9 +159,9 @@ The app users are displayed in the following tabs of the **User Overview** secti
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-your-app.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-your-app.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-your-app.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-your-app.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-your-app.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-your-app.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

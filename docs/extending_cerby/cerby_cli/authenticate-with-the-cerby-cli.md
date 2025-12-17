@@ -1,5 +1,5 @@
 ---
-description: This article describes how you can log in to the Cerby platform with the Cerby CLI to start using its available commands.
+description: "This article describes how you can log in to the Cerby platform with the Cerby CLI to start using its available commands."
 intercom_id: 9132804
 ---
 
@@ -11,8 +11,8 @@ This article describes how to log in to the Cerby platform with the Cerby CLI vi
 
 Cerby has the following authentication processes to enable you to log in even in unusual situations where you can't access a web browser:
 
-* [Log in via a web browser](authenticate-with-the-cerby-cli.md#id-log-in-via-a-web-browser)
-* [Log in via a bearer token](authenticate-with-the-cerby-cli.md#id-log-in-via-a-bearer-token)
+* [Log in via a web browser](authenticate-with-the-cerby-cli.md#log-in-via-a-web-browser)
+* [Log in via a bearer token](authenticate-with-the-cerby-cli.md#log-in-via-a-bearer-token)
 
 ​​The following sections describe each process.
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove team access to an account.
+description: "This article describes how to remove team access to an account."
 intercom_id: 9479456
 ---
 

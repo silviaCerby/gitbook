@@ -1,5 +1,5 @@
 ---
-description: This article describes how to filter jobs in the Automation Log using the Cerby web app.
+description: "This article describes how to filter jobs in the Automation Log using the Cerby web app."
 intercom_id: 11713438
 ---
 

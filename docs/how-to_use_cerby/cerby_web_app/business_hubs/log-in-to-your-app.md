@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log in to an app you have connected to Cerby.
+description: "This article describes how to log in to an app you have connected to Cerby."
 intercom_id: 9046222
 ---
 

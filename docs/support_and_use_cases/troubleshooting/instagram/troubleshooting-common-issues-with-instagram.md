@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot the most common issues with accessing and managing your Instagram account through Cerby.
+description: "This article describes how to troubleshoot the most common issues with accessing and managing your Instagram account through Cerby."
 intercom_id: 6716083
 ---
 
@@ -9,13 +9,13 @@ This article helps you fix the most common issues with accessing and managing yo
 
 The following are the most common issues:
 
-* [Suspicious login attempt](troubleshooting-common-issues-with-instagram.md#id-suspicious-login-attempt)
-* [Unable to access settings when turning on MFA](troubleshooting-common-issues-with-instagram.md#id-unable-to-access-settings-when-turning-on-mfa)
-* [Manual MFA enrollment](troubleshooting-common-issues-with-instagram.md#id-manual-mfa-enrollment)
-* [Cerby mobile app behavior](troubleshooting-common-issues-with-instagram.md#id-cerby-mobile-app-behavior)
+* [Suspicious login attempt](troubleshooting-common-issues-with-instagram.md#suspicious-login-attempt)
+* [Unable to access settings when turning on MFA](troubleshooting-common-issues-with-instagram.md#unable-to-access-settings-when-turning-on-mfa)
+* [Manual MFA enrollment](troubleshooting-common-issues-with-instagram.md#manual-mfa-enrollment)
+* [Cerby mobile app behavior](troubleshooting-common-issues-with-instagram.md#cerby-mobile-app-behavior)
 * [Cerby-managed phone number support](troubleshooting-common-issues-with-instagram.md#h_66650888dc)
-* [Email swap](troubleshooting-common-issues-with-instagram.md#id-email-swap)
-* [Invalid MFA verification code](troubleshooting-common-issues-with-instagram.md#id-invalid-mfa-verification-code)
+* [Email swap](troubleshooting-common-issues-with-instagram.md#email-swap)
+* [Invalid MFA verification code](troubleshooting-common-issues-with-instagram.md#invalid-mfa-verification-code)
 
 The following sections describe common scenarios that can cause confusion and, if applicable, a proposed solution.
 
@@ -111,7 +111,7 @@ You can only go through this manual configuration with your Instagram mobile app
 After turning on MFA and configuring Cerby as an authenticator app, your login experience improves. Verification codes are automatically distributed to all account members and auto-filled when they log into Instagram from Cerby as follows:
 
   * When logging in through the Cerby web app, the verification code is entered automatically as part of the workflow.
-  * When logging in through the Instagram mobile app, the verification code is copied to the clipboard using the autofill feature. For more information, see the [Cerby mobile app behavior](troubleshooting-common-issues-with-instagram.md#id-cerby-mobile-app-behavior) section.
+  * When logging in through the Instagram mobile app, the verification code is copied to the clipboard using the autofill feature. For more information, see the [Cerby mobile app behavior](troubleshooting-common-issues-with-instagram.md#cerby-mobile-app-behavior) section.
 
 You can turn off MFA on a computer or the Instagram mobile app through your web browser.
 
@@ -172,4 +172,4 @@ If you still encounter the error, use one of the recovery or backup codes you sa
   2. Click the **View Codes** button located in the **Emergency Controls** section. The **Confirm your identity to continue** dialog box is displayed.
   3. Click the **It’s me!** button in the **Confirmation Request** screen of the Cerby mobile app to confirm your identity. The dialog box in the Cerby web app closes, and the **View MFA Backup Codes** dialog box is displayed with the codes.
 
-  **IMPORTANT:** Remember to use only a recovery or backup code once. If you need to generate a new set of codes, follow the instructions in the [How you can use a recovery code on Instagram](https://help.instagram.com/1006568999411025) official documentation, and save the new codes in Cerby, as described in the [Manual MFA enrollment](troubleshooting-common-issues-with-instagram.md#id-manual-mfa-enrollment) section.
+  **IMPORTANT:** Remember to use only a recovery or backup code once. If you need to generate a new set of codes, follow the instructions in the [How you can use a recovery code on Instagram](https://help.instagram.com/1006568999411025) official documentation, and save the new codes in Cerby, as described in the [Manual MFA enrollment](troubleshooting-common-issues-with-instagram.md#manual-mfa-enrollment) section.

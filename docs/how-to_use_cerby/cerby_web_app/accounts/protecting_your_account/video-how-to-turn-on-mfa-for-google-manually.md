@@ -1,5 +1,5 @@
 ---
-description: This video shows how to manually turn on MFA for a Google account using Cerby as an authenticator app.
+description: "This video shows how to manually turn on MFA for a Google account using Cerby as an authenticator app."
 intercom_id: 7934853
 ---
 

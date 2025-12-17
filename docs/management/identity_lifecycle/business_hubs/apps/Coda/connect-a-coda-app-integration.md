@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a Coda app integration to centrally manage access to it and its assets from Cerby.
+description: "This article describes how to add a Coda app integration to centrally manage access to it and its assets from Cerby."
 intercom_id: 9279450
 ---
 
@@ -73,7 +73,7 @@ To add a Coda app integration to Cerby and connect it to your Coda workspace, yo
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name to assign to your app integration in Cerby, and it will be displayed on the app card.
-     * **Workspace ID:** It is the identifier of your Coda workspace. To find it, follow the instructions in the [Requirements](connect-a-coda-app-integration.md#id-requirements) section:
+     * **Workspace ID:** It is the identifier of your Coda workspace. To find it, follow the instructions in the [Requirements](connect-a-coda-app-integration.md#requirements) section:
      * **User management and login method:** It is the way your users log in to the app and determines if they must save their credentials in Cerby. You must select one of the following methods:
        * **Single sign-on (SSO):** Access is managed via your identity provider, and users log in via SSO authentication. They are not asked to save their credentials in Cerby
        * **Username and password:** Account security and access are managed from Cerby, and users log in with their credentials after saving them in Cerby.
@@ -142,9 +142,9 @@ The next step is [4. Manage unmatched users](connect-a-coda-app-integration.md#i
 
 After a check for updates, Cerby automatically matches users to their corresponding Cerby accounts. Users who couldn’t be identified during the check or who are not in the corporate directory are categorized as unmatched. For these users, you can perform one of the following three actions:
 
-  * [Match and invite users](connect-a-coda-app-integration.md#id-match-and-invite-users)
-  * [Remove unmatched users](connect-a-coda-app-integration.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-coda-app-integration.md#id-exempt-unmatched-users)
+  * [Match and invite users](connect-a-coda-app-integration.md#match-and-invite-users)
+  * [Remove unmatched users](connect-a-coda-app-integration.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-coda-app-integration.md#exempt-unmatched-users)
 
 All of these actions are performed from the **Unmatched users** tab of the **User Overview** section inside the app details page.
 

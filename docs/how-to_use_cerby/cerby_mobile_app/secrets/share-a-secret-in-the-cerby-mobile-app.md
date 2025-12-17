@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share a secret or secret item with other workspace members and teams through the Cerby mobile app.
+description: "This article describes how to share a secret or secret item with other workspace members and teams through the Cerby mobile app."
 intercom_id: 9715499
 ---
 

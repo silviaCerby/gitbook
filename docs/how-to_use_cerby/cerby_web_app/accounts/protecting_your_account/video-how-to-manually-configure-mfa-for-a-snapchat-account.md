@@ -1,5 +1,5 @@
 ---
-description: This article details how to manually enable MFA for a Snapchat account using the Cerby mobile and web applications.
+description: "This article details how to manually enable MFA for a Snapchat account using the Cerby mobile and web applications."
 intercom_id: 6490088
 ---
 

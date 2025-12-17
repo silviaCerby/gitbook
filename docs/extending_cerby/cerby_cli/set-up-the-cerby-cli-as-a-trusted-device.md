@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up a trusted device using the Cerby CLI commands.
+description: "This article describes how to set up a trusted device using the Cerby CLI commands."
 intercom_id: 9132805
 ---
 

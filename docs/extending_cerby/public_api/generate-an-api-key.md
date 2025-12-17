@@ -1,5 +1,5 @@
 ---
-description: This article describes how to generate an API key to use in your requests to the Cerby API.
+description: "This article describes how to generate an API key to use in your requests to the Cerby API."
 intercom_id: 9450943
 ---
 

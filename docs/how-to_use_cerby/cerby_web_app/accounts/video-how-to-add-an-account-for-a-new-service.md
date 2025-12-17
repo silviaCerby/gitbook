@@ -1,5 +1,5 @@
 ---
-description: This video demonstrates how to add an existing account for a new service, including how to add an existing MFA setup to Cerby.
+description: "This video demonstrates how to add an existing account for a new service, including how to add an existing MFA setup to Cerby."
 intercom_id: 5618971
 ---
 

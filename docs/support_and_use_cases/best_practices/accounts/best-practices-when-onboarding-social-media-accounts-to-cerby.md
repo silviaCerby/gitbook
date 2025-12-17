@@ -1,5 +1,5 @@
 ---
-description: This article describes the recommended steps when onboarding new social media accounts.
+description: "This article describes the recommended steps when onboarding new social media accounts."
 intercom_id: 10508581
 ---
 
@@ -11,9 +11,9 @@ This article contains the best practices for adding and securing your social med
 
 The following are the main sections of the onboarding process:
 
-* [Requirements](best-practices-when-onboarding-social-media-accounts-to-cerby.md#id-requirements)
-* [Recommended timeline to onboard social media accounts](best-practices-when-onboarding-social-media-accounts-to-cerby.md#id-recommended-timeline-to-onboard-social-media-accounts)
-* [Important considerations while onboarding accounts](best-practices-when-onboarding-social-media-accounts-to-cerby.md#id-important-considerations-while-onboarding-apps)
+* [Requirements](best-practices-when-onboarding-social-media-accounts-to-cerby.md#requirements)
+* [Recommended timeline to onboard social media accounts](best-practices-when-onboarding-social-media-accounts-to-cerby.md#recommended-timeline-to-onboard-social-media-accounts)
+* [Important considerations while onboarding accounts](best-practices-when-onboarding-social-media-accounts-to-cerby.md#important-considerations-while-onboarding-apps)
 
 Each section is described in detail below.
 

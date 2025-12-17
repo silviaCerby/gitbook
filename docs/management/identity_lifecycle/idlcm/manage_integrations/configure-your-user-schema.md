@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure a custom user schema for your IdLCM integration.
+description: "This article describes how to configure a custom user schema for your IdLCM integration."
 intercom_id: 11644390
 ---
 
@@ -22,8 +22,8 @@ Configuring a custom user schema in Cerby ensures that user profiles and access 
 
 For each external app available in the app catalog of IdLCM integrations, Cerby provides a default user schema that you can update to perform one of the following actions:
 
-* [Add custom attributes](configure-your-user-schema.md#id-add-custom-attributes)
-* [Add custom roles](configure-your-user-schema.md#id-add-custom-roles)
+* [Add custom attributes](configure-your-user-schema.md#add-custom-attributes)
+* [Add custom roles](configure-your-user-schema.md#add-custom-roles)
 
 The following sections describe each action.
 

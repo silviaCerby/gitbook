@@ -1,5 +1,5 @@
 ---
-description: This article describes how to edit the settings of an existing password policy.
+description: "This article describes how to edit the settings of an existing password policy."
 intercom_id: 11466959
 ---
 

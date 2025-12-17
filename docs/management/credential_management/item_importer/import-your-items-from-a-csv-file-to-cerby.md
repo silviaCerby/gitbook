@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the File Importer feature for safely migrating your items from a CSV file to Cerby.
+description: "This article describes the key benefits of the File Importer feature for safely migrating your items from a CSV file to Cerby."
 intercom_id: 10290203
 ---
 
@@ -38,7 +38,7 @@ The following are the requirements to use the CSV File Importer in Cerby:
   * A vault in your workspace created by a **workspace** **Admin**
   * A CSV file exported that contains the items you want to import to Cerby
 
-  **IMPORTANT:** Ensure your CSV file contains all the required fields for the import process. For more details on the expected fields, refer to the [Supported CSV file format](import-your-items-from-a-csv-file-to-cerby.md#id-supported-csv-file-format) section.
+  **IMPORTANT:** Ensure your CSV file contains all the required fields for the import process. For more details on the expected fields, refer to the [Supported CSV file format](import-your-items-from-a-csv-file-to-cerby.md#supported-csv-file-format) section.
 
 ### Supported CSV file format
 
@@ -50,7 +50,7 @@ The format of the supported CSV file is compatible with 1Password’s export for
   * Password
   * Notes
 
-Refer to the [Appendix](import-your-items-from-a-csv-file-to-cerby.md#id-appendix) section to download a sample file.
+Refer to the [Appendix](import-your-items-from-a-csv-file-to-cerby.md#appendix) section to download a sample file.
 
 * * *
 
@@ -125,7 +125,7 @@ The **Import** **report** view contains the following sections:
 
 You can download a full import report in a CSV file by clicking the **Download latest report** button located at the top right of the **Import report** view. This report contains a table with all the imported items to help you verify that your items were successfully transferred from the file you imported to Cerby.
 
-If you see items with the `skipped` or `failed` status, the report provides information about why Cerby did not import them, and you can take action to solve the issues. For more information about this report, read the section [How to interpret the downloadable import report](import-your-items-from-a-csv-file-to-cerby.md#id-how-to-interpret-the-downloadable-import-report).
+If you see items with the `skipped` or `failed` status, the report provides information about why Cerby did not import them, and you can take action to solve the issues. For more information about this report, read the section [How to interpret the downloadable import report](import-your-items-from-a-csv-file-to-cerby.md#how-to-interpret-the-downloadable-import-report).
 
 The next step is [3. View item settings](import-your-items-from-a-csv-file-to-cerby.md#id-3.-view-item-settings).
 

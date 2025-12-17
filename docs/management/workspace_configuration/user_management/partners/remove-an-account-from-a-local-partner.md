@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove an account from a local partner.
+description: "This article describes how to remove an account from a local partner."
 intercom_id: 11944642
 ---
 

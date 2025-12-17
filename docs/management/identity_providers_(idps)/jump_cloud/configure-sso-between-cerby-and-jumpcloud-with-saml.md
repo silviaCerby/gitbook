@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure JumpCloud to enable SSO with Cerby using a custom SAML application.
+description: "This article describes how to configure JumpCloud to enable SSO with Cerby using a custom SAML application."
 intercom_id: 6550878
 ---
 

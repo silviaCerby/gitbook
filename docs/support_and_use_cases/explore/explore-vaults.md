@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of the Vaults feature to ensure the privacy and security of your stored data.
+description: "This article describes the benefits of the Vaults feature to ensure the privacy and security of your stored data."
 intercom_id: 10065157
 ---
 

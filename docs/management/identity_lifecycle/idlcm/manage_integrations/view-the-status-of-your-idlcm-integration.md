@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the status of your IdLCM integration in Cerby.
+description: "This article describes how to view the status of your IdLCM integration in Cerby."
 intercom_id: 12875217
 ---
 

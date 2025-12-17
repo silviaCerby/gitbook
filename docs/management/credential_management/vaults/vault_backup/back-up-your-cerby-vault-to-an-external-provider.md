@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of backing up your vault to an external provider of your choice, ensuring it remains safe, redundant, and recoverable.
+description: "This article describes the benefits of backing up your vault to an external provider of your choice, ensuring it remains safe, redundant, and recoverable."
 intercom_id: 12004415
 ---
 

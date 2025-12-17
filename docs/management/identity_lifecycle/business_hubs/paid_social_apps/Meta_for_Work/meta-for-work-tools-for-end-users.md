@@ -1,5 +1,5 @@
 ---
-description: This article describes how to use Meta Work Accounts as an end user to access your organization’s Meta for Work tools.
+description: "This article describes how to use Meta Work Accounts as an end user to access your organization’s Meta for Work tools."
 intercom_id: 8958936
 ---
 

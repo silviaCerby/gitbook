@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure Okta to enable SSO with the Cerby application using a SAML integration.
+description: "This article describes how to configure Okta to enable SSO with the Cerby application using a SAML integration."
 intercom_id: 5457568
 ---
 

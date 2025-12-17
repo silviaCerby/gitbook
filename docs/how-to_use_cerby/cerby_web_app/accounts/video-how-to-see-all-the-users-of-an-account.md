@@ -1,5 +1,5 @@
 ---
-description: This video demonstrates how to see all the users who have access to an account.
+description: "This video demonstrates how to see all the users who have access to an account."
 intercom_id: 5618989
 ---
 

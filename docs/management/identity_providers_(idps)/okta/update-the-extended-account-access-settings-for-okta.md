@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the settings of the Extended account access feature for Okta.
+description: "This article describes how to update the settings of the Extended account access feature for Okta."
 intercom_id: 9758241
 ---
 
@@ -57,7 +57,7 @@ The input field is enabled in editing mode.
 
    **IMPORTANT:** You must include the protocol part (**`https://`**) of the URL. For example, **`https://mycompany.okta.com`**.
 
-* **API Token:** It is the token that you generated or retrieved previously as part of the [Requirements](update-the-extended-account-access-settings-for-okta.md#id-requirements) section. For instructions, read the official documentation [Manage Okta API tokens](https://help.okta.com/en-us/content/topics/security/api.htm#create-okta-api-token).
+* **API Token:** It is the token that you generated or retrieved previously as part of the [Requirements](update-the-extended-account-access-settings-for-okta.md#requirements) section. For instructions, read the official documentation [Manage Okta API tokens](https://help.okta.com/en-us/content/topics/security/api.htm#create-okta-api-token).
 
 **TIP:** Click the **Test connection** button for the **API Token** field to verify Cerby can connect with Okta with the new token.
 

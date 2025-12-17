@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove users and teams as managers of your business hub.
+description: "This article describes how to remove users and teams as managers of your business hub."
 intercom_id: 10971668
 ---
 
@@ -18,8 +18,8 @@ intercom_id: 10971668
 
 As a business hub **Owner** , you perform the following management tasks to remove users or teams as managers from your business hub integration:
 
-* [Remove a user as a business hub manager](remove-managers-from-your-business-hub.md#id-remove-a-user-as-a-business-hub-manager)
-* [Remove a team as business hub managers](remove-managers-from-your-business-hub.md#id-remove-a-team-as-business-hub-managers)
+* [Remove a user as a business hub manager](remove-managers-from-your-business-hub.md#remove-a-user-as-a-business-hub-manager)
+* [Remove a team as business hub managers](remove-managers-from-your-business-hub.md#remove-a-team-as-business-hub-managers)
 
 The following sections describe each task.
 

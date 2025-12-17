@@ -1,5 +1,5 @@
 ---
-description: This video shows you how to share access to single identity application accounts where multiple users share the same account.
+description: "This video shows you how to share access to single identity application accounts where multiple users share the same account."
 intercom_id: 5605252
 ---
 

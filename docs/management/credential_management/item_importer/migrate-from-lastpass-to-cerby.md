@@ -1,5 +1,5 @@
 ---
-description: This article describes how to import your LastPass folders, passwords, and secure notes to Cerby.
+description: "This article describes how to import your LastPass folders, passwords, and secure notes to Cerby."
 intercom_id: 7175132
 ---
 
@@ -32,7 +32,7 @@ The following are the item and feature correspondences between LastPass and Cerb
   * Server
   * Software license
   * Custom item
-* Groups become teams with only one member: the user who performs the import. For instructions on how to add the missing team members, read the [Add the missing team members](migrate-from-lastpass-to-cerby.md#id-add-the-missing-team-members) section
+* Groups become teams with only one member: the user who performs the import. For instructions on how to add the missing team members, read the [Add the missing team members](migrate-from-lastpass-to-cerby.md#add-the-missing-team-members) section
 
 This article describes how to migrate your LastPass items to Cerby.
 
@@ -76,7 +76,7 @@ Due to LastPass constraints, the following import rules have been established:
     * Individual permissions on passwords and secure notes propagate to Cerby accounts and secrets.
     * The unavailability access rules that you set in LastPass for specific recipients are applied to the imported items. In addition to the collection that Cerby creates for you as the collection **Owner** , new collections and sub-collections are created for specific users who have different availability rules for items and subfolders.
     * Permissions on LastPass items shared with external collaborators are not imported to Cerby if such collaborators have not accepted the item share.
-    * Users are identified as unmatched because they use an email address that couldn’t be identified or they are not in the corporate directory. They need a manual invite to join Cerby. For instructions on how to invite users, read the section [Invite unmatched users to Cerby](migrate-from-lastpass-to-cerby.md#id-invite-unmatched-users-to-cerby).
+    * Users are identified as unmatched because they use an email address that couldn’t be identified or they are not in the corporate directory. They need a manual invite to join Cerby. For instructions on how to invite users, read the section [Invite unmatched users to Cerby](migrate-from-lastpass-to-cerby.md#invite-unmatched-users-to-cerby).
 
 {% hint style="danger" %}
 
@@ -212,7 +212,7 @@ To import your folders, subfolders, and items to Cerby, you must complete the fo
 
      3. Click the verification link or button in the email.
 
-     **IMPORTANT:** The login attempts from Cerby only come from Ohio (OH) or Oregon (OR), in the United States. For more information on this security verification, read the [Why verify the login attempt](migrate-from-lastpass-to-cerby.md#id-why-verify-the-login-attempt) section.
+     **IMPORTANT:** The login attempts from Cerby only come from Ohio (OH) or Oregon (OR), in the United States. For more information on this security verification, read the [Why verify the login attempt](migrate-from-lastpass-to-cerby.md#why-verify-the-login-attempt) section.
 
   2. Select the **I have already verified Cerby's location or did not receive an email** option. The **Next** button is enabled.
   3. Click the **Next** button. The **Syncing items** page is displayed. One of the following scenarios occur depending on your selected login method:
@@ -223,7 +223,7 @@ To import your folders, subfolders, and items to Cerby, you must complete the fo
 
      * **Standard login:** The folders are synced, and the **Select folders to import** button is displayed.
 
-     **NOTE:** The **Confirm import to Cerby** dialog box may be displayed before the **Syncing items** page if the verification code you entered previously, when selecting the [standard login](migrate-from-lastpass-to-cerby.md#id-standard-login), expires. Perform the following actions to continue:
+     **NOTE:** The **Confirm import to Cerby** dialog box may be displayed before the **Syncing items** page if the verification code you entered previously, when selecting the [standard login](migrate-from-lastpass-to-cerby.md#standard-login), expires. Perform the following actions to continue:
 
      1. Enter the new verification code in the **2FA verification code** field.
      2. Click the **Confirm** button. The **Syncing items** page is displayed.
@@ -288,7 +288,7 @@ You can download a full import report in a CSV file by clicking the **Download l
 
 If you see items with a `skipped` or `fail` status, the report provides information about why Cerby did not import them, and you can take action to solve the issues.
 
-For more information about this report, read the section [How to interpret the downloadable import report](migrate-from-lastpass-to-cerby.md#id-how-to-interpret-the-downloadable-import-report).
+For more information about this report, read the section [How to interpret the downloadable import report](migrate-from-lastpass-to-cerby.md#how-to-interpret-the-downloadable-import-report).
 
 The next step is [4. Take action on onboarded items](migrate-from-lastpass-to-cerby.md#id-4.-take-action-on-onboarded-items).
 
@@ -298,14 +298,14 @@ The next step is [4. Take action on onboarded items](migrate-from-lastpass-to-ce
 
 The following are the actions you can take on onboarded items:
 
-  * [Add missing account details](migrate-from-lastpass-to-cerby.md#id-add-missing-account-details)
-  * [Request access to an account](migrate-from-lastpass-to-cerby.md#id-request-access-to-an-account)
-  * [Edit collection name](migrate-from-lastpass-to-cerby.md#id-edit-collection-name)
-  * [Edit account label](migrate-from-lastpass-to-cerby.md#id-edit-account-label)
-  * [Edit secret title](migrate-from-lastpass-to-cerby.md#id-edit-secret-title)
-  * [Share access to a collection](migrate-from-lastpass-to-cerby.md#id-share-access-to-a-collection)
-  * [Share access to a secret](migrate-from-lastpass-to-cerby.md#id-share-access-to-a-secret)
-  * [View item settings](migrate-from-lastpass-to-cerby.md#id-view-item-settings)
+  * [Add missing account details](migrate-from-lastpass-to-cerby.md#add-missing-account-details)
+  * [Request access to an account](migrate-from-lastpass-to-cerby.md#request-access-to-an-account)
+  * [Edit collection name](migrate-from-lastpass-to-cerby.md#edit-collection-name)
+  * [Edit account label](migrate-from-lastpass-to-cerby.md#edit-account-label)
+  * [Edit secret title](migrate-from-lastpass-to-cerby.md#edit-secret-title)
+  * [Share access to a collection](migrate-from-lastpass-to-cerby.md#share-access-to-a-collection)
+  * [Share access to a secret](migrate-from-lastpass-to-cerby.md#share-access-to-a-secret)
+  * [View item settings](migrate-from-lastpass-to-cerby.md#view-item-settings)
 
 The following sections describe each action.
 
@@ -418,8 +418,8 @@ After importing a collection, account, or secret to Cerby, you can view their se
 
 After an import from your password manager, unmatched users in the **Import report** view need a direct share or an invite to access the imported collections, accounts, or secrets. The invite process is different depending on the type of user:
 
-  * [Users with a Cerby account](migrate-from-lastpass-to-cerby.md#id-users-with-a-cerby-account)
-  * [Guest users](migrate-from-lastpass-to-cerby.md#id-guest-users)
+  * [Users with a Cerby account](migrate-from-lastpass-to-cerby.md#users-with-a-cerby-account)
+  * [Guest users](migrate-from-lastpass-to-cerby.md#guest-users)
 
 ### Users with a Cerby account
 
@@ -464,8 +464,8 @@ When they join Cerby, the corresponding shared items are displayed in the **All 
 
 When imported, LastPass groups become Cerby teams with only one member: the user who performed the migration. Cerby offers the following two options to add the missing team members:
 
-  * [Add team members manually](migrate-from-lastpass-to-cerby.md#id-add-team-members-manually) (recommended for technical and non-technical users)
-  * [Import team members in bulk](migrate-from-lastpass-to-cerby.md#id-import-team-members-in-bulk) (recommended only for technical users)
+  * [Add team members manually](migrate-from-lastpass-to-cerby.md#add-team-members-manually) (recommended for technical and non-technical users)
+  * [Import team members in bulk](migrate-from-lastpass-to-cerby.md#import-team-members-in-bulk) (recommended only for technical users)
 
 The following sections describe each option.
 

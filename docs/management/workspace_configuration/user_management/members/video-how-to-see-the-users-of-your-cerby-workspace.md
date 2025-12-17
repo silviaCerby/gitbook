@@ -1,5 +1,5 @@
 ---
-description: This video describes the user operations available to you when your workspace is configured with an external identity provider (e.g., Okta).
+description: "This video describes the user operations available to you when your workspace is configured with an external identity provider (e.g., Okta)."
 intercom_id: 5620162
 ---
 

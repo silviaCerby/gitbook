@@ -1,5 +1,5 @@
 ---
-description: This video shows the automatic login process when the multi-factor authentication (MFA) autofill option has been disabled.
+description: "This video shows the automatic login process when the multi-factor authentication (MFA) autofill option has been disabled."
 intercom_id: 5605298
 ---
 

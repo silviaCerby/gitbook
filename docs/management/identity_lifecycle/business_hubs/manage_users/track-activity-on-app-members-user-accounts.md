@@ -1,5 +1,5 @@
 ---
-description: This article describes how to track the users' activity of your seat-based and paid social apps connected to Cerby.
+description: "This article describes how to track the users' activity of your seat-based and paid social apps connected to Cerby."
 intercom_id: 9046226
 ---
 

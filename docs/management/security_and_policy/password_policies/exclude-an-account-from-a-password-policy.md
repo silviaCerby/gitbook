@@ -1,5 +1,5 @@
 ---
-description: This article describes how to exclude an account from a password policy.
+description: "This article describes how to exclude an account from a password policy."
 intercom_id: 11466979
 ---
 

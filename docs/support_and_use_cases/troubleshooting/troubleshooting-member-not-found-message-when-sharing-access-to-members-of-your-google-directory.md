@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot the “Member not found” message.
+description: "This article describes how to troubleshoot the “Member not found” message."
 intercom_id: 6020666
 ---
 

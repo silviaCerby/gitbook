@@ -1,5 +1,5 @@
 ---
-description: This article describes how to download the attachments of your or your shared secrets as an Owner in the Cerby mobile app.
+description: "This article describes how to download the attachments of your or your shared secrets as an Owner in the Cerby mobile app."
 intercom_id: 9757873
 ---
 

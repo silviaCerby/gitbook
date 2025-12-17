@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot the most common issues with failed tasks of a business hub.
+description: "This article describes how to troubleshoot the most common issues with failed tasks of a business hub."
 intercom_id: 9046236
 ---
 
@@ -7,9 +7,9 @@ intercom_id: 9046236
 
 The following sections contain instructions to troubleshoot issues in case tasks fail or if you must perform changes manually in the external app that you connect to Cerby:
 
-  * [Add users manually](troubleshooting-business-hubs.md#id-add-users-manually)
-  * [Remove users manually](troubleshooting-business-hubs.md#id-remove-users-manually)
-  * [Update user roles manually](troubleshooting-business-hubs.md#id-update-user-roles-manually)
+  * [Add users manually](troubleshooting-business-hubs.md#add-users-manually)
+  * [Remove users manually](troubleshooting-business-hubs.md#remove-users-manually)
+  * [Update user roles manually](troubleshooting-business-hubs.md#update-user-roles-manually)
 * * *
 
 ## Add users manually

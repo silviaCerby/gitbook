@@ -1,5 +1,5 @@
 ---
-description: This video shows how to secure access to your TikTok account with authentication and verification methods managed by Cerby.
+description: "This video shows how to secure access to your TikTok account with authentication and verification methods managed by Cerby."
 intercom_id: 8789533
 ---
 

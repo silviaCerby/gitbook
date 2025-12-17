@@ -1,5 +1,5 @@
 ---
-description: This video shows how to use the Cerby mobile app to log in to your accounts only with a username and password.
+description: "This video shows how to use the Cerby mobile app to log in to your accounts only with a username and password."
 intercom_id: 5620250
 ---
 

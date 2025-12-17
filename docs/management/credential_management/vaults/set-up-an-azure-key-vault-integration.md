@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up an Azure Key Vault integration to use your existing environment to manage your keys and encryption.
+description: "This article describes how to set up an Azure Key Vault integration to use your existing environment to manage your keys and encryption."
 intercom_id: 9189942
 ---
 

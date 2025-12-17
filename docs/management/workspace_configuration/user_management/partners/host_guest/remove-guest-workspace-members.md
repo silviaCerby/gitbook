@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove members from a guest workspace.
+description: "This article describes how to remove members from a guest workspace."
 intercom_id: 9044021
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 9044021
 
 As a guest workspace **Admin** who has accepted a host-guest partnership, you can remove users in the following two methods depending on the workspace type and settings:
 
-* [Automatically from your IdP](remove-guest-workspace-members.md#id-automatically-from-your-idp)
-* [Manually from a local user workspace](remove-guest-workspace-members.md#id-manually-from-a-local-user-workspace)
+* [Automatically from your IdP](remove-guest-workspace-members.md#automatically-from-your-idp)
+* [Manually from a local user workspace](remove-guest-workspace-members.md#manually-from-a-local-user-workspace)
 
 The following sections describe each method.
 

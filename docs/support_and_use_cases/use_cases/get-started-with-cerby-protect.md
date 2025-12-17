@@ -1,5 +1,5 @@
 ---
-description: This article describes the basic concepts and key initial steps to take to start using Cerby Protect.
+description: "This article describes the basic concepts and key initial steps to take to start using Cerby Protect."
 intercom_id: 8358920
 ---
 
@@ -13,14 +13,14 @@ Cerby Protect is our enterprise password management product designed to provide 
 
 In the following sections, we will walk you through the basic information and the first steps to take to start using Cerby Protect:
 
-  * [Learn how Cerby Protect works](get-started-with-cerby-protect.md#id-learn-how-cerby-protect-works)
-  * [Log in to your workspace](get-started-with-cerby-protect.md#id-log-in-to-your-workspace)
-  * [Install the Cerby client apps](get-started-with-cerby-protect.md#id-install-the-cerby-client-apps)
-  * [Set up your trusted devices](get-started-with-cerby-protect.md#id-set-up-your-trusted-devices)
-  * [Add your items to Cerby](get-started-with-cerby-protect.md#id-add-your-items-to-cerby)
-  * [Share your items](get-started-with-cerby-protect.md#id-share-your-items)
-  * [Enhance the security of your accounts](get-started-with-cerby-protect.md#id-enhance-the-security-of-your-accounts)
-  * [Boost collaboration](get-started-with-cerby-protect.md#id-boost-collaboration)
+  * [Learn how Cerby Protect works](get-started-with-cerby-protect.md#learn-how-cerby-protect-works)
+  * [Log in to your workspace](get-started-with-cerby-protect.md#log-in-to-your-workspace)
+  * [Install the Cerby client apps](get-started-with-cerby-protect.md#install-the-cerby-client-apps)
+  * [Set up your trusted devices](get-started-with-cerby-protect.md#set-up-your-trusted-devices)
+  * [Add your items to Cerby](get-started-with-cerby-protect.md#add-your-items-to-cerby)
+  * [Share your items](get-started-with-cerby-protect.md#share-your-items)
+  * [Enhance the security of your accounts](get-started-with-cerby-protect.md#enhance-the-security-of-your-accounts)
+  * [Boost collaboration](get-started-with-cerby-protect.md#boost-collaboration)
 * * *
 
 ## Learn how Cerby Protect works
@@ -32,11 +32,11 @@ Cerby Protect is an enterprise password management product built to safeguard th
 
 The following sections explain how we protect your data and increase your productivity:
 
-* [Zero Knowledge architecture](get-started-with-cerby-protect.md#id-zero-knowledge-architecture)
-* [Cerby client apps](get-started-with-cerby-protect.md#id-cerby-client-apps)
-* [Security best practices](get-started-with-cerby-protect.md#id-security-best-practices)
-* [Item management and sharing](get-started-with-cerby-protect.md#id-item-management-and-sharing)
-* [User activity monitoring](get-started-with-cerby-protect.md#id-user-activity-monitoring)
+* [Zero Knowledge architecture](get-started-with-cerby-protect.md#zero-knowledge-architecture)
+* [Cerby client apps](get-started-with-cerby-protect.md#cerby-client-apps)
+* [Security best practices](get-started-with-cerby-protect.md#security-best-practices)
+* [Item management and sharing](get-started-with-cerby-protect.md#item-management-and-sharing)
+* [User activity monitoring](get-started-with-cerby-protect.md#user-activity-monitoring)
 
 ### Zero Knowledge architecture
 
@@ -64,9 +64,9 @@ For more information on the encryption schemes, read the [How Cerby protects you
 
 The Cerby platform comprises three client apps that work together to provide you with the best experience as a Cerby Protect user:
 
-* [Cerby web app](get-started-with-cerby-protect.md#id-cerby-web-app)
-* [Cerby browser extension](get-started-with-cerby-protect.md#id-cerby-browser-extension)
-* [Cerby mobile app](get-started-with-cerby-protect.md#id-cerby-mobile-app)
+* [Cerby web app](get-started-with-cerby-protect.md#cerby-web-app)
+* [Cerby browser extension](get-started-with-cerby-protect.md#cerby-browser-extension)
+* [Cerby mobile app](get-started-with-cerby-protect.md#cerby-mobile-app)
 
 ### Cerby web app
 
@@ -250,9 +250,9 @@ To set up a trusted device, follow the instructions in the [How to set up and ma
 
 Now that you have accessed the Cerby platform, let’s start adding items. Currently, you have three options to do so in Cerby:
 
-  * [Import items from LastPass](get-started-with-cerby-protect.md#id-import-items-from-lastpass)
-  * [Add items](get-started-with-cerby-protect.md#id-add-items)
-  * [Save credentials at login](get-started-with-cerby-protect.md#id-save-credentials-at-login)
+  * [Import items from LastPass](get-started-with-cerby-protect.md#import-items-from-lastpass)
+  * [Add items](get-started-with-cerby-protect.md#add-items)
+  * [Save credentials at login](get-started-with-cerby-protect.md#save-credentials-at-login)
 
 The following sections describe each option.
 
@@ -281,9 +281,9 @@ To import your items from LastPass, follow the instructions in the [Import items
 
 The process to add items to Cerby is different depending on the item type:
 
-  * [Accounts](get-started-with-cerby-protect.md#id-accounts)
-  * [Secrets](get-started-with-cerby-protect.md#id-secrets)
-  * [Collections](get-started-with-cerby-protect.md#id-collections)
+  * [Accounts](get-started-with-cerby-protect.md#accounts)
+  * [Secrets](get-started-with-cerby-protect.md#secrets)
+  * [Collections](get-started-with-cerby-protect.md#collections)
 
 The following sections describe the instructions for each item type.
 
@@ -319,8 +319,8 @@ To save your credentials at login, follow the instructions in the [How to save y
 
 With your items added to Cerby, let’s start sharing them. Currently, you have two options to do so:
 
-  * [Share items within your workspace](get-started-with-cerby-protect.md#id-share-items-within-your-workspace)
-  * [Share items via a public link](get-started-with-cerby-protect.md#id-share-items-via-a-public-link)
+  * [Share items within your workspace](get-started-with-cerby-protect.md#share-items-within-your-workspace)
+  * [Share items via a public link](get-started-with-cerby-protect.md#share-items-via-a-public-link)
 
 The following sections describe each option.
 
@@ -333,9 +333,9 @@ With Cerby Protect, you can share your items with users and teams within your wo
 
 The process of sharing items is different depending on the item type:
 
-  * [Accounts](get-started-with-cerby-protect.md#id-accounts)
-  * [Secrets](get-started-with-cerby-protect.md#id-secrets)
-  * [Collections](get-started-with-cerby-protect.md#id-collections)
+  * [Accounts](get-started-with-cerby-protect.md#accounts)
+  * [Secrets](get-started-with-cerby-protect.md#secrets)
+  * [Collections](get-started-with-cerby-protect.md#collections)
 
 The following sections describe the instructions for each item type.
 
@@ -363,10 +363,10 @@ To share accounts and secrets with external collaborators, follow the instructio
 
 With Cerby Protect, you can take the following actions to enhance the security of your accounts:
 
-  * [Create Cerby-managed second factors for your accounts](get-started-with-cerby-protect.md#id-create-cerby-managed-second-factors-for-your-accounts)
-  * [Turn on MFA for your accounts](get-started-with-cerby-protect.md#id-turn-on-mfa-for-your-accounts)
-  * [Generate secure passwords](get-started-with-cerby-protect.md#id-generate-secure-passwords)
-  * [Track user activity](get-started-with-cerby-protect.md#id-track-user-activity)
+  * [Create Cerby-managed second factors for your accounts](get-started-with-cerby-protect.md#create-cerby-managed-second-factors-for-your-accounts)
+  * [Turn on MFA for your accounts](get-started-with-cerby-protect.md#turn-on-mfa-for-your-accounts)
+  * [Generate secure passwords](get-started-with-cerby-protect.md#generate-secure-passwords)
+  * [Track user activity](get-started-with-cerby-protect.md#track-user-activity)
 
 The following sections describe each action.
 
@@ -420,8 +420,8 @@ You can perform the following actions from this view:
 
 Cerby Protect offers the following features to boost your collaboration:
 
-  * [Teams](get-started-with-cerby-protect.md#id-teams)
-  * [Partners](get-started-with-cerby-protect.md#id-guest-users)
+  * [Teams](get-started-with-cerby-protect.md#teams)
+  * [Partners](get-started-with-cerby-protect.md#guest-users)
 
 The following sections describe each feature.
 

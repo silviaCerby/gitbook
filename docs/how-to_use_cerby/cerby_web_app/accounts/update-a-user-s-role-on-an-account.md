@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the role of other workspace users on your accounts.
+description: "This article describes how to update the role of other workspace users on your accounts."
 intercom_id: 9479436
 ---
 

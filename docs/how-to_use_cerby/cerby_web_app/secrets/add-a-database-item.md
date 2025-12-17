@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a database item to your Cerby workspace.
+description: "This article describes how to add a database item to your Cerby workspace."
 intercom_id: 8705340
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 8705340
 
 You can add a database item and attachments to Cerby in the following two ways:
 
-* [Add a database item manually](add-a-database-item.md#id-add-a-database-item-manually)
-* [Import database items from LastPass](add-a-database-item.md#id-import-database-items-from-lastpass)
+* [Add a database item manually](add-a-database-item.md#add-a-database-item-manually)
+* [Import database items from LastPass](add-a-database-item.md#import-database-items-from-lastpass)
 
 The following sections describe each way.
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove an app from the list of settings restrictions.
+description: "This article describes how to remove an app from the list of settings restrictions."
 intercom_id: 10276395
 ---
 

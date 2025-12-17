@@ -1,5 +1,5 @@
 ---
-description: This article describes how to automatically invite or remove members of your seat-based and paid social apps from your IdP.
+description: "This article describes how to automatically invite or remove members of your seat-based and paid social apps from your IdP."
 intercom_id: 9046188
 ---
 
@@ -25,8 +25,8 @@ For the Apps feature, provisioning and deprovisioning events propagate from grou
 
 The management tasks you can perform on app members are the following:
 
-* [Invite new app members from Okta](unpublished-manage-app-members-from-your-idp-deprecated.md#id-invite-new-app-members-from-okta)
-* [Remove app members from Okta](unpublished-manage-app-members-from-your-idp-deprecated.md#id-remove-app-members-from-okta)
+* [Invite new app members from Okta](unpublished-manage-app-members-from-your-idp-deprecated.md#invite-new-app-members-from-okta)
+* [Remove app members from Okta](unpublished-manage-app-members-from-your-idp-deprecated.md#remove-app-members-from-okta)
 
 The following sections describe each task.
 

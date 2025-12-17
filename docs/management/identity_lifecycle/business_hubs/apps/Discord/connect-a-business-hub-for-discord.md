@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to manage Discord users’ roles from Cerby.
+description: "This article describes how to connect a business hub to manage Discord users’ roles from Cerby."
 intercom_id: 9823646
 ---
 
@@ -105,12 +105,12 @@ To add a business hub and connect it to Discord, you must complete the following
 
      * **Label in Cerby:** It is the name assigned to your business hub in Cerby, and it will be displayed on the business hub card.
 
-     1. **Business ID:** It is the 19-digit numerical Discord server identifier you obtained in the [Requirements](connect-a-business-hub-for-discord.md#id-requirements) section.
+     1. **Business ID:** It is the 19-digit numerical Discord server identifier you obtained in the [Requirements](connect-a-business-hub-for-discord.md#requirements) section.
      2. **User management and login method:** It is the way your users log in to the app and determines if they must save their credentials in Cerby. You must select **Username and password** method.
   7. Click the **Next** button. The **Select automation account** page is displayed.
   8. Select the Discord account you previously created.
 
-  **NOTE:** This account must have been previously created. (See the [Requirements](connect-a-business-hub-for-discord.md#id-requirements) section.) It doesn't need to have a real Discord user profile.
+  **NOTE:** This account must have been previously created. (See the [Requirements](connect-a-business-hub-for-discord.md#requirements) section.) It doesn't need to have a real Discord user profile.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed. The corresponding business hub is also displayed on the **Business Hubs** view.
 
@@ -166,9 +166,9 @@ The app members are displayed in the following tabs of the **User Overview** sec
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-discord.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-discord.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-discord.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-discord.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-discord.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-discord.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

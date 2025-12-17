@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view and understand the details of nested jobs displayed in the Automation log.
+description: "This article describes how to view and understand the details of nested jobs displayed in the Automation log."
 intercom_id: 11713623
 ---
 

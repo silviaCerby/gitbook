@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add Secure Shell (SSH) key pairs to your Cerby workspace using the Cerby mobile app.
+description: "This article describes how to add Secure Shell (SSH) key pairs to your Cerby workspace using the Cerby mobile app."
 intercom_id: 11429559
 ---
 

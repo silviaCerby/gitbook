@@ -1,5 +1,5 @@
 ---
-description: This video shows how to turn on MFA for an Instagram account manually.
+description: "This video shows how to turn on MFA for an Instagram account manually."
 intercom_id: 6422083
 ---
 

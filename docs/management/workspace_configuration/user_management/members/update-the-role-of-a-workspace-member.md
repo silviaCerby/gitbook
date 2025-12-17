@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the role of a workspace member.
+description: "This article describes how to update the role of a workspace member."
 intercom_id: 9473092
 ---
 

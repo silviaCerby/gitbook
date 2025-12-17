@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share a subcollection with other users or teams, granting access to the secrets and accounts inside it.
+description: "This article describes how to share a subcollection with other users or teams, granting access to the secrets and accounts inside it."
 intercom_id: 8982944
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This video describes where in the account settings page you can add a Cerby-managed email or phone number.
+description: "This video describes where in the account settings page you can add a Cerby-managed email or phone number."
 intercom_id: 6393770
 ---
 

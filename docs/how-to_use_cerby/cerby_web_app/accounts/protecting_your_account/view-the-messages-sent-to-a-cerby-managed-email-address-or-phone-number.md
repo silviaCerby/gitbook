@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the messages sent to a Cerby-managed email address or phone number.
+description: "This article describes how to view the messages sent to a Cerby-managed email address or phone number."
 intercom_id: 11889348
 ---
 
@@ -42,8 +42,8 @@ The following are the requirements to view the messages sent to a Cerby-managed 
 
 You can view the messages sent to a Cerby-managed email address or phone number in the following two ways:
 
-  * [Shared Inbox](view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number.md#id-shared-inbox)
-  * [Account inbox](view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number.md#id-account-inbox)
+  * [Shared Inbox](view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number.md#shared-inbox)
+  * [Account inbox](view-the-messages-sent-to-a-cerby-managed-email-address-or-phone-number.md#account-inbox)
 
 The following sections describe each way.
 

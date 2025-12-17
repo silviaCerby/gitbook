@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a guest member from an existing local partner.
+description: "This article describes how to remove a guest member from an existing local partner."
 intercom_id: 11944452
 ---
 

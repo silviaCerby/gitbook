@@ -1,5 +1,5 @@
 ---
-description: This video shows how to invite a guest user to grant them access to the imported access permissions on items.
+description: "This video shows how to invite a guest user to grant them access to the imported access permissions on items."
 intercom_id: 8432615
 ---
 

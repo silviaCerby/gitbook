@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of Whistic from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of Whistic from Cerby."
 intercom_id: 10453754
 ---
 
@@ -134,7 +134,7 @@ During a check for updates, Cerby automatically matches app members to the Cerby
 To view the status of the imported app members, you must complete the following steps:
 
   1. Select the **Business Hubs** option from the left navigation drawer. The **Business Hubs** view is displayed.
-  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_493.png" alt="">) icon of the corresponding business hub card. A drop-down list is displayed.
+  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_492.png" alt="">) icon of the corresponding business hub card. A drop-down list is displayed.
   3. Select the **View Members** option from the list. The business hub details page is displayed with the **Members** tab activated.
 App members are displayed in the following tabs of the **User Overview** section:
 
@@ -144,9 +144,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](unpublished-connect-a-business-hub-for-whistic.md#id-match-users)
-  * [Remove unmatched users](unpublished-connect-a-business-hub-for-whistic.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](unpublished-connect-a-business-hub-for-whistic.md#id-exempt-unmatched-users)
+  * [Match users](unpublished-connect-a-business-hub-for-whistic.md#match-users)
+  * [Remove unmatched users](unpublished-connect-a-business-hub-for-whistic.md#remove-unmatched-users)
+  * [Exempt unmatched users](unpublished-connect-a-business-hub-for-whistic.md#exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -177,7 +177,7 @@ To remove unmatched users, you must complete the following steps from the **Unma
 
 {% endhint %}
 
-  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_494.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
+  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_493.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
   2. Select the **Remove user** option from the list. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the app via an automated task.
 
@@ -187,7 +187,7 @@ Exempted users keep their user accounts or seats active in your app, but you can
 
 To exempt unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
-  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_495.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
+  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_494.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
   2. Select the **Exempt user** option from the list. The exempt user dialog box is displayed.
   3. Enter a reason for exempting the user in the **Provide a reason** field.
   4. Click the **Exempt member** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Exempted users** tab.

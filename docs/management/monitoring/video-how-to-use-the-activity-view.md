@@ -1,5 +1,5 @@
 ---
-description: This video shows how to use the Activity view to keep track of user activity on items and within your workspace.
+description: "This video shows how to use the Activity view to keep track of user activity on items and within your workspace."
 intercom_id: 8515433
 ---
 

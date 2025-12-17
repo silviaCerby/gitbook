@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share a collection with other workspace members and teams.
+description: "This article describes how to share a collection with other workspace members and teams."
 intercom_id: 8981907
 ---
 

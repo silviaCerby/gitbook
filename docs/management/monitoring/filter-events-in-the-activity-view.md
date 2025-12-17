@@ -1,5 +1,5 @@
 ---
-description: This article describes the steps to filter the events you see in the Activity view using the Cerby web app.
+description: "This article describes the steps to filter the events you see in the Activity view using the Cerby web app."
 intercom_id: 10128410
 ---
 

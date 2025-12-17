@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot JetBrains license assignment issues when using Okta push groups.
+description: "This article describes how to troubleshoot JetBrains license assignment issues when using Okta push groups."
 intercom_id: 11691098
 ---
 

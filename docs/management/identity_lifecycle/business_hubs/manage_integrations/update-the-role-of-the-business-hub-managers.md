@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the role of the business hub managers in Cerby.
+description: "This article describes how to update the role of the business hub managers in Cerby."
 intercom_id: 10971704
 ---
 
@@ -18,8 +18,8 @@ intercom_id: 10971704
 
 As a business hub **Owner** , you can perform the following management tasks to update the roles of the users and teams that manage your business hub integration and your seat-based and paid social apps from Cerby:
 
-* [Update the management role of a user](update-the-role-of-the-business-hub-managers.md#id-update-the-management-role-of-a-user)
-* [Update the management role of a team](update-the-role-of-the-business-hub-managers.md#id-update-the-management-role-of-a-team)
+* [Update the management role of a user](update-the-role-of-the-business-hub-managers.md#update-the-management-role-of-a-user)
+* [Update the management role of a team](update-the-role-of-the-business-hub-managers.md#update-the-management-role-of-a-team)
 
 The following sections describe each task.
 

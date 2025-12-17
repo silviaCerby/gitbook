@@ -1,5 +1,5 @@
 ---
-description: This video shows you the process to log in from your Cerby workspace dashboard to your account using autofill and Cerby-managed MFA.
+description: "This video shows you the process to log in from your Cerby workspace dashboard to your account using autofill and Cerby-managed MFA."
 intercom_id: 5605289
 ---
 

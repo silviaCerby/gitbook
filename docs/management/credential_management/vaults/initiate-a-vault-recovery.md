@@ -1,5 +1,5 @@
 ---
-description: This article describes how to initiate a vault recovery.
+description: "This article describes how to initiate a vault recovery."
 intercom_id: 10113682
 ---
 

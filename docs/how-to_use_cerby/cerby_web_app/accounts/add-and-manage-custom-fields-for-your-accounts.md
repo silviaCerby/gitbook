@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add custom fields to your accounts to save specific categorized information.
+description: "This article describes how to add custom fields to your accounts to save specific categorized information."
 intercom_id: 8076378
 ---
 

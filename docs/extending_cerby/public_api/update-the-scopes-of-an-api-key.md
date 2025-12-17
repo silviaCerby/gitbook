@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the scopes of an active API key.
+description: "This article describes how to update the scopes of an active API key."
 intercom_id: 9950704
 ---
 

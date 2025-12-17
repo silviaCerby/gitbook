@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create and share a collection with your teammates.
+description: "This article describes how to create and share a collection with your teammates."
 intercom_id: 6393791
 ---
 

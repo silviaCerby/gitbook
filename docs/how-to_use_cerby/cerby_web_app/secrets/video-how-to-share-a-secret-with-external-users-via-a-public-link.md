@@ -1,5 +1,5 @@
 ---
-description: This video shows how to share a secret via a public link and how the external collaborator opens it to access the secret details.
+description: "This video shows how to share a secret via a public link and how the external collaborator opens it to access the secret details."
 intercom_id: 8384438
 ---
 

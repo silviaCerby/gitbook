@@ -1,5 +1,5 @@
 ---
-description: This article describes how to import the users, roles, and entitlements from an IdLCM integration into Okta.
+description: "This article describes how to import the users, roles, and entitlements from an IdLCM integration into Okta."
 intercom_id: 11647808
 ---
 

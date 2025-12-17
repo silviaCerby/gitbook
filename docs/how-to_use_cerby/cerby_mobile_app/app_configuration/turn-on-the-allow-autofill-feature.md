@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on the Allow AutoFill feature in your Cerby mobile app.
+description: "This article describes how to turn on the Allow AutoFill feature in your Cerby mobile app."
 intercom_id: 10008706
 ---
 

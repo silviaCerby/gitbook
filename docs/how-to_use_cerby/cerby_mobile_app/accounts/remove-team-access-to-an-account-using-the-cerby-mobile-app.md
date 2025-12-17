@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove team access to an account in the Cerby mobile app.
+description: "This article describes how to remove team access to an account in the Cerby mobile app."
 intercom_id: 9715456
 ---
 

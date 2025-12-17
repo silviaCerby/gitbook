@@ -1,5 +1,5 @@
 ---
-description: This article describes how Cerby manages API keys and bearer tokens to authorize requests to the Cerby API.
+description: "This article describes how Cerby manages API keys and bearer tokens to authorize requests to the Cerby API."
 intercom_id: 9450922
 ---
 
@@ -33,8 +33,8 @@ Cerby hashes API keys before storing them in the database, encrypted with the wo
 
 To enhance security and control access, you can configure the following characteristics for your API keys:
 
-  * [Expiration time](explore-api-keys-and-bearer-tokens.md#id-expiration-time)
-  * [Scopes](explore-api-keys-and-bearer-tokens.md#id-scopes)
+  * [Expiration time](explore-api-keys-and-bearer-tokens.md#expiration-time)
+  * [Scopes](explore-api-keys-and-bearer-tokens.md#scopes)
 
 The following sections describe each characteristic.
 

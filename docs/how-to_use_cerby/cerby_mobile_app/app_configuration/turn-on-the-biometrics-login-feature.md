@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on the biometrics login feature on your Cerby mobile app.
+description: "This article describes how to turn on the biometrics login feature on your Cerby mobile app."
 intercom_id: 10355971
 ---
 

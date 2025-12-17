@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create an IdLCM integration to connect your disconnected app to your IdP through Cerby.
+description: "This article describes how to create an IdLCM integration to connect your disconnected app to your IdP through Cerby."
 intercom_id: 11650659
 ---
 
@@ -74,7 +74,7 @@ To create and set up an IdLCM integration in Cerby, you must complete the follow
      * **Select app:** It is the name of the external app. The apps from Cerby’s catalog that match the name are displayed on a list automatically for you to select one.
 ​**IMPORTANT:** You can only create an IdLCM integration if the app is in Cerby’s catalog.
 
-     * **Business ID or other identifier:** It is the unique identifier of your business or organization within the app. This field is displayed or not depending on the app, and it might have different names, such as Organization ID or Team ID. For generic instructions on how to find the ID, read the [Requirements](create-an-idlcm-integration-for-your-app.md#id-requirements) section.
+     * **Business ID or other identifier:** It is the unique identifier of your business or organization within the app. This field is displayed or not depending on the app, and it might have different names, such as Organization ID or Team ID. For generic instructions on how to find the ID, read the [Requirements](create-an-idlcm-integration-for-your-app.md#requirements) section.
 
   5. Click the **Next** button. The **Service account** section is displayed.
   6. Specify the service account and its login method by completing the following steps:

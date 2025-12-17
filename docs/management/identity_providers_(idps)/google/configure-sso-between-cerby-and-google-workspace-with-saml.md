@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure Google Workspace as your IdP to enable SSO for Cerby using a custom SAML app.
+description: "This article describes how to configure Google Workspace as your IdP to enable SSO for Cerby using a custom SAML app."
 intercom_id: 5560674
 ---
 
@@ -123,7 +123,7 @@ To add a custom SAML app in Google Workspace, complete the following steps:
 
   8. Enter **`https://app.cerby.com`** in the **Start URL (optional)** field.
   9. Click the **CONTINUE** button. The **Attribute mapping** step of the wizard is displayed.
-  10. Map the required attributes from [Table 1. Attribute mappings in Google Directory](configure-sso-between-cerby-and-google-workspace-with-saml.md#id-table-1.-attribute-mappings-in-google-directory) by completing the following steps:
+  10. Map the required attributes from [Table 1. Attribute mappings in Google Directory](configure-sso-between-cerby-and-google-workspace-with-saml.md#table-1.-attribute-mappings-in-google-directory) by completing the following steps:
      1. Click the **ADD MAPPING** button. A new row is displayed with a drop-down menu and an empty field.
      2. Select the corresponding option from the drop-down menu in the **Google Directory attributes** column.
      3. Enter the corresponding value in the empty field of the **App attributes** column. **Figure 7** shows how the page looks with all the mapping attributes.

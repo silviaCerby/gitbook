@@ -1,5 +1,5 @@
 ---
-description: This article describes the latest enhancements and bug fixes to improve your experience using Cerby.
+description: "This article describes the latest enhancements and bug fixes to improve your experience using Cerby."
 intercom_id: 10752724
 ---
 

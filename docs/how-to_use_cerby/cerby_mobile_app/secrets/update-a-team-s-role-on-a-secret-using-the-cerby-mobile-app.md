@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update a team’s role on a secret using the Cerby mobile app.
+description: "This article describes how to update a team’s role on a secret using the Cerby mobile app."
 intercom_id: 9742217
 ---
 

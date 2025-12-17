@@ -1,5 +1,5 @@
 ---
-description: This article describes how to edit the secret items you have added or that you were granted shared access as Owner in Cerby.
+description: "This article describes how to edit the secret items you have added or that you were granted shared access as Owner in Cerby."
 intercom_id: 8705410
 ---
 

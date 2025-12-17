@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the users of an IdLCM integration.
+description: "This article describes how to view the users of an IdLCM integration."
 intercom_id: 11644266
 ---
 

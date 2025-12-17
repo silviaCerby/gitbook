@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Partners feature that enables you to share access to your accounts with external parties.
+description: "This article describes the key benefits of the Partners feature that enables you to share access to your accounts with external parties."
 intercom_id: 6634285
 ---
 

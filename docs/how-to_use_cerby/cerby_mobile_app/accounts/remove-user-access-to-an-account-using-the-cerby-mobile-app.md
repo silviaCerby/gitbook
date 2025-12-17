@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove user access to an account using the Cerby mobile app.
+description: "This article describes how to remove user access to an account using the Cerby mobile app."
 intercom_id: 9715382
 ---
 

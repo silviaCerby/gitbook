@@ -1,5 +1,5 @@
 ---
-description: This article describes how to retrieve the SCIM API authentication token to configure automatic provisioning with your IdP tenant.
+description: "This article describes how to retrieve the SCIM API authentication token to configure automatic provisioning with your IdP tenant."
 intercom_id: 5683294
 ---
 

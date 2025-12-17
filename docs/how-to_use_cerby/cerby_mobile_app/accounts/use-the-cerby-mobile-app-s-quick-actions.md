@@ -1,5 +1,5 @@
 ---
-description: This article describes the quick actions you can perform on your accounts from the Cerby mobile app home screen.
+description: "This article describes the quick actions you can perform on your accounts from the Cerby mobile app home screen."
 intercom_id: 12814969
 ---
 

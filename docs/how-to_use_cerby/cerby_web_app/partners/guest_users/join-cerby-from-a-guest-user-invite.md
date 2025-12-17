@@ -1,5 +1,5 @@
 ---
-description: This article describes how an external collaborator can join a Cerby workspace from a guest user invite sent to their email.
+description: "This article describes how an external collaborator can join a Cerby workspace from a guest user invite sent to their email."
 intercom_id: 9317157
 ---
 

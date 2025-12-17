@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage users and assets of TikTok Business Center from Cerby.
+description: "This article describes how to connect a business hub to centrally manage users and assets of TikTok Business Center from Cerby."
 intercom_id: 6273647
 ---
 

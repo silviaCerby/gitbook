@@ -1,5 +1,5 @@
 ---
-description: This article describes how to troubleshoot the issues with old operating system versions no longer supported by the Cerby mobile app.
+description: "This article describes how to troubleshoot the issues with old operating system versions no longer supported by the Cerby mobile app."
 intercom_id: 6681521
 ---
 

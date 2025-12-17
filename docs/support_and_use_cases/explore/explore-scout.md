@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of Scout for workflow scouting to accelerate the building process of Cerby’s automated jobs.
+description: "This article describes the benefits of Scout for workflow scouting to accelerate the building process of Cerby’s automated jobs."
 intercom_id: 9774431
 ---
 
@@ -30,7 +30,7 @@ The following are the manual business workflows and tasks you can capture so tha
 {% hint style="danger" %}
 
 
-**IMPORTANT:** Scout doesn’t capture or store input values entered in any field. When your organization has enabled this feature, only workspace **Admins** and **Super Admins** can authorize Scout. For more information, read the [How Scout protects your privacy](explore-scout.md#id-how-scout-protects-your-privacy) section.
+**IMPORTANT:** Scout doesn’t capture or store input values entered in any field. When your organization has enabled this feature, only workspace **Admins** and **Super Admins** can authorize Scout. For more information, read the [How Scout protects your privacy](explore-scout.md#how-scout-protects-your-privacy) section.
 
 
 {% endhint %}

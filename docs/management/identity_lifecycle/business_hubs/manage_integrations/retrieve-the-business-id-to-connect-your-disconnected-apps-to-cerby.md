@@ -1,5 +1,5 @@
 ---
-description: This article describes how to retrieve the Business ID required to connect your disconnected apps to Cerby.
+description: "This article describes how to retrieve the Business ID required to connect your disconnected apps to Cerby."
 intercom_id: 12335748
 ---
 
@@ -13,8 +13,8 @@ Providing the correct Business ID is essential to ensure that Cerby accesses the
 
 Commonly, you can find the ID using the following methods:
 
-* [From the address bar](retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby.md#id-from-the-address-bar)
-* [From the user interface](retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby.md#id-from-the-user-interface)
+* [From the address bar](retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby.md#from-the-address-bar)
+* [From the user interface](retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby.md#from-the-user-interface)
 
 The following sections describe each method.
 

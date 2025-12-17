@@ -1,5 +1,5 @@
 ---
-description: This article describes how the Cerby CLI outputs the results of your commands and how to customize this output.
+description: "This article describes how the Cerby CLI outputs the results of your commands and how to customize this output."
 intercom_id: 9136341
 ---
 
@@ -9,11 +9,11 @@ When retrieving your accounts and secrets, the Cerby CLI outputs data in JSON fo
 
 This article contains the following aspects of the Cerby CLI output data:
 
-* [Default output](interpret-and-customize-the-cerby-cli-output-data.md#id-default-output)
-* [Output customization](interpret-and-customize-the-cerby-cli-output-data.md#id-output-customization)
-* [Output parsing and processing](interpret-and-customize-the-cerby-cli-output-data.md#id-output-parsing-and-processing)
-* [Output error codes](interpret-and-customize-the-cerby-cli-output-data.md#id-output-error-codes)
-* [Output help commands](interpret-and-customize-the-cerby-cli-output-data.md#id-output-help-commands)
+* [Default output](interpret-and-customize-the-cerby-cli-output-data.md#default-output)
+* [Output customization](interpret-and-customize-the-cerby-cli-output-data.md#output-customization)
+* [Output parsing and processing](interpret-and-customize-the-cerby-cli-output-data.md#output-parsing-and-processing)
+* [Output error codes](interpret-and-customize-the-cerby-cli-output-data.md#output-error-codes)
+* [Output help commands](interpret-and-customize-the-cerby-cli-output-data.md#output-help-commands)
 
 The following sections describe each aspect of the output.
 
@@ -75,7 +75,7 @@ The Cerby CLI offers the following guidelines that can help you understand how t
 
   * [Summarize the available command options](interpret-and-customize-the-cerby-cli-output-data.md#h_6993657fe7)
   * [Get help with a command](interpret-and-customize-the-cerby-cli-output-data.md#h_7b94d22dc3)
-  * [Get the version of the Cerby CLI](interpret-and-customize-the-cerby-cli-output-data.md#id-get-the-version-of-the-cerby-cli)
+  * [Get the version of the Cerby CLI](interpret-and-customize-the-cerby-cli-output-data.md#get-the-version-of-the-cerby-cli)
   * [Enable the debugging mode](interpret-and-customize-the-cerby-cli-output-data.md#h_b762a2d58b)
 
 The following sections explain each command in detail.

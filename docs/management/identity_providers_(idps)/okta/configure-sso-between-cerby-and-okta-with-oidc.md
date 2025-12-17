@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure Okta to enable SSO authentication for your new Cerby workspace using OIDC.
+description: "This article describes how to configure Okta to enable SSO authentication for your new Cerby workspace using OIDC."
 intercom_id: 10371317
 ---
 

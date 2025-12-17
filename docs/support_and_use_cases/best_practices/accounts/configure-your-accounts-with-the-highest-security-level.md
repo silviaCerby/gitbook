@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of configuring your accounts with the highest security level in Cerby and the milestones to complete.
+description: "This article describes the benefits of configuring your accounts with the highest security level in Cerby and the milestones to complete."
 intercom_id: 6591141
 ---
 

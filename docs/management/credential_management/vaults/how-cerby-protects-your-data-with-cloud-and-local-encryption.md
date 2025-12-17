@@ -1,5 +1,5 @@
 ---
-description: This article describes how Cerby supports vaults with cloud and local encryption to protect your account data and secrets.
+description: "This article describes how Cerby supports vaults with cloud and local encryption to protect your account data and secrets."
 intercom_id: 8376548
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to provision users to your external app via an IdP and IdLCM integration
+description: "This article describes how to provision users to your external app via an IdP and IdLCM integration"
 intercom_id: 11644874
 ---
 

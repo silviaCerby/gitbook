@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on MFA in TikTok manually using a Cerby-managed phone number and email address.
+description: "This article describes how to turn on MFA in TikTok manually using a Cerby-managed phone number and email address."
 intercom_id: 5955049
 ---
 
@@ -44,8 +44,8 @@ To link the verification methods, complete the following steps:
 5. Tap the **Account** button located in the **Account** section. The **Account** screen is displayed.
 6. Tap the **Account information** button. The **Account information** screen is displayed with the **Phone number** and **Email** fields. Depending on the values of these fields, you must complete one or both of the following steps:
 
-   * **[Link a new verification method](how-to-turn-on-mfa-in-tiktok-manually.md#id-link-a-new-verification-method).** It applies when the **Phone number** or **Email** fields, or both, don’t display any value.
-   * **[Change a verification method](how-to-turn-on-mfa-in-tiktok-manually.md#id-change-a-verification-method).** It applies when the **Phone number** or **Email** fields, or both, display their corresponding value, and this value is not a Cerby-managed phone number or email address.
+   * **[Link a new verification method](how-to-turn-on-mfa-in-tiktok-manually.md#link-a-new-verification-method).** It applies when the **Phone number** or **Email** fields, or both, don’t display any value.
+   * **[Change a verification method](how-to-turn-on-mfa-in-tiktok-manually.md#change-a-verification-method).** It applies when the **Phone number** or **Email** fields, or both, display their corresponding value, and this value is not a Cerby-managed phone number or email address.
 
 The following sections describe the steps of each alternative.
 
@@ -53,8 +53,8 @@ The following sections describe the steps of each alternative.
 
 To link a new verification method, you must complete different steps from the **Account information** screen of the TikTok mobile application, depending on the field with the missing value:
 
-* **[Phone number](how-to-turn-on-mfa-in-tiktok-manually.md#id-phone-number)**
-* **[Email](how-to-turn-on-mfa-in-tiktok-manually.md#id-email)**
+* **[Phone number](how-to-turn-on-mfa-in-tiktok-manually.md#phone-number)**
+* **[Email](how-to-turn-on-mfa-in-tiktok-manually.md#email)**
 
 The following sections describe the steps to link each verification method.
 
@@ -67,9 +67,9 @@ To link a Cerby-managed phone number as a verification method, complete the foll
 
 **NOTE:** Currently, Cerby only supports phone numbers in the United States of America.
 
-3. Enter the phone number provided by Cerby in the **Phone number** field. TikTok uses this phone number to recover your password and send a verification code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](how-to-turn-on-mfa-in-tiktok-manually.md#id-create-a-cerby-managed-phone-number-or-email-address) instructions.
+3. Enter the phone number provided by Cerby in the **Phone number** field. TikTok uses this phone number to recover your password and send a verification code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](how-to-turn-on-mfa-in-tiktok-manually.md#create-a-cerby-managed-phone-number-or-email-address) instructions.
 4. Tap the **Send code** button. The **Enter 6-digit code** screen is displayed.
-5. Enter the verification code. This code is sent by TikTok to the phone number you have created in Cerby. To retrieve the code, follow the [Retrieve the verification code from Cerby](how-to-turn-on-mfa-in-tiktok-manually.md#id-retrieve-the-verification-code-from-cerby) instructions.
+5. Enter the verification code. This code is sent by TikTok to the phone number you have created in Cerby. To retrieve the code, follow the [Retrieve the verification code from Cerby](how-to-turn-on-mfa-in-tiktok-manually.md#retrieve-the-verification-code-from-cerby) instructions.
 
 The **Enter 6-digit code** screen closes automatically when you enter the verification code, and the **Manage account** screen is displayed with a success message.
 
@@ -78,9 +78,9 @@ The **Enter 6-digit code** screen closes automatically when you enter the verifi
 To link a Cerby-managed email address as a verification method, complete the following steps:
 
 1. Tap the **Email** field. The **Enter email address** screen is displayed.
-2. Enter the email address provided by Cerby in the **Email address** field. TikTok uses this email to send a verification code. To create an email address managed by Cerby, follow the [Create a Cerby-managed phone number or email address](how-to-turn-on-mfa-in-tiktok-manually.md#id-create-a-cerby-managed-phone-number-or-email-address) instructions.
+2. Enter the email address provided by Cerby in the **Email address** field. TikTok uses this email to send a verification code. To create an email address managed by Cerby, follow the [Create a Cerby-managed phone number or email address](how-to-turn-on-mfa-in-tiktok-manually.md#create-a-cerby-managed-phone-number-or-email-address) instructions.
 3. Tap the **Send code** button. The **Enter 6-digit code** screen is displayed.
-4. Enter the verification code. This code is sent by TikTok to the email address you have created in Cerby. To retrieve the code, follow the instructions [retrieve the verification code from Cerby](how-to-turn-on-mfa-in-tiktok-manually.md#id-retrieve-the-verification-code-from-cerby).
+4. Enter the verification code. This code is sent by TikTok to the email address you have created in Cerby. To retrieve the code, follow the instructions [retrieve the verification code from Cerby](how-to-turn-on-mfa-in-tiktok-manually.md#retrieve-the-verification-code-from-cerby).
 
 The **Enter 6-digit code** screen of the TikTok application closes automatically when you enter the verification code, and the **Your email was added** screen is displayed with a success message.
 
@@ -90,8 +90,8 @@ The **Enter 6-digit code** screen of the TikTok application closes automatically
 
 To change a verification method, you must complete different steps from the **Account information** screen of the TikTok mobile application depending on the field with a configured value:
 
-* **[Phone number](how-to-turn-on-mfa-in-tiktok-manually.md#id-phone-number)**
-* **[Email](how-to-turn-on-mfa-in-tiktok-manually.md#id-email)**
+* **[Phone number](how-to-turn-on-mfa-in-tiktok-manually.md#phone-number)**
+* **[Email](how-to-turn-on-mfa-in-tiktok-manually.md#email)**
 
 The following sections describe the steps to change each verification method.
 
@@ -107,9 +107,9 @@ To change the configured phone number to a Cerby-managed phone number as a verif
 
 **NOTE:** Currently, Cerby only supports phone numbers in the United States of America.
 
-6. Enter the phone number provided by Cerby in the **Phone number** field. TikTok uses this phone number to recover your password and send a verification code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](how-to-turn-on-mfa-in-tiktok-manually.md#id-create-a-cerby-managed-phone-number-or-email-address) instructions.
+6. Enter the phone number provided by Cerby in the **Phone number** field. TikTok uses this phone number to recover your password and send a verification code. To create a phone number managed by Cerby, follow the [Create a Cerby-managed phone number or email address](how-to-turn-on-mfa-in-tiktok-manually.md#create-a-cerby-managed-phone-number-or-email-address) instructions.
 7. Tap the **Send code** button. The **Enter 6-digit code** screen is displayed.
-8. Enter the verification code. This code is sent by TikTok to the phone number you have created in Cerby. To retrieve the code, follow the [Retrieve the verification code from Cerby](how-to-turn-on-mfa-in-tiktok-manually.md#id-retrieve-the-verification-code-from-cerby) instructions.
+8. Enter the verification code. This code is sent by TikTok to the phone number you have created in Cerby. To retrieve the code, follow the [Retrieve the verification code from Cerby](how-to-turn-on-mfa-in-tiktok-manually.md#retrieve-the-verification-code-from-cerby) instructions.
 
 The **Enter 6-digit code** screen closes automatically when you enter the verification code, and the **Manage account** screen is displayed with a success message.
 
@@ -120,9 +120,9 @@ To change the configured email address to a Cerby-managed email address as a ver
 1. Tap the **Email** field. A dialog box is displayed.
 2. Tap the **Change email** button. The **Enter 6-digit code** screen is displayed.
 3. Enter the verification code sent to the configured email address. The **Enter 6-digit code** screen closes automatically when you enter the code, and the **Change email address** screen is displayed.
-4. Enter the email address provided by Cerby in the **Email address** field. TikTok uses this email to send a verification code. To create an email address managed by Cerby, follow the [Create a Cerby-managed phone number or email address](how-to-turn-on-mfa-in-tiktok-manually.md#id-create-a-cerby-managed-phone-number-or-email-address) instructions.
+4. Enter the email address provided by Cerby in the **Email address** field. TikTok uses this email to send a verification code. To create an email address managed by Cerby, follow the [Create a Cerby-managed phone number or email address](how-to-turn-on-mfa-in-tiktok-manually.md#create-a-cerby-managed-phone-number-or-email-address) instructions.
 5. Tap the **Send code** button. The **Enter 6-digit code** screen is displayed.
-6. Enter the verification code. This code is sent by TikTok to the email address you have created in Cerby. To retrieve the code, follow the [Retrieve the verification code from Cerby](how-to-turn-on-mfa-in-tiktok-manually.md#id-retrieve-the-verification-code-from-cerby) instructions.
+6. Enter the verification code. This code is sent by TikTok to the email address you have created in Cerby. To retrieve the code, follow the [Retrieve the verification code from Cerby](how-to-turn-on-mfa-in-tiktok-manually.md#retrieve-the-verification-code-from-cerby) instructions.
 
 The **Enter 6-digit code** screen of the TikTok application closes automatically when you enter the verification code, and the **Your email was added** screen is displayed with a success message.
 
@@ -159,8 +159,8 @@ To create a phone number or email address managed by Cerby, complete the followi
 
 You must complete different steps depending on the verification method you want Cerby to provide:
 
-     * [Create a phone number](how-to-turn-on-mfa-in-tiktok-manually.md#id-create-a-phone-number)
-     * [Create an email address](how-to-turn-on-mfa-in-tiktok-manually.md#id-create-an-email-address)
+     * [Create a phone number](how-to-turn-on-mfa-in-tiktok-manually.md#create-a-phone-number)
+     * [Create an email address](how-to-turn-on-mfa-in-tiktok-manually.md#create-an-email-address)
 
 The following sections describe the steps for each alternative.
 

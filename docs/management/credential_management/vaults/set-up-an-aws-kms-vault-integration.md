@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up an AWS KMS integration to create vaults using the keys of your existing environment.
+description: "This article describes how to set up an AWS KMS integration to create vaults using the keys of your existing environment."
 intercom_id: 10085037
 ---
 
@@ -185,7 +185,7 @@ To create a new role in AWS, complete the following steps:
      3. Specify the Cerby account and workspace that can use this role by completing the following steps:
         1. Enter the ID provided by the Cerby support team in the **Account ID** field.
         2. Select the **Require external ID** option. The **External ID** field is displayed below.
-        3. Enter your Cerby workspace ID in the **External ID** field. You can find it by completing the steps described in the [Requirements](set-up-an-aws-kms-vault-integration.md#id-requirements) section.
+        3. Enter your Cerby workspace ID in the **External ID** field. You can find it by completing the steps described in the [Requirements](set-up-an-aws-kms-vault-integration.md#requirements) section.
   6. Click the **Next** button. The **Add permissions** page is displayed.
   7. Click the **Next** button. The **Name, review, and create** page is displayed.
   8. Enter the name of the new role in the **Role name** field.
@@ -304,7 +304,7 @@ To set up the AWS KMS vault integration in Cerby, you must complete the followin
      * **KMS Key ID**
      * **AWS Role ARN**
 
-     **NOTE:** You can find the values by completing the corresponding steps in the [Requirements](set-up-an-aws-kms-vault-integration.md#id-requirements) section.
+     **NOTE:** You can find the values by completing the corresponding steps in the [Requirements](set-up-an-aws-kms-vault-integration.md#requirements) section.
 
   9. Click the **Create vault** button. The **Vault created!** message appears, and the **Page reload required** dialog box is displayed.
   10. Click the **Reload page** button. The page is reloaded and the new vault is listed.

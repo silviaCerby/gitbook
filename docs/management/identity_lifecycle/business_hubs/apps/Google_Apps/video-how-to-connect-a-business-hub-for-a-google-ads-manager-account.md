@@ -1,5 +1,5 @@
 ---
-description: This video shows how to connect a Google Ads Manager business hub to centrally manage access to it and its assets from Cerby.
+description: "This video shows how to connect a Google Ads Manager business hub to centrally manage access to it and its assets from Cerby."
 intercom_id: 11749786
 ---
 

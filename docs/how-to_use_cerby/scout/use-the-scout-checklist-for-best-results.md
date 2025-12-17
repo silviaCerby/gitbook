@@ -1,5 +1,5 @@
 ---
-description: This article includes quick tips and a must-do checklist for obtaining the best results in your scouted workflows.
+description: "This article includes quick tips and a must-do checklist for obtaining the best results in your scouted workflows."
 intercom_id: 11887129
 ---
 
@@ -7,15 +7,15 @@ intercom_id: 11887129
 
 The workflows or tasks you can scout are the following:
 
-* [Log in to your account](use-the-scout-checklist-for-best-results.md#id-log-in-to-your-account)
-* [Update your account's password](use-the-scout-checklist-for-best-results.md#id-update-your-accounts-password)
-* [Reset your account’s password](use-the-scout-checklist-for-best-results.md#id-reset-your-accounts-password)
-* [Turn on MFA](use-the-scout-checklist-for-best-results.md#id-turn-on-mfa)
-* [Turn off MFA](use-the-scout-checklist-for-best-results.md#id-turn-off-mfa)
-* [Check for updates](use-the-scout-checklist-for-best-results.md#id-check-for-updates)
-* [Invite a user](use-the-scout-checklist-for-best-results.md#id-invite-a-user)
-* [Update a user’s role](use-the-scout-checklist-for-best-results.md#id-update-a-users-role)
-* [Remove a user](use-the-scout-checklist-for-best-results.md#id-remove-a-user)
+* [Log in to your account](use-the-scout-checklist-for-best-results.md#log-in-to-your-account)
+* [Update your account's password](use-the-scout-checklist-for-best-results.md#update-your-accounts-password)
+* [Reset your account’s password](use-the-scout-checklist-for-best-results.md#reset-your-accounts-password)
+* [Turn on MFA](use-the-scout-checklist-for-best-results.md#turn-on-mfa)
+* [Turn off MFA](use-the-scout-checklist-for-best-results.md#turn-off-mfa)
+* [Check for updates](use-the-scout-checklist-for-best-results.md#check-for-updates)
+* [Invite a user](use-the-scout-checklist-for-best-results.md#invite-a-user)
+* [Update a user’s role](use-the-scout-checklist-for-best-results.md#update-a-users-role)
+* [Remove a user](use-the-scout-checklist-for-best-results.md#remove-a-user)
 
 {% hint style="danger" %}
 

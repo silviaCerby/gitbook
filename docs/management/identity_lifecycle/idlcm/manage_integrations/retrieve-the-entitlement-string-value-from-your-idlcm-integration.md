@@ -1,5 +1,5 @@
 ---
-description: This article describes how to retrieve the entitlement string value from your IdLCM integration.
+description: "This article describes how to retrieve the entitlement string value from your IdLCM integration."
 intercom_id: 12454992
 ---
 

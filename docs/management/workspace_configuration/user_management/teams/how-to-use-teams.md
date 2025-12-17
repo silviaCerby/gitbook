@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure and use the Teams feature in Cerby to share accounts with groups of users.
+description: "This article describes how to configure and use the Teams feature in Cerby to share accounts with groups of users."
 intercom_id: 6624225
 ---
 
@@ -40,8 +40,8 @@ The following are the requirements to configure and use Teams in Cerby:
 
 To configure and create a team, you must complete the following steps depending on the source of its members:
 
-* [Automatically from a group in your IDP](how-to-use-teams.md#id-automatically-from-a-group-in-your-idp)
-* [Manually with members within Cerby](how-to-use-teams.md#id-manually-with-members-within-cerby)
+* [Automatically from a group in your IDP](how-to-use-teams.md#automatically-from-a-group-in-your-idp)
+* [Manually with members within Cerby](how-to-use-teams.md#manually-with-members-within-cerby)
 
 **IMPORTANT:** You can only configure and create a team following one of the two options above, which means you can’t combine them.
 
@@ -63,7 +63,7 @@ To configure and create a team from a group in your IDP by using the only suppor
 
 **Figure 1. Teams View of the Cerby Dashboard**
 
-Now you are done. Continue to the [Use the supported features of Teams](how-to-use-teams.md#id-use-the-supported-features-of-teams) section.
+Now you are done. Continue to the [Use the supported features of Teams](how-to-use-teams.md#use-the-supported-features-of-teams) section.
 
 ### Manually with members within Cerby
 
@@ -79,21 +79,21 @@ To create a team manually by adding the members of your corporate directory with
 8. Repeat steps 6 and 7 as necessary.
 9. Click the **Create team** button. The wizard closes, and the new team and a success message box are displayed.
 
-Now you are done. Continue to the [Use the supported features of Teams](how-to-use-teams.md#id-use-the-supported-features-of-teams) section.
+Now you are done. Continue to the [Use the supported features of Teams](how-to-use-teams.md#use-the-supported-features-of-teams) section.
 
 ## Use the supported features of Teams
 
 The following are the supported features of Teams:
 
-* [Map new groups and manage group mapping](how-to-use-teams.md#id-map-new-groups-and-manage-group-mapping)
-* [Add or remove users from groups automatically](how-to-use-teams.md#id-add-or-remove-users-from-groups-automatically)
-* [Add or remove members from teams manually](how-to-use-teams.md#id-add-or-remove-members-from-teams-manually)
-* [Assign a Team Admin](how-to-use-teams.md#id-assign-a-team-admin)
-* [Share and remove access to accounts](how-to-use-teams.md#id-share-and-remove-access-to-accounts)
-* [See teams and team members in Cerby](how-to-use-teams.md#id-see-teams-and-team-members-in-cerby)
-* [Manage or access accounts](how-to-use-teams.md#id-manage-or-access-accounts)
-* [Track activity on the shared accounts](how-to-use-teams.md#id-track-activity-on-the-shared-accounts)
-* [Remove a team manually](how-to-use-teams.md#id-remove-a-team-manually)
+* [Map new groups and manage group mapping](how-to-use-teams.md#map-new-groups-and-manage-group-mapping)
+* [Add or remove users from groups automatically](how-to-use-teams.md#add-or-remove-users-from-groups-automatically)
+* [Add or remove members from teams manually](how-to-use-teams.md#add-or-remove-members-from-teams-manually)
+* [Assign a Team Admin](how-to-use-teams.md#assign-a-team-admin)
+* [Share and remove access to accounts](how-to-use-teams.md#share-and-remove-access-to-accounts)
+* [See teams and team members in Cerby](how-to-use-teams.md#see-teams-and-team-members-in-cerby)
+* [Manage or access accounts](how-to-use-teams.md#manage-or-access-accounts)
+* [Track activity on the shared accounts](how-to-use-teams.md#track-activity-on-the-shared-accounts)
+* [Remove a team manually](how-to-use-teams.md#remove-a-team-manually)
 
 The following sections describe each feature.
 
@@ -175,8 +175,8 @@ To see if the Okta group has an **Active** status and the mapping is updated in 
 
 **Team Admins** can assign other users with the **Team Member** role as **Team Admins** for the following user management tasks:
 
-  * [Add or remove members from teams manually](how-to-use-teams.md#id-add-or-remove-members-from-teams-manually)
-  * [Remove a team manually](how-to-use-teams.md#id-remove-a-team-manually)
+  * [Add or remove members from teams manually](how-to-use-teams.md#add-or-remove-members-from-teams-manually)
+  * [Remove a team manually](how-to-use-teams.md#remove-a-team-manually)
 
 To assign a **Team Admin** , you must complete the following steps from the **Teams** view:
 

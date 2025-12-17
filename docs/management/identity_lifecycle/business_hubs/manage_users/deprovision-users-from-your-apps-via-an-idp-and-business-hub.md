@@ -1,5 +1,5 @@
 ---
-description: This article describes how to deprovision users from your external seat-based and paid social apps via an IdP and business hub.
+description: "This article describes how to deprovision users from your external seat-based and paid social apps via an IdP and business hub."
 intercom_id: 11040570
 ---
 

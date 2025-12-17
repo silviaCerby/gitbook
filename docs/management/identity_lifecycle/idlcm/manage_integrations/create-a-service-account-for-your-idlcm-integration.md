@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create a service account in your app to associate it with your IdLCM integration.
+description: "This article describes how to create a service account in your app to associate it with your IdLCM integration."
 intercom_id: 11641977
 ---
 
@@ -30,9 +30,9 @@ Cerby recommends having dedicated accounts not tied to a person or human identit
 
 This article describes how to create an automation or service account in your external app to associate it with your integration. The following are the different ways in which you can configure the account, depending on your app’s characteristics, user management strategy, and login method:
 
-* [Placeholder account](create-a-service-account-for-your-idlcm-integration.md#id-placeholder-account)
-* [IdP-provisioned account](create-a-service-account-for-your-idlcm-integration.md#id-idp-provisioned-account)
-* [Individual account](create-a-service-account-for-your-idlcm-integration.md#id-individual-account)
+* [Placeholder account](create-a-service-account-for-your-idlcm-integration.md#placeholder-account)
+* [IdP-provisioned account](create-a-service-account-for-your-idlcm-integration.md#idp-provisioned-account)
+* [Individual account](create-a-service-account-for-your-idlcm-integration.md#individual-account)
 
 {% hint style="info" %}
 

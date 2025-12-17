@@ -1,5 +1,5 @@
 ---
-description: This video describes how to add a managed account like Twitter or YouTube to your Cerby workspace.
+description: "This video describes how to add a managed account like Twitter or YouTube to your Cerby workspace."
 intercom_id: 5551994
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to install the Cerby browser extension across your company endpoints using an MDM service and configuration file.
+description: "This article describes how to install the Cerby browser extension across your company endpoints using an MDM service and configuration file."
 intercom_id: 8265232
 ---
 
@@ -7,7 +7,7 @@ intercom_id: 8265232
 
 With Cerby, you can deploy the Cerby browser extension across all of your company endpoints using a Mobile Device Management (MDM) platform, such as Jamf (macOS) and Tanium (Windows), and configuration files.
 
-The deployment comprises the following web browsers running on [macOS](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-macos) and [Windows](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-windows):
+The deployment comprises the following web browsers running on [macOS](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#macos) and [Windows](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#windows):
 
 * Safari
 * Microsoft Edge
@@ -32,9 +32,9 @@ This article describes the process to achieve a seamless installation and ensure
 
 The deployment setup on macOS endpoints is different depending on the web browser:
 
-  * [Safari](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-safari)
-  * [Chrome](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-chrome)
-  * [Firefox](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-firefox)
+  * [Safari](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#safari)
+  * [Chrome](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#chrome)
+  * [Firefox](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#firefox)
 
 The following sections describe the setup process for each browser.
 
@@ -262,7 +262,7 @@ The following are the requirements to set up the deployment and perform the ente
     * `edge_windows_installer.ps1`
     * `firefox_windows_installer.ps1`
 
-You must create these files in your code editor by copying and pasting the corresponding scripts from the [Appendix: Scripts](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-appendix-scripts) section.
+You must create these files in your code editor by copying and pasting the corresponding scripts from the [Appendix: Scripts](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#appendix-scripts) section.
 
   * An MDM service for Windows, such as Intune, Hexnode, Tanium, or ManageEngine, in which you can create a configuration profile or payload to upload the script and set up an execution command
 
@@ -302,9 +302,9 @@ This appendix contains the scripts you must copy and paste into your code editor
 
 You must create a file per web browser:
 
-  * [Chrome](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-chrome)
-  * [Edge](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-edge)
-  * [Firefox](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#id-firefox)
+  * [Chrome](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#chrome)
+  * [Edge](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#edge)
+  * [Firefox](install-the-cerby-browser-extension-via-an-mdm-service-and-a-configuration-file.md#firefox)
 
 {% hint style="danger" %}
 

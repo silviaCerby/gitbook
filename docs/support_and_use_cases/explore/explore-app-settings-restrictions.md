@@ -1,5 +1,5 @@
 ---
-description: This article describes how the App settings restrictions feature enables you to block user management and password changes in your apps.
+description: "This article describes how the App settings restrictions feature enables you to block user management and password changes in your apps."
 intercom_id: 10276184
 ---
 

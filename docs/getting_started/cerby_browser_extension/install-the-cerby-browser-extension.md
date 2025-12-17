@@ -1,5 +1,5 @@
 ---
-description: This document describes how to install the Cerby browser extension on your computer.
+description: "This document describes how to install the Cerby browser extension on your computer."
 intercom_id: 10755388
 ---
 

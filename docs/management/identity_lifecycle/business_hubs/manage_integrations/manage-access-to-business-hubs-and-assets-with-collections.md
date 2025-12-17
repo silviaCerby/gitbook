@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of managing access to external apps via collections of business hubs and assets.
+description: "This article describes the key benefits of managing access to external apps via collections of business hubs and assets."
 intercom_id: 11102692
 ---
 
@@ -35,10 +35,10 @@ The following are the key benefits of managing access this way:
 
 This article contains the following sections to describe how access management works for business hubs and assets within a collection:
 
-  * [Sharing business hubs and assets via a collection](manage-access-to-business-hubs-and-assets-with-collections.md#id-sharing-business-hubs-and-assets-via-a-collection)
-  * [Claiming access to a business hub and external app](manage-access-to-business-hubs-and-assets-with-collections.md#id-claiming-access-to-a-business-hub-and-external-app)
-  * [Updating access to business hubs and assets via a collection](manage-access-to-business-hubs-and-assets-with-collections.md#id-updating-access-to-business-hubs-and-assets-via-a-collection)
-  * [Removing access from business hubs and assets via a collection](manage-access-to-business-hubs-and-assets-with-collections.md#id-removing-access-from-business-hubs-and-assets-via-a-collection)
+  * [Sharing business hubs and assets via a collection](manage-access-to-business-hubs-and-assets-with-collections.md#sharing-business-hubs-and-assets-via-a-collection)
+  * [Claiming access to a business hub and external app](manage-access-to-business-hubs-and-assets-with-collections.md#claiming-access-to-a-business-hub-and-external-app)
+  * [Updating access to business hubs and assets via a collection](manage-access-to-business-hubs-and-assets-with-collections.md#updating-access-to-business-hubs-and-assets-via-a-collection)
+  * [Removing access from business hubs and assets via a collection](manage-access-to-business-hubs-and-assets-with-collections.md#removing-access-from-business-hubs-and-assets-via-a-collection)
 * * *
 
 ## Sharing business hubs and assets via a collection

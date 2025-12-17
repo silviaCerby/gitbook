@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add an asset to an existing collection.
+description: "This article describes how to add an asset to an existing collection."
 intercom_id: 11102036
 ---
 
@@ -21,8 +21,8 @@ As a collection, business hub integration, and asset **Owner** , you can add an 
 
 The process of adding an asset to a collection is different, depending on whether a business hub already exists in the collection or not:
 
-* [Add an individual asset to a collection](add-an-asset-to-a-collection.md#id-add-an-individual-asset-to-a-collection)
-* [Add an asset for an existing business hub in a collection](add-an-asset-to-a-collection.md#id-add-an-asset-for-an-existing-business-hub-in-a-collection)
+* [Add an individual asset to a collection](add-an-asset-to-a-collection.md#add-an-individual-asset-to-a-collection)
+* [Add an asset for an existing business hub in a collection](add-an-asset-to-a-collection.md#add-an-asset-for-an-existing-business-hub-in-a-collection)
 
 The following sections describe each process.
 

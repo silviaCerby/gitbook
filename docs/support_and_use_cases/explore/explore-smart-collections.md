@@ -1,5 +1,5 @@
 ---
-description: This article describes the business context for implementing the Smart Collections feature in L’Oréal’s workspace and includes a user guide for proper use.
+description: "This article describes the business context for implementing the Smart Collections feature in L’Oréal’s workspace and includes a user guide for proper use."
 intercom_id: 9422854
 ---
 
@@ -50,12 +50,12 @@ Finally, consider the following security recommendations when using Smart Collec
 
 This article contains the instructions to perform the following actions using the Smart Collections feature:
 
-* [Add an account](explore-smart-collections.md#id-add-an-account)
-* [Edit the tags of a corporate account](explore-smart-collections.md#id-edit-the-tags-of-a-corporate-account)
-* [Convert an account from corporate to personal](explore-smart-collections.md#id-convert-an-account-from-corporate-to-personal)
-* [Convert an account from personal to corporate](explore-smart-collections.md#id-convert-an-account-from-personal-to-corporate)
-* [Update the tags of a collection](explore-smart-collections.md#id-update-the-tags-of-a-collection)
-* [View the accounts assigned to a collection](explore-smart-collections.md#id-view-the-accounts-assigned-to-a-collection)
+* [Add an account](explore-smart-collections.md#add-an-account)
+* [Edit the tags of a corporate account](explore-smart-collections.md#edit-the-tags-of-a-corporate-account)
+* [Convert an account from corporate to personal](explore-smart-collections.md#convert-an-account-from-corporate-to-personal)
+* [Convert an account from personal to corporate](explore-smart-collections.md#convert-an-account-from-personal-to-corporate)
+* [Update the tags of a collection](explore-smart-collections.md#update-the-tags-of-a-collection)
+* [View the accounts assigned to a collection](explore-smart-collections.md#view-the-accounts-assigned-to-a-collection)
 
 The following sections contain the steps for each action.
 
@@ -171,7 +171,7 @@ personal to corporate account
      * The original account name is kept, and it cannot be edited.
 
   5. Hover the mouse over the **Account label** section. The **Edit** () button is displayed.
-  6. [Edit the tags of a corporate account](explore-smart-collections.md#id-edit-the-tags-of-a-corporate-account). A success message box is displayed, and the account is updated as follows:
+  6. [Edit the tags of a corporate account](explore-smart-collections.md#edit-the-tags-of-a-corporate-account). A success message box is displayed, and the account is updated as follows:
 
      * The account name is updated, according to the tags established.
      * The account name cannot be edited.

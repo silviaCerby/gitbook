@@ -1,5 +1,5 @@
 ---
-description: This video shows how to add a Business Center account to your Cerby workspace, using a Facebook Business Manager example.
+description: "This video shows how to add a Business Center account to your Cerby workspace, using a Facebook Business Manager example."
 intercom_id: 5618986
 ---
 

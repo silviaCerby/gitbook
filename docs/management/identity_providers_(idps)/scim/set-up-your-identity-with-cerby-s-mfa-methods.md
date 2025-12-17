@@ -1,5 +1,5 @@
 ---
-description: This article describes Cerby’s MFA methods for verifying a user’s identity for secrets and Business Hubs and performing other actions.
+description: "This article describes Cerby’s MFA methods for verifying a user’s identity for secrets and Business Hubs and performing other actions."
 intercom_id: 9462605
 ---
 
@@ -9,9 +9,9 @@ With Cerby's**multi-factor authentication (MFA) methods** , you can choose how u
 
 This article describes how each MFA method works and the actions that require identity confirmation:
 
-* [Push notification on the Cerby mobile app](set-up-your-identity-with-cerby-s-mfa-methods.md#id-push-notification-on-the-cerby-mobile-app)
-* [Email magic link](set-up-your-identity-with-cerby-s-mfa-methods.md#id-email-magic-link)
-* [List of actions that require identity verification](set-up-your-identity-with-cerby-s-mfa-methods.md#id-list-of-actions-that-require-identity-confirmation)
+* [Push notification on the Cerby mobile app](set-up-your-identity-with-cerby-s-mfa-methods.md#push-notification-on-the-cerby-mobile-app)
+* [Email magic link](set-up-your-identity-with-cerby-s-mfa-methods.md#email-magic-link)
+* [List of actions that require identity verification](set-up-your-identity-with-cerby-s-mfa-methods.md#list-of-actions-that-require-identity-confirmation)
 
 The following sections contain the steps to confirm your identity using each method.
 
@@ -22,7 +22,7 @@ With the push notification on the Cerby mobile app, you receive a push notificat
 {% hint style="danger" %}
 
 
-**IMPORTANT:** Cerby is configured to use this method by default to confirm users’ identities for the actions listed in the [List of actions that require identity confirmation section](set-up-your-identity-with-cerby-s-mfa-methods.md#id-list-of-actions-that-require-identity-confirmation).
+**IMPORTANT:** Cerby is configured to use this method by default to confirm users’ identities for the actions listed in the [List of actions that require identity confirmation section](set-up-your-identity-with-cerby-s-mfa-methods.md#list-of-actions-that-require-identity-confirmation).
 
 
 {% endhint %}
@@ -31,7 +31,7 @@ To confirm your identity through the Cerby mobile app, you must complete the fol
 
 1. [Install the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/getting-started/getting-started-guide-for-account-owners-and-collaborators) on your phone.
 2. Set up a [trusted session](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices) with your mobile device.
-3. Perform any of the actions listed in the [List of actions that require identity confirmation](set-up-your-identity-with-cerby-s-mfa-methods.md#id-list-of-actions-that-require-identity-confirmation) section. The **Confirm your identity to continue** dialog box is displayed, and a push notification is sent to the Cerby mobile app.
+3. Perform any of the actions listed in the [List of actions that require identity confirmation](set-up-your-identity-with-cerby-s-mfa-methods.md#list-of-actions-that-require-identity-confirmation) section. The **Confirm your identity to continue** dialog box is displayed, and a push notification is sent to the Cerby mobile app.
 4. Tap the **It’s me!** button in the **Confirmation Request** screen of the Cerby mobile app. The **Confirm your identity to continue** dialog box closes in the Cerby web app, and a success message box is displayed.
 
 ## Email magic link
@@ -43,7 +43,7 @@ The email magic link is an alternative if you have restrictions or issues with r
 
 To confirm your identity through an email magic link, you must complete the following steps:
 
-1. Perform any of the actions listed in the [List of actions that require identity confirmation](set-up-your-identity-with-cerby-s-mfa-methods.md#id-list-of-actions-that-require-identity-confirmation) section. The **Confirm your identity to continue** dialog box is displayed.
+1. Perform any of the actions listed in the [List of actions that require identity confirmation](set-up-your-identity-with-cerby-s-mfa-methods.md#list-of-actions-that-require-identity-confirmation) section. The **Confirm your identity to continue** dialog box is displayed.
 ​**NOTE:** The actions apply to any Cerby clients: web app, browser extension, and mobile app.
 
 2. Click the **Send email** button. The **Check your inbox** dialog box is displayed, and Cerby sends an email with a magic link to your inbox.

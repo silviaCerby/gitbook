@@ -1,5 +1,5 @@
 ---
-description: This article describes how to access and view your accounts using the Cerby mobile app.
+description: "This article describes how to access and view your accounts using the Cerby mobile app."
 intercom_id: 9724952
 ---
 

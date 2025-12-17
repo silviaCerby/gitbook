@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of Conjointly from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of Conjointly from Cerby."
 intercom_id: 10574507
 ---
 
@@ -80,7 +80,7 @@ To add a business hub and connect it to Conjointly, you must complete the follow
        * **Username and password:** Cerby manages account security and access, and users log in with their credentials after saving them in Cerby.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Conjointly accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-conjointly.md#id-requirements) section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-conjointly.md#requirements) section.
 ​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
@@ -130,7 +130,7 @@ During a check for updates, Cerby automatically matches app members to the Cerby
 To view the status of the imported app members, you must complete the following steps:
 
   1. Select the **Business Hubs** option from the left navigation drawer. The **Business Hubs** view is displayed.
-  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_422.png" alt="">) icon of the corresponding business hub card. A drop-down list is displayed.
+  2. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_421.png" alt="">) icon of the corresponding business hub card. A drop-down list is displayed.
   3. Select the **View Members** option from the list. The business hub details page is displayed with the **Members** tab activated.
 App members are displayed in the following tabs of the **User Overview** section:
 
@@ -140,9 +140,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-conjointly.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-conjointly.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-conjointly.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-conjointly.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-conjointly.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-conjointly.md#exempt-unmatched-users)
 
 The following sections describe each action.
 
@@ -173,7 +173,7 @@ To remove unmatched users, you must complete the following steps from the **Unma
 
 {% endhint %}
 
-  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_423.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
+  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_422.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
   2. Select the **Remove user** option from the list. The **Remove user?** dialog box is displayed.
   3. Click the **Remove user** button. The dialog box closes, and a success message box is displayed. The user is removed from the app via an automated task.
 
@@ -183,7 +183,7 @@ Exempted users keep their user accounts or seats active in your app, but you can
 
 To exempt unmatched users, you must complete the following steps from the **Unmatched users** tab of the business hub details page:
 
-  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_424.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
+  1. Click the **More options** (<img src="../../../../../../.gitbook/assets/AD_4nXewApJOBZXewpFew1XrkjC6rCssB5Upy2WRCW8fpJjw2Zmj0xzSkEgw3tUBvW6lyQC2RihdmxzJ6KKXG1pvMGfAeaQnjZUGnThkBo5vdisjtu8WvqHXLgT1_7-xOwkkFy5umyicPg_423.png" alt="">) icon of the corresponding user. A drop-down list is displayed.
   2. Select the **Exempt user** option from the list. The exempt user dialog box is displayed.
   3. Enter a reason for exempting the user in the **Provide a reason** field.
   4. Click the **Exempt member** button. The dialog box closes, and a success message box is displayed. The user is moved to the **Exempted users** tab.

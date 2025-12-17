@@ -1,5 +1,5 @@
 ---
-description: This article describes how to accept a Business Center invite, using Facebook as an example.
+description: "This article describes how to accept a Business Center invite, using Facebook as an example."
 intercom_id: 6395727
 ---
 

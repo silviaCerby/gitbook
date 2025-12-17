@@ -1,5 +1,5 @@
 ---
-description: This article describes how to manually back up all your accounts from a Cerby vault to CyberArk.
+description: "This article describes how to manually back up all your accounts from a Cerby vault to CyberArk."
 intercom_id: 12597970
 ---
 

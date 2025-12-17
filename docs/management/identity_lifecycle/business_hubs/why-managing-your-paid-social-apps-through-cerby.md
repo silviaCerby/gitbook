@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of managing the users and assets of your paid social apps through Cerby.
+description: "This article describes the benefits of managing the users and assets of your paid social apps through Cerby."
 intercom_id: 6442093
 ---
 
@@ -17,9 +17,9 @@ This article describes the benefits of managing your paid social apps through Ce
 
 The following are the benefits of managing your paid social apps through Cerby:
 
-* [Centralize account management](why-managing-your-paid-social-apps-through-cerby.md#id-centralize-account-management)
-* [Automate user deprovisioning](why-managing-your-paid-social-apps-through-cerby.md#id-automate-user-deprovisioning)
-* [Secure access to business centers and assets](why-managing-your-paid-social-apps-through-cerby.md#id-secure-access-to-business-centers-and-assets)
+* [Centralize account management](why-managing-your-paid-social-apps-through-cerby.md#centralize-account-management)
+* [Automate user deprovisioning](why-managing-your-paid-social-apps-through-cerby.md#automate-user-deprovisioning)
+* [Secure access to business centers and assets](why-managing-your-paid-social-apps-through-cerby.md#secure-access-to-business-centers-and-assets)
 
 The following sections describe each benefit.
 

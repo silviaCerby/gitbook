@@ -1,5 +1,5 @@
 ---
-description: This article describes how to manage attachments of the secrets you have added or that you were granted shared access as Owner in Cerby.
+description: "This article describes how to manage attachments of the secrets you have added or that you were granted shared access as Owner in Cerby."
 intercom_id: 8705439
 ---
 
@@ -20,9 +20,9 @@ intercom_id: 8705439
 
 You can perform the following management actions on an attachment for a secret and secret item (WiFi, SSH keys, database, server, and custom item) that was already added to a workspace:
 
-* [Download attachment](manage-the-attachments-of-a-secret-and-secret-item.md#id-download-attachment)
-* [Add attachment](manage-the-attachments-of-a-secret-and-secret-item.md#id-add-attachment)
-* [Remove attachment](manage-the-attachments-of-a-secret-and-secret-item.md#id-remove-attachment)
+* [Download attachment](manage-the-attachments-of-a-secret-and-secret-item.md#download-attachment)
+* [Add attachment](manage-the-attachments-of-a-secret-and-secret-item.md#add-attachment)
+* [Remove attachment](manage-the-attachments-of-a-secret-and-secret-item.md#remove-attachment)
 
 The following sections describe each action.
 
@@ -32,9 +32,9 @@ The following sections describe each action.
 
 You can download an attachment using the following Cerby client apps:
 
-  * [Cerby web app](manage-the-attachments-of-a-secret-and-secret-item.md#id-cerby-web-app)
-  * [Cerby browser extension](manage-the-attachments-of-a-secret-and-secret-item.md#id-cerby-browser-extension)
-  * [Cerby mobile app](manage-the-attachments-of-a-secret-and-secret-item.md#id-cerby-mobile-app)
+  * [Cerby web app](manage-the-attachments-of-a-secret-and-secret-item.md#cerby-web-app)
+  * [Cerby browser extension](manage-the-attachments-of-a-secret-and-secret-item.md#cerby-browser-extension)
+  * [Cerby mobile app](manage-the-attachments-of-a-secret-and-secret-item.md#cerby-mobile-app)
 
 The following sections describe how to download an attachment in each Cerby client app.
 
@@ -63,7 +63,7 @@ To download an attachment using the Cerby browser extension, you must complete t
   **NOTE:** If an identity challenge is configured, the **Confirm your identity to continue** dialog box is displayed. To confirm your identity, use one of [Cerby's multi-factor authentication methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods).
 
   5. Click the corresponding attachment. The secret details page is displayed with the **Settings** tab activated in the Cerby web app.
-  6. Complete steps 2 and 3 of the instructions to download an attachment from the section [Cerby web app](manage-the-attachments-of-a-secret-and-secret-item.md#id-cerby-web-app).
+  6. Complete steps 2 and 3 of the instructions to download an attachment from the section [Cerby web app](manage-the-attachments-of-a-secret-and-secret-item.md#cerby-web-app).
 
 ### Cerby mobile app
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create a new passkey for an account using the Cerby mobile app.
+description: "This article describes how to create a new passkey for an account using the Cerby mobile app."
 intercom_id: 10875236
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the existing roles in Cerby under the RBAC system and how they are managed.
+description: "This article describes the existing roles in Cerby under the RBAC system and how they are managed."
 intercom_id: 8500649
 ---
 
@@ -9,26 +9,26 @@ At Cerby, we have implemented roles to determine the tasks, functions, or activi
 
 These roles comprise sets of permissions that are part of a role-based access control (RBAC) system, designed to maintain data security, streamline access management, enhance collaboration, comply with regulations, and ensure that sensitive information is protected.
 
-The advantage of using role-based access management is that, after logging in to a Cerby workspace, members are automatically granted permissions depending on their role. For more information, read the [Benefits of RBAC](how-cerby-manages-roles.md#id-benefits-of-rbac) section.
+The advantage of using role-based access management is that, after logging in to a Cerby workspace, members are automatically granted permissions depending on their role. For more information, read the [Benefits of RBAC](how-cerby-manages-roles.md#benefits-of-rbac) section.
 
 Cerby manages roles at multiple levels. This article contains the description of each role, which we have categorized as follows:
 
-  * [Workspace-level roles](how-cerby-manages-roles.md#id-workspace-level-roles)
-  * [Item-level roles](how-cerby-manages-roles.md#id-item-level-roles)
-  * [Business hub-level roles](how-cerby-manages-roles.md#id-business-hub-level-roles)
-  * [Team-level roles](how-cerby-manages-roles.md#id-team-level-roles)
-  * [Partnership-level roles](how-cerby-manages-roles.md#id-partnership-level-roles)
+  * [Workspace-level roles](how-cerby-manages-roles.md#workspace-level-roles)
+  * [Item-level roles](how-cerby-manages-roles.md#item-level-roles)
+  * [Business hub-level roles](how-cerby-manages-roles.md#business-hub-level-roles)
+  * [Team-level roles](how-cerby-manages-roles.md#team-level-roles)
+  * [Partnership-level roles](how-cerby-manages-roles.md#partnership-level-roles)
 * * *
 
 ## Workspace-level roles
 
 Workspace-level roles determine the features of the Cerby platform available to the users, their access privileges, and their responsibilities. The actions users can perform within a workspace according to their role can be categorized as follows:
 
-* [Workspace setup](how-cerby-manages-roles.md#id-workspace-setup)
-* [Workspace management](how-cerby-manages-roles.md#id-workspace-management)
-* [User management](how-cerby-manages-roles.md#id-user-management)
-* [Security hygiene tasks](how-cerby-manages-roles.md#id-security-hygiene-tasks)
-* [Item management](how-cerby-manages-roles.md#id-item-management)
+* [Workspace setup](how-cerby-manages-roles.md#workspace-setup)
+* [Workspace management](how-cerby-manages-roles.md#workspace-management)
+* [User management](how-cerby-manages-roles.md#user-management)
+* [Security hygiene tasks](how-cerby-manages-roles.md#security-hygiene-tasks)
+* [Item management](how-cerby-manages-roles.md#item-management)
 
 The following sections describe the actions for each category.
 
@@ -140,7 +140,7 @@ Add an account, secret, or collection to Cerby.|  |  | Yes| Yes| Yes| Yes
 Save accounts at login and signup.|  |  | Yes| Yes| Yes| Yes
 Access the **Business Hubs** page.| Yes| Yes | Yes| Yes| Yes| Yes
 Connect a business hub integration to Cerby.|  |  | Yes| Yes| Yes| Yes
-Share items to which they have the **Owners** role and assign the item role to other users (read the [Item-level roles](how-cerby-manages-roles.md#id-item-level-roles) section).|  |  | Yes| Yes| Yes| Yes
+Share items to which they have the **Owners** role and assign the item role to other users (read the [Item-level roles](how-cerby-manages-roles.md#item-level-roles) section).|  |  | Yes| Yes| Yes| Yes
 Share items to which they have the **Owner** role with any **Guest User** of a local partner.| Yes***|  | Yes| Yes| Yes| Yes
 Receive shared access to items as **Owners** and **Collaborators**.| Yes****| Yes****| Yes| Yes| Yes| Yes
 Turn on **All-Access Mode** to view all accounts within the workspace and recover accounts by reassigning account **Owners**.|  |  |  |  | Yes| Yes
@@ -157,9 +157,9 @@ View all the items shared with all teams.|  |  |  |  | Yes| Yes
 
 Item-level roles determine the actions users can perform on items, and they can be categorized as follows according to the item type:
 
-  * [Accounts](how-cerby-manages-roles.md#id-accounts)
-  * [Secrets](how-cerby-manages-roles.md#id-secrets)
-  * [Collections](how-cerby-manages-roles.md#id-collections)
+  * [Accounts](how-cerby-manages-roles.md#accounts)
+  * [Secrets](how-cerby-manages-roles.md#secrets)
+  * [Collections](how-cerby-manages-roles.md#collections)
   * [Business hubs](how-cerby-manages-roles.md#h_1ce2efa84c)
 
 The following sections describe the actions for each item type.

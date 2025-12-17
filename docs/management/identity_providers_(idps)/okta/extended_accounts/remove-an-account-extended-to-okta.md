@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove an account previously synced and extended to your Okta dashboard.
+description: "This article describes how to remove an account previously synced and extended to your Okta dashboard."
 intercom_id: 9759128
 ---
 

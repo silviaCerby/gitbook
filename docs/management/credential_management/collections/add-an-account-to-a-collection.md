@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add an account to an existing collection.
+description: "This article describes how to add an account to an existing collection."
 intercom_id: 11101961
 ---
 
@@ -21,8 +21,8 @@ As a collection and account **Owner** , you can add one or multiple accounts to 
 
 In Cerby, you can add accounts to collections in the following two ways:
 
-* [Add one account to a collection](add-an-account-to-a-collection.md#id-add-one-account-to-a-collection)
-* [Add multiple accounts to a collection](add-an-account-to-a-collection.md#id-add-multiple-accounts-to-a-collection)
+* [Add one account to a collection](add-an-account-to-a-collection.md#add-one-account-to-a-collection)
+* [Add multiple accounts to a collection](add-an-account-to-a-collection.md#add-multiple-accounts-to-a-collection)
 
 The following sections describe each way.
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Security Hub feature, which offers a unified view of the health and status of the accounts in your workspace.
+description: "This article describes the key benefits of the Security Hub feature, which offers a unified view of the health and status of the accounts in your workspace."
 intercom_id: 10492095
 ---
 
@@ -37,9 +37,9 @@ The **Security Hub** page centralizes the following elements and information:
 
 * The time when the **Security Hub** page was last updated is displayed in the top-right corner.
 * The **Refresh** button enables you to update the view with the latest information.
-* The **[Automation tasks issues](explore-security-hub.md#id-the-automation-tasks-issues-card)** card is the main card on the dashboard. It displays the automation tasks that had issues in the last seven days.
-* The **[Total number of accounts](explore-security-hub.md#id-the-total-number-of-accounts-card)** is displayed on the first card on the right side.
-* The **[Orphaned accounts](explore-security-hub.md#id-the-orphaned-accounts-card)** card indicates the number of accounts in the workspace that do not have an **Owner**.
+* The **[Automation tasks issues](explore-security-hub.md#the-automation-tasks-issues-card)** card is the main card on the dashboard. It displays the automation tasks that had issues in the last seven days.
+* The **[Total number of accounts](explore-security-hub.md#the-total-number-of-accounts-card)** is displayed on the first card on the right side.
+* The **[Orphaned accounts](explore-security-hub.md#the-orphaned-accounts-card)** card indicates the number of accounts in the workspace that do not have an **Owner**.
 
 The following sections describe the main elements of the dashboard.
 

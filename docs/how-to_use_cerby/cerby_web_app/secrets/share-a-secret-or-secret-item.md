@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share a secret or secret item with other workspace members and teams.
+description: "This article describes how to share a secret or secret item with other workspace members and teams."
 intercom_id: 8705424
 ---
 
@@ -20,8 +20,8 @@ intercom_id: 8705424
 
 As a secret or secret item (such as WiFi, SSH keys, database, server, and custom item) **Owner** , you can share your items with other workspace members and teams using the following Cerby client apps:
 
-* [Cerby web app](share-a-secret-or-secret-item.md#id-cerby-web-app)
-* [Cerby mobile app](share-a-secret-or-secret-item.md#id-cerby-mobile-app)
+* [Cerby web app](share-a-secret-or-secret-item.md#cerby-web-app)
+* [Cerby mobile app](share-a-secret-or-secret-item.md#cerby-mobile-app)
 
 The following sections describe the sharing process using each client app.
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to run automated tasks for accounts assigned to local vaults.
+description: "This article describes how to run automated tasks for accounts assigned to local vaults."
 intercom_id: 11682782
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 11682782
 
 As an account Owner with accounts assigned to local vaults, you might have some limitations executing automated tasks, as explained in the article [Explore automation for accounts in local vaults](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-automation-for-accounts-in-local-vaults). Even with these limitations, you can perform the following tasks for accounts assigned to a local vault:
 
-* [Rotate your account password](run-automated-tasks-for-accounts-in-local-vaults.md#id-rotate-your-account-password)
-* [Turn on multi-factor authentication (MFA)](run-automated-tasks-for-accounts-in-local-vaults.md#id-turn-on-multi-factor-authentication-(mfa))
+* [Rotate your account password](run-automated-tasks-for-accounts-in-local-vaults.md#rotate-your-account-password)
+* [Turn on multi-factor authentication (MFA)](run-automated-tasks-for-accounts-in-local-vaults.md#turn-on-multi-factor-authentication-(mfa))
 
 This article describes how to perform these automated tasks.
 

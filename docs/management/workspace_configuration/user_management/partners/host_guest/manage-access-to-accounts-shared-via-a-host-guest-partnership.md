@@ -1,5 +1,5 @@
 ---
-description: This article describes how to manage access to the accounts you shared with a guest workspace via a host-guest partnership.
+description: "This article describes how to manage access to the accounts you shared with a guest workspace via a host-guest partnership."
 intercom_id: 9044271
 ---
 
@@ -19,11 +19,11 @@ intercom_id: 9044271
 
 As a **Partnership Owner** and account **Owners** from a host workspace who shared accounts with a guest workspace via a host-guest partnership, you can perform the following access management tasks:
 
-* [See the accounts shared via a host-guest partnership](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#id-see-the-accounts-shared-via-a-host-guest-partnership)
-* [See the guest workspace members with access to your accounts](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#id-see-the-guest-workspace-members-with-access-to-your-accounts)
-* [Update the role on accounts shared via a host-guest partnership](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#id-update-the-role-on-accounts-shared-via-a-host-guest-partnership)
-* [Remove user access to accounts shared via a host-guest partnership](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#id-remove-user-access-to-accounts-shared-via-a-host-guest-partnership)
-* [Remove accounts shared via a host-guest partnership](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#id-remove-accounts-shared-via-a-host-guest-partnership)
+* [See the accounts shared via a host-guest partnership](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#see-the-accounts-shared-via-a-host-guest-partnership)
+* [See the guest workspace members with access to your accounts](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#see-the-guest-workspace-members-with-access-to-your-accounts)
+* [Update the role on accounts shared via a host-guest partnership](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#update-the-role-on-accounts-shared-via-a-host-guest-partnership)
+* [Remove user access to accounts shared via a host-guest partnership](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#remove-user-access-to-accounts-shared-via-a-host-guest-partnership)
+* [Remove accounts shared via a host-guest partnership](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#remove-accounts-shared-via-a-host-guest-partnership)
 
 The following sections describe each management task.
 
@@ -48,8 +48,8 @@ As a **Partnership Owner** from a host workspace, you can see the accounts you s
 
 As a **Partnership Owner** and account **Owner** from a host workspace, you can see the guest workspace members who have access to the accounts you shared via a host-guest partnership in the following two ways:
 
-  * [From the Partners view](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#id-from-the-partners-view)
-  * [From the account details page](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#id-from-the-account-details-page)
+  * [From the Partners view](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#from-the-partners-view)
+  * [From the account details page](manage-access-to-accounts-shared-via-a-host-guest-partnership.md#from-the-account-details-page)
 
 {% hint style="info" %}
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to edit a secret or secret item using the Cerby mobile app.
+description: "This article describes how to edit a secret or secret item using the Cerby mobile app."
 intercom_id: 11429620
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This video describes the options for logging in to your Cerby workspace leveraging some form of a corporate identity.
+description: "This video describes the options for logging in to your Cerby workspace leveraging some form of a corporate identity."
 intercom_id: 6393769
 ---
 

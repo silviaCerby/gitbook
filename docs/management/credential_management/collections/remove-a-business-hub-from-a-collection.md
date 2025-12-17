@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a business hub from a collection.
+description: "This article describes how to remove a business hub from a collection."
 intercom_id: 12457407
 ---
 

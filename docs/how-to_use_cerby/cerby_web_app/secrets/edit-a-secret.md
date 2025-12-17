@@ -1,5 +1,5 @@
 ---
-description: This article describes how to edit a secret added to Cerby.
+description: "This article describes how to edit a secret added to Cerby."
 intercom_id: 8705406
 ---
 
@@ -21,8 +21,8 @@ intercom_id: 8705406
 
 As a secret **Owner** , you can edit a secret added to your Cerby workspace. The process is different depending on the Cerby client app you use:
 
-* [Cerby web app](edit-a-secret.md#id-cerby-web-app)
-* [Cerby mobile app](edit-a-secret.md#id-cerby-mobile-app)
+* [Cerby web app](edit-a-secret.md#cerby-web-app)
+* [Cerby mobile app](edit-a-secret.md#cerby-mobile-app)
 
 The following sections describe each process.
 

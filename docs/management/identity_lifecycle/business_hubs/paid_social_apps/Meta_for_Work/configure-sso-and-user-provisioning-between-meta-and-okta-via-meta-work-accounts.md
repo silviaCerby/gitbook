@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure single sign-on (SSO) authentication and automatic user provisioning with Okta via Meta Work Accounts
+description: "This article describes how to configure single sign-on (SSO) authentication and automatic user provisioning with Okta via Meta Work Accounts"
 intercom_id: 8958775
 ---
 

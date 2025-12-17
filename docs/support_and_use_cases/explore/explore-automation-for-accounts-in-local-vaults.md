@@ -1,5 +1,5 @@
 ---
-description: This article describes how automation works for your accounts in local vaults while ensuring zero-knowledge principles.
+description: "This article describes how automation works for your accounts in local vaults while ensuring zero-knowledge principles."
 intercom_id: 11682746
 ---
 

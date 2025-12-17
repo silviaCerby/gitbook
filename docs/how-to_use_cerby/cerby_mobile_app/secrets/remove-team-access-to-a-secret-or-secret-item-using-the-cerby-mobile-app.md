@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove team access to a secret or secret item in the Cerby mobile app.
+description: "This article describes how to remove team access to a secret or secret item in the Cerby mobile app."
 intercom_id: 9716265
 ---
 

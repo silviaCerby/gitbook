@@ -1,5 +1,5 @@
 ---
-description: This article describes what members are in Cerby and the actions they can perform in your workspace.
+description: "This article describes what members are in Cerby and the actions they can perform in your workspace."
 intercom_id: 10843720
 ---
 

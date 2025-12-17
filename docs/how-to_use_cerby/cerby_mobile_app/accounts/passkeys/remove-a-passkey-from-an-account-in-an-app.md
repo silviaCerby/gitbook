@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a passkey from an account in an app.
+description: "This article describes how to remove a passkey from an account in an app."
 intercom_id: 10875631
 ---
 

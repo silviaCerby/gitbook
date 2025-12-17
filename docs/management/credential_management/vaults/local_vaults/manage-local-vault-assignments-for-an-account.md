@@ -1,5 +1,5 @@
 ---
-description: This article describes how to manage local vaults within your accounts.
+description: "This article describes how to manage local vaults within your accounts."
 intercom_id: 11682768
 ---
 
@@ -21,8 +21,8 @@ Account**Owners** can manage the vault strategy for their accounts, whether choo
 
 This article contains the steps on how to perform the following actions in locally vaulted accounts:
 
-  * [Assign your account to a local vault](manage-local-vault-assignments-for-an-account.md#id-assign-your-account-to-a-local-vault)
-  * [Remove a local vault from an account](manage-local-vault-assignments-for-an-account.md#id-remove-a-local-vault-assigned-to-an-account)
+  * [Assign your account to a local vault](manage-local-vault-assignments-for-an-account.md#assign-your-account-to-a-local-vault)
+  * [Remove a local vault from an account](manage-local-vault-assignments-for-an-account.md#remove-a-local-vault-assigned-to-an-account)
 * * *
 
 ## Assign your account to a local vault

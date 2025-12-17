@@ -1,5 +1,5 @@
 ---
-description: This article describes how to save in Cerby the backup or recovery codes of your account.
+description: "This article describes how to save in Cerby the backup or recovery codes of your account."
 intercom_id: 12748253
 ---
 

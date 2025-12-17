@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of NGrok from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of NGrok from Cerby."
 intercom_id: 10187229
 ---
 
@@ -177,9 +177,9 @@ The app members are displayed in the following tabs of the **User Overview** sec
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-ngrok.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-ngrok.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-ngrok.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-ngrok.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-ngrok.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-ngrok.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

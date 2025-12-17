@@ -1,5 +1,5 @@
 ---
-description: This article describes how to integrate Cerby with Devolutions to view and manage your accounts using Remote Desktop Manager (RDM) on MacOS.
+description: "This article describes how to integrate Cerby with Devolutions to view and manage your accounts using Remote Desktop Manager (RDM) on MacOS."
 intercom_id: 9768866
 ---
 

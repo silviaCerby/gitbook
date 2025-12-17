@@ -1,5 +1,5 @@
 ---
-description: This article describes how to trigger Cerby’s native Universal Logout.
+description: "This article describes how to trigger Cerby’s native Universal Logout."
 intercom_id: 10496392
 ---
 

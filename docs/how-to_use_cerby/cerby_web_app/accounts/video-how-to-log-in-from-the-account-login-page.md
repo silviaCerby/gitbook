@@ -1,5 +1,5 @@
 ---
-description: This video covers how to login to your already added account from the account's login page.
+description: "This video covers how to login to your already added account from the account's login page."
 intercom_id: 5558187
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share secrets with external users via a public link and manage access to these items.
+description: "This article describes how to share secrets with external users via a public link and manage access to these items."
 intercom_id: 11662089
 ---
 

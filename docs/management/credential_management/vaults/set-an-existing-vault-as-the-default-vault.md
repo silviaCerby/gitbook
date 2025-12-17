@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set an existing vault as the default vault.
+description: "This article describes how to set an existing vault as the default vault."
 intercom_id: 10113677
 ---
 

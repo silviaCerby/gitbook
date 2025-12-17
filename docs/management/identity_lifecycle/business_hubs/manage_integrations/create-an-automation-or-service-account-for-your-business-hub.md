@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create an automation or service account in your app to connect it to your business hub.
+description: "This article describes how to create an automation or service account in your app to connect it to your business hub."
 intercom_id: 9830816
 ---
 
@@ -41,9 +41,9 @@ Cerby recommends having dedicated user accounts not tied to a person or human id
 
 This article describes how to create an automation or service account in your app to connect it to your business hub. The following are the different ways in which you can configure the account, depending on your app’s characteristics, user management strategy, and login method:
 
-* [Placeholder account](create-an-automation-or-service-account-for-your-business-hub.md#id-placeholder-account)
-* [IdP-provisioned account](create-an-automation-or-service-account-for-your-business-hub.md#id-idp-provisioned-account)
-* [Individual account](create-an-automation-or-service-account-for-your-business-hub.md#id-individual-account)
+* [Placeholder account](create-an-automation-or-service-account-for-your-business-hub.md#placeholder-account)
+* [IdP-provisioned account](create-an-automation-or-service-account-for-your-business-hub.md#idp-provisioned-account)
+* [Individual account](create-an-automation-or-service-account-for-your-business-hub.md#individual-account)
 
 {% hint style="info" %}
 

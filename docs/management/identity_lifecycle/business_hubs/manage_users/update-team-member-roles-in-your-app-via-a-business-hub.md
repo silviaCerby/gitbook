@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the role of the team members in your external seat-based and paid social apps via a business hub.
+description: "This article describes how to update the role of the team members in your external seat-based and paid social apps via a business hub."
 intercom_id: 11139474
 ---
 

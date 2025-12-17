@@ -1,5 +1,5 @@
 ---
-description: This video shows how to scout user management workflows for your apps to contribute to the building process and refinement of automations.
+description: "This video shows how to scout user management workflows for your apps to contribute to the building process and refinement of automations."
 intercom_id: 10458604
 ---
 
@@ -16,10 +16,10 @@ For more information about how Scout works and scouting tips, read the article [
     * Update your account's password
     * Turn on multi-factor authentication (MFA)
   * App user management
-    * [Check for updates](video-how-to-scout-user-management-workflows-for-your-apps.md#id-check-for-updates)
-    * [Invite a user to your app](video-how-to-scout-user-management-workflows-for-your-apps.md#id-invite-a-user-to-your-app)
-    * [Remove a user from your app](video-how-to-scout-user-management-workflows-for-your-apps.md#id-remove-a-user-from-your-app)
-    * [Update a user's role in your app](video-how-to-scout-user-management-workflows-for-your-apps.md#id-update-a-users-role-in-your-app)
+    * [Check for updates](video-how-to-scout-user-management-workflows-for-your-apps.md#check-for-updates)
+    * [Invite a user to your app](video-how-to-scout-user-management-workflows-for-your-apps.md#invite-a-user-to-your-app)
+    * [Remove a user from your app](video-how-to-scout-user-management-workflows-for-your-apps.md#remove-a-user-from-your-app)
+    * [Update a user's role in your app](video-how-to-scout-user-management-workflows-for-your-apps.md#update-a-users-role-in-your-app)
 
 This article contains the videos for the app user management workflows.
 

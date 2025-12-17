@@ -1,5 +1,5 @@
 ---
-description: This article describes how to access your accounts from chiclets in your Okta dashboard with Cerby’s automated login
+description: "This article describes how to access your accounts from chiclets in your Okta dashboard with Cerby’s automated login"
 intercom_id: 9758273
 ---
 

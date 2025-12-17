@@ -1,5 +1,5 @@
 ---
-description: This video demonstrates how to use the Cerby extension and Cerby context menu to log in to your account.
+description: "This video demonstrates how to use the Cerby extension and Cerby context menu to log in to your account."
 intercom_id: 5558214
 ---
 

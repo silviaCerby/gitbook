@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a WiFi item to your Cerby workspace using the Cerby mobile app.
+description: "This article describes how to add a WiFi item to your Cerby workspace using the Cerby mobile app."
 intercom_id: 11429496
 ---
 

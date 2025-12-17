@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share access to your accounts with a guest workspace via a host-guest partnership.
+description: "This article describes how to share access to your accounts with a guest workspace via a host-guest partnership."
 intercom_id: 9044036
 ---
 

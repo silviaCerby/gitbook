@@ -1,5 +1,5 @@
 ---
-description: This article describes how to delete an account from Cerby.
+description: "This article describes how to delete an account from Cerby."
 intercom_id: 11826665
 ---
 

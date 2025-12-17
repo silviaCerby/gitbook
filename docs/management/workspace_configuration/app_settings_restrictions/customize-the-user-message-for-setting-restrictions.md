@@ -1,5 +1,5 @@
 ---
-description: This article describes how to customize the user message displayed when an app’s password or user settings restrictions are applied.
+description: "This article describes how to customize the user message displayed when an app’s password or user settings restrictions are applied."
 intercom_id: 10276389
 ---
 

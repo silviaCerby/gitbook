@@ -1,5 +1,5 @@
 ---
-description: This article describes how to delete a subcollection from a parent collection, removing inherited access from top-level collections.
+description: "This article describes how to delete a subcollection from a parent collection, removing inherited access from top-level collections."
 intercom_id: 8982989
 ---
 

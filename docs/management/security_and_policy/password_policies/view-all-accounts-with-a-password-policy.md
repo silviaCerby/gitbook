@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view all the accounts belonging to a specific managed app affected by a password policy.
+description: "This article describes how to view all the accounts belonging to a specific managed app affected by a password policy."
 intercom_id: 11466954
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a TikTok for Business partner to gain visibility on the users with shared access to your assets.
+description: "This article describes how to connect a TikTok for Business partner to gain visibility on the users with shared access to your assets."
 intercom_id: 9082765
 ---
 

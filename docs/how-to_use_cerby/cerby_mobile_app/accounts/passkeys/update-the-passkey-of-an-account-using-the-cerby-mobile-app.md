@@ -1,5 +1,5 @@
 ---
-description: This article describes how to update the passkey of an account using the Cerby mobile app.
+description: "This article describes how to update the passkey of an account using the Cerby mobile app."
 intercom_id: 10875518
 ---
 

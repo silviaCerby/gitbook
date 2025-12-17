@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share accounts and secrets with external users via a public link, and manage access to these items.
+description: "This article describes how to share accounts and secrets with external users via a public link, and manage access to these items."
 intercom_id: 8308908
 ---
 
@@ -21,7 +21,7 @@ This article describes how to share items with external users via a public link.
 {% hint style="danger" %}
 
 
-**IMPORTANT:** Before using this feature, make sure you read the [Security considerations](share-items-with-external-users-via-a-link.md#id-security-considerations) section because it describes how this feature works, the security considerations, and usage recommendations.
+**IMPORTANT:** Before using this feature, make sure you read the [Security considerations](share-items-with-external-users-via-a-link.md#security-considerations) section because it describes how this feature works, the security considerations, and usage recommendations.
 
 
 {% endhint %}

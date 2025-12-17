@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add users and teams to your external seat-based and paid social apps via a business hub.
+description: "This article describes how to add users and teams to your external seat-based and paid social apps via a business hub."
 intercom_id: 9045790
 ---
 

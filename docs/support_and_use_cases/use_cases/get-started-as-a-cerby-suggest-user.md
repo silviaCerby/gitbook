@@ -1,5 +1,5 @@
 ---
-description: This article described the key initial steps you can perform as a Cerby Suggest user.
+description: "This article described the key initial steps you can perform as a Cerby Suggest user."
 intercom_id: 8843620
 ---
 
@@ -11,11 +11,11 @@ If you are reading this guide, it means you have started using Cerby Suggest or 
 
 The following are the actions you can perform to get started with Cerby Suggest:
 
-* [Log in to a workspace](get-started-as-a-cerby-suggest-user.md#id-log-in-to-a-workspace)
-* [Install the Cerby browser extension](get-started-as-a-cerby-suggest-user.md#id-install-the-cerby-browser-extension)
-* [Add items to Cerby](get-started-as-a-cerby-suggest-user.md#id-add-items-to-cerby)
-* [Protect your accounts](get-started-as-a-cerby-suggest-user.md#id-protect-your-accounts)
-* [Share your items](get-started-as-a-cerby-suggest-user.md#id-share-your-items)
+* [Log in to a workspace](get-started-as-a-cerby-suggest-user.md#log-in-to-a-workspace)
+* [Install the Cerby browser extension](get-started-as-a-cerby-suggest-user.md#install-the-cerby-browser-extension)
+* [Add items to Cerby](get-started-as-a-cerby-suggest-user.md#add-items-to-cerby)
+* [Protect your accounts](get-started-as-a-cerby-suggest-user.md#protect-your-accounts)
+* [Share your items](get-started-as-a-cerby-suggest-user.md#share-your-items)
 
 The following sections describe each action.
 
@@ -70,8 +70,8 @@ To install it manually, navigate to the website according to your web browser an
 
 After you have accessed the Cerby platform, you can start adding items. You can add items in Cerby in the following ways:
 
-  * [Manually](get-started-as-a-cerby-suggest-user.md#id-manually)
-  * [At login](get-started-as-a-cerby-suggest-user.md#id-at-login)
+  * [Manually](get-started-as-a-cerby-suggest-user.md#manually)
+  * [At login](get-started-as-a-cerby-suggest-user.md#at-login)
 
 The following sections describe each option.
 
@@ -79,8 +79,8 @@ The following sections describe each option.
 
 The process of adding items to Cerby manually is different depending on the item type:
 
-  * [Accounts](get-started-as-a-cerby-suggest-user.md#id-accounts)
-  * [Collections](get-started-as-a-cerby-suggest-user.md#id-collections)
+  * [Accounts](get-started-as-a-cerby-suggest-user.md#accounts)
+  * [Collections](get-started-as-a-cerby-suggest-user.md#collections)
 
 The following sections describe the instructions for each item type.
 
@@ -108,8 +108,8 @@ To save your credentials at login, follow the instructions in the article [How t
 
 With Cerby Suggest, you can take the following actions to enhance the security of your accounts:
 
-  * [Turn on MFA for your accounts](get-started-as-a-cerby-suggest-user.md#id-turn-on-mfa-for-your-accounts)
-  * [Generate secure passwords](get-started-as-a-cerby-suggest-user.md#id-generate-secure-passwords)
+  * [Turn on MFA for your accounts](get-started-as-a-cerby-suggest-user.md#turn-on-mfa-for-your-accounts)
+  * [Generate secure passwords](get-started-as-a-cerby-suggest-user.md#generate-secure-passwords)
 
 The following sections describe each action.
 
@@ -135,8 +135,8 @@ To generate a password, follow the instructions in the article [How to generate 
 
 With your items added to Cerby, you can start sharing them. Currently, you have two options to do so:
 
-  * [Internally with other workspace users](get-started-as-a-cerby-suggest-user.md#id-internally-with-other-workspace-users)
-  * [Externally via a public link](get-started-as-a-cerby-suggest-user.md#id-externally-via-a-public-link)
+  * [Internally with other workspace users](get-started-as-a-cerby-suggest-user.md#internally-with-other-workspace-users)
+  * [Externally via a public link](get-started-as-a-cerby-suggest-user.md#externally-via-a-public-link)
 
 The following sections describe each option.
 
@@ -149,8 +149,8 @@ With Cerby Suggest, you can share your items internally with users and teams wit
 
 The process of sharing items is different depending on the item type:
 
-  * [Accounts](get-started-as-a-cerby-suggest-user.md#id-accounts)
-  * [Collections](get-started-as-a-cerby-suggest-user.md#id-collections)
+  * [Accounts](get-started-as-a-cerby-suggest-user.md#accounts)
+  * [Collections](get-started-as-a-cerby-suggest-user.md#collections)
 
 The following sections describe the instructions for each item type.
 

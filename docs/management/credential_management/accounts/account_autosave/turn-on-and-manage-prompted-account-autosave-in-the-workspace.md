@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on and manage the Prompted autosave setting at the workspace level, applicable to all workspace users.
+description: "This article describes how to turn on and manage the Prompted autosave setting at the workspace level, applicable to all workspace users."
 intercom_id: 9500502
 ---
 
@@ -22,10 +22,10 @@ With the **Prompted autosave** setting, Cerby detects login and signup attempts 
 
 The following are the prompted account autosave settings you can manage:
 
-* [Turn on Prompted autosave in the workspace](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-turn-on-prompted-autosave-in-the-workspace)
-* [Manage the domains for Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-manage-the-domains-for-prompted-autosave)
-* [Add a domain to Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-add-a-domain-for-prompted-autosave)
-* [Remove domains from Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-remove-domains-from-prompted-autosave)
+* [Turn on Prompted autosave in the workspace](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#turn-on-prompted-autosave-in-the-workspace)
+* [Manage the domains for Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#manage-the-domains-for-prompted-autosave)
+* [Add a domain to Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#add-a-domain-for-prompted-autosave)
+* [Remove domains from Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#remove-domains-from-prompted-autosave)
 
 {% hint style="danger" %}
 
@@ -53,7 +53,7 @@ To turn on the **Prompted autosave** setting in the workspace, you must complete
        * Autosave accounts only for allowed domains
        * Exclude domains from account autosave
 
-For more information, read the [Manage the domains for Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-manage-the-domains-for-prompted-autosave) section.
+For more information, read the [Manage the domains for Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#manage-the-domains-for-prompted-autosave) section.
 
      * Depending on the option selected in the **Select your domain preferences for the prompted account autosave** drop-down menu, a field is displayed to search or enter the name of the apps to add to a list of allowed or excluded domains.
      * Depending on whether you have added allowed or excluded domains, these domains are listed below.
@@ -72,12 +72,12 @@ The following are the available options for managing this setting:
     * The Cerby browser extension will display the **Add a new account to Cerby** dialog box for all domains where any workspace user enters their login or signup credentials.
   * **Autosave accounts only for allowed domains**
     * The Cerby browser extension will display the **Add a new account to Cerby** dialog box only for the domains added to the list of allowed domains. To configure this list, read the following sections:
-      * [Add a domain to Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-add-a-domain-for-prompted-autosave)
-      * [Remove domains from Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-remove-domains-from-prompted-autosave)
+      * [Add a domain to Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#add-a-domain-for-prompted-autosave)
+      * [Remove domains from Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#remove-domains-from-prompted-autosave)
   * **Exclude domains from account autosave**
     * The Cerby browser extension will not display the **Add a new account to Cerby** dialog box for the domains added to the list of excluded domains. To configure this list, read the following sections:
-      * [Add a domain to Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-add-a-domain-for-prompted-autosave)
-      * [Remove domains from Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#id-remove-domains-from-prompted-autosave)
+      * [Add a domain to Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#add-a-domain-for-prompted-autosave)
+      * [Remove domains from Prompted autosave](turn-on-and-manage-prompted-account-autosave-in-the-workspace.md#remove-domains-from-prompted-autosave)
 
       **IMPORTANT:** If an app in the list of allowed or excluded domains is also included in the **Enforced autosave** setting, the **Enforced autosave** chip appears next to it. In this case, enforced autosave takes priority over prompted autosave, and the account is saved automatically when a user logs in or signs up for an account in that domain.
 ---

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log in to an account shared with guest members via a local partner.
+description: "This article describes how to log in to an account shared with guest members via a local partner."
 intercom_id: 9039225
 ---
 

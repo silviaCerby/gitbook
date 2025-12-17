@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure OneLogin to enable SSO with Cerby using a custom SAML application.
+description: "This article describes how to configure OneLogin to enable SSO with Cerby using a custom SAML application."
 intercom_id: 11814820
 ---
 
@@ -131,12 +131,12 @@ To configure OneLogin to provide SSO for Cerby using SAML, complete the followin
 
 **Figure 8. New Field** dialog box in OneLogin
 
-     2. Copy and paste the URI from **[Table 1](configure-sso-between-cerby-and-onelogin-with-saml.md#id-table-1.-user-identity-saml-attributes)** into the **Field name** field. For example, **`http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name`**
+     2. Copy and paste the URI from **[Table 1](configure-sso-between-cerby-and-onelogin-with-saml.md#table-1.-user-identity-saml-attributes)** into the **Field name** field. For example, **`http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name`**
      3. Select the**Include in SAML assertion** option.
      4. Click the **Save** button. The **Value** field is displayed.
-     5. Copy and paste the attribute from **[Table 1](configure-sso-between-cerby-and-onelogin-with-saml.md#id-table-1.-user-identity-saml-attributes)** into the **Value** field, then select the matching option that appears in the drop-down list.
+     5. Copy and paste the attribute from **[Table 1](configure-sso-between-cerby-and-onelogin-with-saml.md#table-1.-user-identity-saml-attributes)** into the **Value** field, then select the matching option that appears in the drop-down list.
      6. Click the **Save** button. The dialog box closes.
-     7. Repeat steps **a** to **f** for each attribute listed in **[Table 1](configure-sso-between-cerby-and-onelogin-with-saml.md#id-table-1.-user-identity-saml-attributes).**
+     7. Repeat steps **a** to **f** for each attribute listed in **[Table 1](configure-sso-between-cerby-and-onelogin-with-saml.md#table-1.-user-identity-saml-attributes).**
   7. Update the attribute assigned to the **scimusername** field by completing the following steps:
      1. Click the **scimusername** field. The **Edit Field scimusername** dialog box is displayed, as shown in **Figure 9**.
 

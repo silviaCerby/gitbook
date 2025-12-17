@@ -1,5 +1,5 @@
 ---
-description: This video covers how to delete an account from your Cerby workspace and how you can view its details after deletion.
+description: "This video covers how to delete an account from your Cerby workspace and how you can view its details after deletion."
 intercom_id: 5605278
 ---
 

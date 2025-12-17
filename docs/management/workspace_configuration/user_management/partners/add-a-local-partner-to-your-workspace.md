@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a local partner to your Cerby workspace.
+description: "This article describes how to add a local partner to your Cerby workspace."
 intercom_id: 9039109
 ---
 

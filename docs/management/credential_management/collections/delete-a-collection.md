@@ -1,5 +1,5 @@
 ---
-description: This article describes how to delete a collection in your workspace.
+description: "This article describes how to delete a collection in your workspace."
 intercom_id: 8981974
 ---
 

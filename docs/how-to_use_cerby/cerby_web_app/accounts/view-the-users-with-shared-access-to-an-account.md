@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the users with shared access to an account you own.
+description: "This article describes how to view the users with shared access to an account you own."
 intercom_id: 11565760
 ---
 
@@ -19,8 +19,8 @@ intercom_id: 11565760
 
 As an account **Owner** , you can view the workspace users with shared access to your accounts. The following are the actions you can perform when viewing other users’ access:
 
-* [View the users with shared access to an account](view-the-users-with-shared-access-to-an-account.md#id-view-the-users-with-shared-access-to-an-account)
-* [View the details of a user with shared access to an account](view-the-users-with-shared-access-to-an-account.md#id-view-the-details-of-a-user-with-shared-access-to-an-account)
+* [View the users with shared access to an account](view-the-users-with-shared-access-to-an-account.md#view-the-users-with-shared-access-to-an-account)
+* [View the details of a user with shared access to an account](view-the-users-with-shared-access-to-an-account.md#view-the-details-of-a-user-with-shared-access-to-an-account)
 
 The following sections describe each action.
 

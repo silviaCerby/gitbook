@@ -1,5 +1,5 @@
 ---
-description: This video shows how to share an account via a public link and how the external collaborator opens it to access the account details.
+description: "This video shows how to share an account via a public link and how the external collaborator opens it to access the account details."
 intercom_id: 8384430
 ---
 

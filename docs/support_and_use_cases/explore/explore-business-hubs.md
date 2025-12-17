@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Business Hubs to manage the users and assets of your external seat-based and paid social apps.
+description: "This article describes the key benefits of the Business Hubs to manage the users and assets of your external seat-based and paid social apps."
 intercom_id: 6831152
 ---
 
@@ -56,10 +56,10 @@ The general flow for a business hub integration is the following:
 
 The main functionalities of a business hub integration are the following:
 
-  * [User and access management tasks](explore-business-hubs.md#id-user-and-access-management-tasks)
-  * [Extended user and access management from your IdP](explore-business-hubs.md#id-extended-user-and-access-management-from-your-idp)
-  * [Business hub integration management in Cerby](explore-business-hubs.md#id-business-hub-integration-management-in-cerby)
-  * [Connected account management and login methods](explore-business-hubs.md#id-connected-account-management-and-login-methods)
+  * [User and access management tasks](explore-business-hubs.md#user-and-access-management-tasks)
+  * [Extended user and access management from your IdP](explore-business-hubs.md#extended-user-and-access-management-from-your-idp)
+  * [Business hub integration management in Cerby](explore-business-hubs.md#business-hub-integration-management-in-cerby)
+  * [Connected account management and login methods](explore-business-hubs.md#connected-account-management-and-login-methods)
 
 The following sections describe each functionality.
 

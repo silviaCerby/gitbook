@@ -1,5 +1,5 @@
 ---
-description: This article describes how to edit the settings restrictions for an app.
+description: "This article describes how to edit the settings restrictions for an app."
 intercom_id: 10276378
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to disable a vault.
+description: "This article describes how to disable a vault."
 intercom_id: 10113683
 ---
 

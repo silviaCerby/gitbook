@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users of Explorium from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users of Explorium from Cerby."
 intercom_id: 10315295
 ---
 
@@ -55,7 +55,7 @@ The following are the requirements to connect a business hub:
 
 To connect a business hub for Explorium, you must complete the following main steps from the Cerby web app dashboard:
 
-  1. [Add a business hub and connect it to Explorium](unpublished-connect-a-business-hub-for-explorium.md#id-1-.-add-a-business-hub-and-connect-it-to-explorium)
+  1. [Add a business hub and connect it to Explorium](unpublished-connect-a-business-hub-for-explorium.md#1-.-add-a-business-hub-and-connect-it-to-explorium)
   2. [Check for updates to import users and roles to Cerby](unpublished-connect-a-business-hub-for-explorium.md#id-2.-check-for-updates-to-import-users-and-roles-to-cerby)
   3. [Connect your Explorium user account to the business hub](unpublished-connect-a-business-hub-for-explorium.md#id-3.-connect-your-explorium-user-account-to-the-business-hub)
   4. [Manage unmatched users](unpublished-connect-a-business-hub-for-explorium.md#id-4.-manage-unmatched-users)
@@ -84,7 +84,7 @@ To add a business hub and connect it to Explorium, you must complete the followi
        * **Username and password:** Cerby manages account security and access, and users log in with their credentials after saving them in Cerby.
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Explorium accounts.
-  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](unpublished-connect-a-business-hub-for-explorium.md#id-requirements) section.
+  8. Select the automation account you have previously added to Cerby, as described in the [Requirements](unpublished-connect-a-business-hub-for-explorium.md#requirements) section.
 ​**NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
@@ -144,9 +144,9 @@ App members are displayed in the following tabs of the **User Overview** section
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](unpublished-connect-a-business-hub-for-explorium.md#id-match-users)
-  * [Remove unmatched users](unpublished-connect-a-business-hub-for-explorium.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](unpublished-connect-a-business-hub-for-explorium.md#id-exempt-unmatched-users)
+  * [Match users](unpublished-connect-a-business-hub-for-explorium.md#match-users)
+  * [Remove unmatched users](unpublished-connect-a-business-hub-for-explorium.md#remove-unmatched-users)
+  * [Exempt unmatched users](unpublished-connect-a-business-hub-for-explorium.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

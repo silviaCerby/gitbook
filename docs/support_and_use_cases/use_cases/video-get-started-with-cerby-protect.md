@@ -1,5 +1,5 @@
 ---
-description: This video shows you the main features that you can start using as a Cerby Protect user.
+description: "This video shows you the main features that you can start using as a Cerby Protect user."
 intercom_id: 8325375
 ---
 

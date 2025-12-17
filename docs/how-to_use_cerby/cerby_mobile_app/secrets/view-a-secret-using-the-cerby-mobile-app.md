@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the secrets you have added or that you were granted shared access to in the Cerby mobile app.
+description: "This article describes how to view the secrets you have added or that you were granted shared access to in the Cerby mobile app."
 intercom_id: 9715512
 ---
 

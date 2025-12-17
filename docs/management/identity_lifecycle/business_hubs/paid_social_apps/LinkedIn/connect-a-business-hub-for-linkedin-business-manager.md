@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a business hub to centrally manage the users and assets of LinkedIn Business Manager from Cerby.
+description: "This article describes how to connect a business hub to centrally manage the users and assets of LinkedIn Business Manager from Cerby."
 intercom_id: 9816555
 ---
 
@@ -89,7 +89,7 @@ To add a business hub and connect it to LinkedIn Business Manager, you must comp
   6. Enter and select your app information in the corresponding fields:
 
      * **Label in Cerby:** It is the name you want to assign to your business hub in Cerby, and it will be displayed on the business hub card.
-     * **Business ID:** It is the unique identifier of LinkedIn Business Manager. Read the [Requirements](connect-a-business-hub-for-linkedin-business-manager.md#id-requirements) section to learn how to get it.
+     * **Business ID:** It is the unique identifier of LinkedIn Business Manager. Read the [Requirements](connect-a-business-hub-for-linkedin-business-manager.md#requirements) section to learn how to get it.
      * **User management and login method:** It is the way your users log in to the app and determines if they must save their credentials in Cerby. You must select one of the following methods:
        * **Single sign-on (SSO):** Access is managed by your identity provider, and users log in with SSO authentication. They are not asked to save their credentials in Cerby.
        * **Username and password:** Ceby manages the account security and access, and users log in with their credentials after saving them in Cerby.
@@ -177,9 +177,9 @@ The app members are displayed in the following tabs of the **User Overview** sec
 
 For unmatched users, you can perform one of the following actions:
 
-  * [Match users](connect-a-business-hub-for-linkedin-business-manager.md#id-match-users)
-  * [Remove unmatched users](connect-a-business-hub-for-linkedin-business-manager.md#id-remove-unmatched-users)
-  * [Exempt unmatched users](connect-a-business-hub-for-linkedin-business-manager.md#id-exempt-unmatched-users)
+  * [Match users](connect-a-business-hub-for-linkedin-business-manager.md#match-users)
+  * [Remove unmatched users](connect-a-business-hub-for-linkedin-business-manager.md#remove-unmatched-users)
+  * [Exempt unmatched users](connect-a-business-hub-for-linkedin-business-manager.md#exempt-unmatched-users)
 
 The following sections describe each action.
 

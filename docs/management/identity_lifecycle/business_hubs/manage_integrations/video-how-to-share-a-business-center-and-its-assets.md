@@ -1,5 +1,5 @@
 ---
-description: This article shows how to share a Business Center with other Cerby users using a Facebook Business Manager account and its assets.
+description: "This article shows how to share a Business Center with other Cerby users using a Facebook Business Manager account and its assets."
 intercom_id: 5618984
 ---
 

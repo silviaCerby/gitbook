@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log out from the Scout browser extension.
+description: "This article describes how to log out from the Scout browser extension."
 intercom_id: 10046948
 ---
 

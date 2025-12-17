@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add an account to Cerby by autosaving it and setting Google SSO as the login method.
+description: "This article describes how to add an account to Cerby by autosaving it and setting Google SSO as the login method."
 intercom_id: 11381618
 ---
 

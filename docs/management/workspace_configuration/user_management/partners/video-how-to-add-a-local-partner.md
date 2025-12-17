@@ -1,5 +1,5 @@
 ---
-description: This video shows how to add a local partner to your workspace for collaboration with external parties.
+description: "This video shows how to add a local partner to your workspace for collaboration with external parties."
 intercom_id: 11511591
 ---
 

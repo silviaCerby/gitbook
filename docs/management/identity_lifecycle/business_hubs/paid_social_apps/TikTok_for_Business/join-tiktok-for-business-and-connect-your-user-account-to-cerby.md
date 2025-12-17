@@ -1,5 +1,5 @@
 ---
-description: This article describes how to join TikTok for Business from an invite sent by Cerby, and connect your user account.
+description: "This article describes how to join TikTok for Business from an invite sent by Cerby, and connect your user account."
 intercom_id: 9082605
 ---
 

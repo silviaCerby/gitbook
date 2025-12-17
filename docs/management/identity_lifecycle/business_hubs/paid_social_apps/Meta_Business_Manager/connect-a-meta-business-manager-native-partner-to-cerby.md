@@ -1,5 +1,5 @@
 ---
-description: This article describes how to connect a Meta Business Manager native partner to gain visibility on the users with access to your assets.
+description: "This article describes how to connect a Meta Business Manager native partner to gain visibility on the users with access to your assets."
 intercom_id: 8986246
 ---
 

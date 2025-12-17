@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove users of your seat-based and paid social apps via a business hub.
+description: "This article describes how to remove users of your seat-based and paid social apps via a business hub."
 intercom_id: 9046186
 ---
 

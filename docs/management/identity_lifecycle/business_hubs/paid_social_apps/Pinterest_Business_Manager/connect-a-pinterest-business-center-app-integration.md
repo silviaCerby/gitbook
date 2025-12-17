@@ -1,5 +1,5 @@
 ---
-description: This article describes how to add a Pinterest Business Center app integration to centrally manage access to it and its assets from Cerby.
+description: "This article describes how to add a Pinterest Business Center app integration to centrally manage access to it and its assets from Cerby."
 intercom_id: 6119728
 ---
 
@@ -144,9 +144,9 @@ The next step is [4. Manage unmatched users](connect-a-pinterest-business-center
 
 After a check for updates, Cerby automatically matches users to their corresponding Cerby accounts. Users who couldn’t be identified during the check or who are not in the corporate directory are categorized as unmatched. For these users, you can perform one of the following three actions:
 
-* [Match and invite users](connect-a-pinterest-business-center-app-integration.md#id-match-and-invite-users)
-* [Remove unmatched users](connect-a-pinterest-business-center-app-integration.md#id-remove-unmatched-users)
-* [Exempt unmatched users](connect-a-pinterest-business-center-app-integration.md#id-exempt-unmatched-users)
+* [Match and invite users](connect-a-pinterest-business-center-app-integration.md#match-and-invite-users)
+* [Remove unmatched users](connect-a-pinterest-business-center-app-integration.md#remove-unmatched-users)
+* [Exempt unmatched users](connect-a-pinterest-business-center-app-integration.md#exempt-unmatched-users)
 
 All of these actions are performed from the **Unmatched users** tab of the **User Overview** section inside the app details page, as shown in **Figure 1**.
 

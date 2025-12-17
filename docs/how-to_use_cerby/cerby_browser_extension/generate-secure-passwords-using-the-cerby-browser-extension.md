@@ -1,5 +1,5 @@
 ---
-description: This article describes how to generate strong and secure passwords using the Password Generator feature in the Cerby browser extension.
+description: "This article describes how to generate strong and secure passwords using the Password Generator feature in the Cerby browser extension."
 intercom_id: 8377075
 ---
 

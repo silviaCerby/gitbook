@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a secret from a collection.
+description: "This article describes how to remove a secret from a collection."
 intercom_id: 11102087
 ---
 

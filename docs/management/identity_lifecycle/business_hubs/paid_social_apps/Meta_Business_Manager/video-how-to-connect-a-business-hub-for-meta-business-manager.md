@@ -1,5 +1,5 @@
 ---
-description: This video shows how to connect a business hub for your Meta Business Manager to centrally manage users and assets from Cerby.
+description: "This video shows how to connect a business hub for your Meta Business Manager to centrally manage users and assets from Cerby."
 intercom_id: 8965909
 ---
 

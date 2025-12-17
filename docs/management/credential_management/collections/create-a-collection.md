@@ -1,5 +1,5 @@
 ---
-description: This article describes how to create a collection of items, such as accounts, secrets, business hubs, assets, and subcollections.
+description: "This article describes how to create a collection of items, such as accounts, secrets, business hubs, assets, and subcollections."
 intercom_id: 8981896
 ---
 
@@ -32,8 +32,8 @@ With this action, you become the collection **Owner** , and when you share the c
 
 In Cerby, you can create a collection in the following two ways:
 
-* [Create a collection manually](create-a-collection.md#id-create-a-collection-manually)
-* [Import collections from your password manager](create-a-collection.md#id-import-collections-from-your-password-manager)
+* [Create a collection manually](create-a-collection.md#create-a-collection-manually)
+* [Import collections from your password manager](create-a-collection.md#import-collections-from-your-password-manager)
 
 The following sections describe each way.
 

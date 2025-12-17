@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log in to an account using the Cerby mobile app.
+description: "This article describes how to log in to an account using the Cerby mobile app."
 intercom_id: 11139221
 ---
 
@@ -39,9 +39,9 @@ The following are the requirements to effectively use the Cerby mobile app to lo
 
 When you log in to an account using the Cerby mobile app, you might encounter the following cases depending on how your app is configured:
 
-  * [Log in to an account with a username and password only](log-in-to-an-account-using-the-cerby-mobile-app.md#id-log-in-to-an-account-with-a-username-and-password-only)
-  * [Log in to an account with Cerby-managed MFA](log-in-to-an-account-using-the-cerby-mobile-app.md#id-log-in-to-an-account-with-cerby-managed-mfa)
-  * [Log in to an account without using autofill](log-in-to-an-account-using-the-cerby-mobile-app.md#id-log-in-to-an-account-without-using-autofill)
+  * [Log in to an account with a username and password only](log-in-to-an-account-using-the-cerby-mobile-app.md#log-in-to-an-account-with-a-username-and-password-only)
+  * [Log in to an account with Cerby-managed MFA](log-in-to-an-account-using-the-cerby-mobile-app.md#log-in-to-an-account-with-cerby-managed-mfa)
+  * [Log in to an account without using autofill](log-in-to-an-account-using-the-cerby-mobile-app.md#log-in-to-an-account-without-using-autofill)
 
 The following sections explain how to log in to your accounts for each case.
 
@@ -61,7 +61,7 @@ To log in to an account that doesn't use MFA and only requires filling in the us
 
      * If the login credentials saved in Cerby are not displayed:
        * Review whether the **Allow Autofill** feature is correctly configured for the Cerby mobile on your phone.
-       * Follow the steps in the [Log in to an account without using autofill](log-in-to-an-account-using-the-cerby-mobile-app.md#id-log-in-to-an-account-without-using-autofill) section.
+       * Follow the steps in the [Log in to an account without using autofill](log-in-to-an-account-using-the-cerby-mobile-app.md#log-in-to-an-account-without-using-autofill) section.
 
   4. Repeat step 3 for the **Password** field.
   5. Tap the **Log in** button.
@@ -84,7 +84,7 @@ To log in to an account that requires filling in your username, password, and a 
 
      * If the login credentials saved in Cerby are not displayed:
        * Review whether the **Allow Autofill** feature is correctly configured for the Cerby mobile app on your phone.
-       * Follow the steps in the [Log in to an account without using autofill](log-in-to-an-account-using-the-cerby-mobile-app.md#id-log-in-to-an-account-without-using-autofill) section.
+       * Follow the steps in the [Log in to an account without using autofill](log-in-to-an-account-using-the-cerby-mobile-app.md#log-in-to-an-account-without-using-autofill) section.
 
        **IMPORTANT:** If you have more than one account saved for the app, the screen with all available accounts is displayed.
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the key benefits of the Password Manager Importer feature to safely migrate your items from your EPM to Cerby.
+description: "This article describes the key benefits of the Password Manager Importer feature to safely migrate your items from your EPM to Cerby."
 intercom_id: 7217206
 ---
 

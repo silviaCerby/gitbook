@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up and associate a Cerby-managed phone number for your account.
+description: "This article describes how to set up and associate a Cerby-managed phone number for your account."
 intercom_id: 11889035
 ---
 

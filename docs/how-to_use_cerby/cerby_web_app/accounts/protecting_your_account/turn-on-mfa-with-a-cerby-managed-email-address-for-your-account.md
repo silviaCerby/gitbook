@@ -1,5 +1,5 @@
 ---
-description: This article describes how to turn on multi-factor authentication (MFA) with a Cerby-managed email address for your account.
+description: "This article describes how to turn on multi-factor authentication (MFA) with a Cerby-managed email address for your account."
 intercom_id: 11888742
 ---
 

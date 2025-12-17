@@ -1,5 +1,5 @@
 ---
-description: This video shows how to install the Cerby browser extension and obtain key information to list it across your company.
+description: "This video shows how to install the Cerby browser extension and obtain key information to list it across your company."
 intercom_id: 5620156
 ---
 

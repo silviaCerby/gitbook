@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove an asset from a collection.
+description: "This article describes how to remove an asset from a collection."
 intercom_id: 12457450
 ---
 

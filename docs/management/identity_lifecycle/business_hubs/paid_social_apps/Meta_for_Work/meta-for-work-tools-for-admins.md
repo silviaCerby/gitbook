@@ -1,5 +1,5 @@
 ---
-description: This article describes the tools and the basic management actions that admins can perform in the Meta Business Manager.
+description: "This article describes the tools and the basic management actions that admins can perform in the Meta Business Manager."
 intercom_id: 8958797
 ---
 
@@ -11,11 +11,11 @@ With [Meta Work Accounts](https://developers.facebook.com/docs/work-accounts/), 
 
 This article describes how you can best use Meta Work Accounts and Meta Business Manager to perform the following management actions:
 
-* [Manage the Meta for Work interfaces](meta-for-work-tools-for-admins.md#id-manage-the-meta-for-work-interfaces)
-* [Invite external users to your Meta Business Manager](meta-for-work-tools-for-admins.md#id-invite-external-users-to-your-meta-business-manager)
-* [Configure Meta Work Accounts for SSO and automatic user provisioning with Okta](meta-for-work-tools-for-admins.md#id-configure-meta-work-accounts-for-sso-and-automatic-user-provisioning-with-okta)
-* [Deprovision users](meta-for-work-tools-for-admins.md#id-deprovision-users)
-* [Troubleshooting and support](meta-for-work-tools-for-admins.md#id-troubleshooting-facebook-refused-to-connect-error-when-activating-your-work-account)
+* [Manage the Meta for Work interfaces](meta-for-work-tools-for-admins.md#manage-the-meta-for-work-interfaces)
+* [Invite external users to your Meta Business Manager](meta-for-work-tools-for-admins.md#invite-external-users-to-your-meta-business-manager)
+* [Configure Meta Work Accounts for SSO and automatic user provisioning with Okta](meta-for-work-tools-for-admins.md#configure-meta-work-accounts-for-sso-and-automatic-user-provisioning-with-okta)
+* [Deprovision users](meta-for-work-tools-for-admins.md#deprovision-users)
+* [Troubleshooting and support](meta-for-work-tools-for-admins.md#troubleshooting-facebook-refused-to-connect-error-when-activating-your-work-account)
 
 {% hint style="danger" %}
 
@@ -35,9 +35,9 @@ The following sections describe each management action.
 
 Admins of Meta Work Accounts can manage the following three main components of the Meta for Work interfaces:
 
-  * [Admin Center](meta-for-work-tools-for-admins.md#id-admin-center)
-  * [Business Manager](meta-for-work-tools-for-admins.md#id-business-manager)
-  * [Migration Center](meta-for-work-tools-for-admins.md#id-migration-center)
+  * [Admin Center](meta-for-work-tools-for-admins.md#admin-center)
+  * [Business Manager](meta-for-work-tools-for-admins.md#business-manager)
+  * [Migration Center](meta-for-work-tools-for-admins.md#migration-center)
 
 The following sections describe each component.
 
@@ -127,8 +127,8 @@ For instructions on how to perform the configuration, read the [Configure SSO an
 
 When you deprovision a user from the IdP, either by entirely removing them or unassigning the app, the status of the deprovisioned user is different depending on the tool:
 
-  * [Admin Console](meta-for-work-tools-for-admins.md#id-admin-console)
-  * [Business Manager](meta-for-work-tools-for-admins.md#id-business-manager)
+  * [Admin Console](meta-for-work-tools-for-admins.md#admin-console)
+  * [Business Manager](meta-for-work-tools-for-admins.md#business-manager)
 
 Regardless of how the status is displayed, Meta will stop redirecting users to the SSO authentication page when they are deprovisioned.
 

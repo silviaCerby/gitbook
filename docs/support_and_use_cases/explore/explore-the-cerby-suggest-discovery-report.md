@@ -1,5 +1,5 @@
 ---
-description: This article describes the key features of the Cerby Suggest Discovery Report.
+description: "This article describes the key features of the Cerby Suggest Discovery Report."
 intercom_id: 10629361
 ---
 
@@ -39,10 +39,10 @@ The Discovery Report outlines the following columns:
 
 This article describes how to perform the following actions in the Discovery Report:
 
-* [Access the Discovery Report](explore-the-cerby-suggest-discovery-report.md#id-access-the-discovery-report)
-* [View the event details in the Discovery Report](explore-the-cerby-suggest-discovery-report.md#id-view-event-details-in-the-discovery-report)
-* [Filter the events of the Discovery Report](explore-the-cerby-suggest-discovery-report.md#id-filter-events-in-the-discovery-report)
-* [Download a CSV file of the Discovery Report](explore-the-cerby-suggest-discovery-report.md#id-download-a-csv-file-of-the-discovery-report)
+* [Access the Discovery Report](explore-the-cerby-suggest-discovery-report.md#access-the-discovery-report)
+* [View the event details in the Discovery Report](explore-the-cerby-suggest-discovery-report.md#view-event-details-in-the-discovery-report)
+* [Filter the events of the Discovery Report](explore-the-cerby-suggest-discovery-report.md#filter-events-in-the-discovery-report)
+* [Download a CSV file of the Discovery Report](explore-the-cerby-suggest-discovery-report.md#download-a-csv-file-of-the-discovery-report)
 
 The following sections contain the steps for each action.
 
@@ -65,7 +65,7 @@ To see the details of the events in the Discovery Report, you must complete the 
 
   1. Log in to your [Cerby](https://app.cerby.com/) workspace.
   2. Select the **Discovery Report** option from the left navigation drawer. The **Discovery report** view is displayed with the user events detected by Cerby Suggest.
-  3. (Optional) Filter the information of the Discovery Report as desired. For more information about how to filter the events in the report, read the [Filter events in the Discovery Report](explore-the-cerby-suggest-discovery-report.md#id-filter-events-in-the-discovery-report) section.
+  3. (Optional) Filter the information of the Discovery Report as desired. For more information about how to filter the events in the report, read the [Filter events in the Discovery Report](explore-the-cerby-suggest-discovery-report.md#filter-events-in-the-discovery-report) section.
   4. Click the corresponding event in the report. A dialog box is displayed with more information about the event, as shown in **Figure 2**.
 
 <img src="../../../.gitbook/assets/AD_4nXcl_AqS1HIwK_UqUiZMduqYUWaNwz6wafXwzw1qVnXbCJjn9G-JDe4rpdnsF2uMSUCzdaEeH663f5hZyKTgMZ7P8Q7SCaEaCjtcWVis3V321c3z3VP2qdc2eYXe46hXaK9dNrM3tg.png" alt="">

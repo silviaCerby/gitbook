@@ -1,5 +1,5 @@
 ---
-description: This article describes how to configure the integration to export analytics data from Cerby to Sumo Logic.
+description: "This article describes how to configure the integration to export analytics data from Cerby to Sumo Logic."
 intercom_id: 7956602
 ---
 

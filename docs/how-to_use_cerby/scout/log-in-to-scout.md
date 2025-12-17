@@ -1,5 +1,5 @@
 ---
-description: This article describes how to log in to the Scout browser extension to start scouting your workflows.
+description: "This article describes how to log in to the Scout browser extension to start scouting your workflows."
 intercom_id: 10046820
 ---
 
@@ -39,7 +39,7 @@ To log in to Scout, you must complete the next steps:
 
   1. Open the Scout browser extension. The **Welcome to Scout!** screen of the browser extension popup is displayed.
   2. Click the **Log in** button. The **Log in with your API key** screen is displayed.
-  3. Enter the Cerby API key you generated as part of the [requirements](log-in-to-scout.md#id-requirements) in the **API key** field. The **Log in** button is enabled.
+  3. Enter the Cerby API key you generated as part of the [requirements](log-in-to-scout.md#requirements) in the **API key** field. The **Log in** button is enabled.
   4. Click the **Log in** button. The **Scout your workflows** screen is displayed.
 
 {% hint style="danger" %}

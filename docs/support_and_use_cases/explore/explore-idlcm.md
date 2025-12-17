@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of using IdLCM to simplify identity and access management by connecting disconnected apps to your IdP.
+description: "This article describes the benefits of using IdLCM to simplify identity and access management by connecting disconnected apps to your IdP."
 intercom_id: 11641669
 ---
 
@@ -82,11 +82,11 @@ Cerby initiates automation jobs to implement provisioning actions within the int
 
 The main functionalities of an IdLCM integration are the following:
 
-  * [User and access management tasks](explore-idlcm.md#id-user-and-access-management-tasks)
-  * [Provisioning model](explore-idlcm.md#id-provisioning-model)
-  * [Audit trail](explore-idlcm.md#id-audit-trail)
-  * [Posture management](explore-idlcm.md#id-posture-management)
-  * [IdP-compatible SSO](explore-idlcm.md#id-idp-compatible-sso)
+  * [User and access management tasks](explore-idlcm.md#user-and-access-management-tasks)
+  * [Provisioning model](explore-idlcm.md#provisioning-model)
+  * [Audit trail](explore-idlcm.md#audit-trail)
+  * [Posture management](explore-idlcm.md#posture-management)
+  * [IdP-compatible SSO](explore-idlcm.md#idp-compatible-sso)
 
 The following sections describe each functionality.
 

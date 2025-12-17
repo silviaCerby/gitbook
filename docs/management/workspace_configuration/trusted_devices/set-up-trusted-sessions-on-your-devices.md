@@ -1,5 +1,5 @@
 ---
-description: This article describes how to set up trusted sessions on your devices to access Cerby.
+description: "This article describes how to set up trusted sessions on your devices to access Cerby."
 intercom_id: 8142370
 ---
 

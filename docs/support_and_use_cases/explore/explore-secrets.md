@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of the Secrets feature to securely save and share important text-based information and file attachments.
+description: "This article describes the benefits of the Secrets feature to securely save and share important text-based information and file attachments."
 intercom_id: 7216784
 ---
 
@@ -32,7 +32,7 @@ Currently, Cerby supports the following secret items:
 {% hint style="info" %}
 
 
-**NOTE:** You can add attachments to any secret item. For more information on the size limits and supported formats of secrets and attachments, read the [Attachment and input specifications](explore-secrets.md#id-attachment-and-input-specifications) section.
+**NOTE:** You can add attachments to any secret item. For more information on the size limits and supported formats of secrets and attachments, read the [Attachment and input specifications](explore-secrets.md#attachment-and-input-specifications) section.
 
 
 {% endhint %}
@@ -40,7 +40,7 @@ Currently, Cerby supports the following secret items:
 You can set up the following protection measures for your secrets:
 
 * Set up an identity confirmation challenge for other workspace users who want to view or edit a secret that was shared with them. Identity challenges are also required for other actions. For more information, read the article [Confirm your identity with Cerby's MFA methods](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods).
-* Make a secret temporary by setting up an expiration date, after which the secret is automatically deleted. For more information about this feature, read the [Temporary secrets](explore-secrets.md#id-temporary-secrets) section.
+* Make a secret temporary by setting up an expiration date, after which the secret is automatically deleted. For more information about this feature, read the [Temporary secrets](explore-secrets.md#temporary-secrets) section.
 
 You can add your secret items and attachments to Cerby manually or import them from your [enterprise password manager](https://cerby-test.gitbook.io/cerby-test/updates-and-releases/marketing-articles/migrate-your-items-from-your-enterprise-password-manager-to-cerby). When you add a secret item manually, you automatically become its **Owner** , and when you share it with other workspace users or teams, you can assign them one of the following two roles:
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the status of your business hub integration in Cerby.
+description: "This article describes how to view the status of your business hub integration in Cerby."
 intercom_id: 12599528
 ---
 

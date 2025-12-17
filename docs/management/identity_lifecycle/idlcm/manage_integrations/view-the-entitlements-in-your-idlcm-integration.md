@@ -1,5 +1,5 @@
 ---
-description: This article describes how to view the entitlements in your IdLCM integration and the users assigned to them.
+description: "This article describes how to view the entitlements in your IdLCM integration and the users assigned to them."
 intercom_id: 12454982
 ---
 

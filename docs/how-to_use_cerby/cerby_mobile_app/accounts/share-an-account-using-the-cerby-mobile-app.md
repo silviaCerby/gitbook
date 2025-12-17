@@ -1,5 +1,5 @@
 ---
-description: This article describes how to share a Cerby account with other workspace members and teams using the mobile app.
+description: "This article describes how to share a Cerby account with other workspace members and teams using the mobile app."
 intercom_id: 9715128
 ---
 

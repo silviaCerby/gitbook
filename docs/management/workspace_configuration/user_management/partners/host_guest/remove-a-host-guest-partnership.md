@@ -1,5 +1,5 @@
 ---
-description: This article describes how to remove a host-guest partnership established with a guest workspace.
+description: "This article describes how to remove a host-guest partnership established with a guest workspace."
 intercom_id: 9044790
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: This article describes the benefits of Cerby Universal Logout and Okta’s Universal Logout through Cerby.
+description: "This article describes the benefits of Cerby Universal Logout and Okta’s Universal Logout through Cerby."
 intercom_id: 10495600
 ---
 
