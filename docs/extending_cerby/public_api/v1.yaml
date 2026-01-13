@@ -1,0 +1,4057 @@
+openapi: 3.0.0
+info:
+  title: Welcome to the Cerby developer portal!
+  description: >-
+    Cerby is an identity, access, and password management platform for
+    disconnected applications that don’t support common identity and security
+    standards. This developer portal contains self-serve tools you can use to
+    seamlessly integrate our services into your applications and systems.
+
+
+    # Cerby API
+
+
+    The Cerby API implements a set of rules and protocols that enable your
+    company’s custom applications to communicate with our platform. To interact
+    with our API, you must send a request to a specific endpoint, which our API
+    processes to return a JSON-encoded response.
+
+
+    The following are the collection data available in our API:
+
+      - Accounts
+      - Secrets
+      - Collections
+      - Users
+      - Teams
+      - Integrations
+      - Jobs
+      - Vaults
+      - Integrations
+
+    The Cerby API follows RESTful principles and the [OpenAPI 3.0
+    Specifications](https://spec.openapis.org/oas/latest.html) and communicates
+    over HTTPS for secure data transmission.
+
+
+    # Authentication
+
+
+    The Cerby API uses a Cerby API key to authorize requests. You can only
+    generate and retrieve keys from the Cerby web app after authenticating into
+    your corporate identity provider, such as Okta or Entra ID, to access your
+    workspace.
+
+
+    Based on Cerby’s role-based access control (RBAC) system, the API key you
+    use for authentication determines the endpoints and data you can access
+    depending on your workspace and item role. Therefore, you must send the
+    `X-API-Key` parameter in the header of each API request.
+
+
+    To generate and retrieve a key, you must follow the instructions in the
+    article [Generate an API
+    key](https://help.cerby.com/en/articles/9450943-generate-an-api-token) and
+    select the required scopes for the endpoint you plan to use.
+
+
+    The following are the available scopes:
+
+
+    * **Read activities:** Enables reading activity data.
+
+    * **Read items:** Enables reading account, secret, and collection data.
+
+    * **Read accounts:** Enables reading account data.
+
+    * **Read secrets:** Enables reading secret data.
+
+    * **Read users:** Enables reading user and team data.
+
+    * **Read integrations:** Enables reading integration and entitlement data.
+
+    * **Write integrations:** Enables writing integration and entitlement data.
+
+    * **Read automated jobs:** Enables reading automated job data.
+
+    * **Write automated jobs:** Enables writing automated job data.
+
+
+    > **Important:**
+
+    > * If the API key is expired or does not have the correct scopes, the Cerby
+    API returns a `401` error.
+
+    > * Your API keys are sensitive resources because they grant access to the
+    data you have saved in your workspace. Avoid sharing them in public
+    repositories or client-side code.
+
+
+    # Requests
+
+
+    A typical Cerby API request has the following structure:
+
+
+    ```
+
+    GET /{resource}
+
+    Host:
+    https://{my-workspace}.cerby.com/api/v1/{resource}/{path-parameter}?{query-parameter}={custom-value}
+
+    Header: X-API-Key
+
+    ```
+
+
+    The following are the main components of the request:
+
+
+    * [HTTP method](#section/requests/http-method)
+
+    * [URL structure](#section/requests/url-structure)
+
+    * [Header](#section/requests/header)
+
+    * [Body](#section/requests/body)
+
+
+    The following sections explain each component.
+
+
+    ## HTTP method
+
+
+    The Cerby API uses the following HTTP methods to define the type of
+    operation to perform:
+
+      * **`GET`:** Retrieves data from the server. For example, GET /users to list all users in your Cerby workspace.
+      * **`PATCH`:** Sends data to the server to update an existing resource. For example, PATCH /integrations/{id}/users/{userId} to update a user’s entitlements in an integration.
+
+    ## URL structure
+
+
+    The full URL of an endpoint in the Cerby API is the following:
+
+
+    `https://{my-workspace}.cerby.com/api/v1/{resource}/{path-parameter}?{query-parameter}={custom-value}`
+
+
+    The following is the structure of the URL:
+
+      * **Protocol:** The secure communication method to transmit data is HTTPS.
+      * **Domain:** The base URL is `{my-workspace}.cerby.com/api/v1.` You must replace `{my-workspace}` with the name of your workspace.
+      * **Resource:** The specific Cerby resource being accessed.
+      * **Parameter:** The additional data to specify the resource you want to access, filter, paginate, or sort in the response. The Cerby API includes the following parameter types:
+        * [Path parameter](#section/requests/Path-parameter)
+        * [Query parameter](#section/requests/Query-parameter)
+
+    ### Path parameter
+
+
+    Path parameters specify the resource you want to access with the endpoint.
+    In the Cerby API, path parameters are embedded in the URL.
+
+
+    The following is an example of a request to the endpoint:
+
+
+    ```curl
+
+    https://{my-workspace}.cerby.com/api/v1/accounts/123456a7-1234-419f-123a-ae3cd6d12341
+
+    ```
+
+
+    ### Query parameter
+
+
+    Query parameters paginate, filter, or sort the results of the request. In
+    the Cerby API, query parameters are appended to the URL after a question
+    mark character (`?`) and separated by ampersands (`&`).
+
+    The following are the common query parameters in the Cerby API endpoints:
+
+
+    > **Important:**
+
+    > The parameters in this section are not applicable to all endpoints. Refer
+    to the documentation for each specific endpoint to see which parameters
+    apply.
+
+      * **Pagination:** 
+        * `page[number]`: The page number you want to retrieve in the paginated result set.
+        * `page[size]`: The number of items you want to retrieve per page.
+      * **Filtering:** 
+        * `filter[application]`: The comma-separated list of applications to filter their associated accounts.
+        * `filter[secretType]`: The type of secret you want to retrieve from an account. The only possible value is: `password`.
+        * `filter[status]`: The status value to filter accounts. The possible values are: `enabled` and `disabled`.
+      * **Sorting:** 
+        * `sort`: The criteria for sorting the requested results alphabetically based on an attribute. 
+      
+      </br>**Note:** Append the minus (`-`) character before the attribute to sort in ascending order. For example, `sort=-created_at`.
+
+    See an example of a request including query parameters in the JSON tab.
+
+
+    ```curl
+
+    https://{my-workspace}.cerby.com/api/v1/accounts?page[number]=1&page[size]=30&filter[application]=instagram,unmanaged&filter[status]=enabled
+
+    ```
+
+
+    ## Header
+
+
+    The header provides additional metadata for the request to the endpoint. In
+    the Cerby API, you must use the `X-API-Key` header.
+
+
+    ## Body
+
+
+    The body contains the data you must send to the server for the `POST` and
+    `PATCH` methods. The body format in the Cerby API is JSON.
+
+
+    # Responses
+
+
+    The following are the main components of the response:
+
+      * **Status code:** The result of the request, such as `200` (`OK`) or `404` (`Not found`). Refer to the Response status codes section to read the specifications of each response status code.
+      * **Headers:** The metadata for the response. For example, `Content-Type`.
+      * **Body:** The actual data returned in JSON format. The Cerby API response can include the following main properties:
+        * [Data object](#section/responses/data-object)
+        * [Links object](#section/responses/links-object)
+        * [Meta object](#section/responses/meta-object)
+
+    The following is a typical Cerby API response structure:
+
+
+    ```json
+
+    HTTP/1.1 200 OK
+
+    Content-Type: application/json
+
+    {
+        "data": {
+            "id": 1,
+            "attributes": {
+                "name": "John Doe",
+                "email": "john@example.com"
+             },
+             "type": "user"
+        },
+        "links": {
+            "self": "string",
+            "next": "string"
+        },
+        "meta": {
+            "page": {
+               "maxSize": 0,
+               "total": 0
+            }
+        }
+    }
+
+    ```
+
+
+    ## Data object
+
+
+    The `data` object contains the primary information that the client
+    requested.
+
+
+    ## Links object
+
+
+    The `links` object provides the related URLs that can be helpful for
+    navigation.
+
+
+    The following table describes the attributes of a `links` object:
+
+
+    > **Important:**
+
+    > The above example shows the URIs decoded for better readability. In
+    practice, these URIs contain percent-encoded characters.
+
+
+    The **`links`** object provides the related URLs that can be helpful for
+    navigation. 
+
+
+    The following table describes the attributes of a **`links`** object:
+
+
+    <table>
+        <tr>
+            <th colspan="2">Attribute</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td colspan="2"><code><b>links</b></code></br><em>object</em></td>
+            <td>The attributes of the <code>links</code> object.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code><b>next</b></code></br><em>string</em></td>
+            <td>The next page of results.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code><b>previous</b></code></br><em>string</em></td>
+            <td>The previous page of results.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code><b>self</b></code></br><em>string</em></td>
+            <td>The self reference to the endpoint you are calling.</td>
+        </tr>
+    </table>
+
+
+    The following is a typical `links` object:
+
+
+    ```json
+
+    "links": {
+            "next": "/api/v1/teams?page[number]=12&page[size]=3",
+            "previous": "/api/v1/teams?page[number]=10&page[size]=3",
+            "self": "/api/v1/teams?page[number]=11&page[size]=3"
+        }
+    ```
+
+
+    ## Meta object
+
+
+    The `meta` object contains metadata about the response that provides
+    additional context or information about the `data` object.
+
+
+    The following table describes the attributes of a `meta` object:
+
+
+    <table>
+        <tr>
+            <th colspan="3">Attribute</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td colspan="3"><code><b>meta</b></code></br><em>object</em></td>
+            <td>The attributes of the <code>meta</code> object.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"><code><b>page</b></code></br><em>object</em></td>
+            <td>The attributes of the page in the response.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><code><b>maxSize</b></code></br><em>number</em></td>
+            <td>The maximum number of items that can be returned per page.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><code><b>total</b></code></br><em>number</em></td>
+            <td>The total number of items available across all pages.</td>
+        </tr>
+    </table>
+
+
+    The following is a typical `meta` object:
+
+
+    ```json
+
+    "meta": {
+            "page": {
+                "maxSize": 100,
+                "total": 10
+            }
+        }
+    ```
+  version: 0.1.0
+tags:
+  - name: Accounts
+    description: >-
+      In Cerby, accounts are digital records that contain user login information
+      for a particular app or service provider. An **`account`** object contains
+      information about the account label, the app to which the account belongs,
+      the password, the dates when the account was created and last updated, and
+      the user who created and last updated the account.
+
+      Additionally, an `account_secret` object contains information about the
+      account’s password.
+
+
+      The **`account`** and **`account_secret`** objects are created in Cerby
+      when you perform any of the following actions:
+
+
+      * Add an account manually through the Cerby web app or mobile app.  
+
+      * Autosave an account at login or signup through the Cerby browser
+      extension  
+
+      * Import items from your password manager.
+
+
+      With the Cerby API, you can retrieve all accounts or specific accounts by
+      providing its ID. To learn more about accounts, refer to the
+      [Accounts](https://help.cerby.com/en/collections/5819904-accounts) article
+      collection on the Cerby Help Center.
+
+
+      > **Important:** 
+
+      > You can only retrieve accounts to which you have the **Owner** role.
+      Your permissions are determined by your API key based on Cerby’s RBAC
+      system.
+  - name: Secrets
+    description: >-
+      In Cerby, secrets are encrypted digital records that contain sensitive
+      corporate data in text and attached files. A `secret` object contains
+      information about the secret title, its ID, its category, if it requires a
+      challenge, the workspace where it belongs, the dates when the secret was
+      created and last updated, and the user who created and last updated the
+      secret.
+
+
+      A `secret` object is created in Cerby when you perform any of the
+      following actions:
+
+
+      * Add a secret manually through the Cerby web app or mobile app.
+
+      * Import items from your password manager.
+
+
+      With the Cerby API, you can retrieve all secrets or specific secrets by
+      providing their ID. To learn more about secrets, refer to the
+      [Secrets](https://help.cerby.com/en/collections/5819992-secrets) article
+      collection on the Cerby Help Center.
+
+
+      > **Important:**
+
+      > You can only retrieve secrets to which you have the **Owner** role. Your
+      permissions are determined by your API key based on Cerby’s RBAC system.
+  - name: Collections
+    description: >-
+      In Cerby, collections are groups of accounts, secrets, and subcollections
+      created to organize and categorize saved items. A `collection` object
+      contains information about the collection label, the number of accounts
+      and secrets within it, the dates when the collection was created and last
+      updated, and the user who created and last updated the collection and
+      their role.
+
+
+      A `collection` object is created in Cerby when you perform any of the
+      following actions
+
+
+      - Add a collection manually through the Cerby web app.
+
+      - Import vaults or folders from your password manager.
+
+
+      With the Cerby API, you can retrieve all collections or specific
+      collections by providing their ID. To learn more about collections, refer
+      to the Collections article
+      [collection](https://help.cerby.com/en/collections/5819996-collections) on
+      the Cerby Help Center.
+  - name: Users
+    description: >-
+
+      In Cerby, users are individuals who have access to a workspace through a
+      user account and can create, protect, and manage items. A `user` object
+      contains information about the name, email, workspace role, and other
+      relevant attributes of a user.
+
+
+      A `user` object is created in Cerby when you perform any of the following
+      actions:
+
+
+      * Provision a user in Cerby from your corporate identity provider (IdP),
+      such as Okta or Entra ID (formerly Azure AD).
+
+      * Invite a user to join a [local user
+      workspace](https://help.cerby.com/en/articles/8011381-how-to-create-and-configure-a-local-user-workspace)
+      with an identity managed by Cerby.
+
+      * Invite a user to join a workspace as a [guest
+      user](https://help.cerby.com/en/articles/8392946-explore-guest-users) with
+      an identity managed by Cerby.
+
+
+      With the Cerby API, you can retrieve all users or specific users by
+      providing their ID.
+
+
+      > **Important**:
+
+      > You can only retrieve users if you have the workspace **Admin**, **Super
+      Admin**, or **Owner** role. Your permissions are determined by your API or
+      bearer token based on Cerby’s RBAC system. 
+  - name: Teams
+    description: >-
+      In Cerby, teams are groups of users created to facilitate sharing items,
+      updating roles on items, and provisioning user accounts in seat-based and
+      paid social apps. A `team` object contains information about the team
+      name, the team type, and the workspace ID.
+
+
+      A team object is created in Cerby when you perform any of the following
+      actions:
+        
+      * Create a group assignment in your identity provider (IdP), such as Okta
+      and Azure AD, to automatically create a team in Cerby via SCIM.
+
+      * Create a self-managed team in Cerby with workspace users.
+
+
+      With the Cerby API, you can retrieve all teams or specific teams by
+      providing their ID. To learn more about teams, refer to the
+      [Teams](https://help.cerby.com/en/collections/5819856-teams) article
+      collection on the Cerby Help Center.
+
+
+      > **Important:** 
+
+      > You can only retrieve teams if you have the workspace **Admin**, **Super
+      Admin**, or **Owner** role. Your permissions are determined by your API
+      key based on Cerby’s RBAC system.
+  - name: Jobs
+    description: >-
+      In Cerby, jobs are the automated workflows performed server-side by the
+      Cerby agent either through API requests or interactions on a headless
+      browser. The goal of these jobs is to protect user accounts and manage
+      user access to seat-based and paid social apps. A **`job`** object
+      contains information about the type of automation job, the provider, if it
+      can be retried, the user who created the job, the job status, and other
+      relevant attributes.
+
+
+      A **`job`** object is created in Cerby when you perform any of the
+      following actions:
+
+
+      * Trigger manually any of the following supported automated tasks for
+      managed accounts through the Cerby web app:  
+        * Update password  
+        * Turn on or off multi-factor authentication (MFA)  
+        * Update email address  
+        * Update phone number  
+        * Check MFA status  
+      * Trigger automatically, based on a workspace policy, any of the supported
+      automated tasks for managed accounts.  
+
+      * Trigger manually any of the following supported automated tasks for
+      business hub integrations through the Cerby web app:  
+        * Check for updates  
+        * Add a user  
+        * Update a user’s role  
+        * Remove a user  
+        * Monitor partners  
+        * Manage partner assets  
+      * Trigger automatically, based on a user deprovisioning event, the
+      automated task to remove a user from an integration.  
+
+      * Trigger any of the supported automated tasks for integrations through
+      the Cerby API.
+
+
+      With the Cerby API, you can retrieve specific jobs by providing their ID.
+      To learn more about automated jobs or tasks.
+
+
+      > **Important:**
+
+      > You can only retrieve jobs if you have the workspace <b>Admin</b>,
+      <b>Super Admin</b>, or <b>Owner</b> role. Your permissions are determined
+      by your API key based on Cerby’s RBAC system.
+  - name: Vaults
+    description: >-
+      In Cerby, vaults are secure spaces for storing and managing your account
+      data and sensitive information, such as secrets. They provide an
+      additional layer of protection by implementing encryption and access
+      controls to ensure that only authorized users can access the stored data.
+
+
+      A <code>vault</code> object is created in Cerby when you perform the
+      following actions:
+
+
+      * Create and configure a Cerby workspace. This action creates a default
+      cloud vault for the workspace.
+
+      * Create additional local vaults in your Cerby workspace.
+
+
+      With the Cerby API, you can list all the vaults in your workspace. To
+      learn more about vaults, refer to the [Managing your
+      vaults](https://help.cerby.com/en/collections/6328971-managing-your-vaults)
+      article collection on the Cerby Help Center.
+
+
+      > **Important:**
+
+      > * You can only retrieve vaults if you have the workspace <b>Admin</b>,
+      <b>Super Admin</b>, or <b>Owner</b> role. Your permissions are determined
+      by your API key based on Cerby’s RBAC system.</li>
+
+      > * You can retrieve cloud vaults using the Cerby API, but not local
+      vaults.</li>
+  - name: Integrations
+    description: >
+
+      In Cerby, integrations are the connections between seat-based and paid
+      social apps with a Cerby workspace. The goal is to enable companies to
+      centralize in Cerby the lifecycle management of user accounts within these
+      apps, characterized by having collaboration spaces (workspaces, teams, or
+      dashboards) and individual seats or licenses for user access. The
+      connection is based on API requests or automated jobs.
+
+
+      Depending on the API endpoint, you can retrieve any of the following two
+      objects from an integration:
+
+
+      * **`integration` object:** Contains information about the app connected
+      to Cerby, the date when the integration was created, the user who created
+      and last updated the account, and other relevant attributes.
+
+      * **`entitlement` object:** Contains information about the available user
+      roles in the app or the roles assigned to a user. In the second case, the
+      **entitlement** object is an attribute of a user object.
+
+
+      A `business-hub` object is created in Cerby when you connect an
+      integration through the Cerby web app, whereas an `entitlement` object is
+      created in response to a specific request you make to the Cerby API.
+
+
+      With the Cerby API, you can retrieve specific integrations by providing
+      their ID, the available entitlements, all the users in an integrations,
+      and specific users in an integration by providing their ID. Also, you can
+      update the entitlements of a user in an integration.
+
+
+      To learn more about integrations, refer to the [Business
+      Hubs](https://help.cerby.com/en/collections/5820019-business-hubs) article
+      collection on the Cerby Help Center.
+servers:
+  - url: https://{workspaceName}.cerby.com/api/v1
+    variables:
+      workspaceName:
+        default: my-workspace
+        description: Workspace name
+security: []
+paths:
+  /accounts:
+    get:
+      summary: Retrieve the list of all accounts
+      description: >
+        With a `GET` request to the `/accounts` endpoint, you can retrieve the
+        list of all your accounts in Cerby.
+
+
+        > **Important:**  
+
+        > The API scope required to use this endpoint is **Read accounts**.
+      operationId: getAccounts
+      tags:
+        - Accounts
+      parameters:
+        - name: page[number]
+          in: query
+          required: false
+          description: |
+            The page number to retrieve in a paginated list.
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          required: false
+          description: |
+            The number of items to display per page.
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 25
+        - name: filter[application]
+          in: query
+          required: false
+          description: A comma-separated list of applications.
+          schema:
+            type: array
+            items:
+              type: string
+        - name: filter[status]
+          in: query
+          required: false
+          description: >
+            The status value to filter accounts.   The possible values are:
+            `enabled` and `disabled`.
+          schema:
+            type: array
+            items:
+              type: string
+              enum:
+                - enabled
+                - disabled
+      responses:
+        '200':
+          description: >-
+            OK — The JSON array with the account objects requested on the
+            specified page.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/account'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+              example:
+                data:
+                  - id: 123456a7-1234-419f-123a-ae3cd6d12350
+                    type: account
+                    attributes:
+                      application: unmanaged
+                      createdAt: '2024-07-09T02:30:46+00:00'
+                      createdBy: 123456a7-1234-419f-123a-ae3cd6d12341
+                      label: Acme
+                      lastLoginDate: '2025-05-08T19:01:04.984000+00:00'
+                      updatedAt: '2024-07-09T02:30:46+00:00'
+                      workspace: my-workspace
+                  - id: 123456a7-1234-419f-123a-ae3cd6d12360
+                    type: account
+                    attributes:
+                      application: twitter
+                      createdAt: '2024-02-01T21:49:17+00:00'
+                      createdBy: 123456a7-1234-419f-123a-ae3cd6d12341
+                      label: myAccount-twitter
+                      lastLoginDate: '2025-05-08T19:01:04.984000+00:00'
+                      updatedAt: '2024-03-25T15:13:09+00:00'
+                      workspace: my-workspace
+                  - id: 123456a7-1234-419f-123a-ae3cd6d12345
+                    type: account
+                    attributes:
+                      application: mailchimp
+                      createdAt: '2024-05-23T20:24:35+00:00'
+                      createdBy: 123456a7-1234-419f-123a-ae3cd6d12341
+                      label: Mailchimp
+                      lastLoginDate: '2025-05-08T19:01:04.984000+00:00'
+                      updatedAt: '2024-07-23T15:46:51+00:00'
+                      workspace: my-workspace
+                links:
+                  next: /api/v1/accounts?page%5Bnumber%5D=2&page%5Bsize%5D=3
+                  previous: null
+                  self: /api/v1/accounts?page%5Bnumber%5D=1&page%5Bsize%5D=3
+                meta:
+                  page:
+                    maxSize: 100
+                    total: 18
+        '400':
+          $ref: '#/components/responses/400'
+        '401':
+          $ref: '#/components/responses/401'
+  /accounts/{id}:
+    get:
+      summary: Retrieve an account by ID
+      description: >
+        With a `GET` request to the `/accounts/{id}` endpoint, you can retrieve
+        the information of an account by providing its ID.
+
+
+        > **Important:**  
+
+        > The API scope required to use this endpoint is **Read accounts**.
+      operationId: getAccountById
+      tags:
+        - Accounts
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique identifier of the account.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK — The requested account JSON object.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/account'
+              example:
+                data:
+                  id: 989165cc-112c-1234-a877-e047ffe9abcd
+                  type: account
+                  attributes:
+                    application: discord_tenant
+                    createdAt: '2024-08-29T19:15:46.475000+00:00'
+                    createdBy: 10b258e4-8454-1234-91a3-cacd42f0abcd
+                    label: Discord
+                    lastLoginDate: '2025-05-08T19:01:04.984000+00:00'
+                    updatedAt: '2024-08-29T19:33:05.028000+00:00'
+                    workspace: cerby
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /accounts/{id}/secrets:
+    get:
+      summary: Retrieve an account’s password
+      description: >
+        With a `GET` request to the `/accounts/{id}/secrets` endpoint, you can
+        retrieve the password of an account by providing the account ID.
+
+
+        > **Important:**
+
+        > - The API scope required to use this endpoint is **Read accounts**.
+
+        > - This endpoint retrieves the password for accounts stored in an **AWS
+        KMS** vault only.
+      operationId: getAccountSecrets
+      tags:
+        - Accounts
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique identifier of the account.
+          schema:
+            type: string
+        - name: filter[secretType]
+          in: query
+          required: true
+          description: >
+            The type of secret you want to retrieve from the account. The secret
+            type value is always `password`.
+          schema:
+            type: string
+        - name: page[number]
+          in: query
+          required: false
+          description: |
+            The page number to retrieve in a paginated list.
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          required: false
+          description: |
+            The number of items to display per page.
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+      responses:
+        '200':
+          description: OK — The requested account secret JSON object.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/accountSecret'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+              example:
+                data:
+                  id: 583965f7-a0cb-43cb-bb28-918527cfae0c
+                  type: password
+                  attributes:
+                    body:
+                      type: plaintext
+                      value: This-is-the-password
+                    createdAt: '2025-03-06T19:13:53.971000+00:00'
+                    secretType: password
+                    updatedAt: '2025-03-06T19:13:53.971000+00:00'
+                    vaultId: 76439949-53fc-429b-bb67-142ddc14b1d3
+                links:
+                  next: null
+                  previous: >-
+                    /api/v1/accounts/df8b23fc-7b67-4b28-b768-f9cf6456de90/secrets?page%5Bnumber%5D=1&page%5Bsize%5D=4
+                  self: >-
+                    /api/v1/accounts/df8b23fc-7b67-4b28-b768-f9cf6456de90/secrets?page%5Bnumber%5D=2&page%5Bsize%5D=4
+                meta:
+                  page:
+                    maxSize: 100
+                    total: 1
+        '400':
+          $ref: '#/components/responses/400'
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /secrets:
+    get:
+      operationId: listSecrets
+      tags:
+        - Secrets
+      summary: List secrets
+      description: >
+        With a `GET` request to the `/secrets` endpoint, you can retrieve a list
+        of all your secrets in your Cerby workspace.
+
+
+        > **Important**: 
+
+        > The API scope required to use this endpoint is: **Read secrets**.  
+      parameters:
+        - name: page[number]
+          in: query
+          description: The page number to retrieve in the paginated result set.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          description: The number of items to return per page.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 25
+      responses:
+        '200':
+          description: >-
+            **OK** - The JSON array with the secret objects requested on the
+            specified page.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/secret'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+                example:
+                  data:
+                    - attributes:
+                        category: text
+                        createdAt: '2023-07-26T23:33:03.860000+00:00'
+                        createdBy: 123456a7-1234-419f-123a-ae3cd6d12345
+                        eventName: create
+                        expiresAt: null
+                        requiresIdentityChallenge: false
+                        status: active
+                        title: License keys
+                        updatedAt: '2023-07-26T23:33:03.860000+00:00'
+                        updatedBy: 123456a7-1234-419f-123a-ae3cd6d12345
+                        version: 1
+                        versionId: 5199654b-cfc8-4624-99f8-4f8a946fae60
+                        workspaceId: 5aab889c-db7d-4164-87b0-e07e57c36007
+                        workspaceName: cerby
+                      id: 123456a7-1234-419f-123a-ae3cd6d12345
+                      type: secret
+                    - attributes:
+                        category: text
+                        createdAt: '2023-07-27T19:06:06.860000+00:00'
+                        createdBy: 123456a7-1234-419f-123a-ae3cd6d12345
+                        eventName: create
+                        expiresAt: null
+                        requiresIdentityChallenge: false
+                        status: active
+                        title: A new secret
+                        updatedAt: '2023-07-27T19:06:06.860000+00:00'
+                        updatedBy: 123456a7-1234-419f-123a-ae3cd6d12345
+                        version: 0
+                        versionId: 123456a7-1234-419f-123a-ae3cd6d12345
+                        workspaceId: 123456a7-1234-419f-123a-ae3cd6d12345
+                        workspaceName: cerby
+                      id: 123456a7-1234-419f-123a-ae3cd6d12345
+                      type: secret
+                    - attributes:
+                        category: text
+                        createdAt: '2023-10-04T02:00:06.860000+00:00'
+                        createdBy: 123456a7-1234-419f-123a-ae3cd6d12345
+                        eventName: create
+                        expiresAt: null
+                        requiresIdentityChallenge: false
+                        status: active
+                        title: secure note test - 1 (copy)
+                        updatedAt: '2023-10-04T02:00:06.860000+00:00'
+                        updatedBy: 123456a7-1234-419f-123a-ae3cd6d12345
+                        version: 0
+                        versionId: 123456a7-1234-419f-123a-ae3cd6d12345
+                        workspaceId: 123456a7-1234-419f-123a-ae3cd6d12345
+                        workspaceName: cerby
+                      id: 123456a7-1234-419f-123a-ae3cd6d12345
+                      type: secret
+                  links:
+                    next: /api/v1/secrets?page%5Bnumber%5D=2&page%5Bsize%5D=3
+                    self: /api/v1/secrets?page%5Bnumber%5D=1&page%5Bsize%5D=3
+                  meta:
+                    page:
+                      maxSize: 100
+                      total: 10
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+    post:
+      summary: Create a secret
+      description: >
+        With a `POST` request to the `/secrets` endpoint, you can create a
+        secret in your workspace.
+
+
+        > **Important:**  
+
+        > The API scopes required to use this endpoint are **Read secrets** and
+        **Write secrets**.
+      operationId: createSecret
+      tags:
+        - Secrets
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  description: The attributes of the object.
+                  required:
+                    - attributes
+                  properties:
+                    attributes:
+                      type: object
+                      description: The attributes of the new secret.
+                      required:
+                        - vaultId
+                        - title
+                        - requiresIdentityChallenge
+                        - body
+                        - category
+                      properties:
+                        vaultId:
+                          type: string
+                          description: >
+                            The ID of the vault where the secret will be stored.
+                            To retrieve the vault ID, copy it from the URL after
+                            completing the instructions in the article [View the
+                            details of a
+                            vault](https://help.cerby.com/en/articles/10113673-view-the-details-of-a-vault).  
+
+                            > **Important:** Currently, only cloud vaults are
+                            supported.
+                        title:
+                          type: string
+                          description: The title of the secret.
+                        requiresIdentityChallenge:
+                          type: boolean
+                          description: >
+                            The boolean value that indicates whether the secret
+                            requires an identity challenge to be opened. 
+
+                            * `true`: An identity challenge is required.  *
+                            `false`: The challenge is not required.
+                        body:
+                          type: object
+                          description: The content of the secret.
+                          required:
+                            - type
+                            - value
+                          properties:
+                            type:
+                              type: string
+                              description: The type of content.
+                              enum:
+                                - plaintext
+                            value:
+                              type: string
+                              description: The actual secret content.
+                        category:
+                          type: string
+                          description: >-
+                            The category of the secret. 
+                             
+                            > **Note:** Currently, only the `text` type is
+                            supported.
+                          enum:
+                            - text
+                        expiresAt:
+                          type: string
+                          format: date-time
+                          nullable: true
+                          description: >
+                            The expiration date of the secret, in the [ISO
+                            8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+                            format (`YYYY-MM-DDTHH:MM:SSZ`).  
+
+                            > **Important:** Only supported for the `text`
+                            category.
+            example:
+              data:
+                attributes:
+                  vaultId: c123a836-abcd-473f-bbba-6e0113716285
+                  title: Test public secret created
+                  requiresIdentityChallenge: false
+                  body:
+                    type: plaintext
+                    value: my secret content
+                  category: text
+      responses:
+        '201':
+          description: '**Created** - The new secret JSON object.'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/secret'
+                    description: The Secret schema without the `role` attribute.
+              example:
+                data:
+                  id: 183b11e3-6413-4451-9b99-4632204d5c48
+                  type: secret
+                  attributes:
+                    category: text
+                    createdAt: '2025-03-25T21:30:29.423697+00:00'
+                    createdBy: 1cc381f7-9c52-419f-ac7b-ae3cd6d148d4
+                    eventName: create
+                    expiresAt: null
+                    requiresIdentityChallenge: false
+                    status: active
+                    title: Test public secret created
+                    updatedAt: '2025-03-25T21:30:29.423684+00:00'
+                    updatedBy: 1cc381f7-9c52-419f-ac7b-ae3cd6d148d4
+                    version: 0
+                    versionId: a94f260e-8f2e-40b8-b512-2f2c991309d4
+                    workspaceId: 5aab889c-db7d-4164-87b0-e07e57c36007
+                    workspaceName: cerby
+        '400':
+          $ref: '#/components/responses/400'
+        '401':
+          $ref: '#/components/responses/401'
+  /secrets/{id}:
+    get:
+      operationId: getsecretById
+      tags:
+        - Secrets
+      summary: Retrieve secret by ID
+      description: >
+        With a `GET` request to the `/secrets/{id}` endpoint, you can retrieve
+        the information of a secret by providing its ID.
+
+
+        > **Important**: 
+
+        > The API scope required to use this endpoint is: **Read secrets**.  
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the secret.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: >-
+            **OK** - The JSON array with the secret objects requested on the
+            specified page.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/secret'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+                example:
+                  data:
+                    attributes:
+                      body:
+                        type: plaintext
+                        value: |-
+                          These are the license keys for the software.
+
+                          Software1: 1234-56789-2
+                          Software 2: 20884HG-
+                      category: text
+                      createdAt: '2023-09-11T06:45:19.136000+00:00'
+                      createdBy: a4393f7e-1144-42e0-1234-fca77099f0a6
+                      eventName: create
+                      expiresAt: null
+                      requiresIdentityChallenge: false
+                      status: active
+                      title: License keys
+                      updatedAt: '2023-09-11T06:53:21.302000+00:00'
+                      updatedBy: a4393f7e-1144-2345-b23b-fca77099f0a6
+                      version: 1
+                      versionId: 5199654b-cfc8-4624-1234-4f8a946fae60
+                      workspaceId: 5aab889c-db7d-1234-1234-e07e57c36007
+                      workspaceName: cerby
+                    id: b968a1a-228e-1234-8556-1eea60687cba
+                    type: secret
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /secrets/{id}/members/{memberType}:
+    get:
+      summary: Retrieve the teams or users of a secret
+      description: >
+        With a `GET` request to the `/secrets/{id}/members/{memberType}`
+        endpoint, you can retrieve 
+
+        the list of users or teams with shared access to a secret by providing
+        their member type.
+
+
+        > **Important:**  
+
+        > The API scope required to use this endpoint is **Read secrets**.
+      operationId: getSecretMembers
+      tags:
+        - Secrets
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique identifier of the secret.
+          schema:
+            type: string
+        - name: memberType
+          in: path
+          required: true
+          description: >-
+            The member type you want to list. The possible values are `users` or
+            `teams`.
+          schema:
+            type: string
+            enum:
+              - users
+              - teams
+        - name: page[number]
+          in: query
+          required: false
+          description: The page number to retrieve in a paginated list.
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          required: false
+          description: The number of items to display per page.
+          schema:
+            type: integer
+            default: 25
+            maximum: 100
+      responses:
+        '200':
+          description: >-
+            **OK** - The JSON array with the secret objects requested on the
+            specified page.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/secret'
+                    description: Secret schema with the "role" attribute only
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+              example:
+                data:
+                  - id: 6d23c85b-d3f9-46c7-bb34-7c88680087c5
+                    type: user
+                    attributes:
+                      role: secret_owner
+                  - id: faefda21-c3d2-48da-879f-a5ee112fa848
+                    type: user
+                    attributes:
+                      role: secret_collaborator
+                  - id: a4393f7e-1144-42e0-b23b-fca77099f0a6
+                    type: user
+                    attributes:
+                      role: secret_owner
+                links:
+                  next: null
+                  previous: null
+                  self: >-
+                    /api/v1/secrets/a8b02608-6714-43a6-97c4-0a2277a7490f/members/users?page%5Bnumber%5D=1&page%5Bsize%5D=20
+                meta:
+                  page:
+                    maxSize: 100
+                    total: 10
+          headers: {}
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+    post:
+      summary: Share a secret with a user or team
+      description: >
+        With a `POST` request to the `/secrets/{id}/members/{memberType}`
+        endpoint, you can share a secret with a user or team by providing their
+        member type.
+
+
+        > **Important:** The API scope required is **Write secrets**.
+      operationId: shareSecretWithMember
+      tags:
+        - Secrets
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique identifier of the secret.
+          schema:
+            type: string
+        - name: memberType
+          in: path
+          required: true
+          description: >-
+            The member type to which you want to share the secret. The possible
+            values are `users` or `teams`.
+          schema:
+            type: string
+            enum:
+              - users
+              - teams
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  description: The attributes of the object.
+                  required:
+                    - id
+                    - type
+                    - attributes
+                  properties:
+                    id:
+                      type: string
+                      description: The ID of the user or team to share the secret with.
+                    type:
+                      type: string
+                      description: >-
+                        The member type to which you want to share the secret.
+                        The possible values are `users` or `teams`.
+
+
+                        > **Important:** The value of this attribute must be the
+                        same as the value sent in the request URL.
+                      enum:
+                        - users
+                        - teams
+                    attributes:
+                      type: object
+                      required:
+                        - role
+                        - message
+                      properties:
+                        role:
+                          type: string
+                          description: Role assignment for the user or team on the secret.
+                          enum:
+                            - secret_owner
+                            - secret_collaborator
+                        message:
+                          type: string
+                          description: Custom message sent with the share action.
+            example:
+              data:
+                id: fd69061-efc4-4de7-ab52-2ecdd3cc0af6
+                type: users
+                attributes:
+                  role: secret_collaborator
+                  message: Welcome to Cerby!
+      responses:
+        '201':
+          description: '**Created** - The secret JSON object.'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/secret'
+                    description: The Secret schema with the `role` attribute.
+              example:
+                data:
+                  id: 5fd69061-1234-4de7-ab52-2ecdd3cc0af6
+                  type: user
+                  attributes:
+                    role: secret_collaborator
+        '400':
+          $ref: '#/components/responses/400'
+        '401':
+          $ref: '#/components/responses/401'
+  /collections:
+    get:
+      operationId: listCollections
+      tags:
+        - Collections
+      summary: List collections
+      description: >
+        With a `GET` request to the `/collections` endpoint, you can retrieve a
+        list of all your collections in your Cerby workspace.
+
+
+        > **Important**: 
+
+        > The API scope required to use this endpoint is: **Item data**.  
+      parameters:
+        - name: page[number]
+          in: query
+          description: The page number to retrieve in the paginated result set.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          description: The number of items to return per page.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 25
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/collection'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+                example:
+                  data:
+                    - id: 2e376b17-1234-1234-8f72-4bb7d931abcd
+                      type: collections
+                      attributes:
+                        createdAt: '2024-07-12T23:10:27+00:00'
+                        createdBy: 1cc381f7-1234-1234-ac7b-ae3cd6d1abcd
+                        meta: {}
+                        name: Employee
+                        roles:
+                          - collection_owner
+                        status: enabled
+                        updatedAt: '2024-07-12T23:10:27+00:00'
+                        updatedBy: 1cc381f7-1234-1234-ac7b-ae3cd6d1abcd
+                    - id: f4e74ed1-1234-1234-b29e-253e3f42abcd
+                      type: collections
+                      attributes:
+                        createdAt: '2024-07-12T23:10:57+00:00'
+                        createdBy: 1cc381f7-1234-1234-ac7b-ae3cd6d1abcd
+                        meta: {}
+                        name: Employee
+                        roles:
+                          - collection_owner
+                        status: enabled
+                        updatedAt: '2024-07-12T23:10:58+00:00'
+                        updatedBy: 1cc381f7-1234-1234-ac7b-ae3cd6d1abcd
+                    - id: 7a089968-35d2-461a-9adc-01600e0cdf8d
+                      type: collections
+                      attributes:
+                        createdAt: '2024-07-09T02:30:52+00:00'
+                        createdBy: 1cc381f7-1234-1234-ac7b-ae3cd6d1abcd
+                        meta: {}
+                        name: Employee (2)
+                        roles:
+                          - collection_owner
+                        status: enabled
+                        updatedAt: '2024-07-09T02:30:53+00:00'
+                        updatedBy: 1cc381f7-1234-1234-ac7b-ae3cd6d1abcd
+                  links:
+                    next: /api/v1/collections?page%5Bnumber%5D=2&page%5Bsize%5D=3
+                    self: /api/v1/collections?page%5Bnumber%5D=1&page%5Bsize%5D=3
+                  meta:
+                    page:
+                      maxSize: 100
+                      total: 6
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /collections/{id}:
+    get:
+      operationId: getCollectionById
+      tags:
+        - Collections
+      summary: Retrieve collection by ID
+      description: >
+        With a `GET` request to the `/collections/{id}` endpoint, you can
+        retrieve the information of a collection by providing its ID.
+
+
+        > **Important**: 
+
+        > The API scope required to use this endpoint is: **Readme items**.  
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the collection.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/collection'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+                example:
+                  data:
+                    attributes:
+                      createdAt: '2024-07-12T23:10:27+00:00'
+                      createdBy: 989165cc-112c-4112-a877-e047ffe9abcd
+                      meta: {}
+                      name: Employee
+                      roles:
+                        - collection_owner
+                      status: enabled
+                      updatedAt: '2024-07-12T23:10:27+00:00'
+                      updatedBy: 989165cc-112c-4112-a877-e047ffe9abcd
+                    id: 989165cc-112c-4112-a877-e047ffe9abcd
+                    type: collections
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /users:
+    get:
+      operationId: getUserList
+      tags:
+        - Users
+      summary: List users
+      description: >-
+        With a `GET` request to the `/users` endpoint, you can retrieve the list
+        of all users in your workspace.
+
+
+        > **Important:**
+
+        > The API scope required to use this endpoint is: **User data**.
+      parameters:
+        - name: page[number]
+          in: query
+          description: The page number to retrieve in the paginated result set.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          description: The number of items to return per page.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 25
+        - name: filter
+          in: query
+          description: The user's full name or email to filter the response.
+          required: false
+          schema:
+            type: string
+        - name: mfaStatus
+          in: query
+          description: >
+            When set to `true`, includes MFA status details for each user. If
+            omitted or `false`, the `mfaStatus` attribute is `null`.
+          required: false
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/users'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+                example:
+                  data:
+                    - attributes:
+                        createdAt: '2024-01-04T15:36:54+00:00'
+                        email: joe@doe.com
+                        firstName: Joe
+                        isGuest: false
+                        lastName: Doe
+                        mfaStatus:
+                          mfaEnabled: true
+                          mfaEnrollmentDate: '2024-05-10T15:30:00+00:00'
+                        role: workspace_owner
+                        status: live
+                        updatedAt: '2024-07-08T19:30:56+00:00'
+                      id: 1234c85b-1234-1234-1234-7c886800abcd
+                      type: user
+                    - attributes:
+                        createdAt: '2024-01-22T20:54:33+00:00'
+                        email: kevin@example.com
+                        firstName: Kevin
+                        isGuest: false
+                        lastName: Example
+                        mfaStatus: null
+                        role: workspace_super_admin
+                        status: live
+                        updatedAt: '2024-09-24T18:41:23+00:00'
+                      id: 1234c85b-1234-1234-1234-7c886800abcd
+                      type: user
+                    - attributes:
+                        createdAt: '2021-10-19T17:58:43+00:00'
+                        email: rose@poe.com
+                        firstName: Rose
+                        isGuest: false
+                        lastName: Poe
+                        mfaStatus: null
+                        role: workspace_owner
+                        status: live
+                        updatedAt: '2024-03-25T15:17:41+00:00'
+                      id: aab12343fbc-1234-1234-1234-3fb6573fabcd
+                      type: user
+                  links:
+                    next: /api/v1/users?page%5Bnumber%5D=2&page%5Bsize%5D=3
+                    previous: null
+                    self: /api/v1/users?page%5Bnumber%5D=1&page%5Bsize%5D=3
+                  meta:
+                    page:
+                      maxSize: 100
+                      total: 202
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /users/{id}:
+    get:
+      operationId: getUserById
+      tags:
+        - Users
+      summary: Retrive user by ID
+      description: >-
+        With a `GET` request to the `/users/{id}` endpoint, you can retrieve the
+        information of a user by providing their ID.
+
+
+        > **Important:**
+
+        > The API scope required to use this endpoint is: **User data**.
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the user.
+          schema:
+            type: string
+            format: uuid
+        - name: mfaStatus
+          in: query
+          description: >
+            When set to `true`, includes MFA status details for the user. If
+            omitted or `false`, the `mfaStatus` attribute is `null`.
+          required: false
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/users'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+                example:
+                  data:
+                    attributes:
+                      createdAt: '2024-01-04T15:36:54+00:00'
+                      email: joe@doe.com
+                      firstName: Joe
+                      isGuest: false
+                      lastName: Doe
+                      mfaStatus:
+                        mfaEnabled: true
+                        mfaEnrollmentDate: '2024-05-10T15:30:00+00:00'
+                      role: workspace_owner
+                      status: live
+                      updatedAt: '2024-07-08T19:30:56+00:00'
+                    id: 1234c85b-1234-1234-1234-7c886800abcd
+                    type: user
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /teams:
+    get:
+      operationId: getTeamList
+      tags:
+        - Teams
+      summary: List teams
+      description: >-
+        With a `GET` request to the `/teams` endpoint, you can retrieve the list
+        of all the teams in your workspace.
+
+
+        > **Important:**
+
+        > The API scope required to use this endpoint is: **Users data**.
+      parameters:
+        - name: page[number]
+          in: query
+          description: The page number to retrieve in the paginated list.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          description: The number of items to return per page.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 25
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/team'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+                example:
+                  data:
+                    - attributes:
+                        createdAt: '2024-08-06T01:18:45+00:00'
+                        name: acme
+                        type: user_managed
+                        updatedAt: '2024-08-06T01:18:45+00:00'
+                        workspaceId: 1234589c-abcd-abcd-87b0-e07e57c12345
+                      id: 5aab889c-1234-4164-87b0-e07e57c12345
+                      type: team
+                    - attributes:
+                        createdAt: '2024-08-06T01:18:45+00:00'
+                        name: general
+                        type: user_managed
+                        updatedAt: '2024-08-06T01:18:45+00:00'
+                        workspaceId: 1234589c-abcd-abcd-87b0-e07e57c12345
+                      id: 5aab889c-1234-4164-87b0-e07e57c12345
+                      type: team
+                    - attributes:
+                        createdAt: '2024-08-06T01:18:45+00:00'
+                        name: technical writing
+                        type: user_managed
+                        updatedAt: '2024-08-06T01:18:45+00:00'
+                        workspaceId: 1234589c-abcd-abcd-87b0-e07e57c12345
+                      id: 5aab889c-1234-4164-87b0-e07e57c12345
+                      type: team
+                  links:
+                    next: /api/v1/teams?page%5Bnumber%5D=11&page%5Bsize%5D=3
+                    previous: /api/v1/teams?page%5Bnumber%5D=9&page%5Bsize%5D=3
+                    self: /api/v1/teams?page%5Bnumber%5D=10&page%5Bsize%5D=3
+                  meta:
+                    page:
+                      maxSize: 100
+                      total: 135
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+    post:
+      operationId: createTeam
+      summary: Create a team
+      description: >
+        With a `POST` request to the `/teams` endpoint, you can create a team in
+        your workspace by providing the team name.
+
+
+        > **Important:**  
+
+        > The API scope required to use this endpoint is **Write teams**.
+      tags:
+        - Teams
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: object
+                  required:
+                    - type
+                    - attributes
+                  properties:
+                    type:
+                      type: string
+                      description: The object type. The type value is always `team`.
+                    attributes:
+                      type: object
+                      required:
+                        - name
+                      properties:
+                        name:
+                          type: string
+                          description: The name of the new team.
+            example:
+              data:
+                type: team
+                attributes:
+                  name: Engineering
+      responses:
+        '201':
+          description: The team was successfully created.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/team'
+              example:
+                data:
+                  attributes:
+                    createdAt: '2024-08-06T01:18:45+00:00'
+                    name: Engineering Team
+                    type: user_managed
+                    updatedAt: '2024-08-06T01:18:45+00:00'
+                    workspaceId: 1234589c-abcd-abcd-87b0-e07e57c12345
+                  id: 5aab889c-1234-4164-87b0-e07e57c12345
+                  type: team
+        '400':
+          $ref: '#/components/responses/400'
+        '401':
+          $ref: '#/components/responses/401'
+  /teams/{id}:
+    get:
+      operationId: getTeamById
+      tags:
+        - Teams
+      summary: Retrieve a Cerby-managed team by ID
+      description: >-
+        With a `GET` request to the `/teams/{id}` endpoint, you can retrieve the
+        information of a team by providing its ID.
+
+
+        > **Important:**
+
+        > The API scope required to use this endpoint is: **Users data**.
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the team.
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/team'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+              example:
+                data:
+                  attributes:
+                    createdAt: '2024-08-06T01:18:45+00:00'
+                    name: acme
+                    type: user_managed
+                    updatedAt: '2024-08-06T01:18:45+00:00'
+                    workspaceId: 1234589c-abcd-abcd-87b0-e07e57c12345
+                  id: 5aab889c-1234-4164-87b0-e07e57c12345
+                  type: team
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+    patch:
+      operationId: updateTeam
+      summary: Update a team
+      description: >
+        With a `PATCH` request to the `/teams/{id}` endpoint, you can update the
+        name of a Cerby-managed team by providing its ID.
+
+
+        > **Important:**  
+
+        > The API scope required to use this endpoint is **Write teams**.
+      tags:
+        - Teams
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique identifier of the team.
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  required:
+                    - type
+                    - attributes
+                  properties:
+                    type:
+                      type: string
+                      description: The object type. The type value is always `team`.
+                    attributes:
+                      type: object
+                      required:
+                        - name
+                      properties:
+                        name:
+                          type: string
+                          description: The new name of the team.
+            example:
+              data:
+                type: team
+                attributes:
+                  name: New Team Name
+      responses:
+        '200':
+          description: OK — The updated team JSON object.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/team'
+              example:
+                data:
+                  id: 5aab889c-1234-4164-87b0-e07e57c12345
+                  type: team
+                  attributes:
+                    createdAt: '2024-08-06T01:18:45+00:00'
+                    name: New Team Name
+                    type: user_managed
+                    updatedAt: '2024-08-06T01:18:45+00:00'
+                    workspaceId: 1234589c-abcd-abcd-87b0-e07e57c12345
+        '400':
+          $ref: '#/components/responses/400'
+        '401':
+          $ref: '#/components/responses/401'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+        '409':
+          $ref: '#/components/responses/409'
+    delete:
+      operationId: deleteTeam
+      summary: Delete a team
+      description: >
+        With a `DELETE` request to the `/teams/{id}` endpoint, you can delete a
+        Cerby-managed team by providing its ID.
+
+
+        > **Important:**
+
+        > The API scope required to use this endpoint is **Delete teams**.
+      tags:
+        - Teams
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique identifier of the team.
+          schema:
+            type: string
+      responses:
+        '204':
+          description: The team was successfully deleted.
+        '400':
+          $ref: '#/components/responses/400'
+        '401':
+          $ref: '#/components/responses/401'
+        '403':
+          $ref: '#/components/responses/403'
+        '404':
+          $ref: '#/components/responses/404'
+  /teams/{id}/members:
+    post:
+      operationId: addTeamMembers
+      summary: Add members to a team
+      description: >
+        With a `POST` request to the `/teams/{id}/members` endpoint, you can add
+        one or more members to a team by providing the team ID and the user IDs.
+
+
+        > **Important:**  
+
+        > The API scope required to use this endpoint is **Write teams**.
+      tags:
+        - Teams
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique identifier of the team.
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: array
+                  description: The array of team members to add.
+                  items:
+                    type: object
+                    required:
+                      - type
+                      - attributes
+                    properties:
+                      type:
+                        type: string
+                        description: >-
+                          The object type. The team type value is always
+                          `team_member`.
+                      attributes:
+                        type: object
+                        required:
+                          - member_id
+                          - member_type
+                          - role
+                        properties:
+                          member_id:
+                            type: string
+                            description: >-
+                              The unique identifier of the user to add as a team
+                              member.
+                          member_type:
+                            type: string
+                            description: >-
+                              The type of member to add. Only `"user"` is
+                              supported.
+                            enum:
+                              - user
+                          role:
+                            type: string
+                            description: The role of the team member.
+                            enum:
+                              - admin
+                              - member
+            example:
+              data:
+                - type: team_member
+                  attributes:
+                    member_id: 10b258e4-8454-42ac-91a3-cacd42f03220
+                    member_type: user
+                    role: admin
+                - type: team_member
+                  attributes:
+                    member_id: 5fd69061-efc4-4de7-ab52-2ecdd3cc0af6
+                    member_type: user
+                    role: admin
+      responses:
+        '200':
+          description: OK.
+        '400':
+          $ref: '#/components/responses/400'
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /jobs/{id}:
+    get:
+      summary: Retrieve a job by ID
+      description: >
+        With a `GET` request to the `/jobs/{id}` endpoint, you can retrieve the
+        information of a job by providing its ID.
+
+
+        > **Important:**  
+
+        > The API scope required to use this endpoint is **Read automated
+        jobs**.
+      operationId: getJobById
+      tags:
+        - Jobs
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The unique identifier of the job.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK — The requested job JSON object.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/job'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+              example:
+                data:
+                  id: a2c3b0cc-abcd-a09d-abcd-e047ffe91234
+                  type: job
+                  attributes:
+                    account:
+                      entity: account
+                      id: 123455cc-abcd-1234-abcd-e047ffe9abcd
+                      name: Discord
+                      provider: discord_tenant
+                    canRetry: false
+                    createdAt: '2024-08-29T19:31:21.563000+00:00'
+                    createdBy:
+                      id: abcde0cc-abcd-1234-abcd-e047ffe12345
+                      name: Joe Doe
+                    errorDetails: {}
+                    hasMoreDetails: false
+                    response: {}
+                    status: finished
+                    trigger: manual
+                    updatedAt: '2024-08-29T19:31:22.750000+00:00'
+                    workflowType: proxy_account_roles_update
+                links:
+                  self: /api/v1/jobs/a2c3b0cc-abcd-a09d-abcd-e047ffe91234
+                meta: {}
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /vaults:
+    get:
+      summary: Retrieve the list of all vaults
+      description: >
+        With a `GET` request to the `/vaults` endpoint, you can retrieve the
+        list of all the vaults in your workspace.
+
+
+        > **Important:**  
+
+        > The API scope required to use this endpoint is **Read vaults**.
+      operationId: getVaults
+      tags:
+        - Vaults
+      parameters:
+        - name: page[number]
+          in: query
+          required: false
+          description: |
+            The page number to retrieve in a paginated list.  
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          required: false
+          description: |
+            The number of items to display per page.  
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 25
+      responses:
+        '200':
+          description: '**OK** — The paginated list of vaults.'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/vault'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+              example:
+                data:
+                  - id: 07eb52b2-8c4d-4752-8a4f-2776411c95a0
+                    type: vault
+                    attributes:
+                      createdAt: '2023-05-19T12:59:50.202000+00:00'
+                      createdBy: 03c3648f-1234-4134-8d3f-f9f052c1ccf5
+                      createdByType: user
+                      name: lek_vault
+                      scheme: local_encryption_key
+                      state: disabled
+                      updatedAt: '2024-03-25T15:17:55.093000+00:00'
+                      workspaceId: 5aab889c-db7d-4164-87b0-e07e57c36007
+                  - id: 1828a35a-4ad1-422e-943c-7fb318d16d8a
+                    type: vault
+                    attributes:
+                      createdAt: '2024-11-04T23:03:31.838000+00:00'
+                      createdBy: aa919a58-1234-4233-b3d1-a0ef0ba4ee69
+                      createdByType: user
+                      name: TEST KMS BYO
+                      scheme: kms_byo
+                      state: enabled
+                      updatedAt: '2024-11-04T23:03:31.838000+00:00'
+                      workspaceId: 5aab889c-db7d-4164-87b0-e07e57c36007
+                  - id: 6dfb5e8e-f9a1-46b1-aba1-f21402b98291
+                    type: vault
+                    attributes:
+                      createdAt: '2024-04-10T22:46:09.919000+00:00'
+                      createdBy: 62517be2-1234-41df-b2f0-2e84b6709f89
+                      createdByType: user
+                      name: Test
+                      scheme: akv
+                      state: disabled
+                      updatedAt: '2024-04-10T22:46:50.425000+00:00'
+                      workspaceId: 5aab889c-db7d-4164-87b0-e07e57c36007
+                links:
+                  next: null
+                  previous: null
+                  self: /api/v1/vaults?page%5Bnumber%5D=1&page%5Bsize%5D=100
+                meta:
+                  page:
+                    maxSize: 100
+                    total: 51
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /integrations:
+    get:
+      operationId: getIntegrationList
+      tags:
+        - Integrations
+      summary: List integrations
+      description: >-
+        With a `GET` request to the `/integrations` endpoint, you can retrieve
+        the list of all your integrations in Cerby.
+
+
+        > **Important**: 
+
+        > The API scope required to use this endpoint is: **Read
+        integrations.** 
+      parameters:
+        - name: page[number]
+          in: query
+          description: The page number to retrieve in the paginated list.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          description: The number of items to return per page.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 25
+      responses:
+        '200':
+          description: '**OK** '
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/integration'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+              example:
+                data:
+                  - attributes:
+                      application: youtube_tenant
+                      createdAt: '2024-03-20T20:11:13+00:00'
+                      createdBy: 1ab381d7-abcd-dcab-ac7b-343cd6d12345
+                      label: Youtube acme
+                      updatedAt: '2024-03-25T15:20:09+00:00'
+                      workspace: acme
+                    id: 1234422e-abcd-4ee0-3322-54eecbcbab00
+                    type: account
+                links:
+                  next: /api/v1/integrations?page%5Bnumber%5D=2&page%5Bsize%5D=20
+                  previous: null
+                  self: /api/v1/integrations?page%5Bnumber%5D=1&page%5Bsize%5D=20
+                meta:
+                  page:
+                    maxSize: 100
+                    total: 1
+        '401':
+          $ref: '#/components/responses/401'
+  /integrations/{id}:
+    get:
+      operationId: getIntegrationById
+      tags:
+        - Integrations
+      summary: Retrieve integration by ID
+      description: >-
+        With a `GET` request to the `/integrations/{id}` endpoint, you can
+        retrieve the information of an integration by providing its ID.
+
+
+        > **Important:**
+
+        > The API scope required to use this endpoint is: **Read integrations.**
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the integration.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: '**OK** '
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/integration'
+              example:
+                data:
+                  attributes:
+                    application: youtube_tenant
+                    createdAt: '2024-03-20T20:11:13+00:00'
+                    createdBy: 1ab381d7-abcd-dcab-ac7b-343cd6d12345
+                    label: Youtube acme
+                    updatedAt: '2024-03-25T15:20:09+00:00'
+                    workspace: acme
+                  id: a427011c-abcd-1234-8393-43abcbcb1234
+                  type: account
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /integrations/{id}/user:
+    get:
+      operationId: getIntegrationUsers
+      tags:
+        - Integrations
+      summary: List users of an integration
+      description: >-
+        With a `GET` request to the `/integrations/{id}/users` endpoint, you can
+        retrieve the list of users of an integration by providing the
+        integration ID.
+
+
+        > **Important:**
+
+        > The API scopes required to use this endpoint are: **Read users** and
+        **Read integrations**.
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the integration.
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: page[number]
+          in: query
+          description: The page number to retrieve in the paginated list.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+        - name: page[size]
+          in: query
+          description: The number of items to return per page.
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 25
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/integrationUser'
+                  links:
+                    $ref: '#/components/schemas/links'
+                  meta:
+                    $ref: '#/components/schemas/meta'
+              example:
+                data:
+                  - attributes:
+                      email: jane@user.com
+                      entitlements:
+                        - attributes:
+                            group: primary
+                            key: VIEWER_LIMITED
+                            label: TENANT_VIEWER_LIMITED_DESC
+                            value: VIEWER_LIMITED
+                          id: VIEWER_LIMITED
+                          type: entitlement
+                      firstName: Jane
+                      isGuest: false
+                      lastName: User
+                      role: collaborator
+                      status: live
+                    id: 04393f7e-2244-1234-abcd-fca770123456
+                    type: user
+                    meta:
+                      dynamicFields:
+                        customAttribute1: value1
+                        customAttribute2: 123
+                        customAttribute3: true
+                  - attributes:
+                      email: joe@doe.com
+                      entitlements:
+                        - attributes:
+                            group: primary
+                            key: EDITOR_LIMITED
+                            label: YOUTUBE_TENANT_EDITOR_LIMITED_DESC
+                            value: EDITOR_LIMITED
+                          id: EDITOR_LIMITED
+                          type: entitlement
+                      firstName: Joe
+                      isGuest: false
+                      lastName: Doe
+                      role: owner
+                      status: live
+                    id: 0c9dabcb-1234-abcd-1234-1234c8003555
+                    type: user
+                    meta:
+                      dynamicFields:
+                        customAttribute1: value2
+                        customAttribute2: 456
+                        customAttribute3: false
+                links:
+                  next: null
+                  previous: null
+                  self: >-
+                    /api/v1/integrations/d538422e-b135-4ee0-8393-54eecbcb4a07/users?page%5Bnumber%5D=1&page%5Bsize%5D=20
+                meta:
+                  page:
+                    maxSize: 100
+                    total: 4
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+    post:
+      operationId: postInviteIntegrationUser
+      tags:
+        - Integrations
+      summary: Invite user to an integration
+      description: >-
+        With a `POST` request to the `/integrations/{id}/users` endpoint, you
+        can invite a user to an integration by providing the integration ID.
+
+
+        > **Important:**
+
+        > * The required API key scopes to access this resource are: **Write
+        integrations** and **Read automated jobs.**
+
+        > * This endpoint initiates an automated job. Note that the automation
+        process is asynchronous, which means it may take some time to complete.
+        We recommend making monitoring calls to the Retrieve job by ID endpoint
+        to check the status of the automation and ensure it has been completed
+        successfully.
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the integration.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        description: The object attributes you must send in the body of your request.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: object
+                  description: The attributes of the object.
+                  required:
+                    - attributes
+                    - type
+                  properties:
+                    attributes:
+                      type: object
+                      description: The attributes of the entitlements.
+                      required:
+                        - role
+                        - entitlements
+                        - userIds
+                      properties:
+                        role:
+                          type: string
+                          description: The role to assign to the user on the integration.
+                          enum:
+                            - account_owner
+                            - account_collaborator
+                        entitlements:
+                          type: array
+                          description: >-
+                            The array with the entitlements to assign to the
+                            user. The available entitlements depend on the
+                            integration.
+                          items:
+                            type: object
+                            required:
+                              - id
+                            properties:
+                              id:
+                                type: string
+                                description: The entitlement ID to be assigned to the user.
+                        userIds:
+                          type: array
+                          description: The array of user IDs to invite to the integration.
+                    type:
+                      type: string
+                      description: The action type in the request.
+                      enum:
+                        - invite_tenant_users
+            example:
+              data:
+                attributes:
+                  role: account_owner
+                  entitlements:
+                    - id: VIEWER_LIMITED
+                  userIds:
+                    - 1cc381f7-9c52-419f-ac7b-ae3cd6d148d4
+                type: invite_tenant_users
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/integrationJob'
+              example:
+                data:
+                  attributes:
+                    status: created
+                  id: 43c65e54-07fb-48c1-90e4-498d91b0f8b9
+                  type: job
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /integrations/{id}/entitlements:
+    get:
+      operationId: getIntegrationEntitlements
+      tags:
+        - Integrations
+      summary: List integration entitlements
+      description: >-
+        With a `GET` request to the `/integrations/{id}/entitlements` endpoint,
+        you can retrieve a list of the entitlements (roles) available for
+        assignment in an integration by providing the integration ID.
+
+
+        > **Important**: 
+
+        > The API scope required to use this endpoint is: **Write
+        integrations.** 
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the integration.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: '**OK** '
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/entitlement'
+              example:
+                data:
+                  - attributes:
+                      group: primary
+                      key: MANAGER
+                      label: YOUTUBE_TENANT_MANAGER_DESC
+                      value: MANAGER
+                    id: MANAGER
+                    type: entitlement
+                  - attributes:
+                      group: primary
+                      key: EDITOR
+                      label: YOUTUBE_TENANT_EDITOR_DESC
+                      value: EDITOR
+                    id: EDITOR
+                    type: entitlement
+                  - attributes:
+                      group: primary
+                      key: VIEWER_LIMITED
+                      label: YOUTUBE1-Q_TENANT_VIEWER_LIMITED_DESC
+                      value: VIEWER_LIMITED
+                    id: VIEWER_LIMITED
+                    type: entitlement
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /integrations/{id}/users/{userId}:
+    get:
+      operationId: getIntegrationUserById
+      tags:
+        - Integrations
+      summary: Retrieve user of an integration
+      description: >-
+        With a `GET` request to the `/integrations/{id}/users/{userId}`
+        endpoint, you can retrieve a user of an integration by providing the
+        user and integration IDs.
+
+
+        > **Important:**
+
+        > The API scopes required to use this endpoint are: **Read users** and
+        **Read integrations**.
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the integration.
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: userId
+          in: path
+          description: The unique identifier of the user to retrieve.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: '**OK** '
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/integrationUser'
+              example:
+                data:
+                  attributes:
+                    email: joe@doe.com
+                    entitlements:
+                      - attributes:
+                          group: primary
+                          key: EMPLOYEE
+                          label: PINTEREST_BUSINESS_EMPLOYEE_DESC
+                          value: EMPLOYEE
+                        id: EMPLOYEE
+                        type: entitlement
+                    firstName: Joe
+                    isGuest: false
+                    lastName: Doe
+                    role: owner
+                    status: live
+                  id: a4393f7e-1234-abcd-b23b-fca770912345
+                  type: user
+                  meta:
+                    dynamicFields:
+                      customAttribute1: value1
+                      customAttribute2: 123
+                      customAttribute3: true
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+    patch:
+      operationId: patchUpdateUserEntitlement
+      tags:
+        - Integrations
+      summary: Update a user’s entitlements in an integration
+      description: >-
+        With a `PATCH` request to the `/integrations/{id}/users/{userId}`
+        endpoint, you can update a user’s entitlements in an integration by
+        providing the user and integration IDs.
+
+
+        > **Important**: 
+
+        > * The required API key scopes to access this resource are: **Write
+        integrations** and **Write automated jobs.**
+
+        > * This endpoint initiates an automated job. Note that the automation
+        process is asynchronous, which means it may take some time to complete.
+        We recommend making monitoring calls to the Retrieve job by ID endpoint
+        to check the status of the automation and ensure it has been completed
+        successfully.
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the integration.
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: userId
+          in: path
+          description: The unique identifier of the user to update.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        description: The object attributes you must send in the body of your request.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: object
+                  description: The attributes of the object.
+                  required:
+                    - type
+                    - attributes
+                  properties:
+                    type:
+                      type: string
+                      description: The action type in the request.
+                      enum:
+                        - update_user_entitlement
+                    attributes:
+                      type: object
+                      description: The attributes of the entitlements.
+                      required:
+                        - entitlements
+                      properties:
+                        entitlements:
+                          type: array
+                          description: >-
+                            The array with the entitlements to be assigned to
+                            the user.
+                          items:
+                            type: object
+                            required:
+                              - id
+                            properties:
+                              id:
+                                type: string
+                                description: >-
+                                  The ID of the entitlement to be assigned to
+                                  the user. The available entitlements depend on
+                                  the integration.
+            example:
+              data:
+                type: update_user_entitlement
+                attributes:
+                  entitlements:
+                    - id: VIEWER
+      responses:
+        '200':
+          description: '**OK** '
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/integrationJob'
+              example:
+                data:
+                  attributes:
+                    status: created
+                  id: add12344-6550-abad-67c9-315e734923a5
+                  type: job
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+    delete:
+      operationId: deleteIntegrationUser
+      tags:
+        - Integrations
+      summary: Remove user from an integration
+      description: >-
+        With a `DELETE` request to the `/integrations/{id}/users/{userId}`
+        endpoint, you can remove a user from an integration by providing the
+        integration and the user IDs.
+
+
+        > **Important**: 
+
+        > * The required API key scopes to access this resource are: **Write
+        integrations** and **Write automated jobs.**
+
+        > * This endpoint initiates an automated job. Note that the automation
+        process is asynchronous, which means it may take some time to complete.
+        We recommend making monitoring calls to the Retrieve job by ID endpoint
+        to check the status of the automation and ensure it has been completed
+        successfully.
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the integration.
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: userId
+          in: path
+          description: The unique identifier of the user to be removed.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: '**OK**'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/integrationJob'
+              example:
+                data:
+                  attributes:
+                    status: created
+                  id: 722fbd00-421f-4f7a-babc-b12348e2bb12
+                  type: job
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+  /integrations/{id}/users/{userId}/entitlements:
+    patch:
+      operationId: patchAddRemoveEntitlementUser.
+      tags:
+        - Integrations
+      summary: Add or remove a user's entitlements in an integration
+      description: >-
+        With a `PATCH` request to the
+        `/integrations/{id}/users/{userId}/entitlements` endpoint, you can add
+        or remove a user’s individual entitlements in an integration, without
+        replacing all existing entitlements, by providing the user and
+        integration IDs.
+
+
+        > **Important**: 
+
+        > * The required API key scopes to access this resource are: **Write
+        integrations** and **Write automated jobs.**
+
+        > * This endpoint initiates an automated job. Note that the automation
+        process is asynchronous, which means it may take some time to complete.
+        We recommend making monitoring calls to the Retrieve job by ID endpoint
+        to check the status of the automation and ensure it has been completed
+        successfully.
+      parameters:
+        - name: id
+          in: path
+          description: The unique identifier of the integration.
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: userId
+          in: path
+          description: The unique identifier of the user to update.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        description: The object attributes you must send in the body of your request.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - data
+              properties:
+                data:
+                  type: object
+                  description: >-
+                    The attributes of the object. It must contain either `add`,
+                    `remove`, or both objects.
+                  properties:
+                    add:
+                      type: object
+                      description: >-
+                        The entitlements to add to the user. This object is
+                        optional if the `remove` object is present.
+                      properties:
+                        entitlements:
+                          type: array
+                          description: >-
+                            The array with the entitlement objects to add or
+                            remove from the user. 
+
+
+                            > **Important:** At least one array must be present
+                            in either the add or remove object.
+                          items:
+                            type: object
+                            required:
+                              - id
+                            properties:
+                              id:
+                                type: string
+                                description: >-
+                                  The ID of the entitlement to be added or
+                                  removed from the user. The available
+                                  entitlements depend on the integration, and
+                                  they must be valid.
+                    remove:
+                      type: object
+                      description: >-
+                        The entitlements to remove from the user. This object is
+                        optional if the `add` object is present.
+                      properties:
+                        entitlements:
+                          type: array
+                          description: >-
+                            The array with the entitlement objects to add or
+                            remove from the user. 
+
+
+                            > **Important:** At least one array must be present
+                            in either the add or remove object.
+                          items:
+                            type: object
+                            required:
+                              - id
+                            properties:
+                              id:
+                                type: string
+                                description: >-
+                                  The ID of the entitlement to be added or
+                                  removed from the user. The available
+                                  entitlements depend on the integration, and
+                                  they must be valid.
+            example:
+              data:
+                add:
+                  entitlements:
+                    - id: VIEWER
+                remove:
+                  entitlements:
+                    - id: EDITOR
+      responses:
+        '200':
+          description: '**OK** '
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/integrationJob'
+              example:
+                data:
+                  attributes:
+                    status: created
+                  id: add12344-6550-abad-67c9-315e734923a5
+                  type: job
+        '401':
+          $ref: '#/components/responses/401'
+        '404':
+          $ref: '#/components/responses/404'
+components:
+  schemas:
+    account:
+      type: object
+      description: An account object representing a Cerby account and its metadata.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the account.
+          properties:
+            application:
+              type: string
+              description: The application to which the account belongs.
+            businessId:
+              type: string
+              description: >
+                The business ID of an external app associated with an
+                integration.
+                  
+                > **Note:** This attribute only applies to service accounts.
+            cerbyManagedEmail:
+              type: boolean
+              description: |
+                Indicates whether the account has a Cerby-managed email.  
+                * `true`: The Cerby-managed email is created.
+                * `false`: A Cerby-managed email is not created.
+            cerbyManagedPhone:
+              type: boolean
+              description: |
+                Indicates whether the account has a Cerby-managed phone.
+                * `true`: A Cerby-managed phone is created. 
+                * `false`: A Cerby-managed phone is not created.
+            createdAt:
+              type: string
+              format: date-time
+              description: The date when the account was created (ISO 8601 format).
+            createdBy:
+              type: string
+              description: The ID of the user who created the account.
+            hasBackupCode:
+              type: boolean
+              description: >
+                Indicates whether the account **Owner** has saved backup codes
+                in Cerby.
+
+                * `true`: The backup codes are saved in Cerby.
+
+                * `false`: No backup codes are saved in Cerby.
+            hasPasskey:
+              type: boolean
+              description: >
+                Indicates whether the account has a [passkey created using the
+                Cerby mobile
+                app](https://help.cerby.com/en/articles/10875208-explore-passkeys-in-cerby).  
+
+                * `true`: The account has a passkey created in Cerby.
+
+                * `false`: The account does not have a passkey in Cerby.
+            hasTotp:
+              type: boolean
+              description: >
+                Indicates whether the account has time-based one-time password
+                (TOTP) set up as MFA in Cerby.  
+
+                * `true`: The account has TOTP set up in Cerby. 
+
+                * `false`: The account does not have TOTP set up in Cerby.
+            label:
+              type: string
+              description: The name or label of the account.
+            lastLoginBy:
+              type: string
+              description: The name of the user who last logged into the account via Cerby.
+            lastLoginDate:
+              type: string
+              format: date-time
+              description: >-
+                The date when a user last logged in or retrieved the password
+                (ISO 8601 format).
+            lastPasswordChange:
+              type: string
+              format: date-time
+              description: >-
+                The date when the account password was last changed (ISO 8601
+                format).
+            mfaEnabled:
+              type: boolean
+              description: >
+                Indicates whether the account has multi-factor authentication
+                (MFA) enabled in Cerby.  
+
+                * `true`: The account has MFA turned on in Cerby. 
+
+                * `false`: The account does not have MFA turned on in Cerby.
+            mfaTypes:
+              type: array
+              items:
+                type: string
+                enum:
+                  - rsa_secur_id_token
+                  - otp
+                  - email
+                  - voip
+                  - non-voip
+              description: >
+                The list of MFA methods turned on and managed by Cerby for the
+                account.
+            updatedAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the account was last updated in the ([ISO 8601
+                format](https://www.iso.org/iso-8601-date-and-time-format.html)
+                format.
+            workspace:
+              type: string
+              description: The workspace where the account is stored.
+        id:
+          type: string
+          description: The unique identifier of the account.
+        type:
+          type: string
+          description: The item type is always `account`.
+          enum:
+            - account
+    links:
+      type: object
+      properties:
+        next:
+          type: string
+          nullable: true
+          description: The next page of results.
+        previous:
+          type: string
+          nullable: true
+          description: The previous page of results.
+        self:
+          type: string
+          description: The self reference to the endpoint you are calling.
+      description: The related URLs that can be helpful for navigation.
+    meta:
+      type: object
+      properties:
+        page:
+          type: object
+          description: The attributes of the page in the response.
+          properties:
+            maxSize:
+              type: number
+              description: The maximum number of items that can be returned per page.
+            total:
+              type: number
+              description: The total number of items available across all pages.
+      description: >-
+        The metadata about the response with additional context or information
+        about the `data` object.
+    error:
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            type: object
+            properties:
+              code:
+                type: string
+              detail:
+                type: string
+              meta:
+                type: object
+                nullable: true
+              status:
+                type: number
+              title:
+                type: string
+    accountSecret:
+      type: object
+      description: The account’s secret object.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the account’s secret.
+          properties:
+            body:
+              type: object
+              description: The content of the account’s secret.
+              properties:
+                type:
+                  type: string
+                  description: The type of content.
+                value:
+                  type: string
+                  description: The value of the account’s secret.
+            createdAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the secret was created in the [ISO
+                8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+                format.
+            secretType:
+              type: string
+              description: >-
+                The secret type value is always `password`. No other values are
+                supported.
+            updatedAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the secret was last updated in the [ISO
+                8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+                format.
+            vaultId:
+              type: string
+              description: The unique identifier of the vault.
+        id:
+          type: string
+          description: The unique identifier of the account.
+        type:
+          type: string
+          description: The item type is always `account`.
+    secret:
+      type: object
+      description: >-
+        A secret object that contains sensitive information such as passwords,
+        keys, or licenses.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the secret.
+          properties:
+            body:
+              type: object
+              description: The content of the secret.
+              properties:
+                type:
+                  type: string
+                  description: The type of content. The possible value is `plaintext`.
+                  enum:
+                    - plaintext
+                value:
+                  type: string
+                  description: The actual secret content.
+            category:
+              type: string
+              description: The category of the secret.
+              enum:
+                - text
+                - wifi_password
+                - ssh_key
+                - database
+                - server
+                - software_license
+                - custom
+            createdAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the secret was created in the [ISO
+                8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+                format.
+            createdBy:
+              type: string
+              description: The ID of the user who created the secret.
+            eventName:
+              type: string
+              description: The name of the latest event that occurred for the secret.
+              enum:
+                - create
+                - update
+                - restore_version
+                - delete
+            expiresAt:
+              type: string
+              format: date-time
+              nullable: true
+              description: >-
+                The date when the secret expires in the [ISO
+                8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+                format.
+
+
+                > **Important:** Only supported for the `text` category.
+            requiresIdentityChallenge:
+              type: boolean
+              description: >-
+                The boolean value that indicates whether the secret requires an
+                identity challenge to be opened. 
+
+
+                * `true`: An identity challenge is required.
+
+                * `false`: The challenge is not required.
+            role:
+              type: string
+              description: The role assignment of the user or team on the secret.
+              enum:
+                - secret_owner
+                - secret_collaborator
+            status:
+              type: string
+              description: The status of the secret.
+              enum:
+                - active
+                - disabled
+            title:
+              type: string
+              description: The title of the secret.
+            updatedAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the secret was last updated in the [ISO
+                8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+                format.
+            updatedBy:
+              type: string
+              description: The ID of the user who last updated the secret.
+            version:
+              type: number
+              description: >-
+                The numerical value that indicates the current version of the
+                secret.
+            versionId:
+              type: string
+              description: The unique identifier of the current version of the secret.
+            workspaceId:
+              type: string
+              description: The ID of the workspace where the secret is saved.
+            workspaceName:
+              type: string
+              description: The name of the workspace where the secret is saved.
+        id:
+          type: string
+          description: The unique identifier of the secret.
+        type:
+          type: string
+          description: The item type is always `secret`.
+    collection:
+      type: object
+      description: The attributes of the collection.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the collection.
+          properties:
+            createdAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the collection was created in the [ISO 8610
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            createdBy:
+              type: string
+              format: uuid
+              description: The ID of the user who created the collection.
+            meta:
+              type: object
+              description: >-
+                The object to provide additional information about a collection
+                using key-value pairs.
+            name:
+              type: string
+              description: The name of the collection.
+            roles:
+              type: array
+              description: The roles of the users with shared access to the collection.
+              items:
+                type: string
+                enum:
+                  - collection_owner
+                  - collection_collaborator
+            status:
+              type: string
+              description: The status of the collection.
+              enum:
+                - enabled
+                - disabled
+            updatedAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the collection was last updated in the [ISO 8610
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            updatedBy:
+              type: string
+              format: uuid
+              description: The ID of the user who last updated the collection.
+        id:
+          type: string
+          format: uuid
+          description: The unique identifier of the collection.
+        type:
+          type: string
+          description: The item type is always `collections`.
+    users:
+      type: object
+      description: The attributes of the user.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the user.
+          properties:
+            createdAt:
+              type: string
+              description: >-
+                The date when the user was created in the [ISO 8610
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            email:
+              type: string
+              description: The email of the user.
+            firstName:
+              type: string
+              description: The first name of the user.
+            isGuest:
+              type: boolean
+              description: >-
+                The boolean value that indicates whether the user is a guest
+                user. 
+
+
+                * `true`: The user is a guest user.
+
+                * `false`: The user is not a guest user.
+            lastName:
+              type: string
+              description: The last name of the user.
+            role:
+              type: string
+              description: The workspace role of the user.
+              enum:
+                - workspace_owner
+                - workspace_super_admin
+                - workspace_guest_admin
+                - workspace_login_only
+                - workspace_guest_user
+            status:
+              type: string
+              description: >-
+                The status of the user in the workspace. 
+
+                The possible values are: 
+
+                * `live`: For active users
+
+                * `pending`: For users who have been provisioned or invited but
+                have not logged in to the workspace or set up their user
+                account.  
+
+                * `disabled`: For users removed from the workspace
+              enum:
+                - live
+                - pending
+                - disabled
+            mfaStatus:
+              type: object
+              nullable: true
+              description: >
+                The MFA status for the user. This value is `null` when the
+                `mfaStatus` query parameter is not provided or set to `false`.
+              properties:
+                mfaEnabled:
+                  type: boolean
+                  description: Indicates whether MFA is enabled for the user.
+                mfaEnrollmentDate:
+                  type: string
+                  format: date-time
+                  description: >-
+                    The date when MFA was enrolled for the user (ISO 8601
+                    format).
+            updatedAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the user was last updated in the [ISO 8610
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+        id:
+          type: string
+          description: The unique identifier of the user.
+        type:
+          type: string
+          description: The resource type is always `user`.
+    team:
+      type: object
+      description: The team object.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the team.
+          properties:
+            createdAt:
+              type: string
+              description: >-
+                The date when the team was created in the [ISO 8601
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            name:
+              type: string
+              description: The name of the team.
+            type:
+              type: string
+              description: The type of team according to how it was created.
+              enum:
+                - scim_managed
+                - user_managed
+            updatedAt:
+              type: string
+              description: >-
+                The date when the team was updated in the [ISO 8601
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            workspaceId:
+              type: string
+              description: The ID of the workspace where the team was created.
+        id:
+          type: string
+          description: The unique identifier of the team.
+        type:
+          type: string
+          description: The item type is always `team`.
+    job:
+      type: object
+      description: A job object representing an account or integration workflow execution.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the jobs.
+          properties:
+            account:
+              type: object
+              description: The account object related to the job.
+              properties:
+                entity:
+                  type: string
+                  description: The object entity type is always `account`.
+                id:
+                  type: string
+                  description: The unique identifier of the account.
+                name:
+                  type: string
+                  description: The name of the account.
+                provider:
+                  type: string
+                  description: >-
+                    The service provider or application associated with the
+                    account.
+            canRetry:
+              type: boolean
+              description: |
+                Indicates whether the job can be retried.  
+                * `true`: The job can be retried.  
+                * `false`: The job cannot be retried.
+            createdAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the job was created in the [ISO
+                8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+                format.
+            createdBy:
+              type: object
+              description: The user object related to the user who created the job.
+              properties:
+                id:
+                  type: string
+                  description: The ID of the user who created the job.
+                name:
+                  type: string
+                  description: The name of the user who created the job.
+            errorDetails:
+              type: object
+              description: The error detail object related to the job.
+              properties:
+                errorType:
+                  type: string
+                  description: The error type.
+                screenshotUrl:
+                  type: string
+                  description: The URL of the screenshot showing where the error occurred.
+                userRequired:
+                  type: boolean
+                  description: >
+                    The boolean value that indicates whether user intervention
+                    is required to solve the error.  
+
+                    * `true`: The user required.
+
+                    * `false`: The user is not required.
+            hasMoreDetails:
+              type: boolean
+              description: >
+                The boolean value that indicates whether the error has more
+                details.  
+
+                * `true`: The error has more details.
+
+                * `false`: The error has no additional details.
+            payload:
+              type: object
+              description: The payload object related to the job.
+            response:
+              type: object
+              description: The response object of the job.
+            status:
+              type: string
+              description: The status of the job.
+              enum:
+                - started
+                - created
+                - finished
+                - error
+                - running
+                - retrying
+            trigger:
+              type: string
+              description: The trigger of the job.
+              enum:
+                - manual
+                - workspace_policy
+                - system
+                - user_deprovisioned
+            updatedAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the job was last updated in the [ISO
+                8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+                format.
+            workflowType:
+              type: string
+              description: |
+                The type of workflow performed.
+                **For account workflows:**
+                - password_rotation  
+                - setup_mfa  
+                - disable_mfa  
+                - email_swap_in  
+                - phone_swap_in  
+                - healthcheck_mfa
+                **For integration workflows:**  
+                - get_business  
+                - provide_access  
+                - update_access  
+                - revoke_access  
+                - get_native_partner_business  
+                - provide_native_partner_access  
+                - revoke_native_partner_access
+            workspacePolicyEnforcementId:
+              type: string
+              description: The unique identifier of the enforced workspace policy.
+        id:
+          type: string
+          description: The unique identifier of the job.
+        type:
+          type: string
+          description: The item type is always `job`.
+    vault:
+      type: object
+      description: A vault object representing an encryption vault in Cerby.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the vault.
+          properties:
+            createdAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the vault was created in the [ISO 8610
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            createdBy:
+              type: string
+              description: The ID of the user who created the vault.
+            createdByType:
+              type: string
+              description: >-
+                Indicates whether the vault was created by the `system` or a
+                `user`.
+              enum:
+                - system
+                - user
+            name:
+              type: string
+              description: The name of the vault.
+            scheme:
+              type: string
+              description: The scheme type used to create the vault.
+              enum:
+                - local_encryption_key
+                - kms_byo
+                - akv
+            state:
+              type: string
+              description: The status of the vault.
+              enum:
+                - enabled
+                - disabled
+            updatedAt:
+              type: string
+              format: date-time
+              description: >-
+                The date when the vault was last updated in the [ISO 8610
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            workspaceId:
+              type: string
+              description: The ID of the workspace where the vault is created.
+        id:
+          type: string
+          description: The unique identifier of the vault.
+        type:
+          type: string
+          description: The item type is always `vault`.
+    integration:
+      type: object
+      description: The integration object.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the integration.
+          properties:
+            application:
+              type: string
+              description: >-
+                The service provider or application associated with the
+                integration.
+            createdAt:
+              type: string
+              description: >-
+                The date when the integration was created in the [ISO 8601
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            createdBy:
+              type: string
+              description: The ID of the user who created the integration.
+            label:
+              type: string
+              description: The name or label of the integration.
+            updatedAt:
+              type: string
+              description: >-
+                The date when the integration was last updated in the [ISO 8601
+                format](https://www.iso.org/iso-8601-date-and-time-format.html).
+            workspace:
+              type: string
+              description: The name of the workspace to which the integration is connected.
+        id:
+          type: string
+          description: The unique identifier of the integration.
+        type:
+          type: string
+          description: The type is always `account`.
+    integrationUser:
+      type: object
+      description: The integration user object.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the user.
+          properties:
+            email:
+              type: string
+              description: The email of the user.
+            entitlements:
+              type: array
+              description: The array of all entitlement objects assigned to the user.
+            firstName:
+              type: string
+              description: The first name of the user.
+            isGuest:
+              type: boolean
+              description: >-
+                The boolean value that indicates whether the user is a guest
+                user with access to the integration. 
+
+                * `true`: The user is a guest user.
+
+                * `false`: The user is not a guest user.
+            lastName:
+              type: string
+              description: The last name of the user.
+            role:
+              type: string
+              description: The role of the user on the integration account.
+              enum:
+                - owner
+                - collaborator
+            status:
+              type: string
+              description: |-
+                The status of the user in the workspace. 
+                The possible values are: 
+                  * `live`: For active users
+                  * `pending`: For users who have been provisioned or invited but have not logged in to the workspace or set up their user account.  
+                  * `disabled`: For users removed from the workspace
+              enum:
+                - live
+                - pending
+                - disabled
+        id:
+          type: string
+          description: The unique identifier of the user.
+        type:
+          type: string
+          description: The type is always `user`.
+        meta:
+          type: object
+          description: >-
+            The meta object with additional, varied metadata related to the
+            user.
+          properties:
+            dynamicFields:
+              type: object
+              description: >-
+                The additional user attributes in the external app. This object
+                contains a map of string keys with values of any type,
+                representing custom fields or properties specific to the
+                integration.
+    integrationJob:
+      type: object
+      description: The automated job object.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the automated job.
+          properties:
+            status:
+              type: string
+              description: The status of the automated job.
+        id:
+          type: string
+          description: The unique identifier of the automated job.
+        type:
+          type: string
+          description: The type is always `job`.
+    entitlement:
+      type: object
+      description: The entitlement object.
+      properties:
+        attributes:
+          type: object
+          description: The attributes of the entitlement.
+          properties:
+            group:
+              type: string
+              description: |-
+                The group of the entitlement. The possible values are: 
+                * `primary`: For primary roles like admin or employee. 
+                * `secondary`: For secondary roles like finance or analyst.
+              enum:
+                - primary
+                - secondary
+            key:
+              type: string
+              description: The key identifier of the entitlement.
+            label:
+              type: string
+              description: The name or label of the entitlement.
+            value:
+              type: string
+              description: The value assigned to the entitlement.
+        id:
+          type: string
+          description: The unique identifier of the entitlement.
+        type:
+          type: string
+          description: The type is always `entitlement`.
+  responses:
+    '400':
+      description: >-
+        **Bad request** - The server could not interpret the request due to
+        invalid syntax or missing parameters. Review your request and correct
+        it.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+          examples:
+            unauthorizedExample:
+              value:
+                errors:
+                  - code: Bad request
+                    detail: >-
+                      The server could not interpret the request due to invalid
+                      syntax or missing parameters. Review your request and
+                      correct it.
+                    meta: null
+                    status: 400
+                    title: Bad request
+    '401':
+      description: '**Unauthorized** - User is not authorized to perform the request.'
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+          examples:
+            unauthorizedExample:
+              value:
+                errors:
+                  - code: Unauthorized
+                    detail: User is not authorized to perform the request.
+                    meta: null
+                    status: 401
+                    title: Unauthorized
+    '403':
+      description: '**Forbidden** - User does not have permission to perform this action.'
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+          examples:
+            forbiddenExample:
+              value:
+                errors:
+                  - code: Forbidden
+                    detail: User does not have permission to perform this action.
+                    meta: null
+                    status: 403
+                    title: Forbidden
+    '404':
+      description: '**Not found** - Resource not found.'
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+          examples:
+            notFoundExample:
+              value:
+                errors:
+                  - code: Not found
+                    detail: Resource not found.
+                    meta: null
+                    status: 404
+                    title: Not found
+    '409':
+      description: >-
+        **Conflict** - The request conflicts with the current state of the
+        resource.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+          examples:
+            conflictExample:
+              value:
+                errors:
+                  - code: Conflict
+                    detail: >-
+                      The request conflicts with the current state of the
+                      resource.
+                    meta: null
+                    status: 409
+                    title: Conflict
