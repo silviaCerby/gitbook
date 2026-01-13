@@ -1,9 +1,9 @@
 # Summary
 
+* [Glossary](glossary.md)
 * [Getting Started Guide for Account Owners and Collaborators](getting-started-guide-for-account-owners-and-collaborators.md)
 * [Getting Started Guide for Admins](getting-started-guide-for-admins.md)
 * [Getting started with IdLCM integrations connected to Okta](getting-started-with-idlcm-integrations-connected-to-okta.md)
-* [Glossary](glossary.md)
 * [[Video Guide] Getting started with Cerby](video-guide-getting-started-with-cerby.md)
 * [[Video] How to log in to your Cerby workspace](video-how-to-log-in-to-your-cerby-workspace.md)
 * Cerby browser extension
