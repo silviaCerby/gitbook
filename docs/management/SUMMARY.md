@@ -66,6 +66,37 @@
 * Identity lifecycle
     * Business hubs
         * [Why managing your paid social apps through Cerby](identity_lifecycle/business_hubs/why-managing-your-paid-social-apps-through-cerby.md)
+        * Manage integrations
+            * [Assign managers to your business hub](identity_lifecycle/business_hubs/manage_integrations/assign-managers-to-your-business-hub.md)
+            * [Configure the sync safeguard threshold of your business hub](identity_lifecycle/business_hubs/manage_integrations/configure-the-sync-safeguard-threshold-of-your-business-hub.md)
+            * [Connect a business hub for your app](identity_lifecycle/business_hubs/manage_integrations/connect-a-business-hub-for-your-app.md)
+            * [Create an automation or service account for your business hub](identity_lifecycle/business_hubs/manage_integrations/create-an-automation-or-service-account-for-your-business-hub.md)
+            * [Manage access to business hubs and assets with collections](identity_lifecycle/business_hubs/manage_integrations/manage-access-to-business-hubs-and-assets-with-collections.md)
+            * [Remove a business hub](identity_lifecycle/business_hubs/manage_integrations/remove-a-business-hub.md)
+            * [Remove managers from your business hub](identity_lifecycle/business_hubs/manage_integrations/remove-managers-from-your-business-hub.md)
+            * [Retrieve the Business ID to connect your disconnected apps to Cerby](identity_lifecycle/business_hubs/manage_integrations/retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby.md)
+            * [[UNPUBLISHED] Manage app members from your IdP (deprecated)](identity_lifecycle/business_hubs/manage_integrations/unpublished-manage-app-members-from-your-idp-deprecated.md)
+            * [Update the role of the business hub managers](identity_lifecycle/business_hubs/manage_integrations/update-the-role-of-the-business-hub-managers.md)
+            * [[Video] How to add a Business Center to your Cerby workspace](identity_lifecycle/business_hubs/manage_integrations/video-how-to-add-a-business-center-to-your-cerby-workspace.md)
+            * [[Video] How to add a service account with Cerby-managed second factors](identity_lifecycle/business_hubs/manage_integrations/video-how-to-add-a-service-account-with-cerby-managed-second-factors.md)
+            * [[Video] How to connect an App](identity_lifecycle/business_hubs/manage_integrations/video-how-to-connect-an-app.md)
+            * [[Video] How to share a Business Center and its assets](identity_lifecycle/business_hubs/manage_integrations/video-how-to-share-a-business-center-and-its-assets.md)
+            * [[Video] How to synchronize a Business Center (Using Facebook Business Manager)](identity_lifecycle/business_hubs/manage_integrations/video-how-to-synchronize-a-business-center-using-facebook-business-manager.md)
+            * [View the managers of your business hub](identity_lifecycle/business_hubs/manage_integrations/view-the-managers-of-your-business-hub.md)
+            * [View the status of your business hub integration](identity_lifecycle/business_hubs/manage_integrations/view-the-status-of-your-business-hub-integration.md)
+            * [View the users of your business hub](identity_lifecycle/business_hubs/manage_integrations/view-the-users-of-your-business-hub.md)
+        * Manage users
+            * [Add users and teams to your apps via a business hub](identity_lifecycle/business_hubs/manage_users/add-users-and-teams-to-your-apps-via-a-business-hub.md)
+            * [Deprovision users from your apps via an IdP and business hub](identity_lifecycle/business_hubs/manage_users/deprovision-users-from-your-apps-via-an-idp-and-business-hub.md)
+            * [Protect your app user accounts via a business hub](identity_lifecycle/business_hubs/manage_users/protect-your-app-user-accounts-via-a-business-hub.md)
+            * [Provision users to your apps via an IdP and business hub](identity_lifecycle/business_hubs/manage_users/provision-users-to-your-apps-via-an-idp-and-business-hub.md)
+            * [Remove teams from your app via a business hub](identity_lifecycle/business_hubs/manage_users/remove-teams-from-your-app-via-a-business-hub.md)
+            * [Remove users from your app via a business hub](identity_lifecycle/business_hubs/manage_users/remove-users-from-your-app-via-a-business-hub.md)
+            * [Sync your business hub with your external app](identity_lifecycle/business_hubs/manage_users/sync-your-business-hub-with-your-external-app.md)
+            * [Track activity on app members’ user accounts](identity_lifecycle/business_hubs/manage_users/track-activity-on-app-members-user-accounts.md)
+            * [Update team member roles in your app via a business hub](identity_lifecycle/business_hubs/manage_users/update-team-member-roles-in-your-app-via-a-business-hub.md)
+            * [Update user roles in your app via a business hub](identity_lifecycle/business_hubs/manage_users/update-user-roles-in-your-app-via-a-business-hub.md)
+            * [Update user roles in your apps via an IdP and business hub](identity_lifecycle/business_hubs/manage_users/update-user-roles-in-your-apps-via-an-idp-and-business-hub.md)
         * Apps
             * 10bis
                 * [Connect a business hub for 10bis](identity_lifecycle/business_hubs/apps/10bis/connect-a-business-hub-for-10bis.md)
@@ -404,37 +435,6 @@
                 * [Connect a business hub for Workwize](identity_lifecycle/business_hubs/apps/Workwize/connect-a-business-hub-for-workwize.md)
             * WP Engine
                 * [Connect a business hub for WP Engine](identity_lifecycle/business_hubs/apps/WP_Engine/connect-a-business-hub-for-wp-engine.md)
-        * Manage integrations
-            * [Assign managers to your business hub](identity_lifecycle/business_hubs/manage_integrations/assign-managers-to-your-business-hub.md)
-            * [Configure the sync safeguard threshold of your business hub](identity_lifecycle/business_hubs/manage_integrations/configure-the-sync-safeguard-threshold-of-your-business-hub.md)
-            * [Connect a business hub for your app](identity_lifecycle/business_hubs/manage_integrations/connect-a-business-hub-for-your-app.md)
-            * [Create an automation or service account for your business hub](identity_lifecycle/business_hubs/manage_integrations/create-an-automation-or-service-account-for-your-business-hub.md)
-            * [Manage access to business hubs and assets with collections](identity_lifecycle/business_hubs/manage_integrations/manage-access-to-business-hubs-and-assets-with-collections.md)
-            * [Remove a business hub](identity_lifecycle/business_hubs/manage_integrations/remove-a-business-hub.md)
-            * [Remove managers from your business hub](identity_lifecycle/business_hubs/manage_integrations/remove-managers-from-your-business-hub.md)
-            * [Retrieve the Business ID to connect your disconnected apps to Cerby](identity_lifecycle/business_hubs/manage_integrations/retrieve-the-business-id-to-connect-your-disconnected-apps-to-cerby.md)
-            * [[UNPUBLISHED] Manage app members from your IdP (deprecated)](identity_lifecycle/business_hubs/manage_integrations/unpublished-manage-app-members-from-your-idp-deprecated.md)
-            * [Update the role of the business hub managers](identity_lifecycle/business_hubs/manage_integrations/update-the-role-of-the-business-hub-managers.md)
-            * [[Video] How to add a Business Center to your Cerby workspace](identity_lifecycle/business_hubs/manage_integrations/video-how-to-add-a-business-center-to-your-cerby-workspace.md)
-            * [[Video] How to add a service account with Cerby-managed second factors](identity_lifecycle/business_hubs/manage_integrations/video-how-to-add-a-service-account-with-cerby-managed-second-factors.md)
-            * [[Video] How to connect an App](identity_lifecycle/business_hubs/manage_integrations/video-how-to-connect-an-app.md)
-            * [[Video] How to share a Business Center and its assets](identity_lifecycle/business_hubs/manage_integrations/video-how-to-share-a-business-center-and-its-assets.md)
-            * [[Video] How to synchronize a Business Center (Using Facebook Business Manager)](identity_lifecycle/business_hubs/manage_integrations/video-how-to-synchronize-a-business-center-using-facebook-business-manager.md)
-            * [View the managers of your business hub](identity_lifecycle/business_hubs/manage_integrations/view-the-managers-of-your-business-hub.md)
-            * [View the status of your business hub integration](identity_lifecycle/business_hubs/manage_integrations/view-the-status-of-your-business-hub-integration.md)
-            * [View the users of your business hub](identity_lifecycle/business_hubs/manage_integrations/view-the-users-of-your-business-hub.md)
-        * Manage users
-            * [Add users and teams to your apps via a business hub](identity_lifecycle/business_hubs/manage_users/add-users-and-teams-to-your-apps-via-a-business-hub.md)
-            * [Deprovision users from your apps via an IdP and business hub](identity_lifecycle/business_hubs/manage_users/deprovision-users-from-your-apps-via-an-idp-and-business-hub.md)
-            * [Protect your app user accounts via a business hub](identity_lifecycle/business_hubs/manage_users/protect-your-app-user-accounts-via-a-business-hub.md)
-            * [Provision users to your apps via an IdP and business hub](identity_lifecycle/business_hubs/manage_users/provision-users-to-your-apps-via-an-idp-and-business-hub.md)
-            * [Remove teams from your app via a business hub](identity_lifecycle/business_hubs/manage_users/remove-teams-from-your-app-via-a-business-hub.md)
-            * [Remove users from your app via a business hub](identity_lifecycle/business_hubs/manage_users/remove-users-from-your-app-via-a-business-hub.md)
-            * [Sync your business hub with your external app](identity_lifecycle/business_hubs/manage_users/sync-your-business-hub-with-your-external-app.md)
-            * [Track activity on app members’ user accounts](identity_lifecycle/business_hubs/manage_users/track-activity-on-app-members-user-accounts.md)
-            * [Update team member roles in your app via a business hub](identity_lifecycle/business_hubs/manage_users/update-team-member-roles-in-your-app-via-a-business-hub.md)
-            * [Update user roles in your app via a business hub](identity_lifecycle/business_hubs/manage_users/update-user-roles-in-your-app-via-a-business-hub.md)
-            * [Update user roles in your apps via an IdP and business hub](identity_lifecycle/business_hubs/manage_users/update-user-roles-in-your-apps-via-an-idp-and-business-hub.md)
         * Paid social apps
             * LinkedIn
                 * [Connect a business hub for LinkedIn Business Manager](identity_lifecycle/business_hubs/paid_social_apps/LinkedIn/connect-a-business-hub-for-linkedin-business-manager.md)
@@ -465,7 +465,7 @@
                 * [[Video] How to connect a TikTok Business Center app integration](identity_lifecycle/business_hubs/paid_social_apps/TikTok_for_Business/video-how-to-connect-a-tiktok-business-center-app-integration.md)
             * X for Business
                 * [Connect a business hub for X Ads](identity_lifecycle/business_hubs/paid_social_apps/X_for_Business/connect-a-business-hub-for-x-ads.md)
-    * Idlcm
+    * IdLCM
         * Manage integrations
             * [Configure the sync safeguard threshold of your IdLCM Integration](identity_lifecycle/idlcm/manage_integrations/configure-the-sync-safeguard-threshold-of-your-idlcm-integration.md)
             * [Configure your user schema](identity_lifecycle/idlcm/manage_integrations/configure-your-user-schema.md)
@@ -485,8 +485,8 @@
             * [Provision users to your app via an IdP and IdLCM integration](identity_lifecycle/idlcm/manage_users/provision-users-to-your-app-via-an-idp-and-idlcm-integration.md)
             * [Sync users, roles, and entitlements from your external app to Cerby](identity_lifecycle/idlcm/manage_users/sync-users-roles-and-entitlements-from-your-external-app-to-cerby.md)
             * [Update user assignments in your app via an IdP and IdLCM integration](identity_lifecycle/idlcm/manage_users/update-user-assignments-in-your-app-via-an-idp-and-idlcm-integration.md)
-* Identity providers (idps)
-    * Entra id
+* Identity providers (IdPs)
+    * Entra ID
         * [Configure automatic user and group provisioning with Entra ID via SCIM](identity_providers_(idps)/entra_id/configure-automatic-user-and-group-provisioning-with-entra-id-via-scim.md)
         * [Configure SSO in Cerby with Entra ID via SAML](identity_providers_(idps)/entra_id/configure-sso-in-cerby-with-entra-id-via-saml.md)
     * Google
