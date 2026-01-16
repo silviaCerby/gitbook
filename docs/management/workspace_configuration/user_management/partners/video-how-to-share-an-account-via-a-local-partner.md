@@ -7,7 +7,7 @@ intercom_id: 11511608
 
 ## Key concepts
 
-* Only **Host Admins** of an existing [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners) can share the accounts they own with a local partner for collaboration purposes.
+* Only **Host Admins** of an existing [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2) can share the accounts they own with a local partner for collaboration purposes.
 * By default, the only users on the local partner’s side who receive shared access to the accounts are the **Guest Admins** , who can be assigned any of the following two roles:
   * **Collaborator: Guest Admins** can only log in to the accounts through Cerby.
   * **Manager: Guest Admins** can log in to the accounts through Cerby and share access to them with other **Guest Users** ; they cannot manage the account details.

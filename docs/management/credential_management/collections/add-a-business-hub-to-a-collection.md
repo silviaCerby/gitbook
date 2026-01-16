@@ -45,7 +45,7 @@ To add a business hub to a collection, you must complete the following steps usi
 {% hint style="info" %}
 
 
-**NOTE:** For existing members and teams in the collection, Cerby sends emails for users to claim access to the business hub. After they claim access, Cerby adds these users to the external apps. For more information, read the article [Manage access to business hubs and assets with collections](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/manage-access-to-business-hubs-and-assets-with-collections).
+**NOTE:** For existing members and teams in the collection, Cerby sends emails for users to claim access to the business hub. After they claim access, Cerby adds these users to the external apps. For more information, read the article [Manage access to business hubs and assets with collections](https://help.cerby.com/en/articles/11102692-manage-access-to-business-hubs-and-assets-with-collections).
 
 
 {% endhint %}

@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to remove users and teams as managers of your business hub."
 intercom_id: 10971668
+hidden: true
+noIndex: true
 ---
 
 # Remove managers from your business hub

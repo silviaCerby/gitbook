@@ -53,7 +53,7 @@ To create and configure an HTTP Event Collector in Spunk, complete the following
 
 The Splunk system provides the URI and may contain a port. If applicable, ensure you share the port to prevent issues receiving the events.
 
-**IMPORTANT:** Use a Cerby secure secret instead of sending sensitive details directly. For more information, refer to the articles [Share items with external users via a link](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/share-items-with-external-users-via-a-link) and [[Video] How to share a secret with external users via a public link](https://help.cerby.com/en/articles/8384438-video-how-to-share-a-secret-with-external-users-via-a-public-link) to learn how to share the values securely.
+**IMPORTANT:** Use a Cerby secure secret instead of sending sensitive details directly. For more information, refer to the articles [Share items with external users via a link](https://help.cerby.com/en/articles/8308908-share-items-with-external-users-via-a-link) and [[Video] How to share a secret with external users via a public link](https://help.cerby.com/en/articles/8384438-video-how-to-share-a-secret-with-external-users-via-a-public-link) to learn how to share the values securely.
 
 The next step is [2. Search for Cerby events via the Splunk Search app](export-analytics-data-from-cerby-to-splunk.md#id-2.-search-for-cerby-analytic-events-via-the-splunk-search-app).
 

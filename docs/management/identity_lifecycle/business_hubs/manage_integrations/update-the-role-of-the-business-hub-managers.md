@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to update the role of the business hub managers in Cerby."
 intercom_id: 10971704
+hidden: true
+noIndex: true
 ---
 
 # Update the role of the business hub managers

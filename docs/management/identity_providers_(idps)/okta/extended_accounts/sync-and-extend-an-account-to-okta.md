@@ -22,7 +22,7 @@ As a user with any workspace role in Cerby, except the **Login-only** role, you 
 {% hint style="danger" %}
 
 
-**IMPORTANT:** The **[Extended account access](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-extended-account-access)** feature must be turned on for your workspace, and you must have the **Owner** role on the account you want to sync and extend.
+**IMPORTANT:** The **[Extended account access](https://help.cerby.com/en/articles/9616265-explore-extended-account-access)** feature must be turned on for your workspace, and you must have the **Owner** role on the account you want to sync and extend.
 
 
 {% endhint %}

@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to add a vault backup for your workspace."
 intercom_id: 12431284
+hidden: true
+noIndex: true
 ---
 
 # Add a vault backup
@@ -18,7 +20,7 @@ intercom_id: 12431284
 
 As a workspace **Owner** , **Super** **Admin** , or **Admin** , you can create and set up the **Vault Backup** capability to back up the login credentials saved in your Cerby workspace to CyberArk.
 
-This capability provides a reliable recovery system, ensuring that your data remains backed up in the event of an incident. For more information, read the article [Explore Vault Backup](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/back-up-your-cerby-vault-to-an-external-provider).
+This capability provides a reliable recovery system, ensuring that your data remains backed up in the event of an incident. For more information, read the article [Explore Vault Backup](https://help.cerby.com/en/articles/12004415-explore-vault-backup).
 
 {% hint style="danger" %}
 

@@ -16,7 +16,7 @@ intercom_id: 9758233
 
 {% endhint %}
 
-As a workspace **Admin** , **Super Admin** , or **Owner** , you can turn off the **[Extended account access](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-extended-account-access)** feature to stop syncing your accounts with Okta.
+As a workspace **Admin** , **Super Admin** , or **Owner** , you can turn off the **[Extended account access](https://help.cerby.com/en/articles/9616265-explore-extended-account-access)** feature to stop syncing your accounts with Okta.
 
 When this feature is on, you and all workspace members can sync and extend the accounts they own to access them from their Okta dashboard powered by Cerby’s automated login.
 
@@ -28,7 +28,7 @@ When this feature is on, you and all workspace members can sync and extend the a
 * Workspace members cannot sync and extend new accounts to Okta.
 * All accounts previously extended remain in Okta, but they are no longer updated with the latest changes in user and team access permissions.
 * Users can still log in to their applications from the chiclets in their Okta dashboard as long as they retain access permissions in Cerby. This happens because Cerby always verifies its role-based access control (RBAC) system to ensure users have access to an account through any type of share: account, collection, or team.
-* The removal of currently extended accounts from Okta is a manual process for each item. For instructions, read the article [Remove an account extended to Okta](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/extended-accounts/remove-an-account-extended-to-okta).
+* The removal of currently extended accounts from Okta is a manual process for each item. For instructions, read the article [Remove an account extended to Okta](https://help.cerby.com/en/articles/9759128-remove-an-account-extended-to-okta).
 
 
 {% endhint %}

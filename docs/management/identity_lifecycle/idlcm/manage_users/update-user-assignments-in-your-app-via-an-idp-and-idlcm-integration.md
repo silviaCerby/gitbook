@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to update users assigned to your external apps via an IdP and IdLCM integration"
 intercom_id: 11645015
+hidden: true
+noIndex: true
 ---
 
 # Update user assignments in your app via an IdP and IdLCM integration

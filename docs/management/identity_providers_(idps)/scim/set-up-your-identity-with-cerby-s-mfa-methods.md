@@ -29,8 +29,8 @@ With the push notification on the Cerby mobile app, you receive a push notificat
 
 To confirm your identity through the Cerby mobile app, you must complete the following steps:
 
-1. [Install the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/getting-started/getting-started-guide-for-account-owners-and-collaborators) on your phone.
-2. Set up a [trusted session](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices) with your mobile device.
+1. [Install the Cerby mobile app](https://help.cerby.com/en/articles/6395363-getting-started-guide-for-account-owners-and-collaborators#h_116820eaaa) on your phone.
+2. Set up a [trusted session](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices) with your mobile device.
 3. Perform any of the actions listed in the [List of actions that require identity confirmation](set-up-your-identity-with-cerby-s-mfa-methods.md#list-of-actions-that-require-identity-confirmation) section. The **Confirm your identity to continue** dialog box is displayed, and a push notification is sent to the Cerby mobile app.
 4. Tap the **It’s me!** button in the **Confirmation Request** screen of the Cerby mobile app. The **Confirm your identity to continue** dialog box closes in the Cerby web app, and a success message box is displayed.
 
@@ -57,13 +57,13 @@ To confirm your identity through an email magic link, you must complete the foll
 
 You must confirm your identity when performing the following actions:
 
-* [Managing the attachments of a secret and secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/manage-the-attachments-of-a-secret-and-secret-item)
-* [Deleting a secret and secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/delete-a-secret-and-secret-item)
-* [Editing a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/edit-a-secret)
-* [Viewing a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-a-secret) (only if the identity verification is configured)
-* [Viewing the secret history and restoring a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/view-the-secret-history-and-restore-a-secret)
-* [Share a secret or secret item](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/share-a-secret-or-secret-item)
-* [Removing an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
-* [Retrieving the SCIM API authentication token from Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/retrieve-the-scim-api-authentication-token-from-cerby)
-* [Sharing items with external users via a link](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/share-items-with-external-users-via-a-link)
-* [Creating and managing a vault](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/create-a-vault)
+* [Managing the attachments of a secret and secret item](https://help.cerby.com/en/articles/8705439-manage-the-attachments-of-a-secret-and-secret-item)
+* [Deleting a secret and secret item](https://help.cerby.com/en/articles/8705456-delete-a-secret-and-secret-item)
+* [Editing a secret](https://help.cerby.com/en/articles/8705406-edit-a-secret)
+* [Viewing a secret](https://help.cerby.com/en/articles/8705383-view-a-secret) (only if the identity verification is configured)
+* [Viewing the secret history and restoring a secret](https://help.cerby.com/en/articles/8705415-view-the-secret-history-and-restore-a-secret)
+* [Share a secret or secret item](https://help.cerby.com/en/articles/8705424-manage-access-to-your-secrets-and-secret-items)
+* [Removing an App](https://help.cerby.com/en/articles/9046230-remove-an-app)
+* [Retrieving the SCIM API authentication token from Cerby](https://help.cerby.com/en/articles/5683294-retrieve-the-scim-api-authentication-token-from-cerby)
+* [Sharing items with external users via a link](https://help.cerby.com/en/articles/8308908-how-to-share-items-with-external-users-via-a-link)
+* [Creating and managing a vault](https://help.cerby.com/en/articles/8376564-how-to-create-and-manage-a-vault)

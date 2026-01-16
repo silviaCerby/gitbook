@@ -35,7 +35,7 @@ To add a secret to a collection, you must complete the following steps using the
 3. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1481785075/7db48076c91ad1ecda7f69f8206f/AD_4nXfq928eH6lW___VJhn6YkSzlvsBLWHdSZFfnaW1cPAOfvWfj__ce8kcI0ndYDqcrNKTdaYv47jSGGH_CLWU_vh8aELD-qdGfyXMWMp-gSlQ6XlSnmTdKYR4bVeTAZ4mXXEfUaodDURWwzLeDEp4Xg3i1QIk?expires=1744923000&signature=5d61a0cea33c150d7cd551bcbb48c65dcbe77bca7151aa39608f07e7b8a49d4b&req=dSQvF852mIFYXPMU3HP0gGT0GxHXnlygc1tcceuU1iAz8fpJjfE%3D%0A" alt="">) icon of the corresponding secret card. A drop-down menu is displayed.
 4. Select the **Add to Collection** option from the menu. The **Add to collection** dialog box is displayed with a list of collections and subcollections.
 5. Select the corresponding collection from the list or look it up using the search bar.
-**NOTE:** You can create a new collection with the secret preselected in the wizard by clicking the **Create new collection** button. You must complete the steps of the wizard according to the article [Create a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/create-a-collection).
+**NOTE:** You can create a new collection with the secret preselected in the wizard by clicking the **Create new collection** button. You must complete the steps of the wizard according to the article [Create a collection](https://help.cerby.com/en/articles/8981896-create-a-collection).
 
 6. Click the **Add to collection** button. The dialog box closes, and a success message box is displayed.
 

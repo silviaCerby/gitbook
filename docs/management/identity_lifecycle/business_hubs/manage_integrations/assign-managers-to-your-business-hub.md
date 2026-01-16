@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to assign users and teams to manage your business hub."
 intercom_id: 10971635
+hidden: true
+noIndex: true
 ---
 
 # Assign managers to your business hub

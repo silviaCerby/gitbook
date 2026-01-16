@@ -27,7 +27,7 @@ When you connect the business hub, you become its **Owner** , and you can perfor
 {% hint style="success" %}
 
 
-**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs).
+**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Apps](https://help.cerby.com/en/articles/6831152-explore-apps).
 
 
 {% endhint %}{% hint style="info" %}
@@ -49,8 +49,8 @@ The following are the requirements to connect a business hub:
   * A Cerby workspace
   * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
   * An Embedly project
-  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-  * An automation account, meaning an active user account in Embedly. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
+  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
+  * An automation account, meaning an active user account in Embedly. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://help.cerby.com/en/articles/9830816-create-an-automation-or-service-account-for-your-business-hub)
   * A project name. You can find the name in the address bar after logging in to Embedly. It’s the last part of the URL after the **`organization`** subdirectory. For example, **`https://app.embed.ly/organization/cerby`**
 * * *
 
@@ -131,7 +131,7 @@ To check for updates in your app to identify and import users to Cerby, you must
 {% hint style="info" %}
 
 
-**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described above in steps 1 to 3. When a user is deprovisioned from an identity provider and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from the app. For more instructions, read the article [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).
+**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described above in steps 1 to 3. When a user is deprovisioned from an identity provider and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from the app. For more instructions, read the article [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report).
 
 
 {% endhint %}
@@ -228,13 +228,13 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 The following are the supported features of Business hubs you can use:
 
-  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
-  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
-  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
-  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
-  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
+  * [Join the App and connect it to Cerby](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby)
+  * [Invite new app members](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
+  * [Remove app members](https://help.cerby.com/en/articles/9046186-remove-app-members)
+  * [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
+  * [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
   * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
-  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
-  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
-  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
+  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
+  * [Log in to your app](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://help.cerby.com/en/articles/9046230-remove-an-app)

@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to export the entitlement assignments of your IdLCM integration to a CSV file."
 intercom_id: 12454975
+hidden: true
+noIndex: true
 ---
 
 # Export the entitlement assignments of your IdLCM integration

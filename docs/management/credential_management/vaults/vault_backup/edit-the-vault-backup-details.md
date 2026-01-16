@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to edit the vault backup details."
 intercom_id: 12431376
+hidden: true
+noIndex: true
 ---
 
 # Edit the vault backup details

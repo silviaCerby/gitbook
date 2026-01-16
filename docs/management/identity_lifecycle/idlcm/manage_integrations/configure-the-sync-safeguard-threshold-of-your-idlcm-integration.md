@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to configure the sync safeguard threshold for your IdLCM integration to prevent accidental mass deprovisioning."
 intercom_id: 12313222
+hidden: true
+noIndex: true
 ---
 
 # Configure the sync safeguard threshold of your IdLCM Integration

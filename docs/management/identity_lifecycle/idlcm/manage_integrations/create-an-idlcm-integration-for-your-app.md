@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to create an IdLCM integration to connect your disconnected app to your IdP through Cerby."
 intercom_id: 11650659
+hidden: true
+noIndex: true
 ---
 
 # Create an IdLCM integration for your app
@@ -36,7 +38,7 @@ The following are the requirements to create an IdLCM integration:
   * A Cerby workspace
   * A Cerby user account with the workspace **Owner** , **Super Admin** , or **Admin** role
   * A collaboration space (workspace, team, or dashboard) in your app
-  * A service account added to Cerby that corresponds to an active user account with a native admin role in your app. For instructions and recommendations on how to create this account, read the article [Create a service account for your IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/create-a-service-account-for-your-idlcm-integration).
+  * A service account added to Cerby that corresponds to an active user account with a native admin role in your app. For instructions and recommendations on how to create this account, read the article [Create a service account for your IdLCM integration](https://help.cerby.com/en/articles/11641977-create-a-service-account-for-your-idlcm-integration).
   * The user management and login method for your integration must be identified. Depending on your app, the options might be the following:
     * Username and password
     * Single sign-on (SSO) with your IdP
@@ -89,7 +91,7 @@ To create and set up an IdLCM integration in Cerby, you must complete the follow
   8. (Optional) Specify the user schema configuration if you have custom roles:
      1. Select the**User schema** option. The **User schema** side drawer is displayed.
      2. Update the user schema to configure any custom roles or fields Cerby must consider.
-​**NOTE:** For instructions and recommendations on how to update the user schema, read the article [Configure your user schema](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/configure-your-user-schema).
+​**NOTE:** For instructions and recommendations on how to update the user schema, read the article [Configure your user schema](https://help.cerby.com/en/articles/11644390-configure-your-user-schema).
 
      3. Click the **Save** button. The side drawer closes.
   9. Click the **Test and save** button located at the top right of the page. The **Checking your integration setup…** page is displayed.
@@ -99,7 +101,7 @@ The next step is [2. Create and set up an app integration in your IdP connected 
 
 ### 2\. Create and set up an app integration in your IdP connected to IdLCM
 
-To set up an app integration in your IdP connected to IdLCM, refer to the specific instructions for your IdP. Currently, we only support Okta, so follow the instructions in the article [Create and set up an app integration in Okta connected to IdLCM](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/create-and-set-up-an-app-integration-in-okta-connected-to-idlcm).
+To set up an app integration in your IdP connected to IdLCM, refer to the specific instructions for your IdP. Currently, we only support Okta, so follow the instructions in the article [Create and set up an app integration in Okta connected to IdLCM](https://help.cerby.com/en/articles/11643251-create-and-set-up-an-app-integration-in-okta-connected-to-idlcm).
 
 The next step is [3. Sync users, roles, and entitlements from your external app to Cerby](create-an-idlcm-integration-for-your-app.md#id-3.-sync-users-roles-and-entitlements-from-your-external-app-to-cerby).
 
@@ -121,4 +123,4 @@ The next step is [4. Import users, roles, and entitlements from an IdLCM integra
 
 With the users, roles, and entitlements of your external app synced in Cerby, you must now import this data from the IdLCM integration to your IdP. The goal is to match the current state of the app and the IdLCM integration so you can centralize identity and access management in your IdP.
 
-To import the users, roles, and entitlements to your IdP, refer to the specific instructions for your IdP. Currently, we only support Okta, so follow the instructions in the article[ Import users, roles, and entitlements from an IdLCM integration into Okta](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/import-users-roles-and-entitlements-from-an-idlcm-integration-into-okta).
+To import the users, roles, and entitlements to your IdP, refer to the specific instructions for your IdP. Currently, we only support Okta, so follow the instructions in the article[ Import users, roles, and entitlements from an IdLCM integration into Okta](https://help.cerby.com/en/articles/11647808-import-users-roles-and-entitlements-from-an-idlcm-integration-into-okta).

@@ -16,7 +16,7 @@ intercom_id: 11944412
 
 {% endhint %}
 
-As a **Host Admin** or **Guest Admin** of a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can invite one or multiple external collaborators as **Guest Users** of your workspace. After they join Cerby, you can start granting them access to the necessary accounts for collaboration through the local partner.
+As a **Host Admin** or **Guest Admin** of a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can invite one or multiple external collaborators as **Guest Users** of your workspace. After they join Cerby, you can start granting them access to the necessary accounts for collaboration through the local partner.
 
 {% hint style="info" %}
 

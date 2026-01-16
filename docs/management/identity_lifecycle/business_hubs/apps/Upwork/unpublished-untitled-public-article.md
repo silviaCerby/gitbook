@@ -1,5 +1,7 @@
 ---
 intercom_id: 10423694
+hidden: true
+noIndex: true
 ---
 
 # [UNPUBLISHED] Untitled public article
