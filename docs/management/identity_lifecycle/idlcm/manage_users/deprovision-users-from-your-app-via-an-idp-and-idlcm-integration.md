@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to remove users from your external apps via an IdP and IdLCM integration."
 intercom_id: 11645058
+hidden: true
+noIndex: true
 ---
 
 # Deprovision users from your app via an IdP and IdLCM integration
