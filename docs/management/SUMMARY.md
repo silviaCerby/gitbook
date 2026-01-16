@@ -404,8 +404,8 @@
                 * [[Video] How to connect a business hub for Meta Business Manager](identity_lifecycle/business_hubs/paid_social_apps/Meta_Business_Manager/video-how-to-connect-a-business-hub-for-meta-business-manager.md)
             * X for Business
                 * [Connect a business hub for X Ads](identity_lifecycle/business_hubs/paid_social_apps/X_for_Business/connect-a-business-hub-for-x-ads.md)
-    * [IdLCM]
-        * Manage integrations(identity_lifecycle/idlcm/README.md)
+    * [IdLCM](identity_lifecycle/idlcm/README.md)
+        * Manage integrations
             * [Configure the sync safeguard threshold of your IdLCM Integration](identity_lifecycle/idlcm/manage_integrations/configure-the-sync-safeguard-threshold-of-your-idlcm-integration.md)
             * [Configure your user schema](identity_lifecycle/idlcm/manage_integrations/configure-your-user-schema.md)
             * [Create a service account for your IdLCM integration](identity_lifecycle/idlcm/manage_integrations/create-a-service-account-for-your-idlcm-integration.md)
