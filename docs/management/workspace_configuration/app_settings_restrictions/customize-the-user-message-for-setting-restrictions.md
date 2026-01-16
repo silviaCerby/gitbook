@@ -1,5 +1,5 @@
 ---
-description: "This article describes how to customize the user message displayed when an app’s password or user settings restrictions are applied."
+description: "This article describes how to customize the user message displayed when an app’s password, member, or account restrictions are applied."
 intercom_id: 10276389
 ---
 
@@ -17,15 +17,19 @@ intercom_id: 10276389
 
 {% endhint %}
 
+As a workspace **Owner** , **Super Admin** , or **Admin** , you can customize the message Cerby displays to users when they attempt to change password or members settings or delete an account for an app with existing [setting restrictions](https://help.cerby.com/en/articles/10276184-explore-app-settings-restrictions).
+
 To customize the user message for settings restrictions, you must complete the following steps:
 
-1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using the Cerby web app.
 2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed with the **General** tab activated.
-3. Activate the **App settings restrictions** tab.
-4. Click the **Customize notification** button. The **Customize user notification** section is displayed.
-5. Select the setting you want to customize in the left menu.
-6. Activate the **Fully blocked** or **Monitored** tab, depending on the message you want to customize. The message to show to the user is displayed below.
-7. Customize the title or message content in the **Title** or **Content** fields as needed.
-8. Click the **Save changes** button. A success message appears.
+3. Activate the **Extension settings** tab.
+4. Activate the left **App settings restrictions** tab.
+5. Click the **Edit message** button. The **Edit restriction messages** page is displayed.
+6. Select the setting you want to customize from the left menu.
+7. Activate the **Fully blocked** or **Prompt members to Cerby** tab, depending on the message you want to customize. The message to show to the user is displayed below.
+8. Customize the message in the **Title** or **Content** fields.
+9. Repeat steps 6 to 8 as necessary.
+10. Click the **Save changes** button. A success message box is displayed.
 
-Now you are done. Your new message will be displayed the next time a user accesses the modified setting.
+Now you are done. Your new message will be displayed the next time a user accesses the corresponding app setting.

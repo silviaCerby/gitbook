@@ -37,7 +37,7 @@ To assign a local vault to your account, you must complete the following steps:
 6. Click the **Select a vault** field to display a drop-down list of the existing vaults in the workspace.
 7. Select the local vault you want to assign from the **Select a vault** field.
 
-**NOTE:** The local vault must previously exist in the workspace. You can create a new vault only if you are a workspace**Owner** , **Super Admin** , or **Admin**. For more information, read the [Create and manage a vault ](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/create-a-vault)document.
+**NOTE:** The local vault must previously exist in the workspace. You can create a new vault only if you are a workspace**Owner** , **Super Admin** , or **Admin**. For more information, read the [Create and manage a vault ](https://help.cerby.com/en/articles/8376564-create-and-manage-a-vault)document.
 
 **TIP:** You can see if a vault is cloud or local next to its name.
 

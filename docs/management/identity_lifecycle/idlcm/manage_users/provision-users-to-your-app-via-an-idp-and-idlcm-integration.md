@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to provision users to your external app via an IdP and IdLCM integration"
 intercom_id: 11644874
+hidden: true
+noIndex: true
 ---
 
 # Provision users to your app via an IdP and IdLCM integration
@@ -41,13 +43,13 @@ To provision users to your external app via your IdP and IdLCM integration, you 
        * [Assign an app integration to a user](https://help.okta.com/oie/en-us/content/topics/provisioning/lcm/lcm-assign-app-user.htm)
 ​**NOTE** : For external apps supporting entitlements, you can grant access to an entitlement by completing the following steps:
 
-         1. Retrieve the entitlement string value from your IdLCM integration. For instructions, read the article [Retrieve the entitlement string value from your IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-entitlement-string-value-from-your-idlcm-integration).
+         1. Retrieve the entitlement string value from your IdLCM integration. For instructions, read the article [Retrieve the entitlement string value from your IdLCM integration](https://help.cerby.com/en/articles/12454992-retrieve-the-entitlement-string-value-from-your-idlcm-integration).
          2. Click the **Add Another** button located next to your **entitlementsAlpha** custom**** attribute. A new field appears.
          3. Enter the entitlement string value in the field.
 
        * [Assign an app integration to a group](https://help.okta.com/oie/en-us/content/topics/provisioning/lcm/lcm-assign-app-groups.htm)
 
-       **NOTE:** For external apps supporting entitlements, you can assign and grant access to entitlements by assigning the corresponding entitlement string value to your group. How you assign attribute values can vary based on your IT admin's policies and preferred Okta approach. For instruction on how to retrieve entitlement string values, read the article [Retrieve the entitlement string value from your IdLCM integration](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/idlcm/manage-integrations/retrieve-the-entitlement-string-value-from-your-idlcm-integration).
+       **NOTE:** For external apps supporting entitlements, you can assign and grant access to entitlements by assigning the corresponding entitlement string value to your group. How you assign attribute values can vary based on your IT admin's policies and preferred Okta approach. For instruction on how to retrieve entitlement string values, read the article [Retrieve the entitlement string value from your IdLCM integration](https://help.cerby.com/en/articles/12454992-retrieve-the-entitlement-string-value-from-your-idlcm-integration).
 
 An automation job to provision users is triggered by Cerby.
 

@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to disable vault backup in your workspace."
 intercom_id: 12455148
+hidden: true
+noIndex: true
 ---
 
 # Disable vault backup in your workspace

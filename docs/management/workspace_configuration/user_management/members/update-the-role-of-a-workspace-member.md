@@ -34,7 +34,7 @@ A success message box is displayed.
 {% hint style="info" %}
 
 
-**NOTE:** For detailed information about roles, read the article [How Cerby manages roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles).
+**NOTE:** For detailed information about roles, read the article [How Cerby manages roles](https://help.cerby.com/en/articles/8500649-how-cerby-manages-roles).
 
 
 {% endhint %}

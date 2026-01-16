@@ -17,9 +17,9 @@ intercom_id: 9758273
 
 {% endhint %}
 
-As a user with any workspace role in Cerby, except the **Login-only** role, you can log in to your Cerby accounts from your Okta dashboard when your workspace has the **[Extended account access](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-extended-account-access)** feature enabled.
+As a user with any workspace role in Cerby, except the **Login-only** role, you can log in to your Cerby accounts from your Okta dashboard when your workspace has the **[Extended account access](https://help.cerby.com/en/articles/9616265-explore-extended-account-access)** feature enabled.
 
-Account **Owners** must have already synced and extended their accounts for the corresponding chiclets to be displayed on the Okta dashboard. For instructions, read the article [Sync and extend an account to Okta](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/okta/extended-accounts/sync-and-extend-an-account-to-okta).
+Account **Owners** must have already synced and extended their accounts for the corresponding chiclets to be displayed on the Okta dashboard. For instructions, read the article [Sync and extend an account to Okta](https://help.cerby.com/en/articles/9759106-sync-and-extend-an-account-to-okta).
 
 Additionally, you must have the **Owner** or **Collaborator** role in such extended accounts to see the chiclets in your Okta dashboard for logging-in purposes.
 

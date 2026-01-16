@@ -1,6 +1,8 @@
 ---
 description: "This article describes the benefits of backing up your vault to an external provider of your choice, ensuring it remains safe, redundant, and recoverable."
 intercom_id: 12004415
+hidden: true
+noIndex: true
 ---
 
 # Back up your Cerby vault to an external provider
@@ -69,8 +71,8 @@ Security is built into every part of vault backup to keep your credentials secur
 
 The following articles contain more information about the Vault Backup capability:
 
-  * [Add a vault backup](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/add-a-vault-backup)
-  * [View the details of a vault backup](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/view-the-details-of-a-vault-backup)
-  * [Edit the vault backup information](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/edit-the-vault-backup-details)
-  * [Disable vault backup in your workspace](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/disable-vault-backup-in-your-workspace)
-  * [Manually back up all accounts from Cerby to CyberArk](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/vault-backup/manually-back-up-all-accounts-from-cerby-to-cyberark)
+  * [Add a vault backup](https://help.cerby.com/en/articles/12431284-add-a-vault-backup)
+  * [View the details of a vault backup](https://help.cerby.com/en/articles/12431348-view-the-details-of-a-vault-backup)
+  * [Edit the vault backup information](https://help.cerby.com/en/articles/12431376-edit-the-vault-backup-details)
+  * [Disable vault backup in your workspace](https://help.cerby.com/en/articles/12455148-disable-vault-backup-in-your-workspace)
+  * [Manually back up all accounts from Cerby to CyberArk](https://help.cerby.com/en/articles/12597970-manually-back-up-all-accounts-from-cerby-to-cyberark)

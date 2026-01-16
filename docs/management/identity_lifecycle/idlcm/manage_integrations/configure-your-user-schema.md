@@ -1,6 +1,8 @@
 ---
 description: "This article describes how to configure a custom user schema for your IdLCM integration."
 intercom_id: 11644390
+hidden: true
+noIndex: true
 ---
 
 # Configure your user schema
