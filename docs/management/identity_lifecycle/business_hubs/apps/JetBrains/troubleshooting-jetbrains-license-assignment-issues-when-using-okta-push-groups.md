@@ -1,6 +1,8 @@
 ---
-description: "This article describes how to troubleshoot JetBrains license assignment issues when using Okta push groups."
 intercom_id: 11691098
+description: >-
+  This article describes how to troubleshoot JetBrains license assignment issues
+  when using Okta push groups.
 ---
 
 # Troubleshooting: JetBrains license assignment issues when using Okta push groups
@@ -43,19 +45,15 @@ To update the name of an Okta push group, you must complete the following steps:
    2. Select the **Cerby** option from the list of applications. The **Cerby application** page is displayed with the **General** tab activated.
    3. Activate the **Push Groups** tab. The **Push Groups to Cerby** page is displayed.
    4. Verify that the updated group name is displayed in the **Group in Okta** and **Group in Cerby** columns.
-4. (Optional) After updating the group name, it is common for the value displayed in the **Group in Cerby** column not to reflect the update, as shown in **Figures 1** and **2**.
-​
+4. (Optional) After updating the group name, it is common for the value displayed in the **Group in Cerby** column not to reflect the update, as shown in **Figures 1** and **2**. ​
 
-<img src="../../../../../../.gitbook/assets/image_15.png" alt="">
+![](../../../../.gitbook/assets/image_15.png)
 
-**Figure 1. Group in Okta** column**** showing the updated group name
-​
+**Figure 1. Group in Okta** column\*\*\*\* showing the updated group name ​
 
-<img src="../../../../../../.gitbook/assets/image_16.png" alt="">
+![](../../../../.gitbook/assets/image_16.png)
 
-**Figure 2. Group in Cerby** column showing an incorrect group name
-​
-In this case, Cerby recommends the following workaround:
+**Figure 2. Group in Cerby** column showing an incorrect group name ​ In this case, Cerby recommends the following workaround:
 
 1. Edit the group name again and temporarily add a space within the JetBrains product name. For example, change from **`dotTrace`** to **`dot Trace`.**
 2. Verify that the updated name with the space is reflected in both the **Group in Okta** and **Group in Cerby** columns.

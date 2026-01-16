@@ -1,26 +1,24 @@
 ---
-description: "This article describes how to track the users' activity of your seat-based and paid social apps connected to Cerby."
 intercom_id: 9046226
+description: >-
+  This article describes how to track the users' activity of your seat-based and
+  paid social apps connected to Cerby.
 ---
 
 # Track activity on app members’ user accounts
 
 {% hint style="info" %}
-
-
 **Who can use this feature?**
 
 * Workspace **Admins** and business hub **Owners**
 * Only supported using the Cerby web app
-
-
 {% endhint %}
 
 Workspace**Admins** and business hub **Owners** can see the activity log for the user accounts connected to a business hub.
 
 To track the activity on these accounts, you must go to the **Activity** page, as shown in **Figure 1**.
 
-<img src="../../../../../.gitbook/assets/LkOjYlGcPE9wBa8asKBjj3m4KWmZKomQC8Hs6gy4-vtxfay1MdnFco_kvU7dZlWDPfbfkGQYRU0ejW5jLwbxw4NhhKuinMeIAjxCEGa5WfZ3-ElTHMskP2FB6c28BFgky6i6-DL9_TqDPadI2s6vzIQ.png" alt="Screenshot of the Cerby web app dashboard. The Activity view is displayed with a table of events">
+![Screenshot of the Cerby web app dashboard. The Activity view is displayed with a table of events](../../../.gitbook/assets/LkOjYlGcPE9wBa8asKBjj3m4KWmZKomQC8Hs6gy4-vtxfay1MdnFco_kvU7dZlWDPfbfkGQYRU0ejW5jLwbxw4NhhKuinMeIAjxCEGa5WfZ3-ElTHMskP2FB6c28BFgky6i6-DL9_TqDPadI2s6vzIQ.png)
 
 **Figure 1.** **Activity** page of the Cerby dashboard
 
