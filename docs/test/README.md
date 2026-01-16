@@ -1,8 +1,6 @@
 ---
 hidden: true
-noIndex: true
 ---
 
-# Hidden page
+# Abc
 
-Test page
