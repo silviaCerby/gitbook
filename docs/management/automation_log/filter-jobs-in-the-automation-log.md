@@ -16,7 +16,7 @@ intercom_id: 11713438
 
 {% endhint %}
 
-As a workspace **Owner** , **Super** **Admin** , or **Admin** , you can narrow down the jobs displayed in the [Automation Log](https://help.cerby.com/en/articles/11642287-explore-the-automation-log) by applying the filters on the top menu.
+As a workspace **Owner** , **Super** **Admin** , or **Admin** , you can narrow down the jobs displayed in the [Automation Log](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-the-automation-log) by applying the filters on the top menu.
 
 These filters help you isolate specific automation jobs based on job type, status, and app. Filtering enables you to monitor large activity volumes, troubleshoot issues, or review recent identity, access, and account management changes.
 

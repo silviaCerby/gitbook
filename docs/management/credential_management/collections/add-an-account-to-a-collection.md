@@ -34,7 +34,7 @@ To add one account to a collection, you must complete the following steps using 
 2. Click the **More options** (<img src="https://downloads.intercomcdn.com/i/o/pc0ldyqu/1481776510/98484b3ff0b7ba8573381e30b097/AD_4nXfq928eH6lW___VJhn6YkSzlvsBLWHdSZFfnaW1cPAOfvWfj__ce8kcI0ndYDqcrNKTdaYv47jSGGH_CLWU_vh8aELD-qdGfyXMWMp-gSlQ6XlSnmTdKYR4bVeTAZ4mXXEfUaodDURWwzLeDEp4Xg3i1QIk?expires=1745010000&signature=22143f46da04d9e2916b4f362272c892a64e3502c48fb8e72fc4d724a4dd9f3e&req=dSQvF855m4ReWfMW3Hu4gYrvwvyMke%2B6H49LhO4R3QAr6IAB659HiV5K6RQo%0A7g%3D%3D%0A" alt="">) icon of the corresponding account card. A drop-down menu is displayed.
 3. Select the **Add to Collection** option from the menu. The **Add to collection** dialog box is displayed with a list of collections and subcollections.
 4. Select the corresponding collection from the list or look it up using the search bar.
-​**NOTE:** You can create a new collection with the account preselected in the wizard by clicking the **Create new collection** button. You must complete the steps of the wizard according to the article [Create a collection](https://help.cerby.com/en/articles/8981896-create-a-collection).
+​**NOTE:** You can create a new collection with the account preselected in the wizard by clicking the **Create new collection** button. You must complete the steps of the wizard according to the article [Create a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/create-a-collection).
 
 5. Click the **Add to collection** button. The dialog box closes, and a success message box is displayed.
 

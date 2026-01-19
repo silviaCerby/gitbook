@@ -1,6 +1,8 @@
 ---
 description: "This article describes the benefits of using IdLCM to simplify identity and access management by connecting disconnected apps to your IdP."
 intercom_id: 11641669
+hidden: true
+noIndex: true
 ---
 
 # Explore IdLCM

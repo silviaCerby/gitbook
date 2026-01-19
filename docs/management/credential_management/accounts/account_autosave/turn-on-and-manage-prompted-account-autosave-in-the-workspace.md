@@ -30,7 +30,7 @@ The following are the prompted account autosave settings you can manage:
 {% hint style="danger" %}
 
 
-**IMPORTANT:** To learn how Cerby manages roles with the account autosave feature, refer to the article [Explore Account Autosave](https://help.cerby.com/en/articles/9500455-explore-account-autosave#h_da5abb0156).
+**IMPORTANT:** To learn how Cerby manages roles with the account autosave feature, refer to the article [Explore Account Autosave](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-account-autosave).
 
 
 {% endhint %}

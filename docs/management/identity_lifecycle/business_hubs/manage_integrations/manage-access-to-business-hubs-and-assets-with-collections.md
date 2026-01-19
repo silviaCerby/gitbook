@@ -28,10 +28,10 @@ The following are the key benefits of managing access this way:
 * **User empowerment:** Users gain control over when they are ready to join an external app.
 * **Consistent roles:** The roles you assign to the collection are automatically inherited across all nested items, including business hubs and assets. These roles apply at two levels:
   * **Cerby roles:** You can grant workspace members and teams the following roles on the business hub integration via the collection:
-    * **Owner:** Members and teams can perform the supported [user and access management tasks](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_0cc7b04140) via the business hub, update the integration settings, and log in to the external app through Cerby. Additionally, collection **Owners** can see all assets within the business hub but not necessarily access everything.
+    * **Owner:** Members and teams can perform the supported [user and access management tasks](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs) via the business hub, update the integration settings, and log in to the external app through Cerby. Additionally, collection **Owners** can see all assets within the business hub but not necessarily access everything.
     * **Collaborator:** Members and teams can only log in to the external app through Cerby.
   * **External app roles:** You can grant workspace members and teams specific app-level roles that you define when you add business hubs and assets to collections. These roles and permissions vary by app.
-* **Automated user management tasks:** Depending on the configuration of your business hub, you can perform user management tasks directly in Cerby or extend the provisioning and deprovisioning capabilities of your identity provider (IdP). For more information, read the section [Extended user and access management from your IdP](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_05107885b1) of the article [Explore Business Hubs](https://help.cerby.com/en/articles/6831152-explore-business-hubs).
+* **Automated user management tasks:** Depending on the configuration of your business hub, you can perform user management tasks directly in Cerby or extend the provisioning and deprovisioning capabilities of your identity provider (IdP). For more information, read the section [Extended user and access management from your IdP](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs) of the article [Explore Business Hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs).
 
 This article contains the following sections to describe how access management works for business hubs and assets within a collection:
 
@@ -82,7 +82,7 @@ The claim access flow empowers users to control when they receive an invitation 
 
 {% endhint %}
 
-For detailed instructions on how to claim access, read the article [Claim access to a business hub and assets](https://help.cerby.com/en/articles/12457509-claim-access-to-a-business-hub-and-assets).
+For detailed instructions on how to claim access, read the article [Claim access to a business hub and assets](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/claim-access-to-a-business-hub-and-assets).
 
 * * *
 
@@ -111,7 +111,7 @@ The following are important considerations about managing access to business hub
   * You cannot create collections through the regular wizard. Instead, you add existing business hubs and assets individually to existing collections.
   * You can only add one business hub to a collection at a time, and it cannot be added to a different collection. Moreover, adding business hubs to subcollections is not supported.
   * Sharing business hubs and assets via a collection always enforces the claims flow.
-  * Collections cannot be shared with [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2).
+  * Collections cannot be shared with [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners).
   * The app roles to be assigned to workspace users and teams when they receive shared access to a collection are defined when you add a business hub or asset to a collection.
   * You can manage assets as follows:
     * Assets can be added individually to a collection.
@@ -125,13 +125,13 @@ The following are important considerations about managing access to business hub
 
 The following articles contain more information about managing access to business hubs and assets with collections:
 
-  * [Add a business hub to a collection](https://help.cerby.com/en/articles/11102018-add-a-business-hub-to-a-collection)
-  * [Add an asset to a collection](https://help.cerby.com/en/articles/11102036-add-an-asset-to-a-collection)
-  * [Share a collection](https://help.cerby.com/en/articles/8981907-share-a-collection)
-  * [Claim access to a business hub and assets](https://help.cerby.com/en/articles/12457509-claim-access-to-a-business-hub-and-assets)
-  * [Remove a user from a collection](https://help.cerby.com/en/articles/8432313-remove-a-user-from-a-collection)
-  * [Remove a team from a collection](https://help.cerby.com/en/articles/8981940-remove-a-team-from-a-collection)
-  * [Remove a business hub from a collection](https://help.cerby.com/en/articles/12457407-remove-a-business-hub-from-a-collection)
-  * [Remove an asset from a collection](https://help.cerby.com/en/articles/12457450-remove-an-asset-from-a-collection)
-  * [Join your external app and set up your business hub access](https://help.cerby.com/en/articles/9046232-join-your-external-app-and-set-up-your-business-hub-access)
-  * [Delete a collection](https://help.cerby.com/en/articles/8981974-delete-a-collection)
+  * [Add a business hub to a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/add-a-business-hub-to-a-collection)
+  * [Add an asset to a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/add-an-asset-to-a-collection)
+  * [Share a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/share-a-collection)
+  * [Claim access to a business hub and assets](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/claim-access-to-a-business-hub-and-assets)
+  * [Remove a user from a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/remove-a-user-from-a-collection)
+  * [Remove a team from a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/remove-a-team-from-a-collection)
+  * [Remove a business hub from a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/remove-a-business-hub-from-a-collection)
+  * [Remove an asset from a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/remove-an-asset-from-a-collection)
+  * [Join your external app and set up your business hub access](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Delete a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/delete-a-collection)

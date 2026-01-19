@@ -54,13 +54,13 @@ For more information about how to set Cerby as your authenticator app, read the 
 
 You can create and set up a dedicated email address managed by Cerby to receive verification codes sent by your apps via email. This method centralizes MFA processes, allowing you to easily manage and retrieve codes from your Shared Inbox in Cerby, streamlining the authentication process for your team.
 
-For more information about how to create and set up a Cerby-managed email address, read the article Set up and associate a Cerby-managed email address for your account.
+For more information about how to create and set up a Cerby-managed email address as your MFA method, read the articles [Set up and associate a Cerby-managed email address for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/set-up-and-associate-a-cerby-managed-email-address-for-your-account) and [Turn on MFA with a Cerby-managed email address for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-a-cerby-managed-email-address-for-your-account).
 
 ### Phone number
 
 You can create and set up a phone number managed by Cerby to receive verification codes via SMS from your apps. Like Cerby-managed email addresses, you can centralize MFA processes and manage and retrieve codes from your Shared Inbox in Cerby.
 
-For more information about how to create and set up a Cerby-managed phone number, read the article Create and associate a Cerby-managed phone number with your account.
+For more information about how to create and set up a Cerby-managed phone number as your MFA method, read the articles [Set up and associate a Cerby-managed phone number for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/set-up-and-associate-a-cerby-managed-phone-number-for-your-account) and [Turn on MFA with a Cerby-managed phone number for your account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-a-cerby-managed-phone-number-for-your-account).
 
 ### RSA codes
 

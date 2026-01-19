@@ -90,9 +90,9 @@ The widget displays various colors representing the volume and severity of orpha
 
 ## View the owner assignations for orphaned accounts in the Activity view
 
-As a workspace **Owner** , **Super Admin** , or **Admin,** you can track when orphaned accounts have been assigned to an **Owner** through the **[Activity](https://help.cerby.com/en/articles/10128402-explore-activity)** page in Cerby using the Account **Owner Assigned** filter in the **Event** field.
+As a workspace **Owner** , **Super Admin** , or **Admin,** you can track when orphaned accounts have been assigned to an **Owner** through the **[Activity](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-activity)** page in Cerby using the Account **Owner Assigned** filter in the **Event** field.
 
 To learn more about the events in the **Activity** view and how to filter them, refer to the following articles:
 
-  * [Filter events in the Activity view](https://help.cerby.com/en/articles/10128410-filter-events-in-the-activity-view)
-  * [Monitor events in the Activity view](https://help.cerby.com/en/articles/10128426-monitor-events-in-the-activity-view)
+  * [Filter events in the Activity view](https://cerby-test.gitbook.io/cerby-test/management/monitoring/filter-events-in-the-activity-view)
+  * [Monitor events in the Activity view](https://cerby-test.gitbook.io/cerby-test/management/monitoring/monitor-events-in-the-activity-page)

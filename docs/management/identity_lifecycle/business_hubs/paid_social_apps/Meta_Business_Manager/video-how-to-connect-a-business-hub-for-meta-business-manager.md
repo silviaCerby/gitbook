@@ -1,6 +1,8 @@
 ---
 description: "This video shows how to connect a business hub for your Meta Business Manager to centrally manage users and assets from Cerby."
-intercom_id: 9341329
+intercom_id: 8965909
+hidden: true
+noIndex: true
 ---
 
 # [Video] How to connect a business hub for Meta Business Manager
@@ -28,4 +30,20 @@ intercom_id: 9341329
 * The Business Manager ID of your Meta Business Manager. To find it, complete the instructions in the article [Find your business ID in Meta Business Manager](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
 
 
-{% endhint %} {% embed url="https://play.vidyard.com/pnqxihG3RfGzVbnjhADL7B" %}
+{% endhint %} {% embed url="https://play.vidyard.com/EhdtcCnwyfs6k9gr7MQTzr" %}
+
+## Appendix: Sample request message
+
+This section contains is a sample of the message you must send to the Cerby Support team to request access to the Cerby Assets Manager app in Meta Business Manager as part of the onboarding process. You can contact the Support team through email at [support@cerby.com](mailto:support@cerby.com) or through the help chat.
+
+Copy and paste the following message, and enter the corresponding information about your Meta Business Manager:
+
+**Email subject:** Approve access request to the Cerby Assets Manager app
+
+Hello, Cerby team,
+
+I am in the process of connecting our Meta Business Manager (Business Manager ID: **`<enter your BM ID>`**) to Cerby. As part of the onboarding, I have requested access to the Cerby Assets Manager app, with the ID: **2965389650414399**. Could you please review and approve this request?
+
+Additionally, here is the Admin system user ID for your reference: **`<enter your Admin system user ID>`**.
+
+Thank you for your assistance!

@@ -16,7 +16,7 @@ intercom_id: 9758241
 
 {% endhint %}
 
-As a workspace **Admin** , **Super Admin** , or **Owner** , you can update the settings of the **[Extended account access](https://help.cerby.com/en/articles/9616265-explore-extended-account-access)** feature for Okta. With this feature, you and all workspace members can sync and extend the accounts they own to access them from their Okta dashboard powered by Cerby’s automated login.
+As a workspace **Admin** , **Super Admin** , or **Owner** , you can update the settings of the **[Extended account access](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-extended-account-access)** feature for Okta. With this feature, you and all workspace members can sync and extend the accounts they own to access them from their Okta dashboard powered by Cerby’s automated login.
 
 You may want to update these settings if the domain of your Okta instance changes or the Okta API token expires. Cerby will display the **Update** status in your workspace settings to indicate when the token is no longer valid to perform syncs.
 
@@ -46,8 +46,8 @@ The fields related to the **Extended account access** feature are **IDP Domain**
 5. Select the **Edit** option from the list.
 6. Confirm your identity according to your multi-factor authentication (MFA) method:
 
-   * [Push notification on the Cerby mobile app](https://help.cerby.com/en/articles/9462605-confirm-your-identity-with-cerby-s-mfa-methods#h_f2f6b354f7)
-   * [Email magic link](https://help.cerby.com/en/articles/9462605-confirm-your-identity-with-cerby-s-mfa-methods#h_1f5622eac0)
+   * [Push notification on the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods)
+   * [Email magic link](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/set-up-your-identity-with-cerby-s-mfa-methods)
 
 The input field is enabled in editing mode.
 

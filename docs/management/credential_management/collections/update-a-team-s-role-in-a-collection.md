@@ -12,7 +12,7 @@ intercom_id: 11117085
 
 * Workspace**Owners** , **Super Admins** , **Admins** , **Users** , and **Guest Users**
 * Collection **Owners**
-* Supported using the Cerby web app and mobile app. For the mobile app instructions, read the article [Update a team’s role on a collection using the Cerby mobile app](https://help.cerby.com/en/articles/9742326-update-a-team-s-role-on-a-collection-using-the-cerby-mobile-app)
+* Supported using the Cerby web app and mobile app. For the mobile app instructions, read the article [Update a team’s role on a collection using the Cerby mobile app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-mobile-app/collections/update-a-team-s-role-on-a-collection-using-the-cerby-mobile-app)
 
 
 {% endhint %}

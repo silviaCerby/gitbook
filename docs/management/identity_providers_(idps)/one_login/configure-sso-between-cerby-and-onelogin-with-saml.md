@@ -179,7 +179,7 @@ Now you are done.
 
 **NOTE:** After completing the SSO setup in this guide, you can also configure automatic user provisioning via SCIM between OneLogin and Cerby.
 
-To enable automatic creation, updates, and deactivation of user accounts in Cerby based on user assignments in OneLogin, see the article [Configure automatic user provisioning with OneLogin via SCIM.](https://help.cerby.com/en/articles/11820873-configure-automatic-user-provisioning-with-onelogin-via-scim)
+To enable automatic creation, updates, and deactivation of user accounts in Cerby based on user assignments in OneLogin, see the article [Configure automatic user provisioning with OneLogin via SCIM.](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/one-login/configure-automatic-user-provisioning-with-onelogin-via-scim)
 
 
 {% endhint %}

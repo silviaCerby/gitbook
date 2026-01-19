@@ -17,7 +17,7 @@ intercom_id: 11944612
 
 {% endhint %}
 
-As a **Host Admin** , **Guest Admin** , or **Guest User** of an existing [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can view the activity in an account shared via a local partner. The following is the information you can view according to your account role:
+As a **Host Admin** , **Guest Admin** , or **Guest User** of an existing [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can view the activity in an account shared via a local partner. The following is the information you can view according to your account role:
 
 * **Host Admins** can view all the user activity in the accounts they own.
 * **Guest Admins** and **Guest Users** can only view their own activity in the accounts to which they received shared access as account **Managers** and **Collaborators**.

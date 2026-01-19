@@ -1,6 +1,8 @@
 ---
 description: "This video shows you the main features that you can start using as a Cerby Protect user."
 intercom_id: 8325375
+hidden: true
+noIndex: true
 ---
 
 # [Video] Get started with Cerby Protect

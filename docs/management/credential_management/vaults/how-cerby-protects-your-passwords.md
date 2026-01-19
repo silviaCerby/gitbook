@@ -24,7 +24,7 @@ This vault is where users save their sensitive data (accounts and secrets), and 
   * **Cloud encryption:** Cerby's servers store the decryption keys and the encrypted data, and the unique encryption keys are generated in the server and secured by AWS KMS.
   * **Local encryption:** Cerby's servers store the encrypted data, and the vault data encryption keys are stored exclusively on registered trusted devices. Decryption happens decentralized on such devices. This encryption scheme leverages a Zero Knowledge architecture.
 
-The choice between cloud and local encryption schemes depends on customer security requirements and preferences. For more information, read the article [How Cerby protects your data with cloud and local encryption](https://help.cerby.com/en/articles/8376548-how-cerby-protects-your-data-with-cloud-and-local-encryption).
+The choice between cloud and local encryption schemes depends on customer security requirements and preferences. For more information, read the article [How Cerby protects your data with cloud and local encryption](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/how-cerby-protects-your-data-with-cloud-and-local-encryption).
 
 * * *
 
@@ -37,7 +37,7 @@ Users who add accounts to Cerby are automatically granted the account **Owner** 
   * **Owner:** Users with this role can share accounts, manage access and account configuration, and view passwords through the user interface (UI) and API responses.
   * **Collaborator:** Users with this role can only view passwords through API responses for account login with Cerby; viewing passwords through the UI is restricted.
 
-For more information about roles and permissions, read the article [How Cerby manages roles](https://help.cerby.com/en/articles/8500649-how-cerby-manages-roles).
+For more information about roles and permissions, read the article [How Cerby manages roles](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/how-cerby-manages-roles).
 
 * * *
 
@@ -54,7 +54,7 @@ The following sections describe each feature.
 
 ### Automated password rotations
 
-Cerby’s key differentiator is automation, and this approach to security is present in our strategy to protect your passwords: automated password rotations are available for multiple [managed accounts](https://help.cerby.com/en/articles/8708338-explore-accounts#h_f0a859b407),
+Cerby’s key differentiator is automation, and this approach to security is present in our strategy to protect your passwords: automated password rotations are available for multiple [managed accounts](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-accounts),
 
 IT admins can set workspace policies to rotate passwords periodically via automation. Also, Cerby can trigger this automated task based on user deprovisioning or user account deactivation events from an identity provider (IdP), such as Okta or Entra ID.
 
@@ -78,7 +78,7 @@ As mentioned, Cerby generates and sets secure passwords when performing automate
   * Digits
   * Symbols
 
-For more information about this feature, read the article [Explore the Password Generator](https://help.cerby.com/en/articles/8487177-explore-the-password-generator).
+For more information about this feature, read the article [Explore the Password Generator](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-the-password-generator).
 
 ### Restrictions on password view capabilities
 

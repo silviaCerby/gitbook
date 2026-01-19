@@ -1,6 +1,6 @@
 ---
-hidden: false
+hidden: true
 noIndex: true
 ---
 
-# IdLCM
+# Idlcm

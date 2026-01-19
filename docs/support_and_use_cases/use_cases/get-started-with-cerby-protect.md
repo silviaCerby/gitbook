@@ -1,6 +1,8 @@
 ---
 description: "This article describes the basic concepts and key initial steps to take to start using Cerby Protect."
 intercom_id: 8358920
+hidden: true
+noIndex: true
 ---
 
 # Get started with Cerby Protect

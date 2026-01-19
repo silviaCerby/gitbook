@@ -27,10 +27,10 @@ The following are the supported features of automatic user provisioning with One
 The following are the requirements to enable OneLogin user provisioning with SCIM:
 
   * A user account in Cerby with the workspace**Owner** role
-  * The Cerby SAML-based app integration must be set up and deployed. You must have already deployed the integration as part of the article [Configure SSO between Cerby and OneLogin with SAML](https://help.cerby.com/en/articles/11814820-configure-sso-between-cerby-and-onelogin-with-saml).
-  * Users from your directory already assigned to the Cerby application in OneLogin. You must have done the assignments as part of the article [Configure SSO between Cerby and OneLogin with SAML](https://help.cerby.com/en/articles/11814820-configure-sso-between-cerby-and-onelogin-with-saml).
-  * A SCIM API authentication token. Follow the instructions in the article [Retrieve the SCIM API authentication token from Cerby](https://help.cerby.com/en/articles/5683294-retrieve-the-scim-api-authentication-token-from-cerby) to copy the token.
-​**NOTE:** If you need to regenerate the SCIM API authentication token, read the article[ Regenerate the SCIM API authentication token](https://help.cerby.com/en/articles/9264980-regenerate-the-scim-api-authentication-token)
+  * The Cerby SAML-based app integration must be set up and deployed. You must have already deployed the integration as part of the article [Configure SSO between Cerby and OneLogin with SAML](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/one-login/configure-sso-between-cerby-and-onelogin-with-saml).
+  * Users from your directory already assigned to the Cerby application in OneLogin. You must have done the assignments as part of the article [Configure SSO between Cerby and OneLogin with SAML](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/one-login/configure-sso-between-cerby-and-onelogin-with-saml).
+  * A SCIM API authentication token. Follow the instructions in the article [Retrieve the SCIM API authentication token from Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/retrieve-the-scim-api-authentication-token-from-cerby) to copy the token.
+​**NOTE:** If you need to regenerate the SCIM API authentication token, read the article[ Regenerate the SCIM API authentication token](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/regenerate-the-scim-api-authentication-token)
 
 * * *
 
@@ -45,14 +45,14 @@ To configure automatic user provisioning with OneLogin, you must complete the fo
 
 **Figure 1. Applications** page in OneLogin
 
-  3. Search and select your SCIM Provisioner with SAML (SCIM v2 Core) app. You created this application by following the instructions in the article [Configure SSO between Cerby and OneLogin with SAML](https://help.cerby.com/en/articles/11814820-configure-sso-between-cerby-and-onelogin-with-saml).
+  3. Search and select your SCIM Provisioner with SAML (SCIM v2 Core) app. You created this application by following the instructions in the article [Configure SSO between Cerby and OneLogin with SAML](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/one-login/configure-sso-between-cerby-and-onelogin-with-saml).
   4. Select the **Configuration** option from the left menu. The configuration details page is displayed, as shown in **Figure 2.**
 
 <img src="../../../../.gitbook/assets/image_9.png" alt="">
 
 **Figure 2.** Configuration details page in OneLogin
 
-  5. Paste the SCIM API authentication token in the **SCIM Bearer Token** field. You copied this token previously from the Cerby web app by following the instructions in the article[ Retrieve the SCIM API authentication token from Cerby](https://help.cerby.com/en/articles/5683294-retrieve-the-scim-api-authentication-token-from-cerby).
+  5. Paste the SCIM API authentication token in the **SCIM Bearer Token** field. You copied this token previously from the Cerby web app by following the instructions in the article[ Retrieve the SCIM API authentication token from Cerby](https://cerby-test.gitbook.io/cerby-test/management/identity-providers-idps/scim/retrieve-the-scim-api-authentication-token-from-cerby).
   6. Click the **Enable** button in **API Status** label. The status changes to **Enabled.**
   7. Select the **Provisioning** option from the left menu. The provisioning details page is displayed, as shown in **Figure 3.**
 

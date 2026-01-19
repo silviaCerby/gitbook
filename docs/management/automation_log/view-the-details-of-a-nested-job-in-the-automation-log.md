@@ -16,7 +16,7 @@ intercom_id: 11713623
 
 {% endhint %}
 
-As a workspace **Owner** , **Super** **Admin** , or **Admin** , you can see the details of all nested jobs run in Cerby and displayed in the [Automation Log](https://help.cerby.com/en/articles/11642287-explore-the-automation-log).
+As a workspace **Owner** , **Super** **Admin** , or **Admin** , you can see the details of all nested jobs run in Cerby and displayed in the [Automation Log](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-the-automation-log).
 
 A nested job contains more than one job involved in completing a task. You can identify a nested job in the Automation Log when the **View all jobs** button is displayed to the right of each log, as shown in **Figure 1**.
 

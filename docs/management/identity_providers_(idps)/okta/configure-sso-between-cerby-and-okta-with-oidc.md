@@ -61,7 +61,7 @@ The following are the requirements to perform the configuration:
       * [Manage users](https://help.okta.com/en/prod/Content/Topics/users-groups-profiles/usgp-people.htm)
       * [Manage groups](https://help.okta.com/en/prod/Content/Topics/users-groups-profiles/usgp-groups-main.htm)
 
-      **NOTE:** When pushed to the app integration for Cerby, Okta groups become Cerby [teams](https://help.cerby.com/en/articles/6624225-how-to-use-teams).
+      **NOTE:** When pushed to the app integration for Cerby, Okta groups become Cerby [teams](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/user-management/teams/how-to-use-teams).
 
   * Cerby
     * An invite to create a workspace emailed by the Cerby Customer Support team

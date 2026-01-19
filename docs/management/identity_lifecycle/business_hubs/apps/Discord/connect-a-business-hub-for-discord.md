@@ -133,7 +133,7 @@ To check for updates in your app to identify and import users and roles to Cerby
 {% hint style="info" %}
 
 
-**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described above in steps 1 to 3. For more instructions, read the article [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report).
+**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described above in steps 1 to 3. For more instructions, read the article [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).
 
 
 {% endhint %}
@@ -227,12 +227,12 @@ To connect your Discord’s user account to the business hub so Cerby can manage
 
 The following are the supported features of Business hubs you can use:
 
-  * [Join the app and connect it to Cerby](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby)
-  * [Update the app members’ roles](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
+  * [Join the app and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
   * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track activity on app members’ user accounts](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove an App](https://help.cerby.com/en/articles/9046230-remove-an-app)
-  * [Troubleshooting Apps](https://help.cerby.com/en/articles/9046236-troubleshooting-apps)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)
+  * [Troubleshooting Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/troubleshooting/troubleshooting-business-hubs)

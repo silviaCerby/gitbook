@@ -20,7 +20,7 @@ With Cerby, you can use the encryption keys within your AWS Key Management Servi
 
 Cerby already uses AWS KMS for vault key encryption; however, you can leverage your existing environment for your workspace. Users with the workspace **Admin** , **Super Admin** , or **Owner** role can configure a custom AWS KMS vault integration, manage your vaults, and set a default vault for accounts and secrets. Additionally, as an owner of the AWS KMS environment, you can log the creation, access, and management of your keys and encrypted credentials in your AWS account.
 
-In Cerby’s standard cloud setup, encryption keys are stored and managed by Cerby. For data protection, Cerby implements Zero Knowledge architecture principles and rigorous security protocols. For more information, read the article [How Cerby protects your data with cloud and local encryption](https://help.cerby.com/en/articles/8376548-how-cerby-protects-your-data-with-cloud-and-local-encryption).
+In Cerby’s standard cloud setup, encryption keys are stored and managed by Cerby. For data protection, Cerby implements Zero Knowledge architecture principles and rigorous security protocols. For more information, read the article [How Cerby protects your data with cloud and local encryption](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/how-cerby-protects-your-data-with-cloud-and-local-encryption).
 
 {% hint style="danger" %}
 
@@ -49,7 +49,7 @@ The following are the requirements to set up an AWS KMS vault integration:
 
   * A Cerby workspace.
   * A Cerby account with the workspace **Admin** , **Super Admin** , or **Owner** role.
-  * The browser you'll use for the AWS KMS vault integration must be a trusted device in Cerby. For more information, read the article [Set up trusted sessions on your devices](https://help.cerby.com/en/articles/8142370-set-up-trusted-sessions-on-your-devices).
+  * The browser you'll use for the AWS KMS vault integration must be a trusted device in Cerby. For more information, read the article [Set up trusted sessions on your devices](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/trusted-devices/set-up-trusted-sessions-on-your-devices).
   * Your Cerby workspace ID. You can find it by completing the following steps:
 
     1. Log in to your Cerby [workspace](https://app.cerby.com/) using the Cerby web app.
@@ -321,14 +321,14 @@ As an optional step in the AWS KMS integration with Cerby, you can configure log
 
 After integrating your AWS KMS vault with Cerby, you can start saving accounts and secrets. Read the following articles to learn more about account and secret creation and vault assignation:
 
-  * [Add an account](https://help.cerby.com/en/articles/8708374-add-an-account)
-  * [Add a secret](https://help.cerby.com/en/articles/8705289-add-a-secret)
-  * [Assign additional vaults to an account](https://help.cerby.com/en/articles/9370625-assign-additional-vaults-to-an-account)
+  * [Add an account](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/add-an-account)
+  * [Add a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/add-a-secret)
+  * [Assign additional vaults to an account](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/assign-additional-vaults-to-an-account)
 * * *
 
 ## Manage your AWS KMS vault
 
-Read the article [Create and manage a vault](https://help.cerby.com/en/articles/8376564-create-and-manage-a-vault) to learn how to manage your AWS KMS vault.
+Read the article [Create and manage a vault](https://cerby-test.gitbook.io/cerby-test/management/credential-management/vaults/create-a-vault) to learn how to manage your AWS KMS vault.
 
 * * *
 

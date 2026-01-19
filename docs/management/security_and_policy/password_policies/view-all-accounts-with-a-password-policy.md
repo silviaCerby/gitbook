@@ -16,7 +16,7 @@ intercom_id: 11466954
 
 {% endhint %}
 
-As a workspace **Admin** , you can view all the accounts belonging to a specific managed app for which a [password policy](https://help.cerby.com/en/articles/11465716-explore-password-policies) was created. To do so, you must complete the following steps:
+As a workspace **Admin** , you can view all the accounts belonging to a specific managed app for which a [password policy](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-password-policies) was created. To do so, you must complete the following steps:
 
 1. Log in to your [Cerby](https://app.cerby.com/) workspace.
 2. Select the **Password Policies** option from the left menu. The **Password Policies** page is displayed with a table of policies.

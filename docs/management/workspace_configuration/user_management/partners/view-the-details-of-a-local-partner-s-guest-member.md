@@ -16,7 +16,7 @@ intercom_id: 11944432
 
 {% endhint %}
 
-As a **Host Admin** or **Guest Admin** of a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can view the details of a local partner’s guest member. For example, the date they joined your Cerby workspace, their email address, role, and the accounts to which they have been granted shared access.
+As a **Host Admin** or **Guest Admin** of a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can view the details of a local partner’s guest member. For example, the date they joined your Cerby workspace, their email address, role, and the accounts to which they have been granted shared access.
 
 To view the details of a local partner’s guest member, you complete the following steps:
 

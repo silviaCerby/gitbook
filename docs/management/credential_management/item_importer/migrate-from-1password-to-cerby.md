@@ -421,21 +421,21 @@ Users who are part of your organization and have a Cerby account but are unmatch
 
   * Collection
 
-    1. Watch the video [How to create and share a collection](https://help.cerby.com/en/articles/6393791-video-how-to-create-and-share-a-collection).
+    1. Watch the video [How to create and share a collection](https://cerby-test.gitbook.io/cerby-test/management/credential-management/collections/video-how-to-create-and-share-a-collection).
 
   * Account
 
-    1. Watch the video [How to share access to accounts with teammates](https://help.cerby.com/en/articles/5605252-video-how-to-share-access-to-accounts-with-teammates).
+    1. Watch the video [How to share access to accounts with teammates](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/video-how-to-share-access-to-accounts-with-teammates).
 
   * Secret
 
-    1. Watch the video [How to add and share a secret](https://help.cerby.com/en/articles/7321008-video-how-to-add-and-share-a-secret).
+    1. Watch the video [How to add and share a secret](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/secrets/video-how-to-add-and-share-a-secret).
 
 ### Guest users
 
 External collaborators who are not part of your organization and don’t have a Cerby account are identified as unmatched. To grant them the imported access permissions, you can invite them to join your workspace as guest users.
 
-Guest users have identities and authentication managed by Cerby. After receiving the invite and joining Cerby, they are visible through the **All Members** view and searchable through the item-sharing dialog boxes. For more information about this feature, read the [How to invite a guest user to your workspace](https://help.cerby.com/en/articles/8392946-how-to-invite-a-guest-user-to-your-workspace) article.
+Guest users have identities and authentication managed by Cerby. After receiving the invite and joining Cerby, they are visible through the **All Members** view and searchable through the item-sharing dialog boxes. For more information about this feature, read the [How to invite a guest user to your workspace](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) article.
 
 To invite a guest user as part of the import process, you must complete the following steps from the **Import report** view:
 
@@ -443,7 +443,7 @@ To invite a guest user as part of the import process, you must complete the foll
   2. Click the **Invite as guest** button of the corresponding user. The **Invite guest user** dialog box is displayed.
   3. Click the **Send invite** button. The dialog box closes, a success message box is displayed, and the invite is sent to the guest user’s email.
 
-The guest user must open the invite and set up their account to join your Cerby workspace. For instructions, read the section [Join Cerby from a guest user invite](https://help.cerby.com/en/articles/8392946-how-to-invite-a-guest-user-to-your-workspace#h_b1d67dc2dc) from the article [How to invite a guest user to your workspace](https://help.cerby.com/en/articles/8392946-how-to-invite-a-guest-user-to-your-workspace).
+The guest user must open the invite and set up their account to join your Cerby workspace. For instructions, read the section [Join Cerby from a guest user invite](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) from the article [How to invite a guest user to your workspace](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users).
 
 When they join Cerby, the corresponding shared items are displayed in the **All Accounts** , **Secrets** , and **Collections** views.
 

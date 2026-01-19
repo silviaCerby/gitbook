@@ -45,5 +45,5 @@ The following articles describe the actions and steps to manage app setting rest
 
   * [Add setting restrictions to an app](https://help.cerby.com/en/articles/10276341-add-settings-restrictions-to-an-app)
   * [Edit an app setting restriction](https://help.cerby.com/en/articles/10276378-edit-an-app-settings-restriction)
-  * [Customize the user message for setting restrictions](https://help.cerby.com/en/articles/10276389-customize-the-user-message-for-setting-restrictions)
+  * [Customize the user message for setting restrictions](https://cerby-test.gitbook.io/cerby-test/management/workspace-configuration/app-settings-restrictions/customize-the-user-message-for-setting-restrictions)
   * [Remove apps from setting restrictions](https://help.cerby.com/en/articles/10276395-remove-apps-from-settings-restrictions)

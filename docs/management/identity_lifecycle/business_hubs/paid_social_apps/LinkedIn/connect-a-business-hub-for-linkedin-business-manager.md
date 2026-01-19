@@ -25,7 +25,7 @@ When you connect a business hub, you become its **Owner** , and you can perform 
 * Update app member’s roles
 * Remove app members
 
-**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Business hubs](https://help.cerby.com/en/articles/6831152-explore-apps).
+**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Business hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs).
 ---
 
 Additionally, you can manage the following LinkedIn Business Manager assets from Cerby:
@@ -50,11 +50,11 @@ The following are the requirements to connect a business hub:
   * A Cerby user account with any workspace role
   * A LinkedIn personal account with multi-factor authentication (MFA) turned on and managed by Cerby. The following are the guides you can refer to set up your LinkedIn account properly:
   * To turn on MFA for your LinkedIn account, follow the steps in the official guide [Turn two-step verification on and off](https://www.linkedin.com/help/linkedin/answer/a1381088/turn-two-step-verification-on-and-off)
-  * To configure Cerby to manage your LinkedIn account, follow the steps in the article [How to turn on MFA managed by Cerby](https://help.cerby.com/en/articles/8429534-how-to-turn-on-2fa-managed-by-cerby)
+  * To configure Cerby to manage your LinkedIn account, follow the steps in the article [How to turn on MFA managed by Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app)
   * Your LinkedIn personal account must be part of a [LinkedIn Business Manager](https://business.linkedin.com/marketing-solutions/business-manager) account created to manage your LinkedIn assets
   * An automation account, meaning an active LinkedIn user account with a native **Admin** role in LinkedIn Business Manager.
-  * A group assignment configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on IdP events. For more information, read the **App user provisioning and deprovisioning** section of the article [Explore Business hubs](https://help.cerby.com/en/articles/6831152-explore-apps)
-  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Business hubs](https://help.cerby.com/en/articles/6831152-explore-apps)
+  * A group assignment configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on IdP events. For more information, read the **App user provisioning and deprovisioning** section of the article [Explore Business hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
+  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Business hubs](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
   * The LinkedIn Business Manager ID. You can find the ID as follows:
 
     1. Log in to [LinkedIn Business Manager](https://business.linkedin.com/marketing-solutions/business-manager) using your LinkedIn account credentials. The LinkedIn Business Manager main page is displayed
@@ -133,7 +133,7 @@ To check for updates in your app to identify and import users, roles, and assets
 {% hint style="info" %}
 
 
-**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described above in steps 1 to 3. When a user is deprovisioned from an identity provider and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from the app. For more instructions, read the article [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report).
+**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described above in steps 1 to 3. When a user is deprovisioned from an identity provider and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from the app. For more instructions, read the article [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).
 
 
 {% endhint %}
@@ -223,14 +223,14 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 The following are the supported features of Business hubs you can use:
 
-  * [Join the App and connect it to Cerby](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby)
-  * [Invite new app members](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Remove app members](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * [Update the app members’ roles](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
+  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
   * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track activity on app members’ user accounts](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove an App](https://help.cerby.com/en/articles/9046230-remove-an-app)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

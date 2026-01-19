@@ -1,6 +1,8 @@
 ---
 description: "This article describes the benefits of Scout for workflow scouting to accelerate the building process of Cerby’s automated jobs."
 intercom_id: 9774431
+hidden: true
+noIndex: true
 ---
 
 # Explore Scout
