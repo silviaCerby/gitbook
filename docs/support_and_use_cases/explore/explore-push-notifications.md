@@ -1,6 +1,8 @@
 ---
 description: "This article describes the benefits of enabling Cerby’s push notifications in your browser to get recent updates and requests."
 intercom_id: 11741093
+hidden: true
+noIndex: true
 ---
 
 # Explore Push Notifications

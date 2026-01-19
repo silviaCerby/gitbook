@@ -17,7 +17,7 @@ intercom_id: 11682782
 
 {% endhint %}
 
-As an account Owner with accounts assigned to local vaults, you might have some limitations executing automated tasks, as explained in the article [Explore automation for accounts in local vaults](https://help.cerby.com/en/articles/11682746-explore-automation-for-accounts-in-local-vaults). Even with these limitations, you can perform the following tasks for accounts assigned to a local vault:
+As an account Owner with accounts assigned to local vaults, you might have some limitations executing automated tasks, as explained in the article [Explore automation for accounts in local vaults](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-automation-for-accounts-in-local-vaults). Even with these limitations, you can perform the following tasks for accounts assigned to a local vault:
 
 * [Rotate your account password](run-automated-tasks-for-accounts-in-local-vaults.md#rotate-your-account-password)
 * [Turn on multi-factor authentication (MFA)](run-automated-tasks-for-accounts-in-local-vaults.md#turn-on-multi-factor-authentication-(mfa))
@@ -61,6 +61,6 @@ To turn on MFA in your account, you must complete the following steps:
         * Enable Cerby to MFA on your behalf for the account. A success message and the other indicating that the MFA is turned on.
 
      3. Click the **Confirm** button.
-  7. Follow the steps to [turn on MFA in your app](https://help.cerby.com/en/articles/8429534-how-to-turn-on-mfa-managed-by-cerby#h_95c0230b0d).
+  7. Follow the steps to [turn on MFA in your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/accounts/protecting-your-account/turn-on-mfa-with-cerby-as-an-authenticator-app-for-your-account-using-the-web-app).
 
 Now you are done.

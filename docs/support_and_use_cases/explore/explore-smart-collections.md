@@ -1,6 +1,8 @@
 ---
 description: "This article describes the business context for implementing the Smart Collections feature in L’Oréal’s workspace and includes a user guide for proper use."
 intercom_id: 9422854
+hidden: true
+noIndex: true
 ---
 
 # Explore Smart Collections

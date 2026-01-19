@@ -16,7 +16,7 @@ intercom_id: 11466959
 
 {% endhint %}
 
-As a workspace **Admin** , you can edit the settings of an existing [password policy](https://help.cerby.com/en/articles/11465716-explore-password-policies) to change the execution of automated password rotations.
+As a workspace **Admin** , you can edit the settings of an existing [password policy](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-password-policies) to change the execution of automated password rotations.
 
 Due to the current implementation of the Password Policies feature, the following rules have been established:
 

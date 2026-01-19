@@ -16,7 +16,7 @@ intercom_id: 11466995
 
 {% endhint %}
 
-As a workspace **Admin** , you can delete an existing [password policy](https://help.cerby.com/en/articles/11465716-explore-password-policies), which cancels any queued or scheduled password rotations.
+As a workspace **Admin** , you can delete an existing [password policy](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-password-policies), which cancels any queued or scheduled password rotations.
 
 {% hint style="info" %}
 

@@ -1,6 +1,8 @@
 ---
 description: "This article describes the recertification process for L'Oréal."
 intercom_id: 10228345
+hidden: true
+noIndex: true
 ---
 
 # Recertification criteria for L'Oréal

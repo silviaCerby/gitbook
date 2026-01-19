@@ -16,7 +16,7 @@ intercom_id: 11944400
 
 {% endhint %}
 
-As a **Host Admin** of a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can assign one or multiple **Host Admins** to your existing local partner. **Host Admins** can manage the local partner and its guest users, and share accounts with the local partner.
+As a **Host Admin** of a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can assign one or multiple **Host Admins** to your existing local partner. **Host Admins** can manage the local partner and its guest users, and share accounts with the local partner.
 
 To assign a **Host Admin** to a local partner, you must complete the following steps:
 

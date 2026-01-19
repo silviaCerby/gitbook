@@ -16,7 +16,7 @@ intercom_id: 11466985
 
 {% endhint %}
 
-As a workspace **Admin** , you can include an account in an existing [password policy](https://help.cerby.com/en/articles/11465716-explore-password-policies) so that automated password rotations are executed for it.
+As a workspace **Admin** , you can include an account in an existing [password policy](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-password-policies) so that automated password rotations are executed for it.
 
 {% hint style="danger" %}
 

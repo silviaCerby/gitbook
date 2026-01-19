@@ -47,7 +47,7 @@ To add an individual asset to a collection, you must complete the following step
 {% hint style="info" %}
 
 
-**NOTE:** For existing members and teams in the collection, Cerby sends them emails to claim access to the business hub and assets. After they claim access, Cerby adds these users to the external apps and the assets. If members and teams already have direct access to the business hub, they must only claim access to the assets. For more information, read the article [Manage access to business hubs and assets with collections](https://help.cerby.com/en/articles/11102692-manage-access-to-business-hubs-and-assets-with-collections).
+**NOTE:** For existing members and teams in the collection, Cerby sends them emails to claim access to the business hub and assets. After they claim access, Cerby adds these users to the external apps and the assets. If members and teams already have direct access to the business hub, they must only claim access to the assets. For more information, read the article [Manage access to business hubs and assets with collections](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/manage-access-to-business-hubs-and-assets-with-collections).
 
 
 {% endhint %}
@@ -75,7 +75,7 @@ To add an asset for an existing business hub in a collection, you must complete 
 {% hint style="info" %}
 
 
-**NOTE:** For existing members and teams in the collection, Cerby sends emails for users to claim access to the assets. After they claim access, Cerby adds these users to the assets. For more information, read the article [Manage access to business hubs and assets with collections](https://help.cerby.com/en/articles/11102692-manage-access-to-business-hubs-and-assets-with-collections).
+**NOTE:** For existing members and teams in the collection, Cerby sends emails for users to claim access to the assets. After they claim access, Cerby adds these users to the assets. For more information, read the article [Manage access to business hubs and assets with collections](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/manage-access-to-business-hubs-and-assets-with-collections).
 
 
 {% endhint %}

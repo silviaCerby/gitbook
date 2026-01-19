@@ -12,7 +12,7 @@ intercom_id: 11944425
 
 ---
 
-As a **Host Admin** or **Guest Admin** of a [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can update a guest member’s role to grant them the permissions they need to streamline collaboration.
+As a **Host Admin** or **Guest Admin** of a [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can update a guest member’s role to grant them the permissions they need to streamline collaboration.
 
 The following rules apply when updating roles:
 

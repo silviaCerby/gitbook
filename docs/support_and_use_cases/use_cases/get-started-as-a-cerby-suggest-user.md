@@ -1,6 +1,8 @@
 ---
 description: "This article described the key initial steps you can perform as a Cerby Suggest user."
 intercom_id: 8843620
+hidden: true
+noIndex: true
 ---
 
 # Get started as a Cerby Suggest user

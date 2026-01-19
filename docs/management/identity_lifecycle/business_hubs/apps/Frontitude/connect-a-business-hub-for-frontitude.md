@@ -27,7 +27,7 @@ When you connect the business hub, you become its **Owner** , and you can perfor
 {% hint style="success" %}
 
 
-**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Apps](https://help.cerby.com/en/articles/6831152-explore-apps).
+**TIP:** For more details about the automated tasks of a business hub, how it works, and the supported apps, read the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs).
 
 
 {% endhint %}{% hint style="info" %}
@@ -49,12 +49,12 @@ The following are the requirements to connect a business hub:
   * A Cerby workspace
   * A Cerby user account with the **Owner** , **Super Admin** , **Admin** , or **User** role
   * A workspace in Frontitude
-  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * An automation account, meaning an active user account with a **Collaborator** role in Frontitude to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://help.cerby.com/en/articles/9830816-create-an-automation-or-service-account-for-your-business-hub)
+  * Groups configured in your identity provider (IdP) if you want to leverage automatic user provisioning and deprovisioning from your apps based on group assignment events. For more information, read the article [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * An automation account, meaning an active user account with a **Collaborator** role in Frontitude to be used as a service account. For instructions and recommendations on how to create and configure this account, read the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub)
 
   **NOTE:** Frontitude only supports one role at the workspace and project level: **Collaborator**. Therefore, the service account has this role
 
-  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps](https://help.cerby.com/en/articles/6831152-explore-apps)
+  * The user management and login method for your business hub identified to select the corresponding option when connecting your app. For more information, read the **User management and login method** section of the article [Explore Apps](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs)
 
   **IMPORTANT:** This business hub only supports single sign-on (SSO) as the user management and login method.
 
@@ -64,7 +64,7 @@ The following are the requirements to connect a business hub:
 
 To connect a business hub for Frontitude, you must complete the following main steps from the Cerby web app dashboard:
 
-  1. [Add a business hub and connect it to Frontitude](connect-a-business-hub-for-frontitude.md#id-1.-add-a-business-hub-and-connect-it-to-frontitude)[ ](https://help.cerby.com/en/articles/9046120-connect-an-app#h_039a665169)
+  1. [Add a business hub and connect it to Frontitude](connect-a-business-hub-for-frontitude.md#id-1.-add-a-business-hub-and-connect-it-to-frontitude)[ ](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/connect-a-business-hub-for-your-app)
   2. [Check for updates to import users, roles, and assets to Cerby](connect-a-business-hub-for-frontitude.md#id-2.-check-for-updates-to-import-users-roles-and-assets-to-cerby)
   3. [Connect your Frontitude user account to the business hub](connect-a-business-hub-for-frontitude.md#id-3.-connect-your-frontitude-user-account-to-the-business-hub)
   4. [Manage unmatched users](connect-a-business-hub-for-frontitude.md#id-4.-manage-unmatched-users)
@@ -93,7 +93,7 @@ To add a business hub and connect it to Frontitude, you must complete the follow
 
   7. Click the **Next** button. The **Select automation account** page is displayed with a list of existing Frontitude accounts.
   8. Select the automation account you have previously added to Cerby, as described in the [Requirements](connect-a-business-hub-for-frontitude.md#requirements) section.
-  **NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://help.cerby.com/en/articles/9830816-create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
+  **NOTE:** If you don’t have an automation account, you are prompted to add it. Make sure you read Cerby’s recommendations on how to configure it in the article [Create an automation or service account for your business hub](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/create-an-automation-or-service-account-for-your-business-hub). You may need to add the account first and then add the business hub.
 
   9. Click the **Connect app** button. The wizard closes, and a success message box is displayed.
 The corresponding business hub is also displayed on the **Business Hubs** view.
@@ -117,7 +117,7 @@ To check for updates in your app to identify and import users, roles, and assets
 {% hint style="info" %}
 
 
-**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described in this section. When a user is deprovisioned from an IdP and a check for updates is performed, Cerby generates a report and sends business hub **Owners** an email to confirm their removal from the app. For more instructions, read the article [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report).
+**NOTE:** Cerby automatically performs daily checks for updates for all business hubs, but you can trigger them manually, as described in this section. When a user is deprovisioned from an IdP and a check for updates is performed, Cerby generates a report and sends business hub **Owners** an email to confirm their removal from the app. For more instructions, read the article [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app).
 
 
 {% endhint %}
@@ -137,7 +137,7 @@ The next step is [4. Manage unmatched users](connect-a-business-hub-for-frontitu
 
 ### 4\. Manage unmatched users
 
-During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://help.cerby.com/en/articles/8392946-explore-guest-users) and [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
+During a check for updates, Cerby automatically matches app members to the Cerby user accounts that correspond to their email addresses, including existing [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) and [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners). Manual matching is required when apps don't provide email addresses and for app members using personal or external accounts that couldn’t be identified or are not in the corporate directory.
 
 To view the status of the imported app members, you must complete the following steps:
 
@@ -206,13 +206,13 @@ To exempt unmatched users, you must complete the following steps from the **Unma
 
 The following are the supported features of business hubs you can use:
 
-  * [Join the App and connect it to Cerby](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby)
-  * [Invite new app members](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Remove app members](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
+  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
   * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track activity on app members’ user accounts](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove an App](https://help.cerby.com/en/articles/9046230-remove-an-app)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

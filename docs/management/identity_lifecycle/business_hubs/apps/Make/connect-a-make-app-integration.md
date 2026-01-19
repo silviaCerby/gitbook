@@ -18,7 +18,7 @@ intercom_id: 9660535
 
 Cerby leverages an automation-based integration to connect Make to your Cerby workspace. With this connection, you can import your user data, such as roles, permissions, and team members, to centrally and securely manage access from Cerby.
 
-For the connection to happen, you must add to Cerby an automation account with the **Team Admin** role on Make and connect it to the corresponding [app integration](https://help.cerby.com/en/articles/6831152-how-to-use-tenants). Cerby uses this account as a service account to access Make, import the user data, and perform access management actions through automated tasks.
+For the connection to happen, you must add to Cerby an automation account with the **Team Admin** role on Make and connect it to the corresponding [app integration](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-business-hubs). Cerby uses this account as a service account to access Make, import the user data, and perform access management actions through automated tasks.
 
 Cerby recommends creating a user account dedicated to this purpose, not intended for human use, with the following characteristics depending on the user management and login method for Make:
 
@@ -38,12 +38,12 @@ Users will be asked to save their credentials in Cerby for logging-in purposes. 
 
 After importing your users, you gain visibility on who accesses your app. Users with a Cerby account are automatically matched to their corresponding identity in your corporate directory, which may be managed by an IdP, such as Okta or Entra ID (formerly Azure AD).
 
-Matched users are prompted in the Cerby dashboard to connect their Make user accounts to Cerby. After connecting their account, by following the instructions in the article [Join the App and connect it to Cerby](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby), you can manage and secure their access to Make and update their role, all from one single interface.
+Matched users are prompted in the Cerby dashboard to connect their Make user accounts to Cerby. After connecting their account, by following the instructions in the article [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access), you can manage and secure their access to Make and update their role, all from one single interface.
 
 External collaborators without a Cerby account are displayed as unmatched users. For them, you can perform the following actions:
 
 * Match and invite users to join the app through Cerby
-* Invite users to your workspace as [guest users](https://help.cerby.com/en/articles/8392946-how-to-invite-a-guest-user-to-your-workspace) or [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), with secure credentials provided and managed by Cerby
+* Invite users to your workspace as [guest users](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-guest-users) or [local partners](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), with secure credentials provided and managed by Cerby
 * Remove unmatched users
 * Exempt unmatched users to keep their user account active in Make; however, you cannot manage them through Cerby
 
@@ -135,7 +135,7 @@ To check for updates and import your user data to Cerby, which includes team mem
 
 The Make Tenant account and app cards are displayed on the **All accounts** and **Apps** views, respectively, of each matched user. To connect their user account to Cerby, matched users must follow the instructions in step [3. Connect your Make user account to Cerby](connect-a-make-app-integration.md#id-3.-connect-your-make-user-account-to-cerby).
 
-**NOTE:** After adding the Make app integration, Cerby automatically performs daily checks for updates, but you can do them manually. When a user is deprovisioned from your IdP and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from Cerby. Follow the instructions in the article [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report) to apply the report and remove deprovisioned users.
+**NOTE:** After adding the Make app integration, Cerby automatically performs daily checks for updates, but you can do them manually. When a user is deprovisioned from your IdP and a check for updates is performed, Cerby generates a report and sends you an email to confirm their removal from Cerby. Follow the instructions in the article [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app) to apply the report and remove deprovisioned users.
 ---
 
 The next step is [3. Connect your Make user account to Cerby](connect-a-make-app-integration.md#id-3.-connect-your-make-user-account-to-cerby), which you must complete from your Cerby dashboard.
@@ -214,14 +214,14 @@ Use the Make app integration
 
 The following are the supported features of the Make app integration you can use:
 
-  * [Join the App and connect it to Cerby](https://help.cerby.com/en/articles/9046232-join-the-app-and-connect-it-to-cerby)
-  * [Invite new app members](https://help.cerby.com/en/articles/9045790-invite-new-app-members)
-  * [Remove app members](https://help.cerby.com/en/articles/9046186-remove-app-members)
-  * [Manage app members from your IdP](https://help.cerby.com/en/articles/9046188-manage-app-members-from-your-idp)
-  * [Update the app members’ roles](https://help.cerby.com/en/articles/9046201-update-the-app-members-roles)
-  * [Check for updates in your app and apply report](https://help.cerby.com/en/articles/9046205-check-for-updates-in-your-app-and-apply-report)
+  * [Join the App and connect it to Cerby](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/join-your-external-app-and-set-up-your-business-hub-access)
+  * [Invite new app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/add-users-and-teams-to-your-apps-via-a-business-hub)
+  * [Remove app members](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/remove-users-from-your-app-via-a-business-hub)
+  * [Manage app members from your IdP](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/unpublished-manage-app-members-from-your-idp-deprecated)
+  * [Update the app members’ roles](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/update-user-roles-in-your-app-via-a-business-hub)
+  * [Check for updates in your app and apply report](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/sync-your-business-hub-with-your-external-app)
   * [Re-assign the app members’ user accounts](https://help.cerby.com/en/articles/9046211-re-assign-the-app-members-user-accounts)
-  * [Manage the security of app members’ user accounts](https://help.cerby.com/en/articles/9046212-manage-the-security-of-app-members-user-accounts)
-  * [Log in to your app](https://help.cerby.com/en/articles/9046222-log-in-to-your-app)
-  * [Track activity on app members’ user accounts](https://help.cerby.com/en/articles/9046226-track-activity-on-app-members-user-accounts)
-  * [Remove an App](https://help.cerby.com/en/articles/9046230-remove-an-app)
+  * [Manage the security of app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/protect-your-app-user-accounts-via-a-business-hub)
+  * [Log in to your app](https://cerby-test.gitbook.io/cerby-test/how-to-use-cerby/cerby-web-app/business-hubs/log-in-to-your-app)
+  * [Track activity on app members’ user accounts](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-users/track-activity-on-app-members-user-accounts)
+  * [Remove an App](https://cerby-test.gitbook.io/cerby-test/management/identity-lifecycle/business-hubs/manage-integrations/remove-a-business-hub)

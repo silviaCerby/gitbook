@@ -16,7 +16,7 @@ intercom_id: 11944628
 
 {% endhint %}
 
-As a **Host Admin** of an existing [local partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2), you can remove a guest member from an account you shared via a local partner. This removal doesn’t affect **Guest Admins** and **Guest Users** at the local partner level; they only lose access to your account.
+As a **Host Admin** of an existing [local partner](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-partners), you can remove a guest member from an account you shared via a local partner. This removal doesn’t affect **Guest Admins** and **Guest Users** at the local partner level; they only lose access to your account.
 
 To remove a guest member from an account you shared via a local partner, you must complete the following steps:
 

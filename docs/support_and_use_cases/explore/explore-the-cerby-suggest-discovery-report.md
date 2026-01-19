@@ -1,6 +1,8 @@
 ---
 description: "This article describes the key features of the Cerby Suggest Discovery Report."
 intercom_id: 10629361
+hidden: true
+noIndex: true
 ---
 
 # Explore the Cerby Suggest Discovery Report

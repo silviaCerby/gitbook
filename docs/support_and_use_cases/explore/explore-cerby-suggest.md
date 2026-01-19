@@ -1,6 +1,8 @@
 ---
 description: "This article describes the basic concepts and characteristics of Cerby Suggest."
 intercom_id: 8839657
+hidden: true
+noIndex: true
 ---
 
 # Explore Cerby Suggest

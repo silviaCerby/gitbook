@@ -17,7 +17,7 @@ intercom_id: 9759128
 
 {% endhint %}
 
-As an account **Owner** who has synced and [extended an account to Okta](https://help.cerby.com/en/articles/9616265-explore-extended-account-access), you can remove it.
+As an account **Owner** who has synced and [extended an account to Okta](https://cerby-test.gitbook.io/cerby-test/support-and-use-cases/explore/explore-extended-account-access), you can remove it.
 
 {% hint style="danger" %}
 
