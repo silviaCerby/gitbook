@@ -20,7 +20,7 @@ Standard identity providers (IdPs) such as Okta or Entra IS work well for primar
 
 Not all applications are created equal. Cerby categorizes accounts based on the level of control and security you wish to enforce.
 
-### Managed Accounts (high security)
+### Managed Accounts
 
 Managed accounts represent the highest standard for securing critical disconnected applications. When an account is managed, Cerby assumes responsibility for its security lifecycle.
 
@@ -28,14 +28,14 @@ Managed accounts represent the highest standard for securing critical disconnect
 * **Zero-knowledge access:** Users can perform tasks without viewing or knowing the actual password.
 * **Lifecycle sync:** These accounts automatically respond to user changes in the primary identity provider.
 
-### Unmanaged Accounts (visibility only)
+### Unmanaged Accounts
 
 Unmanaged accounts offer visibility and secure storage but do not include automated security features.
 
 * **Secure vaulting:** Credentials are encrypted and stored in your dedicated vault.
 * **Manual control:** Team members can share and access these accounts, while the owner is responsible for manual security updates such as password rotations.
 
-### Self-managed Accounts (personal productivity)
+### Self-managed Accounts
 
 These accounts are intended for individual use, allowing users full control over the lifecycle while benefiting from Cerby’s secure login and MFA capabilities.
 
