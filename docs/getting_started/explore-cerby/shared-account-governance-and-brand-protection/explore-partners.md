@@ -1,3 +1,7 @@
+---
+description: "This article describes the key benefits of the Partners feature that enables you to collaborate with external parties through Cerby."
+---
+
 # Explore Partners
 
 Success in today’s business environment often depends on external experts such as agencies, consultants, and service providers. Traditional collaboration methods risk credential leakage by sharing passwords insecurely or granting excessive access to external users.
