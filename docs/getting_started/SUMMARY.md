@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Glossary](glossary.md)
 * Getting Started Guides
