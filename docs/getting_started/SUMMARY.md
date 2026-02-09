@@ -9,21 +9,21 @@
     * [[Video] How to log in to your Cerby workspace](video-how-to-log-in-to-your-cerby-workspace.md)
 * Explore Cerby
     * Automate access with workflows
-        * [Explore Indetity Lifecycle Management](explore-identity-lifecycle-management.md)
-        * [Explore Password Policies](explore-password-policies.md)
-        * [Explore Universal Logout](explore-universal-logout.md)
+        * [Explore Indetity Lifecycle Management](explore-cerby/automated-lifecycle-and-compliance/explore-identity-lifecycle-management.md)
+        * [Explore Password Policies](explore-cerby/automated-lifecycle-and-compliance/explore-password-policies.md)
+        * [Explore Universal Logout](explore-cerby/unified-access-and-sso-expansion/explore-universal-logout.md)
     * Continuous monitoring and threat detection
-        * [Explore Activity and Automation Logs](explore-activity-and-access-logs.md)
-        * [Explore the Security Hub](explore-the-security-hub.md)
+        * [Explore Activity and Automation Logs](explore-cerby/continuous-monitoring-and-threat-detection/explore-activity-and-automation-logs.md)
+        * [Explore the Security Hub](explore-cerby/continuous-monitoring-and-threat-detection/explore-the-security-hub.md)
     * Shared account governance and brand protection
-        * [Explore Business Hubs](explore-business-hubs.md)
-        * [Explore Collections and Subcollections](explore-collections-and-subcollections.md)
-        * [Explore Partners](explore-partners.md)]
+        * [Explore Business Hubs](explore-cerby/shared-account-governance-and-brand-protection/explore-business-hubs.md)
+        * [Explore Collections and Subcollections](explore-cerby/shared-account-governance-and-brand-protection/explore-collections-and-subcollections.md)
+        * [Explore Partners](explore-cerby/shared-account-governance-and-brand-protection/explore-partners.md)
     * Unified access and SSO expansion
-        * [Explore Accounts](explore-accounts.md)
-        * [Explore Managed vs Self-Managed Accounts](explore-managed-vs-self-managed-accounts.md)
-        * [Explore Passkeys in Cerby](explore-passkeys-in-cerby.md)
-        * [Explore the Cerby Browser Extension](explore-the-cerby-browser-extension.md)
+        * [Explore Accounts](explore-cerby/unified-access-and-sso-expansion/explore-accounts.md)
+        * [Explore Managed vs Self-Managed Accounts](explore-cerby/unified-access-and-sso-expansion/explore-managed-vs-self-managed-accounts.md)
+        * [Explore Passkeys in Cerby](explore-cerby/unified-access-and-sso-expansion/explore-passkeys-in-cerby.md)
+        * [Explore the Cerby Browser Extension](explore-cerby/unified-access-and-sso-expansion/explore-the-cerby-browser-extension.md)
 * Cerby browser extension
     * [Install the Cerby browser extension](cerby_browser_extension/install-the-cerby-browser-extension.md)
     * [[Video] How to install the Cerby browser extension](cerby_browser_extension/video-how-to-install-the-cerby-browser-extension.md)
