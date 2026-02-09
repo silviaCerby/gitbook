@@ -1,6 +1,5 @@
 ---
 description: "This article describes the basic definitions of terms that are commonly used in Cerby."
-intercom_id: 6465559
 ---
 
 # Glossary
