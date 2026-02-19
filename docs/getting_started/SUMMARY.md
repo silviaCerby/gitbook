@@ -1,6 +1,5 @@
 # Table of contents
 
-* [Glossary](glossary.md)
 * Getting Started Guides
     * [Getting Started Guide for Account Owners and Collaborators](getting-started-guide-for-account-owners-and-collaborators.md)
     * [Getting Started Guide for Admins](getting-started-guide-for-admins.md)
@@ -31,3 +30,4 @@
     * [Install and configure the Cerby mobile app on Android](cerby_mobile_app/install-and-configure-the-cerby-mobile-app-on-android.md)
     * [Install and configure the Cerby mobile app on iOS](cerby_mobile_app/install-and-configure-the-cerby-mobile-app-on-ios.md)
     * [[Video] How to install and set up the Cerby mobile app](cerby_mobile_app/video-how-to-install-and-set-up-the-cerby-mobile-app.md)
+* [Glossary](glossary.md)
