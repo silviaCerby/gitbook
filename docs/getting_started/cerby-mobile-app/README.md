@@ -1,2 +1,0 @@
-# Cerby mobile app
-
