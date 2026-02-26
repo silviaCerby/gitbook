@@ -16,9 +16,7 @@ The Cerby web app provides the following key features:
 * **Asset Management**: Add and configure accounts, secrets, and collections to organize how your organization shares access.
 * **MFA Management**: Set up, view, or turn off Multi-Factor Authentication (MFA) methods for your managed accounts.
 * **Security Hub**: Monitor the security health of your workspace, address automation task issues, and assign owners to orphaned accounts.
-* **Integration Configuration**: Connect your workspace to external services such as Identity Providers (IdPs) or Business Hubs (e.g., Meta Business Manager or TikTok for Business).
-
-
+* **Integration Configuration**: Connect your workspace to external services such as Identity Providers (IdPs) or Business Hubs (for example, Meta Business Manager or TikTok for Business).
 
 ## Benefits
 
