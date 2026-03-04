@@ -1,15 +1,13 @@
-## Getting Started
-
-* **Overview**
+## **Overview**
     * [Explore Cerby](overview/explore-cerby.md)
     * [Explore the Cerby web app](overview/explore-the-cerby-web-app.md)
     * [Explore the Cerby browser extension](overview/explore-the-cerby-browser-extension.md)
     * [Explore the Cerby mobile app](overview/explore-the-cerby-mobile-app.md)
     * [Explore Scout](overview/explore-scout.md)
-* **Quick start guides**
-    * [Get started as an admin](quick_start_guides/get-started-as-an-admin.md)
-    * [Get started as a user](quick_start_guides/get-started-as-a-user.md)
-* **Concepts**
+## **Getting Started**
+    * [Quick start guide users](quick_start_guides/get-started-as-a-user.md)
+    * [Quick start guide admins](quick_start_guides/get-started-as-an-admin.md)
+## **Concepts**
     * **Credential management**
         * [Accounts](concepts/credential_management/explore-accounts.md)
         * [Secrets](concepts/credential_management/explore-secrets.md)
@@ -33,8 +31,7 @@
         * [Password Policies](concepts/security_posture/explore-password-policies.md)
         * [Universal Logout](concepts/security_posture/explore-universal-logout.md)
         * [Security Hub](concepts/security_posture/explore-security-hub.md)
-* **Audit and activity**
-    * [Activity](concepts/audit_and_activity/explore-activity.md)
-    * [Automation Log](concepts/audit_and_activity/explore-the-automation-log.md)
-* **Glossary**
-    * [A to Z of general concepts and terms](glossary.md)
+    * **Audit and activity**
+        * [Activity](concepts/audit_and_activity/explore-activity.md)
+        * [Automation Log](concepts/audit_and_activity/explore-the-automation-log.md)
+## [**Glossary**](glossary.md)
