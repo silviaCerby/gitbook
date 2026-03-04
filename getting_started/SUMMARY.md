@@ -6,7 +6,7 @@
 * [Explore Scout](overview/explore-scout.md)
 ## **Getting Started**
 * [Quick start guide users](quick_start_guides/get-started-as-a-user.md)
-* [Quick start guide admins](quick_start_guides/get-started-as-an-admin.md)
+* [Quick start guide admins](quick_start_guides/getting-started-guide-for-admins.md)
 ## **Concepts**
 * **Credential management**
     * [Accounts](concepts/credential_management/explore-accounts.md)
