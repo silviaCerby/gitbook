@@ -1,6 +1,8 @@
 ---
-description: "This article describes the key benefits of the Cerby mobile app to manage your items and assets from your phone."
 intercom_id: 9715502
+description: >-
+  This article describes the key benefits of the Cerby mobile app to manage your
+  items and assets from your phone.
 ---
 
 # Explore the Cerby mobile app
@@ -15,7 +17,7 @@ The Cerby mobile app is built using best practices for iOS and Android platforms
 
 The layout is designed to be user-friendly, ensuring that you can find what you need with just a few taps. Whether you're looking to quickly log in to an account or update your authentication methods, the dashboard makes it all accessible, as shown in **Figure 1**.
 
-<img src="../../../.gitbook/assets/unnamed_39.png" alt=""> <img src="../../../.gitbook/assets/unnamed_40.png" alt="">
+![](../.gitbook/assets/unnamed_39.png) ![](../.gitbook/assets/unnamed_40.png)
 
 **Figure 1.** Cerby mobile app dashboard screen on iOS (left) and Android (right)
 
@@ -24,7 +26,7 @@ The layout is designed to be user-friendly, ensuring that you can find what you 
 The Cerby mobile app is available to download on the stores of iOS and Android, the two main operating systems:
 
 * [App Store](https://apps.apple.com/us/app/cerby/id1533747684) (**minimum requirements:** iOS 16.0)
-* [Google Play Store](https://play.google.com/store/apps/details?id=com.cerby&hl=da&gl=US)****(**minimum requirements:** Android 11.0)
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.cerby\&hl=da\&gl=US)\*\*\*\*(**minimum requirements:** Android 11.0)
 
 Read the article [Install the Cerby mobile app](https://help.cerby.com/en/articles/8432312-install-the-cerby-mobile-app) to learn how to install the app.
 

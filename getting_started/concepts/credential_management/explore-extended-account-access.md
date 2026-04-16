@@ -1,9 +1,11 @@
 ---
-description: "This article describes the benefits of the Extended account access feature to access your apps from your IdP with Cerby's automated login."
 intercom_id: 9616265
+description: >-
+  This article describes the benefits of the Extended account access feature to
+  access your apps from your IdP with Cerby's automated login.
 ---
 
-# Explore Extended account access
+# Extended account access
 
 With Cerby, you can centralize access to your disconnected apps in your identity provider (IdP) while still providing Cerby's automated login experience.
 
@@ -22,16 +24,12 @@ Currently, Cerby supports this feature for Okta. Therefore, Cerby accounts becom
 
 According to the roles mentioned above, the chiclets are created in the Okta dashboard only for users with the **Owner** or **Collaborator** role on an account, as shown in **Figure 1**.
 
-<img src="../../../.gitbook/assets/AD_4nXdBtvflMJPrj6X7dnEESWVEot1ZAn5StW6bxnqXKq9PLaY07bHQOHmXuR-YudWNdTxhUMkoEjxQeVt7kPxJUHB9xMiGa07WQ_eIdqL4vmVu2ev7vU9larWvcz6Y4zqTjVPrYg5rqdgOhLCjUZztS7h4L_eC.png" alt="Screenshot of the My Apps page in the Okta dashboard. Multiple chiclets are displayed for logging-in purposes; they all correspond to Cerby accounts">
+![Screenshot of the My Apps page in the Okta dashboard. Multiple chiclets are displayed for logging-in purposes; they all correspond to Cerby accounts](../../.gitbook/assets/AD_4nXdBtvflMJPrj6X7dnEESWVEot1ZAn5StW6bxnqXKq9PLaY07bHQOHmXuR-YudWNdTxhUMkoEjxQeVt7kPxJUHB9xMiGa07WQ_eIdqL4vmVu2ev7vU9larWvcz6Y4zqTjVPrYg5rqdgOhLCjUZztS7h4L_eC.png)
 
 **Figure 1.** Chiclets in the Okta dashboard synced from accounts in Cerby
 
 {% hint style="info" %}
-
-
 **NOTE:** If you are interested in the Extended account access feature but don't see it available in your workspace, contact our Customer Support team via email at [support@cerby.com](mailto:support@cerby.com).
-
-
 {% endhint %}
 
 ## Learn how the Extended account access feature works
@@ -53,34 +51,22 @@ User provisioning and deprovisioning events and account deactivation in Okta via
 * Deprovisioned or deactivated users in Okta lose all access both to the Okta tenant and Cerby workspace; therefore, they lose access to all items. Additionally, Cerby performs automated password rotations for the security of the managed accounts.
 
 {% hint style="danger" %}
-
-
 **IMPORTANT:** No sensitive data is shared with Okta; all account data remains stored in the corresponding Cerby workspace so users can perform automated logins. The Cerby browser extension is required for the automated login to happen.
-
-
 {% endhint %}
 
 Each Okta chiclet serves as a bookmark that enables users to trigger an automated login in the Cerby browser extension without additional manual intervention. The automated login process is the following:
 
 1. A user clicks the corresponding chiclet in the Okta dashboard.
 2. Okta redirects the user to the Cerby platform. One of the following scenarios occurs depending on whether the user has an active session on the Cerby browser extension or not:
-
    * **Active session:** The Cerby platform detects the active session and proceeds to step 3.
    * **Inactive session:** The Cerby platform starts an authentication flow between Cerby and Okta to automatically log the user in to the browser extension, and proceeds to step 3.
-
 3. The Cerby browser extension verifies in Cerby’s RBAC system if the user has access to the account as **Owner** or **Collaborator**. One of the following scenarios occurs depending on whether the user has access to the account or not:
-
    * **Access:** The Cerby browser extension proceeds to step 4.
    * **No access: The Cerby browser extension blocks the login process.**
-
 4. The Cerby browser extension performs the automated login by autofilling the username, password, and verification code if Cerby manages multi-factor authentication (MFA).
 
 {% hint style="danger" %}
-
-
 **IMPORTANT:** Cerby always verifies the RBAC system to ensure users have access to an account through any type of share: account, collection, or team.
-
-
 {% endhint %}
 
 ## Related articles

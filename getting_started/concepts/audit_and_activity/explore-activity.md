@@ -1,9 +1,11 @@
 ---
-description: "This article describes the benefits of the Activity view to monitor and analyze activity on your Cerby workspace in real time."
 intercom_id: 10128402
+description: >-
+  This article describes the benefits of the Activity view to monitor and
+  analyze activity on your Cerby workspace in real time.
 ---
 
-# Explore Activity
+# Activity
 
 With the **Activity** view, you can monitor and analyze activity on your Cerby workspace in real time. This view contains information about events on accounts, partners, teams, integrations, secrets, and automated tasks.
 
@@ -26,7 +28,7 @@ Furthermore, the **Activity** view also includes a report download feature to ex
 
 **Figure 1** shows the **Activity** view that you can access from the left navigation drawer of the Cerby web app dashboard.
 
-<img src="../../../.gitbook/assets/Screenshot_2024-11-13_at_2.55.31_3Fp.m..png" alt="">
+![](../../.gitbook/assets/Screenshot_2024-11-13_at_2.55.31_3Fp.m..png)
 
 **Figure 1. Activity** view in the Cerby web app dashboard
 

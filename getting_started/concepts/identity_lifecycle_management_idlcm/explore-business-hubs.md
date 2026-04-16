@@ -1,11 +1,13 @@
 ---
-description: "This article describes the key benefits of the Business Hubs to manage the users and assets of your external seat-based and paid social apps"
 intercom_id: 13114113
+description: >-
+  This article describes the key benefits of the Business Hubs to manage the
+  users and assets of your external seat-based and paid social apps
 hidden: true
 noIndex: true
 ---
 
-# Explore Business Hubs
+# Business hubs
 
 With Cerby’s **Business Hubs** , you can connect all your external seat-based and paid social apps–even disconnected or nonfederated apps–to your workspace for centralized user and asset management.
 
@@ -28,17 +30,18 @@ Business hub integrations are intended for apps that have collaboration spaces (
 
 To perform user and access management tasks, the following is the user data synced between Cerby and your apps:
 
-  * Users or members
-  * App roles and permissions
-  * Assets (only for the apps that support them), such as ad accounts, pages, pins, videos, and stories
-  * Native partners (only for the apps that support them)
-* * *
+* Users or members
+* App roles and permissions
+* Assets (only for the apps that support them), such as ad accounts, pages, pins, videos, and stories
+* Native partners (only for the apps that support them)
+
+***
 
 ## The Business Hubs page
 
 The **Business Hubs** page in the Cerby web app dashboard is the centralized view of all your connected integrations, as shown in **Figure 1**. Through this interface, you can manage user access to your external seat-based and paid social apps.
 
-<img src="../../../.gitbook/assets/AD_4nXeiLDt5UT4k1b4b1OyNDlfKkK_0UTQpUUWsITR0kJZkreBldlcJd_HTqSqFPgrqLsgyCmObThCy41HLlW7h3lRegFh8mCTgIwbijSt9GE8yHeyKzJU8TtsWu-SKpVtMZYb2K20Lnw_1.png" alt="Screenshot of the Cerby web app dashboard. The Business Hubs page is displayed with a table of connected integrations and a wizard at the right side of the page for connecting your app to Cerby.">
+![Screenshot of the Cerby web app dashboard. The Business Hubs page is displayed with a table of connected integrations and a wizard at the right side of the page for connecting your app to Cerby.](../../.gitbook/assets/AD_4nXeiLDt5UT4k1b4b1OyNDlfKkK_0UTQpUUWsITR0kJZkreBldlcJd_HTqSqFPgrqLsgyCmObThCy41HLlW7h3lRegFh8mCTgIwbijSt9GE8yHeyKzJU8TtsWu-SKpVtMZYb2K20Lnw_1.png)
 
 **Figure 1.** **Business Hubs** page in the Cerby web app dashboard
 
@@ -48,85 +51,86 @@ In the **Business Hubs** page, you can view the list of business hubs that have 
 
 The **Users** tab, as shown in **Figure 2** , contains the tables listing all users with access to your external app. This tab is accessible through the business hub details page for business hub **Owners.**
 
-<img src="../../../.gitbook/assets/AD_4nXcrKNW5eKCsxw-A4LCk_fzcF3SbRP596Qj-JUjcSMCl8yaHwkegnagEZRATiszI3VPMNHzKOU8w5ya0bGj302JS0YzwVjRDTAQOHxqeOTNzDPPeVlU-73pf1V1J-kLsMPXy_buV-A.png" alt="Screenshot of the Cerby web app dashboard. The business hub details page is displayed with a table listing the Unmatched users.">
+![Screenshot of the Cerby web app dashboard. The business hub details page is displayed with a table listing the Unmatched users.](../../.gitbook/assets/AD_4nXcrKNW5eKCsxw-A4LCk_fzcF3SbRP596Qj-JUjcSMCl8yaHwkegnagEZRATiszI3VPMNHzKOU8w5ya0bGj302JS0YzwVjRDTAQOHxqeOTNzDPPeVlU-73pf1V1J-kLsMPXy_buV-A.png)
 
 **Figure 2**. **Users** tab in the business hub details page
 
 The external app users are displayed in the following tables in the **User Overview** section:
 
-  * **Unmatched users:** This tab displays the users who were not automatically matched because they use an email address that couldn’t be identified or they are not in the corporate directory. The following details are provided for each user:
-    * **Account members:** It lists the username given to the users in the external app.
-    * **App access:** It lists the roles assigned to the users in the external app.
-    * **Status:** It shows the status of the users within the Cerby onboarding process. The possible values are the following:
-      * **External enrollee:** The user was discovered in the external app, but was not automatically matched.
-  * **Onboarded users:** This tab displays the users matched to their Cerby user account. The following details are provided for each user:
-    * **Account members:** It lists the username and email of the Cerby user accounts associated with the app user accounts.
-    * **Cerby role:** It lists the roles assigned to the users on the business hub integration. The possible values are the following:
-      * **Owner:** The user can share access and manage the integration.
-      * **Collaborator:** The user can only log in to the app.
-      * **Manager:** The user**** can share access and log in to the app.
-      * **Mixed roles:** The user received access multiple times, resulting in more than one role.
-    * **App access:** It lists the roles assigned to the users in the external app.
-    * **Shared via:** It lists the methods by which the users were granted access to the external app.
-    * **Last used:** It is the date and time of the user's most recent activity.
-    * **Security status:** It indicates the security status of the connected account. The possible values are the following:
-      * **Pending Cerby onboarding:** The user is pending capture of their credentials in Cerby.
-      * **Invite sent:** The user is pending acceptance of the invite from the external app.
-      * **Invite failed:** The process of sending the user invite failed.
-      * Cerby onboarded: The user has been matched to their Cerby account and has captured their credentials.
-      * **Cerby only:** The user can access Cerby but not the external app.
-      * Single Sign On: The user logs in via SSO. Hence, users are not asked to save their credentials in Cerby.
-      * **Managed Outside Cerby:** The user logs in using their username and password; however, they are not asked to save their credentials in Cerby.
-  * **Guest users:** This tab displays the users who were matched to user accounts but they don’t exist in the corporate directory, such as external collaborators. The following details are provided for each user:
-    * **Account members:** It lists the username given to the users in the external app.
-    * **Cerby role:** It lists the roles assigned to the users on the business hub integration. The possible values are the following:
-      * **Owner:** The user can share access and manage the integration.
-      * **Collaborator:** The user can log in to the app.
-      * **Manager:** The user**** can share access and log in to the app.
-      * **Mixed roles:** The user received access multiple times, resulting in more than one role.
-    * **App access:** It lists the roles assigned to the users in the external app.
-    * **Shared via:** It lists the methods by which the users were granted access to the external app.
-    * **Last used:** It is the date and time of the user's most recent activity.
-    * **Security status:** It indicates the security status of the connected account. The possible values are the following:
-      * **Invite sent:** The user is pending acceptance of the invite from the external app.
-      * **Pending Cerby Onboarding:** The user is pending capture of their credentials in Cerby.
-      * **Single Sign On:** The user logs in via SSO. Hence, users are not asked to save their credentials in Cerby.
-  * **Exempted:** This tab displays the users exempted by an integration **Owner**. These users keep their app user account active but not manageable through Cerby. The following details are provided for each user:
-    * **Account members:** It lists the username given to the users in the external app.
-    * **App access:** It lists the roles assigned to the users in the external app.
-    * **Reason for exemption:** It lists the reasons indicated by the integration Owner as to why the user was exempted.
-    * **Status:** It shows the status of the users within the Cerby onboarding process. In this case, it will always show as Exempt.
-* * *
+* **Unmatched users:** This tab displays the users who were not automatically matched because they use an email address that couldn’t be identified or they are not in the corporate directory. The following details are provided for each user:
+  * **Account members:** It lists the username given to the users in the external app.
+  * **App access:** It lists the roles assigned to the users in the external app.
+  * **Status:** It shows the status of the users within the Cerby onboarding process. The possible values are the following:
+    * **External enrollee:** The user was discovered in the external app, but was not automatically matched.
+* **Onboarded users:** This tab displays the users matched to their Cerby user account. The following details are provided for each user:
+  * **Account members:** It lists the username and email of the Cerby user accounts associated with the app user accounts.
+  * **Cerby role:** It lists the roles assigned to the users on the business hub integration. The possible values are the following:
+    * **Owner:** The user can share access and manage the integration.
+    * **Collaborator:** The user can only log in to the app.
+    * **Manager:** The user\*\*\*\* can share access and log in to the app.
+    * **Mixed roles:** The user received access multiple times, resulting in more than one role.
+  * **App access:** It lists the roles assigned to the users in the external app.
+  * **Shared via:** It lists the methods by which the users were granted access to the external app.
+  * **Last used:** It is the date and time of the user's most recent activity.
+  * **Security status:** It indicates the security status of the connected account. The possible values are the following:
+    * **Pending Cerby onboarding:** The user is pending capture of their credentials in Cerby.
+    * **Invite sent:** The user is pending acceptance of the invite from the external app.
+    * **Invite failed:** The process of sending the user invite failed.
+    * Cerby onboarded: The user has been matched to their Cerby account and has captured their credentials.
+    * **Cerby only:** The user can access Cerby but not the external app.
+    * Single Sign On: The user logs in via SSO. Hence, users are not asked to save their credentials in Cerby.
+    * **Managed Outside Cerby:** The user logs in using their username and password; however, they are not asked to save their credentials in Cerby.
+* **Guest users:** This tab displays the users who were matched to user accounts but they don’t exist in the corporate directory, such as external collaborators. The following details are provided for each user:
+  * **Account members:** It lists the username given to the users in the external app.
+  * **Cerby role:** It lists the roles assigned to the users on the business hub integration. The possible values are the following:
+    * **Owner:** The user can share access and manage the integration.
+    * **Collaborator:** The user can log in to the app.
+    * **Manager:** The user\*\*\*\* can share access and log in to the app.
+    * **Mixed roles:** The user received access multiple times, resulting in more than one role.
+  * **App access:** It lists the roles assigned to the users in the external app.
+  * **Shared via:** It lists the methods by which the users were granted access to the external app.
+  * **Last used:** It is the date and time of the user's most recent activity.
+  * **Security status:** It indicates the security status of the connected account. The possible values are the following:
+    * **Invite sent:** The user is pending acceptance of the invite from the external app.
+    * **Pending Cerby Onboarding:** The user is pending capture of their credentials in Cerby.
+    * **Single Sign On:** The user logs in via SSO. Hence, users are not asked to save their credentials in Cerby.
+* **Exempted:** This tab displays the users exempted by an integration **Owner**. These users keep their app user account active but not manageable through Cerby. The following details are provided for each user:
+  * **Account members:** It lists the username given to the users in the external app.
+  * **App access:** It lists the roles assigned to the users in the external app.
+  * **Reason for exemption:** It lists the reasons indicated by the integration Owner as to why the user was exempted.
+  * **Status:** It shows the status of the users within the Cerby onboarding process. In this case, it will always show as Exempt.
+
+***
 
 ## Key concepts
 
 **Table 1** contains the key concepts that are essential for understanding the Business Hubs feature:
 
-**Concept**| **Description**
----|---
-**App role**|  It is the role assigned to a user in a seat-based or paid social app. These roles vary depending on the app.
-**Asset** | It is a resource or entity associated with and managed by seat-based and paid social apps for specific purposes, like advertising and marketing. In Cerby, assets are properties of a business hub.
-**Asset role**|  It determines the actions users can perform on an asset in the external app.
-**Automated job**|  It is an app-specific task executed by Cerby using technology that automates repetitive tasks in login and signup interfaces.
-**Business ID**|  It is the unique identifier assigned to the collaboration space (workspace, team, dashboard, business manager, or business center) of an external app. This ID is not always required.
-**Cerby agent**|  It is the component of the Cerby platform that executes the automated jobs to perform user and access management tasks on connected apps.
-**Cerby role**|  It is the role of users and teams on a business hub integration in Cerby. These roles are similar to the ones you have on accounts.
-**Check for updates**|  It is the automated task that extracts user data from your app to sync it with Cerby.
-**Claim invite or access**|  It is a flow in which users decide when to receive an invite to join an app. Claiming an invite or access is mandatory when sharing a business hub integration through a collection.
-**Connected account**|  It is a user account added to Cerby and associated with an integration that enables users to log in to an app from Cerby via an automated task.
-**External app**|  It is a seat-based or paid social app connected to Cerby through a business hub integration.
-**Guest user**|  It is a user who was matched to their Cerby guest user account but doesn’t exist in the corporate directory.
-**Integration**|  It is the connector between Cerby and the collaboration space of your seat-based or paid social app. It enables you to invite and remove users from your apps, as well as update their roles, via automated tasks.
-**Integration onboarding**|  Is the process of creating, configuring, and connecting a business hub for your app.
-**Local partner**|  It is an external collaborator with access to your Cerby workspace, to whom you can directly share access to your items and assets.
-**Native partner**|  It is a business or organization (agency, media planner, or consultant) already existing as a partner in your paid social apps for collaboration purposes in ad campaigns.
-**Onboarded user**|  It is a user who was matched automatically to their Cerby user account during a check for updates or manually from the table of unmatched users.
-**Service account**|  It is an app account added to Cerby and associated with an integration to execute automated user management tasks.
-**Unmatched user**|  It is a user who was not automatically matched to their Cerby user account during a check for updates because they use an email address that couldn’t be identified or they are not in the corporate directory.
+| **Concept**                | **Description**                                                                                                                                                                                                    |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **App role**               | It is the role assigned to a user in a seat-based or paid social app. These roles vary depending on the app.                                                                                                       |
+| **Asset**                  | It is a resource or entity associated with and managed by seat-based and paid social apps for specific purposes, like advertising and marketing. In Cerby, assets are properties of a business hub.                |
+| **Asset role**             | It determines the actions users can perform on an asset in the external app.                                                                                                                                       |
+| **Automated job**          | It is an app-specific task executed by Cerby using technology that automates repetitive tasks in login and signup interfaces.                                                                                      |
+| **Business ID**            | It is the unique identifier assigned to the collaboration space (workspace, team, dashboard, business manager, or business center) of an external app. This ID is not always required.                             |
+| **Cerby agent**            | It is the component of the Cerby platform that executes the automated jobs to perform user and access management tasks on connected apps.                                                                          |
+| **Cerby role**             | It is the role of users and teams on a business hub integration in Cerby. These roles are similar to the ones you have on accounts.                                                                                |
+| **Check for updates**      | It is the automated task that extracts user data from your app to sync it with Cerby.                                                                                                                              |
+| **Claim invite or access** | It is a flow in which users decide when to receive an invite to join an app. Claiming an invite or access is mandatory when sharing a business hub integration through a collection.                               |
+| **Connected account**      | It is a user account added to Cerby and associated with an integration that enables users to log in to an app from Cerby via an automated task.                                                                    |
+| **External app**           | It is a seat-based or paid social app connected to Cerby through a business hub integration.                                                                                                                       |
+| **Guest user**             | It is a user who was matched to their Cerby guest user account but doesn’t exist in the corporate directory.                                                                                                       |
+| **Integration**            | It is the connector between Cerby and the collaboration space of your seat-based or paid social app. It enables you to invite and remove users from your apps, as well as update their roles, via automated tasks. |
+| **Integration onboarding** | Is the process of creating, configuring, and connecting a business hub for your app.                                                                                                                               |
+| **Local partner**          | It is an external collaborator with access to your Cerby workspace, to whom you can directly share access to your items and assets.                                                                                |
+| **Native partner**         | It is a business or organization (agency, media planner, or consultant) already existing as a partner in your paid social apps for collaboration purposes in ad campaigns.                                         |
+| **Onboarded user**         | It is a user who was matched automatically to their Cerby user account during a check for updates or manually from the table of unmatched users.                                                                   |
+| **Service account**        | It is an app account added to Cerby and associated with an integration to execute automated user management tasks.                                                                                                 |
+| **Unmatched user**         | It is a user who was not automatically matched to their Cerby user account during a check for updates because they use an email address that couldn’t be identified or they are not in the corporate directory.    |
 
 **Table 1.** Business hub key concepts
 
-* * *
+***
 
 ## How business hub integrations work
 
@@ -135,11 +139,7 @@ Cerby's business hub integrations are connectors between Cerby and your external
 To connect a business hub to an external app, you need an associated [service account](https://help.cerby.com/en/articles/9830816-create-an-automation-or-service-account-for-your-business-hub) or token, and provide specific details about your app. With this information, the Cerby agent can access your app server-side to perform the supported [user and access management tasks](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_0cc7b04140) through automated jobs or API calls.
 
 {% hint style="info" %}
-
-
 **NOTE:** Whenever supported by the app, Cerby prioritizes API calls over automated jobs.
-
-
 {% endhint %}
 
 Right after connecting a business hub, the first automated job Cerby performs is a check for updates. This job involves syncing user data (users, roles, and assets if supported) with your external app and matching users with their Cerby user accounts, whether provisioned by an IdP or by Cerby, such as [guest users](https://help.cerby.com/en/articles/8392946-explore-guest-users) and [local partners](https://help.cerby.com/en/articles/8980877-explore-partners#h_7e4add33a2).
@@ -152,18 +152,18 @@ If your workspace is integrated with an IdP, you can perform all the supported a
 
 **Figure 3** shows a diagram of how a business hub integration in Cerby is connected to your IdP and your external app.
 
-<img src="../../../.gitbook/assets/AD_4nXfuvcO1Ku-4DbwjpcXBfVT0zjFHJFzV-M4F92CwfJ32vUljWtVXuCQeyUuT_ct7IHR6J0C-Pcn_zyUAGiBsFR5JVSE8f4Ddx2aE24Ipb9k8kandahHmwNo7l7YBvw-8vmS0QBO8sw.png" alt="">
+![](../../.gitbook/assets/AD_4nXfuvcO1Ku-4DbwjpcXBfVT0zjFHJFzV-M4F92CwfJ32vUljWtVXuCQeyUuT_ct7IHR6J0C-Pcn_zyUAGiBsFR5JVSE8f4Ddx2aE24Ipb9k8kandahHmwNo7l7YBvw-8vmS0QBO8sw.png)
 
 **Figure 3.** Diagram of a Cerby business hub integration
 
 The main functionalities of a business hub integration are the following:
 
-  * [User and access management tasks](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_0cc7b04140)
-  * [Extended user and access management from your IdP](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_05107885b1)
-  * [Business hub integration management in Cerby](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_de0d59d209)
-  * [External app role management](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_709fc5648c)
-  * [User management and login method](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_15039d71c3)
-  * [Connected account management](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_897ba8c9bd)
+* [User and access management tasks](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_0cc7b04140)
+* [Extended user and access management from your IdP](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_05107885b1)
+* [Business hub integration management in Cerby](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_de0d59d209)
+* [External app role management](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_709fc5648c)
+* [User management and login method](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_15039d71c3)
+* [Connected account management](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_897ba8c9bd)
 
 The following sections describe each functionality.
 
@@ -172,22 +172,18 @@ The following sections describe each functionality.
 The following are the user and access management tasks you can perform on your external apps via a business hub integration:
 
 {% hint style="info" %}
-
-
 **NOTE:** The availability of management tasks varies from app to app. For example, for some apps it is not possible to update roles because they only support one role natively.
-
-
 {% endhint %}
 
-  * **Check for updates:** The Cerby agent syncs the user data of your external app and generates a report listing all users, including their roles and assets (if supported).
-  * **Add users:** The Cerby agent creates the user accounts in your external app with the specified roles, including assets (if supported), triggering the corresponding invites through email.
-  * **Update user roles:** The Cerby agent updates the native user roles in your external app and its assets (if supported).
-  * **Remove users:** The Cerby agent removes the user accounts from your external app, including assets (if supported).
+* **Check for updates:** The Cerby agent syncs the user data of your external app and generates a report listing all users, including their roles and assets (if supported).
+* **Add users:** The Cerby agent creates the user accounts in your external app with the specified roles, including assets (if supported), triggering the corresponding invites through email.
+* **Update user roles:** The Cerby agent updates the native user roles in your external app and its assets (if supported).
+* **Remove users:** The Cerby agent removes the user accounts from your external app, including assets (if supported).
 
 Additionally, Cerby supports the following automated tasks for partners that natively exist on paid social apps, such as Meta Business Manager or TikTok For Business:
 
-  * **Monitor partners:** The Cerby agent syncs, upon [native partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_e7fa9c355c) onboarding, the data of the partner’s users who have shared access to the assets you own or that a partner shared with your paid social app, including their roles and the list of assets.
-  * **Manage partner assets:** The Cerby agent assigns, upon native partner onboarding, roles and assets to a specific native partner of your app.
+* **Monitor partners:** The Cerby agent syncs, upon [native partner](https://help.cerby.com/en/articles/8980877-explore-partners#h_e7fa9c355c) onboarding, the data of the partner’s users who have shared access to the assets you own or that a partner shared with your paid social app, including their roles and the list of assets.
+* **Manage partner assets:** The Cerby agent assigns, upon native partner onboarding, roles and assets to a specific native partner of your app.
 
 ### Extended user and access management from your IdP
 
@@ -197,7 +193,7 @@ To achieve this extended identity lifecycle management functionality, Cerby leve
 
 **Figure 4** shows how users are provisioned and deprovisioned from IdP events, triggering the corresponding tasks in the external app.
 
-<img src="../../../.gitbook/assets/AD_4nXcL3yeqghP4bQ6DN79odnxiUKoxNRwxl1hszGSuitIHwtljZ3B3NZU3bVmZlXrzvzKal_auzL8h7rQRiw8LDrk1IVgh_1puU0_mGXxhjk2ppgxFuMDuBNdWcDj1sJVfw3Yfge09Aw.png" alt="Diagram of a Cerby business integration leveraging identity provider events. The diagram shows the multiple systems involved, such as the identity provider, Cerby, and the external app, and the components, such as users, groups, teams, the business hub integration, and user and acces management tasks.">
+![Diagram of a Cerby business integration leveraging identity provider events. The diagram shows the multiple systems involved, such as the identity provider, Cerby, and the external app, and the components, such as users, groups, teams, the business hub integration, and user and acces management tasks.](../../.gitbook/assets/AD_4nXcL3yeqghP4bQ6DN79odnxiUKoxNRwxl1hszGSuitIHwtljZ3B3NZU3bVmZlXrzvzKal_auzL8h7rQRiw8LDrk1IVgh_1puU0_mGXxhjk2ppgxFuMDuBNdWcDj1sJVfw3Yfge09Aw.png)
 
 **Figure 4.** Extended user and access management tasks from IdP user and group provisioning and deprovisioning events.
 
@@ -213,8 +209,8 @@ However, sharing and removing access to an integration is the way you trigger th
 
 The management actions you can perform on a business hub integration are the following:
 
-  * [Cerby role assignments](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_7a5d8ec0ec)
-  * [Integration sharing](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_fa91b03db1)
+* [Cerby role assignments](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_7a5d8ec0ec)
+* [Integration sharing](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_fa91b03db1)
 
 The following sections describe each action.
 
@@ -226,9 +222,9 @@ The user who connects a business hub for their app becomes the integration **Own
 
 Only integration **Owners** can share a business hub integration and assign the following Cerby roles to other users and teams:
 
-  * **Owner:** It enables users and teams to perform the supported [user and access management tasks](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_0cc7b04140) via the business hub. They can also update the business hub settings and log in to the external app through Cerby.
-  * **Collaborator:** It enables users and teams to only log in to the external app through Cerby.
-  * **Manager:** It enables users and teams to perform the supported user and access management tasks via the business hub and log in to the external app through Cerby.
+* **Owner:** It enables users and teams to perform the supported [user and access management tasks](https://help.cerby.com/en/articles/6831152-explore-business-hubs#h_0cc7b04140) via the business hub. They can also update the business hub settings and log in to the external app through Cerby.
+* **Collaborator:** It enables users and teams to only log in to the external app through Cerby.
+* **Manager:** It enables users and teams to perform the supported user and access management tasks via the business hub and log in to the external app through Cerby.
 
 When assigning the **Owner** role, you can choose whether to grant users and teams a seat on the external app. If you don't grant them a seat, they can still perform user and access management tasks for other users and teams. This option is helpful for IT admins who need to manage access but don't require a licensed user account.
 
@@ -272,12 +268,10 @@ The user management and login method of a business hub integration is the way yo
 
 You can select one of two user management and login methods depending on the setup of your app:
 
-  * **Single sign-on (SSO):** Access is managed via your IdP, and users log in via SSO authentication. In this case, users are not asked to save their credentials in Cerby, and they continue accessing their seat-based and paid social apps as usual.
-​**NOTE:** Google social login is supported through your IdP. Okta is used to access your Google account and establish an authenticated session, which can then be used to log in to your external app.
-
-  * **Username and password:** Account security and access are managed from Cerby, and users log in to their external apps through Cerby. In this case, users are asked to save their credentials in Cerby and connect them to the business hub integration; therefore, you can implement and automate the following security policies on user accounts:
-    * Turn on MFA
-    * Rotate passwords
+* **Single sign-on (SSO):** Access is managed via your IdP, and users log in via SSO authentication. In this case, users are not asked to save their credentials in Cerby, and they continue accessing their seat-based and paid social apps as usual. ​**NOTE:** Google social login is supported through your IdP. Okta is used to access your Google account and establish an authenticated session, which can then be used to log in to your external app.
+* **Username and password:** Account security and access are managed from Cerby, and users log in to their external apps through Cerby. In this case, users are asked to save their credentials in Cerby and connect them to the business hub integration; therefore, you can implement and automate the following security policies on user accounts:
+  * Turn on MFA
+  * Rotate passwords
 
 ### Connected account management
 
