@@ -2,8 +2,9 @@
 description: >-
   Bridge the gap between your identity provider and disconnected applications
   with our deep-dive documentation and configuration best practices
-coverY: 55.31108312342569
-coverHeight: 143
+cover: .gitbook/assets/HelpCenterBanner.png
+coverY: -125.0943396226415
+coverHeight: 189
 layout:
   width: wide
   cover:
