@@ -28,9 +28,15 @@ metaLinks: {}
 
 # Welcome to the Cerby Help Center
 
-:unlock: Log in with your Cerby account to unlock our full library of technical guides and administrative deep-dives.
+Find everything you need to deploy, configure, and use Cerby. Connect your identity provider, automate access, and extend governance to every application in your environment, including the ones traditional identity tools can't reach.
 
-<p align="center"><a href="http://app.gitbook.com/join" class="button primary">Log in</a></p>
+***
+
+### Get started <a href="#get-started" id="get-started"></a>
+
+New to Cerby? Explore our quick start guide to set up your workspace, connect your identity provider, and secure your first accounts in minutes.
+
+
 
 {% columns %}
 {% column %}
