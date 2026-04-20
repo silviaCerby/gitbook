@@ -1,7 +1,7 @@
 ---
 description: >-
   Bridge the gap between your identity provider and disconnected applications
-  with our deep-dive documentation and configuration best practices.
+  with our deep-dive documentation and configuration best practices
 coverY: 55.31108312342569
 coverHeight: 143
 layout:
@@ -27,6 +27,20 @@ metaLinks: {}
 ---
 
 # Welcome to the Cerby Help Center
+
+{% columns %}
+{% column %}
+
+{% endcolumn %}
+
+{% column %}
+
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+
 
 Find everything you need to deploy, configure, and use Cerby. Connect your identity provider, automate access, and extend governance to every application in your environment, including the ones traditional identity tools can't reach.
 
