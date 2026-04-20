@@ -2,7 +2,26 @@
 description: >-
   Bridge the gap between your identity provider and disconnected applications
   with our deep-dive documentation and configuration best practices.
-layout: landing
+coverY: 0
+layout:
+  width: wide
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
 metaLinks: {}
 ---
 
