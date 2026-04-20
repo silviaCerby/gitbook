@@ -2,7 +2,8 @@
 description: >-
   Bridge the gap between your identity provider and disconnected applications
   with our deep-dive documentation and configuration best practices.
-coverY: 0
+coverY: 55.31108312342569
+coverHeight: 143
 layout:
   width: wide
   cover:
