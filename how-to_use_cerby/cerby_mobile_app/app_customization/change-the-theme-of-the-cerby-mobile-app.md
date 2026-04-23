@@ -1,6 +1,6 @@
 ---
-description: "This article describes how to change the theme of your Cerby mobile app."
 intercom_id: 9737399
+description: This article describes how to change the theme of your Cerby mobile app.
 ---
 
 # Change the theme of the Cerby mobile app
@@ -11,13 +11,13 @@ By adjusting the theme of the Cerby mobile app, you can also align it with your 
 
 **Figure 1** shows how the light theme is displayed on iOS and Android for the Cerby mobile app.
 
-<img src="../../../../.gitbook/assets/unnamed_54.png" alt=""><img src="../../../../.gitbook/assets/unnamed_55.png" alt="">
+![](../.gitbook/assets/unnamed_54.png) ![](../.gitbook/assets/unnamed_55.png)
 
 **Figure 1.** The light theme applied on iOS and Android
 
 **Figure 2** shows how the light theme is displayed on iOS and Android for the Cerby mobile app.
 
-<img src="../../../../.gitbook/assets/unnamed_56.png" alt=""><img src="../../../../.gitbook/assets/unnamed_57.png" alt="">
+![](../.gitbook/assets/unnamed_56.png) ![](../.gitbook/assets/unnamed_57.png)
 
 **Figure 2.** The dark theme applied on iOS and Android
 
@@ -28,25 +28,23 @@ This article describes how to change the theme of the Cerby mobile app depending
 
 The following sections contain the instructions for each OS.
 
-* * *
+***
 
 ## iOS
 
 To change the theme of your Cerby mobile app on iOS, you must complete the following steps:
 
-  1. Open the Cerby mobile app on your phone.
-  2. Log in to your Cerby workspace.
-  3. Tap the profile icon. The **My profile** screen is displayed.
-  4. Tap the **Theme** option. The **Theme** menu is displayed.
-  5. Select the theme option you want for your Cerby mobile app:
+1. Open the Cerby mobile app on your phone.
+2. Log in to your Cerby workspace.
+3. Tap the profile icon. The **My profile** screen is displayed.
+4. Tap the **Theme** option. The **Theme** menu is displayed.
+5. Select the theme option you want for your Cerby mobile app:
+   * **Light:** Applies the light mode to the app.
+   * **Dark:** Applies the dark mode to the app
+   * **System:** Matches the theme settings of your phone.
+6. Tap the **Close** (![](../.gitbook/assets/Screenshot_2024-08-13_at_3.37.26_3Fp.m..png)) icon to close the modal window.
 
-     * **Light:** Applies the light mode to the app.
-     * **Dark:** Applies the dark mode to the app
-     * **System:** Matches the theme settings of your phone.
-
-  6. Tap the **Close** (<img src="../../../../.gitbook/assets/Screenshot_2024-08-13_at_3.37.26_3Fp.m..png" alt="">) icon to close the modal window.
-
-* * *
+***
 
 ## Android
 

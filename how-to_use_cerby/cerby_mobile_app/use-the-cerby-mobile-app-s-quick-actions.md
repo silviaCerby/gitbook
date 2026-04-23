@@ -1,20 +1,18 @@
 ---
-description: "This article describes the quick actions you can perform on your accounts from the Cerby mobile app home screen."
 intercom_id: 12814969
+description: >-
+  This article describes the quick actions you can perform on your accounts from
+  the Cerby mobile app home screen.
 ---
 
 # Use the Cerby mobile app's quick actions
 
 {% hint style="info" %}
-
-
 **Who can use this feature?**
 
 * Workspace **Owners** , **Super** **Admins** , **Admins** , **Users** , and **Guest** **Users**
 * Account **Owners** and **Collaborators**
 * Supported using the Cerby mobile app
-
-
 {% endhint %}
 
 As an account **Owner** or **Collaborator** , you can quickly access the following actions for your accounts from the home screen:
@@ -32,7 +30,7 @@ To access and use the quick actions for your accounts in the Cerby mobile app, y
 2. Log in to your Cerby workspace.
 3. Tap the **More options** () icon to the right of each account card. A bottom menu is displayed, as shown in **Figure 1**.
 
-<img src="../../../../.gitbook/assets/image3.png" alt="">
+![](.gitbook/assets/image3.png)
 
 **Figure 1.** Quick actions menu for accounts in the Cerby mobile app
 
