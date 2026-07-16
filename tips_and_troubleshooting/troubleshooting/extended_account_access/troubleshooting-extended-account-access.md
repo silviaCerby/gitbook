@@ -1,27 +1,26 @@
 ---
-description: "This article describes how to troubleshoot the most common issues with the accounts you sync and extend to Okta."
 intercom_id: 9759116
+description: >-
+  This article describes how to troubleshoot the most common issues with the
+  accounts you sync and extend to Okta.
 ---
 
 # Troubleshooting Extended account access
 
 {% hint style="info" %}
-
-
 **Who can use this feature?**
 
 * Workspace **Owners** , **Super Admins** , **Admins** , and **Users**
 * Account **Owners**
 * Only supported using the Cerby web app
-
-
 {% endhint %}
 
-The following sections contain instructions to troubleshoot the most common issues with the **[Extended account access](https://help.cerby.com/en/articles/9616265-explore-extended-account-access)** feature:
+The following sections contain instructions to troubleshoot the most common issues with the [**Extended account access**](https://help.cerby.com/en/articles/9616265-explore-extended-account-access) feature:
 
-  * [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#sync-your-extended-accounts-with-okta-manually)
-  * [Remove a user with All-Access Mode from an extended account](troubleshooting-extended-account-access.md#remove-a-user-with-all-access-mode-from-an-extended-account)
-* * *
+* [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#sync-your-extended-accounts-with-okta-manually)
+* [Remove a user with All-Access Mode from an extended account](troubleshooting-extended-account-access.md#remove-a-user-with-all-access-mode-from-an-extended-account)
+
+***
 
 ## Sync your extended accounts with Okta manually
 
@@ -41,7 +40,7 @@ To sync only one extended account, you must complete the following steps:
 1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
 2. Click the corresponding account card. The account details page is displayed.
 3. Expand the**Connected services and apps** section.
-4. Click the **More options** (<img src="../../../.gitbook/assets/unnamed_38.png" alt="">) icon. A drop-down list is displayed.
+4. Click the **More options** (![](../../../.gitbook/assets/unnamed_33.png)) icon. A drop-down list is displayed.
 5. Select the **Sync account manually** option from the list. The **Sync account manually?** dialog box is displayed.
 6. Click the **Sync account** button. The dialog box closes, and Cerby starts syncing your account.
 
@@ -60,7 +59,7 @@ To sync all your extended accounts, you must complete the following steps:
 
 Now you are done.
 
-* * *
+***
 
 ## Remove a user with All-Access Mode from an extended account
 
@@ -70,7 +69,7 @@ This behavior is due to Cerby’s role-based access control (RBAC) system, becau
 
 To solve this issue, you must turn off **All-Access Mode** first and then follow the corresponding instructions from the [Sync your extended accounts with Okta manually](troubleshooting-extended-account-access.md#sync-your-extended-accounts-with-okta-manually) section to sync one or multiple accounts.
 
-* * *
+***
 
 ## View the SCIM external ID of a user
 
@@ -82,9 +81,8 @@ In the context of Extended account access, only users who have a SCIM external I
 
 To view the SCIM external ID of a user, you must complete the following steps:
 
-  1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
-  2. Select the **All members** option from the left navigation drawer. The **All Members** view is displayed.
-  3. Click the **More** button from the **Accounts** column of the corresponding user. The user details page is displayed.
-If the user has an identifier, its value is displayed in the **SCIM external ID** field along with the **Active** status.
+1. Log in to your [Cerby](https://app.cerby.com/) workspace using your web browser.
+2. Select the **All members** option from the left navigation drawer. The **All Members** view is displayed.
+3. Click the **More** button from the **Accounts** column of the corresponding user. The user details page is displayed. If the user has an identifier, its value is displayed in the **SCIM external ID** field along with the **Active** status.
 
 If the user does not have a SCIM external ID, you must contact your IT admin so that they can configure the ID properly in your Okta instance.

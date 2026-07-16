@@ -40,7 +40,7 @@ The following are the benefits of Cerby’s Automation Log:
 
 The **Automation Log** page in the Cerby web app dashboard is the centralized view of all the automation jobs triggered within your Cerby workspace, as shown in **Figure 1**.
 
-![Screenshot of the Cerby web app dashboard. The Automation Log page is displayed with a table of automation jobs and their status](../../.gitbook/assets/image_10.png)
+![Screenshot of the Cerby web app dashboard. The Automation Log page is displayed with a table of automation jobs and their status](../../../.gitbook/assets/image_10.png)
 
 **Figure 1.** **Automation Log** page in the Cerby web app dashboard
 

@@ -15,7 +15,7 @@ Scout is a browser extension that accelerates and improves the building process 
 
 **Figure 1** shows how the Scout browser extension looks.
 
-![Screenshot of Scout](../.gitbook/assets/AD_4nXdXAu1YH2unkib1NWwfAVlMDE58bdxT_bF8Hu74ZLo5VJXkEgA4lSEF2psFPE4FBvMbJrARdA3YavybL1tARO5zQ4zpBJwKeC33zIywNq8IoUqwsFXOu4ADy7yqCnPdR_Y9GdRPfjdluC_WgjD9o3_Q4qNa.png)
+![Screenshot of Scout](../../.gitbook/assets/AD_4nXdXAu1YH2unkib1NWwfAVlMDE58bdxT_bF8Hu74ZLo5VJXkEgA4lSEF2psFPE4FBvMbJrARdA3YavybL1tARO5zQ4zpBJwKeC33zIywNq8IoUqwsFXOu4ADy7yqCnPdR_Y9GdRPfjdluC_WgjD9o3_Q4qNa.png)
 
 **Figure 1.** Scout browser extension popup on top of a web browser
 

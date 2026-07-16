@@ -15,7 +15,7 @@ After adding a partner to your Cerby workspace, access to your items and seat-ba
 
 **Figure 1** shows the **Partners** page in the Cerby web app dashboard, where you can manage your partnerships.
 
-![Screenshot of the Cerby web app dashboard. The Partners page is displayed with the Add a partner dialog box on top of it](../../.gitbook/assets/AD_4nXeChnY4WU6ChlJXiSH2R1f73t69Gdv542XrTKuSbLL1O1q7GHteNz1Y6zbOnA8x5rRsUV5-XoBxgevAo1lDqxhzKmeDXgEFW8dQIO2qs_pttk_MAbE2fbA5acSqk5aB6z5gG5CvsQ.png)
+![Screenshot of the Cerby web app dashboard. The Partners page is displayed with the Add a partner dialog box on top of it](../../../.gitbook/assets/AD_4nXeChnY4WU6ChlJXiSH2R1f73t69Gdv542XrTKuSbLL1O1q7GHteNz1Y6zbOnA8x5rRsUV5-XoBxgevAo1lDqxhzKmeDXgEFW8dQIO2qs_pttk_MAbE2fbA5acSqk5aB6z5gG5CvsQ.png)
 
 **Figure 1.** **Partners** view in the Cerby web app dashboard
 

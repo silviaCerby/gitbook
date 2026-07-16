@@ -43,7 +43,7 @@ The **Password Policies** page displays a table with all the policies you have c
 
 **Figure 1** shows what the **Password Policies** page looks like.
 
-![Screenshot of the Cerby web app. The Password Policies page is displayed with a table of apps for which a policy has been created](../../.gitbook/assets/AD_4nXf1RHkWyMBQQ5RVrwdS1Z1iZ05Bnqhir2AY66kgdX__dDDuYr9w7GaR4-J66G54kvOr-HgI6aEq6sc3mnZBi8exxgptTUJRR7BSWQ4x-la_K2XqJDeetA0qDk2jAf6xljsEMI60IQ.png)
+![Screenshot of the Cerby web app. The Password Policies page is displayed with a table of apps for which a policy has been created](../../../.gitbook/assets/AD_4nXf1RHkWyMBQQ5RVrwdS1Z1iZ05Bnqhir2AY66kgdX__dDDuYr9w7GaR4-J66G54kvOr-HgI6aEq6sc3mnZBi8exxgptTUJRR7BSWQ4x-la_K2XqJDeetA0qDk2jAf6xljsEMI60IQ.png)
 
 **Figure 1.** **Password Policies** page in the Cerby web app dashboard
 
@@ -61,9 +61,9 @@ This view provides the following information about your policies in a table:
   * **Edit policy**
   * **Delete policy**
 
-When clicking the **View all accounts** (![](../../.gitbook/assets/AD_4nXdicSor-pm2J7BAyqhytQsyte2b6KYldyM6JtYzisJgjQ9-uUPz7HhkkkoHH-c-foI4FZ2nGoCMSAquDlEsUi5B8f_S9XMsvW0vUGL9P4DI_AVWHIzuhuR22aCSIk72NOLGKMHaKg.png)) icon or selecting the **View all accounts** option from the **More options** drop-down menu, the policy details page is displayed, as shown in **Figure 2**.
+When clicking the **View all accounts** (![](../../../.gitbook/assets/AD_4nXdicSor-pm2J7BAyqhytQsyte2b6KYldyM6JtYzisJgjQ9-uUPz7HhkkkoHH-c-foI4FZ2nGoCMSAquDlEsUi5B8f_S9XMsvW0vUGL9P4DI_AVWHIzuhuR22aCSIk72NOLGKMHaKg.png)) icon or selecting the **View all accounts** option from the **More options** drop-down menu, the policy details page is displayed, as shown in **Figure 2**.
 
-![Screenshot of the Cerby web app. The policy details page is displayed with a table of accounts that belong to the same app for which a policy has been created](../../.gitbook/assets/AD_4nXdOqoaKxB0_LItH5LZtY7Al0PmYcr28rK75bmAhPsXD9qrMTpDpIqSCr6NvUDdNX-wIadzUg5JxjWYTxNNi6IU3DDhVSHbOfpOsLifUM7kIgJ4yo-sq7maS8fnAFOHl4WzXBhHAdA.png)
+![Screenshot of the Cerby web app. The policy details page is displayed with a table of accounts that belong to the same app for which a policy has been created](../../../.gitbook/assets/AD_4nXdOqoaKxB0_LItH5LZtY7Al0PmYcr28rK75bmAhPsXD9qrMTpDpIqSCr6NvUDdNX-wIadzUg5JxjWYTxNNi6IU3DDhVSHbOfpOsLifUM7kIgJ4yo-sq7maS8fnAFOHl4WzXBhHAdA.png)
 
 **Figure 2.** Policy details page in the Cerby web app dashboard
 

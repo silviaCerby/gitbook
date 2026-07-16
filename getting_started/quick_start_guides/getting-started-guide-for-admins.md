@@ -117,7 +117,7 @@ The dashboard is the graphical interface of the Cerby web app that integrates in
 
 Every time you log in to the Cerby web app, you land on the homepage, which corresponds to the [All accounts](getting-started-guide-for-admins.md#all-accounts) view, as shown in **Figure 1**.
 
-![](../.gitbook/assets/Vux09SPHs9BnCewr96J8vtal3LyYQsgdkcO40QAxvRFhyi_JzubloWH7JcbXt8TiQCpDOm2dc8L42y0wBoF0NaBLEMj2Sd1dU8CU2Y4r0IenSbbbMrwGt1s6rmXRSyrw-XU3hJdG8iAMXW2PDN3IAw.png)
+![](../../.gitbook/assets/Vux09SPHs9BnCewr96J8vtal3LyYQsgdkcO40QAxvRFhyi_JzubloWH7JcbXt8TiQCpDOm2dc8L42y0wBoF0NaBLEMj2Sd1dU8CU2Y4r0IenSbbbMrwGt1s6rmXRSyrw-XU3hJdG8iAMXW2PDN3IAw.png)
 
 **Figure 1. Homepage of the Cerby Dashboard**
 
@@ -131,7 +131,7 @@ Every time you add an account to Cerby, the corresponding account card is create
 
 As shown in **Figure 2** , the default view of account cards is a grid, but you can also display them as a list. To select every view option, click the **List** or **Grid** icons located at the top of the main section.
 
-![](../.gitbook/assets/iIXBf-VnRyL-H_6VTeuVuIODIjF3yR-Zi6hD5pO02lPJdeAX4cs3fR9DGo0lWakRwzN2_jcr3_Iz1xs6zDUf3r8metrPm2flaOspe3Fp4l5N0M4JIpo-KVmL943AyoLGzDCYctJqoxOYHAlHmtOBQQ.png)
+![](../../.gitbook/assets/iIXBf-VnRyL-H_6VTeuVuIODIjF3yR-Zi6hD5pO02lPJdeAX4cs3fR9DGo0lWakRwzN2_jcr3_Iz1xs6zDUf3r8metrPm2flaOspe3Fp4l5N0M4JIpo-KVmL943AyoLGzDCYctJqoxOYHAlHmtOBQQ.png)
 
 **Figure 2. Grid View of Example Account Cards**
 
@@ -174,7 +174,7 @@ You can perform the following actions from the **All accounts** view:
 
 The **Collections** view, as shown in **Figure 3** , contains all the collections created by you or your team members in Cerby to help you categorize and access your accounts. This view is enabled for all roles; however, users can only see the collections shared with them or the collections they created.
 
-![](../.gitbook/assets/yoqPBc5H3aCqFlkj89oSH5LJI_2puf9pttSp20tSgBGsBstlCUO-iVbTCnEll70qaAo61VhSEOoHUC4uQa0yc_WNkfFAvt9cQgWSBNS6azNm8Jvjsk_eKYM9Gm99fcT9f9S130HHlYtXllTVUPLqaA.png)
+![](../../.gitbook/assets/yoqPBc5H3aCqFlkj89oSH5LJI_2puf9pttSp20tSgBGsBstlCUO-iVbTCnEll70qaAo61VhSEOoHUC4uQa0yc_WNkfFAvt9cQgWSBNS6azNm8Jvjsk_eKYM9Gm99fcT9f9S130HHlYtXllTVUPLqaA.png)
 
 **Figure 3. Collections View of the Cerby Dashboard**
 
@@ -190,7 +190,7 @@ You can perform the following actions from the **Collections** view:
 
 The **All members** view, as shown in **Figure 4** , contains a table with all the account members within a Cerby workspace to help you manage them. This view is enabled only for **Workspace Admins** and **Workspace Owners**.
 
-![](../.gitbook/assets/C4-DxcucKJd3p38F5dr1URCphed--kSmY5U4zDifxcF8rASm40ZqXso_oyIC2jHGfBhvNyQeFI6ETF-c2K0sitIUpeCST-ojlLTQT4SOhXS9dHokmkgYrl50-9c-ecIMvLm0j3aBFCkinVrwpZBrzg.png)
+![](../../.gitbook/assets/C4-DxcucKJd3p38F5dr1URCphed--kSmY5U4zDifxcF8rASm40ZqXso_oyIC2jHGfBhvNyQeFI6ETF-c2K0sitIUpeCST-ojlLTQT4SOhXS9dHokmkgYrl50-9c-ecIMvLm0j3aBFCkinVrwpZBrzg.png)
 
 **Figure 4. All members View of the Cerby Dashboard**
 
@@ -210,7 +210,7 @@ You can perform the following actions from the **All members** view:
 
 The **Activity** view, as shown in **Figure 5** , contains information about user activity within a workspace. This view is enabled for all users to see the activity of the accounts for which they are owners, and **Workspace Admins** can see the activity of all accounts.
 
-![](../.gitbook/assets/grZgqUEubJ_Wb6lrMMUeUCOinZQFHp-e3nzJYicUTvgDL6VWqXSNOC7voagM7Zb26KrvnFFQxL8IAnHb0076-PAcUMLXO2fLl8t2Z3BwzrR9pHSKd5sPyKTbFS2xYaNgJnsXRMyK1pCcp7g8XWeP8g.png)
+![](../../.gitbook/assets/grZgqUEubJ_Wb6lrMMUeUCOinZQFHp-e3nzJYicUTvgDL6VWqXSNOC7voagM7Zb26KrvnFFQxL8IAnHb0076-PAcUMLXO2fLl8t2Z3BwzrR9pHSKd5sPyKTbFS2xYaNgJnsXRMyK1pCcp7g8XWeP8g.png)
 
 **Figure 5. Activity View of the Cerby Dashboard**
 
@@ -239,7 +239,7 @@ You can perform the following actions from the **Activity** view:
 
 The **Billing** view, as shown **in Figure 6** , contains information about your billable accounts within a Cerby workspace. This view is enabled only for **Workspace Admins**.
 
-![](../.gitbook/assets/TcKL6XuKu_riWO9xgQ4zbaOmG58eJOWbWZ_gLZiLnTpQzNdnjp5H5gND8kLL8mvS2r3atLhASwmsgCzNusSmdbSoOMC_D8UEIrqAcmk-6jZNQpAA_c89Cj6EX-09acJy6h2kHsUHfUAvvZPg_5K5Bw.png)
+![](../../.gitbook/assets/TcKL6XuKu_riWO9xgQ4zbaOmG58eJOWbWZ_gLZiLnTpQzNdnjp5H5gND8kLL8mvS2r3atLhASwmsgCzNusSmdbSoOMC_D8UEIrqAcmk-6jZNQpAA_c89Cj6EX-09acJy6h2kHsUHfUAvvZPg_5K5Bw.png)
 
 **Figure 6. Billing View of the Cerby Dashboard**
 
@@ -257,7 +257,7 @@ You can perform the following actions from the **Billing** view:
 
 The **Policies** view, as shown in **Figure 7** , contains the workspace security policies that you can enforce for your accounts. This view is enabled only for **Workspace Admins**.
 
-![](../.gitbook/assets/JauojgxrMJhxt1OVI1mvBBafQF2DodJrPL3jZYcK60A8PCsJsmYBerifkGQHiy8sZB4e2VQEgzEOtTG4f_GpP-H3aP3l9FmNn1Zz230OY7fjHGVV3ze3_Igj_WOimfc9w1FR2l1oJ0WplIZTHXsU4A.png)
+![](../../.gitbook/assets/JauojgxrMJhxt1OVI1mvBBafQF2DodJrPL3jZYcK60A8PCsJsmYBerifkGQHiy8sZB4e2VQEgzEOtTG4f_GpP-H3aP3l9FmNn1Zz230OY7fjHGVV3ze3_Igj_WOimfc9w1FR2l1oJ0WplIZTHXsU4A.png)
 
 **Figure 7. Policies View of the Cerby Dashboard**
 
@@ -274,7 +274,7 @@ You can perform the following actions from the **Policies** view:
 
 The **Shared Inbox** , as shown in **Figure 8** , is a feature that enables you and your team members to receive and store the messages sent to the phone numbers and email addresses provisioned and managed by Cerby and configured in your app accounts. This feature is enabled for all roles when users are **Account Owners** or **Account Collaborators** for an account.
 
-![](../.gitbook/assets/wQtlQNOcZtmooITFpr9T7JsQ1qN9iCQ3QlE8P0Jxnb8d-b5LaLws9J3UgllWkKhL6dv_-92jD5LQWAbjFZiN7CQezKTCWZUIUTSWgRDU3lFex9MrRKpEoBQFAdhKetOvq0p7TpftJInJ8liN4ILhLw.png)
+![](../../.gitbook/assets/wQtlQNOcZtmooITFpr9T7JsQ1qN9iCQ3QlE8P0Jxnb8d-b5LaLws9J3UgllWkKhL6dv_-92jD5LQWAbjFZiN7CQezKTCWZUIUTSWgRDU3lFex9MrRKpEoBQFAdhKetOvq0p7TpftJInJ8liN4ILhLw.png)
 
 **Figure 8. Shared Inbox in the Cerby Dashboard**
 
@@ -302,7 +302,7 @@ You can perform the following actions from the **Shared Inbox** :
 
 The **My Profile** page, as shown in **Figure 9** , is a feature that enables you to see your profile information in Cerby. This feature is enabled for all roles.
 
-![](../.gitbook/assets/AVxdgQGn_aP04EbrgN_I4wrsydK5JvkKPpK_Esu50gyahBEtK8KEZCmwK5WH2HCN-QAq4waiCQgvKo4VCSPoqpWEq51ECZmfmo5FyQT300aEHKywuUo2OZxNTsSTVt0ofgVFGieknSsyf1U7xSw0Tw.png)
+![](../../.gitbook/assets/AVxdgQGn_aP04EbrgN_I4wrsydK5JvkKPpK_Esu50gyahBEtK8KEZCmwK5WH2HCN-QAq4waiCQgvKo4VCSPoqpWEq51ECZmfmo5FyQT300aEHKywuUo2OZxNTsSTVt0ofgVFGieknSsyf1U7xSw0Tw.png)
 
 **Figure 9. My Profile Page in the Cerby Dashboard**
 

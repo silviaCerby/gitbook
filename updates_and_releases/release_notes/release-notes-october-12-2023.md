@@ -17,14 +17,14 @@ With this product, Cerby introduces two main features to empower you to leverage
 
 What are you waiting for? Take a look at the [Get started with Cerby Protect](https://help.cerby.com/en/articles/8358920-get-started-with-cerby-protect) article to learn more about the benefits and supported features. Also, check out the **Vault strategy** section in the **Privacy and security** tab of the workspace settings page, as shown in **Figure 1**.
 
-<img src="../../../.gitbook/assets/cQKkRVyc7bdqtpo5JAnSJN8aDAGQA-gfSWQg_24pZWaECsb6nI0FzAEmqJanZIKCNMH77kt2hjS-0dhJsWl3zVMtfYQQYruaCU3DLOVkpCFO3QbR-0ELyXnSsf0x-Gx2ihQ14y6b9rskCL64Xk37fFc.png" alt="">
+![](../../.gitbook/assets/cQKkRVyc7bdqtpo5JAnSJN8aDAGQA-gfSWQg_24pZWaECsb6nI0FzAEmqJanZIKCNMH77kt2hjS-0dhJsWl3zVMtfYQQYruaCU3DLOVkpCFO3QbR-0ELyXnSsf0x-Gx2ihQ14y6b9rskCL64Xk37fFc.png)
 
 **Figure 1.** **Vault strategy** section in the **Privacy and security** tab
 
 * Good news never comes alone. You can access now the following features as part of the Cerby Protect release:
   * A password generator is available through the Cerby browser extension, as shown in **Figure 2**. You can use it to generate secure customized passwords that meet the requirements of your applications or service providers by selecting the password strength rules.
 
-<img src="../../../.gitbook/assets/oPgxkESOs3hnhPzy8WZYkzUuym9Y8gJABCSlRkeE41IszP36K5qzqIgst9NWkrcTiStjD3_ye3L-wFwOEovmU1wqNjp8-xJ_WOc0XrRmRF18l4zmc3rX0xp2KEu_BrK8F1QVQhTqaqAKy21rwSGgAkQ.png" alt="">
+![](../../.gitbook/assets/2tytyAhPZkCmfgSR19rh2H9t1mY4JtVw-2lBIp6U57dSiIAVi3Q-uSP5WP7ZqUPO6sig6dxzpLAIZu5_UNqOvjjixRu162WGEzWy4CnQSb0sqkrVWiypRWgSL3fW5q4lexd3nhzIWKMlg1PBKWBV3I0.png)
 
 **Figure 2.** **Password generator** page in the Cerby browser extension popup
 
@@ -38,11 +38,11 @@ For more information, read the [How to generate secure passwords using the Cerby
 
 The goal is to save you steps when adding an item to Cerby. Each option takes you to the corresponding dialog box.
 
-  * Installing the Cerby browser extension is recommended but not required for Cerby Protect users. If you want to leverage the magic of the automatic login, you better install it.
-  * With the support for trusted devices, we introduce the user profile icon in the browser extension.
-  * With the release of trusted devices, we introduce the user profile icon in the Cerby browser extension with the following options:
-    * **My trusted devices**
-    * **Log Out**
+* Installing the Cerby browser extension is recommended but not required for Cerby Protect users. If you want to leverage the magic of the automatic login, you better install it.
+* With the support for trusted devices, we introduce the user profile icon in the browser extension.
+* With the release of trusted devices, we introduce the user profile icon in the Cerby browser extension with the following options:
+  * **My trusted devices**
+  * **Log Out**
 * Cerby now supports automatic login through the Cerby browser extension on http:// websites.
 * **Workspace Admins** can now assign Cerby products to teams via the **Teams** view.
 * We have recharged our Password Manager Importer based on your feedback and the needs of Cerby Protect users. Here’s what’s new:
@@ -64,13 +64,13 @@ The goal is to save you steps when adding an item to Cerby. Each option takes yo
     * They can edit the account details (after being redirected to the Cerby web app), view passwords, and copy passwords through the Cerby browser extension.
     * They can copy passwords through the Cerby mobile app.
     * They can view, copy, and fill in all the input fields for managed and self-managed apps using the inline menu.
-  * Collaborators
-    * They can only copy passwords through the Cerby web app, browser extension, and mobile app.
-    * They can only fill in the **Password** field for managed apps using the inline menu.
-    * They can only copy and fill in the **Password** field for self-managed apps using the inline menu.
+  *   Collaborators
 
-    **NOTE:** These changes were released in the Cerby browser extension v1.0.228 and the Cerby mobile app in iOS v1.0.95 and Android v1.0.111.
+      * They can only copy passwords through the Cerby web app, browser extension, and mobile app.
+      * They can only fill in the **Password** field for managed apps using the inline menu.
+      * They can only copy and fill in the **Password** field for self-managed apps using the inline menu.
 
+      **NOTE:** These changes were released in the Cerby browser extension v1.0.228 and the Cerby mobile app in iOS v1.0.95 and Android v1.0.111.
 * We’ve streamlined the process of deleting an account. Now, you don’t have to accept an identity challenge from a push notification on your Cerby mobile app.
 * We did it for collections, and now it’s the turn of accounts. The limit on the **Account label** when adding or editing an account for self-managed apps is now set to 100 characters.
 * Our Tenants feature and business centers keep evolving to suit your needs:

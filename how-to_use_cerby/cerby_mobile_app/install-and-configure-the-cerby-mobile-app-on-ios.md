@@ -39,7 +39,7 @@ The following sections describe each main step.
 To install the Cerby mobile app on your iPhone from the App Store, you must complete the following steps:
 
 1. Open the Cerby mobile app in the [App Store](https://apps.apple.com/us/app/cerby/id1533747684).
-2. Tap the **Install** (<img src=".gitbook/assets/AD_4nXflg-14MS3x3cXNQ7kxbMzndIE5fvxAZ-_kRDpWG7gDnu6pqg51PxGkFZ-mTJlDFV3O-UB-FFuESolWbUvMG4vVk5XeyWkRC6v_SiIzU8j-1yE34e3cZoI0PBHNkSWMbX2RLuZIlQ.png" alt="" data-size="line">) button. The app is downloaded and installed on your iPhone.
+2. Tap the **Install** (<img src="../../.gitbook/assets/AD_4nXflg-14MS3x3cXNQ7kxbMzndIE5fvxAZ-_kRDpWG7gDnu6pqg51PxGkFZ-mTJlDFV3O-UB-FFuESolWbUvMG4vVk5XeyWkRC6v_SiIzU8j-1yE34e3cZoI0PBHNkSWMbX2RLuZIlQ.png" alt="" data-size="line">) button. The app is downloaded and installed on your iPhone.
 
 The next step is [2. Turn on the Autofill Service on your iPhone](install-and-configure-the-cerby-mobile-app-on-ios.md#id-2.-turn-on-the-autofill-service-on-your-iphone).
 

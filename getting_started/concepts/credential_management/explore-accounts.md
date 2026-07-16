@@ -26,7 +26,7 @@ You can add your accounts to Cerby manually, at login, or import them from your 
 
 Accounts are displayed as cards in your dashboard, whether you use the Cerby web app, browser extension, or mobile app. **Figure 1** shows different accounts in the **All accounts** page of the Cerby web app dashboard.
 
-![](../../.gitbook/assets/T08O8UyQMj8nlwBP6IvFUSbgsZE7ee3C2GKACLugboVd5011viRyjua-Yl8N7cyT6pUFGTMwUb5gcH7O7S9VhOy8WF4C2t1CFS9bUNtnWRlHQvhT7_me0C2mjp4wuMQQUE51Y15B1rhpxxqkYAEsTCw.png)
+![](../../../.gitbook/assets/T08O8UyQMj8nlwBP6IvFUSbgsZE7ee3C2GKACLugboVd5011viRyjua-Yl8N7cyT6pUFGTMwUb5gcH7O7S9VhOy8WF4C2t1CFS9bUNtnWRlHQvhT7_me0C2mjp4wuMQQUE51Y15B1rhpxxqkYAEsTCw.png)
 
 **Figure 1.** Account cards in the **All accounts** page of the Cerby web app dashboard
 
@@ -78,6 +78,6 @@ No URL accounts are for non-integrated apps that you access locally, not through
 
 Some apps that can be accessed without a URL account are hardware devices and desktop applications. Cerby doesn’t support security automated tasks for these accounts. No URL accounts are identified visually in the Cerby dashboard, as shown in **Figure 2**.
 
-![](../../.gitbook/assets/TQ_M8ie-yaM-ZoIx25lZ9K2sFg9KZETAKIwvwInsDgNn_4jUROysgKmSNHWLmdmlyyVzsJHnYvAGYsq8zn9sEyLFZdVIpEhHHwCNDWKuGgW_N5Emt_90Jpp7nAYdsp7be6t85ZcSyypSRv3Qqw_PJDA.png)
+![](../../../.gitbook/assets/TQ_M8ie-yaM-ZoIx25lZ9K2sFg9KZETAKIwvwInsDgNn_4jUROysgKmSNHWLmdmlyyVzsJHnYvAGYsq8zn9sEyLFZdVIpEhHHwCNDWKuGgW_N5Emt_90Jpp7nAYdsp7be6t85ZcSyypSRv3Qqw_PJDA.png)
 
 **Figure 2.** No URL account card

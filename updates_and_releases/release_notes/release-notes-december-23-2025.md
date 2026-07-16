@@ -1,6 +1,8 @@
 ---
-description: "This article describes the latest enhancements and bug fixes to improve your experience using Cerby."
 intercom_id: 13225817
+description: >-
+  This article describes the latest enhancements and bug fixes to improve your
+  experience using Cerby.
 ---
 
 # Release Notes - December 23, 2025
@@ -13,7 +15,7 @@ The following are the new features and improvements we released across the Cerby
 
 Building on our initial launch, the **Security Hub** evolves into an actionable command center for your workspace. While the first version of this feature focused on identifying orphaned accounts, our latest update introduces a card with the latest automation tasks that had issues and a card with the total number of accounts, as shown in **Figure 1**.
 
-<img src="../.gitbook/assets/76d42e6e-b1d8-4ba2-bb7c-fb8dc4b413ab.png" alt="Screenshot of the Cerby web app dashboard. The Security hub page is displayed with cards containing the tasks with issues blocking automation, the total workspace accounts, and the orphaned accounts">
+
 
 **Figure 1. Security hub** page in the Cerby web app dashboard
 
@@ -27,7 +29,7 @@ Business hub integrations are the backbone of your user and access management st
 
 This update enables business hub **Owners** and **Managers** to instantly see if an integration is healthy, requires a manual sync, or needs a configuration review, as shown in **Figure 2**.
 
-<img src="../.gitbook/assets/c12e2865-cc08-4c81-bd6a-84bbf43b3ba7.png" alt="Screenshot of the Cerby web app dashboard. The Business Hubs page is displayed with a table of business hubs connected to Cerby and the Status column indicating the status of each integration">
+
 
 **Figure 2.** **Business Hubs** page in the Cerby web app dashboard
 
@@ -55,7 +57,7 @@ Dive into the newest additions to our Cerby mobile app:
 
 * We’ve redesigned the onboarding experience on Android to ensure a smoother, more intuitive start for every user, as shown in **Figure 3**.
 
-<img src="../.gitbook/assets/9095b921-1f4d-4e14-b52a-d25a840896df.png" alt="Screenshot of the Cerby mobile app. The Turn on Autofill screen is displayed in the onboarding carousel">
+
 
 **Figure 3.** **Turn on Autofill** screen in the onboarding carousel of the Cerby mobile app for Android
 
@@ -68,9 +70,10 @@ After logging in for the first time, users will now see an onboarding carousel t
 
 With this enhancement, released in version 1.0.226, we aim to ensure that users successfully configure the Cerby mobile app on their first attempt.
 
-  * Regarding UI enhancements, we redesigned the secret details and collection settings screens, enhancing layout clarity and visual consistency. You can see the new experience from versions iOS v1.0.276 and Android v1.0.226 onwards.
-  * We improved the message displayed to users when they open the account details screen or the quick actions, looking for one-time verification codes. We now tell them to perform a login attempt to their account so that the code is generated and sent to the Cerby-managed method configured for multi-factor authentication (MFA). This enhancement was released in iOS v1.0.274 and Android v1.0.224.
-* * *
+* Regarding UI enhancements, we redesigned the secret details and collection settings screens, enhancing layout clarity and visual consistency. You can see the new experience from versions iOS v1.0.276 and Android v1.0.226 onwards.
+* We improved the message displayed to users when they open the account details screen or the quick actions, looking for one-time verification codes. We now tell them to perform a login attempt to their account so that the code is generated and sent to the Cerby-managed method configured for multi-factor authentication (MFA). This enhancement was released in iOS v1.0.274 and Android v1.0.224.
+
+***
 
 ## Fixes
 

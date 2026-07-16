@@ -11,13 +11,13 @@ By adjusting the theme of the Cerby mobile app, you can also align it with your 
 
 **Figure 1** shows how the light theme is displayed on iOS and Android for the Cerby mobile app.
 
-![](../.gitbook/assets/unnamed_54.png) ![](../.gitbook/assets/unnamed_55.png)
+![](../../../.gitbook/assets/unnamed_54.png) ![](../../../.gitbook/assets/unnamed_55.png)
 
 **Figure 1.** The light theme applied on iOS and Android
 
 **Figure 2** shows how the light theme is displayed on iOS and Android for the Cerby mobile app.
 
-![](../.gitbook/assets/unnamed_56.png) ![](../.gitbook/assets/unnamed_57.png)
+![](../../../.gitbook/assets/unnamed_56.png) ![](../../../.gitbook/assets/unnamed_57.png)
 
 **Figure 2.** The dark theme applied on iOS and Android
 
@@ -42,7 +42,7 @@ To change the theme of your Cerby mobile app on iOS, you must complete the follo
    * **Light:** Applies the light mode to the app.
    * **Dark:** Applies the dark mode to the app
    * **System:** Matches the theme settings of your phone.
-6. Tap the **Close** (![](../.gitbook/assets/Screenshot_2024-08-13_at_3.37.26_3Fp.m..png)) icon to close the modal window.
+6. Tap the **Close** (![](../../../.gitbook/assets/Screenshot_2024-08-13_at_3.37.26_3Fp.m..png)) icon to close the modal window.
 
 ***
 

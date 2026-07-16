@@ -28,7 +28,7 @@ Furthermore, the **Activity** view also includes a report download feature to ex
 
 **Figure 1** shows the **Activity** view that you can access from the left navigation drawer of the Cerby web app dashboard.
 
-![](../../.gitbook/assets/Screenshot_2024-11-13_at_2.55.31_3Fp.m..png)
+![](../../../.gitbook/assets/Screenshot_2024-11-13_at_2.55.31_3Fp.m..png)
 
 **Figure 1. Activity** view in the Cerby web app dashboard
 

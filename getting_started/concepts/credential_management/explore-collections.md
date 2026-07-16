@@ -40,13 +40,13 @@ You can perform the following actions from the **Collections** page:
 
 **Figure 1** shows the **Collections** page that you can access from the left menu of the Cerby web app dashboard.
 
-![Screenshot of the Cerby web app dashboard. The Collections page is displayed with a list of collections, subcollections, and items](../../.gitbook/assets/AD_4nXcdSrFttaqHOUrAAEsObh2KuCuUQ3qnxMi8g2E-e2bjiwDMcfoM752dNwt4iuOYnB5KXn0xOYxUGdetQTVLmP1ahuWlfMXig78ccUeb02c5LNP9k-lou_z_bUmifHnAwZDGcOC_1A.png)
+![Screenshot of the Cerby web app dashboard. The Collections page is displayed with a list of collections, subcollections, and items](../../../.gitbook/assets/AD_4nXcdSrFttaqHOUrAAEsObh2KuCuUQ3qnxMi8g2E-e2bjiwDMcfoM752dNwt4iuOYnB5KXn0xOYxUGdetQTVLmP1ahuWlfMXig78ccUeb02c5LNP9k-lou_z_bUmifHnAwZDGcOC_1A.png)
 
 **Figure 1. Collections** page in the Cerby web app dashboard
 
 **Figure 2** shows the **Collections** page that you can access from the Cerby browser extension popup.
 
-![Screenshot of the Cerby browser extension popup. The Collections page is displayed with a list of collections and subcollections](../../.gitbook/assets/AD_4nXfrvpkNnhQgls1zCxoBRq2_vpOALStOKJ_jrqashQ7V022b1vwf5RST-Z4Gs4u1cW7GDSqihg0uTx9fmf4Ll7pgw9WxkmoQwJqySfkK_sWPPFNvBzT1R72e-boE3GKzhrsh-RoNtw.png)
+![Screenshot of the Cerby browser extension popup. The Collections page is displayed with a list of collections and subcollections](../../../.gitbook/assets/AD_4nXfrvpkNnhQgls1zCxoBRq2_vpOALStOKJ_jrqashQ7V022b1vwf5RST-Z4Gs4u1cW7GDSqihg0uTx9fmf4Ll7pgw9WxkmoQwJqySfkK_sWPPFNvBzT1R72e-boE3GKzhrsh-RoNtw.png)
 
 **Figure 2. Collections** page in the Cerby browser extension popup
 

@@ -19,7 +19,7 @@ description: >-
 
 As an account **Owner** or **Collaborator** , you can view your accounts using the Cerby mobile app, as shown in **Figure 1**.
 
-![](../../.gitbook/assets/unnamed_11.png) ![](../../.gitbook/assets/unnamed_12.png)
+![](../../../../.gitbook/assets/unnamed_11.png) ![](../../../../.gitbook/assets/unnamed_12.png)
 
 **Figure 1. Accounts** screens in the Cerby mobile app for iOS (left) and Android (right)
 

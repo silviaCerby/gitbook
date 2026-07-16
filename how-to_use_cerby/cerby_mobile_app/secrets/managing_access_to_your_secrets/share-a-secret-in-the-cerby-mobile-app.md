@@ -23,7 +23,7 @@ To share a secret or secret item, you must complete the following steps using th
 2. Log in to your Cerby workspace.
 3. Activate the Secrets tab located at the top of the screen. All your saved and shared secrets and secret items are displayed.
 4. Tap the corresponding secret card. The secret details screen is displayed. ​**NOTE:** If you have an identity challenge configured, the Cerby mobile app confirms your identity automatically.
-5. Tap the **Share** (![](../../.gitbook/assets/unnamed_58.png)) icon on Android or the **Share** (![](../../.gitbook/assets/unnamed_59.png)) icon on iOS located at the top right of the screen.
+5. Tap the **Share** (![](../../../../.gitbook/assets/unnamed_58.png)) icon on Android or the **Share** (![](../../../../.gitbook/assets/unnamed_59.png)) icon on iOS located at the top right of the screen.
    * The **Share item** screen is displayed on Android.
    * The **Share secret** screen is displayed on iOS.
 6. Enter the member or team's name in the search bar. The members or teams that match the name are displayed on a list automatically.

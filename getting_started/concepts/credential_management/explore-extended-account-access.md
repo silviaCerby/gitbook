@@ -24,7 +24,7 @@ Currently, Cerby supports this feature for Okta. Therefore, Cerby accounts becom
 
 According to the roles mentioned above, the chiclets are created in the Okta dashboard only for users with the **Owner** or **Collaborator** role on an account, as shown in **Figure 1**.
 
-![Screenshot of the My Apps page in the Okta dashboard. Multiple chiclets are displayed for logging-in purposes; they all correspond to Cerby accounts](../../.gitbook/assets/AD_4nXdBtvflMJPrj6X7dnEESWVEot1ZAn5StW6bxnqXKq9PLaY07bHQOHmXuR-YudWNdTxhUMkoEjxQeVt7kPxJUHB9xMiGa07WQ_eIdqL4vmVu2ev7vU9larWvcz6Y4zqTjVPrYg5rqdgOhLCjUZztS7h4L_eC.png)
+![Screenshot of the My Apps page in the Okta dashboard. Multiple chiclets are displayed for logging-in purposes; they all correspond to Cerby accounts](../../../.gitbook/assets/AD_4nXdBtvflMJPrj6X7dnEESWVEot1ZAn5StW6bxnqXKq9PLaY07bHQOHmXuR-YudWNdTxhUMkoEjxQeVt7kPxJUHB9xMiGa07WQ_eIdqL4vmVu2ev7vU9larWvcz6Y4zqTjVPrYg5rqdgOhLCjUZztS7h4L_eC.png)
 
 **Figure 1.** Chiclets in the Okta dashboard synced from accounts in Cerby
 

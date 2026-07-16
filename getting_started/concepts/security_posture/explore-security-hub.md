@@ -29,7 +29,7 @@ By aggregating data and presenting it in a single, user-friendly dashboard, the 
 
 **Figure 1** displays the Security Hub page, which contains a dashboard with the total number of accounts and the number of orphaned accounts within the workspace.
 
-![](../../.gitbook/assets/image16.png)
+![](../../../.gitbook/assets/image16.png)
 
 **Figure 1. Security Hub** page in the Cerby web app dashboard
 
@@ -57,13 +57,13 @@ From this card, you can address automation task issues that need attention. Refe
 
 **Figure 2** shows the composition of the **Address the** **issues blocking automation** card.
 
-![](../../.gitbook/assets/Widget.png)
+![](../../../.gitbook/assets/Widget.png)
 
 **Figure 2.** Automation task issues displayed in the **Address the** **issues blocking automation** card
 
 To quickly access the individual cards for each automation task issue that needs your attention in each category, click the right arrow (![](https://downloads.intercomcdn.com/i/o/pc0ldyqu/1831075525/ebd25fbe4f6c253b6fce84778db1/61e5c8a7-15e1-42b8-a8ec-a84152d4cffc?expires=1764126000\&signature=c1fc92c3963e3a4e4515e5267d319d1b8aaef2d493a2843d16302c96e805d228\&req=dSgkF8l5mIRdXPMW3Hu4gU65S0QCY1pNgxRNtd8ICbaIve7CJ5sC%2B4tOY3Zj%0ApA%3D%3D%0A)) within the issue type categories. A side drawer is displayed, as shown in **Figure 3**.
 
-![](../../.gitbook/assets/Details_Drawer.png)
+![](../../../.gitbook/assets/Details_Drawer.png)
 
 **Figure 3.** Automation task issues side drawer displayed
 
@@ -90,7 +90,7 @@ Both the **Unread** and **Read issues** tabs contain individual automation task 
 
 **Figure 4** shows an example of an issue card displayed within the side drawer.
 
-![](../../.gitbook/assets/4748c988-127d-4430-9a25-013613200a68.png)
+![](../../../.gitbook/assets/4748c988-127d-4430-9a25-013613200a68.png)
 
 **Figure 4.** Example of an individual automation task issue card
 
@@ -119,7 +119,7 @@ The **Total number of accounts** card indicates the total number of accounts in 
 
 **Figure 5** shows the information displayed on the card.
 
-![](../../.gitbook/assets/ef38a952-106d-489e-b21c-8dc0a4a24a49.png)
+![](../../../.gitbook/assets/ef38a952-106d-489e-b21c-8dc0a4a24a49.png)
 
 **Figure 5.** The **Total workspace accounts** card
 

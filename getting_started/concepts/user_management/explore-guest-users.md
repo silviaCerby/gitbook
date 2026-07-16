@@ -25,7 +25,7 @@ After joining Cerby, all of the workspace members from your organization who hav
 
 Guest users are displayed on a table within the **Guest** tab of the **All Members** view, as shown in **Figure 1**.
 
-![Screenshot of the Guest tab of the All Members view. The Add member drop-down list is displayed to select the Guest option and invite an external collaborator as guest user.](../../.gitbook/assets/CXJfurD0UDWPOV3mFmrSkVlw_ys3eUZTyHw0eF8MIUqitXFpuN75oj3Ze7zBueeTZf-2zJl4oOxkiA1Cvg5FqAc2-dBgR_pW6TnZQLNKlgS6I4SV8owNwS1uGe3jdQLpyXwuNXyE-BFgGmeXJWV__9o.png)
+![Screenshot of the Guest tab of the All Members view. The Add member drop-down list is displayed to select the Guest option and invite an external collaborator as guest user.](../../../.gitbook/assets/CXJfurD0UDWPOV3mFmrSkVlw_ys3eUZTyHw0eF8MIUqitXFpuN75oj3Ze7zBueeTZf-2zJl4oOxkiA1Cvg5FqAc2-dBgR_pW6TnZQLNKlgS6I4SV8owNwS1uGe3jdQLpyXwuNXyE-BFgGmeXJWV__9o.png)
 
 Figure 1. **Guest** tab within the **All Members** view
 

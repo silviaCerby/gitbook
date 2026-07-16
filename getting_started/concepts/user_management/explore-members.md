@@ -19,7 +19,7 @@ Meanwhile, user accounts in local user workspaces are provisioned by Cerby and m
 
 The **All Members** page, as shown in **Figure 1** , contains tables with all the workspace members and guest users. This page is accessible only to workspace**Admins** , **Super Admins** , and **Owners**.
 
-![Screenshot of the Cerby web app dashboard. The All Members page is displayed with a table of workspace members](../../.gitbook/assets/AD_4nXd6m5UNS-r-f6fZupvX_oATIaCjNoF55Wz3a24tnjPEzXmoN5Li8e6VYRO4Ysol1DctkWql1GzX14JoBd-at0-f7w5l-Nol_0h2RFJLHi-wZJA5zHLdwUAYrf2CnPMnhiroaJRVcA.png)
+![Screenshot of the Cerby web app dashboard. The All Members page is displayed with a table of workspace members](../../../.gitbook/assets/AD_4nXd6m5UNS-r-f6fZupvX_oATIaCjNoF55Wz3a24tnjPEzXmoN5Li8e6VYRO4Ysol1DctkWql1GzX14JoBd-at0-f7w5l-Nol_0h2RFJLHi-wZJA5zHLdwUAYrf2CnPMnhiroaJRVcA.png)
 
 **Figure 1. All Members** page in the Cerby web app dashboard
 
@@ -52,4 +52,4 @@ The table in the **Guests** tab provides information about users with the **Gues
 
 The **All Members** page also contains a search bar to look up workspace members by their name or email address.
 
-An **Export** (![](../../.gitbook/assets/AD_4nXe4FMrWC_BwPNVhTrNbTmbM2T-eFyAxiib1shX_VaPpdxvUM89CDeT9Wn00QF5aUYrXtpmU9IZShy_sNfk1DLkHTkHLEPPlmv9QLym6JL6EQf1kSFBNOmh_EgSOC9kO9_yY_UVD.png)) icon located at the top right of the page enables you to export the information of the members table in a CSV file. For more information, read the article Export the workspace members.
+An **Export** (![](../../../.gitbook/assets/AD_4nXe4FMrWC_BwPNVhTrNbTmbM2T-eFyAxiib1shX_VaPpdxvUM89CDeT9Wn00QF5aUYrXtpmU9IZShy_sNfk1DLkHTkHLEPPlmv9QLym6JL6EQf1kSFBNOmh_EgSOC9kO9_yY_UVD.png)) icon located at the top right of the page enables you to export the information of the members table in a CSV file. For more information, read the article Export the workspace members.

@@ -45,15 +45,15 @@ For more information about roles and the actions users can perform on a secret i
 
 All secret types are displayed as cards in your dashboard, whether you use the Cerby web app, browser extension, or mobile app. **Figure 1** , **Figure 2** , and **Figure 3** show secret cards on these client apps, respectively.
 
-![Alt-text: Screenshot of the Cerby web app dashboard. The Secrets page is displayed with multiple secret cards and a button at the top right to add a secret.](../../.gitbook/assets/AD_4nXeKsgk4AYUSZ4BmeAO-n8pKu2cuVcx1wa3w9ndRsqrrsKafE6ZmRUsWBxiBaeQbbyp_IjWS95lt3KtSe0UFEMZup4vBT0wZFSVhxzW1zhWSMmPJtQvOxb6Kxiccd8ZIu0i8WwTMUw.png)
+![Alt-text: Screenshot of the Cerby web app dashboard. The Secrets page is displayed with multiple secret cards and a button at the top right to add a secret.](../../../.gitbook/assets/AD_4nXeKsgk4AYUSZ4BmeAO-n8pKu2cuVcx1wa3w9ndRsqrrsKafE6ZmRUsWBxiBaeQbbyp_IjWS95lt3KtSe0UFEMZup4vBT0wZFSVhxzW1zhWSMmPJtQvOxb6Kxiccd8ZIu0i8WwTMUw.png)
 
 **Figure 1.** Secret cards in the **Secrets** view of the Cerby web app dashboard
 
-![Alt-text: Screenshot of the Cerby browser extension popup on top of a website. The Secrets tab is activated with a list of secret cards.](../../.gitbook/assets/AD_4nXcW074a-d7HbWY8taCaz7nd2B3_6ZP6oFGq6eD8FwQKN_35eb9zfYMHliMhbJmjJeuN_nrL0FznIBLc7K2nrBUm0LnsnDrh4F7hXbHMyk2dE_NAUlqqU2vn9scGRWY9YxPNonceFQ.png)
+![Alt-text: Screenshot of the Cerby browser extension popup on top of a website. The Secrets tab is activated with a list of secret cards.](../../../.gitbook/assets/AD_4nXcW074a-d7HbWY8taCaz7nd2B3_6ZP6oFGq6eD8FwQKN_35eb9zfYMHliMhbJmjJeuN_nrL0FznIBLc7K2nrBUm0LnsnDrh4F7hXbHMyk2dE_NAUlqqU2vn9scGRWY9YxPNonceFQ.png)
 
 **Figure 2.** Secret cards in the **Secrets** tab of the Cerby browser extension dashboard
 
-![](../../.gitbook/assets/AD_4nXcmnC2wciy7wFah5W5s6c4TnZRRSfv9V368mPcIxJFeJAKuU-8QYIHzFBVu0ONrdf3Hf-uXJyf3rfnTXJW3-TZf2F-B-JLV3b1LkVAgYvMiu3cRn0q297YCFsSqnrq9hr6BXZDO.png)
+![](../../../.gitbook/assets/AD_4nXcmnC2wciy7wFah5W5s6c4TnZRRSfv9V368mPcIxJFeJAKuU-8QYIHzFBVu0ONrdf3Hf-uXJyf3rfnTXJW3-TZf2F-B-JLV3b1LkVAgYvMiu3cRn0q297YCFsSqnrq9hr6BXZDO.png)
 
 **Figure 3.** Secret cards in the **Secrets** tab of the Cerby mobile app dashboard
 
@@ -127,7 +127,7 @@ The following rules apply to a temporary secret:
 * The expiration time is limited from one day to one month or 30 days.
 * Temporary secret cards have a visual identifier in the dashboard indicating the remaining days until expiration, as shown in **Figure 4**. You can also view and edit the expiration time on the secret details page.
 
-![Screenshot of the Cerby web app dashboard. The Secrets page is displayed with multiple secret cards. The temporary secret card has an identifier of “2 Days” indicating the remaining days until expiration.](../../.gitbook/assets/AD_4nXdvgb7Moasry2WSyiBg-5IETVIk3nI5T3C-3Jgf5byoFvw1dKkVhTmVbPBVYMQaHpyyFBEdYzqu6ZbgIGSZM1Wa517YRizWI2tQl5FEJx3Muomysfz6QWV7H2q3IPMRLJpluZX-YA.png)
+![Screenshot of the Cerby web app dashboard. The Secrets page is displayed with multiple secret cards. The temporary secret card has an identifier of “2 Days” indicating the remaining days until expiration.](../../../.gitbook/assets/AD_4nXdvgb7Moasry2WSyiBg-5IETVIk3nI5T3C-3Jgf5byoFvw1dKkVhTmVbPBVYMQaHpyyFBEdYzqu6ZbgIGSZM1Wa517YRizWI2tQl5FEJx3Muomysfz6QWV7H2q3IPMRLJpluZX-YA.png)
 
 **Figure 4.** Temporary secret card in the **Secrets** page of the Cerby web app dashboard
 

@@ -30,7 +30,7 @@ To access and use the quick actions for your accounts in the Cerby mobile app, y
 2. Log in to your Cerby workspace.
 3. Tap the **More options** () icon to the right of each account card. A bottom menu is displayed, as shown in **Figure 1**.
 
-![](.gitbook/assets/image3.png)
+![](../../.gitbook/assets/image3.png)
 
 **Figure 1.** Quick actions menu for accounts in the Cerby mobile app
 

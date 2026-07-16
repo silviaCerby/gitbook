@@ -21,7 +21,7 @@ To share an account using the Cerby mobile app, you must complete the following 
 1. Open the Cerby mobile app on your mobile phone.
 2. Log in to your Cerby workspace.
 3. Tap the corresponding account card. The account details screen is displayed.
-4. Tap the **Share account** (![](../../.gitbook/assets/unnamed_14.png)on Android or ![](../../.gitbook/assets/unnamed_15.png) on iOS) icon located at the top right of the screen.
+4. Tap the **Share account** (![](../../../../.gitbook/assets/unnamed_14.png)on Android or ![](../../../../.gitbook/assets/unnamed_15.png) on iOS) icon located at the top right of the screen.
    * The **Share Account** screen is displayed on Android.
      1. Select the **Share item** option. The **Share Access** dialog box is displayed.
    * The **Share Item** screen is displayed on iOS.

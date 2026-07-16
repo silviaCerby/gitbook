@@ -41,7 +41,7 @@ To perform user and access management tasks, the following is the user data sync
 
 The **Business Hubs** page in the Cerby web app dashboard is the centralized view of all your connected integrations, as shown in **Figure 1**. Through this interface, you can manage user access to your external seat-based and paid social apps.
 
-![Screenshot of the Cerby web app dashboard. The Business Hubs page is displayed with a table of connected integrations and a wizard at the right side of the page for connecting your app to Cerby.](../../.gitbook/assets/AD_4nXeiLDt5UT4k1b4b1OyNDlfKkK_0UTQpUUWsITR0kJZkreBldlcJd_HTqSqFPgrqLsgyCmObThCy41HLlW7h3lRegFh8mCTgIwbijSt9GE8yHeyKzJU8TtsWu-SKpVtMZYb2K20Lnw_1.png)
+![Screenshot of the Cerby web app dashboard. The Business Hubs page is displayed with a table of connected integrations and a wizard at the right side of the page for connecting your app to Cerby.](../../../.gitbook/assets/AD_4nXeiLDt5UT4k1b4b1OyNDlfKkK_0UTQpUUWsITR0kJZkreBldlcJd_HTqSqFPgrqLsgyCmObThCy41HLlW7h3lRegFh8mCTgIwbijSt9GE8yHeyKzJU8TtsWu-SKpVtMZYb2K20Lnw_1.png)
 
 **Figure 1.** **Business Hubs** page in the Cerby web app dashboard
 
@@ -51,7 +51,7 @@ In the **Business Hubs** page, you can view the list of business hubs that have 
 
 The **Users** tab, as shown in **Figure 2** , contains the tables listing all users with access to your external app. This tab is accessible through the business hub details page for business hub **Owners.**
 
-![Screenshot of the Cerby web app dashboard. The business hub details page is displayed with a table listing the Unmatched users.](../../.gitbook/assets/AD_4nXcrKNW5eKCsxw-A4LCk_fzcF3SbRP596Qj-JUjcSMCl8yaHwkegnagEZRATiszI3VPMNHzKOU8w5ya0bGj302JS0YzwVjRDTAQOHxqeOTNzDPPeVlU-73pf1V1J-kLsMPXy_buV-A.png)
+![Screenshot of the Cerby web app dashboard. The business hub details page is displayed with a table listing the Unmatched users.](../../../.gitbook/assets/AD_4nXcrKNW5eKCsxw-A4LCk_fzcF3SbRP596Qj-JUjcSMCl8yaHwkegnagEZRATiszI3VPMNHzKOU8w5ya0bGj302JS0YzwVjRDTAQOHxqeOTNzDPPeVlU-73pf1V1J-kLsMPXy_buV-A.png)
 
 **Figure 2**. **Users** tab in the business hub details page
 
@@ -152,7 +152,7 @@ If your workspace is integrated with an IdP, you can perform all the supported a
 
 **Figure 3** shows a diagram of how a business hub integration in Cerby is connected to your IdP and your external app.
 
-![](../../.gitbook/assets/AD_4nXfuvcO1Ku-4DbwjpcXBfVT0zjFHJFzV-M4F92CwfJ32vUljWtVXuCQeyUuT_ct7IHR6J0C-Pcn_zyUAGiBsFR5JVSE8f4Ddx2aE24Ipb9k8kandahHmwNo7l7YBvw-8vmS0QBO8sw.png)
+![](../../../.gitbook/assets/AD_4nXfuvcO1Ku-4DbwjpcXBfVT0zjFHJFzV-M4F92CwfJ32vUljWtVXuCQeyUuT_ct7IHR6J0C-Pcn_zyUAGiBsFR5JVSE8f4Ddx2aE24Ipb9k8kandahHmwNo7l7YBvw-8vmS0QBO8sw.png)
 
 **Figure 3.** Diagram of a Cerby business hub integration
 
@@ -193,7 +193,7 @@ To achieve this extended identity lifecycle management functionality, Cerby leve
 
 **Figure 4** shows how users are provisioned and deprovisioned from IdP events, triggering the corresponding tasks in the external app.
 
-![Diagram of a Cerby business integration leveraging identity provider events. The diagram shows the multiple systems involved, such as the identity provider, Cerby, and the external app, and the components, such as users, groups, teams, the business hub integration, and user and acces management tasks.](../../.gitbook/assets/AD_4nXcL3yeqghP4bQ6DN79odnxiUKoxNRwxl1hszGSuitIHwtljZ3B3NZU3bVmZlXrzvzKal_auzL8h7rQRiw8LDrk1IVgh_1puU0_mGXxhjk2ppgxFuMDuBNdWcDj1sJVfw3Yfge09Aw.png)
+![Diagram of a Cerby business integration leveraging identity provider events. The diagram shows the multiple systems involved, such as the identity provider, Cerby, and the external app, and the components, such as users, groups, teams, the business hub integration, and user and acces management tasks.](../../../.gitbook/assets/AD_4nXcL3yeqghP4bQ6DN79odnxiUKoxNRwxl1hszGSuitIHwtljZ3B3NZU3bVmZlXrzvzKal_auzL8h7rQRiw8LDrk1IVgh_1puU0_mGXxhjk2ppgxFuMDuBNdWcDj1sJVfw3Yfge09Aw.png)
 
 **Figure 4.** Extended user and access management tasks from IdP user and group provisioning and deprovisioning events.
 

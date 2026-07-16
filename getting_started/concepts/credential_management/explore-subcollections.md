@@ -18,7 +18,7 @@ With **Subcollections** , you can efficiently organize your accounts and secrets
 
 **Figure 1** shows how secrets, accounts, and subcollections are displayed in the **Collections** view.
 
-![](../../.gitbook/assets/Lt2FfDDdh6VXAWXPak8AHRlYd01jWxFgfa8llH3ZZTrd3s979DYDTZ5j9hRBIOKJM6aGp85UgcVDtZATyLvM3yowwckCSIYaNG0DkSEFfnEqzE3LYP2GO-g_FV6ugZn0mqeuB_tOtBuLS727MeQepRk.png)
+![](../../../.gitbook/assets/Lt2FfDDdh6VXAWXPak8AHRlYd01jWxFgfa8llH3ZZTrd3s979DYDTZ5j9hRBIOKJM6aGp85UgcVDtZATyLvM3yowwckCSIYaNG0DkSEFfnEqzE3LYP2GO-g_FV6ugZn0mqeuB_tOtBuLS727MeQepRk.png)
 
 **Figure 1. Collections** view of the Cerby web app dashboard
 
@@ -54,7 +54,7 @@ The following are the known issues in subcollections. Our Development team is al
 * It is not possible to reassign a subcollection yet.
 * If you get the following error when [adding an existing subcollection to a parent collection](https://docs.google.com/document/d/1_taRKHSX2zpT_s6Kj4JwyAwQSqMANMeo_YEraXFvAL4/edit#heading=h.rvg4f8khaicc): “An unexpected error happened while adding to the collection,” as shown in **Figure 2.**
 
-![](../../.gitbook/assets/odf3Luyz-dPK6twzBTVo5hy65aJAOrgJn1SiNvMOyc1TBRB3oqDG49ka9t7ZwkfVfxA3w5ZAX9YIlHaoy5niyBpDZ5kba0e0mLGjQJVxM2xUrzqJt98vws8vZu2BYa-ta5RLhsO0ZLq6bE9zeg6nVKE.png)
+![](../../../.gitbook/assets/odf3Luyz-dPK6twzBTVo5hy65aJAOrgJn1SiNvMOyc1TBRB3oqDG49ka9t7ZwkfVfxA3w5ZAX9YIlHaoy5niyBpDZ5kba0e0mLGjQJVxM2xUrzqJt98vws8vZu2BYa-ta5RLhsO0ZLq6bE9zeg6nVKE.png)
 
 **Figure 2**. “An unexpected error happened while adding to the collection” error message
 
