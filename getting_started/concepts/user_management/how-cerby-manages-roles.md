@@ -41,9 +41,9 @@ The following sections describe the actions for each category.
 
 <table><thead><tr><th width="220"></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Action</strong></td><td><strong>Guest User</strong></td><td><strong>Login-Only</strong></td><td><strong>User</strong></td><td><strong>Admin</strong></td><td><strong>Super Admin</strong></td><td><strong>Owner</strong></td></tr><tr><td>Perform the initial workspace setup from an invite.</td><td></td><td></td><td></td><td></td><td></td><td>Yes</td></tr><tr><td>Set up single sign-on (SSO) and user provisioning with a corporate identity provider (IdP).</td><td></td><td></td><td></td><td>Yes*</td><td>Yes*</td><td>Yes</td></tr><tr><td>Access and update the workspace configuration.</td><td></td><td></td><td></td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
 
-* Read-only permissions
+<p style="text-align: center;">* Read-only permissions</p>
 
-**Table 1.** Workspace setup actions
+<p style="text-align: center;">**Table 1.** Workspace setup actions</p>
 
 {% hint style="danger" %}
 **IMPORTANT:** A workspace can only have one **Owner**. In the case of user deprovisioning or account deactivation, this role must be reassigned. For more information, read the section [Workspace continuity: Reassign a workspace Owner](https://help.cerby.com/en/articles/9473092-update-the-role-of-a-workspace-member#h_e1dbc6a9f8).
