@@ -18,7 +18,7 @@ To view the details of an active API key, you must complete the following steps:
 1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
 2. Select the **Settings** option from the left navigation drawer. The **Workspace Configuration** page is displayed.
 3. Activate the **API keys** tab. A table of API keys is displayed.
-4. Click the **More options**(![](../../.gitbook/assets/unnamed.png)) icon of the corresponding key. A drop-down list is displayed.
+4. Click the **More options**(![](../.gitbook/assets/unnamed.png)) icon of the corresponding key. A drop-down list is displayed.
 5. Select the **API key settings** option from the list. The API key details page is displayed.
 
 {% hint style="danger" %}
