@@ -45,4 +45,4 @@
 
 ***
 
-* [You signed out of the Help Center](<README (1).md>)
+* [You signed out of the Help Center](signed-out.md "Signed out")
