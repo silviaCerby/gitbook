@@ -44,7 +44,7 @@ To add a custom field, you must complete the following steps using the Cerby web
 1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace. The **All accounts** view is displayed.
 2. Click the **Settings** icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated, as shown in **Figure 1**.
 
-![Screenshot of the account details page, where you can manage your account and add custom fields to save specific and categorized information.](../../../../.gitbook/assets/gyRbvO-fCJv_wQ3QYt8D6FPTw1wsN9GQGcMCncoJ55ygBBHywhvb10_0tlzWEgQ766asjpcq6OMKgQwwEXKw5PAgUWoDYeqRlcQefNH2FZykbPBPZP3uenpqojrwGwTUXyYWDuIzJZNOjg4dlxXRuvA.png)
+![Screenshot of the account details page, where you can manage your account and add custom fields to save specific and categorized information.](../../.gitbook/assets/gyRbvO-fCJv_wQ3QYt8D6FPTw1wsN9GQGcMCncoJ55ygBBHywhvb10_0tlzWEgQ766asjpcq6OMKgQwwEXKw5PAgUWoDYeqRlcQefNH2FZykbPBPZP3uenpqojrwGwTUXyYWDuIzJZNOjg4dlxXRuvA.png)
 
 **Figure 1.** Account details page
 

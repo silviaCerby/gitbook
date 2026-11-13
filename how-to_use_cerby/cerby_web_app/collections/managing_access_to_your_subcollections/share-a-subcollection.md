@@ -18,7 +18,7 @@ To share a subcollection, you must complete the following steps:
 3. Expand the collection that contains the subcollection you want to share.
    * Alternatively, you can search for the subcollection in the search bar.
 4. Hover the mouse over the subcollection you want to share. A menu of icons is displayed.
-5. Click the **Share** (![](../../../../.gitbook/assets/unnamed_31.png)) icon. The Share Access dialog box is displayed.
+5. Click the **Share** (![](../../.gitbook/assets/unnamed_31.png)) icon. The Share Access dialog box is displayed.
 6. Enter the member’s or team’s name in the search bar. The members or teams that match the name are displayed on a list below the search bar.
 7. Select the corresponding member or team from the list. The member or team is displayed in the **Members and Teams** section.
 

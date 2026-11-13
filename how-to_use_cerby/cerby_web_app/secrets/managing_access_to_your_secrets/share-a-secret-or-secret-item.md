@@ -31,7 +31,7 @@ To share a secret or secret item, you must complete the following steps using th
 
 1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
 2. Select the **Secrets** option from the left navigation drawer. The **Secrets** view is displayed.
-3. Click the **Share secret** (![](../../../../.gitbook/assets/unnamed_60.png)) icon of the corresponding secret card. A drop-down list is displayed.
+3. Click the **Share secret** (![](../../.gitbook/assets/unnamed_60.png)) icon of the corresponding secret card. A drop-down list is displayed.
 4. Select the **Share item** option. Depending on whether you have an identity challenge configured, one of the following scenarios occurs:
    * The **Confirm your identity to continue** dialog box is displayed. To confirm your identity, use one of [Cerby's multi-factor authentication methods](https://help.cerby.com/en/articles/9462605-verify-your-identity-with-cerby-s-mfa-methods).
    * The **Share secret** dialog box is displayed when you don’t have an identity challenge configured.
@@ -62,7 +62,7 @@ To share a secret or secret item, you must complete the following steps using th
 
 **NOTE:** If you have an identity challenge configured, the Cerby mobile app confirms your identity automatically.
 
-5. Tap the **Share** (![](../../../../.gitbook/assets/unnamed_60.png)) icon on Android or the **Share** (![](../../../../.gitbook/assets/unnamed_62.png)) icon on iOS located at the top right of the screen. The **Share item** screen is displayed.
+5. Tap the **Share** (![](../../.gitbook/assets/unnamed_60.png)) icon on Android or the **Share** (![](../../.gitbook/assets/unnamed_62.png)) icon on iOS located at the top right of the screen. The **Share item** screen is displayed.
 6. Enter the name of the member or team in the search bar. The members or teams that match the name are displayed on a list automatically.
 7. Select the corresponding member or team from the list. The member or team is displayed in the **Members and Teams** section.
 8. Repeat steps 6 and 7 as necessary to select multiple members or teams.

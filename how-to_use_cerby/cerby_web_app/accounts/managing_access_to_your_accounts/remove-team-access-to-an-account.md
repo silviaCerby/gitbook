@@ -19,9 +19,9 @@ As an account **Owner** , you can remove team access to your accounts.
 To remove team access to an account, you must complete the following steps using the Cerby web app:
 
 1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
-2. Click the **Settings** (![](../../../../.gitbook/assets/unnamed_51.png)) icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated.
+2. Click the **Settings** (![](../../.gitbook/assets/unnamed_51.png)) icon of the corresponding account card. The account details page is displayed with the **Settings** tab activated.
 3. Activate the **Teams** tab. The **Teams** section is displayed with a table of teams who have shared access to the account.
-4. Click the **More options** (![](../../../../.gitbook/assets/unnamed_51.png)) icon of the corresponding team. A drop-down list is displayed.
+4. Click the **More options** (![](../../.gitbook/assets/unnamed_51.png)) icon of the corresponding team. A drop-down list is displayed.
 5. Select the **Remove team** option. The **Remove access?** dialog box is displayed.
 6. Click the **Remove access** button. The dialog box closes, and a success message box is displayed.
 

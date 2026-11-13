@@ -14,6 +14,6 @@ To remove a subcollection from a collection, you must complete the following ste
 3. Expand the collection that contains the subcollection you want to remove.
    * Alternatively, you can search for the subcollection in the search bar.
 4. Hover the mouse over the subcollection you want to share. A menu of icons is displayed.
-5. Click the **More options** (![](../../../../.gitbook/assets/unnamed_25.png)) icon. A menu is displayed.
+5. Click the **More options** (![](../../.gitbook/assets/unnamed_25.png)) icon. A menu is displayed.
 6. Select the **Remove from collection** option. The **Remove subcollection from collection?** dialog box is displayed with the information about what occurs when you remove a subcollection from a collection.
 7. Click the **Remove subcollection** button. The dialog box closes, a success message box is displayed, and an email message is sent.

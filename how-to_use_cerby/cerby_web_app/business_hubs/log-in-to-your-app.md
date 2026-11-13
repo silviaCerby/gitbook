@@ -1,20 +1,16 @@
 ---
-description: "This article describes how to log in to an app you have connected to Cerby."
 intercom_id: 9046222
+description: This article describes how to log in to an app you have connected to Cerby.
 ---
 
 # Log in to your app
 
 {% hint style="info" %}
-
-
 **Who can use this feature?**
 
 * App integration**Owners** and **Collaborators**
 * Available to Cerby Automate
 * Supported using the Cerby web app, browser extension, and mobile app
-
-
 {% endhint %}
 
 App integration **Owners** and **Collaborators** can log in to the app through the app connected to their user account. Access is, as usual, via the corresponding account card in the **All accounts** view.
@@ -31,7 +27,7 @@ A similar login process for users with multiple user accounts for the same app i
 1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace with the browser extension.
 2. Click the corresponding app card. A page with the name of your app is displayed with the account cards that correspond to each user account, as shown in **Figure 1**.
 
-<img src="../../../../.gitbook/assets/0d9Ofp7HfEByjLJ_9hVVup-Pb5VP5XIyLQYarnA_k0QII-ZbHMD-ik70RfiETMorAjVBvQoAQkJTY9sXA9j4W2T6DPDHsWNl9wKo1SvTv3VRv3eToB2Rt8_xlGsOPoJj1l_phINA3lrl_Qk6nOzCH0Y.png" alt="">
+![](../.gitbook/assets/0d9Ofp7HfEByjLJ_9hVVup-Pb5VP5XIyLQYarnA_k0QII-ZbHMD-ik70RfiETMorAjVBvQoAQkJTY9sXA9j4W2T6DPDHsWNl9wKo1SvTv3VRv3eToB2Rt8_xlGsOPoJj1l_phINA3lrl_Qk6nOzCH0Y.png)
 
 **Figure 1.** Apps page in the Cerby browser extension
 

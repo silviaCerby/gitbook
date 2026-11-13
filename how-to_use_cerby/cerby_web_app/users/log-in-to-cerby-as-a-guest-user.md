@@ -39,7 +39,7 @@ To log in to the Cerby web app, you must complete the following steps using your
        **IMPORTANT:** Proceed to step 2 right away because after a few seconds you are redirected to the corporate identity provider’s login page.
 2. Click the **Log in as guest user** button, as shown in **Figure 1**.
 
-![Screenshot of the authentication waiting page. The Log in as guest user button is highlighted.](../../../.gitbook/assets/Eyiry0ARDLIZjGJZSGriWE-BWS9aOGUxFkM5hWERVSSL1yGBz3cHKl4iQ4VtIzgX8KoXv0JHI23vxinfs_mK9rNCvMxch2IFjc6_JsDBxdsw2yJ85p1_FBoJAWrKac6apnqWjdv8QlsP9luXKqsEQzI.png)
+![Screenshot of the authentication waiting page. The Log in as guest user button is highlighted.](../.gitbook/assets/Eyiry0ARDLIZjGJZSGriWE-BWS9aOGUxFkM5hWERVSSL1yGBz3cHKl4iQ4VtIzgX8KoXv0JHI23vxinfs_mK9rNCvMxch2IFjc6_JsDBxdsw2yJ85p1_FBoJAWrKac6apnqWjdv8QlsP9luXKqsEQzI.png)
 
 **Figure 1.** **Log in as a guest user** button on the authentication waiting page
 
@@ -47,14 +47,14 @@ The Cerby authentication page is displayed.
 
 3. Enter your username and password in the corresponding fields, as shown in **Figure 2**.
 
-![Screenshot of the Cerby authentication waiting page. The Username and Password fields are highlighted.](../../../.gitbook/assets/mLIoljueWXVToL_I_XQZwy6BzfI1X5zNYepdOTnRnTQzk4Efozm1mXv_cSvIIWcWd9jEHoLjLWTmbK2T0YktP68uYfk_t3MO3hyXevDUYb_iBrd3trpF-LiObiWl4_0S95Hr1egCX52tbrdJjrfnHgk.png)
+![Screenshot of the Cerby authentication waiting page. The Username and Password fields are highlighted.](../.gitbook/assets/mLIoljueWXVToL_I_XQZwy6BzfI1X5zNYepdOTnRnTQzk4Efozm1mXv_cSvIIWcWd9jEHoLjLWTmbK2T0YktP68uYfk_t3MO3hyXevDUYb_iBrd3trpF-LiObiWl4_0S95Hr1egCX52tbrdJjrfnHgk.png)
 
 **Figure 2.** **Username** and **Password** fields on the Cerby authentication page
 
 4. Click the **Sign in** button. Depending on your MFA status, one of the following two pages is displayed:
    * The Cerby verification page is displayed when MFA is on, as shown in **Figure 3**.
 
-![Screenshot of the Cerby verification page. An input field is displayed to enter a code from the 2FA verification method you have set up for your Cerby account.](../../../.gitbook/assets/r-o8fJ3j9HUDX42X5bUbp9aToTqtOMyHzHcNs58_4X9TamDnbHsciwyGGjDBlmJen6e0TKQA4OXg9ZFQ4kQrNISCAbG1gKHm3DQQI3pB9ghIA280pSJ_wuc9IKUqMcBYGIkN4LIltAxPiiPOhhK1pRo.png)
+![Screenshot of the Cerby verification page. An input field is displayed to enter a code from the 2FA verification method you have set up for your Cerby account.](../.gitbook/assets/r-o8fJ3j9HUDX42X5bUbp9aToTqtOMyHzHcNs58_4X9TamDnbHsciwyGGjDBlmJen6e0TKQA4OXg9ZFQ4kQrNISCAbG1gKHm3DQQI3pB9ghIA280pSJ_wuc9IKUqMcBYGIkN4LIltAxPiiPOhhK1pRo.png)
 
 **Figure 3.** Cerby verification page
 

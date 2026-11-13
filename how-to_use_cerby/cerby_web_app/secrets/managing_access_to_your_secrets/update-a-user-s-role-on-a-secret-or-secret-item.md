@@ -20,7 +20,7 @@ As a secret or secret item (such as WiFi, SSH keys, database, server, and custom
 
 1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
 2. Select the **Secrets** option from the left navigation drawer. The **Secrets** view is displayed.
-3. Click the **Settings** (![](../../../../.gitbook/assets/unnamed.png)) icon of the corresponding secret card. The secret details page is displayed with the **Settings** tab activated.
+3. Click the **Settings** (![](../../.gitbook/assets/unnamed.png)) icon of the corresponding secret card. The secret details page is displayed with the **Settings** tab activated.
 
 **NOTE:** If an identity challenge is configured, the **Confirm your identity to continue** dialog box is displayed, and a push notification is sent to your Cerby mobile app:
 

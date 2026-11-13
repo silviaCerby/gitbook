@@ -20,13 +20,13 @@ To remove team access to a secret or secret item, you must complete the followin
 
 1. Log in to your corresponding [Cerby](https://app.cerby.com/) workspace.
 2. Select the **Secrets** option from the left navigation drawer. The **Secrets** view is displayed.
-3. Click the **Settings** (![](../../../../.gitbook/assets/unnamed_4.png)) icon of the corresponding secret card. The secret details page is displayed with the **Settings** tab activated.
+3. Click the **Settings** (![](../../.gitbook/assets/unnamed_4.png)) icon of the corresponding secret card. The secret details page is displayed with the **Settings** tab activated.
 
 **NOTE:** If an identity challenge is configured, the **Confirm your identity to continue** dialog box is displayed, and a push notification is sent to your Cerby mobile app:
 
 1. Confirm your identity by tapping the**It’s me!** button from the **Confirmation Request** screen of your Cerby mobile app. The **Confirm your identity to continue** dialog box closes in the Cerby web app, and the secret details page is displayed with the **Settings** tab activated.
 2. Activate the **Teams** tab. The **Teams** section is displayed with a table of teams who have shared access to the secret or secret item.
-3. Click the **More options** (![](../../../../.gitbook/assets/unnamed.png)) icon of the corresponding team. A drop-down list is displayed.
+3. Click the **More options** (![](../../.gitbook/assets/unnamed.png)) icon of the corresponding team. A drop-down list is displayed.
 4. Select the **Remove access** option. The **Remove access?** dialog box is displayed.
 5. Click the **Remove access** button. The dialog box closes, and a success message box is displayed.
 

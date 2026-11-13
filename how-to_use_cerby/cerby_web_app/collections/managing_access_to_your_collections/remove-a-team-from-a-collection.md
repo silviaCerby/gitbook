@@ -21,7 +21,7 @@ To remove a team from a collection, you must complete the following steps using 
 2. Select the **Collections** option from the left menu. The **Collections** page is displayed.
 3. Click the **Settings** (![](https://downloads.intercomcdn.com/i/o/pc0ldyqu/1481718750/50fa0ce3344b7feff4dcc7ef0e4f/AD_4nXcTuUI32R24x3fW2XHHCAqAf0iw1Oe8x8zklBLUvC8GU-I7ziw0SQ-NCNV6Zku1ndLJeFrYUWm4e60nAcrQ5DRPsax2h7cVAFkKFMv_aIdKojLr1vecWtl14NYRwA9ouyfyBU4oxQ?expires=1765962000\&signature=a1df0f550f2058247dcc09fb886abc1f4b4909e1da1a8da944ef43d6472abbfb\&req=dSQvF85%2FlYZaWfMW3Hu4gQeDNCch38rYuzb1%2Bw9Hghwoit2MJw3AGlGFVxu0%0AmQ%3D%3D%0A)) icon of the corresponding collection card. The collection details page is displayed with the **General** tab activated.
 4. Activate the **Teams** tab. The **Teams** table is displayed with a list of teams that have shared access to the collection.
-5. Click the **More options** (![](../../../../.gitbook/assets/unnamed_4.png)) icon of the corresponding team. A drop-down menu is displayed.
+5. Click the **More options** (![](../../.gitbook/assets/unnamed_4.png)) icon of the corresponding team. A drop-down menu is displayed.
 6. Select the **Remove from Collection** option. A confirmation dialog box is displayed.
 7. Click the **Remove access** button. The dialog box closes, and a success message box is displayed.
 

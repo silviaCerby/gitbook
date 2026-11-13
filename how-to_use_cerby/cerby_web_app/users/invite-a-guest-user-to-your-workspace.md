@@ -33,7 +33,7 @@ To send a direct guest user invite from the **All members** view, you must compl
 2. Select the **All members** option from the left navigation drawer. The **All members** view is displayed.
 3. Click the **Add member** button. A drop-down list is displayed, as shown in **Figure 1.**
 
-![Screenshot of the Guest tab of the All Members view. The Add member drop-down list is displayed to select the Guest option and invite an external collaborator as guest user.](<../../../.gitbook/assets/CXJfurD0UDWPOV3mFmrSkVlw_ys3eUZTyHw0eF8MIUqitXFpuN75oj3Ze7zBueeTZf-2zJl4oOxkiA1Cvg5FqAc2-dBgR_pW6TnZQLNKlgS6I4SV8owNwS1uGe3jdQLpyXwuNXyE-BFgGmeXJWV__9o (1).png>)
+![Screenshot of the Guest tab of the All Members view. The Add member drop-down list is displayed to select the Guest option and invite an external collaborator as guest user.](<../.gitbook/assets/CXJfurD0UDWPOV3mFmrSkVlw_ys3eUZTyHw0eF8MIUqitXFpuN75oj3Ze7zBueeTZf-2zJl4oOxkiA1Cvg5FqAc2-dBgR_pW6TnZQLNKlgS6I4SV8owNwS1uGe3jdQLpyXwuNXyE-BFgGmeXJWV__9o (1).png>)
 
 **Figure 1.** **All members** view of the Cerby web app dashboard
 

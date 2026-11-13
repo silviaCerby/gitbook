@@ -21,6 +21,6 @@ Access the accounts as you normally would via the account cards in the dashboard
 
 In the Cerby web app dashboard, the accounts shared via a host-guest partnership are displayed in the **All accounts** view with the initial letter of the workspace name beside the app logo, as shown in **Figure 1**.
 
-![Screenshot of account cards in Cerby web app dashboard. The initial letter of the workspace name is displayed beside the app logo](../../../../.gitbook/assets/lKGUwTKU3-kNW2AmBcJB5mnFNkpVo8tow8nkJL1T8Rs_HRKLbEl2nP477D9d_t5VWKPVBYalOoKxMkU4-N5Smt1ldYQtCVqRqfWdDGXz_OxidRbJKNAFnwvx4jAs5nikZ0Hbh-JrFpdDM9isomoPrNM.png)
+![Screenshot of account cards in Cerby web app dashboard. The initial letter of the workspace name is displayed beside the app logo](../../.gitbook/assets/lKGUwTKU3-kNW2AmBcJB5mnFNkpVo8tow8nkJL1T8Rs_HRKLbEl2nP477D9d_t5VWKPVBYalOoKxMkU4-N5Smt1ldYQtCVqRqfWdDGXz_OxidRbJKNAFnwvx4jAs5nikZ0Hbh-JrFpdDM9isomoPrNM.png)
 
 **Figure 4.** Account cards in the Cerby web app dashboard of a host or guest workspace
