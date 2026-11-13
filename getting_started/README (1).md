@@ -1,15 +1,12 @@
 ---
-description: >-
-  This article describes what is Cerby and how it can help organizations secure
-  and govern disconnected applications.
+hidden: true
+noIndex: true
 ---
 
-# Explore Cerby
+# You signed out of the Help Center
 
-Cerby is the identity automation platform purpose-built to secure disconnected applications—those that fall outside the reach of traditional identity security tools.
+You can still read the public articles. To see everything else, sign in again with your Cerby account.
 
-By integrating with existing IAM, IGA, and PAM systems, Cerby brings centralized access controls, automates manual security tasks, and extends governance across your entire application ecosystem. IT and security teams gain complete visibility and control, reducing risk and operational overhead.
+You're still signed in to the Cerby web app. To sign out of Cerby too, sign out in the web app.
 
-Founded in 2020, Cerby is backed by leading investors and trusted by enterprises across the globe.
-
-<figure><img src=".gitbook/assets/AD_4nXd6m5UNS-r-f6fZupvX_oATIaCjNoF55Wz3a24tnjPEzXmoN5Li8e6VYRO4Ysol1DctkWql1GzX14JoBd-at0-f7w5l-Nol_0h2RFJLHi-wZJA5zHLdwUAYrf2CnPMnhiroaJRVcA.png" alt=""><figcaption></figcaption></figure>
+To use a different workspace, sign in again and choose that workspace.
