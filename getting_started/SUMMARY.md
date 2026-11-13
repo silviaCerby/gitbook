@@ -1,8 +1,10 @@
 # Table of contents
 
+* [You signed out of the Help Center](README.md)
+
 ## Overview
 
-* [Explore Cerby](README.md)
+* [Explore Cerby](<README (1).md>)
 * [Explore the Cerby web app](overview/explore-the-cerby-web-app.md)
 * [Explore the Cerby browser extension](overview/explore-the-cerby-browser-extension.md)
 * [Explore the Cerby mobile app](overview/explore-the-cerby-mobile-app.md)
