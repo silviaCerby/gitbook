@@ -42,7 +42,3 @@
   * [Automation Log](concepts/audit_and_activity/explore-the-automation-log.md)
 
 ## Glossary
-
-***
-
-* [You signed out of the Help Center](signed-out.md "Signed out")
